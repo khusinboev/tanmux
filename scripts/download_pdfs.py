@@ -7,10 +7,12 @@ so the table reflects download status.
 
 from __future__ import annotations
 
+import http.client
 import json
 import logging
 import urllib.error
 import urllib.request
+from urllib.parse import quote, urlsplit, urlunsplit
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -26,14 +28,17 @@ log = logging.getLogger("download_pdfs")
 def fetch_pdf(url: str, target: Path) -> str:
     if not url.lower().startswith("https://") and not url.lower().startswith("http://"):
         return "invalid_url"
-    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    parts = urlsplit(url)
+    safe_url = urlunsplit(parts._replace(path=quote(parts.path, safe="/%:@+-._~")))
+    request = urllib.request.Request(safe_url, headers={"User-Agent": USER_AGENT})
     try:
         with urllib.request.urlopen(request, timeout=TIMEOUT_S) as response:
             payload = response.read(MAX_BYTES + 1)
     except urllib.error.HTTPError as exc:
         log.warning("HTTP %s for %s", exc.code, url)
         return f"http_{exc.code}"
-    except (urllib.error.URLError, TimeoutError, ConnectionError) as exc:
+    except (urllib.error.URLError, http.client.HTTPException, TimeoutError,
+            ConnectionError) as exc:
         log.warning("Network error for %s: %s", url, exc)
         return "network_error"
     if len(payload) > MAX_BYTES:

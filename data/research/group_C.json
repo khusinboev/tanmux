@@ -1,0 +1,1754 @@
+[
+ {
+  "id": 11,
+  "manufacturer": "Most likely JV 'Uz-DongJu Paint Co.' (Asaka; UzAvtosanoat + Korean partner DongJu Industrial/KION International; technical partner YoungShin Chemicals) - unconfirmed; KCC Corporation is a plausible alternative (Korea's largest OEM paint maker; KCC signed a 2025 automotive paint plant agreement with Uzbekistan)",
+  "product_identified": "OEM solvent-borne basecoat, GM colour GAZ Summit White, GM Korea-style material spec KR-MC-710U (180 L drum), 2-coat-1-bake (basecoat + clearcoat) system; solid colour",
+  "gm_color_code_check": "GAZ = Summit White (WA8624) confirmed by automotivetouchup.com Bolt 2024/2025 lists and GM Authority 2018 Silverado table. Solid (non-metallic) white; '2C1B' = 2-coat-1-bake (base + clear).",
+  "manufacturer_confidence": "low",
+  "material_docs": [
+   {
+    "type": "SDS",
+    "title": "Glasurit (BASF) 100-M 998 brill. silver extra coarse - solvent-borne metallic basecoat SDS (refinish proxy)",
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+   },
+   {
+    "type": "TDS",
+    "title": "AkzoNobel Sikkens Autobase Plus TDS (S10403) - solvent-borne basecoat (refinish proxy)",
+    "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items."
+   }
+  ],
+  "equipment": [
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22/23 FlexPainter + IRC5P controller",
+    "role": "Basecoat painting robot (exterior bell zones)",
+    "rationale": "GM-standard paint robot family widely used in GM/GM Korea paint shops; representative only - Asaka paint-shop robot vendor not found publicly (2023 modernization serviced 'robotic system' with Korean specialists, vendor unnamed; FANUC named only for press shop).",
+    "confidence": "low"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i-SA (RB1000 family) electrostatic rotary bell atomizer",
+    "role": "Atomizer for solvent-borne metallic basecoat (direct charge)",
+    "rationale": "Solvent-borne basecoat (2C1B, MET-3 metallic) is normally applied with high-speed direct-charge bells in bell1/bell2 metallic process. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i robot + EcoBell3 rotary atomizer",
+    "role": "Alternative representative robot/atomizer",
+    "rationale": "Market-leading alternative; EcoBell3 supports exterior metallic basecoat, solvent- and water-borne. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoMCC3 20 low-pressure colour changer",
+    "role": "Colour changer (12+ colours incl. all group C basecoats)",
+    "rationale": "Atomizer-mounted/arm-mounted low-pressure colour changer with circulation to needle seat; fits multi-colour (12 basecoats) line. ABB CBS/integrated colour changer is equivalent if ABB line.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Paint circulation / EcoSupply P (pigging) systems",
+    "role": "Paint kitchen and circulation loops for 180 L drums",
+    "rationale": "Each high-volume basecoat colour typically has its own circulation loop from the paint mix room (drum 180 L -> mix tank -> pump -> loop); low-volume colours may use pigging. Representative; Graco/Dürr/ABB supply systems all common.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB/15 paint robot",
+    "role": "Alternative representative paint robot",
+    "rationale": "FANUC paint robots common in Korean-built paint shops; FANUC is a confirmed equipment supplier to UzAuto Asaka (press shop 2023). Representative.",
+    "confidence": "low"
+   }
+  ],
+  "equipment_docs": [
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22/23",
+    "type": "datasheet",
+    "title": "IRB5500 Flex RP50010EN Rev.G",
+    "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+    "verified": false,
+    "note": "From search results; WebFetch blocked (library.e.abb.com not in allowed network)."
+   },
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22",
+    "type": "datasheet",
+    "title": "IRB 5500-22 Datasheet (US Letter)",
+    "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i series",
+    "type": "brochure",
+    "title": "RB1000i Series Presentation",
+    "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+    "verified": false,
+    "note": "From search results; fetch blocked. No dedicated RB1000-SSA datasheet found."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoBell3",
+    "type": "datasheet",
+    "title": "Dürr datasheet EcoBell3 (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+    "verified": false,
+    "note": "From search results; fetch blocked (www.durr.com). German version: duerr-datenblatt-ecobell3-de.pdf in same folder."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoMCC3 20",
+    "type": "datasheet",
+    "title": "Dürr EcoMCC3 20 colour changer",
+    "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoSupply P",
+    "type": "brochure",
+    "title": "Dürr Station EcoSupply P Basic Single Pass (ready2integrate 2019)",
+    "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
+    "verified": false,
+    "note": "From search results; slide deck, not formal datasheet. No EcoRP E043i datasheet found."
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB/15",
+    "type": "datasheet",
+    "title": "P-250iB Product Information",
+    "url": "https://www.fanucamerica.com/cmsmedia/datasheets/P-250iB_Product Information_330.pdf",
+    "verified": false,
+    "note": "From search results; URL contains a space (encode as %20)."
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB",
+    "type": "brochure",
+    "title": "RP-250iB(E)-02a catalog",
+    "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   }
+  ],
+  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-MC-710U ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only."
+ },
+ {
+  "id": 12,
+  "manufacturer": "Most likely JV 'Uz-DongJu Paint Co.' (Asaka; UzAvtosanoat + Korean partner DongJu Industrial/KION International; technical partner YoungShin Chemicals) - unconfirmed; KCC Corporation is a plausible alternative (Korea's largest OEM paint maker; KCC signed a 2025 automotive paint plant agreement with Uzbekistan)",
+  "product_identified": "OEM solvent-borne basecoat, GM colour GK2 Son of a Gun Gray Metallic, GM Korea-style material spec KR-ADM-709U (180 L drum), 2-coat-1-bake (basecoat + clearcoat) system",
+  "gm_color_code_check": "GK2 = Son of a Gun Gray Metallic (WA482B/WA527B/GK2/GPF) per paintscratch.com. 'MET-3' suffix = GM formula/variant 'Metallic 3'.",
+  "manufacturer_confidence": "low",
+  "material_docs": [
+   {
+    "type": "SDS",
+    "title": "Glasurit (BASF) 100-M 998 brill. silver extra coarse - solvent-borne metallic basecoat SDS (refinish proxy)",
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+   },
+   {
+    "type": "TDS",
+    "title": "AkzoNobel Sikkens Autobase Plus TDS (S10403) - solvent-borne basecoat (refinish proxy)",
+    "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items."
+   }
+  ],
+  "equipment": [
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22/23 FlexPainter + IRC5P controller",
+    "role": "Basecoat painting robot (exterior bell zones)",
+    "rationale": "GM-standard paint robot family widely used in GM/GM Korea paint shops; representative only - Asaka paint-shop robot vendor not found publicly (2023 modernization serviced 'robotic system' with Korean specialists, vendor unnamed; FANUC named only for press shop).",
+    "confidence": "low"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i-SA (RB1000 family) electrostatic rotary bell atomizer",
+    "role": "Atomizer for solvent-borne metallic basecoat (direct charge)",
+    "rationale": "Solvent-borne basecoat (2C1B, MET-3 metallic) is normally applied with high-speed direct-charge bells in bell1/bell2 metallic process. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i robot + EcoBell3 rotary atomizer",
+    "role": "Alternative representative robot/atomizer",
+    "rationale": "Market-leading alternative; EcoBell3 supports exterior metallic basecoat, solvent- and water-borne. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoMCC3 20 low-pressure colour changer",
+    "role": "Colour changer (12+ colours incl. all group C basecoats)",
+    "rationale": "Atomizer-mounted/arm-mounted low-pressure colour changer with circulation to needle seat; fits multi-colour (12 basecoats) line. ABB CBS/integrated colour changer is equivalent if ABB line.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Paint circulation / EcoSupply P (pigging) systems",
+    "role": "Paint kitchen and circulation loops for 180 L drums",
+    "rationale": "Each high-volume basecoat colour typically has its own circulation loop from the paint mix room (drum 180 L -> mix tank -> pump -> loop); low-volume colours may use pigging. Representative; Graco/Dürr/ABB supply systems all common.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB/15 paint robot",
+    "role": "Alternative representative paint robot",
+    "rationale": "FANUC paint robots common in Korean-built paint shops; FANUC is a confirmed equipment supplier to UzAuto Asaka (press shop 2023). Representative.",
+    "confidence": "low"
+   }
+  ],
+  "equipment_docs": [
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22/23",
+    "type": "datasheet",
+    "title": "IRB5500 Flex RP50010EN Rev.G",
+    "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+    "verified": false,
+    "note": "From search results; WebFetch blocked (library.e.abb.com not in allowed network)."
+   },
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22",
+    "type": "datasheet",
+    "title": "IRB 5500-22 Datasheet (US Letter)",
+    "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i series",
+    "type": "brochure",
+    "title": "RB1000i Series Presentation",
+    "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+    "verified": false,
+    "note": "From search results; fetch blocked. No dedicated RB1000-SSA datasheet found."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoBell3",
+    "type": "datasheet",
+    "title": "Dürr datasheet EcoBell3 (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+    "verified": false,
+    "note": "From search results; fetch blocked (www.durr.com). German version: duerr-datenblatt-ecobell3-de.pdf in same folder."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoMCC3 20",
+    "type": "datasheet",
+    "title": "Dürr EcoMCC3 20 colour changer",
+    "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoSupply P",
+    "type": "brochure",
+    "title": "Dürr Station EcoSupply P Basic Single Pass (ready2integrate 2019)",
+    "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
+    "verified": false,
+    "note": "From search results; slide deck, not formal datasheet. No EcoRP E043i datasheet found."
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB/15",
+    "type": "datasheet",
+    "title": "P-250iB Product Information",
+    "url": "https://www.fanucamerica.com/cmsmedia/datasheets/P-250iB_Product Information_330.pdf",
+    "verified": false,
+    "note": "From search results; URL contains a space (encode as %20)."
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB",
+    "type": "brochure",
+    "title": "RP-250iB(E)-02a catalog",
+    "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   }
+  ],
+  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-709U ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only."
+ },
+ {
+  "id": 13,
+  "manufacturer": "Most likely JV 'Uz-DongJu Paint Co.' (Asaka; UzAvtosanoat + Korean partner DongJu Industrial/KION International; technical partner YoungShin Chemicals) - unconfirmed; KCC Corporation is a plausible alternative (Korea's largest OEM paint maker; KCC signed a 2025 automotive paint plant agreement with Uzbekistan)",
+  "product_identified": "OEM solvent-borne basecoat, GM colour GD8 Burnt Coconut Metallic, GM Korea-style material spec KR-ADM-254 (180 L drum), 2-coat-1-bake (basecoat + clearcoat) system",
+  "gm_color_code_check": "Name 'Burnt Coconut Metallic' confirmed as a GM Korea (Daewoo-origin) colour, WA476A / '476A', used on Chevrolet Spark and Captiva (walmart.com ABP listing). GD8 RPO not found in public databases; likely regional GM Korea/UzAuto RPO.",
+  "manufacturer_confidence": "low",
+  "material_docs": [
+   {
+    "type": "SDS",
+    "title": "Glasurit (BASF) 100-M 998 brill. silver extra coarse - solvent-borne metallic basecoat SDS (refinish proxy)",
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+   },
+   {
+    "type": "TDS",
+    "title": "AkzoNobel Sikkens Autobase Plus TDS (S10403) - solvent-borne basecoat (refinish proxy)",
+    "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items."
+   }
+  ],
+  "equipment": [
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22/23 FlexPainter + IRC5P controller",
+    "role": "Basecoat painting robot (exterior bell zones)",
+    "rationale": "GM-standard paint robot family widely used in GM/GM Korea paint shops; representative only - Asaka paint-shop robot vendor not found publicly (2023 modernization serviced 'robotic system' with Korean specialists, vendor unnamed; FANUC named only for press shop).",
+    "confidence": "low"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i-SA (RB1000 family) electrostatic rotary bell atomizer",
+    "role": "Atomizer for solvent-borne metallic basecoat (direct charge)",
+    "rationale": "Solvent-borne basecoat (2C1B, MET-3 metallic) is normally applied with high-speed direct-charge bells in bell1/bell2 metallic process. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i robot + EcoBell3 rotary atomizer",
+    "role": "Alternative representative robot/atomizer",
+    "rationale": "Market-leading alternative; EcoBell3 supports exterior metallic basecoat, solvent- and water-borne. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoMCC3 20 low-pressure colour changer",
+    "role": "Colour changer (12+ colours incl. all group C basecoats)",
+    "rationale": "Atomizer-mounted/arm-mounted low-pressure colour changer with circulation to needle seat; fits multi-colour (12 basecoats) line. ABB CBS/integrated colour changer is equivalent if ABB line.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Paint circulation / EcoSupply P (pigging) systems",
+    "role": "Paint kitchen and circulation loops for 180 L drums",
+    "rationale": "Each high-volume basecoat colour typically has its own circulation loop from the paint mix room (drum 180 L -> mix tank -> pump -> loop); low-volume colours may use pigging. Representative; Graco/Dürr/ABB supply systems all common.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB/15 paint robot",
+    "role": "Alternative representative paint robot",
+    "rationale": "FANUC paint robots common in Korean-built paint shops; FANUC is a confirmed equipment supplier to UzAuto Asaka (press shop 2023). Representative.",
+    "confidence": "low"
+   }
+  ],
+  "equipment_docs": [
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22/23",
+    "type": "datasheet",
+    "title": "IRB5500 Flex RP50010EN Rev.G",
+    "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+    "verified": false,
+    "note": "From search results; WebFetch blocked (library.e.abb.com not in allowed network)."
+   },
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22",
+    "type": "datasheet",
+    "title": "IRB 5500-22 Datasheet (US Letter)",
+    "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i series",
+    "type": "brochure",
+    "title": "RB1000i Series Presentation",
+    "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+    "verified": false,
+    "note": "From search results; fetch blocked. No dedicated RB1000-SSA datasheet found."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoBell3",
+    "type": "datasheet",
+    "title": "Dürr datasheet EcoBell3 (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+    "verified": false,
+    "note": "From search results; fetch blocked (www.durr.com). German version: duerr-datenblatt-ecobell3-de.pdf in same folder."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoMCC3 20",
+    "type": "datasheet",
+    "title": "Dürr EcoMCC3 20 colour changer",
+    "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoSupply P",
+    "type": "brochure",
+    "title": "Dürr Station EcoSupply P Basic Single Pass (ready2integrate 2019)",
+    "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
+    "verified": false,
+    "note": "From search results; slide deck, not formal datasheet. No EcoRP E043i datasheet found."
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB/15",
+    "type": "datasheet",
+    "title": "P-250iB Product Information",
+    "url": "https://www.fanucamerica.com/cmsmedia/datasheets/P-250iB_Product Information_330.pdf",
+    "verified": false,
+    "note": "From search results; URL contains a space (encode as %20)."
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB",
+    "type": "brochure",
+    "title": "RP-250iB(E)-02a catalog",
+    "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   }
+  ],
+  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-254 ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only."
+ },
+ {
+  "id": 14,
+  "manufacturer": "Most likely JV 'Uz-DongJu Paint Co.' (Asaka; UzAvtosanoat + Korean partner DongJu Industrial/KION International; technical partner YoungShin Chemicals) - unconfirmed; KCC Corporation is a plausible alternative (Korea's largest OEM paint maker; KCC signed a 2025 automotive paint plant agreement with Uzbekistan)",
+  "product_identified": "OEM solvent-borne basecoat, GM colour GB0 Black Meet Kettle Metallic, GM Korea-style material spec KR-ADM-786 (180 L drum), 2-coat-1-bake (basecoat + clearcoat) system",
+  "gm_color_code_check": "'GBO' in source is almost certainly GB0 (zero). Black Meet Kettle Metallic/Pearl listed by paintscratch.com under GB0/GB8/GB9 families. Name confirmed; exact 'GBO' string not found.",
+  "manufacturer_confidence": "low",
+  "material_docs": [
+   {
+    "type": "SDS",
+    "title": "Glasurit (BASF) 100-M 998 brill. silver extra coarse - solvent-borne metallic basecoat SDS (refinish proxy)",
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+   },
+   {
+    "type": "TDS",
+    "title": "AkzoNobel Sikkens Autobase Plus TDS (S10403) - solvent-borne basecoat (refinish proxy)",
+    "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items."
+   }
+  ],
+  "equipment": [
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22/23 FlexPainter + IRC5P controller",
+    "role": "Basecoat painting robot (exterior bell zones)",
+    "rationale": "GM-standard paint robot family widely used in GM/GM Korea paint shops; representative only - Asaka paint-shop robot vendor not found publicly (2023 modernization serviced 'robotic system' with Korean specialists, vendor unnamed; FANUC named only for press shop).",
+    "confidence": "low"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i-SA (RB1000 family) electrostatic rotary bell atomizer",
+    "role": "Atomizer for solvent-borne metallic basecoat (direct charge)",
+    "rationale": "Solvent-borne basecoat (2C1B, MET-3 metallic) is normally applied with high-speed direct-charge bells in bell1/bell2 metallic process. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i robot + EcoBell3 rotary atomizer",
+    "role": "Alternative representative robot/atomizer",
+    "rationale": "Market-leading alternative; EcoBell3 supports exterior metallic basecoat, solvent- and water-borne. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoMCC3 20 low-pressure colour changer",
+    "role": "Colour changer (12+ colours incl. all group C basecoats)",
+    "rationale": "Atomizer-mounted/arm-mounted low-pressure colour changer with circulation to needle seat; fits multi-colour (12 basecoats) line. ABB CBS/integrated colour changer is equivalent if ABB line.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Paint circulation / EcoSupply P (pigging) systems",
+    "role": "Paint kitchen and circulation loops for 180 L drums",
+    "rationale": "Each high-volume basecoat colour typically has its own circulation loop from the paint mix room (drum 180 L -> mix tank -> pump -> loop); low-volume colours may use pigging. Representative; Graco/Dürr/ABB supply systems all common.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB/15 paint robot",
+    "role": "Alternative representative paint robot",
+    "rationale": "FANUC paint robots common in Korean-built paint shops; FANUC is a confirmed equipment supplier to UzAuto Asaka (press shop 2023). Representative.",
+    "confidence": "low"
+   }
+  ],
+  "equipment_docs": [
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22/23",
+    "type": "datasheet",
+    "title": "IRB5500 Flex RP50010EN Rev.G",
+    "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+    "verified": false,
+    "note": "From search results; WebFetch blocked (library.e.abb.com not in allowed network)."
+   },
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22",
+    "type": "datasheet",
+    "title": "IRB 5500-22 Datasheet (US Letter)",
+    "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i series",
+    "type": "brochure",
+    "title": "RB1000i Series Presentation",
+    "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+    "verified": false,
+    "note": "From search results; fetch blocked. No dedicated RB1000-SSA datasheet found."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoBell3",
+    "type": "datasheet",
+    "title": "Dürr datasheet EcoBell3 (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+    "verified": false,
+    "note": "From search results; fetch blocked (www.durr.com). German version: duerr-datenblatt-ecobell3-de.pdf in same folder."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoMCC3 20",
+    "type": "datasheet",
+    "title": "Dürr EcoMCC3 20 colour changer",
+    "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoSupply P",
+    "type": "brochure",
+    "title": "Dürr Station EcoSupply P Basic Single Pass (ready2integrate 2019)",
+    "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
+    "verified": false,
+    "note": "From search results; slide deck, not formal datasheet. No EcoRP E043i datasheet found."
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB/15",
+    "type": "datasheet",
+    "title": "P-250iB Product Information",
+    "url": "https://www.fanucamerica.com/cmsmedia/datasheets/P-250iB_Product Information_330.pdf",
+    "verified": false,
+    "note": "From search results; URL contains a space (encode as %20)."
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB",
+    "type": "brochure",
+    "title": "RP-250iB(E)-02a catalog",
+    "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   }
+  ],
+  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-786 ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only."
+ },
+ {
+  "id": 15,
+  "manufacturer": "Most likely JV 'Uz-DongJu Paint Co.' (Asaka; UzAvtosanoat + Korean partner DongJu Industrial/KION International; technical partner YoungShin Chemicals) - unconfirmed; KCC Corporation is a plausible alternative (Korea's largest OEM paint maker; KCC signed a 2025 automotive paint plant agreement with Uzbekistan)",
+  "product_identified": "OEM solvent-borne basecoat, GM colour GYM Satin Steel Gray Metallic, GM Korea-style material spec KR-ADM-706U (180 L drum), 2-coat-1-bake (basecoat + clearcoat) system",
+  "gm_color_code_check": "GYM = Satin Steel Gray Metallic (WA205V) per drcolorchip.com and paintscratch.com ('satin-steel-gym'); used e.g. Chevrolet Beat/Spark (GM Korea).",
+  "manufacturer_confidence": "low",
+  "material_docs": [
+   {
+    "type": "SDS",
+    "title": "Glasurit (BASF) 100-M 998 brill. silver extra coarse - solvent-borne metallic basecoat SDS (refinish proxy)",
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+   },
+   {
+    "type": "TDS",
+    "title": "AkzoNobel Sikkens Autobase Plus TDS (S10403) - solvent-borne basecoat (refinish proxy)",
+    "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items."
+   }
+  ],
+  "equipment": [
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22/23 FlexPainter + IRC5P controller",
+    "role": "Basecoat painting robot (exterior bell zones)",
+    "rationale": "GM-standard paint robot family widely used in GM/GM Korea paint shops; representative only - Asaka paint-shop robot vendor not found publicly (2023 modernization serviced 'robotic system' with Korean specialists, vendor unnamed; FANUC named only for press shop).",
+    "confidence": "low"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i-SA (RB1000 family) electrostatic rotary bell atomizer",
+    "role": "Atomizer for solvent-borne metallic basecoat (direct charge)",
+    "rationale": "Solvent-borne basecoat (2C1B, MET-3 metallic) is normally applied with high-speed direct-charge bells in bell1/bell2 metallic process. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i robot + EcoBell3 rotary atomizer",
+    "role": "Alternative representative robot/atomizer",
+    "rationale": "Market-leading alternative; EcoBell3 supports exterior metallic basecoat, solvent- and water-borne. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoMCC3 20 low-pressure colour changer",
+    "role": "Colour changer (12+ colours incl. all group C basecoats)",
+    "rationale": "Atomizer-mounted/arm-mounted low-pressure colour changer with circulation to needle seat; fits multi-colour (12 basecoats) line. ABB CBS/integrated colour changer is equivalent if ABB line.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Paint circulation / EcoSupply P (pigging) systems",
+    "role": "Paint kitchen and circulation loops for 180 L drums",
+    "rationale": "Each high-volume basecoat colour typically has its own circulation loop from the paint mix room (drum 180 L -> mix tank -> pump -> loop); low-volume colours may use pigging. Representative; Graco/Dürr/ABB supply systems all common.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB/15 paint robot",
+    "role": "Alternative representative paint robot",
+    "rationale": "FANUC paint robots common in Korean-built paint shops; FANUC is a confirmed equipment supplier to UzAuto Asaka (press shop 2023). Representative.",
+    "confidence": "low"
+   }
+  ],
+  "equipment_docs": [
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22/23",
+    "type": "datasheet",
+    "title": "IRB5500 Flex RP50010EN Rev.G",
+    "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+    "verified": false,
+    "note": "From search results; WebFetch blocked (library.e.abb.com not in allowed network)."
+   },
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22",
+    "type": "datasheet",
+    "title": "IRB 5500-22 Datasheet (US Letter)",
+    "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i series",
+    "type": "brochure",
+    "title": "RB1000i Series Presentation",
+    "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+    "verified": false,
+    "note": "From search results; fetch blocked. No dedicated RB1000-SSA datasheet found."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoBell3",
+    "type": "datasheet",
+    "title": "Dürr datasheet EcoBell3 (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+    "verified": false,
+    "note": "From search results; fetch blocked (www.durr.com). German version: duerr-datenblatt-ecobell3-de.pdf in same folder."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoMCC3 20",
+    "type": "datasheet",
+    "title": "Dürr EcoMCC3 20 colour changer",
+    "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoSupply P",
+    "type": "brochure",
+    "title": "Dürr Station EcoSupply P Basic Single Pass (ready2integrate 2019)",
+    "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
+    "verified": false,
+    "note": "From search results; slide deck, not formal datasheet. No EcoRP E043i datasheet found."
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB/15",
+    "type": "datasheet",
+    "title": "P-250iB Product Information",
+    "url": "https://www.fanucamerica.com/cmsmedia/datasheets/P-250iB_Product Information_330.pdf",
+    "verified": false,
+    "note": "From search results; URL contains a space (encode as %20)."
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB",
+    "type": "brochure",
+    "title": "RP-250iB(E)-02a catalog",
+    "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   }
+  ],
+  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-706U ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only."
+ },
+ {
+  "id": 16,
+  "manufacturer": "Most likely JV 'Uz-DongJu Paint Co.' (Asaka; UzAvtosanoat + Korean partner DongJu Industrial/KION International; technical partner YoungShin Chemicals) - unconfirmed; KCC Corporation is a plausible alternative (Korea's largest OEM paint maker; KCC signed a 2025 automotive paint plant agreement with Uzbekistan)",
+  "product_identified": "OEM solvent-borne basecoat, GM colour GAN Switchblade Silver Metallic, GM Korea-style material spec KR-ADM-893 (180 L drum), 2-coat-1-bake (basecoat + clearcoat) system",
+  "gm_color_code_check": "GAN = Switchblade Silver Metallic (WA636R) per automotivetouchup.com 2025 Bolt list; older GM Authority 2018 Silverado table calls the same WA636R/GAN 'Silver Ice Metallic' (same paint, renamed).",
+  "manufacturer_confidence": "low",
+  "material_docs": [
+   {
+    "type": "SDS",
+    "title": "Glasurit (BASF) 100-M 998 brill. silver extra coarse - solvent-borne metallic basecoat SDS (refinish proxy)",
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+   },
+   {
+    "type": "TDS",
+    "title": "AkzoNobel Sikkens Autobase Plus TDS (S10403) - solvent-borne basecoat (refinish proxy)",
+    "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items."
+   }
+  ],
+  "equipment": [
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22/23 FlexPainter + IRC5P controller",
+    "role": "Basecoat painting robot (exterior bell zones)",
+    "rationale": "GM-standard paint robot family widely used in GM/GM Korea paint shops; representative only - Asaka paint-shop robot vendor not found publicly (2023 modernization serviced 'robotic system' with Korean specialists, vendor unnamed; FANUC named only for press shop).",
+    "confidence": "low"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i-SA (RB1000 family) electrostatic rotary bell atomizer",
+    "role": "Atomizer for solvent-borne metallic basecoat (direct charge)",
+    "rationale": "Solvent-borne basecoat (2C1B, MET-3 metallic) is normally applied with high-speed direct-charge bells in bell1/bell2 metallic process. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i robot + EcoBell3 rotary atomizer",
+    "role": "Alternative representative robot/atomizer",
+    "rationale": "Market-leading alternative; EcoBell3 supports exterior metallic basecoat, solvent- and water-borne. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoMCC3 20 low-pressure colour changer",
+    "role": "Colour changer (12+ colours incl. all group C basecoats)",
+    "rationale": "Atomizer-mounted/arm-mounted low-pressure colour changer with circulation to needle seat; fits multi-colour (12 basecoats) line. ABB CBS/integrated colour changer is equivalent if ABB line.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Paint circulation / EcoSupply P (pigging) systems",
+    "role": "Paint kitchen and circulation loops for 180 L drums",
+    "rationale": "Each high-volume basecoat colour typically has its own circulation loop from the paint mix room (drum 180 L -> mix tank -> pump -> loop); low-volume colours may use pigging. Representative; Graco/Dürr/ABB supply systems all common.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB/15 paint robot",
+    "role": "Alternative representative paint robot",
+    "rationale": "FANUC paint robots common in Korean-built paint shops; FANUC is a confirmed equipment supplier to UzAuto Asaka (press shop 2023). Representative.",
+    "confidence": "low"
+   }
+  ],
+  "equipment_docs": [
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22/23",
+    "type": "datasheet",
+    "title": "IRB5500 Flex RP50010EN Rev.G",
+    "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+    "verified": false,
+    "note": "From search results; WebFetch blocked (library.e.abb.com not in allowed network)."
+   },
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22",
+    "type": "datasheet",
+    "title": "IRB 5500-22 Datasheet (US Letter)",
+    "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i series",
+    "type": "brochure",
+    "title": "RB1000i Series Presentation",
+    "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+    "verified": false,
+    "note": "From search results; fetch blocked. No dedicated RB1000-SSA datasheet found."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoBell3",
+    "type": "datasheet",
+    "title": "Dürr datasheet EcoBell3 (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+    "verified": false,
+    "note": "From search results; fetch blocked (www.durr.com). German version: duerr-datenblatt-ecobell3-de.pdf in same folder."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoMCC3 20",
+    "type": "datasheet",
+    "title": "Dürr EcoMCC3 20 colour changer",
+    "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoSupply P",
+    "type": "brochure",
+    "title": "Dürr Station EcoSupply P Basic Single Pass (ready2integrate 2019)",
+    "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
+    "verified": false,
+    "note": "From search results; slide deck, not formal datasheet. No EcoRP E043i datasheet found."
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB/15",
+    "type": "datasheet",
+    "title": "P-250iB Product Information",
+    "url": "https://www.fanucamerica.com/cmsmedia/datasheets/P-250iB_Product Information_330.pdf",
+    "verified": false,
+    "note": "From search results; URL contains a space (encode as %20)."
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB",
+    "type": "brochure",
+    "title": "RP-250iB(E)-02a catalog",
+    "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   }
+  ],
+  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-893 ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only."
+ },
+ {
+  "id": 17,
+  "manufacturer": "Most likely JV 'Uz-DongJu Paint Co.' (Asaka; UzAvtosanoat + Korean partner DongJu Industrial/KION International; technical partner YoungShin Chemicals) - unconfirmed; KCC Corporation is a plausible alternative (Korea's largest OEM paint maker; KCC signed a 2025 automotive paint plant agreement with Uzbekistan)",
+  "product_identified": "OEM solvent-borne basecoat, GM colour GL8 Red-E or Not Red Metallic, GM Korea-style material spec KR-ADM-122 (180 L drum), 2-coat-1-bake (basecoat + clearcoat) system",
+  "gm_color_code_check": "Name confirmed: paintscratch.com lists 'Red-E or Not Red' under code GX8 (US). GL8 not found publicly; may be a regional/plant RPO or a transcription variant of GX8. 'MET-3' = Metallic 3 formula variant.",
+  "manufacturer_confidence": "low",
+  "material_docs": [
+   {
+    "type": "SDS",
+    "title": "Glasurit (BASF) 100-M 998 brill. silver extra coarse - solvent-borne metallic basecoat SDS (refinish proxy)",
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+   },
+   {
+    "type": "TDS",
+    "title": "AkzoNobel Sikkens Autobase Plus TDS (S10403) - solvent-borne basecoat (refinish proxy)",
+    "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items."
+   }
+  ],
+  "equipment": [
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22/23 FlexPainter + IRC5P controller",
+    "role": "Basecoat painting robot (exterior bell zones)",
+    "rationale": "GM-standard paint robot family widely used in GM/GM Korea paint shops; representative only - Asaka paint-shop robot vendor not found publicly (2023 modernization serviced 'robotic system' with Korean specialists, vendor unnamed; FANUC named only for press shop).",
+    "confidence": "low"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i-SA (RB1000 family) electrostatic rotary bell atomizer",
+    "role": "Atomizer for solvent-borne metallic basecoat (direct charge)",
+    "rationale": "Solvent-borne basecoat (2C1B, MET-3 metallic) is normally applied with high-speed direct-charge bells in bell1/bell2 metallic process. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i robot + EcoBell3 rotary atomizer",
+    "role": "Alternative representative robot/atomizer",
+    "rationale": "Market-leading alternative; EcoBell3 supports exterior metallic basecoat, solvent- and water-borne. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoMCC3 20 low-pressure colour changer",
+    "role": "Colour changer (12+ colours incl. all group C basecoats)",
+    "rationale": "Atomizer-mounted/arm-mounted low-pressure colour changer with circulation to needle seat; fits multi-colour (12 basecoats) line. ABB CBS/integrated colour changer is equivalent if ABB line.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Paint circulation / EcoSupply P (pigging) systems",
+    "role": "Paint kitchen and circulation loops for 180 L drums",
+    "rationale": "Each high-volume basecoat colour typically has its own circulation loop from the paint mix room (drum 180 L -> mix tank -> pump -> loop); low-volume colours may use pigging. Representative; Graco/Dürr/ABB supply systems all common.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB/15 paint robot",
+    "role": "Alternative representative paint robot",
+    "rationale": "FANUC paint robots common in Korean-built paint shops; FANUC is a confirmed equipment supplier to UzAuto Asaka (press shop 2023). Representative.",
+    "confidence": "low"
+   }
+  ],
+  "equipment_docs": [
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22/23",
+    "type": "datasheet",
+    "title": "IRB5500 Flex RP50010EN Rev.G",
+    "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+    "verified": false,
+    "note": "From search results; WebFetch blocked (library.e.abb.com not in allowed network)."
+   },
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22",
+    "type": "datasheet",
+    "title": "IRB 5500-22 Datasheet (US Letter)",
+    "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i series",
+    "type": "brochure",
+    "title": "RB1000i Series Presentation",
+    "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+    "verified": false,
+    "note": "From search results; fetch blocked. No dedicated RB1000-SSA datasheet found."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoBell3",
+    "type": "datasheet",
+    "title": "Dürr datasheet EcoBell3 (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+    "verified": false,
+    "note": "From search results; fetch blocked (www.durr.com). German version: duerr-datenblatt-ecobell3-de.pdf in same folder."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoMCC3 20",
+    "type": "datasheet",
+    "title": "Dürr EcoMCC3 20 colour changer",
+    "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoSupply P",
+    "type": "brochure",
+    "title": "Dürr Station EcoSupply P Basic Single Pass (ready2integrate 2019)",
+    "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
+    "verified": false,
+    "note": "From search results; slide deck, not formal datasheet. No EcoRP E043i datasheet found."
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB/15",
+    "type": "datasheet",
+    "title": "P-250iB Product Information",
+    "url": "https://www.fanucamerica.com/cmsmedia/datasheets/P-250iB_Product Information_330.pdf",
+    "verified": false,
+    "note": "From search results; URL contains a space (encode as %20)."
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB",
+    "type": "brochure",
+    "title": "RP-250iB(E)-02a catalog",
+    "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   }
+  ],
+  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-122 ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only."
+ },
+ {
+  "id": 18,
+  "manufacturer": "Most likely JV 'Uz-DongJu Paint Co.' (Asaka; UzAvtosanoat + Korean partner DongJu Industrial/KION International; technical partner YoungShin Chemicals) - unconfirmed; KCC Corporation is a plausible alternative (Korea's largest OEM paint maker; KCC signed a 2025 automotive paint plant agreement with Uzbekistan)",
+  "product_identified": "OEM solvent-borne basecoat, GM colour GUM Seeker Metallic 3, GM Korea-style material spec KR-ADM-407U (180 L drum), 2-coat-1-bake (basecoat + clearcoat) system",
+  "gm_color_code_check": "GUM = Seeker Metallic 3 (WA693D) confirmed by drcolorchip.com; another Seeker variant exists as G6O.",
+  "manufacturer_confidence": "low",
+  "material_docs": [
+   {
+    "type": "SDS",
+    "title": "Glasurit (BASF) 100-M 998 brill. silver extra coarse - solvent-borne metallic basecoat SDS (refinish proxy)",
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+   },
+   {
+    "type": "TDS",
+    "title": "AkzoNobel Sikkens Autobase Plus TDS (S10403) - solvent-borne basecoat (refinish proxy)",
+    "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items."
+   }
+  ],
+  "equipment": [
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22/23 FlexPainter + IRC5P controller",
+    "role": "Basecoat painting robot (exterior bell zones)",
+    "rationale": "GM-standard paint robot family widely used in GM/GM Korea paint shops; representative only - Asaka paint-shop robot vendor not found publicly (2023 modernization serviced 'robotic system' with Korean specialists, vendor unnamed; FANUC named only for press shop).",
+    "confidence": "low"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i-SA (RB1000 family) electrostatic rotary bell atomizer",
+    "role": "Atomizer for solvent-borne metallic basecoat (direct charge)",
+    "rationale": "Solvent-borne basecoat (2C1B, MET-3 metallic) is normally applied with high-speed direct-charge bells in bell1/bell2 metallic process. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i robot + EcoBell3 rotary atomizer",
+    "role": "Alternative representative robot/atomizer",
+    "rationale": "Market-leading alternative; EcoBell3 supports exterior metallic basecoat, solvent- and water-borne. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoMCC3 20 low-pressure colour changer",
+    "role": "Colour changer (12+ colours incl. all group C basecoats)",
+    "rationale": "Atomizer-mounted/arm-mounted low-pressure colour changer with circulation to needle seat; fits multi-colour (12 basecoats) line. ABB CBS/integrated colour changer is equivalent if ABB line.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Paint circulation / EcoSupply P (pigging) systems",
+    "role": "Paint kitchen and circulation loops for 180 L drums",
+    "rationale": "Each high-volume basecoat colour typically has its own circulation loop from the paint mix room (drum 180 L -> mix tank -> pump -> loop); low-volume colours may use pigging. Representative; Graco/Dürr/ABB supply systems all common.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB/15 paint robot",
+    "role": "Alternative representative paint robot",
+    "rationale": "FANUC paint robots common in Korean-built paint shops; FANUC is a confirmed equipment supplier to UzAuto Asaka (press shop 2023). Representative.",
+    "confidence": "low"
+   }
+  ],
+  "equipment_docs": [
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22/23",
+    "type": "datasheet",
+    "title": "IRB5500 Flex RP50010EN Rev.G",
+    "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+    "verified": false,
+    "note": "From search results; WebFetch blocked (library.e.abb.com not in allowed network)."
+   },
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22",
+    "type": "datasheet",
+    "title": "IRB 5500-22 Datasheet (US Letter)",
+    "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i series",
+    "type": "brochure",
+    "title": "RB1000i Series Presentation",
+    "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+    "verified": false,
+    "note": "From search results; fetch blocked. No dedicated RB1000-SSA datasheet found."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoBell3",
+    "type": "datasheet",
+    "title": "Dürr datasheet EcoBell3 (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+    "verified": false,
+    "note": "From search results; fetch blocked (www.durr.com). German version: duerr-datenblatt-ecobell3-de.pdf in same folder."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoMCC3 20",
+    "type": "datasheet",
+    "title": "Dürr EcoMCC3 20 colour changer",
+    "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoSupply P",
+    "type": "brochure",
+    "title": "Dürr Station EcoSupply P Basic Single Pass (ready2integrate 2019)",
+    "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
+    "verified": false,
+    "note": "From search results; slide deck, not formal datasheet. No EcoRP E043i datasheet found."
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB/15",
+    "type": "datasheet",
+    "title": "P-250iB Product Information",
+    "url": "https://www.fanucamerica.com/cmsmedia/datasheets/P-250iB_Product Information_330.pdf",
+    "verified": false,
+    "note": "From search results; URL contains a space (encode as %20)."
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB",
+    "type": "brochure",
+    "title": "RP-250iB(E)-02a catalog",
+    "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   }
+  ],
+  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-407U ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only."
+ },
+ {
+  "id": 19,
+  "manufacturer": "Most likely JV 'Uz-DongJu Paint Co.' (Asaka; UzAvtosanoat + Korean partner DongJu Industrial/KION International; technical partner YoungShin Chemicals) - unconfirmed; KCC Corporation is a plausible alternative (Korea's largest OEM paint maker; KCC signed a 2025 automotive paint plant agreement with Uzbekistan)",
+  "product_identified": "OEM solvent-borne basecoat, GM colour G7G Zeus Metallic 3 (Zeus Bronze), GM Korea-style material spec KR-ADM-670U (180 L drum), 2-coat-1-bake (basecoat + clearcoat) system",
+  "gm_color_code_check": "G7G = Zeus Metallic 3 / Zeus Bronze Metallic (WA441E) per drcolorchip.com; paintscratch also lists a different Zeus variant (WA615D/WA400E/GUI/G7B).",
+  "manufacturer_confidence": "low",
+  "material_docs": [
+   {
+    "type": "SDS",
+    "title": "Glasurit (BASF) 100-M 998 brill. silver extra coarse - solvent-borne metallic basecoat SDS (refinish proxy)",
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+   },
+   {
+    "type": "TDS",
+    "title": "AkzoNobel Sikkens Autobase Plus TDS (S10403) - solvent-borne basecoat (refinish proxy)",
+    "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items."
+   }
+  ],
+  "equipment": [
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22/23 FlexPainter + IRC5P controller",
+    "role": "Basecoat painting robot (exterior bell zones)",
+    "rationale": "GM-standard paint robot family widely used in GM/GM Korea paint shops; representative only - Asaka paint-shop robot vendor not found publicly (2023 modernization serviced 'robotic system' with Korean specialists, vendor unnamed; FANUC named only for press shop).",
+    "confidence": "low"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i-SA (RB1000 family) electrostatic rotary bell atomizer",
+    "role": "Atomizer for solvent-borne metallic basecoat (direct charge)",
+    "rationale": "Solvent-borne basecoat (2C1B, MET-3 metallic) is normally applied with high-speed direct-charge bells in bell1/bell2 metallic process. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i robot + EcoBell3 rotary atomizer",
+    "role": "Alternative representative robot/atomizer",
+    "rationale": "Market-leading alternative; EcoBell3 supports exterior metallic basecoat, solvent- and water-borne. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoMCC3 20 low-pressure colour changer",
+    "role": "Colour changer (12+ colours incl. all group C basecoats)",
+    "rationale": "Atomizer-mounted/arm-mounted low-pressure colour changer with circulation to needle seat; fits multi-colour (12 basecoats) line. ABB CBS/integrated colour changer is equivalent if ABB line.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Paint circulation / EcoSupply P (pigging) systems",
+    "role": "Paint kitchen and circulation loops for 180 L drums",
+    "rationale": "Each high-volume basecoat colour typically has its own circulation loop from the paint mix room (drum 180 L -> mix tank -> pump -> loop); low-volume colours may use pigging. Representative; Graco/Dürr/ABB supply systems all common.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB/15 paint robot",
+    "role": "Alternative representative paint robot",
+    "rationale": "FANUC paint robots common in Korean-built paint shops; FANUC is a confirmed equipment supplier to UzAuto Asaka (press shop 2023). Representative.",
+    "confidence": "low"
+   }
+  ],
+  "equipment_docs": [
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22/23",
+    "type": "datasheet",
+    "title": "IRB5500 Flex RP50010EN Rev.G",
+    "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+    "verified": false,
+    "note": "From search results; WebFetch blocked (library.e.abb.com not in allowed network)."
+   },
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22",
+    "type": "datasheet",
+    "title": "IRB 5500-22 Datasheet (US Letter)",
+    "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i series",
+    "type": "brochure",
+    "title": "RB1000i Series Presentation",
+    "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+    "verified": false,
+    "note": "From search results; fetch blocked. No dedicated RB1000-SSA datasheet found."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoBell3",
+    "type": "datasheet",
+    "title": "Dürr datasheet EcoBell3 (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+    "verified": false,
+    "note": "From search results; fetch blocked (www.durr.com). German version: duerr-datenblatt-ecobell3-de.pdf in same folder."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoMCC3 20",
+    "type": "datasheet",
+    "title": "Dürr EcoMCC3 20 colour changer",
+    "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoSupply P",
+    "type": "brochure",
+    "title": "Dürr Station EcoSupply P Basic Single Pass (ready2integrate 2019)",
+    "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
+    "verified": false,
+    "note": "From search results; slide deck, not formal datasheet. No EcoRP E043i datasheet found."
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB/15",
+    "type": "datasheet",
+    "title": "P-250iB Product Information",
+    "url": "https://www.fanucamerica.com/cmsmedia/datasheets/P-250iB_Product Information_330.pdf",
+    "verified": false,
+    "note": "From search results; URL contains a space (encode as %20)."
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB",
+    "type": "brochure",
+    "title": "RP-250iB(E)-02a catalog",
+    "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   }
+  ],
+  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-670U ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only."
+ },
+ {
+  "id": 20,
+  "manufacturer": "Most likely JV 'Uz-DongJu Paint Co.' (Asaka; UzAvtosanoat + Korean partner DongJu Industrial/KION International; technical partner YoungShin Chemicals) - unconfirmed; KCC Corporation is a plausible alternative (Korea's largest OEM paint maker; KCC signed a 2025 automotive paint plant agreement with Uzbekistan)",
+  "product_identified": "OEM solvent-borne basecoat, GM colour GZ8 Some Kinda Blue Metallic, GM Korea-style material spec KR-ADM-512U (180 L drum), 2-coat-1-bake (basecoat + clearcoat) system",
+  "gm_color_code_check": "Name confirmed: US code for Some Kinda Blue is GA0/'GAO' (WA619D) per paintscratch.com. GZ8 not found publicly; likely regional GM Korea/UzAuto RPO variant.",
+  "manufacturer_confidence": "low",
+  "material_docs": [
+   {
+    "type": "SDS",
+    "title": "Glasurit (BASF) 100-M 998 brill. silver extra coarse - solvent-borne metallic basecoat SDS (refinish proxy)",
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+   },
+   {
+    "type": "TDS",
+    "title": "AkzoNobel Sikkens Autobase Plus TDS (S10403) - solvent-borne basecoat (refinish proxy)",
+    "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items."
+   }
+  ],
+  "equipment": [
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22/23 FlexPainter + IRC5P controller",
+    "role": "Basecoat painting robot (exterior bell zones)",
+    "rationale": "GM-standard paint robot family widely used in GM/GM Korea paint shops; representative only - Asaka paint-shop robot vendor not found publicly (2023 modernization serviced 'robotic system' with Korean specialists, vendor unnamed; FANUC named only for press shop).",
+    "confidence": "low"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i-SA (RB1000 family) electrostatic rotary bell atomizer",
+    "role": "Atomizer for solvent-borne metallic basecoat (direct charge)",
+    "rationale": "Solvent-borne basecoat (2C1B, MET-3 metallic) is normally applied with high-speed direct-charge bells in bell1/bell2 metallic process. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i robot + EcoBell3 rotary atomizer",
+    "role": "Alternative representative robot/atomizer",
+    "rationale": "Market-leading alternative; EcoBell3 supports exterior metallic basecoat, solvent- and water-borne. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoMCC3 20 low-pressure colour changer",
+    "role": "Colour changer (12+ colours incl. all group C basecoats)",
+    "rationale": "Atomizer-mounted/arm-mounted low-pressure colour changer with circulation to needle seat; fits multi-colour (12 basecoats) line. ABB CBS/integrated colour changer is equivalent if ABB line.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Paint circulation / EcoSupply P (pigging) systems",
+    "role": "Paint kitchen and circulation loops for 180 L drums",
+    "rationale": "Each high-volume basecoat colour typically has its own circulation loop from the paint mix room (drum 180 L -> mix tank -> pump -> loop); low-volume colours may use pigging. Representative; Graco/Dürr/ABB supply systems all common.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB/15 paint robot",
+    "role": "Alternative representative paint robot",
+    "rationale": "FANUC paint robots common in Korean-built paint shops; FANUC is a confirmed equipment supplier to UzAuto Asaka (press shop 2023). Representative.",
+    "confidence": "low"
+   }
+  ],
+  "equipment_docs": [
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22/23",
+    "type": "datasheet",
+    "title": "IRB5500 Flex RP50010EN Rev.G",
+    "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+    "verified": false,
+    "note": "From search results; WebFetch blocked (library.e.abb.com not in allowed network)."
+   },
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22",
+    "type": "datasheet",
+    "title": "IRB 5500-22 Datasheet (US Letter)",
+    "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i series",
+    "type": "brochure",
+    "title": "RB1000i Series Presentation",
+    "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+    "verified": false,
+    "note": "From search results; fetch blocked. No dedicated RB1000-SSA datasheet found."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoBell3",
+    "type": "datasheet",
+    "title": "Dürr datasheet EcoBell3 (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+    "verified": false,
+    "note": "From search results; fetch blocked (www.durr.com). German version: duerr-datenblatt-ecobell3-de.pdf in same folder."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoMCC3 20",
+    "type": "datasheet",
+    "title": "Dürr EcoMCC3 20 colour changer",
+    "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoSupply P",
+    "type": "brochure",
+    "title": "Dürr Station EcoSupply P Basic Single Pass (ready2integrate 2019)",
+    "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
+    "verified": false,
+    "note": "From search results; slide deck, not formal datasheet. No EcoRP E043i datasheet found."
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB/15",
+    "type": "datasheet",
+    "title": "P-250iB Product Information",
+    "url": "https://www.fanucamerica.com/cmsmedia/datasheets/P-250iB_Product Information_330.pdf",
+    "verified": false,
+    "note": "From search results; URL contains a space (encode as %20)."
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB",
+    "type": "brochure",
+    "title": "RP-250iB(E)-02a catalog",
+    "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   }
+  ],
+  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-512U ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only."
+ },
+ {
+  "id": 21,
+  "manufacturer": "Most likely JV 'Uz-DongJu Paint Co.' (Asaka; UzAvtosanoat + Korean partner DongJu Industrial/KION International; technical partner YoungShin Chemicals) - unconfirmed; KCC Corporation is a plausible alternative (Korea's largest OEM paint maker; KCC signed a 2025 automotive paint plant agreement with Uzbekistan)",
+  "product_identified": "OEM solvent-borne basecoat, GM colour G5J Darkmoon Blue Metallic 3, GM Korea-style material spec KR-ADM-513U (180 L drum), 2-coat-1-bake (basecoat + clearcoat) system",
+  "gm_color_code_check": "G5J = Darkmoon Blue Metallic 3 (WA434E) confirmed by drcolorchip.com.",
+  "manufacturer_confidence": "low",
+  "material_docs": [
+   {
+    "type": "SDS",
+    "title": "Glasurit (BASF) 100-M 998 brill. silver extra coarse - solvent-borne metallic basecoat SDS (refinish proxy)",
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+   },
+   {
+    "type": "TDS",
+    "title": "AkzoNobel Sikkens Autobase Plus TDS (S10403) - solvent-borne basecoat (refinish proxy)",
+    "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items."
+   }
+  ],
+  "equipment": [
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22/23 FlexPainter + IRC5P controller",
+    "role": "Basecoat painting robot (exterior bell zones)",
+    "rationale": "GM-standard paint robot family widely used in GM/GM Korea paint shops; representative only - Asaka paint-shop robot vendor not found publicly (2023 modernization serviced 'robotic system' with Korean specialists, vendor unnamed; FANUC named only for press shop).",
+    "confidence": "low"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i-SA (RB1000 family) electrostatic rotary bell atomizer",
+    "role": "Atomizer for solvent-borne metallic basecoat (direct charge)",
+    "rationale": "Solvent-borne basecoat (2C1B, MET-3 metallic) is normally applied with high-speed direct-charge bells in bell1/bell2 metallic process. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i robot + EcoBell3 rotary atomizer",
+    "role": "Alternative representative robot/atomizer",
+    "rationale": "Market-leading alternative; EcoBell3 supports exterior metallic basecoat, solvent- and water-borne. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoMCC3 20 low-pressure colour changer",
+    "role": "Colour changer (12+ colours incl. all group C basecoats)",
+    "rationale": "Atomizer-mounted/arm-mounted low-pressure colour changer with circulation to needle seat; fits multi-colour (12 basecoats) line. ABB CBS/integrated colour changer is equivalent if ABB line.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Paint circulation / EcoSupply P (pigging) systems",
+    "role": "Paint kitchen and circulation loops for 180 L drums",
+    "rationale": "Each high-volume basecoat colour typically has its own circulation loop from the paint mix room (drum 180 L -> mix tank -> pump -> loop); low-volume colours may use pigging. Representative; Graco/Dürr/ABB supply systems all common.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB/15 paint robot",
+    "role": "Alternative representative paint robot",
+    "rationale": "FANUC paint robots common in Korean-built paint shops; FANUC is a confirmed equipment supplier to UzAuto Asaka (press shop 2023). Representative.",
+    "confidence": "low"
+   }
+  ],
+  "equipment_docs": [
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22/23",
+    "type": "datasheet",
+    "title": "IRB5500 Flex RP50010EN Rev.G",
+    "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+    "verified": false,
+    "note": "From search results; WebFetch blocked (library.e.abb.com not in allowed network)."
+   },
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22",
+    "type": "datasheet",
+    "title": "IRB 5500-22 Datasheet (US Letter)",
+    "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i series",
+    "type": "brochure",
+    "title": "RB1000i Series Presentation",
+    "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+    "verified": false,
+    "note": "From search results; fetch blocked. No dedicated RB1000-SSA datasheet found."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoBell3",
+    "type": "datasheet",
+    "title": "Dürr datasheet EcoBell3 (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+    "verified": false,
+    "note": "From search results; fetch blocked (www.durr.com). German version: duerr-datenblatt-ecobell3-de.pdf in same folder."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoMCC3 20",
+    "type": "datasheet",
+    "title": "Dürr EcoMCC3 20 colour changer",
+    "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoSupply P",
+    "type": "brochure",
+    "title": "Dürr Station EcoSupply P Basic Single Pass (ready2integrate 2019)",
+    "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
+    "verified": false,
+    "note": "From search results; slide deck, not formal datasheet. No EcoRP E043i datasheet found."
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB/15",
+    "type": "datasheet",
+    "title": "P-250iB Product Information",
+    "url": "https://www.fanucamerica.com/cmsmedia/datasheets/P-250iB_Product Information_330.pdf",
+    "verified": false,
+    "note": "From search results; URL contains a space (encode as %20)."
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB",
+    "type": "brochure",
+    "title": "RP-250iB(E)-02a catalog",
+    "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   }
+  ],
+  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-513U ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only."
+ },
+ {
+  "id": 22,
+  "manufacturer": "Most likely JV 'Uz-DongJu Paint Co.' (Asaka; UzAvtosanoat + Korean partner DongJu Industrial/KION International; technical partner YoungShin Chemicals) - unconfirmed; KCC Corporation is a plausible alternative (Korea's largest OEM paint maker; KCC signed a 2025 automotive paint plant agreement with Uzbekistan)",
+  "product_identified": "OEM solvent-borne basecoat, GM colour G4V Pow Zinga Metallic 2/3, GM Korea-style material spec KR-ADM-580U (180 L drum), 2-coat-1-bake (basecoat + clearcoat) system",
+  "gm_color_code_check": "G4V listed as Pow Zinga Metallic on 2024 Chevrolet Tracker/Trailblazer (GM Korea-built) colour charts at automotivetouchup.com; US variant is WA327E/GLT. Name and code consistent.",
+  "manufacturer_confidence": "low",
+  "material_docs": [
+   {
+    "type": "SDS",
+    "title": "Glasurit (BASF) 100-M 998 brill. silver extra coarse - solvent-borne metallic basecoat SDS (refinish proxy)",
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+   },
+   {
+    "type": "TDS",
+    "title": "AkzoNobel Sikkens Autobase Plus TDS (S10403) - solvent-borne basecoat (refinish proxy)",
+    "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items."
+   }
+  ],
+  "equipment": [
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22/23 FlexPainter + IRC5P controller",
+    "role": "Basecoat painting robot (exterior bell zones)",
+    "rationale": "GM-standard paint robot family widely used in GM/GM Korea paint shops; representative only - Asaka paint-shop robot vendor not found publicly (2023 modernization serviced 'robotic system' with Korean specialists, vendor unnamed; FANUC named only for press shop).",
+    "confidence": "low"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i-SA (RB1000 family) electrostatic rotary bell atomizer",
+    "role": "Atomizer for solvent-borne metallic basecoat (direct charge)",
+    "rationale": "Solvent-borne basecoat (2C1B, MET-3 metallic) is normally applied with high-speed direct-charge bells in bell1/bell2 metallic process. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i robot + EcoBell3 rotary atomizer",
+    "role": "Alternative representative robot/atomizer",
+    "rationale": "Market-leading alternative; EcoBell3 supports exterior metallic basecoat, solvent- and water-borne. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoMCC3 20 low-pressure colour changer",
+    "role": "Colour changer (12+ colours incl. all group C basecoats)",
+    "rationale": "Atomizer-mounted/arm-mounted low-pressure colour changer with circulation to needle seat; fits multi-colour (12 basecoats) line. ABB CBS/integrated colour changer is equivalent if ABB line.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Paint circulation / EcoSupply P (pigging) systems",
+    "role": "Paint kitchen and circulation loops for 180 L drums",
+    "rationale": "Each high-volume basecoat colour typically has its own circulation loop from the paint mix room (drum 180 L -> mix tank -> pump -> loop); low-volume colours may use pigging. Representative; Graco/Dürr/ABB supply systems all common.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB/15 paint robot",
+    "role": "Alternative representative paint robot",
+    "rationale": "FANUC paint robots common in Korean-built paint shops; FANUC is a confirmed equipment supplier to UzAuto Asaka (press shop 2023). Representative.",
+    "confidence": "low"
+   }
+  ],
+  "equipment_docs": [
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22/23",
+    "type": "datasheet",
+    "title": "IRB5500 Flex RP50010EN Rev.G",
+    "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+    "verified": false,
+    "note": "From search results; WebFetch blocked (library.e.abb.com not in allowed network)."
+   },
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22",
+    "type": "datasheet",
+    "title": "IRB 5500-22 Datasheet (US Letter)",
+    "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i series",
+    "type": "brochure",
+    "title": "RB1000i Series Presentation",
+    "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+    "verified": false,
+    "note": "From search results; fetch blocked. No dedicated RB1000-SSA datasheet found."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoBell3",
+    "type": "datasheet",
+    "title": "Dürr datasheet EcoBell3 (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+    "verified": false,
+    "note": "From search results; fetch blocked (www.durr.com). German version: duerr-datenblatt-ecobell3-de.pdf in same folder."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoMCC3 20",
+    "type": "datasheet",
+    "title": "Dürr EcoMCC3 20 colour changer",
+    "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoSupply P",
+    "type": "brochure",
+    "title": "Dürr Station EcoSupply P Basic Single Pass (ready2integrate 2019)",
+    "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
+    "verified": false,
+    "note": "From search results; slide deck, not formal datasheet. No EcoRP E043i datasheet found."
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB/15",
+    "type": "datasheet",
+    "title": "P-250iB Product Information",
+    "url": "https://www.fanucamerica.com/cmsmedia/datasheets/P-250iB_Product Information_330.pdf",
+    "verified": false,
+    "note": "From search results; URL contains a space (encode as %20)."
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB",
+    "type": "brochure",
+    "title": "RP-250iB(E)-02a catalog",
+    "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+    "verified": false,
+    "note": "From search results; not fetched."
+   }
+  ],
+  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-580U ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only."
+ }
+]

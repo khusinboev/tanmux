@@ -1,0 +1,95 @@
+[
+{"id":36,"manufacturer":"Sika AG (Sikaflex-250 family); alternate/second source DuPont (ex-Dow Automotive) BETASEAL","product_identified":"Sikaflex-250 series 1K hot/warm-applied PU direct-glazing adhesive (UZ-1 local grade; closest public variants Sikaflex-250 DM-5 / DP-2); BETASEAL U-418/U-838 family as equivalent","manufacturer_confidence":"medium",
+"material_docs":[
+{"type":"PDS","title":"Sikaflex-250 DM-5 Product Data Sheet (Sika Deutschland)","url":"https://deu.sika.com/dms/getdocument.get/7d702bec-814c-4eb8-805d-1ad0cb019466/sikaflex-250-dm-5.pdf","language":"de","exact_or_equivalent":"equivalent","verified":false,"note":"From search results; WebFetch blocked (host not in allowed network). Search snippet: developed for direct glazing in automotive industry."},
+{"type":"PDS","title":"Sikaflex-250 DP-2 + SikaBooster P-50 PDS (v03.03, 05-2023)","url":"https://deu.sika.com/dms/getdocument.get/48aee572-deb8-4a11-85c7-8682134452bd/sikaflex-250-dp-2-plus-sikaboosterp-50.pdf","language":"de","exact_or_equivalent":"equivalent","verified":false,"note":"Accelerated variant for automated direct glazing; not fetched (network)."},
+{"type":"PDS","title":"Sikaflex-250 DM-3 PDS (2006, provisional)","url":"https://egy.sika.com/dms/getdocument.get/ecf85750-dd7d-3490-9be2-3e36a8285895/Sikaflex","language":"en","exact_or_equivalent":"equivalent","verified":false,"note":"Old 2006 sheet per search snippet; not fetched."},
+{"type":"SDS","title":"MSDS Sikaflex-250PC (Sika Korea, EN, 2025-12)","url":"https://kor.sika.com/dms/getdocument.get/5577a611-f6de-438f-ab00-dbfea96a137d/MSDS_Sikaflex%C2%AE-250PC(SSC)_EN_251226_AA00068-0000000296.pdf","language":"en","exact_or_equivalent":"equivalent","verified":false,"note":"Different 250 variant; only SDS of 250 family found. Request UZ-1 SDS from Sika."},
+{"type":"TDS","title":"DuPont BETASEAL U-838HV TDS (DuPont material data center)","url":"https://dupont.materialdatacenter.com/gb/products/pdf/SI/BETASEAL%E2%84%A2%20U-838HV-gb.pdf","language":"en","exact_or_equivalent":"equivalent","verified":false,"note":"Representative BETASEAL OEM glazing urethane; not fetched."},
+{"type":"TDS","title":"DuPont BETASEAL primerless-to-glass (U-418) data sheet","url":"https://www.pksupplies.com/sites/default/files/datasheets/dupont-betaseal-primerless-to-glass-adhesive-data-sheet.pdf","language":"en","exact_or_equivalent":"equivalent","verified":false,"note":"Distributor-hosted copy."}],
+"equipment":[
+{"vendor":"Graco","model":"Therm-O-Flow 200 heated drum unloader (200 L) + PCF precision continuous-flow metering","role":"Bulk supply from 200 L drum (271 kg drum matches) with heated platen/pump and closed-loop bead metering to glazing robot","rationale":"Sikaflex-250 grades are warm-applied (approx. 60-80 C) from drums; heated drum unloader + flow meter is standard architecture. Representative, no plant evidence.","confidence":"medium"},
+{"vendor":"Atlas Copco (SCA)","model":"SCA dispensing system for final-assembly glazing (triangular bead, 1K/1K-accelerated/2K PU) with RTVision.3d","role":"Robot-mounted heated dosing/applicator and bead inspection for windshield glazing cell","rationale":"Atlas Copco markets SCA specifically for windshield glazing; common in GM plants. Representative.","confidence":"medium"}],
+"equipment_docs":[
+{"vendor":"Graco","model":"Therm-O-Flow 200","type":"manual","title":"Therm-O-Flow 200 Instructions (334130)","url":"https://graco.com/content/dam/graco/tech_documents/manuals/334/334130/334130EN.pdf","verified":false,"note":"From search; WebFetch blocked."},
+{"vendor":"Graco","model":"Therm-O-Flow / EasyKey 200 L","type":"manual","title":"Graco manual 311208EN-S","url":"https://www.graco.com/content/dam/graco/tech_documents/manuals/311/311208/311208EN-S.pdf","verified":false,"note":"Search snippet: covers 200 L drum size."},
+{"vendor":"Graco","model":"PCF","type":"brochure","title":"PCF Precision Continuous Flow metering brochure 340305EN-D","url":"https://www.graco.com/content/dam/graco/aftd/literature/brochures/340305/340305EN-D.pdf","verified":false,"note":"Handles ambient/warm/hot melt up to 204 C per snippet."},
+{"vendor":"Graco","model":"Therm-O-Flow Warm Melt 20","type":"brochure","title":"Therm-O-Flow Warm Melt brochure 350422ENEU-A","url":"https://gww.graco.com/content/dam/graco/aftd/literature/brochures/350422/350422ENEU-A.pdf","verified":false,"note":"Lists window glazing / urethanes; 20 L (pail) version."}],
+"notes":"Name pairs BETASEAL and Sikaflex-250 (dual-source spec ADHESIVE-W/S). 'UZ-1' is a local grade not public. Atlas Copco glazing page (no PDF): https://atlascopco.com/en-us/itba/industry-solutions/automotive-entry/dispensing-solutions/final-assembly. All WebFetch calls failed (DNS blocked for sika.com, graco.com hosts) so nothing verified."},
+
+{"id":37,"manufacturer":"Unknown (likely Henkel / Bostik / H.B. Fuller / Sika)","product_identified":"Headliner-to-roof-panel adhesive, 408 kg bulk box; chemistry unknown (likely hot-melt or 1K PU bead)","manufacturer_confidence":"low",
+"material_docs":[],
+"equipment":[
+{"vendor":"Nordson","model":"ProBlue Flex melter (or VersaBlue) with automatic guns","role":"Hot-melt melt/dispense for headliner bonding beads or dots","rationale":"Nordson lists headliner among automotive interior hot-melt applications; representative only, assumes hot-melt chemistry.","confidence":"low"},
+{"vendor":"Graco","model":"Therm-O-Flow 200 + PCF","role":"Alternative if bulk warm-applied PU/hot-melt from large container","rationale":"408 kg bulk pack suggests bulk unloader; representative.","confidence":"low"}],
+"equipment_docs":[
+{"vendor":"Graco","model":"PCF","type":"brochure","title":"PCF metering brochure 340305EN-D","url":"https://www.graco.com/content/dam/graco/aftd/literature/brochures/340305/340305EN-D.pdf","verified":false,"note":"Not fetched."}],
+"notes":"No identification possible from 'ADHESIVE-HDLNG T/PNL'. Nordson automotive interiors page (HTML, has brochure download): https://www.nordson.com/en/divisions/adhesive-dispensing-systems/product-assembly/auto-assembly/automotive-interiors. Bostik headliner hot-melt page: https://www.bostik.com/us/en_US/markets-applications/automotive/headliner/. Request supplier label/SDS from plant."},
+
+{"id":38,"manufacturer":"Sika AG","product_identified":"Sika Primer-209 D (black PU primer for painted body flange)","manufacturer_confidence":"high",
+"material_docs":[
+{"type":"PDS","title":"Sika Primer-209 D PDS (Sika UK, v01.03, 03-2026)","url":"https://gbr.sika.com/dam/dms/gb01/f/sika-primer-209-d.pdf","language":"en","exact_or_equivalent":"exact","verified":false,"note":"Per snippet; brush/felt/foam applicator, ~50 ml/m2. Not fetched (DNS blocked)."},
+{"type":"PDS","title":"Sika Primer-209 D PDS (Sika Canada)","url":"https://industry.sika.com/dam/dms/ca01/x/sika-primer-209-d.pdf","language":"en","exact_or_equivalent":"exact","verified":false,"note":"Alternate host."},
+{"type":"SDS","title":"Sika Primer-209 D SDS (Sika UK, v5.1, 2020)","url":"https://gbr.sika.com/dms/getdocument.get/fc7c9a30-2929-424b-9f85-2cb6042f8040/Sika%C2%AE%20Primer-209%20D%20SDS.pdf","language":"en","exact_or_equivalent":"exact","verified":false,"note":"Not fetched."},
+{"type":"SDS","title":"Primer 209D MSDS (Sika NZ, v5.0, 2024-11)","url":"https://nzl.sika.com/dam/dms/nz01/3/Primer%20209D%20-%20MSDS.pdf","language":"en","exact_or_equivalent":"exact","verified":false,"note":"Newer EN SDS."},
+{"type":"SDS","title":"Sika Primer-209D SDS (Sika Turkey, EN)","url":"https://tur.sika.com/dms/getdocument.get/5aa00d1a-99ca-4747-888a-eda15c33f505/Sika%20Primer-209D%20MSDS%20EN.pdf","language":"en","exact_or_equivalent":"exact","verified":false,"note":"Not fetched."}],
+"equipment":[
+{"vendor":"Generic / Sika-recommended","model":"Manual felt dauber or felt-tip primer applicator bottle","role":"Manual primer application on body flange (1 kg bottle supply)","rationale":"PDS specifies brush/felt/foam application; 1 kg bottle suggests manual or small-reservoir use. Representative.","confidence":"medium"},
+{"vendor":"Graco or Atlas Copco SCA","model":"Robot-mounted felt-wick primer applicator (drip-and-drag) with low-pressure pressure-pot supply","role":"Automated primer application if glazing cell primes flange robotically","rationale":"Drip-and-drag felt robotic priming is industry standard per patents (US6695917, US5049368). Representative.","confidence":"low"}],
+"equipment_docs":[],
+"notes":"No vendor primer-applicator datasheet PDF found. Relevant patent PDFs: https://patents.google.com/patent/US6695917 (flow-through felt dispenser), https://patents.google.com/patent/US5049368 (primers onto body flange and windshield)."},
+
+{"id":39,"manufacturer":"Sika AG","product_identified":"Sika Primer-206 G+P (black primer for glass/ceramic frit and paint)","manufacturer_confidence":"high",
+"material_docs":[
+{"type":"PDS","title":"Sika Primer-206 G+P PDS (Sika USA, v03.01, 03-2023)","url":"https://industry.sika.com/dam/dms/us01/w/sika_primer-206_gp.pdf","language":"en","exact_or_equivalent":"exact","verified":false,"note":"Snippet: 36% solids, brush/felt/foam, ~50 ml/m2. Not fetched."},
+{"type":"PDS","title":"Sika Primer-206 G+P PDS (Sika Switzerland)","url":"https://industry.sika.com/dam/dms/ch01/f/sika-primer-206-g-plus-p.pdf","language":"en","exact_or_equivalent":"exact","verified":false,"note":"Alternate."},
+{"type":"SDS","title":"Sika Primer-206 G+P SDS (Sika Corp US, rev 12/13/2021)","url":"https://usa.sika.com/dam/dms/us01/s/Sika-Primer-206-G-P.pdf","language":"en","exact_or_equivalent":"exact","verified":false,"note":"Not fetched."},
+{"type":"SDS","title":"Sika Primer-206 G plus P SDS (Sika NZ, v5.0, 2023-08)","url":"https://nzl.sika.com/dam/dms/nz01/t/Sika%C2%AE%20Primer-206%20G%20plus%20P%20-%20SDS%20-%201122.pdf","language":"en","exact_or_equivalent":"exact","verified":false,"note":"Not fetched."},
+{"type":"SDS","title":"SDS Sika Primer-206 G+P (Sika Serbia, v4.1, 2024-10)","url":"https://srb.sika.com/dms/getdocument.get/a237532a-c159-4c08-8f85-74a2b307eb7d_rs01/sds-sika-primer-206g-plus-p.pdf","language":"sr/en","exact_or_equivalent":"exact","verified":false,"note":"Not fetched."}],
+"equipment":[
+{"vendor":"Generic / Sika-recommended","model":"Felt dauber / felt-tip applicator (manual)","role":"Prime glass frit band before bead application","rationale":"PDS lists felt/brush/foam application. Representative.","confidence":"medium"},
+{"vendor":"Atlas Copco SCA or Graco","model":"Robotic glass-priming station (felt-wick drip-and-drag, primer kept agitated in pot)","role":"Automated glass frit priming in glazing cell","rationale":"Standard OEM glass prep step; pigmented primer requires agitation. Representative.","confidence":"low"}],
+"equipment_docs":[],
+"notes":"Exact product match by spec 'SIKA-206 G+P'. No equipment PDF found; see patents listed for id 38."},
+
+{"id":40,"manufacturer":"Sika AG (spec '100-UZ' = Sika Aktivator-100); name 'BETAPRIME' suggests DuPont BETAPRIME/BETACLEAN equivalent","product_identified":"Sika Aktivator-100 (wipe-on/wipe-off adhesion promoter/cleaner)","manufacturer_confidence":"medium",
+"material_docs":[
+{"type":"PDS","title":"Sika Aktivator-100 PDS (Sika USA, v05.01, 10-2023)","url":"https://industry.sika.com/dam/dms/us01/l/sika_aktivator-100.pdf","language":"en","exact_or_equivalent":"exact","verified":false,"note":"Snippet: wipe-on/wipe-off with lint-free tissue, ~20 ml/m2. Not fetched."},
+{"type":"SDS","title":"SDS Sika Aktivator-100 (Sika UK, v17.0, 2026-02)","url":"https://gbr.sika.com/dam/dms/gb01/v/sds-sika-aktivator-100.pdf","language":"en","exact_or_equivalent":"exact","verified":false,"note":"Not fetched."},
+{"type":"SDS","title":"SDS Sika Aktivator-100 (Sika Australia, v2.0, 2024-10)","url":"https://aus.sika.com/dam/dms/au01/f/sds-sika-aktivator-100.pdf","language":"en","exact_or_equivalent":"exact","verified":false,"note":"Not fetched."},
+{"type":"TDS","title":"BETAPRIME 5504G NO SHAKE TDS (DuPont, rev 2024-07)","url":"https://dupont.materialdatacenter.com/gb/products/pdf/US/BETAPRIME%E2%84%A2%205504G%20NO%20SHAKE-gb-US.pdf","language":"en","exact_or_equivalent":"equivalent","verified":false,"note":"DuPont alternate if BETASEAL system used; is a black primer, not a cleaner."}],
+"equipment":[
+{"vendor":"Generic","model":"Lint-free wipes + solvent dispensing (pump-top/plunger can)","role":"Manual wipe-on/wipe-off activation of glass/flange","rationale":"PDS application method is wipe-on/wipe-off. Representative.","confidence":"medium"},
+{"vendor":"Atlas Copco SCA or Graco","model":"Robotic wipe/felt applicator in glazing cell","role":"Automated activation where glass prep is robotic","rationale":"Representative.","confidence":"low"}],
+"equipment_docs":[],
+"notes":"'BETAPRIME' trade name + 'Sika 100' spec are inconsistent; plant likely uses Sika Aktivator-100 under a legacy BETA* item name. Confirm with label."},
+
+{"id":41,"manufacturer":"Unknown (spec text 'SIKA-100-UZ' suggests a Sika-system item)","product_identified":"Unidentified 'RAD 11724' paint, 18 L can; possibly a black-out/touch-up or the Sika Aktivator-100 bulk can mislabeled","manufacturer_confidence":"low",
+"material_docs":[
+{"type":"PDS","title":"Sika Aktivator-100 PDS (Sika USA)","url":"https://industry.sika.com/dam/dms/us01/l/sika_aktivator-100.pdf","language":"en","exact_or_equivalent":"equivalent","verified":false,"note":"Only if spec SIKA-100-UZ really means Aktivator-100; unconfirmed."}],
+"equipment":[
+{"vendor":"Graco","model":"Low-pressure pressure pot / felt applicator supply","role":"Supply from 18 L can to applicator","rationale":"Representative; product unknown.","confidence":"low"}],
+"equipment_docs":[],
+"notes":"Search for 'RAD 11724' returned nothing relevant. Needs plant label/SDS."},
+
+{"id":42,"manufacturer":"Unknown","product_identified":"Wheel pilot hole / hub pilot lubricant, 15 kg pail (likely light grease or anti-seize paste)","manufacturer_confidence":"low",
+"material_docs":[],
+"equipment":[
+{"vendor":"Graco","model":"Fire-Ball 300 air-operated grease pump (pail/drum) with meter/brush applicator","role":"Pump from 15 kg pail to manual dauber/brush or meter at wheel-mount station","rationale":"Standard plant greasing pump; representative.","confidence":"low"},
+{"vendor":"Lincoln (SKF)","model":"PowerMaster II air grease pump","role":"Alternative pail/drum grease pump","rationale":"Representative.","confidence":"low"}],
+"equipment_docs":[
+{"vendor":"Graco","model":"Fire-Ball pumps","type":"manual","title":"Graco Fire-Ball pump installation manual 309868EN-B (historic)","url":"https://graco.com/content/dam/graco/tech_documents/manuals/309/309868/historic/309868EN-B.pdf","verified":false,"note":"From search; not fetched."},
+{"vendor":"Lincoln","model":"Equipment range","type":"brochure","title":"Lincoln Equipment Brochure","url":"https://petroleumservicecompany.com/content/pdfs/Lincoln_Equipment_Brochure.pdf","verified":false,"note":"Distributor-hosted general brochure."}],
+"notes":"No GM spec for wheel pilot lubricant found publicly."},
+
+{"id":43,"manufacturer":"Klüber Lubrication (Freudenberg)","product_identified":"Klüber MICROLUBE GNY 202 (art. 017118; mineral oil / sodium soap grease, MICROLUBE additive)","manufacturer_confidence":"high",
+"material_docs":[
+{"type":"PDS","title":"MICROLUBE GNY 202 product page (Klüber USA; PI PDF behind login)","url":"https://www.klueber.com/us/en/products-service/products/microlube-gny-202/9866/","language":"en","exact_or_equivalent":"exact","verified":false,"note":"HTML page, not PDF; PDF download requires login per search snippet."},
+{"type":"PDS","title":"MICROLUBE GNY 202 017118 PI EN (Scribd copy)","url":"https://www.scribd.com/document/862106522/MICROLUBE-GNY-202-017118-PI-EN-en","language":"en","exact_or_equivalent":"exact","verified":false,"note":"Third-party copy of product information."}],
+"equipment":[
+{"vendor":"Graco","model":"Fire-Ball 300 grease pump + metered dispense valve/brush","role":"Metered application to clutch disc hub splines","rationale":"Representative; small precise quantity needed (LuK guidance: small amount on splines).","confidence":"low"},
+{"vendor":"Lincoln (SKF)","model":"PowerMaster II","role":"Alternative grease pump","rationale":"Representative.","confidence":"low"}],
+"equipment_docs":[
+{"vendor":"Graco","model":"Fire-Ball pumps","type":"manual","title":"Graco Fire-Ball installation manual 309868EN-B","url":"https://graco.com/content/dam/graco/tech_documents/manuals/309/309868/historic/309868EN-B.pdf","verified":false,"note":"Not fetched."}],
+"notes":"Exact name is 'MICROLUBE GNY 202' (no hyphen). LuK clutch hub greasing guide: https://www.techtips.ie/LuK/how-to-grease-clutch-hubs.pdf."}
+]

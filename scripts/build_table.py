@@ -11,6 +11,7 @@ import re
 import sys
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlparse
 
 from openpyxl import Workbook
 from openpyxl.styles import Alignment, Font, PatternFill
@@ -40,11 +41,18 @@ def material_filename(item: dict[str, Any], doc: dict[str, Any], seq: int) -> st
     )
 
 
-def equipment_filename(doc: dict[str, Any]) -> str:
-    return (
+def equipment_filename(doc: dict[str, Any], used: dict[str, str]) -> str:
+    """Name equipment PDFs by vendor/model; same URL shares a file across materials."""
+    base = (
         f"EQ_{slug(doc.get('vendor', ''), 20)}_{slug(doc.get('model', ''), 40)}"
-        f"_{slug(doc.get('type', 'DOC'), 12)}.pdf"
+        f"_{slug(doc.get('type', 'DOC'), 12)}"
     )
+    url = doc["url"]
+    name = f"{base}.pdf"
+    if used.get(name, url) != url:
+        name = f"{base}_{slug(Path(urlparse(url).path).stem, 20)}.pdf"
+    used[name] = url
+    return name
 
 
 def load_research(research_dir: Path) -> dict[int, dict[str, Any]]:
@@ -62,6 +70,7 @@ def build_catalog(research_dir: Path) -> list[dict[str, Any]]:
     if missing:
         raise SystemExit(f"Research missing for material ids: {missing}")
 
+    used_equipment_names: dict[str, str] = {}
     catalog: list[dict[str, Any]] = []
     for item in materials:
         found = research[item["id"]]
@@ -76,7 +85,7 @@ def build_catalog(research_dir: Path) -> list[dict[str, Any]]:
                 {**doc, "file": f"{MATERIAL_DIR}/{material_filename(item, doc, per_type[key])}"}
             )
         equipment_docs = [
-            {**doc, "file": f"{EQUIPMENT_DIR}/{equipment_filename(doc)}"}
+            {**doc, "file": f"{EQUIPMENT_DIR}/{equipment_filename(doc, used_equipment_names)}"}
             for doc in found.get("equipment_docs", [])
             if doc.get("url")
         ]

@@ -1,0 +1,519 @@
+[
+ {
+  "id": 8,
+  "manufacturer": "Uncertain: Uz-DongJu Paint (local JV) or KCC Corporation",
+  "product_identified": "CR-100 Primer Surfacer Light Gray N7.0 (GM Korea spec KR-APC-707U) - exact product not publicly documented",
+  "manufacturer_confidence": "low",
+  "material_docs": [
+   {
+    "type": "TDS",
+    "title": "KCC DATASHEET US4000 (2K acrylic urethane primer surfacer, refinish)",
+    "url": "https://vrteotgdakjwbjeugnxx.supabase.co/storage/v1/object/public/product-images/datasheets/kcc/KCC_DATASHEET_US4000_eng.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only. Third-party hosted copy; refinish product, not OEM line - loose equivalent only."
+   }
+  ],
+  "equipment": [
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i + EcoBell3 (direct charge)",
+    "role": "Electrostatic rotary-bell application of primer surfacer (exterior/interior)",
+    "rationale": "Solventborne 1K OEM surfacer/clear applied by electrostatic rotary bell on 7-axis paint robots; Dürr is GM Korea's recent paint-shop equipment supplier (Changwon). Representative.",
+    "confidence": "medium"
+   },
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500 FlexPainter + RB1000i",
+    "role": "Electrostatic rotary-bell application of primer surfacer (exterior/interior) (alternative)",
+    "rationale": "Industry-standard alternative bell/robot package for exterior body painting. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB",
+    "role": "Electrostatic rotary-bell application of primer surfacer (exterior/interior) (alternative)",
+    "rationale": "FANUC robots documented at Asaka (press shop, 2023); FANUC paint robot is plausible if paint shop also FANUC. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoSupply2 Core / paint mix room circulation",
+    "role": "Paint kitchen: drum unloading, agitation, viscosity adjustment, circulation to booth",
+    "rationale": "220/190 L drums are fed via mix-room pumps and circulation loops to color changers. Representative.",
+    "confidence": "low"
+   }
+  ],
+  "equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i",
+    "type": "datasheet",
+    "title": "Dürr datasheet EcoRP E043i (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoBell3",
+    "type": "datasheet",
+    "title": "Dürr datasheet EcoBell3 (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
+   },
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500 FlexPainter",
+    "type": "brochure",
+    "title": "IRB5500 Flex RP50010EN Rev.G",
+    "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
+   },
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22",
+    "type": "datasheet",
+    "title": "IRB 5500-22 Datasheet US Letter",
+    "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "brochure",
+    "title": "RB1000i Series Presentation",
+    "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only. Presentation incl. data sheet section; no standalone RB1000 datasheet PDF found."
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB",
+    "type": "datasheet",
+    "title": "FANUC P-250iB catalog RP-250iB(E)-02a",
+    "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoSupply2 Core",
+    "type": "datasheet",
+    "title": "Dürr EcoSupply2 Core (paint supply unit for mix room)",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-supply-2-core.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
+   }
+  ],
+  "notes": "CR-100 and spec KR-APC-707U/742U not found publicly. Best hypotheses: (a) Uz-DongJu Paint (Asaka-based JV, est. 1995/96, listed among UzAuto main suppliers; 2024 buyer pledged GM-standard compliance) producing to GM Korea 'KR' specs, possibly under Korean licence; (b) KCC Corporation (largest Korean OEM paint maker, GM Korea supplier; signed 2025 Uzbek automotive-paint plant agreement). No PDF of the exact product found. KCC US4000 (refinish 2K primer surfacer) is only a loose family equivalent. Only plant-specific evidence found: 2023 Asaka modernization (uzdaily/kun.uz) mentions FANUC robots in press shop and maintenance of 'robotic systems' in the paint shop without naming vendors; GM Korea Changwon paint shop (2021) uses 78 Dürr robots. Equipment below is REPRESENTATIVE, not confirmed for Asaka."
+ },
+ {
+  "id": 9,
+  "manufacturer": "Uncertain: Uz-DongJu Paint (local JV) or KCC Corporation",
+  "product_identified": "CR-100 Primer Surfacer Pure White N9.0 (GM Korea spec KR-APC-742U) - exact product not publicly documented",
+  "manufacturer_confidence": "low",
+  "material_docs": [
+   {
+    "type": "TDS",
+    "title": "KCC DATASHEET US4000 (2K acrylic urethane primer surfacer, refinish)",
+    "url": "https://vrteotgdakjwbjeugnxx.supabase.co/storage/v1/object/public/product-images/datasheets/kcc/KCC_DATASHEET_US4000_eng.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only. Third-party hosted copy; refinish product, not OEM line - loose equivalent only."
+   }
+  ],
+  "equipment": [
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i + EcoBell3 (direct charge)",
+    "role": "Electrostatic rotary-bell application of primer surfacer (exterior/interior)",
+    "rationale": "Solventborne 1K OEM surfacer/clear applied by electrostatic rotary bell on 7-axis paint robots; Dürr is GM Korea's recent paint-shop equipment supplier (Changwon). Representative.",
+    "confidence": "medium"
+   },
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500 FlexPainter + RB1000i",
+    "role": "Electrostatic rotary-bell application of primer surfacer (exterior/interior) (alternative)",
+    "rationale": "Industry-standard alternative bell/robot package for exterior body painting. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB",
+    "role": "Electrostatic rotary-bell application of primer surfacer (exterior/interior) (alternative)",
+    "rationale": "FANUC robots documented at Asaka (press shop, 2023); FANUC paint robot is plausible if paint shop also FANUC. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoSupply2 Core / paint mix room circulation",
+    "role": "Paint kitchen: drum unloading, agitation, viscosity adjustment, circulation to booth",
+    "rationale": "220/190 L drums are fed via mix-room pumps and circulation loops to color changers. Representative.",
+    "confidence": "low"
+   }
+  ],
+  "equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i",
+    "type": "datasheet",
+    "title": "Dürr datasheet EcoRP E043i (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoBell3",
+    "type": "datasheet",
+    "title": "Dürr datasheet EcoBell3 (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
+   },
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500 FlexPainter",
+    "type": "brochure",
+    "title": "IRB5500 Flex RP50010EN Rev.G",
+    "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
+   },
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22",
+    "type": "datasheet",
+    "title": "IRB 5500-22 Datasheet US Letter",
+    "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "brochure",
+    "title": "RB1000i Series Presentation",
+    "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only. Presentation incl. data sheet section; no standalone RB1000 datasheet PDF found."
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB",
+    "type": "datasheet",
+    "title": "FANUC P-250iB catalog RP-250iB(E)-02a",
+    "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoSupply2 Core",
+    "type": "datasheet",
+    "title": "Dürr EcoSupply2 Core (paint supply unit for mix room)",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-supply-2-core.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
+   }
+  ],
+  "notes": "CR-100 and spec KR-APC-707U/742U not found publicly. Best hypotheses: (a) Uz-DongJu Paint (Asaka-based JV, est. 1995/96, listed among UzAuto main suppliers; 2024 buyer pledged GM-standard compliance) producing to GM Korea 'KR' specs, possibly under Korean licence; (b) KCC Corporation (largest Korean OEM paint maker, GM Korea supplier; signed 2025 Uzbek automotive-paint plant agreement). No PDF of the exact product found. KCC US4000 (refinish 2K primer surfacer) is only a loose family equivalent. Only plant-specific evidence found: 2023 Asaka modernization (uzdaily/kun.uz) mentions FANUC robots in press shop and maintenance of 'robotic systems' in the paint shop without naming vendors; GM Korea Changwon paint shop (2021) uses 78 Dürr robots. Equipment below is REPRESENTATIVE, not confirmed for Asaka."
+ },
+ {
+  "id": 10,
+  "manufacturer": "Uncertain: same supplier as CR-100 (Uz-DongJu Paint or KCC)",
+  "product_identified": "Primer type thinner (KR-RHT-051) - not publicly documented",
+  "manufacturer_confidence": "low",
+  "material_docs": [],
+  "equipment": [
+   {
+    "vendor": "Dürr",
+    "model": "EcoSupply2 Core / paint mix room",
+    "role": "Viscosity adjustment of the parent paint in mix tank before circulation",
+    "rationale": "Reducer thinners are dosed into paint at the mix room, not sprayed on their own. Representative.",
+    "confidence": "medium"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoBell3 color changer / atomizer flush",
+    "role": "Secondary: line/atomizer flushing solvent at color change",
+    "rationale": "Same solvent family often used for purge. Representative.",
+    "confidence": "low"
+   }
+  ],
+  "equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "EcoSupply2 Core",
+    "type": "datasheet",
+    "title": "Dürr EcoSupply2 Core (paint supply unit for mix room)",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-supply-2-core.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoBell3",
+    "type": "datasheet",
+    "title": "Dürr datasheet EcoBell3 (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
+   }
+  ],
+  "notes": "Thinner specs KR-RHT-xxx / KR-RBT-xxx not found publicly; thinners are supplied by the same paint system supplier (Uz-DongJu/KCC hypothesis). No public TDS/SDS found for exact thinner. Only plant-specific evidence found: 2023 Asaka modernization (uzdaily/kun.uz) mentions FANUC robots in press shop and maintenance of 'robotic systems' in the paint shop without naming vendors; GM Korea Changwon paint shop (2021) uses 78 Dürr robots. Equipment below is REPRESENTATIVE, not confirmed for Asaka."
+ },
+ {
+  "id": 23,
+  "manufacturer": "Uncertain: basecoat supplier (Uz-DongJu Paint or KCC)",
+  "product_identified": "Base type thinner for metallic basecoat (KR-RHT-031) - not publicly documented",
+  "manufacturer_confidence": "low",
+  "material_docs": [],
+  "equipment": [
+   {
+    "vendor": "Dürr",
+    "model": "EcoSupply2 Core / paint mix room",
+    "role": "Viscosity adjustment of the parent paint in mix tank before circulation",
+    "rationale": "Reducer thinners are dosed into paint at the mix room, not sprayed on their own. Representative.",
+    "confidence": "medium"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoBell3 color changer / atomizer flush",
+    "role": "Secondary: line/atomizer flushing solvent at color change",
+    "rationale": "Same solvent family often used for purge. Representative.",
+    "confidence": "low"
+   }
+  ],
+  "equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "EcoSupply2 Core",
+    "type": "datasheet",
+    "title": "Dürr EcoSupply2 Core (paint supply unit for mix room)",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-supply-2-core.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoBell3",
+    "type": "datasheet",
+    "title": "Dürr datasheet EcoBell3 (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
+   }
+  ],
+  "notes": "Thinner specs KR-RHT-xxx / KR-RBT-xxx not found publicly; thinners are supplied by the same paint system supplier (Uz-DongJu/KCC hypothesis). No public TDS/SDS found for exact thinner. Same SAP/spec as item 26 (cleaning thinner); likely one solvent used both as reducer and flush. Only plant-specific evidence found: 2023 Asaka modernization (uzdaily/kun.uz) mentions FANUC robots in press shop and maintenance of 'robotic systems' in the paint shop without naming vendors; GM Korea Changwon paint shop (2021) uses 78 Dürr robots. Equipment below is REPRESENTATIVE, not confirmed for Asaka."
+ },
+ {
+  "id": 24,
+  "manufacturer": "Uncertain: Uz-DongJu Paint or KCC; name resembles PPG 'HiTech' 1K OEM clearcoat",
+  "product_identified": "TOP CLEAR HITEC 2000, 1K solventborne OEM clearcoat (KR-ABT-600U) - exact product not publicly documented",
+  "manufacturer_confidence": "low",
+  "material_docs": [
+   {
+    "type": "brochure",
+    "title": "PPG Automotive OEM clearcoats page (lists HiTech 1K medium-solids clearcoat)",
+    "url": "https://www.ppg.com/en-US/autocoatings/products/clearcoats",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only. HTML page, not PDF. Name similarity only; no evidence PPG supplies Asaka."
+   },
+   {
+    "type": "TDS",
+    "title": "KCC 5200 HS CLEAR DATA-SHEET",
+    "url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F202301250054173eng.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only. KCC 2K refinish clear on manufacturer site; loose family equivalent, not OEM 1K."
+   }
+  ],
+  "equipment": [
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i + EcoBell3 (direct charge)",
+    "role": "Electrostatic rotary-bell application of clearcoat (typically 2 bell stations over basecoat)",
+    "rationale": "Solventborne 1K OEM surfacer/clear applied by electrostatic rotary bell on 7-axis paint robots; Dürr is GM Korea's recent paint-shop equipment supplier (Changwon). Representative.",
+    "confidence": "medium"
+   },
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500 FlexPainter + RB1000i",
+    "role": "Electrostatic rotary-bell application of clearcoat (typically 2 bell stations over basecoat) (alternative)",
+    "rationale": "Industry-standard alternative bell/robot package for exterior body painting. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB",
+    "role": "Electrostatic rotary-bell application of clearcoat (typically 2 bell stations over basecoat) (alternative)",
+    "rationale": "FANUC robots documented at Asaka (press shop, 2023); FANUC paint robot is plausible if paint shop also FANUC. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoSupply2 Core / paint mix room circulation",
+    "role": "Paint kitchen: drum unloading, agitation, viscosity adjustment, circulation to booth",
+    "rationale": "220/190 L drums are fed via mix-room pumps and circulation loops to color changers. Representative.",
+    "confidence": "low"
+   }
+  ],
+  "equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i",
+    "type": "datasheet",
+    "title": "Dürr datasheet EcoRP E043i (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoBell3",
+    "type": "datasheet",
+    "title": "Dürr datasheet EcoBell3 (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
+   },
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500 FlexPainter",
+    "type": "brochure",
+    "title": "IRB5500 Flex RP50010EN Rev.G",
+    "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
+   },
+   {
+    "vendor": "ABB",
+    "model": "IRB 5500-22",
+    "type": "datasheet",
+    "title": "IRB 5500-22 Datasheet US Letter",
+    "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "brochure",
+    "title": "RB1000i Series Presentation",
+    "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only. Presentation incl. data sheet section; no standalone RB1000 datasheet PDF found."
+   },
+   {
+    "vendor": "FANUC",
+    "model": "P-250iB",
+    "type": "datasheet",
+    "title": "FANUC P-250iB catalog RP-250iB(E)-02a",
+    "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoSupply2 Core",
+    "type": "datasheet",
+    "title": "Dürr EcoSupply2 Core (paint supply unit for mix room)",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-supply-2-core.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
+   }
+  ],
+  "notes": "No public match for 'HITEC 2000' (searched EN/KR). PPG markets 'HiTech' 1K medium-solids OEM clearcoat compatible with solvent/waterborne basecoats - closest name match, possibly a licensed technology, unconfirmed. Only plant-specific evidence found: 2023 Asaka modernization (uzdaily/kun.uz) mentions FANUC robots in press shop and maintenance of 'robotic systems' in the paint shop without naming vendors; GM Korea Changwon paint shop (2021) uses 78 Dürr robots. Equipment below is REPRESENTATIVE, not confirmed for Asaka."
+ },
+ {
+  "id": 25,
+  "manufacturer": "Uncertain: same supplier as TOP CLEAR HITEC 2000",
+  "product_identified": "Clear thinner (KR-RBT-029) - not publicly documented",
+  "manufacturer_confidence": "low",
+  "material_docs": [],
+  "equipment": [
+   {
+    "vendor": "Dürr",
+    "model": "EcoSupply2 Core / paint mix room",
+    "role": "Viscosity adjustment of clearcoat in mix tank",
+    "rationale": "Reducer thinners are dosed into paint at the mix room, not sprayed on their own. Representative.",
+    "confidence": "medium"
+   }
+  ],
+  "equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "EcoSupply2 Core",
+    "type": "datasheet",
+    "title": "Dürr EcoSupply2 Core (paint supply unit for mix room)",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-supply-2-core.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
+   }
+  ],
+  "notes": "Thinner specs KR-RHT-xxx / KR-RBT-xxx not found publicly; thinners are supplied by the same paint system supplier (Uz-DongJu/KCC hypothesis). No public TDS/SDS found for exact thinner. Only plant-specific evidence found: 2023 Asaka modernization (uzdaily/kun.uz) mentions FANUC robots in press shop and maintenance of 'robotic systems' in the paint shop without naming vendors; GM Korea Changwon paint shop (2021) uses 78 Dürr robots. Equipment below is REPRESENTATIVE, not confirmed for Asaka."
+ },
+ {
+  "id": 26,
+  "manufacturer": "Uncertain: same as item 23 (identical SAP RAC07130 / spec KR-RHT-031)",
+  "product_identified": "Cleaning thinner (purge/flush solvent) - not publicly documented",
+  "manufacturer_confidence": "low",
+  "material_docs": [],
+  "equipment": [
+   {
+    "vendor": "Dürr",
+    "model": "EcoBell3 color changer + EcoBell Cleaner D2 / PurgeBox",
+    "role": "Atomizer/color-changer purge and automatic bell-cup cleaning",
+    "rationale": "Cleaning solvent is fed via solvent supply line to color changers and bell cleaning stations; Cleaner D2 handles 1K/2K solvent-based cleaning. Representative.",
+    "confidence": "medium"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Paint mix room solvent supply loop",
+    "role": "Solvent circulation + manual gun/line cleaning, waste solvent collection for recovery",
+    "rationale": "Plant-wide flush solvent distribution; spent solvent typically sent to a solvent recovery (distillation) unit - vendor not identified.",
+    "confidence": "low"
+   }
+  ],
+  "equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "EcoBell Cleaner D2 / EcoBell PurgeBox",
+    "type": "datasheet",
+    "title": "Dürr datasheet EcoBell Cleaner D2 + EcoBell PurgeBox (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/03_Atomizer_Cleaning/duerr-datasheet-ecobell-cleander-d2-ecobell-purgebox-en.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only. (sic 'cleander' in Dürr filename)"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoBell3",
+    "type": "datasheet",
+    "title": "Dürr datasheet EcoBell3 (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoSupply2 Core",
+    "type": "datasheet",
+    "title": "Dürr EcoSupply2 Core (paint supply unit for mix room)",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-supply-2-core.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
+   }
+  ],
+  "notes": "Source data shows same SAP+spec as BASE TYPE THINNER, suggesting one solvent serves as reducer and cleaning solvent. No solvent-recovery unit datasheet located. Only plant-specific evidence found: 2023 Asaka modernization (uzdaily/kun.uz) mentions FANUC robots in press shop and maintenance of 'robotic systems' in the paint shop without naming vendors; GM Korea Changwon paint shop (2021) uses 78 Dürr robots. Equipment below is REPRESENTATIVE, not confirmed for Asaka."
+ }
+]
