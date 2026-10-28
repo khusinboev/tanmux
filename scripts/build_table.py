@@ -9,6 +9,7 @@ from __future__ import annotations
 import json
 import re
 import sys
+import unicodedata
 from pathlib import Path
 from typing import Any
 from urllib.parse import urlparse
@@ -27,32 +28,51 @@ MATERIAL_DIR = "pdf/materials"
 EQUIPMENT_DIR = "pdf/equipment"
 
 
+PDF_URL_HINTS = ("getdocument", "/purl/", "msds.ford.com/documents")
+
+
 def slug(text: str, max_len: int = 60) -> str:
-    cleaned = re.sub(r"[^A-Za-z0-9]+", "_", text).strip("_")
+    ascii_text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode()
+    cleaned = re.sub(r"[^A-Za-z0-9]+", "_", ascii_text).strip("_")
     return cleaned[:max_len].rstrip("_") or "NA"
 
 
-def material_filename(item: dict[str, Any], doc: dict[str, Any], seq: int) -> str:
-    suffix = f"_{seq}" if seq > 1 else ""
+def is_pdf_url(url: str) -> bool:
+    lowered = url.lower()
+    return urlparse(lowered).path.endswith(".pdf") or any(h in lowered for h in PDF_URL_HINTS)
+
+
+class FileNamer:
+    """Assign one normalized file name per unique URL; HTML pages get no file."""
+
+    def __init__(self) -> None:
+        self._by_url: dict[str, str] = {}
+        self._taken: set[str] = set()
+
+    def assign(self, url: str, base: str, folder: str) -> str | None:
+        if not is_pdf_url(url):
+            return None
+        if url in self._by_url:
+            return self._by_url[url]
+        name, seq = f"{base}.pdf", 1
+        while name in self._taken:
+            seq += 1
+            name = f"{base}_{seq}.pdf"
+        self._taken.add(name)
+        self._by_url[url] = f"{folder}/{name}"
+        return self._by_url[url]
+
+
+def material_base(item: dict[str, Any], doc: dict[str, Any]) -> str:
     exactness = "" if doc.get("exact_or_equivalent", "exact") == "exact" else "_EQUIV"
+    return f"M{item['id']:02d}_{slug(item['name'])}_{slug(doc.get('type', 'DOC'), 10)}{exactness}"
+
+
+def equipment_base(doc: dict[str, Any]) -> str:
     return (
-        f"M{item['id']:02d}_{slug(item['name'])}_{slug(doc.get('type', 'DOC'), 10)}"
-        f"{exactness}{suffix}.pdf"
-    )
-
-
-def equipment_filename(doc: dict[str, Any], used: dict[str, str]) -> str:
-    """Name equipment PDFs by vendor/model; same URL shares a file across materials."""
-    base = (
         f"EQ_{slug(doc.get('vendor', ''), 20)}_{slug(doc.get('model', ''), 40)}"
         f"_{slug(doc.get('type', 'DOC'), 12)}"
     )
-    url = doc["url"]
-    name = f"{base}.pdf"
-    if used.get(name, url) != url:
-        name = f"{base}_{slug(Path(urlparse(url).path).stem, 20)}.pdf"
-    used[name] = url
-    return name
 
 
 def load_research(research_dir: Path) -> dict[int, dict[str, Any]]:
@@ -70,22 +90,17 @@ def build_catalog(research_dir: Path) -> list[dict[str, Any]]:
     if missing:
         raise SystemExit(f"Research missing for material ids: {missing}")
 
-    used_equipment_names: dict[str, str] = {}
+    namer = FileNamer()
     catalog: list[dict[str, Any]] = []
     for item in materials:
         found = research[item["id"]]
-        per_type: dict[str, int] = {}
-        material_docs = []
-        for doc in found.get("material_docs", []):
-            if not doc.get("url"):
-                continue
-            key = doc.get("type", "DOC")
-            per_type[key] = per_type.get(key, 0) + 1
-            material_docs.append(
-                {**doc, "file": f"{MATERIAL_DIR}/{material_filename(item, doc, per_type[key])}"}
-            )
+        material_docs = [
+            {**doc, "file": namer.assign(doc["url"], material_base(item, doc), MATERIAL_DIR)}
+            for doc in found.get("material_docs", [])
+            if doc.get("url")
+        ]
         equipment_docs = [
-            {**doc, "file": f"{EQUIPMENT_DIR}/{equipment_filename(doc, used_equipment_names)}"}
+            {**doc, "file": namer.assign(doc["url"], equipment_base(doc), EQUIPMENT_DIR)}
             for doc in found.get("equipment_docs", [])
             if doc.get("url")
         ]
@@ -105,9 +120,11 @@ def file_cell(docs: list[dict[str, Any]], status: dict[str, str]) -> str:
         return "Ochiq manbada topilmadi"
     lines = []
     for doc in docs:
+        if doc["file"] is None:
+            lines.append(f"[veb-sahifa, PDF emas] {doc['url']}")
+            continue
         name = Path(doc["file"]).name
-        state = status.get(doc["file"])
-        mark = "" if state == "ok" else " (yuklanmagan)"
+        mark = "" if status.get(doc["file"]) == "ok" else " (yuklanmagan)"
         lines.append(name + mark)
     return "\n".join(dict.fromkeys(lines))
 
@@ -160,10 +177,11 @@ def write_xlsx(catalog: list[dict[str, Any]]) -> None:
             for doc in docs:
                 detail.append([
                     item["id"], item["name"], f"{kind}: {doc.get('type', '')}",
-                    Path(doc["file"]).name, doc["url"],
+                    Path(doc["file"]).name if doc["file"] else "(veb-sahifa)", doc["url"],
                     doc.get("exact_or_equivalent", "-"),
                     "ha" if doc.get("verified") else "yo'q",
-                    status.get(doc["file"], "yuklanmagan"), doc.get("note", ""),
+                    status.get(doc["file"], "yuklanmagan") if doc["file"] else "-",
+                    doc.get("note", ""),
                 ])
     style_sheet(detail, [5, 35, 18, 50, 60, 14, 12, 14, 50])
 

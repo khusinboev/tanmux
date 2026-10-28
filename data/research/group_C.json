@@ -13,7 +13,7 @@
     "language": "EN",
     "exact_or_equivalent": "equivalent",
     "verified": false,
-    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours."
    },
    {
     "type": "TDS",
@@ -159,7 +159,7 @@
     "language": "EN",
     "exact_or_equivalent": "equivalent",
     "verified": false,
-    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours."
    },
    {
     "type": "TDS",
@@ -294,7 +294,7 @@
  {
   "id": 13,
   "manufacturer": "Most likely JV 'Uz-DongJu Paint Co.' (Asaka; UzAvtosanoat + Korean partner DongJu Industrial/KION International; technical partner YoungShin Chemicals) - unconfirmed; KCC Corporation is a plausible alternative (Korea's largest OEM paint maker; KCC signed a 2025 automotive paint plant agreement with Uzbekistan)",
-  "product_identified": "OEM solvent-borne basecoat, GM colour GD8 Burnt Coconut Metallic, GM Korea-style material spec KR-ADM-254 (180 L drum), 2-coat-1-bake (basecoat + clearcoat) system",
+  "product_identified": "GM colour 'Burnt Coconut Metallic' (GM Korea code 476A); source label GD8 (in GM global lists GD8 = Buick Coconut Pearl)",
   "gm_color_code_check": "Name 'Burnt Coconut Metallic' confirmed as a GM Korea (Daewoo-origin) colour, WA476A / '476A', used on Chevrolet Spark and Captiva (walmart.com ABP listing). GD8 RPO not found in public databases; likely regional GM Korea/UzAuto RPO.",
   "manufacturer_confidence": "low",
   "material_docs": [
@@ -305,7 +305,7 @@
     "language": "EN",
     "exact_or_equivalent": "equivalent",
     "verified": false,
-    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours."
    },
    {
     "type": "TDS",
@@ -451,7 +451,7 @@
     "language": "EN",
     "exact_or_equivalent": "equivalent",
     "verified": false,
-    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours."
    },
    {
     "type": "TDS",
@@ -597,7 +597,7 @@
     "language": "EN",
     "exact_or_equivalent": "equivalent",
     "verified": false,
-    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours."
    },
    {
     "type": "TDS",
@@ -743,7 +743,7 @@
     "language": "EN",
     "exact_or_equivalent": "equivalent",
     "verified": false,
-    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours."
    },
    {
     "type": "TDS",
@@ -878,7 +878,7 @@
  {
   "id": 17,
   "manufacturer": "Most likely JV 'Uz-DongJu Paint Co.' (Asaka; UzAvtosanoat + Korean partner DongJu Industrial/KION International; technical partner YoungShin Chemicals) - unconfirmed; KCC Corporation is a plausible alternative (Korea's largest OEM paint maker; KCC signed a 2025 automotive paint plant agreement with Uzbekistan)",
-  "product_identified": "OEM solvent-borne basecoat, GM colour GL8 Red-E or Not Red Metallic, GM Korea-style material spec KR-ADM-122 (180 L drum), 2-coat-1-bake (basecoat + clearcoat) system",
+  "product_identified": "GM colour 'Red-E or Not Red Metallic' (GM codes GN6/WA454B; GX8 per PaintScratch); source label GL8 (GL8 in GM Spark list = Burning Hott Metallic 3)",
   "gm_color_code_check": "Name confirmed: paintscratch.com lists 'Red-E or Not Red' under code GX8 (US). GL8 not found publicly; may be a regional/plant RPO or a transcription variant of GX8. 'MET-3' = Metallic 3 formula variant.",
   "manufacturer_confidence": "low",
   "material_docs": [
@@ -889,7 +889,7 @@
     "language": "EN",
     "exact_or_equivalent": "equivalent",
     "verified": false,
-    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours."
    },
    {
     "type": "TDS",
@@ -1035,7 +1035,7 @@
     "language": "EN",
     "exact_or_equivalent": "equivalent",
     "verified": false,
-    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours."
    },
    {
     "type": "TDS",
@@ -1181,7 +1181,7 @@
     "language": "EN",
     "exact_or_equivalent": "equivalent",
     "verified": false,
-    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours."
    },
    {
     "type": "TDS",
@@ -1316,7 +1316,7 @@
  {
   "id": 20,
   "manufacturer": "Most likely JV 'Uz-DongJu Paint Co.' (Asaka; UzAvtosanoat + Korean partner DongJu Industrial/KION International; technical partner YoungShin Chemicals) - unconfirmed; KCC Corporation is a plausible alternative (Korea's largest OEM paint maker; KCC signed a 2025 automotive paint plant agreement with Uzbekistan)",
-  "product_identified": "OEM solvent-borne basecoat, GM colour GZ8 Some Kinda Blue Metallic, GM Korea-style material spec KR-ADM-512U (180 L drum), 2-coat-1-bake (basecoat + clearcoat) system",
+  "product_identified": "GM colour 'Some Kinda Blue' (GM code GAO / WA619D); source label GZ8",
   "gm_color_code_check": "Name confirmed: US code for Some Kinda Blue is GA0/'GAO' (WA619D) per paintscratch.com. GZ8 not found publicly; likely regional GM Korea/UzAuto RPO variant.",
   "manufacturer_confidence": "low",
   "material_docs": [
@@ -1327,7 +1327,7 @@
     "language": "EN",
     "exact_or_equivalent": "equivalent",
     "verified": false,
-    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours."
    },
    {
     "type": "TDS",
@@ -1473,7 +1473,7 @@
     "language": "EN",
     "exact_or_equivalent": "equivalent",
     "verified": false,
-    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours."
    },
    {
     "type": "TDS",
@@ -1619,7 +1619,7 @@
     "language": "EN",
     "exact_or_equivalent": "equivalent",
     "verified": false,
-    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours."
    },
    {
     "type": "TDS",

@@ -33,13 +33,13 @@
      "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Competitor equivalent (Henkel), not PPG; Jan 2020 revision."
     },
     {
-     "type": "TDS",
-     "title": "CHEMFOS KA datasheet (PPG TrueFinish iron phosphate) - GlobalSpec",
-     "url": "https://datasheets.globalspec.com/ds/ppg-industries/chemfos-ka/e98a892a-e888-4e62-ba8b-177307e1c5ec",
+     "type": "brochure",
+     "title": "PPG automotive pretreatment (CHEMFOS tri-cation zinc phosphate)",
+     "url": "https://www.ppg.com/en-US/autocoatings/products/pretreatment",
      "language": "en",
      "exact_or_equivalent": "equivalent",
      "verified": false,
-     "note": "Web page, not PDF. Iron phosphate for general industry - confirms CHEMFOS brand but NOT a functional equivalent of automotive zinc phosphate."
+     "note": "HTML product page (brand/process confirmation)"
     }
    ],
    "equipment": [
@@ -66,7 +66,7 @@
      "title": "brochure ecopaint wetsystem (Dürr PT/EC, hosted on olpidurr.it)",
      "url": "https://www.olpidurr.it/fileadmin/olpidurr.it/01_Products/01_Paint_Shops/03_PT_EC/01_Bath_Cleaning/02_EcoMultiCyclone/brochure-ecopaint-wetsystem.pdf",
      "verified": false,
-     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Path suggests PT/EC bath-cleaning/wet-system brochure; RoDip described per search summary."
+     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Path suggests PT/EC bath-cleaning/wet-system brochure; RoDip described per search summary. Reviewer: general Ecopaint WetSystem PT/ED brochure, not RoDip-specific."
     }
    ],
    "notes": "No public reference to 'CHEMFOS 740R' found; PPG automotive zinc phosphates are the CHEMFOS 700 series (e.g. 700/710 with Versa Bond rinse conditioner). Spec KR-JFR-740 matches GM Korea numbering; governing GM global spec is GMW3011 (zinc phosphate conversion coatings). PPG SDS portal (ppg.com) blocked for fetch. Local context: JV Uz-Dongju Paint Co (Asaka/Uzbekistan; UzAvtosanoat + Korean DongJu/KION) was set up to supply UzAuto with pretreatment chemicals (3750 t/yr), sealants (1250 t/yr) and automotive paints, and its 2024 privatisation required keeping GM-standard compliance. It is a plausible local maker/distributor of the RSB/RSU sealers and possibly pretreatment/ED materials (unconfirmed; uzdongju.uz not reachable from this session)."
@@ -93,14 +93,14 @@
     "file": "pdf/materials/M01_CHEMFOS_740R_TDS_EQUIV.pdf"
    },
    {
-    "type": "TDS",
-    "title": "CHEMFOS KA datasheet (PPG TrueFinish iron phosphate) - GlobalSpec",
-    "url": "https://datasheets.globalspec.com/ds/ppg-industries/chemfos-ka/e98a892a-e888-4e62-ba8b-177307e1c5ec",
+    "type": "brochure",
+    "title": "PPG automotive pretreatment (CHEMFOS tri-cation zinc phosphate)",
+    "url": "https://www.ppg.com/en-US/autocoatings/products/pretreatment",
     "language": "en",
     "exact_or_equivalent": "equivalent",
     "verified": false,
-    "note": "Web page, not PDF. Iron phosphate for general industry - confirms CHEMFOS brand but NOT a functional equivalent of automotive zinc phosphate.",
-    "file": "pdf/materials/M01_CHEMFOS_740R_TDS_EQUIV_2.pdf"
+    "note": "HTML product page (brand/process confirmation)",
+    "file": null
    }
   ],
   "equipment_docs": [
@@ -111,8 +111,8 @@
     "title": "brochure ecopaint wetsystem (Dürr PT/EC, hosted on olpidurr.it)",
     "url": "https://www.olpidurr.it/fileadmin/olpidurr.it/01_Products/01_Paint_Shops/03_PT_EC/01_Bath_Cleaning/02_EcoMultiCyclone/brochure-ecopaint-wetsystem.pdf",
     "verified": false,
-    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Path suggests PT/EC bath-cleaning/wet-system brochure; RoDip described per search summary.",
-    "file": "pdf/equipment/EQ_D_rr_Ecopaint_RoDip_PT_ED_rotary_dip_brochure.pdf"
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Path suggests PT/EC bath-cleaning/wet-system brochure; RoDip described per search summary. Reviewer: general Ecopaint WetSystem PT/ED brochure, not RoDip-specific.",
+    "file": "pdf/equipment/EQ_Durr_Ecopaint_RoDip_PT_ED_rotary_dip_brochure.pdf"
    }
   ]
  },
@@ -204,7 +204,7 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Web page, not PDF. ppg.com blocked for WebFetch in this session. Equivalent product family only.",
-    "file": "pdf/materials/M02_ED7010_Binder_Gray_brochure_EQUIV.pdf"
+    "file": null
    },
    {
     "type": "brochure",
@@ -214,7 +214,7 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Web page, not PDF; KCC states it supplies ED coat for OEM. Trade-data shows KCC exporting 'ED binder' and 'ED pigment paste' (matching binder/paste split) but not tied to ED7010.",
-    "file": "pdf/materials/M02_ED7010_Binder_Gray_brochure_EQUIV_2.pdf"
+    "file": null
    }
   ],
   "equipment_docs": [
@@ -226,7 +226,7 @@
     "url": "https://www.olpidurr.it/fileadmin/olpidurr.it/01_Products/01_Paint_Shops/03_PT_EC/01_Bath_Cleaning/02_EcoMultiCyclone/brochure-ecopaint-wetsystem.pdf",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Path suggests PT/EC bath-cleaning/wet-system brochure; RoDip described per search summary.",
-    "file": "pdf/equipment/EQ_D_rr_Ecopaint_RoDip_PT_ED_rotary_dip_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_Ecopaint_RoDip_PT_ED_rotary_dip_brochure.pdf"
    },
    {
     "vendor": "Controlled Power Company",
@@ -328,7 +328,7 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Web page, not PDF. ppg.com blocked for WebFetch in this session. Equivalent product family only.",
-    "file": "pdf/materials/M03_ED7010_Paste_Gray_brochure_EQUIV.pdf"
+    "file": null
    },
    {
     "type": "brochure",
@@ -338,7 +338,7 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Web page, not PDF; KCC states it supplies ED coat for OEM. Trade-data shows KCC exporting 'ED binder' and 'ED pigment paste' (matching binder/paste split) but not tied to ED7010.",
-    "file": "pdf/materials/M03_ED7010_Paste_Gray_brochure_EQUIV_2.pdf"
+    "file": null
    }
   ],
   "equipment_docs": [
@@ -350,7 +350,7 @@
     "url": "https://www.olpidurr.it/fileadmin/olpidurr.it/01_Products/01_Paint_Shops/03_PT_EC/01_Bath_Cleaning/02_EcoMultiCyclone/brochure-ecopaint-wetsystem.pdf",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Path suggests PT/EC bath-cleaning/wet-system brochure; RoDip described per search summary.",
-    "file": "pdf/equipment/EQ_D_rr_Ecopaint_RoDip_PT_ED_rotary_dip_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_Ecopaint_RoDip_PT_ED_rotary_dip_brochure.pdf"
    },
    {
     "vendor": "Controlled Power Company",
@@ -445,7 +445,7 @@
      "title": "duerr datsheet endless dosing en",
      "url": "https://www.durr.com/fileadmin/durr.com/01_Products/05_Sealing_Gluing_Technology/03_Gluing_Application_Technology_Battery_Systems/duerr-datsheet-endless-dosing-en.pdf",
      "verified": false,
-     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Covers EcoShotMeter Tandem piston dosing + EcoMeter SP."
+     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Covers EcoShotMeter Tandem piston dosing + EcoMeter SP. Reviewer: EcoShotMeter Tandem sheet filed under battery gluing - weak match."
     },
     {
      "vendor": "Graco",
@@ -499,7 +499,7 @@
     "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6853RU-G.pdf",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Russian translation, useful for plant staff.",
-    "file": "pdf/equipment/EQ_Graco_E_Flo_SP_supply_systems_manual_3A6853RU_G.pdf"
+    "file": "pdf/equipment/EQ_Graco_E_Flo_SP_supply_systems_manual_2.pdf"
    },
    {
     "vendor": "Dürr",
@@ -508,8 +508,8 @@
     "title": "duerr datsheet endless dosing en",
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/05_Sealing_Gluing_Technology/03_Gluing_Application_Technology_Battery_Systems/duerr-datsheet-endless-dosing-en.pdf",
     "verified": false,
-    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Covers EcoShotMeter Tandem piston dosing + EcoMeter SP.",
-    "file": "pdf/equipment/EQ_D_rr_EcoShotMeter_Tandem_EcoMeter_SP_datasheet.pdf"
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Covers EcoShotMeter Tandem piston dosing + EcoMeter SP. Reviewer: EcoShotMeter Tandem sheet filed under battery gluing - weak match.",
+    "file": "pdf/equipment/EQ_Durr_EcoShotMeter_Tandem_EcoMeter_SP_datasheet.pdf"
    },
    {
     "vendor": "Graco",
@@ -595,6 +595,13 @@
      "role": "Alternative electronically controlled sealant metering/dispense package",
      "rationale": "Legacy Graco sealer dosing common on older GM lines (UzAuto paint shop dates from 1996, modernised later).",
      "confidence": "low"
+    },
+    {
+     "vendor": "Graco / Dürr",
+     "model": "Robotic airless / flat-stream spray package (e.g. Graco King airless pump + robot airless gun)",
+     "role": "PVC underbody / anti-chip spray application",
+     "rationale": "Underbody coat and anti-chip PVC plastisol is normally sprayed airless or flat-stream by robots; added after independent review. No public datasheet confirmed.",
+     "confidence": "low"
     }
    ],
    "equipment_docs": [
@@ -655,7 +662,7 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Web page (SDS viewer), not direct PDF; equivalent PVC-underbody coating.",
-    "file": "pdf/materials/M05_UBC_UNDER_COAT_RSU_230_SDS_EQUIV.pdf"
+    "file": null
    },
    {
     "type": "brochure",
@@ -665,7 +672,7 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Web page, not PDF.",
-    "file": "pdf/materials/M05_UBC_UNDER_COAT_RSU_230_brochure_EQUIV.pdf"
+    "file": null
    }
   ],
   "equipment_docs": [
@@ -687,7 +694,7 @@
     "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6853RU-G.pdf",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Russian translation, useful for plant staff.",
-    "file": "pdf/equipment/EQ_Graco_E_Flo_SP_supply_systems_manual_3A6853RU_G.pdf"
+    "file": "pdf/equipment/EQ_Graco_E_Flo_SP_supply_systems_manual_2.pdf"
    },
    {
     "vendor": "Dürr",
@@ -697,7 +704,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/05_Sealing_Gluing_Technology/03_Gluing_Application_Technology_Battery_Systems/duerr-datsheet-endless-dosing-en.pdf",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Covers EcoShotMeter Tandem piston dosing + EcoMeter SP.",
-    "file": "pdf/equipment/EQ_D_rr_EcoShotMeter_Tandem_EcoMeter_SP_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoShotMeter_Tandem_EcoMeter_SP_datasheet.pdf"
    },
    {
     "vendor": "Graco",
@@ -774,6 +781,13 @@
      "role": "Alternative electronically controlled sealant metering/dispense package",
      "rationale": "Legacy Graco sealer dosing common on older GM lines (UzAuto paint shop dates from 1996, modernised later).",
      "confidence": "low"
+    },
+    {
+     "vendor": "Graco / Dürr",
+     "model": "Robotic airless / flat-stream spray package (e.g. Graco King airless pump + robot airless gun)",
+     "role": "PVC underbody / anti-chip spray application",
+     "rationale": "Underbody coat and anti-chip PVC plastisol is normally sprayed airless or flat-stream by robots; added after independent review. No public datasheet confirmed.",
+     "confidence": "low"
     }
    ],
    "equipment_docs": [
@@ -834,7 +848,7 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Web page (SDS viewer), not direct PDF.",
-    "file": "pdf/materials/M06_UBS_COAT_SDS_EQUIV.pdf"
+    "file": null
    }
   ],
   "equipment_docs": [
@@ -856,7 +870,7 @@
     "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6853RU-G.pdf",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Russian translation, useful for plant staff.",
-    "file": "pdf/equipment/EQ_Graco_E_Flo_SP_supply_systems_manual_3A6853RU_G.pdf"
+    "file": "pdf/equipment/EQ_Graco_E_Flo_SP_supply_systems_manual_2.pdf"
    },
    {
     "vendor": "Dürr",
@@ -866,7 +880,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/05_Sealing_Gluing_Technology/03_Gluing_Application_Technology_Battery_Systems/duerr-datsheet-endless-dosing-en.pdf",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Covers EcoShotMeter Tandem piston dosing + EcoMeter SP.",
-    "file": "pdf/equipment/EQ_D_rr_EcoShotMeter_Tandem_EcoMeter_SP_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoShotMeter_Tandem_EcoMeter_SP_datasheet.pdf"
    },
    {
     "vendor": "Graco",
@@ -914,15 +928,6 @@
      "exact_or_equivalent": "equivalent",
      "verified": false,
      "note": "Web page, not PDF."
-    },
-    {
-     "type": "PDS",
-     "title": "Sikagard-6682 PDS (US) - water-based sound deadening & anti-chip underbody coating",
-     "url": "https://usa.sika.com/content/dam/dms/us01/5/pds-ipd-sikagard%206682-US%20final%20%205.6.16.pdf",
-     "language": "en",
-     "exact_or_equivalent": "equivalent",
-     "verified": false,
-     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Anti-chip function equivalent but WATER-BASED (not PVC) - weak equivalent."
     }
    ],
    "equipment": [
@@ -952,6 +957,13 @@
      "model": "PrecisionFlo XL",
      "role": "Alternative electronically controlled sealant metering/dispense package",
      "rationale": "Legacy Graco sealer dosing common on older GM lines (UzAuto paint shop dates from 1996, modernised later).",
+     "confidence": "low"
+    },
+    {
+     "vendor": "Graco / Dürr",
+     "model": "Robotic airless / flat-stream spray package (e.g. Graco King airless pump + robot airless gun)",
+     "role": "PVC underbody / anti-chip spray application",
+     "rationale": "Underbody coat and anti-chip PVC plastisol is normally sprayed airless or flat-stream by robots; added after independent review. No public datasheet confirmed.",
      "confidence": "low"
     }
    ],
@@ -1002,7 +1014,7 @@
      "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. German; general SCA dosing guide."
     }
    ],
-   "notes": "Anti-chip PVC is robot/airless-sprayed on sills/wheel arches (wet-on-wet before primer). Spec 'P8201' not found publicly. Source row was duplicated. Local context: JV Uz-Dongju Paint Co (Asaka/Uzbekistan; UzAvtosanoat + Korean DongJu/KION) was set up to supply UzAuto with pretreatment chemicals (3750 t/yr), sealants (1250 t/yr) and automotive paints, and its 2024 privatisation required keeping GM-standard compliance. It is a plausible local maker/distributor of the RSB/RSU sealers and possibly pretreatment/ED materials (unconfirmed; uzdongju.uz not reachable from this session)."
+   "notes": "Anti-chip PVC is robot/airless-sprayed on sills/wheel arches (wet-on-wet before primer). Spec 'P8201' not found publicly. Source row was duplicated. Local context: JV Uz-Dongju Paint Co (Asaka/Uzbekistan; UzAvtosanoat + Korean DongJu/KION) was set up to supply UzAuto with pretreatment chemicals (3750 t/yr), sealants (1250 t/yr) and automotive paints, and its 2024 privatisation required keeping GM-standard compliance. It is a plausible local maker/distributor of the RSB/RSU sealers and possibly pretreatment/ED materials (unconfirmed; uzdongju.uz not reachable from this session). | REVIEW: Sikagard-6682 removed (water-based sound deadener, not PVC anti-chip)."
   },
   "material_docs": [
    {
@@ -1013,17 +1025,7 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Web page, not PDF.",
-    "file": "pdf/materials/M07_PVC_ANTI_CHIP_brochure_EQUIV.pdf"
-   },
-   {
-    "type": "PDS",
-    "title": "Sikagard-6682 PDS (US) - water-based sound deadening & anti-chip underbody coating",
-    "url": "https://usa.sika.com/content/dam/dms/us01/5/pds-ipd-sikagard%206682-US%20final%20%205.6.16.pdf",
-    "language": "en",
-    "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Anti-chip function equivalent but WATER-BASED (not PVC) - weak equivalent.",
-    "file": "pdf/materials/M07_PVC_ANTI_CHIP_PDS_EQUIV.pdf"
+    "file": null
    }
   ],
   "equipment_docs": [
@@ -1045,7 +1047,7 @@
     "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6853RU-G.pdf",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Russian translation, useful for plant staff.",
-    "file": "pdf/equipment/EQ_Graco_E_Flo_SP_supply_systems_manual_3A6853RU_G.pdf"
+    "file": "pdf/equipment/EQ_Graco_E_Flo_SP_supply_systems_manual_2.pdf"
    },
    {
     "vendor": "Dürr",
@@ -1055,7 +1057,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/05_Sealing_Gluing_Technology/03_Gluing_Application_Technology_Battery_Systems/duerr-datsheet-endless-dosing-en.pdf",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Covers EcoShotMeter Tandem piston dosing + EcoMeter SP.",
-    "file": "pdf/equipment/EQ_D_rr_EcoShotMeter_Tandem_EcoMeter_SP_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoShotMeter_Tandem_EcoMeter_SP_datasheet.pdf"
    },
    {
     "vendor": "Graco",
@@ -1222,7 +1224,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only.",
-    "file": "pdf/equipment/EQ_D_rr_EcoRP_E043i_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoRP_E043i_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -1232,7 +1234,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only.",
-    "file": "pdf/equipment/EQ_D_rr_EcoBell3_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoBell3_datasheet.pdf"
    },
    {
     "vendor": "ABB",
@@ -1282,7 +1284,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-supply-2-core.pdf",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only.",
-    "file": "pdf/equipment/EQ_D_rr_EcoSupply2_Core_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoSupply2_Core_datasheet.pdf"
    }
   ]
  },
@@ -1417,7 +1419,7 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only. Third-party hosted copy; refinish product, not OEM line - loose equivalent only.",
-    "file": "pdf/materials/M09_CR_100_PRIMER_SURFACER_PURE_WHITE_N9_0_TDS_EQUIV.pdf"
+    "file": "pdf/materials/M08_CR_100_PRIMER_SURFACER_LIGHT_GRAY_N7_0_TDS_EQUIV.pdf"
    }
   ],
   "equipment_docs": [
@@ -1429,7 +1431,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only.",
-    "file": "pdf/equipment/EQ_D_rr_EcoRP_E043i_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoRP_E043i_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -1439,7 +1441,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only.",
-    "file": "pdf/equipment/EQ_D_rr_EcoBell3_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoBell3_datasheet.pdf"
    },
    {
     "vendor": "ABB",
@@ -1489,7 +1491,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-supply-2-core.pdf",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only.",
-    "file": "pdf/equipment/EQ_D_rr_EcoSupply2_Core_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoSupply2_Core_datasheet.pdf"
    }
   ]
  },
@@ -1556,7 +1558,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-supply-2-core.pdf",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only.",
-    "file": "pdf/equipment/EQ_D_rr_EcoSupply2_Core_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoSupply2_Core_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -1566,7 +1568,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only.",
-    "file": "pdf/equipment/EQ_D_rr_EcoBell3_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoBell3_datasheet.pdf"
    }
   ]
  },
@@ -1593,7 +1595,7 @@
      "language": "EN",
      "exact_or_equivalent": "equivalent",
      "verified": false,
-     "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+     "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours."
     },
     {
      "type": "TDS",
@@ -1733,7 +1735,7 @@
     "language": "EN",
     "exact_or_equivalent": "equivalent",
     "verified": false,
-    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items.",
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours.",
     "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_SDS_EQUIV.pdf"
    },
    {
@@ -1756,7 +1758,7 @@
     "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
     "verified": false,
     "note": "From search results; WebFetch blocked (library.e.abb.com not in allowed network).",
-    "file": "pdf/equipment/EQ_ABB_IRB_5500_22_23_datasheet.pdf"
+    "file": "pdf/equipment/EQ_ABB_IRB_5500_FlexPainter_brochure.pdf"
    },
    {
     "vendor": "ABB",
@@ -1776,7 +1778,7 @@
     "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
     "verified": false,
     "note": "From search results; fetch blocked. No dedicated RB1000-SSA datasheet found.",
-    "file": "pdf/equipment/EQ_ABB_RB1000i_series_brochure.pdf"
+    "file": "pdf/equipment/EQ_ABB_RB1000i_brochure.pdf"
    },
    {
     "vendor": "Dürr",
@@ -1786,7 +1788,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
     "verified": false,
     "note": "From search results; fetch blocked (www.durr.com). German version: duerr-datenblatt-ecobell3-de.pdf in same folder.",
-    "file": "pdf/equipment/EQ_D_rr_EcoBell3_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoBell3_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -1796,7 +1798,7 @@
     "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
     "verified": false,
     "note": "From search results; not fetched.",
-    "file": "pdf/equipment/EQ_D_rr_EcoMCC3_20_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoMCC3_20_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -1806,7 +1808,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
     "verified": false,
     "note": "From search results; slide deck, not formal datasheet. No EcoRP E043i datasheet found.",
-    "file": "pdf/equipment/EQ_D_rr_EcoSupply_P_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoSupply_P_brochure.pdf"
    },
    {
     "vendor": "FANUC",
@@ -1826,7 +1828,7 @@
     "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
     "verified": false,
     "note": "From search results; not fetched.",
-    "file": "pdf/equipment/EQ_FANUC_P_250iB_brochure.pdf"
+    "file": "pdf/equipment/EQ_FANUC_P_250iB_datasheet.pdf"
    }
   ]
  },
@@ -1853,7 +1855,7 @@
      "language": "EN",
      "exact_or_equivalent": "equivalent",
      "verified": false,
-     "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+     "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours."
     },
     {
      "type": "TDS",
@@ -1993,8 +1995,8 @@
     "language": "EN",
     "exact_or_equivalent": "equivalent",
     "verified": false,
-    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items.",
-    "file": "pdf/materials/M12_GK2_BASE_COAT_SON_OF_A_GUN_GRAY_MET_3_SDS_EQUIV.pdf"
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours.",
+    "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_SDS_EQUIV.pdf"
    },
    {
     "type": "TDS",
@@ -2004,7 +2006,7 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items.",
-    "file": "pdf/materials/M12_GK2_BASE_COAT_SON_OF_A_GUN_GRAY_MET_3_TDS_EQUIV.pdf"
+    "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_TDS_EQUIV.pdf"
    }
   ],
   "equipment_docs": [
@@ -2016,7 +2018,7 @@
     "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
     "verified": false,
     "note": "From search results; WebFetch blocked (library.e.abb.com not in allowed network).",
-    "file": "pdf/equipment/EQ_ABB_IRB_5500_22_23_datasheet.pdf"
+    "file": "pdf/equipment/EQ_ABB_IRB_5500_FlexPainter_brochure.pdf"
    },
    {
     "vendor": "ABB",
@@ -2036,7 +2038,7 @@
     "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
     "verified": false,
     "note": "From search results; fetch blocked. No dedicated RB1000-SSA datasheet found.",
-    "file": "pdf/equipment/EQ_ABB_RB1000i_series_brochure.pdf"
+    "file": "pdf/equipment/EQ_ABB_RB1000i_brochure.pdf"
    },
    {
     "vendor": "Dürr",
@@ -2046,7 +2048,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
     "verified": false,
     "note": "From search results; fetch blocked (www.durr.com). German version: duerr-datenblatt-ecobell3-de.pdf in same folder.",
-    "file": "pdf/equipment/EQ_D_rr_EcoBell3_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoBell3_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -2056,7 +2058,7 @@
     "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
     "verified": false,
     "note": "From search results; not fetched.",
-    "file": "pdf/equipment/EQ_D_rr_EcoMCC3_20_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoMCC3_20_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -2066,7 +2068,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
     "verified": false,
     "note": "From search results; slide deck, not formal datasheet. No EcoRP E043i datasheet found.",
-    "file": "pdf/equipment/EQ_D_rr_EcoSupply_P_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoSupply_P_brochure.pdf"
    },
    {
     "vendor": "FANUC",
@@ -2086,7 +2088,7 @@
     "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
     "verified": false,
     "note": "From search results; not fetched.",
-    "file": "pdf/equipment/EQ_FANUC_P_250iB_brochure.pdf"
+    "file": "pdf/equipment/EQ_FANUC_P_250iB_datasheet.pdf"
    }
   ]
  },
@@ -2102,7 +2104,7 @@
   "research": {
    "id": 13,
    "manufacturer": "Most likely JV 'Uz-DongJu Paint Co.' (Asaka; UzAvtosanoat + Korean partner DongJu Industrial/KION International; technical partner YoungShin Chemicals) - unconfirmed; KCC Corporation is a plausible alternative (Korea's largest OEM paint maker; KCC signed a 2025 automotive paint plant agreement with Uzbekistan)",
-   "product_identified": "OEM solvent-borne basecoat, GM colour GD8 Burnt Coconut Metallic, GM Korea-style material spec KR-ADM-254 (180 L drum), 2-coat-1-bake (basecoat + clearcoat) system",
+   "product_identified": "GM colour 'Burnt Coconut Metallic' (GM Korea code 476A); source label GD8 (in GM global lists GD8 = Buick Coconut Pearl)",
    "gm_color_code_check": "Name 'Burnt Coconut Metallic' confirmed as a GM Korea (Daewoo-origin) colour, WA476A / '476A', used on Chevrolet Spark and Captiva (walmart.com ABP listing). GD8 RPO not found in public databases; likely regional GM Korea/UzAuto RPO.",
    "manufacturer_confidence": "low",
    "material_docs": [
@@ -2113,7 +2115,7 @@
      "language": "EN",
      "exact_or_equivalent": "equivalent",
      "verified": false,
-     "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+     "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours."
     },
     {
      "type": "TDS",
@@ -2253,8 +2255,8 @@
     "language": "EN",
     "exact_or_equivalent": "equivalent",
     "verified": false,
-    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items.",
-    "file": "pdf/materials/M13_GD8_BASE_COAT_BURNT_COCONUTMET_SDS_EQUIV.pdf"
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours.",
+    "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_SDS_EQUIV.pdf"
    },
    {
     "type": "TDS",
@@ -2264,7 +2266,7 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items.",
-    "file": "pdf/materials/M13_GD8_BASE_COAT_BURNT_COCONUTMET_TDS_EQUIV.pdf"
+    "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_TDS_EQUIV.pdf"
    }
   ],
   "equipment_docs": [
@@ -2276,7 +2278,7 @@
     "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
     "verified": false,
     "note": "From search results; WebFetch blocked (library.e.abb.com not in allowed network).",
-    "file": "pdf/equipment/EQ_ABB_IRB_5500_22_23_datasheet.pdf"
+    "file": "pdf/equipment/EQ_ABB_IRB_5500_FlexPainter_brochure.pdf"
    },
    {
     "vendor": "ABB",
@@ -2296,7 +2298,7 @@
     "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
     "verified": false,
     "note": "From search results; fetch blocked. No dedicated RB1000-SSA datasheet found.",
-    "file": "pdf/equipment/EQ_ABB_RB1000i_series_brochure.pdf"
+    "file": "pdf/equipment/EQ_ABB_RB1000i_brochure.pdf"
    },
    {
     "vendor": "Dürr",
@@ -2306,7 +2308,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
     "verified": false,
     "note": "From search results; fetch blocked (www.durr.com). German version: duerr-datenblatt-ecobell3-de.pdf in same folder.",
-    "file": "pdf/equipment/EQ_D_rr_EcoBell3_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoBell3_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -2316,7 +2318,7 @@
     "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
     "verified": false,
     "note": "From search results; not fetched.",
-    "file": "pdf/equipment/EQ_D_rr_EcoMCC3_20_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoMCC3_20_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -2326,7 +2328,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
     "verified": false,
     "note": "From search results; slide deck, not formal datasheet. No EcoRP E043i datasheet found.",
-    "file": "pdf/equipment/EQ_D_rr_EcoSupply_P_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoSupply_P_brochure.pdf"
    },
    {
     "vendor": "FANUC",
@@ -2346,7 +2348,7 @@
     "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
     "verified": false,
     "note": "From search results; not fetched.",
-    "file": "pdf/equipment/EQ_FANUC_P_250iB_brochure.pdf"
+    "file": "pdf/equipment/EQ_FANUC_P_250iB_datasheet.pdf"
    }
   ]
  },
@@ -2373,7 +2375,7 @@
      "language": "EN",
      "exact_or_equivalent": "equivalent",
      "verified": false,
-     "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+     "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours."
     },
     {
      "type": "TDS",
@@ -2513,8 +2515,8 @@
     "language": "EN",
     "exact_or_equivalent": "equivalent",
     "verified": false,
-    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items.",
-    "file": "pdf/materials/M14_GBO_BASE_COAT_BLACK_MEET_KETTLE_MET_3_SDS_EQUIV.pdf"
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours.",
+    "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_SDS_EQUIV.pdf"
    },
    {
     "type": "TDS",
@@ -2524,7 +2526,7 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items.",
-    "file": "pdf/materials/M14_GBO_BASE_COAT_BLACK_MEET_KETTLE_MET_3_TDS_EQUIV.pdf"
+    "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_TDS_EQUIV.pdf"
    }
   ],
   "equipment_docs": [
@@ -2536,7 +2538,7 @@
     "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
     "verified": false,
     "note": "From search results; WebFetch blocked (library.e.abb.com not in allowed network).",
-    "file": "pdf/equipment/EQ_ABB_IRB_5500_22_23_datasheet.pdf"
+    "file": "pdf/equipment/EQ_ABB_IRB_5500_FlexPainter_brochure.pdf"
    },
    {
     "vendor": "ABB",
@@ -2556,7 +2558,7 @@
     "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
     "verified": false,
     "note": "From search results; fetch blocked. No dedicated RB1000-SSA datasheet found.",
-    "file": "pdf/equipment/EQ_ABB_RB1000i_series_brochure.pdf"
+    "file": "pdf/equipment/EQ_ABB_RB1000i_brochure.pdf"
    },
    {
     "vendor": "Dürr",
@@ -2566,7 +2568,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
     "verified": false,
     "note": "From search results; fetch blocked (www.durr.com). German version: duerr-datenblatt-ecobell3-de.pdf in same folder.",
-    "file": "pdf/equipment/EQ_D_rr_EcoBell3_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoBell3_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -2576,7 +2578,7 @@
     "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
     "verified": false,
     "note": "From search results; not fetched.",
-    "file": "pdf/equipment/EQ_D_rr_EcoMCC3_20_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoMCC3_20_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -2586,7 +2588,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
     "verified": false,
     "note": "From search results; slide deck, not formal datasheet. No EcoRP E043i datasheet found.",
-    "file": "pdf/equipment/EQ_D_rr_EcoSupply_P_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoSupply_P_brochure.pdf"
    },
    {
     "vendor": "FANUC",
@@ -2606,7 +2608,7 @@
     "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
     "verified": false,
     "note": "From search results; not fetched.",
-    "file": "pdf/equipment/EQ_FANUC_P_250iB_brochure.pdf"
+    "file": "pdf/equipment/EQ_FANUC_P_250iB_datasheet.pdf"
    }
   ]
  },
@@ -2633,7 +2635,7 @@
      "language": "EN",
      "exact_or_equivalent": "equivalent",
      "verified": false,
-     "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+     "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours."
     },
     {
      "type": "TDS",
@@ -2773,8 +2775,8 @@
     "language": "EN",
     "exact_or_equivalent": "equivalent",
     "verified": false,
-    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items.",
-    "file": "pdf/materials/M15_GYM_BASE_COAT_SATIN_STEEL_GRAYMET_SDS_EQUIV.pdf"
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours.",
+    "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_SDS_EQUIV.pdf"
    },
    {
     "type": "TDS",
@@ -2784,7 +2786,7 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items.",
-    "file": "pdf/materials/M15_GYM_BASE_COAT_SATIN_STEEL_GRAYMET_TDS_EQUIV.pdf"
+    "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_TDS_EQUIV.pdf"
    }
   ],
   "equipment_docs": [
@@ -2796,7 +2798,7 @@
     "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
     "verified": false,
     "note": "From search results; WebFetch blocked (library.e.abb.com not in allowed network).",
-    "file": "pdf/equipment/EQ_ABB_IRB_5500_22_23_datasheet.pdf"
+    "file": "pdf/equipment/EQ_ABB_IRB_5500_FlexPainter_brochure.pdf"
    },
    {
     "vendor": "ABB",
@@ -2816,7 +2818,7 @@
     "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
     "verified": false,
     "note": "From search results; fetch blocked. No dedicated RB1000-SSA datasheet found.",
-    "file": "pdf/equipment/EQ_ABB_RB1000i_series_brochure.pdf"
+    "file": "pdf/equipment/EQ_ABB_RB1000i_brochure.pdf"
    },
    {
     "vendor": "Dürr",
@@ -2826,7 +2828,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
     "verified": false,
     "note": "From search results; fetch blocked (www.durr.com). German version: duerr-datenblatt-ecobell3-de.pdf in same folder.",
-    "file": "pdf/equipment/EQ_D_rr_EcoBell3_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoBell3_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -2836,7 +2838,7 @@
     "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
     "verified": false,
     "note": "From search results; not fetched.",
-    "file": "pdf/equipment/EQ_D_rr_EcoMCC3_20_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoMCC3_20_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -2846,7 +2848,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
     "verified": false,
     "note": "From search results; slide deck, not formal datasheet. No EcoRP E043i datasheet found.",
-    "file": "pdf/equipment/EQ_D_rr_EcoSupply_P_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoSupply_P_brochure.pdf"
    },
    {
     "vendor": "FANUC",
@@ -2866,7 +2868,7 @@
     "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
     "verified": false,
     "note": "From search results; not fetched.",
-    "file": "pdf/equipment/EQ_FANUC_P_250iB_brochure.pdf"
+    "file": "pdf/equipment/EQ_FANUC_P_250iB_datasheet.pdf"
    }
   ]
  },
@@ -2893,7 +2895,7 @@
      "language": "EN",
      "exact_or_equivalent": "equivalent",
      "verified": false,
-     "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+     "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours."
     },
     {
      "type": "TDS",
@@ -3033,8 +3035,8 @@
     "language": "EN",
     "exact_or_equivalent": "equivalent",
     "verified": false,
-    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items.",
-    "file": "pdf/materials/M16_GAN_BASE_COAT_SWITCHBLADE_SILVER_SDS_EQUIV.pdf"
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours.",
+    "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_SDS_EQUIV.pdf"
    },
    {
     "type": "TDS",
@@ -3044,7 +3046,7 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items.",
-    "file": "pdf/materials/M16_GAN_BASE_COAT_SWITCHBLADE_SILVER_TDS_EQUIV.pdf"
+    "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_TDS_EQUIV.pdf"
    }
   ],
   "equipment_docs": [
@@ -3056,7 +3058,7 @@
     "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
     "verified": false,
     "note": "From search results; WebFetch blocked (library.e.abb.com not in allowed network).",
-    "file": "pdf/equipment/EQ_ABB_IRB_5500_22_23_datasheet.pdf"
+    "file": "pdf/equipment/EQ_ABB_IRB_5500_FlexPainter_brochure.pdf"
    },
    {
     "vendor": "ABB",
@@ -3076,7 +3078,7 @@
     "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
     "verified": false,
     "note": "From search results; fetch blocked. No dedicated RB1000-SSA datasheet found.",
-    "file": "pdf/equipment/EQ_ABB_RB1000i_series_brochure.pdf"
+    "file": "pdf/equipment/EQ_ABB_RB1000i_brochure.pdf"
    },
    {
     "vendor": "Dürr",
@@ -3086,7 +3088,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
     "verified": false,
     "note": "From search results; fetch blocked (www.durr.com). German version: duerr-datenblatt-ecobell3-de.pdf in same folder.",
-    "file": "pdf/equipment/EQ_D_rr_EcoBell3_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoBell3_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -3096,7 +3098,7 @@
     "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
     "verified": false,
     "note": "From search results; not fetched.",
-    "file": "pdf/equipment/EQ_D_rr_EcoMCC3_20_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoMCC3_20_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -3106,7 +3108,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
     "verified": false,
     "note": "From search results; slide deck, not formal datasheet. No EcoRP E043i datasheet found.",
-    "file": "pdf/equipment/EQ_D_rr_EcoSupply_P_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoSupply_P_brochure.pdf"
    },
    {
     "vendor": "FANUC",
@@ -3126,7 +3128,7 @@
     "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
     "verified": false,
     "note": "From search results; not fetched.",
-    "file": "pdf/equipment/EQ_FANUC_P_250iB_brochure.pdf"
+    "file": "pdf/equipment/EQ_FANUC_P_250iB_datasheet.pdf"
    }
   ]
  },
@@ -3142,7 +3144,7 @@
   "research": {
    "id": 17,
    "manufacturer": "Most likely JV 'Uz-DongJu Paint Co.' (Asaka; UzAvtosanoat + Korean partner DongJu Industrial/KION International; technical partner YoungShin Chemicals) - unconfirmed; KCC Corporation is a plausible alternative (Korea's largest OEM paint maker; KCC signed a 2025 automotive paint plant agreement with Uzbekistan)",
-   "product_identified": "OEM solvent-borne basecoat, GM colour GL8 Red-E or Not Red Metallic, GM Korea-style material spec KR-ADM-122 (180 L drum), 2-coat-1-bake (basecoat + clearcoat) system",
+   "product_identified": "GM colour 'Red-E or Not Red Metallic' (GM codes GN6/WA454B; GX8 per PaintScratch); source label GL8 (GL8 in GM Spark list = Burning Hott Metallic 3)",
    "gm_color_code_check": "Name confirmed: paintscratch.com lists 'Red-E or Not Red' under code GX8 (US). GL8 not found publicly; may be a regional/plant RPO or a transcription variant of GX8. 'MET-3' = Metallic 3 formula variant.",
    "manufacturer_confidence": "low",
    "material_docs": [
@@ -3153,7 +3155,7 @@
      "language": "EN",
      "exact_or_equivalent": "equivalent",
      "verified": false,
-     "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+     "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours."
     },
     {
      "type": "TDS",
@@ -3293,8 +3295,8 @@
     "language": "EN",
     "exact_or_equivalent": "equivalent",
     "verified": false,
-    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items.",
-    "file": "pdf/materials/M17_GL8_BASE_COAT_RED_E_OR_NOT_RED_MET_3_SDS_EQUIV.pdf"
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours.",
+    "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_SDS_EQUIV.pdf"
    },
    {
     "type": "TDS",
@@ -3304,7 +3306,7 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items.",
-    "file": "pdf/materials/M17_GL8_BASE_COAT_RED_E_OR_NOT_RED_MET_3_TDS_EQUIV.pdf"
+    "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_TDS_EQUIV.pdf"
    }
   ],
   "equipment_docs": [
@@ -3316,7 +3318,7 @@
     "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
     "verified": false,
     "note": "From search results; WebFetch blocked (library.e.abb.com not in allowed network).",
-    "file": "pdf/equipment/EQ_ABB_IRB_5500_22_23_datasheet.pdf"
+    "file": "pdf/equipment/EQ_ABB_IRB_5500_FlexPainter_brochure.pdf"
    },
    {
     "vendor": "ABB",
@@ -3336,7 +3338,7 @@
     "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
     "verified": false,
     "note": "From search results; fetch blocked. No dedicated RB1000-SSA datasheet found.",
-    "file": "pdf/equipment/EQ_ABB_RB1000i_series_brochure.pdf"
+    "file": "pdf/equipment/EQ_ABB_RB1000i_brochure.pdf"
    },
    {
     "vendor": "Dürr",
@@ -3346,7 +3348,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
     "verified": false,
     "note": "From search results; fetch blocked (www.durr.com). German version: duerr-datenblatt-ecobell3-de.pdf in same folder.",
-    "file": "pdf/equipment/EQ_D_rr_EcoBell3_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoBell3_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -3356,7 +3358,7 @@
     "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
     "verified": false,
     "note": "From search results; not fetched.",
-    "file": "pdf/equipment/EQ_D_rr_EcoMCC3_20_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoMCC3_20_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -3366,7 +3368,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
     "verified": false,
     "note": "From search results; slide deck, not formal datasheet. No EcoRP E043i datasheet found.",
-    "file": "pdf/equipment/EQ_D_rr_EcoSupply_P_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoSupply_P_brochure.pdf"
    },
    {
     "vendor": "FANUC",
@@ -3386,7 +3388,7 @@
     "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
     "verified": false,
     "note": "From search results; not fetched.",
-    "file": "pdf/equipment/EQ_FANUC_P_250iB_brochure.pdf"
+    "file": "pdf/equipment/EQ_FANUC_P_250iB_datasheet.pdf"
    }
   ]
  },
@@ -3413,7 +3415,7 @@
      "language": "EN",
      "exact_or_equivalent": "equivalent",
      "verified": false,
-     "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+     "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours."
     },
     {
      "type": "TDS",
@@ -3553,8 +3555,8 @@
     "language": "EN",
     "exact_or_equivalent": "equivalent",
     "verified": false,
-    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items.",
-    "file": "pdf/materials/M18_GUM_BASE_COAT_SEEKER_MET_3_SDS_EQUIV.pdf"
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours.",
+    "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_SDS_EQUIV.pdf"
    },
    {
     "type": "TDS",
@@ -3564,7 +3566,7 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items.",
-    "file": "pdf/materials/M18_GUM_BASE_COAT_SEEKER_MET_3_TDS_EQUIV.pdf"
+    "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_TDS_EQUIV.pdf"
    }
   ],
   "equipment_docs": [
@@ -3576,7 +3578,7 @@
     "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
     "verified": false,
     "note": "From search results; WebFetch blocked (library.e.abb.com not in allowed network).",
-    "file": "pdf/equipment/EQ_ABB_IRB_5500_22_23_datasheet.pdf"
+    "file": "pdf/equipment/EQ_ABB_IRB_5500_FlexPainter_brochure.pdf"
    },
    {
     "vendor": "ABB",
@@ -3596,7 +3598,7 @@
     "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
     "verified": false,
     "note": "From search results; fetch blocked. No dedicated RB1000-SSA datasheet found.",
-    "file": "pdf/equipment/EQ_ABB_RB1000i_series_brochure.pdf"
+    "file": "pdf/equipment/EQ_ABB_RB1000i_brochure.pdf"
    },
    {
     "vendor": "Dürr",
@@ -3606,7 +3608,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
     "verified": false,
     "note": "From search results; fetch blocked (www.durr.com). German version: duerr-datenblatt-ecobell3-de.pdf in same folder.",
-    "file": "pdf/equipment/EQ_D_rr_EcoBell3_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoBell3_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -3616,7 +3618,7 @@
     "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
     "verified": false,
     "note": "From search results; not fetched.",
-    "file": "pdf/equipment/EQ_D_rr_EcoMCC3_20_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoMCC3_20_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -3626,7 +3628,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
     "verified": false,
     "note": "From search results; slide deck, not formal datasheet. No EcoRP E043i datasheet found.",
-    "file": "pdf/equipment/EQ_D_rr_EcoSupply_P_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoSupply_P_brochure.pdf"
    },
    {
     "vendor": "FANUC",
@@ -3646,7 +3648,7 @@
     "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
     "verified": false,
     "note": "From search results; not fetched.",
-    "file": "pdf/equipment/EQ_FANUC_P_250iB_brochure.pdf"
+    "file": "pdf/equipment/EQ_FANUC_P_250iB_datasheet.pdf"
    }
   ]
  },
@@ -3673,7 +3675,7 @@
      "language": "EN",
      "exact_or_equivalent": "equivalent",
      "verified": false,
-     "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+     "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours."
     },
     {
      "type": "TDS",
@@ -3813,8 +3815,8 @@
     "language": "EN",
     "exact_or_equivalent": "equivalent",
     "verified": false,
-    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items.",
-    "file": "pdf/materials/M19_G7G_BASE_COAT_ZEUS_SDS_EQUIV.pdf"
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours.",
+    "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_SDS_EQUIV.pdf"
    },
    {
     "type": "TDS",
@@ -3824,7 +3826,7 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items.",
-    "file": "pdf/materials/M19_G7G_BASE_COAT_ZEUS_TDS_EQUIV.pdf"
+    "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_TDS_EQUIV.pdf"
    }
   ],
   "equipment_docs": [
@@ -3836,7 +3838,7 @@
     "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
     "verified": false,
     "note": "From search results; WebFetch blocked (library.e.abb.com not in allowed network).",
-    "file": "pdf/equipment/EQ_ABB_IRB_5500_22_23_datasheet.pdf"
+    "file": "pdf/equipment/EQ_ABB_IRB_5500_FlexPainter_brochure.pdf"
    },
    {
     "vendor": "ABB",
@@ -3856,7 +3858,7 @@
     "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
     "verified": false,
     "note": "From search results; fetch blocked. No dedicated RB1000-SSA datasheet found.",
-    "file": "pdf/equipment/EQ_ABB_RB1000i_series_brochure.pdf"
+    "file": "pdf/equipment/EQ_ABB_RB1000i_brochure.pdf"
    },
    {
     "vendor": "Dürr",
@@ -3866,7 +3868,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
     "verified": false,
     "note": "From search results; fetch blocked (www.durr.com). German version: duerr-datenblatt-ecobell3-de.pdf in same folder.",
-    "file": "pdf/equipment/EQ_D_rr_EcoBell3_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoBell3_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -3876,7 +3878,7 @@
     "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
     "verified": false,
     "note": "From search results; not fetched.",
-    "file": "pdf/equipment/EQ_D_rr_EcoMCC3_20_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoMCC3_20_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -3886,7 +3888,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
     "verified": false,
     "note": "From search results; slide deck, not formal datasheet. No EcoRP E043i datasheet found.",
-    "file": "pdf/equipment/EQ_D_rr_EcoSupply_P_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoSupply_P_brochure.pdf"
    },
    {
     "vendor": "FANUC",
@@ -3906,7 +3908,7 @@
     "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
     "verified": false,
     "note": "From search results; not fetched.",
-    "file": "pdf/equipment/EQ_FANUC_P_250iB_brochure.pdf"
+    "file": "pdf/equipment/EQ_FANUC_P_250iB_datasheet.pdf"
    }
   ]
  },
@@ -3922,7 +3924,7 @@
   "research": {
    "id": 20,
    "manufacturer": "Most likely JV 'Uz-DongJu Paint Co.' (Asaka; UzAvtosanoat + Korean partner DongJu Industrial/KION International; technical partner YoungShin Chemicals) - unconfirmed; KCC Corporation is a plausible alternative (Korea's largest OEM paint maker; KCC signed a 2025 automotive paint plant agreement with Uzbekistan)",
-   "product_identified": "OEM solvent-borne basecoat, GM colour GZ8 Some Kinda Blue Metallic, GM Korea-style material spec KR-ADM-512U (180 L drum), 2-coat-1-bake (basecoat + clearcoat) system",
+   "product_identified": "GM colour 'Some Kinda Blue' (GM code GAO / WA619D); source label GZ8",
    "gm_color_code_check": "Name confirmed: US code for Some Kinda Blue is GA0/'GAO' (WA619D) per paintscratch.com. GZ8 not found publicly; likely regional GM Korea/UzAuto RPO variant.",
    "manufacturer_confidence": "low",
    "material_docs": [
@@ -3933,7 +3935,7 @@
      "language": "EN",
      "exact_or_equivalent": "equivalent",
      "verified": false,
-     "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+     "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours."
     },
     {
      "type": "TDS",
@@ -4073,8 +4075,8 @@
     "language": "EN",
     "exact_or_equivalent": "equivalent",
     "verified": false,
-    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items.",
-    "file": "pdf/materials/M20_GZ8_BASE_COAT_SOME_KINDA_BLUE_SDS_EQUIV.pdf"
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours.",
+    "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_SDS_EQUIV.pdf"
    },
    {
     "type": "TDS",
@@ -4084,7 +4086,7 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items.",
-    "file": "pdf/materials/M20_GZ8_BASE_COAT_SOME_KINDA_BLUE_TDS_EQUIV.pdf"
+    "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_TDS_EQUIV.pdf"
    }
   ],
   "equipment_docs": [
@@ -4096,7 +4098,7 @@
     "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
     "verified": false,
     "note": "From search results; WebFetch blocked (library.e.abb.com not in allowed network).",
-    "file": "pdf/equipment/EQ_ABB_IRB_5500_22_23_datasheet.pdf"
+    "file": "pdf/equipment/EQ_ABB_IRB_5500_FlexPainter_brochure.pdf"
    },
    {
     "vendor": "ABB",
@@ -4116,7 +4118,7 @@
     "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
     "verified": false,
     "note": "From search results; fetch blocked. No dedicated RB1000-SSA datasheet found.",
-    "file": "pdf/equipment/EQ_ABB_RB1000i_series_brochure.pdf"
+    "file": "pdf/equipment/EQ_ABB_RB1000i_brochure.pdf"
    },
    {
     "vendor": "Dürr",
@@ -4126,7 +4128,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
     "verified": false,
     "note": "From search results; fetch blocked (www.durr.com). German version: duerr-datenblatt-ecobell3-de.pdf in same folder.",
-    "file": "pdf/equipment/EQ_D_rr_EcoBell3_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoBell3_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -4136,7 +4138,7 @@
     "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
     "verified": false,
     "note": "From search results; not fetched.",
-    "file": "pdf/equipment/EQ_D_rr_EcoMCC3_20_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoMCC3_20_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -4146,7 +4148,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
     "verified": false,
     "note": "From search results; slide deck, not formal datasheet. No EcoRP E043i datasheet found.",
-    "file": "pdf/equipment/EQ_D_rr_EcoSupply_P_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoSupply_P_brochure.pdf"
    },
    {
     "vendor": "FANUC",
@@ -4166,7 +4168,7 @@
     "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
     "verified": false,
     "note": "From search results; not fetched.",
-    "file": "pdf/equipment/EQ_FANUC_P_250iB_brochure.pdf"
+    "file": "pdf/equipment/EQ_FANUC_P_250iB_datasheet.pdf"
    }
   ]
  },
@@ -4193,7 +4195,7 @@
      "language": "EN",
      "exact_or_equivalent": "equivalent",
      "verified": false,
-     "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+     "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours."
     },
     {
      "type": "TDS",
@@ -4333,8 +4335,8 @@
     "language": "EN",
     "exact_or_equivalent": "equivalent",
     "verified": false,
-    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items.",
-    "file": "pdf/materials/M21_G5J_BASE_COAT_DARKMOON_BLUE_SDS_EQUIV.pdf"
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours.",
+    "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_SDS_EQUIV.pdf"
    },
    {
     "type": "TDS",
@@ -4344,7 +4346,7 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items.",
-    "file": "pdf/materials/M21_G5J_BASE_COAT_DARKMOON_BLUE_TDS_EQUIV.pdf"
+    "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_TDS_EQUIV.pdf"
    }
   ],
   "equipment_docs": [
@@ -4356,7 +4358,7 @@
     "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
     "verified": false,
     "note": "From search results; WebFetch blocked (library.e.abb.com not in allowed network).",
-    "file": "pdf/equipment/EQ_ABB_IRB_5500_22_23_datasheet.pdf"
+    "file": "pdf/equipment/EQ_ABB_IRB_5500_FlexPainter_brochure.pdf"
    },
    {
     "vendor": "ABB",
@@ -4376,7 +4378,7 @@
     "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
     "verified": false,
     "note": "From search results; fetch blocked. No dedicated RB1000-SSA datasheet found.",
-    "file": "pdf/equipment/EQ_ABB_RB1000i_series_brochure.pdf"
+    "file": "pdf/equipment/EQ_ABB_RB1000i_brochure.pdf"
    },
    {
     "vendor": "Dürr",
@@ -4386,7 +4388,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
     "verified": false,
     "note": "From search results; fetch blocked (www.durr.com). German version: duerr-datenblatt-ecobell3-de.pdf in same folder.",
-    "file": "pdf/equipment/EQ_D_rr_EcoBell3_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoBell3_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -4396,7 +4398,7 @@
     "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
     "verified": false,
     "note": "From search results; not fetched.",
-    "file": "pdf/equipment/EQ_D_rr_EcoMCC3_20_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoMCC3_20_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -4406,7 +4408,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
     "verified": false,
     "note": "From search results; slide deck, not formal datasheet. No EcoRP E043i datasheet found.",
-    "file": "pdf/equipment/EQ_D_rr_EcoSupply_P_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoSupply_P_brochure.pdf"
    },
    {
     "vendor": "FANUC",
@@ -4426,7 +4428,7 @@
     "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
     "verified": false,
     "note": "From search results; not fetched.",
-    "file": "pdf/equipment/EQ_FANUC_P_250iB_brochure.pdf"
+    "file": "pdf/equipment/EQ_FANUC_P_250iB_datasheet.pdf"
    }
   ]
  },
@@ -4453,7 +4455,7 @@
      "language": "EN",
      "exact_or_equivalent": "equivalent",
      "verified": false,
-     "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items."
+     "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours."
     },
     {
      "type": "TDS",
@@ -4593,8 +4595,8 @@
     "language": "EN",
     "exact_or_equivalent": "equivalent",
     "verified": false,
-    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items.",
-    "file": "pdf/materials/M22_G4V_BASE_COAT_POW_ZINGA_MET_3_SDS_EQUIV.pdf"
+    "note": "Seen in search results; WebFetch blocked (host not in allowed network). Refinish, not OEM-line; generic solvent-borne metallic basecoat hazard profile proxy. Shared by all group C items. Reviewer: silver-metallic refinish basecoat SDS used as generic proxy for all colours.",
+    "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_SDS_EQUIV.pdf"
    },
    {
     "type": "TDS",
@@ -4604,7 +4606,7 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items.",
-    "file": "pdf/materials/M22_G4V_BASE_COAT_POW_ZINGA_MET_3_TDS_EQUIV.pdf"
+    "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_TDS_EQUIV.pdf"
    }
   ],
   "equipment_docs": [
@@ -4616,7 +4618,7 @@
     "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
     "verified": false,
     "note": "From search results; WebFetch blocked (library.e.abb.com not in allowed network).",
-    "file": "pdf/equipment/EQ_ABB_IRB_5500_22_23_datasheet.pdf"
+    "file": "pdf/equipment/EQ_ABB_IRB_5500_FlexPainter_brochure.pdf"
    },
    {
     "vendor": "ABB",
@@ -4636,7 +4638,7 @@
     "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
     "verified": false,
     "note": "From search results; fetch blocked. No dedicated RB1000-SSA datasheet found.",
-    "file": "pdf/equipment/EQ_ABB_RB1000i_series_brochure.pdf"
+    "file": "pdf/equipment/EQ_ABB_RB1000i_brochure.pdf"
    },
    {
     "vendor": "Dürr",
@@ -4646,7 +4648,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
     "verified": false,
     "note": "From search results; fetch blocked (www.durr.com). German version: duerr-datenblatt-ecobell3-de.pdf in same folder.",
-    "file": "pdf/equipment/EQ_D_rr_EcoBell3_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoBell3_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -4656,7 +4658,7 @@
     "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
     "verified": false,
     "note": "From search results; not fetched.",
-    "file": "pdf/equipment/EQ_D_rr_EcoMCC3_20_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoMCC3_20_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -4666,7 +4668,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
     "verified": false,
     "note": "From search results; slide deck, not formal datasheet. No EcoRP E043i datasheet found.",
-    "file": "pdf/equipment/EQ_D_rr_EcoSupply_P_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoSupply_P_brochure.pdf"
    },
    {
     "vendor": "FANUC",
@@ -4686,7 +4688,7 @@
     "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
     "verified": false,
     "note": "From search results; not fetched.",
-    "file": "pdf/equipment/EQ_FANUC_P_250iB_brochure.pdf"
+    "file": "pdf/equipment/EQ_FANUC_P_250iB_datasheet.pdf"
    }
   ]
  },
@@ -4753,7 +4755,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-supply-2-core.pdf",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only.",
-    "file": "pdf/equipment/EQ_D_rr_EcoSupply2_Core_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoSupply2_Core_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -4763,7 +4765,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only.",
-    "file": "pdf/equipment/EQ_D_rr_EcoBell3_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoBell3_datasheet.pdf"
    }
   ]
  },
@@ -4907,7 +4909,7 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only. HTML page, not PDF. Name similarity only; no evidence PPG supplies Asaka.",
-    "file": "pdf/materials/M24_TOP_CLEAR_HITEC_2000_brochure_EQUIV.pdf"
+    "file": null
    },
    {
     "type": "TDS",
@@ -4929,7 +4931,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only.",
-    "file": "pdf/equipment/EQ_D_rr_EcoRP_E043i_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoRP_E043i_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -4939,7 +4941,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only.",
-    "file": "pdf/equipment/EQ_D_rr_EcoBell3_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoBell3_datasheet.pdf"
    },
    {
     "vendor": "ABB",
@@ -4989,7 +4991,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-supply-2-core.pdf",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only.",
-    "file": "pdf/equipment/EQ_D_rr_EcoSupply2_Core_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoSupply2_Core_datasheet.pdf"
    }
   ]
  },
@@ -5040,7 +5042,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-supply-2-core.pdf",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only.",
-    "file": "pdf/equipment/EQ_D_rr_EcoSupply2_Core_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoSupply2_Core_datasheet.pdf"
    }
   ]
  },
@@ -5117,7 +5119,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/03_Atomizer_Cleaning/duerr-datasheet-ecobell-cleander-d2-ecobell-purgebox-en.pdf",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only. (sic 'cleander' in Dürr filename)",
-    "file": "pdf/equipment/EQ_D_rr_EcoBell_Cleaner_D2_EcoBell_PurgeBox_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoBell_Cleaner_D2_EcoBell_PurgeBox_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -5127,7 +5129,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only.",
-    "file": "pdf/equipment/EQ_D_rr_EcoBell3_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoBell3_datasheet.pdf"
    },
    {
     "vendor": "Dürr",
@@ -5137,7 +5139,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-supply-2-core.pdf",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only.",
-    "file": "pdf/equipment/EQ_D_rr_EcoSupply2_Core_datasheet.pdf"
+    "file": "pdf/equipment/EQ_Durr_EcoSupply2_Core_datasheet.pdf"
    }
   ]
  },
@@ -5150,6 +5152,8 @@
   "package": "200 LT/DRUM",
   "function": "Tormoz suyuqligi",
   "group": "D",
+  "note": "merged from 2 source rows (A/T and M/T), same SAP 200000259",
+  "function_source": "inferred (page 3 has no function column)",
   "research": {
    "id": 27,
    "manufacturer": "Kukdong Jeyon Co. (극동제연, Korea) - 'CROWN' brand (probable)",
@@ -5213,7 +5217,7 @@
      "note": "Case study (VW Dresden) on brake, radiator/coolant, battery thermal and A/C fill stations with DXQ software. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
     }
    ],
-   "notes": "Korean shopping page (danawa plan 3938) lists '극동제연 크라운 브레이크액', linking CROWN brand to Kukdong Jeyon, a Korean OE fluid supplier; DOT4+ variant not seen directly. No Kukdong TDS/SDS PDF found publicly. No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters."
+   "notes": "Korean shopping page (danawa plan 3938) lists '극동제연 크라운 브레이크액', linking CROWN brand to Kukdong Jeyon, a Korean OE fluid supplier; DOT4+ variant not seen directly. No Kukdong TDS/SDS PDF found publicly. No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters. | REVIEW: merged from 2 source rows (A/T and M/T), same SAP 200000259."
   },
   "material_docs": [
    {
@@ -5246,7 +5250,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/duerr-brochure-NEXT.assembly-english-low.pdf",
     "verified": false,
     "note": "Dürr final-assembly brochure covering conveyor, gluing, marriage, filling and testing modules; general, not a model datasheet. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/equipment/EQ_D_rr_D_rr_Somac_GmbH_NEXT_assembly_portfolio_incl_Somac_filli_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_NEXT_assembly_portfolio_incl_Somac_filli_brochure.pdf"
    },
    {
     "vendor": "Dürr (Dürr Somac GmbH)",
@@ -5256,7 +5260,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
     "verified": false,
     "note": "Newer edition of the final-assembly brochure; general. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/equipment/EQ_D_rr_D_rr_Somac_GmbH_NEXT_assembly_portfolio_newer_edition_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_NEXT_assembly_portfolio_newer_edition_brochure.pdf"
    },
    {
     "vendor": "Dürr (Dürr Somac GmbH)",
@@ -5266,7 +5270,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
     "verified": false,
     "note": "Case study (VW Dresden) on brake, radiator/coolant, battery thermal and A/C fill stations with DXQ software. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/equipment/EQ_D_rr_D_rr_Somac_GmbH_DXQ_filling_fill_stations_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_DXQ_filling_fill_stations_brochure.pdf"
    }
   ]
  },
@@ -5279,6 +5283,7 @@
   "package": "202 LT/DRUM",
   "function": "Rul gidravlikasi suyuqligi",
   "group": "D",
+  "function_source": "inferred (page 3 has no function column)",
   "research": {
    "id": 28,
    "manufacturer": "Unknown licensed Dexron-VI blender (GM licence to GMN10060; e.g. GM/ACDelco genuine or licensed supplier)",
@@ -5360,7 +5365,7 @@
      "note": "Case study (VW Dresden) on brake, radiator/coolant, battery thermal and A/C fill stations with DXQ software. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
     }
    ],
-   "notes": "Spec is generic GM Dexron-VI (GMN10060); actual supplier to UzAuto not identified. No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters."
+   "notes": "Spec is generic GM Dexron-VI (GMN10060); actual supplier to UzAuto not identified. No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters. | REVIEW: GMN10060 (DEXRON-VI) superseded by GMW16444."
   },
   "material_docs": [
    {
@@ -5413,7 +5418,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/duerr-brochure-NEXT.assembly-english-low.pdf",
     "verified": false,
     "note": "Dürr final-assembly brochure covering conveyor, gluing, marriage, filling and testing modules; general, not a model datasheet. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/equipment/EQ_D_rr_D_rr_Somac_GmbH_NEXT_assembly_portfolio_incl_Somac_filli_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_NEXT_assembly_portfolio_incl_Somac_filli_brochure.pdf"
    },
    {
     "vendor": "Dürr (Dürr Somac GmbH)",
@@ -5423,7 +5428,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
     "verified": false,
     "note": "Newer edition of the final-assembly brochure; general. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/equipment/EQ_D_rr_D_rr_Somac_GmbH_NEXT_assembly_portfolio_newer_edition_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_NEXT_assembly_portfolio_newer_edition_brochure.pdf"
    },
    {
     "vendor": "Dürr (Dürr Somac GmbH)",
@@ -5433,7 +5438,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
     "verified": false,
     "note": "Case study (VW Dresden) on brake, radiator/coolant, battery thermal and A/C fill stations with DXQ software. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/equipment/EQ_D_rr_D_rr_Somac_GmbH_DXQ_filling_fill_stations_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_DXQ_filling_fill_stations_brochure.pdf"
    }
   ]
  },
@@ -5446,6 +5451,7 @@
   "package": "205 LT/DRUM",
   "function": "Sovutish suyuqligi",
   "group": "D",
+  "function_source": "inferred (page 3 has no function column)",
   "research": {
    "id": 29,
    "manufacturer": "Tosol-Sintez (FELIX brand), Dzerzhinsk, Russia",
@@ -5561,7 +5567,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/duerr-brochure-NEXT.assembly-english-low.pdf",
     "verified": false,
     "note": "Dürr final-assembly brochure covering conveyor, gluing, marriage, filling and testing modules; general, not a model datasheet. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/equipment/EQ_D_rr_D_rr_Somac_GmbH_NEXT_assembly_portfolio_incl_Somac_filli_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_NEXT_assembly_portfolio_incl_Somac_filli_brochure.pdf"
    },
    {
     "vendor": "Dürr (Dürr Somac GmbH)",
@@ -5571,7 +5577,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
     "verified": false,
     "note": "Newer edition of the final-assembly brochure; general. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/equipment/EQ_D_rr_D_rr_Somac_GmbH_NEXT_assembly_portfolio_newer_edition_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_NEXT_assembly_portfolio_newer_edition_brochure.pdf"
    },
    {
     "vendor": "Dürr (Dürr Somac GmbH)",
@@ -5581,7 +5587,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
     "verified": false,
     "note": "Case study (VW Dresden) on brake, radiator/coolant, battery thermal and A/C fill stations with DXQ software. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/equipment/EQ_D_rr_D_rr_Somac_GmbH_DXQ_filling_fill_stations_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_DXQ_filling_fill_stations_brochure.pdf"
    }
   ]
  },
@@ -5594,6 +5600,7 @@
   "package": "200 LT/DRUM",
   "function": "Uzatmalar qutisi suyuqligi",
   "group": "D",
+  "function_source": "inferred (page 3 has no function column)",
   "research": {
    "id": 30,
    "manufacturer": "Idemitsu Kosan Co., Ltd. (Japan)",
@@ -5650,7 +5657,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/duerr-brochure-NEXT.assembly-english-low.pdf",
     "verified": false,
     "note": "Dürr final-assembly brochure covering conveyor, gluing, marriage, filling and testing modules; general, not a model datasheet. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/equipment/EQ_D_rr_D_rr_Somac_GmbH_NEXT_assembly_portfolio_incl_Somac_filli_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_NEXT_assembly_portfolio_incl_Somac_filli_brochure.pdf"
    },
    {
     "vendor": "Dürr (Dürr Somac GmbH)",
@@ -5660,7 +5667,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
     "verified": false,
     "note": "Newer edition of the final-assembly brochure; general. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/equipment/EQ_D_rr_D_rr_Somac_GmbH_NEXT_assembly_portfolio_newer_edition_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_NEXT_assembly_portfolio_newer_edition_brochure.pdf"
    },
    {
     "vendor": "Dürr (Dürr Somac GmbH)",
@@ -5670,7 +5677,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
     "verified": false,
     "note": "Case study (VW Dresden) on brake, radiator/coolant, battery thermal and A/C fill stations with DXQ software. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/equipment/EQ_D_rr_D_rr_Somac_GmbH_DXQ_filling_fill_stations_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_DXQ_filling_fill_stations_brochure.pdf"
    }
   ]
  },
@@ -5683,6 +5690,7 @@
   "package": "200 LT/DRUM",
   "function": "Uzatmalar qutisi suyuqligi",
   "group": "D",
+  "function_source": "inferred (page 3 has no function column)",
   "research": {
    "id": 31,
    "manufacturer": "GM / ACDelco genuine 'XGP' MTF (blender likely Shell - 'SH' prefix; unconfirmed)",
@@ -5697,6 +5705,15 @@
      "exact_or_equivalent": "equivalent",
      "verified": false,
      "note": "Equivalent full-synthetic 75W-85 GL-4 data sheet for property reference only. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
+    },
+    {
+     "type": "brochure",
+     "title": "GM Parts: ACDelco GM OE XGP SAE 75W-85 MTF 19351859",
+     "url": "https://parts.gmparts.com/product/acdelco-gm-original-equipment-xgp-sae-75w-85-manual-transmission-fluid-1-qt-19351859",
+     "language": "en",
+     "exact_or_equivalent": "exact",
+     "verified": false,
+     "note": "HTML product page (official GM listing)"
     }
    ],
    "equipment": [
@@ -5749,6 +5766,16 @@
     "verified": false,
     "note": "Equivalent full-synthetic 75W-85 GL-4 data sheet for property reference only. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
     "file": "pdf/materials/M31_T_M_OIL_MANUAL_SH_XGP_75W85_GL_4_PDS_EQUIV.pdf"
+   },
+   {
+    "type": "brochure",
+    "title": "GM Parts: ACDelco GM OE XGP SAE 75W-85 MTF 19351859",
+    "url": "https://parts.gmparts.com/product/acdelco-gm-original-equipment-xgp-sae-75w-85-manual-transmission-fluid-1-qt-19351859",
+    "language": "en",
+    "exact_or_equivalent": "exact",
+    "verified": false,
+    "note": "HTML product page (official GM listing)",
+    "file": null
    }
   ],
   "equipment_docs": [
@@ -5760,7 +5787,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/duerr-brochure-NEXT.assembly-english-low.pdf",
     "verified": false,
     "note": "Dürr final-assembly brochure covering conveyor, gluing, marriage, filling and testing modules; general, not a model datasheet. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/equipment/EQ_D_rr_D_rr_Somac_GmbH_NEXT_assembly_portfolio_incl_Somac_filli_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_NEXT_assembly_portfolio_incl_Somac_filli_brochure.pdf"
    },
    {
     "vendor": "Dürr (Dürr Somac GmbH)",
@@ -5770,7 +5797,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
     "verified": false,
     "note": "Newer edition of the final-assembly brochure; general. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/equipment/EQ_D_rr_D_rr_Somac_GmbH_NEXT_assembly_portfolio_newer_edition_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_NEXT_assembly_portfolio_newer_edition_brochure.pdf"
    },
    {
     "vendor": "Dürr (Dürr Somac GmbH)",
@@ -5780,7 +5807,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
     "verified": false,
     "note": "Case study (VW Dresden) on brake, radiator/coolant, battery thermal and A/C fill stations with DXQ software. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/equipment/EQ_D_rr_D_rr_Somac_GmbH_DXQ_filling_fill_stations_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_DXQ_filling_fill_stations_brochure.pdf"
    }
   ]
  },
@@ -5793,6 +5820,7 @@
   "package": "200 LT/DRUM",
   "function": "Uzatmalar qutisi suyuqligi",
   "group": "D",
+  "function_source": "inferred (page 3 has no function column)",
   "research": {
    "id": 32,
    "manufacturer": "Unknown licensed Dexron-VI blender (GM licence to GMN10060; e.g. GM/ACDelco genuine or licensed supplier)",
@@ -5874,7 +5902,7 @@
      "note": "Case study (VW Dresden) on brake, radiator/coolant, battery thermal and A/C fill stations with DXQ software. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
     }
    ],
-   "notes": "Same fluid family as id 28. Automatic transaxles (e.g. GM 6T40 built at GM Powertrain Uzbekistan) are typically filled at the powertrain plant. No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters."
+   "notes": "Same fluid family as id 28. Automatic transaxles (e.g. GM 6T40 built at GM Powertrain Uzbekistan) are typically filled at the powertrain plant. No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters. | REVIEW: GMN10060 (DEXRON-VI) superseded by GMW16444."
   },
   "material_docs": [
    {
@@ -5885,7 +5913,7 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "States 'Meets GM specification GMN10060' (per search snippet). URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/materials/M32_A_T_OIL_DEXRON_VI_TDS_EQUIV.pdf"
+    "file": "pdf/materials/M28_POWER_STRG_OIL_DEXRON_VI_GM_N10060_TDS_EQUIV.pdf"
    },
    {
     "type": "TDS",
@@ -5895,7 +5923,7 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Lists GMN 10060, GM licence J-60331 (per search snippet). URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/materials/M32_A_T_OIL_DEXRON_VI_TDS_EQUIV_2.pdf"
+    "file": "pdf/materials/M28_POWER_STRG_OIL_DEXRON_VI_GM_N10060_TDS_EQUIV_2.pdf"
    },
    {
     "type": "SDS",
@@ -5905,7 +5933,7 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "SDS matching the Ravenol TDS above. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/materials/M32_A_T_OIL_DEXRON_VI_SDS_EQUIV.pdf"
+    "file": "pdf/materials/M28_POWER_STRG_OIL_DEXRON_VI_GM_N10060_SDS_EQUIV.pdf"
    },
    {
     "type": "SDS",
@@ -5915,7 +5943,7 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "GM-branded genuine Dexron-VI SDS; closest to GM factory fluid. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/materials/M32_A_T_OIL_DEXRON_VI_SDS_EQUIV_2.pdf"
+    "file": "pdf/materials/M28_POWER_STRG_OIL_DEXRON_VI_GM_N10060_SDS_EQUIV_2.pdf"
    }
   ],
   "equipment_docs": [
@@ -5927,7 +5955,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/duerr-brochure-NEXT.assembly-english-low.pdf",
     "verified": false,
     "note": "Dürr final-assembly brochure covering conveyor, gluing, marriage, filling and testing modules; general, not a model datasheet. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/equipment/EQ_D_rr_D_rr_Somac_GmbH_NEXT_assembly_portfolio_incl_Somac_filli_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_NEXT_assembly_portfolio_incl_Somac_filli_brochure.pdf"
    },
    {
     "vendor": "Dürr (Dürr Somac GmbH)",
@@ -5937,7 +5965,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
     "verified": false,
     "note": "Newer edition of the final-assembly brochure; general. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/equipment/EQ_D_rr_D_rr_Somac_GmbH_NEXT_assembly_portfolio_newer_edition_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_NEXT_assembly_portfolio_newer_edition_brochure.pdf"
    },
    {
     "vendor": "Dürr (Dürr Somac GmbH)",
@@ -5947,7 +5975,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
     "verified": false,
     "note": "Case study (VW Dresden) on brake, radiator/coolant, battery thermal and A/C fill stations with DXQ software. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/equipment/EQ_D_rr_D_rr_Somac_GmbH_DXQ_filling_fill_stations_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_DXQ_filling_fill_stations_brochure.pdf"
    }
   ]
  },
@@ -5960,6 +5988,7 @@
   "package": "13.6 KG/DRUM",
   "function": "Konditsioner freoni",
   "group": "D",
+  "function_source": "inferred (page 3 has no function column)",
   "research": {
    "id": 33,
    "manufacturer": "COOLIB brand (Chinese refrigerant brand/distributor; producer not confirmed)",
@@ -6037,15 +6066,6 @@
      "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
      "verified": false,
      "note": "Case study (VW Dresden) on brake, radiator/coolant, battery thermal and A/C fill stations with DXQ software. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-    },
-    {
-     "vendor": "Dürr (Dürr Somac GmbH)",
-     "model": "Somac filling stations (refrigerant/process measurement)",
-     "type": "manual",
-     "title": "KA014 Instructions for the Calibration of Process Measurement Equipment",
-     "url": "https://www.durr.com/fileadmin/somac-filling.de/Company/KA014_QW_V1.0_Instructions_for_the_Calibration_of_Process_Measurement_Equipment.pdf",
-     "verified": false,
-     "note": "Dürr Somac calibration instruction for process measurement equipment (refrigerant measurement); service document, not a brochure. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
     }
    ],
    "notes": "Sourcing guide (sourcifychina.com) names Coolib as a Chinese R134a brand; no COOLIB SDS found. No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters."
@@ -6091,7 +6111,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/duerr-brochure-NEXT.assembly-english-low.pdf",
     "verified": false,
     "note": "Dürr final-assembly brochure covering conveyor, gluing, marriage, filling and testing modules; general, not a model datasheet. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/equipment/EQ_D_rr_D_rr_Somac_GmbH_NEXT_assembly_portfolio_incl_Somac_filli_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_NEXT_assembly_portfolio_incl_Somac_filli_brochure.pdf"
    },
    {
     "vendor": "Dürr (Dürr Somac GmbH)",
@@ -6101,7 +6121,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
     "verified": false,
     "note": "Newer edition of the final-assembly brochure; general. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/equipment/EQ_D_rr_D_rr_Somac_GmbH_NEXT_assembly_portfolio_newer_edition_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_NEXT_assembly_portfolio_newer_edition_brochure.pdf"
    },
    {
     "vendor": "Dürr (Dürr Somac GmbH)",
@@ -6111,17 +6131,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
     "verified": false,
     "note": "Case study (VW Dresden) on brake, radiator/coolant, battery thermal and A/C fill stations with DXQ software. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/equipment/EQ_D_rr_D_rr_Somac_GmbH_DXQ_filling_fill_stations_brochure.pdf"
-   },
-   {
-    "vendor": "Dürr (Dürr Somac GmbH)",
-    "model": "Somac filling stations (refrigerant/process measurement)",
-    "type": "manual",
-    "title": "KA014 Instructions for the Calibration of Process Measurement Equipment",
-    "url": "https://www.durr.com/fileadmin/somac-filling.de/Company/KA014_QW_V1.0_Instructions_for_the_Calibration_of_Process_Measurement_Equipment.pdf",
-    "verified": false,
-    "note": "Dürr Somac calibration instruction for process measurement equipment (refrigerant measurement); service document, not a brochure. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/equipment/EQ_D_rr_D_rr_Somac_GmbH_Somac_filling_stations_refrigerant_proce_manual.pdf"
+    "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_DXQ_filling_fill_stations_brochure.pdf"
    }
   ]
  },
@@ -6134,6 +6144,7 @@
   "package": "-",
   "function": "Yoqilg'i",
   "group": "D",
+  "function_source": "inferred (page 3 has no function column)",
   "research": {
    "id": 34,
    "manufacturer": "Generic - Uzbek/imported refinery gasoline (e.g. Uzbekneftegaz refineries or Russian imports)",
@@ -6217,7 +6228,7 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "HTML full text, not PDF. Superseded in Russia by GOST 32513-2023 from 03.02.2025. Uzbek O'zDSt equivalent text not found online. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/materials/M34_FUEL_standard_EQUIV.pdf"
+    "file": null
    },
    {
     "type": "SDS",
@@ -6249,7 +6260,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/duerr-brochure-NEXT.assembly-english-low.pdf",
     "verified": false,
     "note": "Dürr final-assembly brochure covering conveyor, gluing, marriage, filling and testing modules; general, not a model datasheet. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/equipment/EQ_D_rr_D_rr_Somac_GmbH_NEXT_assembly_portfolio_incl_Somac_filli_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_NEXT_assembly_portfolio_incl_Somac_filli_brochure.pdf"
    },
    {
     "vendor": "Dürr (Dürr Somac GmbH)",
@@ -6259,7 +6270,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
     "verified": false,
     "note": "Newer edition of the final-assembly brochure; general. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/equipment/EQ_D_rr_D_rr_Somac_GmbH_NEXT_assembly_portfolio_newer_edition_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_NEXT_assembly_portfolio_newer_edition_brochure.pdf"
    },
    {
     "vendor": "Dürr (Dürr Somac GmbH)",
@@ -6269,7 +6280,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
     "verified": false,
     "note": "Case study (VW Dresden) on brake, radiator/coolant, battery thermal and A/C fill stations with DXQ software. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/equipment/EQ_D_rr_D_rr_Somac_GmbH_DXQ_filling_fill_stations_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_DXQ_filling_fill_stations_brochure.pdf"
    }
   ]
  },
@@ -6277,11 +6288,12 @@
   "id": 35,
   "sap": "200000252",
   "name": "WINDSHIELD WASHER (ETHANOL - 80%)",
-  "name_ru": "62.5% etanol-80% / 37.5% suv",
+  "name_ru": "62.5% — (ETHANOL-80%) / 27.5% — (SUV) *** (manbadagidek; yig'indisi 100% emas)",
   "spec": "-",
   "package": "1000 LT/DRUM",
   "function": "Oyna yuvish suyuqligi",
   "group": "D",
+  "function_source": "inferred (page 3 has no function column)",
   "research": {
    "id": 35,
    "manufacturer": "Generic / local blend (ethanol-80% concentrate diluted 62.5/37.5 with water)",
@@ -6378,7 +6390,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/duerr-brochure-NEXT.assembly-english-low.pdf",
     "verified": false,
     "note": "Dürr final-assembly brochure covering conveyor, gluing, marriage, filling and testing modules; general, not a model datasheet. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/equipment/EQ_D_rr_D_rr_Somac_GmbH_NEXT_assembly_portfolio_incl_Somac_filli_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_NEXT_assembly_portfolio_incl_Somac_filli_brochure.pdf"
    },
    {
     "vendor": "Dürr (Dürr Somac GmbH)",
@@ -6388,7 +6400,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
     "verified": false,
     "note": "Newer edition of the final-assembly brochure; general. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/equipment/EQ_D_rr_D_rr_Somac_GmbH_NEXT_assembly_portfolio_newer_edition_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_NEXT_assembly_portfolio_newer_edition_brochure.pdf"
    },
    {
     "vendor": "Dürr (Dürr Somac GmbH)",
@@ -6398,7 +6410,7 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
     "verified": false,
     "note": "Case study (VW Dresden) on brake, radiator/coolant, battery thermal and A/C fill stations with DXQ software. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
-    "file": "pdf/equipment/EQ_D_rr_D_rr_Somac_GmbH_DXQ_filling_fill_stations_brochure.pdf"
+    "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_DXQ_filling_fill_stations_brochure.pdf"
    }
   ]
  },
@@ -6411,6 +6423,7 @@
   "package": "271 KG/DRUM",
   "function": "Oyna yelimi",
   "group": "E",
+  "function_source": "inferred (page 3 has no function column)",
   "research": {
    "id": 36,
    "manufacturer": "Sika AG (Sikaflex-250 family); alternate/second source DuPont (ex-Dow Automotive) BETASEAL",
@@ -6642,6 +6655,7 @@
   "package": "408 KG/BOX",
   "function": "Potolok yelimi",
   "group": "E",
+  "function_source": "inferred (page 3 has no function column)",
   "research": {
    "id": 37,
    "manufacturer": "Unknown (likely Henkel / Bostik / H.B. Fuller / Sika)",
@@ -6700,6 +6714,7 @@
   "package": "1 KG/BT",
   "function": "Oyna o'rnatish praymeri (kuzov)",
   "group": "E",
+  "function_source": "inferred (page 3 has no function column)",
   "research": {
    "id": 38,
    "manufacturer": "Sika AG",
@@ -6834,6 +6849,7 @@
   "package": "1 KG/BT",
   "function": "Oyna o'rnatish praymeri (oyna)",
   "group": "E",
+  "function_source": "inferred (page 3 has no function column)",
   "research": {
    "id": 39,
    "manufacturer": "Sika AG",
@@ -6968,6 +6984,7 @@
   "package": "1 KG/BT",
   "function": "Tozalovchi/aktivator",
   "group": "E",
+  "function_source": "inferred (page 3 has no function column)",
   "research": {
    "id": 40,
    "manufacturer": "Sika AG (spec '100-UZ' = Sika Aktivator-100); name 'BETAPRIME' suggests DuPont BETAPRIME/BETACLEAN equivalent",
@@ -7083,6 +7100,7 @@
   "package": "18 L/CN",
   "function": "Bo'yoq",
   "group": "E",
+  "function_source": "inferred (page 3 has no function column)",
   "research": {
    "id": 41,
    "manufacturer": "Unknown (spec text 'SIKA-100-UZ' suggests a Sika-system item)",
@@ -7120,7 +7138,7 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Only if spec SIKA-100-UZ really means Aktivator-100; unconfirmed.",
-    "file": "pdf/materials/M41_RAD_11724_PDS_EQUIV.pdf"
+    "file": "pdf/materials/M40_BETAPRIME_PDS.pdf"
    }
   ],
   "equipment_docs": []
@@ -7134,6 +7152,7 @@
   "package": "15 KG/PL",
   "function": "Surkov moyi",
   "group": "E",
+  "function_source": "inferred (page 3 has no function column)",
   "research": {
    "id": 42,
    "manufacturer": "Unknown",
@@ -7211,6 +7230,7 @@
   "package": "-",
   "function": "Surkov moyi",
   "group": "E",
+  "function_source": "inferred (page 3 has no function column)",
   "research": {
    "id": 43,
    "manufacturer": "Klüber Lubrication (Freudenberg)",
@@ -7228,12 +7248,12 @@
     },
     {
      "type": "PDS",
-     "title": "MICROLUBE GNY 202 017118 PI EN (Scribd copy)",
-     "url": "https://www.scribd.com/document/862106522/MICROLUBE-GNY-202-017118-PI-EN-en",
+     "title": "Klüber MICROLUBE GNY 202 product page (UK)",
+     "url": "https://klueber.com/uk/en/products-service/products/microlube-gny-202/9866",
      "language": "en",
      "exact_or_equivalent": "exact",
      "verified": false,
-     "note": "Third-party copy of product information."
+     "note": "HTML product page; PI PDF requires Klüber login"
     }
    ],
    "equipment": [
@@ -7274,17 +7294,17 @@
     "exact_or_equivalent": "exact",
     "verified": false,
     "note": "HTML page, not PDF; PDF download requires login per search snippet.",
-    "file": "pdf/materials/M43_LUBRICANT_CLU_PLT_HUB_M_T_PDS.pdf"
+    "file": null
    },
    {
     "type": "PDS",
-    "title": "MICROLUBE GNY 202 017118 PI EN (Scribd copy)",
-    "url": "https://www.scribd.com/document/862106522/MICROLUBE-GNY-202-017118-PI-EN-en",
+    "title": "Klüber MICROLUBE GNY 202 product page (UK)",
+    "url": "https://klueber.com/uk/en/products-service/products/microlube-gny-202/9866",
     "language": "en",
     "exact_or_equivalent": "exact",
     "verified": false,
-    "note": "Third-party copy of product information.",
-    "file": "pdf/materials/M43_LUBRICANT_CLU_PLT_HUB_M_T_PDS_2.pdf"
+    "note": "HTML product page; PI PDF requires Klüber login",
+    "file": null
    }
   ],
   "equipment_docs": [

@@ -57,7 +57,8 @@ def main() -> None:
     jobs: dict[str, str] = {}
     for item in catalog:
         for doc in item["material_docs"] + item["equipment_docs"]:
-            jobs.setdefault(doc["file"], doc["url"])
+            if doc["file"]:
+                jobs.setdefault(doc["file"], doc["url"])
 
     report = []
     for rel_path, url in jobs.items():

@@ -62,7 +62,7 @@
     "note": "Case study (VW Dresden) on brake, radiator/coolant, battery thermal and A/C fill stations with DXQ software. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
    }
   ],
-  "notes": "Korean shopping page (danawa plan 3938) lists '극동제연 크라운 브레이크액', linking CROWN brand to Kukdong Jeyon, a Korean OE fluid supplier; DOT4+ variant not seen directly. No Kukdong TDS/SDS PDF found publicly. No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters."
+  "notes": "Korean shopping page (danawa plan 3938) lists '극동제연 크라운 브레이크액', linking CROWN brand to Kukdong Jeyon, a Korean OE fluid supplier; DOT4+ variant not seen directly. No Kukdong TDS/SDS PDF found publicly. No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters. | REVIEW: merged from 2 source rows (A/T and M/T), same SAP 200000259."
  },
  {
   "id": 28,
@@ -145,7 +145,7 @@
     "note": "Case study (VW Dresden) on brake, radiator/coolant, battery thermal and A/C fill stations with DXQ software. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
    }
   ],
-  "notes": "Spec is generic GM Dexron-VI (GMN10060); actual supplier to UzAuto not identified. No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters."
+  "notes": "Spec is generic GM Dexron-VI (GMN10060); actual supplier to UzAuto not identified. No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters. | REVIEW: GMN10060 (DEXRON-VI) superseded by GMW16444."
  },
  {
   "id": 29,
@@ -281,6 +281,15 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Equivalent full-synthetic 75W-85 GL-4 data sheet for property reference only. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
+   },
+   {
+    "type": "brochure",
+    "title": "GM Parts: ACDelco GM OE XGP SAE 75W-85 MTF 19351859",
+    "url": "https://parts.gmparts.com/product/acdelco-gm-original-equipment-xgp-sae-75w-85-manual-transmission-fluid-1-qt-19351859",
+    "language": "en",
+    "exact_or_equivalent": "exact",
+    "verified": false,
+    "note": "HTML product page (official GM listing)"
    }
   ],
   "equipment": [
@@ -404,7 +413,7 @@
     "note": "Case study (VW Dresden) on brake, radiator/coolant, battery thermal and A/C fill stations with DXQ software. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
    }
   ],
-  "notes": "Same fluid family as id 28. Automatic transaxles (e.g. GM 6T40 built at GM Powertrain Uzbekistan) are typically filled at the powertrain plant. No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters."
+  "notes": "Same fluid family as id 28. Automatic transaxles (e.g. GM 6T40 built at GM Powertrain Uzbekistan) are typically filled at the powertrain plant. No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters. | REVIEW: GMN10060 (DEXRON-VI) superseded by GMW16444."
  },
  {
   "id": 33,
@@ -483,15 +492,6 @@
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
     "verified": false,
     "note": "Case study (VW Dresden) on brake, radiator/coolant, battery thermal and A/C fill stations with DXQ software. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
-    "vendor": "Dürr (Dürr Somac GmbH)",
-    "model": "Somac filling stations (refrigerant/process measurement)",
-    "type": "manual",
-    "title": "KA014 Instructions for the Calibration of Process Measurement Equipment",
-    "url": "https://www.durr.com/fileadmin/somac-filling.de/Company/KA014_QW_V1.0_Instructions_for_the_Calibration_of_Process_Measurement_Equipment.pdf",
-    "verified": false,
-    "note": "Dürr Somac calibration instruction for process measurement equipment (refrigerant measurement); service document, not a brochure. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
    }
   ],
   "notes": "Sourcing guide (sourcifychina.com) names Coolib as a Chinese R134a brand; no COOLIB SDS found. No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters."

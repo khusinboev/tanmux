@@ -1,603 +1,615 @@
 [
-  {
-    "id": 1,
-    "manufacturer": "PPG Industries (CHEMFOS is a PPG pretreatment brand)",
-    "product_identified": "CHEMFOS 740R - likely a PPG CHEMFOS 700-series tricationic (Zn/Ni/Mn) zinc phosphate, 'R' = replenisher (inferred)",
-    "manufacturer_confidence": "medium",
-    "material_docs": [
-      {
-        "type": "brochure",
-        "title": "Advances in Aluminum Pretreatment (OSTI paper; describes CHEMFOS 700 series tricationic zinc phosphate from PPG)",
-        "url": "https://www.osti.gov/etdeweb/servlets/purl/20671858",
-        "language": "en",
-        "exact_or_equivalent": "equivalent",
-        "verified": false,
-        "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Technical paper, not a TDS; names CHEMFOS 700 series."
-      },
-      {
-        "type": "TDS",
-        "title": "BONDERITE M-ZN 952 A (Henkel) - nitrite-accelerated tricationic zinc phosphate, spray/immersion, for e-coat pretreatment",
-        "url": "https://datasheets.tdx.henkel.com/BONDERITE-M-ZN-952-A-en_GL.pdf",
-        "language": "en",
-        "exact_or_equivalent": "equivalent",
-        "verified": false,
-        "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Competitor equivalent (Henkel), not PPG; Jan 2020 revision."
-      },
-      {
-        "type": "TDS",
-        "title": "CHEMFOS KA datasheet (PPG TrueFinish iron phosphate) - GlobalSpec",
-        "url": "https://datasheets.globalspec.com/ds/ppg-industries/chemfos-ka/e98a892a-e888-4e62-ba8b-177307e1c5ec",
-        "language": "en",
-        "exact_or_equivalent": "equivalent",
-        "verified": false,
-        "note": "Web page, not PDF. Iron phosphate for general industry - confirms CHEMFOS brand but NOT a functional equivalent of automotive zinc phosphate."
-      }
-    ],
-    "equipment": [
-      {
-        "vendor": "Dürr",
-        "model": "PT/ED dip line (RoDip rotary dip or conventional spray/dip tunnel)",
-        "role": "Multi-stage pretreatment: degrease -> rinse -> surface conditioner (Ti/Zn activation) -> zinc phosphate dip/spray -> rinses -> passivation -> DI rinse; bath dosing pumps add concentrate from drums/IBCs",
-        "rationale": "Body-in-white zinc phosphate for e-coat is applied in a dip/spray PT tunnel; Dürr and Eisenmann/Taikisha are dominant PT/ED line builders (GM Korea/Asian plants often Taikisha/Daifuku). Representative only; plant's actual line vendor not found.",
-        "confidence": "medium"
-      },
-      {
-        "vendor": "generic (e.g. ProMinent / Grundfos)",
-        "model": "chemical dosing pumps + conductivity/free-acid titration control",
-        "role": "Automatic replenishment of phosphate concentrate from 250 kg drums into the phosphate tank",
-        "rationale": "Standard practice for phosphate bath replenishment; no evidence of specific vendor.",
-        "confidence": "low"
-      }
-    ],
-    "equipment_docs": [
-      {
-        "vendor": "Dürr",
-        "model": "Ecopaint RoDip (PT/ED rotary dip)",
-        "type": "brochure",
-        "title": "brochure ecopaint wetsystem (Dürr PT/EC, hosted on olpidurr.it)",
-        "url": "https://www.olpidurr.it/fileadmin/olpidurr.it/01_Products/01_Paint_Shops/03_PT_EC/01_Bath_Cleaning/02_EcoMultiCyclone/brochure-ecopaint-wetsystem.pdf",
-        "verified": false,
-        "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Path suggests PT/EC bath-cleaning/wet-system brochure; RoDip described per search summary."
-      }
-    ],
-    "notes": "No public reference to 'CHEMFOS 740R' found; PPG automotive zinc phosphates are the CHEMFOS 700 series (e.g. 700/710 with Versa Bond rinse conditioner). Spec KR-JFR-740 matches GM Korea numbering; governing GM global spec is GMW3011 (zinc phosphate conversion coatings). PPG SDS portal (ppg.com) blocked for fetch. Local context: JV Uz-Dongju Paint Co (Asaka/Uzbekistan; UzAvtosanoat + Korean DongJu/KION) was set up to supply UzAuto with pretreatment chemicals (3750 t/yr), sealants (1250 t/yr) and automotive paints, and its 2024 privatisation required keeping GM-standard compliance. It is a plausible local maker/distributor of the RSB/RSU sealers and possibly pretreatment/ED materials (unconfirmed; uzdongju.uz not reachable from this session)."
-  },
-  {
-    "id": 2,
-    "manufacturer": "Unconfirmed (candidates: KCC Corporation, PPG, Noroo/Uz-Dongju)",
-    "product_identified": "ED7010 Binder Gray - cathodic epoxy electrocoat binder / resin emulsion (spec KR-E6461) (grey), two-component feed system",
-    "manufacturer_confidence": "low",
-    "material_docs": [
-      {
-        "type": "brochure",
-        "title": "PPG automotive electrocoat products page (POWERCRON / ENVIRO-PRIME EPIC)",
-        "url": "https://www.ppg.com/autocoatings/en-US/products/electrocoat",
-        "language": "en",
-        "exact_or_equivalent": "equivalent",
-        "verified": false,
-        "note": "Web page, not PDF. ppg.com blocked for WebFetch in this session. Equivalent product family only."
-      },
-      {
-        "type": "brochure",
-        "title": "KCC Coatings - Automotive (ED coat, primer, basecoat, clearcoat)",
-        "url": "https://www.kccworld.co.kr/eng/paints/automotive.do",
-        "language": "en",
-        "exact_or_equivalent": "equivalent",
-        "verified": false,
-        "note": "Web page, not PDF; KCC states it supplies ED coat for OEM. Trade-data shows KCC exporting 'ED binder' and 'ED pigment paste' (matching binder/paste split) but not tied to ED7010."
-      }
-    ],
-    "equipment": [
-      {
-        "vendor": "Dürr",
-        "model": "Cathodic ED dip tank (RoDip or conventional) with anodes/anolyte cells",
-        "role": "Electrodeposition tank where binder (resin emulsion) and pigment paste are fed to maintain bath solids/P:B ratio",
-        "rationale": "Two-component ED feed (binder + paste) is charged into the main ED tank via feed/makeup tanks; Dürr is a leading ED line builder. Representative.",
-        "confidence": "medium"
-      },
-      {
-        "vendor": "Dürr / Controlled Power Co.",
-        "model": "EcoDC MACS modular rectifier / Controlled Power 'Series 50' rectifier + AACD controller",
-        "role": "DC power supply for cathodic deposition (typ. 200-400 V)",
-        "rationale": "Every cathodic ED line needs a thyristor/IGBT rectifier; both vendors documented for e-coat rectifiers. Representative.",
-        "confidence": "medium"
-      },
-      {
-        "vendor": "generic (e.g. Koch Membrane / Ion Exchange)",
-        "model": "Ultrafiltration (UF) unit + cascade permeate rinse",
-        "role": "Recovers ED paint solids from post-rinse, removes ionic contaminants",
-        "rationale": "Standard on all automotive ED lines; no specific vendor evidence.",
-        "confidence": "low"
-      }
-    ],
-    "equipment_docs": [
-      {
-        "vendor": "Dürr",
-        "model": "Ecopaint RoDip (PT/ED rotary dip)",
-        "type": "brochure",
-        "title": "brochure ecopaint wetsystem (Dürr PT/EC, hosted on olpidurr.it)",
-        "url": "https://www.olpidurr.it/fileadmin/olpidurr.it/01_Products/01_Paint_Shops/03_PT_EC/01_Bath_Cleaning/02_EcoMultiCyclone/brochure-ecopaint-wetsystem.pdf",
-        "verified": false,
-        "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Path suggests PT/EC bath-cleaning/wet-system brochure; RoDip described per search summary."
-      },
-      {
-        "vendor": "Controlled Power Company",
-        "model": "AACD / Series 50 e-coat rectifier",
-        "type": "brochure",
-        "title": "AACD Brochure",
-        "url": "https://www.trystar.com/wp-content/uploads/AACD_Brochure.pdf",
-        "verified": false,
-        "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Search summary: rectifier voltage controller / paint-usage optimizer for e-coat systems, Series 50 6-/12-pulse rectifiers."
-      }
-    ],
-    "notes": "No public source mentions 'ED7010' (searches return E7010 welding rods). Binder (KR-E6461) + paste (KR-E6462) split is typical of KCC/PPG/BASF/Nippon two-pack ED. KR- spec prefix = GM Korea/GM Daewoo material spec, suggesting a Korean supplier (KCC most likely) qualified at GM Korea. No public TDS/SDS found. Local context: JV Uz-Dongju Paint Co (Asaka/Uzbekistan; UzAvtosanoat + Korean DongJu/KION) was set up to supply UzAuto with pretreatment chemicals (3750 t/yr), sealants (1250 t/yr) and automotive paints, and its 2024 privatisation required keeping GM-standard compliance. It is a plausible local maker/distributor of the RSB/RSU sealers and possibly pretreatment/ED materials (unconfirmed; uzdongju.uz not reachable from this session)."
-  },
-  {
-    "id": 3,
-    "manufacturer": "Unconfirmed (candidates: KCC Corporation, PPG, Noroo/Uz-Dongju)",
-    "product_identified": "ED7010 Paste Gray - cathodic epoxy electrocoat pigment paste (spec KR-E6462) (grey), two-component feed system",
-    "manufacturer_confidence": "low",
-    "material_docs": [
-      {
-        "type": "brochure",
-        "title": "PPG automotive electrocoat products page (POWERCRON / ENVIRO-PRIME EPIC)",
-        "url": "https://www.ppg.com/autocoatings/en-US/products/electrocoat",
-        "language": "en",
-        "exact_or_equivalent": "equivalent",
-        "verified": false,
-        "note": "Web page, not PDF. ppg.com blocked for WebFetch in this session. Equivalent product family only."
-      },
-      {
-        "type": "brochure",
-        "title": "KCC Coatings - Automotive (ED coat, primer, basecoat, clearcoat)",
-        "url": "https://www.kccworld.co.kr/eng/paints/automotive.do",
-        "language": "en",
-        "exact_or_equivalent": "equivalent",
-        "verified": false,
-        "note": "Web page, not PDF; KCC states it supplies ED coat for OEM. Trade-data shows KCC exporting 'ED binder' and 'ED pigment paste' (matching binder/paste split) but not tied to ED7010."
-      }
-    ],
-    "equipment": [
-      {
-        "vendor": "Dürr",
-        "model": "Cathodic ED dip tank (RoDip or conventional) with anodes/anolyte cells",
-        "role": "Electrodeposition tank where binder (resin emulsion) and pigment paste are fed to maintain bath solids/P:B ratio",
-        "rationale": "Two-component ED feed (binder + paste) is charged into the main ED tank via feed/makeup tanks; Dürr is a leading ED line builder. Representative.",
-        "confidence": "medium"
-      },
-      {
-        "vendor": "Dürr / Controlled Power Co.",
-        "model": "EcoDC MACS modular rectifier / Controlled Power 'Series 50' rectifier + AACD controller",
-        "role": "DC power supply for cathodic deposition (typ. 200-400 V)",
-        "rationale": "Every cathodic ED line needs a thyristor/IGBT rectifier; both vendors documented for e-coat rectifiers. Representative.",
-        "confidence": "medium"
-      },
-      {
-        "vendor": "generic (e.g. Koch Membrane / Ion Exchange)",
-        "model": "Ultrafiltration (UF) unit + cascade permeate rinse",
-        "role": "Recovers ED paint solids from post-rinse, removes ionic contaminants",
-        "rationale": "Standard on all automotive ED lines; no specific vendor evidence.",
-        "confidence": "low"
-      }
-    ],
-    "equipment_docs": [
-      {
-        "vendor": "Dürr",
-        "model": "Ecopaint RoDip (PT/ED rotary dip)",
-        "type": "brochure",
-        "title": "brochure ecopaint wetsystem (Dürr PT/EC, hosted on olpidurr.it)",
-        "url": "https://www.olpidurr.it/fileadmin/olpidurr.it/01_Products/01_Paint_Shops/03_PT_EC/01_Bath_Cleaning/02_EcoMultiCyclone/brochure-ecopaint-wetsystem.pdf",
-        "verified": false,
-        "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Path suggests PT/EC bath-cleaning/wet-system brochure; RoDip described per search summary."
-      },
-      {
-        "vendor": "Controlled Power Company",
-        "model": "AACD / Series 50 e-coat rectifier",
-        "type": "brochure",
-        "title": "AACD Brochure",
-        "url": "https://www.trystar.com/wp-content/uploads/AACD_Brochure.pdf",
-        "verified": false,
-        "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Search summary: rectifier voltage controller / paint-usage optimizer for e-coat systems, Series 50 6-/12-pulse rectifiers."
-      }
-    ],
-    "notes": "No public source mentions 'ED7010' (searches return E7010 welding rods). Binder (KR-E6461) + paste (KR-E6462) split is typical of KCC/PPG/BASF/Nippon two-pack ED. KR- spec prefix = GM Korea/GM Daewoo material spec, suggesting a Korean supplier (KCC most likely) qualified at GM Korea. No public TDS/SDS found. Local context: JV Uz-Dongju Paint Co (Asaka/Uzbekistan; UzAvtosanoat + Korean DongJu/KION) was set up to supply UzAuto with pretreatment chemicals (3750 t/yr), sealants (1250 t/yr) and automotive paints, and its 2024 privatisation required keeping GM-standard compliance. It is a plausible local maker/distributor of the RSB/RSU sealers and possibly pretreatment/ED materials (unconfirmed; uzdongju.uz not reachable from this session)."
-  },
-  {
-    "id": 4,
-    "manufacturer": "Unconfirmed (likely Uz-Dongju Paint / Korean DongJu, or a Korean sealer maker under GM Korea qualification)",
-    "product_identified": "BODY SEALER RSB-430 - 1K PVC plastisol seam sealer, heat-cured in ED/primer oven (spec GVH-403U)",
-    "manufacturer_confidence": "low",
-    "material_docs": [
-      {
-        "type": "TDS",
-        "title": "TEROSON PV 3046 en GL (Henkel PVC plastisol seam sealer for vehicle bodies)",
-        "url": "https://datasheets.tdx.henkel.com/TEROSON-PV-3046-en_GL.pdf",
-        "language": "en",
-        "exact_or_equivalent": "equivalent",
-        "verified": false,
-        "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Closest documented equivalent: solvent-free heat-cured PVC plastisol body seam sealer."
-      }
-    ],
-    "equipment": [
-      {
-        "vendor": "Graco",
-        "model": "E-Flo SP electric supply system (D200/D200S 200 L drum ram) or Check-Mate/Dura-Flo ram",
-        "role": "Drum unloading / supply pump for high-viscosity PVC plastisol from 200-250 kg drums",
-        "rationale": "PVC plastisols are cold-pumped from drums with ram supply pumps; E-Flo SP is Graco's current electric sealant supply unit. (Therm-O-Flow is a HOT-melt unit and is less appropriate for PVC plastisol.) Representative.",
-        "confidence": "medium"
-      },
-      {
-        "vendor": "Dürr",
-        "model": "EcoShotMeter (piston dosing) + EcoGun2 3D applicator on sealing robot (EcoRP)",
-        "role": "Volumetric dosing and robotic bead/flat-stream application of seam sealer / UBC",
-        "rationale": "Paint-shop sealing (PVC seam sealing, UBC, anti-chip) is typically robotic with shot-meter dosing; Dürr, Atlas Copco SCA and Graco PrecisionFlo are the main suppliers. Representative.",
-        "confidence": "medium"
-      },
-      {
-        "vendor": "Atlas Copco (SCA)",
-        "model": "SCA paint shop dispensing system (ASC 5000 controller, dosing units)",
-        "role": "Alternative dosing/controller for paint-shop sealing & dampening",
-        "rationale": "SCA is widely used in GM/Korean paint shops for sealing; SYS 3000 not found, current paint-shop controller is ASC 5000. Representative.",
-        "confidence": "low"
-      },
-      {
-        "vendor": "Graco",
-        "model": "PrecisionFlo XL",
-        "role": "Alternative electronically controlled sealant metering/dispense package",
-        "rationale": "Legacy Graco sealer dosing common on older GM lines (UzAuto paint shop dates from 1996, modernised later).",
-        "confidence": "low"
-      }
-    ],
-    "equipment_docs": [
-      {
-        "vendor": "Graco",
-        "model": "E-Flo SP supply systems",
-        "type": "manual",
-        "title": "3A6331EN L - E-Flo SP Supply Systems (English)",
-        "url": "https://gww.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6331EN-L.pdf",
-        "verified": false,
-        "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index."
-      },
-      {
-        "vendor": "Graco",
-        "model": "E-Flo SP supply systems",
-        "type": "manual",
-        "title": "3A6853RU G - E-Flo SP supply systems (Russian)",
-        "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6853RU-G.pdf",
-        "verified": false,
-        "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Russian translation, useful for plant staff."
-      },
-      {
-        "vendor": "Dürr",
-        "model": "EcoShotMeter Tandem / EcoMeter SP",
-        "type": "datasheet",
-        "title": "duerr datsheet endless dosing en",
-        "url": "https://www.durr.com/fileadmin/durr.com/01_Products/05_Sealing_Gluing_Technology/03_Gluing_Application_Technology_Battery_Systems/duerr-datsheet-endless-dosing-en.pdf",
-        "verified": false,
-        "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Covers EcoShotMeter Tandem piston dosing + EcoMeter SP."
-      },
-      {
-        "vendor": "Graco",
-        "model": "PrecisionFlo XL",
-        "type": "manual",
-        "title": "PrecisionFlo XL electronically controlled fluid dispensing packages, manual 309374 rev R (third-party host)",
-        "url": "https://airless.es/manuales/graco/309374r.pdf",
-        "verified": false,
-        "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Third-party mirror (airless.es), ~2001 revision."
-      },
-      {
-        "vendor": "Atlas Copco (SCA)",
-        "model": "SCA dosing (pocket guide)",
-        "type": "brochure",
-        "title": "Atlas Copco Pocket Guide Dosiertechnik (DE) 9833 2169 01",
-        "url": "https://shopit.atlascopco.com/content/dam/atlas-copco/industrial-technique/general/documents/pocketguides/Atlas%20Copco-DT-9833%202169%2001-2019DE.pdf",
-        "verified": false,
-        "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. German; general SCA dosing guide."
-      }
-    ],
-    "notes": "No public source for 'RSB-430' or spec 'GVH-403U'. RSB/RSU naming (B=body, U=underbody) looks like a single supplier's series. Local context: JV Uz-Dongju Paint Co (Asaka/Uzbekistan; UzAvtosanoat + Korean DongJu/KION) was set up to supply UzAuto with pretreatment chemicals (3750 t/yr), sealants (1250 t/yr) and automotive paints, and its 2024 privatisation required keeping GM-standard compliance. It is a plausible local maker/distributor of the RSB/RSU sealers and possibly pretreatment/ED materials (unconfirmed; uzdongju.uz not reachable from this session)."
-  },
-  {
-    "id": 5,
-    "manufacturer": "Unconfirmed (likely same supplier as RSB-430; Uz-Dongju Paint candidate)",
-    "product_identified": "UBC UNDER COAT RSU-230 - 1K PVC plastisol underbody coating (spec GVH-170)",
-    "manufacturer_confidence": "low",
-    "material_docs": [
-      {
-        "type": "SDS",
-        "title": "TEROSON PV 3011 US-1-SO-SB DR187KG SDS (Henkel PVC underbody coating) - NextSDS",
-        "url": "https://nextsds.com/sds/en/281331501310308/teroson-pv-3011-us-1-so-sb-dr187kg",
-        "language": "en",
-        "exact_or_equivalent": "equivalent",
-        "verified": false,
-        "note": "Web page (SDS viewer), not direct PDF; equivalent PVC-underbody coating."
-      },
-      {
-        "type": "brochure",
-        "title": "Sika SikaSeal Underbody Coating (1K PVC, cold applied, heat cured)",
-        "url": "https://automotive.sika.com/en/solution-products/paint-shop-sealants/underbody-coating.html",
-        "language": "en",
-        "exact_or_equivalent": "equivalent",
-        "verified": false,
-        "note": "Web page, not PDF."
-      }
-    ],
-    "equipment": [
-      {
-        "vendor": "Graco",
-        "model": "E-Flo SP electric supply system (D200/D200S 200 L drum ram) or Check-Mate/Dura-Flo ram",
-        "role": "Drum unloading / supply pump for high-viscosity PVC plastisol from 200-250 kg drums",
-        "rationale": "PVC plastisols are cold-pumped from drums with ram supply pumps; E-Flo SP is Graco's current electric sealant supply unit. (Therm-O-Flow is a HOT-melt unit and is less appropriate for PVC plastisol.) Representative.",
-        "confidence": "medium"
-      },
-      {
-        "vendor": "Dürr",
-        "model": "EcoShotMeter (piston dosing) + EcoGun2 3D applicator on sealing robot (EcoRP)",
-        "role": "Volumetric dosing and robotic bead/flat-stream application of seam sealer / UBC",
-        "rationale": "Paint-shop sealing (PVC seam sealing, UBC, anti-chip) is typically robotic with shot-meter dosing; Dürr, Atlas Copco SCA and Graco PrecisionFlo are the main suppliers. Representative.",
-        "confidence": "medium"
-      },
-      {
-        "vendor": "Atlas Copco (SCA)",
-        "model": "SCA paint shop dispensing system (ASC 5000 controller, dosing units)",
-        "role": "Alternative dosing/controller for paint-shop sealing & dampening",
-        "rationale": "SCA is widely used in GM/Korean paint shops for sealing; SYS 3000 not found, current paint-shop controller is ASC 5000. Representative.",
-        "confidence": "low"
-      },
-      {
-        "vendor": "Graco",
-        "model": "PrecisionFlo XL",
-        "role": "Alternative electronically controlled sealant metering/dispense package",
-        "rationale": "Legacy Graco sealer dosing common on older GM lines (UzAuto paint shop dates from 1996, modernised later).",
-        "confidence": "low"
-      }
-    ],
-    "equipment_docs": [
-      {
-        "vendor": "Graco",
-        "model": "E-Flo SP supply systems",
-        "type": "manual",
-        "title": "3A6331EN L - E-Flo SP Supply Systems (English)",
-        "url": "https://gww.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6331EN-L.pdf",
-        "verified": false,
-        "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index."
-      },
-      {
-        "vendor": "Graco",
-        "model": "E-Flo SP supply systems",
-        "type": "manual",
-        "title": "3A6853RU G - E-Flo SP supply systems (Russian)",
-        "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6853RU-G.pdf",
-        "verified": false,
-        "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Russian translation, useful for plant staff."
-      },
-      {
-        "vendor": "Dürr",
-        "model": "EcoShotMeter Tandem / EcoMeter SP",
-        "type": "datasheet",
-        "title": "duerr datsheet endless dosing en",
-        "url": "https://www.durr.com/fileadmin/durr.com/01_Products/05_Sealing_Gluing_Technology/03_Gluing_Application_Technology_Battery_Systems/duerr-datsheet-endless-dosing-en.pdf",
-        "verified": false,
-        "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Covers EcoShotMeter Tandem piston dosing + EcoMeter SP."
-      },
-      {
-        "vendor": "Graco",
-        "model": "PrecisionFlo XL",
-        "type": "manual",
-        "title": "PrecisionFlo XL electronically controlled fluid dispensing packages, manual 309374 rev R (third-party host)",
-        "url": "https://airless.es/manuales/graco/309374r.pdf",
-        "verified": false,
-        "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Third-party mirror (airless.es), ~2001 revision."
-      },
-      {
-        "vendor": "Atlas Copco (SCA)",
-        "model": "SCA dosing (pocket guide)",
-        "type": "brochure",
-        "title": "Atlas Copco Pocket Guide Dosiertechnik (DE) 9833 2169 01",
-        "url": "https://shopit.atlascopco.com/content/dam/atlas-copco/industrial-technique/general/documents/pocketguides/Atlas%20Copco-DT-9833%202169%2001-2019DE.pdf",
-        "verified": false,
-        "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. German; general SCA dosing guide."
-      }
-    ],
-    "notes": "UBC is sprayed airless (robot, flat-stream/airless nozzles e.g. Dürr EcoJetAC/EcoJetSE on EcoGun2 3D) after ED, before sealer oven. No public source for RSU-230/GVH-170. Local context: JV Uz-Dongju Paint Co (Asaka/Uzbekistan; UzAvtosanoat + Korean DongJu/KION) was set up to supply UzAuto with pretreatment chemicals (3750 t/yr), sealants (1250 t/yr) and automotive paints, and its 2024 privatisation required keeping GM-standard compliance. It is a plausible local maker/distributor of the RSB/RSU sealers and possibly pretreatment/ED materials (unconfirmed; uzdongju.uz not reachable from this session)."
-  },
-  {
-    "id": 6,
-    "manufacturer": "Unconfirmed (same GVH-170 spec as RSU-230; possibly alternate source/grade)",
-    "product_identified": "UBS COAT - PVC plastisol underbody coating/sealer (spec GVH-170)",
-    "manufacturer_confidence": "low",
-    "material_docs": [
-      {
-        "type": "SDS",
-        "title": "TEROSON PV 3146 AB-Oa-Sb TO1400KG SDS (Henkel PVC underbody coating) - NextSDS",
-        "url": "https://nextsds.com/sds/en/281331501309209/teroson-pv-3146-ab-oa-sb-to1400kg",
-        "language": "en",
-        "exact_or_equivalent": "equivalent",
-        "verified": false,
-        "note": "Web page (SDS viewer), not direct PDF."
-      }
-    ],
-    "equipment": [
-      {
-        "vendor": "Graco",
-        "model": "E-Flo SP electric supply system (D200/D200S 200 L drum ram) or Check-Mate/Dura-Flo ram",
-        "role": "Drum unloading / supply pump for high-viscosity PVC plastisol from 200-250 kg drums",
-        "rationale": "PVC plastisols are cold-pumped from drums with ram supply pumps; E-Flo SP is Graco's current electric sealant supply unit. (Therm-O-Flow is a HOT-melt unit and is less appropriate for PVC plastisol.) Representative.",
-        "confidence": "medium"
-      },
-      {
-        "vendor": "Dürr",
-        "model": "EcoShotMeter (piston dosing) + EcoGun2 3D applicator on sealing robot (EcoRP)",
-        "role": "Volumetric dosing and robotic bead/flat-stream application of seam sealer / UBC",
-        "rationale": "Paint-shop sealing (PVC seam sealing, UBC, anti-chip) is typically robotic with shot-meter dosing; Dürr, Atlas Copco SCA and Graco PrecisionFlo are the main suppliers. Representative.",
-        "confidence": "medium"
-      },
-      {
-        "vendor": "Atlas Copco (SCA)",
-        "model": "SCA paint shop dispensing system (ASC 5000 controller, dosing units)",
-        "role": "Alternative dosing/controller for paint-shop sealing & dampening",
-        "rationale": "SCA is widely used in GM/Korean paint shops for sealing; SYS 3000 not found, current paint-shop controller is ASC 5000. Representative.",
-        "confidence": "low"
-      },
-      {
-        "vendor": "Graco",
-        "model": "PrecisionFlo XL",
-        "role": "Alternative electronically controlled sealant metering/dispense package",
-        "rationale": "Legacy Graco sealer dosing common on older GM lines (UzAuto paint shop dates from 1996, modernised later).",
-        "confidence": "low"
-      }
-    ],
-    "equipment_docs": [
-      {
-        "vendor": "Graco",
-        "model": "E-Flo SP supply systems",
-        "type": "manual",
-        "title": "3A6331EN L - E-Flo SP Supply Systems (English)",
-        "url": "https://gww.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6331EN-L.pdf",
-        "verified": false,
-        "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index."
-      },
-      {
-        "vendor": "Graco",
-        "model": "E-Flo SP supply systems",
-        "type": "manual",
-        "title": "3A6853RU G - E-Flo SP supply systems (Russian)",
-        "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6853RU-G.pdf",
-        "verified": false,
-        "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Russian translation, useful for plant staff."
-      },
-      {
-        "vendor": "Dürr",
-        "model": "EcoShotMeter Tandem / EcoMeter SP",
-        "type": "datasheet",
-        "title": "duerr datsheet endless dosing en",
-        "url": "https://www.durr.com/fileadmin/durr.com/01_Products/05_Sealing_Gluing_Technology/03_Gluing_Application_Technology_Battery_Systems/duerr-datsheet-endless-dosing-en.pdf",
-        "verified": false,
-        "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Covers EcoShotMeter Tandem piston dosing + EcoMeter SP."
-      },
-      {
-        "vendor": "Graco",
-        "model": "PrecisionFlo XL",
-        "type": "manual",
-        "title": "PrecisionFlo XL electronically controlled fluid dispensing packages, manual 309374 rev R (third-party host)",
-        "url": "https://airless.es/manuales/graco/309374r.pdf",
-        "verified": false,
-        "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Third-party mirror (airless.es), ~2001 revision."
-      },
-      {
-        "vendor": "Atlas Copco (SCA)",
-        "model": "SCA dosing (pocket guide)",
-        "type": "brochure",
-        "title": "Atlas Copco Pocket Guide Dosiertechnik (DE) 9833 2169 01",
-        "url": "https://shopit.atlascopco.com/content/dam/atlas-copco/industrial-technique/general/documents/pocketguides/Atlas%20Copco-DT-9833%202169%2001-2019DE.pdf",
-        "verified": false,
-        "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. German; general SCA dosing guide."
-      }
-    ],
-    "notes": "Shares spec GVH-170 with item 5, so it is likely an approved second source or different packaging of the same underbody PVC. No public exact doc. Local context: JV Uz-Dongju Paint Co (Asaka/Uzbekistan; UzAvtosanoat + Korean DongJu/KION) was set up to supply UzAuto with pretreatment chemicals (3750 t/yr), sealants (1250 t/yr) and automotive paints, and its 2024 privatisation required keeping GM-standard compliance. It is a plausible local maker/distributor of the RSB/RSU sealers and possibly pretreatment/ED materials (unconfirmed; uzdongju.uz not reachable from this session)."
-  },
-  {
-    "id": 7,
-    "manufacturer": "Unconfirmed",
-    "product_identified": "PVC ANTI CHIP - PVC plastisol stone-chip protection coating for rocker/sill and lower body (spec P8201)",
-    "manufacturer_confidence": "low",
-    "material_docs": [
-      {
-        "type": "brochure",
-        "title": "Sika SikaSeal Underbody Coating page (impact/abrasion resistant PVC)",
-        "url": "https://automotive.sika.com/en/solution-products/paint-shop-sealants/underbody-coating.html",
-        "language": "en",
-        "exact_or_equivalent": "equivalent",
-        "verified": false,
-        "note": "Web page, not PDF."
-      },
-      {
-        "type": "PDS",
-        "title": "Sikagard-6682 PDS (US) - water-based sound deadening & anti-chip underbody coating",
-        "url": "https://usa.sika.com/content/dam/dms/us01/5/pds-ipd-sikagard%206682-US%20final%20%205.6.16.pdf",
-        "language": "en",
-        "exact_or_equivalent": "equivalent",
-        "verified": false,
-        "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Anti-chip function equivalent but WATER-BASED (not PVC) - weak equivalent."
-      }
-    ],
-    "equipment": [
-      {
-        "vendor": "Graco",
-        "model": "E-Flo SP electric supply system (D200/D200S 200 L drum ram) or Check-Mate/Dura-Flo ram",
-        "role": "Drum unloading / supply pump for high-viscosity PVC plastisol from 200-250 kg drums",
-        "rationale": "PVC plastisols are cold-pumped from drums with ram supply pumps; E-Flo SP is Graco's current electric sealant supply unit. (Therm-O-Flow is a HOT-melt unit and is less appropriate for PVC plastisol.) Representative.",
-        "confidence": "medium"
-      },
-      {
-        "vendor": "Dürr",
-        "model": "EcoShotMeter (piston dosing) + EcoGun2 3D applicator on sealing robot (EcoRP)",
-        "role": "Volumetric dosing and robotic bead/flat-stream application of seam sealer / UBC",
-        "rationale": "Paint-shop sealing (PVC seam sealing, UBC, anti-chip) is typically robotic with shot-meter dosing; Dürr, Atlas Copco SCA and Graco PrecisionFlo are the main suppliers. Representative.",
-        "confidence": "medium"
-      },
-      {
-        "vendor": "Atlas Copco (SCA)",
-        "model": "SCA paint shop dispensing system (ASC 5000 controller, dosing units)",
-        "role": "Alternative dosing/controller for paint-shop sealing & dampening",
-        "rationale": "SCA is widely used in GM/Korean paint shops for sealing; SYS 3000 not found, current paint-shop controller is ASC 5000. Representative.",
-        "confidence": "low"
-      },
-      {
-        "vendor": "Graco",
-        "model": "PrecisionFlo XL",
-        "role": "Alternative electronically controlled sealant metering/dispense package",
-        "rationale": "Legacy Graco sealer dosing common on older GM lines (UzAuto paint shop dates from 1996, modernised later).",
-        "confidence": "low"
-      }
-    ],
-    "equipment_docs": [
-      {
-        "vendor": "Graco",
-        "model": "E-Flo SP supply systems",
-        "type": "manual",
-        "title": "3A6331EN L - E-Flo SP Supply Systems (English)",
-        "url": "https://gww.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6331EN-L.pdf",
-        "verified": false,
-        "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index."
-      },
-      {
-        "vendor": "Graco",
-        "model": "E-Flo SP supply systems",
-        "type": "manual",
-        "title": "3A6853RU G - E-Flo SP supply systems (Russian)",
-        "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6853RU-G.pdf",
-        "verified": false,
-        "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Russian translation, useful for plant staff."
-      },
-      {
-        "vendor": "Dürr",
-        "model": "EcoShotMeter Tandem / EcoMeter SP",
-        "type": "datasheet",
-        "title": "duerr datsheet endless dosing en",
-        "url": "https://www.durr.com/fileadmin/durr.com/01_Products/05_Sealing_Gluing_Technology/03_Gluing_Application_Technology_Battery_Systems/duerr-datsheet-endless-dosing-en.pdf",
-        "verified": false,
-        "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Covers EcoShotMeter Tandem piston dosing + EcoMeter SP."
-      },
-      {
-        "vendor": "Graco",
-        "model": "PrecisionFlo XL",
-        "type": "manual",
-        "title": "PrecisionFlo XL electronically controlled fluid dispensing packages, manual 309374 rev R (third-party host)",
-        "url": "https://airless.es/manuales/graco/309374r.pdf",
-        "verified": false,
-        "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Third-party mirror (airless.es), ~2001 revision."
-      },
-      {
-        "vendor": "Atlas Copco (SCA)",
-        "model": "SCA dosing (pocket guide)",
-        "type": "brochure",
-        "title": "Atlas Copco Pocket Guide Dosiertechnik (DE) 9833 2169 01",
-        "url": "https://shopit.atlascopco.com/content/dam/atlas-copco/industrial-technique/general/documents/pocketguides/Atlas%20Copco-DT-9833%202169%2001-2019DE.pdf",
-        "verified": false,
-        "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. German; general SCA dosing guide."
-      }
-    ],
-    "notes": "Anti-chip PVC is robot/airless-sprayed on sills/wheel arches (wet-on-wet before primer). Spec 'P8201' not found publicly. Source row was duplicated. Local context: JV Uz-Dongju Paint Co (Asaka/Uzbekistan; UzAvtosanoat + Korean DongJu/KION) was set up to supply UzAuto with pretreatment chemicals (3750 t/yr), sealants (1250 t/yr) and automotive paints, and its 2024 privatisation required keeping GM-standard compliance. It is a plausible local maker/distributor of the RSB/RSU sealers and possibly pretreatment/ED materials (unconfirmed; uzdongju.uz not reachable from this session)."
-  }
+ {
+  "id": 1,
+  "manufacturer": "PPG Industries (CHEMFOS is a PPG pretreatment brand)",
+  "product_identified": "CHEMFOS 740R - likely a PPG CHEMFOS 700-series tricationic (Zn/Ni/Mn) zinc phosphate, 'R' = replenisher (inferred)",
+  "manufacturer_confidence": "medium",
+  "material_docs": [
+   {
+    "type": "brochure",
+    "title": "Advances in Aluminum Pretreatment (OSTI paper; describes CHEMFOS 700 series tricationic zinc phosphate from PPG)",
+    "url": "https://www.osti.gov/etdeweb/servlets/purl/20671858",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Technical paper, not a TDS; names CHEMFOS 700 series."
+   },
+   {
+    "type": "TDS",
+    "title": "BONDERITE M-ZN 952 A (Henkel) - nitrite-accelerated tricationic zinc phosphate, spray/immersion, for e-coat pretreatment",
+    "url": "https://datasheets.tdx.henkel.com/BONDERITE-M-ZN-952-A-en_GL.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Competitor equivalent (Henkel), not PPG; Jan 2020 revision."
+   },
+   {
+    "type": "brochure",
+    "title": "PPG automotive pretreatment (CHEMFOS tri-cation zinc phosphate)",
+    "url": "https://www.ppg.com/en-US/autocoatings/products/pretreatment",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "HTML product page (brand/process confirmation)"
+   }
+  ],
+  "equipment": [
+   {
+    "vendor": "Dürr",
+    "model": "PT/ED dip line (RoDip rotary dip or conventional spray/dip tunnel)",
+    "role": "Multi-stage pretreatment: degrease -> rinse -> surface conditioner (Ti/Zn activation) -> zinc phosphate dip/spray -> rinses -> passivation -> DI rinse; bath dosing pumps add concentrate from drums/IBCs",
+    "rationale": "Body-in-white zinc phosphate for e-coat is applied in a dip/spray PT tunnel; Dürr and Eisenmann/Taikisha are dominant PT/ED line builders (GM Korea/Asian plants often Taikisha/Daifuku). Representative only; plant's actual line vendor not found.",
+    "confidence": "medium"
+   },
+   {
+    "vendor": "generic (e.g. ProMinent / Grundfos)",
+    "model": "chemical dosing pumps + conductivity/free-acid titration control",
+    "role": "Automatic replenishment of phosphate concentrate from 250 kg drums into the phosphate tank",
+    "rationale": "Standard practice for phosphate bath replenishment; no evidence of specific vendor.",
+    "confidence": "low"
+   }
+  ],
+  "equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint RoDip (PT/ED rotary dip)",
+    "type": "brochure",
+    "title": "brochure ecopaint wetsystem (Dürr PT/EC, hosted on olpidurr.it)",
+    "url": "https://www.olpidurr.it/fileadmin/olpidurr.it/01_Products/01_Paint_Shops/03_PT_EC/01_Bath_Cleaning/02_EcoMultiCyclone/brochure-ecopaint-wetsystem.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Path suggests PT/EC bath-cleaning/wet-system brochure; RoDip described per search summary. Reviewer: general Ecopaint WetSystem PT/ED brochure, not RoDip-specific."
+   }
+  ],
+  "notes": "No public reference to 'CHEMFOS 740R' found; PPG automotive zinc phosphates are the CHEMFOS 700 series (e.g. 700/710 with Versa Bond rinse conditioner). Spec KR-JFR-740 matches GM Korea numbering; governing GM global spec is GMW3011 (zinc phosphate conversion coatings). PPG SDS portal (ppg.com) blocked for fetch. Local context: JV Uz-Dongju Paint Co (Asaka/Uzbekistan; UzAvtosanoat + Korean DongJu/KION) was set up to supply UzAuto with pretreatment chemicals (3750 t/yr), sealants (1250 t/yr) and automotive paints, and its 2024 privatisation required keeping GM-standard compliance. It is a plausible local maker/distributor of the RSB/RSU sealers and possibly pretreatment/ED materials (unconfirmed; uzdongju.uz not reachable from this session)."
+ },
+ {
+  "id": 2,
+  "manufacturer": "Unconfirmed (candidates: KCC Corporation, PPG, Noroo/Uz-Dongju)",
+  "product_identified": "ED7010 Binder Gray - cathodic epoxy electrocoat binder / resin emulsion (spec KR-E6461) (grey), two-component feed system",
+  "manufacturer_confidence": "low",
+  "material_docs": [
+   {
+    "type": "brochure",
+    "title": "PPG automotive electrocoat products page (POWERCRON / ENVIRO-PRIME EPIC)",
+    "url": "https://www.ppg.com/autocoatings/en-US/products/electrocoat",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Web page, not PDF. ppg.com blocked for WebFetch in this session. Equivalent product family only."
+   },
+   {
+    "type": "brochure",
+    "title": "KCC Coatings - Automotive (ED coat, primer, basecoat, clearcoat)",
+    "url": "https://www.kccworld.co.kr/eng/paints/automotive.do",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Web page, not PDF; KCC states it supplies ED coat for OEM. Trade-data shows KCC exporting 'ED binder' and 'ED pigment paste' (matching binder/paste split) but not tied to ED7010."
+   }
+  ],
+  "equipment": [
+   {
+    "vendor": "Dürr",
+    "model": "Cathodic ED dip tank (RoDip or conventional) with anodes/anolyte cells",
+    "role": "Electrodeposition tank where binder (resin emulsion) and pigment paste are fed to maintain bath solids/P:B ratio",
+    "rationale": "Two-component ED feed (binder + paste) is charged into the main ED tank via feed/makeup tanks; Dürr is a leading ED line builder. Representative.",
+    "confidence": "medium"
+   },
+   {
+    "vendor": "Dürr / Controlled Power Co.",
+    "model": "EcoDC MACS modular rectifier / Controlled Power 'Series 50' rectifier + AACD controller",
+    "role": "DC power supply for cathodic deposition (typ. 200-400 V)",
+    "rationale": "Every cathodic ED line needs a thyristor/IGBT rectifier; both vendors documented for e-coat rectifiers. Representative.",
+    "confidence": "medium"
+   },
+   {
+    "vendor": "generic (e.g. Koch Membrane / Ion Exchange)",
+    "model": "Ultrafiltration (UF) unit + cascade permeate rinse",
+    "role": "Recovers ED paint solids from post-rinse, removes ionic contaminants",
+    "rationale": "Standard on all automotive ED lines; no specific vendor evidence.",
+    "confidence": "low"
+   }
+  ],
+  "equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint RoDip (PT/ED rotary dip)",
+    "type": "brochure",
+    "title": "brochure ecopaint wetsystem (Dürr PT/EC, hosted on olpidurr.it)",
+    "url": "https://www.olpidurr.it/fileadmin/olpidurr.it/01_Products/01_Paint_Shops/03_PT_EC/01_Bath_Cleaning/02_EcoMultiCyclone/brochure-ecopaint-wetsystem.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Path suggests PT/EC bath-cleaning/wet-system brochure; RoDip described per search summary."
+   },
+   {
+    "vendor": "Controlled Power Company",
+    "model": "AACD / Series 50 e-coat rectifier",
+    "type": "brochure",
+    "title": "AACD Brochure",
+    "url": "https://www.trystar.com/wp-content/uploads/AACD_Brochure.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Search summary: rectifier voltage controller / paint-usage optimizer for e-coat systems, Series 50 6-/12-pulse rectifiers."
+   }
+  ],
+  "notes": "No public source mentions 'ED7010' (searches return E7010 welding rods). Binder (KR-E6461) + paste (KR-E6462) split is typical of KCC/PPG/BASF/Nippon two-pack ED. KR- spec prefix = GM Korea/GM Daewoo material spec, suggesting a Korean supplier (KCC most likely) qualified at GM Korea. No public TDS/SDS found. Local context: JV Uz-Dongju Paint Co (Asaka/Uzbekistan; UzAvtosanoat + Korean DongJu/KION) was set up to supply UzAuto with pretreatment chemicals (3750 t/yr), sealants (1250 t/yr) and automotive paints, and its 2024 privatisation required keeping GM-standard compliance. It is a plausible local maker/distributor of the RSB/RSU sealers and possibly pretreatment/ED materials (unconfirmed; uzdongju.uz not reachable from this session)."
+ },
+ {
+  "id": 3,
+  "manufacturer": "Unconfirmed (candidates: KCC Corporation, PPG, Noroo/Uz-Dongju)",
+  "product_identified": "ED7010 Paste Gray - cathodic epoxy electrocoat pigment paste (spec KR-E6462) (grey), two-component feed system",
+  "manufacturer_confidence": "low",
+  "material_docs": [
+   {
+    "type": "brochure",
+    "title": "PPG automotive electrocoat products page (POWERCRON / ENVIRO-PRIME EPIC)",
+    "url": "https://www.ppg.com/autocoatings/en-US/products/electrocoat",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Web page, not PDF. ppg.com blocked for WebFetch in this session. Equivalent product family only."
+   },
+   {
+    "type": "brochure",
+    "title": "KCC Coatings - Automotive (ED coat, primer, basecoat, clearcoat)",
+    "url": "https://www.kccworld.co.kr/eng/paints/automotive.do",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Web page, not PDF; KCC states it supplies ED coat for OEM. Trade-data shows KCC exporting 'ED binder' and 'ED pigment paste' (matching binder/paste split) but not tied to ED7010."
+   }
+  ],
+  "equipment": [
+   {
+    "vendor": "Dürr",
+    "model": "Cathodic ED dip tank (RoDip or conventional) with anodes/anolyte cells",
+    "role": "Electrodeposition tank where binder (resin emulsion) and pigment paste are fed to maintain bath solids/P:B ratio",
+    "rationale": "Two-component ED feed (binder + paste) is charged into the main ED tank via feed/makeup tanks; Dürr is a leading ED line builder. Representative.",
+    "confidence": "medium"
+   },
+   {
+    "vendor": "Dürr / Controlled Power Co.",
+    "model": "EcoDC MACS modular rectifier / Controlled Power 'Series 50' rectifier + AACD controller",
+    "role": "DC power supply for cathodic deposition (typ. 200-400 V)",
+    "rationale": "Every cathodic ED line needs a thyristor/IGBT rectifier; both vendors documented for e-coat rectifiers. Representative.",
+    "confidence": "medium"
+   },
+   {
+    "vendor": "generic (e.g. Koch Membrane / Ion Exchange)",
+    "model": "Ultrafiltration (UF) unit + cascade permeate rinse",
+    "role": "Recovers ED paint solids from post-rinse, removes ionic contaminants",
+    "rationale": "Standard on all automotive ED lines; no specific vendor evidence.",
+    "confidence": "low"
+   }
+  ],
+  "equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint RoDip (PT/ED rotary dip)",
+    "type": "brochure",
+    "title": "brochure ecopaint wetsystem (Dürr PT/EC, hosted on olpidurr.it)",
+    "url": "https://www.olpidurr.it/fileadmin/olpidurr.it/01_Products/01_Paint_Shops/03_PT_EC/01_Bath_Cleaning/02_EcoMultiCyclone/brochure-ecopaint-wetsystem.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Path suggests PT/EC bath-cleaning/wet-system brochure; RoDip described per search summary."
+   },
+   {
+    "vendor": "Controlled Power Company",
+    "model": "AACD / Series 50 e-coat rectifier",
+    "type": "brochure",
+    "title": "AACD Brochure",
+    "url": "https://www.trystar.com/wp-content/uploads/AACD_Brochure.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Search summary: rectifier voltage controller / paint-usage optimizer for e-coat systems, Series 50 6-/12-pulse rectifiers."
+   }
+  ],
+  "notes": "No public source mentions 'ED7010' (searches return E7010 welding rods). Binder (KR-E6461) + paste (KR-E6462) split is typical of KCC/PPG/BASF/Nippon two-pack ED. KR- spec prefix = GM Korea/GM Daewoo material spec, suggesting a Korean supplier (KCC most likely) qualified at GM Korea. No public TDS/SDS found. Local context: JV Uz-Dongju Paint Co (Asaka/Uzbekistan; UzAvtosanoat + Korean DongJu/KION) was set up to supply UzAuto with pretreatment chemicals (3750 t/yr), sealants (1250 t/yr) and automotive paints, and its 2024 privatisation required keeping GM-standard compliance. It is a plausible local maker/distributor of the RSB/RSU sealers and possibly pretreatment/ED materials (unconfirmed; uzdongju.uz not reachable from this session)."
+ },
+ {
+  "id": 4,
+  "manufacturer": "Unconfirmed (likely Uz-Dongju Paint / Korean DongJu, or a Korean sealer maker under GM Korea qualification)",
+  "product_identified": "BODY SEALER RSB-430 - 1K PVC plastisol seam sealer, heat-cured in ED/primer oven (spec GVH-403U)",
+  "manufacturer_confidence": "low",
+  "material_docs": [
+   {
+    "type": "TDS",
+    "title": "TEROSON PV 3046 en GL (Henkel PVC plastisol seam sealer for vehicle bodies)",
+    "url": "https://datasheets.tdx.henkel.com/TEROSON-PV-3046-en_GL.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Closest documented equivalent: solvent-free heat-cured PVC plastisol body seam sealer."
+   }
+  ],
+  "equipment": [
+   {
+    "vendor": "Graco",
+    "model": "E-Flo SP electric supply system (D200/D200S 200 L drum ram) or Check-Mate/Dura-Flo ram",
+    "role": "Drum unloading / supply pump for high-viscosity PVC plastisol from 200-250 kg drums",
+    "rationale": "PVC plastisols are cold-pumped from drums with ram supply pumps; E-Flo SP is Graco's current electric sealant supply unit. (Therm-O-Flow is a HOT-melt unit and is less appropriate for PVC plastisol.) Representative.",
+    "confidence": "medium"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoShotMeter (piston dosing) + EcoGun2 3D applicator on sealing robot (EcoRP)",
+    "role": "Volumetric dosing and robotic bead/flat-stream application of seam sealer / UBC",
+    "rationale": "Paint-shop sealing (PVC seam sealing, UBC, anti-chip) is typically robotic with shot-meter dosing; Dürr, Atlas Copco SCA and Graco PrecisionFlo are the main suppliers. Representative.",
+    "confidence": "medium"
+   },
+   {
+    "vendor": "Atlas Copco (SCA)",
+    "model": "SCA paint shop dispensing system (ASC 5000 controller, dosing units)",
+    "role": "Alternative dosing/controller for paint-shop sealing & dampening",
+    "rationale": "SCA is widely used in GM/Korean paint shops for sealing; SYS 3000 not found, current paint-shop controller is ASC 5000. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Graco",
+    "model": "PrecisionFlo XL",
+    "role": "Alternative electronically controlled sealant metering/dispense package",
+    "rationale": "Legacy Graco sealer dosing common on older GM lines (UzAuto paint shop dates from 1996, modernised later).",
+    "confidence": "low"
+   }
+  ],
+  "equipment_docs": [
+   {
+    "vendor": "Graco",
+    "model": "E-Flo SP supply systems",
+    "type": "manual",
+    "title": "3A6331EN L - E-Flo SP Supply Systems (English)",
+    "url": "https://gww.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6331EN-L.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index."
+   },
+   {
+    "vendor": "Graco",
+    "model": "E-Flo SP supply systems",
+    "type": "manual",
+    "title": "3A6853RU G - E-Flo SP supply systems (Russian)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6853RU-G.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Russian translation, useful for plant staff."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoShotMeter Tandem / EcoMeter SP",
+    "type": "datasheet",
+    "title": "duerr datsheet endless dosing en",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/05_Sealing_Gluing_Technology/03_Gluing_Application_Technology_Battery_Systems/duerr-datsheet-endless-dosing-en.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Covers EcoShotMeter Tandem piston dosing + EcoMeter SP. Reviewer: EcoShotMeter Tandem sheet filed under battery gluing - weak match."
+   },
+   {
+    "vendor": "Graco",
+    "model": "PrecisionFlo XL",
+    "type": "manual",
+    "title": "PrecisionFlo XL electronically controlled fluid dispensing packages, manual 309374 rev R (third-party host)",
+    "url": "https://airless.es/manuales/graco/309374r.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Third-party mirror (airless.es), ~2001 revision."
+   },
+   {
+    "vendor": "Atlas Copco (SCA)",
+    "model": "SCA dosing (pocket guide)",
+    "type": "brochure",
+    "title": "Atlas Copco Pocket Guide Dosiertechnik (DE) 9833 2169 01",
+    "url": "https://shopit.atlascopco.com/content/dam/atlas-copco/industrial-technique/general/documents/pocketguides/Atlas%20Copco-DT-9833%202169%2001-2019DE.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. German; general SCA dosing guide."
+   }
+  ],
+  "notes": "No public source for 'RSB-430' or spec 'GVH-403U'. RSB/RSU naming (B=body, U=underbody) looks like a single supplier's series. Local context: JV Uz-Dongju Paint Co (Asaka/Uzbekistan; UzAvtosanoat + Korean DongJu/KION) was set up to supply UzAuto with pretreatment chemicals (3750 t/yr), sealants (1250 t/yr) and automotive paints, and its 2024 privatisation required keeping GM-standard compliance. It is a plausible local maker/distributor of the RSB/RSU sealers and possibly pretreatment/ED materials (unconfirmed; uzdongju.uz not reachable from this session)."
+ },
+ {
+  "id": 5,
+  "manufacturer": "Unconfirmed (likely same supplier as RSB-430; Uz-Dongju Paint candidate)",
+  "product_identified": "UBC UNDER COAT RSU-230 - 1K PVC plastisol underbody coating (spec GVH-170)",
+  "manufacturer_confidence": "low",
+  "material_docs": [
+   {
+    "type": "SDS",
+    "title": "TEROSON PV 3011 US-1-SO-SB DR187KG SDS (Henkel PVC underbody coating) - NextSDS",
+    "url": "https://nextsds.com/sds/en/281331501310308/teroson-pv-3011-us-1-so-sb-dr187kg",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Web page (SDS viewer), not direct PDF; equivalent PVC-underbody coating."
+   },
+   {
+    "type": "brochure",
+    "title": "Sika SikaSeal Underbody Coating (1K PVC, cold applied, heat cured)",
+    "url": "https://automotive.sika.com/en/solution-products/paint-shop-sealants/underbody-coating.html",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Web page, not PDF."
+   }
+  ],
+  "equipment": [
+   {
+    "vendor": "Graco",
+    "model": "E-Flo SP electric supply system (D200/D200S 200 L drum ram) or Check-Mate/Dura-Flo ram",
+    "role": "Drum unloading / supply pump for high-viscosity PVC plastisol from 200-250 kg drums",
+    "rationale": "PVC plastisols are cold-pumped from drums with ram supply pumps; E-Flo SP is Graco's current electric sealant supply unit. (Therm-O-Flow is a HOT-melt unit and is less appropriate for PVC plastisol.) Representative.",
+    "confidence": "medium"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoShotMeter (piston dosing) + EcoGun2 3D applicator on sealing robot (EcoRP)",
+    "role": "Volumetric dosing and robotic bead/flat-stream application of seam sealer / UBC",
+    "rationale": "Paint-shop sealing (PVC seam sealing, UBC, anti-chip) is typically robotic with shot-meter dosing; Dürr, Atlas Copco SCA and Graco PrecisionFlo are the main suppliers. Representative.",
+    "confidence": "medium"
+   },
+   {
+    "vendor": "Atlas Copco (SCA)",
+    "model": "SCA paint shop dispensing system (ASC 5000 controller, dosing units)",
+    "role": "Alternative dosing/controller for paint-shop sealing & dampening",
+    "rationale": "SCA is widely used in GM/Korean paint shops for sealing; SYS 3000 not found, current paint-shop controller is ASC 5000. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Graco",
+    "model": "PrecisionFlo XL",
+    "role": "Alternative electronically controlled sealant metering/dispense package",
+    "rationale": "Legacy Graco sealer dosing common on older GM lines (UzAuto paint shop dates from 1996, modernised later).",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Graco / Dürr",
+    "model": "Robotic airless / flat-stream spray package (e.g. Graco King airless pump + robot airless gun)",
+    "role": "PVC underbody / anti-chip spray application",
+    "rationale": "Underbody coat and anti-chip PVC plastisol is normally sprayed airless or flat-stream by robots; added after independent review. No public datasheet confirmed.",
+    "confidence": "low"
+   }
+  ],
+  "equipment_docs": [
+   {
+    "vendor": "Graco",
+    "model": "E-Flo SP supply systems",
+    "type": "manual",
+    "title": "3A6331EN L - E-Flo SP Supply Systems (English)",
+    "url": "https://gww.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6331EN-L.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index."
+   },
+   {
+    "vendor": "Graco",
+    "model": "E-Flo SP supply systems",
+    "type": "manual",
+    "title": "3A6853RU G - E-Flo SP supply systems (Russian)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6853RU-G.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Russian translation, useful for plant staff."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoShotMeter Tandem / EcoMeter SP",
+    "type": "datasheet",
+    "title": "duerr datsheet endless dosing en",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/05_Sealing_Gluing_Technology/03_Gluing_Application_Technology_Battery_Systems/duerr-datsheet-endless-dosing-en.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Covers EcoShotMeter Tandem piston dosing + EcoMeter SP."
+   },
+   {
+    "vendor": "Graco",
+    "model": "PrecisionFlo XL",
+    "type": "manual",
+    "title": "PrecisionFlo XL electronically controlled fluid dispensing packages, manual 309374 rev R (third-party host)",
+    "url": "https://airless.es/manuales/graco/309374r.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Third-party mirror (airless.es), ~2001 revision."
+   },
+   {
+    "vendor": "Atlas Copco (SCA)",
+    "model": "SCA dosing (pocket guide)",
+    "type": "brochure",
+    "title": "Atlas Copco Pocket Guide Dosiertechnik (DE) 9833 2169 01",
+    "url": "https://shopit.atlascopco.com/content/dam/atlas-copco/industrial-technique/general/documents/pocketguides/Atlas%20Copco-DT-9833%202169%2001-2019DE.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. German; general SCA dosing guide."
+   }
+  ],
+  "notes": "UBC is sprayed airless (robot, flat-stream/airless nozzles e.g. Dürr EcoJetAC/EcoJetSE on EcoGun2 3D) after ED, before sealer oven. No public source for RSU-230/GVH-170. Local context: JV Uz-Dongju Paint Co (Asaka/Uzbekistan; UzAvtosanoat + Korean DongJu/KION) was set up to supply UzAuto with pretreatment chemicals (3750 t/yr), sealants (1250 t/yr) and automotive paints, and its 2024 privatisation required keeping GM-standard compliance. It is a plausible local maker/distributor of the RSB/RSU sealers and possibly pretreatment/ED materials (unconfirmed; uzdongju.uz not reachable from this session)."
+ },
+ {
+  "id": 6,
+  "manufacturer": "Unconfirmed (same GVH-170 spec as RSU-230; possibly alternate source/grade)",
+  "product_identified": "UBS COAT - PVC plastisol underbody coating/sealer (spec GVH-170)",
+  "manufacturer_confidence": "low",
+  "material_docs": [
+   {
+    "type": "SDS",
+    "title": "TEROSON PV 3146 AB-Oa-Sb TO1400KG SDS (Henkel PVC underbody coating) - NextSDS",
+    "url": "https://nextsds.com/sds/en/281331501309209/teroson-pv-3146-ab-oa-sb-to1400kg",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Web page (SDS viewer), not direct PDF."
+   }
+  ],
+  "equipment": [
+   {
+    "vendor": "Graco",
+    "model": "E-Flo SP electric supply system (D200/D200S 200 L drum ram) or Check-Mate/Dura-Flo ram",
+    "role": "Drum unloading / supply pump for high-viscosity PVC plastisol from 200-250 kg drums",
+    "rationale": "PVC plastisols are cold-pumped from drums with ram supply pumps; E-Flo SP is Graco's current electric sealant supply unit. (Therm-O-Flow is a HOT-melt unit and is less appropriate for PVC plastisol.) Representative.",
+    "confidence": "medium"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoShotMeter (piston dosing) + EcoGun2 3D applicator on sealing robot (EcoRP)",
+    "role": "Volumetric dosing and robotic bead/flat-stream application of seam sealer / UBC",
+    "rationale": "Paint-shop sealing (PVC seam sealing, UBC, anti-chip) is typically robotic with shot-meter dosing; Dürr, Atlas Copco SCA and Graco PrecisionFlo are the main suppliers. Representative.",
+    "confidence": "medium"
+   },
+   {
+    "vendor": "Atlas Copco (SCA)",
+    "model": "SCA paint shop dispensing system (ASC 5000 controller, dosing units)",
+    "role": "Alternative dosing/controller for paint-shop sealing & dampening",
+    "rationale": "SCA is widely used in GM/Korean paint shops for sealing; SYS 3000 not found, current paint-shop controller is ASC 5000. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Graco",
+    "model": "PrecisionFlo XL",
+    "role": "Alternative electronically controlled sealant metering/dispense package",
+    "rationale": "Legacy Graco sealer dosing common on older GM lines (UzAuto paint shop dates from 1996, modernised later).",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Graco / Dürr",
+    "model": "Robotic airless / flat-stream spray package (e.g. Graco King airless pump + robot airless gun)",
+    "role": "PVC underbody / anti-chip spray application",
+    "rationale": "Underbody coat and anti-chip PVC plastisol is normally sprayed airless or flat-stream by robots; added after independent review. No public datasheet confirmed.",
+    "confidence": "low"
+   }
+  ],
+  "equipment_docs": [
+   {
+    "vendor": "Graco",
+    "model": "E-Flo SP supply systems",
+    "type": "manual",
+    "title": "3A6331EN L - E-Flo SP Supply Systems (English)",
+    "url": "https://gww.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6331EN-L.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index."
+   },
+   {
+    "vendor": "Graco",
+    "model": "E-Flo SP supply systems",
+    "type": "manual",
+    "title": "3A6853RU G - E-Flo SP supply systems (Russian)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6853RU-G.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Russian translation, useful for plant staff."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoShotMeter Tandem / EcoMeter SP",
+    "type": "datasheet",
+    "title": "duerr datsheet endless dosing en",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/05_Sealing_Gluing_Technology/03_Gluing_Application_Technology_Battery_Systems/duerr-datsheet-endless-dosing-en.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Covers EcoShotMeter Tandem piston dosing + EcoMeter SP."
+   },
+   {
+    "vendor": "Graco",
+    "model": "PrecisionFlo XL",
+    "type": "manual",
+    "title": "PrecisionFlo XL electronically controlled fluid dispensing packages, manual 309374 rev R (third-party host)",
+    "url": "https://airless.es/manuales/graco/309374r.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Third-party mirror (airless.es), ~2001 revision."
+   },
+   {
+    "vendor": "Atlas Copco (SCA)",
+    "model": "SCA dosing (pocket guide)",
+    "type": "brochure",
+    "title": "Atlas Copco Pocket Guide Dosiertechnik (DE) 9833 2169 01",
+    "url": "https://shopit.atlascopco.com/content/dam/atlas-copco/industrial-technique/general/documents/pocketguides/Atlas%20Copco-DT-9833%202169%2001-2019DE.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. German; general SCA dosing guide."
+   }
+  ],
+  "notes": "Shares spec GVH-170 with item 5, so it is likely an approved second source or different packaging of the same underbody PVC. No public exact doc. Local context: JV Uz-Dongju Paint Co (Asaka/Uzbekistan; UzAvtosanoat + Korean DongJu/KION) was set up to supply UzAuto with pretreatment chemicals (3750 t/yr), sealants (1250 t/yr) and automotive paints, and its 2024 privatisation required keeping GM-standard compliance. It is a plausible local maker/distributor of the RSB/RSU sealers and possibly pretreatment/ED materials (unconfirmed; uzdongju.uz not reachable from this session)."
+ },
+ {
+  "id": 7,
+  "manufacturer": "Unconfirmed",
+  "product_identified": "PVC ANTI CHIP - PVC plastisol stone-chip protection coating for rocker/sill and lower body (spec P8201)",
+  "manufacturer_confidence": "low",
+  "material_docs": [
+   {
+    "type": "brochure",
+    "title": "Sika SikaSeal Underbody Coating page (impact/abrasion resistant PVC)",
+    "url": "https://automotive.sika.com/en/solution-products/paint-shop-sealants/underbody-coating.html",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Web page, not PDF."
+   }
+  ],
+  "equipment": [
+   {
+    "vendor": "Graco",
+    "model": "E-Flo SP electric supply system (D200/D200S 200 L drum ram) or Check-Mate/Dura-Flo ram",
+    "role": "Drum unloading / supply pump for high-viscosity PVC plastisol from 200-250 kg drums",
+    "rationale": "PVC plastisols are cold-pumped from drums with ram supply pumps; E-Flo SP is Graco's current electric sealant supply unit. (Therm-O-Flow is a HOT-melt unit and is less appropriate for PVC plastisol.) Representative.",
+    "confidence": "medium"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoShotMeter (piston dosing) + EcoGun2 3D applicator on sealing robot (EcoRP)",
+    "role": "Volumetric dosing and robotic bead/flat-stream application of seam sealer / UBC",
+    "rationale": "Paint-shop sealing (PVC seam sealing, UBC, anti-chip) is typically robotic with shot-meter dosing; Dürr, Atlas Copco SCA and Graco PrecisionFlo are the main suppliers. Representative.",
+    "confidence": "medium"
+   },
+   {
+    "vendor": "Atlas Copco (SCA)",
+    "model": "SCA paint shop dispensing system (ASC 5000 controller, dosing units)",
+    "role": "Alternative dosing/controller for paint-shop sealing & dampening",
+    "rationale": "SCA is widely used in GM/Korean paint shops for sealing; SYS 3000 not found, current paint-shop controller is ASC 5000. Representative.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Graco",
+    "model": "PrecisionFlo XL",
+    "role": "Alternative electronically controlled sealant metering/dispense package",
+    "rationale": "Legacy Graco sealer dosing common on older GM lines (UzAuto paint shop dates from 1996, modernised later).",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Graco / Dürr",
+    "model": "Robotic airless / flat-stream spray package (e.g. Graco King airless pump + robot airless gun)",
+    "role": "PVC underbody / anti-chip spray application",
+    "rationale": "Underbody coat and anti-chip PVC plastisol is normally sprayed airless or flat-stream by robots; added after independent review. No public datasheet confirmed.",
+    "confidence": "low"
+   }
+  ],
+  "equipment_docs": [
+   {
+    "vendor": "Graco",
+    "model": "E-Flo SP supply systems",
+    "type": "manual",
+    "title": "3A6331EN L - E-Flo SP Supply Systems (English)",
+    "url": "https://gww.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6331EN-L.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index."
+   },
+   {
+    "vendor": "Graco",
+    "model": "E-Flo SP supply systems",
+    "type": "manual",
+    "title": "3A6853RU G - E-Flo SP supply systems (Russian)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6853RU-G.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Russian translation, useful for plant staff."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoShotMeter Tandem / EcoMeter SP",
+    "type": "datasheet",
+    "title": "duerr datsheet endless dosing en",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/05_Sealing_Gluing_Technology/03_Gluing_Application_Technology_Battery_Systems/duerr-datsheet-endless-dosing-en.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Covers EcoShotMeter Tandem piston dosing + EcoMeter SP."
+   },
+   {
+    "vendor": "Graco",
+    "model": "PrecisionFlo XL",
+    "type": "manual",
+    "title": "PrecisionFlo XL electronically controlled fluid dispensing packages, manual 309374 rev R (third-party host)",
+    "url": "https://airless.es/manuales/graco/309374r.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. Third-party mirror (airless.es), ~2001 revision."
+   },
+   {
+    "vendor": "Atlas Copco (SCA)",
+    "model": "SCA dosing (pocket guide)",
+    "type": "brochure",
+    "title": "Atlas Copco Pocket Guide Dosiertechnik (DE) 9833 2169 01",
+    "url": "https://shopit.atlascopco.com/content/dam/atlas-copco/industrial-technique/general/documents/pocketguides/Atlas%20Copco-DT-9833%202169%2001-2019DE.pdf",
+    "verified": false,
+    "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only, title from search index. German; general SCA dosing guide."
+   }
+  ],
+  "notes": "Anti-chip PVC is robot/airless-sprayed on sills/wheel arches (wet-on-wet before primer). Spec 'P8201' not found publicly. Source row was duplicated. Local context: JV Uz-Dongju Paint Co (Asaka/Uzbekistan; UzAvtosanoat + Korean DongJu/KION) was set up to supply UzAuto with pretreatment chemicals (3750 t/yr), sealants (1250 t/yr) and automotive paints, and its 2024 privatisation required keeping GM-standard compliance. It is a plausible local maker/distributor of the RSB/RSU sealers and possibly pretreatment/ED materials (unconfirmed; uzdongju.uz not reachable from this session). | REVIEW: Sikagard-6682 removed (water-based sound deadener, not PVC anti-chip)."
+ }
 ]
