@@ -7,7 +7,9 @@ material nomi → material spetsifikatsiyasi (PDF) → qo'llash jihozi → jihoz
 - `data/materials.json` — rasmlardan ko'chirilgan 43 ta material (SAP, nom, spec, qadoq, vazifa).
 - `data/research/group_*.json` — har bir material bo'yicha tadqiqot: ishlab chiqaruvchi, hujjat URL'lari, jihozlar, ishonch darajasi.
 - `data/catalog.json` — birlashtirilgan katalog, har bir hujjatga normallashtirilgan fayl nomi bilan.
-- `output/materials_equipment.xlsx` — jadval (`Jadval`, `Manbalar`, `Identifikatsiya` varaqlari).
+- `output/materials_equipment.xlsx` — **1-versiya**: pasport ustunlarida normallashtirilgan PDF fayl nomlari.
+- `output/materials_equipment_links.xlsx` — **2-versiya**: pasport ustunlarida to'g'ridan-to'g'ri PDF havolalari (har bir havola alohida katakda, bosiladigan).
+- Ikkala faylda ham `Jadval`, `Manbalar`, `Identifikatsiya` varaqlari bor.
 - `pdf/materials/`, `pdf/equipment/` — yuklab olingan PDF'lar.
 
 ## Fayl nomlash

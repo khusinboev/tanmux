@@ -1,7 +1,9 @@
 """Merge research results and build the material/equipment passport table.
 
 Usage: python scripts/build_table.py <research_dir>
-Outputs: data/catalog.json, output/materials_equipment.xlsx
+Outputs: data/catalog.json,
+         output/materials_equipment.xlsx (v1: normalized PDF file names),
+         output/materials_equipment_links.xlsx (v2: direct PDF hyperlinks)
 """
 
 from __future__ import annotations
@@ -12,7 +14,7 @@ import sys
 import unicodedata
 from pathlib import Path
 from typing import Any
-from urllib.parse import urlparse
+from urllib.parse import quote, urlparse, urlsplit, urlunsplit
 
 from openpyxl import Workbook
 from openpyxl.styles import Alignment, Font, PatternFill
@@ -22,6 +24,7 @@ ROOT = Path(__file__).resolve().parent.parent
 MATERIALS_FILE = ROOT / "data" / "materials.json"
 CATALOG_FILE = ROOT / "data" / "catalog.json"
 XLSX_FILE = ROOT / "output" / "materials_equipment.xlsx"
+XLSX_LINKS_FILE = ROOT / "output" / "materials_equipment_links.xlsx"
 DOWNLOAD_REPORT = ROOT / "data" / "download_report.json"
 
 MATERIAL_DIR = "pdf/materials"
@@ -152,22 +155,89 @@ def style_sheet(ws, widths: list[int]) -> None:
     ws.auto_filter.ref = ws.dimensions
 
 
-def write_xlsx(catalog: list[dict[str, Any]]) -> None:
-    status = load_download_status()
-    wb = Workbook()
-    main = wb.active
-    main.title = "Jadval"
-    main.append(["№", "Material nomi", "Material spetsifikatsiyasi (pasporti)",
-                 "Material uchun jihoz", "Jihoz pasporti"])
+HEADERS = ["№", "Material nomi", "Material spetsifikatsiyasi (pasporti)",
+           "Material uchun jihoz", "Jihoz pasporti"]
+MAIN_WIDTHS = [5, 40, 55, 60, 55]
+
+
+def material_title(item: dict[str, Any]) -> str:
+    return f"{item['name']}\n({item['sap']}; {item['spec']})"
+
+
+def encode_url(url: str) -> str:
+    parts = urlsplit(url)
+    return urlunsplit(parts._replace(path=quote(parts.path, safe="/%:@+-._~")))
+
+
+def write_file_name_sheet(ws, catalog: list[dict[str, Any]], status: dict[str, str]) -> None:
+    ws.append(HEADERS)
     for item in catalog:
-        main.append([
+        ws.append([
             item["id"],
-            f"{item['name']}\n({item['sap']}; {item['spec']})",
+            material_title(item),
             file_cell(item["material_docs"], status),
             equipment_cell(item["research"]),
             file_cell(item["equipment_docs"], status),
         ])
-    style_sheet(main, [5, 40, 55, 60, 55])
+    style_sheet(ws, MAIN_WIDTHS)
+
+
+def pdf_docs(docs: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    return list({d["url"]: d for d in docs if d["file"]}.values())
+
+
+def put_link(cell, doc: dict[str, Any], label: str) -> None:
+    url = encode_url(doc["url"])
+    cell.value = f"{label}\n{url}"
+    cell.hyperlink = url
+    cell.font = Font(color="0563C1", underline="single")
+
+
+def write_link_sheet(ws, catalog: list[dict[str, Any]]) -> None:
+    """One material spans several rows: one direct PDF link per cell."""
+    ws.append(HEADERS)
+    row = 2
+    for item in catalog:
+        mat, eq = pdf_docs(item["material_docs"]), pdf_docs(item["equipment_docs"])
+        span = max(len(mat), len(eq), 1)
+        ws.cell(row, 1, item["id"])
+        ws.cell(row, 2, material_title(item))
+        ws.cell(row, 4, equipment_cell(item["research"]))
+        for offset in range(span):
+            r = row + offset
+            if offset < len(mat):
+                d = mat[offset]
+                mark = "" if d.get("exact_or_equivalent", "exact") == "exact" else ", ekvivalent"
+                put_link(ws.cell(r, 3), d, f"{d.get('type', 'DOC')}{mark}")
+            if offset < len(eq):
+                d = eq[offset]
+                put_link(ws.cell(r, 5), d,
+                         f"{d.get('vendor', '')} {d.get('model', '')} ({d.get('type', '')})")
+        if not mat:
+            ws.cell(row, 3, "PDF topilmadi (Manbalar varag'iga qarang)")
+        if not eq:
+            ws.cell(row, 5, "PDF topilmadi")
+        if span > 1:
+            for col in (1, 2, 4):
+                ws.merge_cells(start_row=row, start_column=col, end_row=row + span - 1,
+                               end_column=col)
+        row += span
+    style_sheet(ws, MAIN_WIDTHS)
+    for cells in ws.iter_rows(min_row=2):
+        for cell in cells:
+            if cell.hyperlink:
+                cell.font = Font(color="0563C1", underline="single")
+
+
+def write_xlsx(catalog: list[dict[str, Any]], target: Path, with_links: bool) -> None:
+    status = load_download_status()
+    wb = Workbook()
+    main = wb.active
+    main.title = "Jadval"
+    if with_links:
+        write_link_sheet(main, catalog)
+    else:
+        write_file_name_sheet(main, catalog, status)
 
     detail = wb.create_sheet("Manbalar")
     detail.append(["№", "Material", "Hujjat turi", "Fayl", "URL", "Aniq/ekvivalent",
@@ -200,8 +270,8 @@ def write_xlsx(catalog: list[dict[str, Any]]) -> None:
         ])
     style_sheet(ident, [5, 14, 35, 16, 14, 18, 25, 35, 10, 70, 60])
 
-    XLSX_FILE.parent.mkdir(parents=True, exist_ok=True)
-    wb.save(XLSX_FILE)
+    target.parent.mkdir(parents=True, exist_ok=True)
+    wb.save(target)
 
 
 def main() -> None:
@@ -209,8 +279,9 @@ def main() -> None:
         raise SystemExit(__doc__)
     catalog = build_catalog(Path(sys.argv[1]))
     CATALOG_FILE.write_text(json.dumps(catalog, ensure_ascii=False, indent=1), encoding="utf-8")
-    write_xlsx(catalog)
-    print(f"{len(catalog)} materials -> {XLSX_FILE.relative_to(ROOT)}")
+    for target, with_links in ((XLSX_FILE, False), (XLSX_LINKS_FILE, True)):
+        write_xlsx(catalog, target, with_links)
+        print(f"{len(catalog)} materials -> {target.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":
