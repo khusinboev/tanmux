@@ -1,0 +1,98 @@
+[
+{"id":36,"manufacturer_update":null,
+ "add_material_docs":[
+  {"type":"brochure","title":"Dow Automotive Systems (BETASEAL) ASM requirements matrix and product brochures, incl. Fixed Glass Installation Guide v5.4 (2018)","url":"https://www.agsc.org/documents/DowASMRequirementsMatrixandProductBrochures_03082018.pdf","language":"en","exact_or_equivalent":"equivalent","verified":false,"note":"AGSC-hosted compilation of BETASEAL urethane/primer brochures; aftermarket (AGR) focus, but same BETASEAL chemistry family."},
+  {"type":"brochure","title":"BETASEAL U-418 Quick Cure Auto Glass Urethane product brochure","url":"https://fittingsgo.com/wp-content/uploads/2019/04/U418-Product-Brochure.pdf","language":"en","exact_or_equivalent":"equivalent","verified":false,"note":"Distributor-hosted; primerless-to-glass BETASEAL; complements round-1 pksupplies U-418 datasheet."}],
+ "add_equipment":[],
+ "add_equipment_docs":[
+  {"vendor":"(patent) Essex Specialty Products / Dow","model":"Robotic primer + urethane glazing method","type":"manual","title":"US 5277927 Method of applying primers onto glass elements of vehicles (USPTO PDF)","url":"https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/5277927","verified":false,"note":"Not a vendor manual; patent PDF describing robotic glass priming/glazing cell process. Use only as process reference."}],
+ "remove_urls":[],
+ "notes":"No new vendor PDF for glazing robot dispense beyond round-1 Graco set; Atlas Copco SCA glazing pages are HTML only (atlascopco.com .../final-assembly/final-assembly-glazing). Search budget exhausted before a dedicated SCA/Nordson glazing PDF search."},
+{"id":37,
+ "manufacturer_update":{"manufacturer":"Unknown; most likely Henkel (TECHNOMELT AS 838x) or Bostik (Thermogrip H94xx) polyolefin/APAO hot melt","product_identified":"Non-reactive polyolefin hot-melt for attaching headliner/trim panel to roof (bulk box for bulk melter)","manufacturer_confidence":"low","evidence":"408 kg = 900 lb exactly (like 271 kg drum ~ 600 lb), i.e. a US-unit bulk hot-melt box/tote typical for bulk melters; Henkel TECHNOMELT AS 8383 TDS explicitly lists headliner attachment; Bostik Thermogrip H9446/H9438/9431 TDSs list headliner attachment. Reactive PUR (TECHNOMELT PUR 9622-02) / water-based (TEROSON PU A235 W) are headliner LAMINATION adhesives used at the headliner supplier, less likely for a final-assembly 'HDLNG T/PNL' item."},
+ "add_material_docs":[
+  {"type":"TDS","title":"TECHNOMELT AS 8383 TDS (Henkel, 09-2023)","url":"https://datasheets.tdx.henkel.com/TECHNOMELT-AS-8383-en_GL.pdf","language":"en","exact_or_equivalent":"equivalent","verified":false,"note":"Polyolefin hot melt for automotive interior incl. headliners; R&B 150-160 C, 5000-8000 cP @190 C, dispense 163-190 C, open time 25-30 s (snippet)."},
+  {"type":"PDS","title":"TECHNOMELT AS 8383 product information sheet LT-8200 (Henkel DAM)","url":"https://dm.henkel-dam.com/is/content/henkel/lt-8200-Product_information_sheet-technomelt-as-8383","language":"en","exact_or_equivalent":"equivalent","verified":false,"note":"Henkel DAM document servlet (PDF). Creep 500 g at 100 C; open time up to 60 s (conflicts with TDS)."},
+  {"type":"brochure","title":"Henkel Interior Hot Melt Selection Guide LT-6900","url":"https://dm.henkel-dam.com/is/content/henkel/lt-6900-selection-guide-interior-hot-melt","language":"en","exact_or_equivalent":"equivalent","verified":false,"note":"Henkel DAM servlet; table of polyolefin/APAO interior hot melts (open time, viscosity, application temp)."},
+  {"type":"brochure","title":"Henkel interior lamination solutions brochure","url":"https://dm.henkel-dam.com/is/content/henkel/brochure-henkel-interior-lamination-solutions","language":"en","exact_or_equivalent":"equivalent","verified":false,"note":"Lists TECHNOMELT PUR 9622-02 and TEROSON PU A235 W for headliner lamination (supplier-side)."},
+  {"type":"TDS","title":"TECHNOMELT PUR 9622-02 TDS (Henkel, 03-2024)","url":"https://datasheets.tdx.henkel.com/TECHNOMELT-PUR-9622-02-en_GL.pdf","language":"en","exact_or_equivalent":"equivalent","verified":false,"note":"Reactive PUR headliner lamination adhesive; alternative if item is a PUR."},
+  {"type":"TDS","title":"Bostik Thermogrip H9446 TDS (headliner hot melt)","url":"https://prostech.vn/wp-content/uploads/2024/03/thermogrip_h9446_tds_033016.pdf","language":"en","exact_or_equivalent":"equivalent","verified":false,"note":"Distributor-hosted (Prostech VN). Softening point 149 C, run 350-400 F; 'most often used to install automotive headliners'."},
+  {"type":"TDS","title":"Bostik Thermogrip H9438 TDS","url":"https://prostech.vn/wp-content/uploads/2024/03/thermogrip_h9438_tds.pdf","language":"en","exact_or_equivalent":"equivalent","verified":false,"note":"Distributor-hosted; headliner attachment and door panel bonding."},
+  {"type":"TDS","title":"Bostik Thermogrip 9431 TDS","url":"https://prostech.vn/wp-content/uploads/2024/03/thermogrip_9431_tds_060717.pdf","language":"en","exact_or_equivalent":"equivalent","verified":false,"note":"Distributor-hosted; headliner attachment listed."}],
+ "add_equipment":[{"vendor":"Nordson / Graco","model":"Bulk hot-melt melter (e.g. Nordson VersaBlue/ProBlue or Graco InvisiPac) fed from 900 lb box, robotic or hand gun bead","role":"Melt and dispense headliner attachment beads","rationale":"900 lb bulk box format implies bulk melter feeding; chemistry still unconfirmed.","confidence":"low"}],
+ "add_equipment_docs":[],
+ "remove_urls":[],
+ "notes":"No exact product found. No new hot-melt melter PDF found (search budget exhausted). ValcoMelton roof-panel assembly page (HTML) confirms hot melt / cold spray in roof panel assembly: https://valcomelton.com/industries/automotive/roof-panel-assembly. Need plant label."},
+{"id":38,"manufacturer_update":null,
+ "add_material_docs":[],
+ "add_equipment":[
+  {"vendor":"Nordson EFD","model":"752V diaphragm valve (low-viscosity) for drip-and-drag primer feed to felt","role":"Metered primer drip onto robot/hand felt applicator","rationale":"Drip-and-drag priming (US 6695917) uses a low-viscosity dispensing valve ahead of felt; 752V is standard for low-to-medium viscosity solvent fluids.","confidence":"low"},
+  {"vendor":"Graco","model":"Stainless pressure tank with agitator (manuals 308370/308371)","role":"Pressurised agitated supply of pigmented black primer","rationale":"Black PU primers settle; agitated pressure pot is typical bulk supply.","confidence":"low"}],
+ "add_equipment_docs":[
+  {"vendor":"Nordson EFD","model":"752V","type":"datasheet","title":"Nordson EFD 752V diaphragm valve data sheet","url":"https://flumasys.com/userfiles/product_files/nordson_efd_752v_datasheet.pdf","verified":false,"note":"Distributor-hosted (Flumasys). Stroke 0.13-0.64 mm, low-medium viscosity."},
+  {"vendor":"Nordson EFD","model":"752V","type":"datasheet","title":"Nordson EFD 752V Data Sheet (alt host)","url":"https://prostech.vn/wp-content/uploads/2020/02/Nordson_EFD_752V_Data_Sheet.pdf","verified":false,"note":"Distributor-hosted."},
+  {"vendor":"Nordson EFD","model":"752V","type":"manual","title":"Nordson EFD 752V maintenance guide","url":"https://flumasys.com/userfiles/product_files/nordson_efd_752v_maintenance_guide.pdf","verified":false,"note":"Distributor-hosted."},
+  {"vendor":"Nordson EFD","model":"750 series","type":"manual","title":"Nordson EFD 750 series valve installation guide","url":"https://flumasys.com/userfiles/product_files/nordson_efd_750_valve_installation_guide.pdf","verified":false,"note":"Distributor-hosted; covers 752V family."},
+  {"vendor":"Graco","model":"Pressure pots","type":"brochure","title":"Graco pressure pots catalogue","url":"https://www.spraydirect.co.uk/acatalog/graco_pressure_pots.pdf","verified":false,"note":"Distributor-hosted."},
+  {"vendor":"Sika","model":"Manual felt applicators (Windscreen Bonding kit)","type":"brochure","title":"Sika Windscreen Bonding (UK) - primer + felt applicators","url":"https://gbr.sika.com/dms/getdocument.get/ea64bae6-89d6-4aba-859f-94f95c74309c/Sika%20Windscreen%20Bonding%20.pdf","verified":false,"note":"Aftermarket kit doc; shows Sika's felt-applicator method for primers. Manual-method reference only."},
+  {"vendor":"(patent) Automated priming station","model":"Robotic primer workstation","type":"manual","title":"US 6641665 Automated priming station (USPTO PDF)","url":"https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/6641665","verified":false,"note":"Patent, not vendor doc; related US 7390533 / US 6471774 also at image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/7390533 and /6471774."},
+  {"vendor":"(patent)","model":"Flow-through felt dispenser","type":"manual","title":"US 6695917 Flow through felt dispenser (USPTO PDF)","url":"https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/6695917","verified":false,"note":"Drip-and-drag robotic felt priming; patent reference."}],
+ "remove_urls":[],
+ "notes":"No OEM vendor (SCA/Graco/Dürr) primer-applicator PDF surfaced; supplied the closest real hardware PDFs (valve + agitated pressure pot) plus process patents. Equipment docs apply equally to ids 39-41."},
+{"id":39,"manufacturer_update":null,
+ "add_material_docs":[],
+ "add_equipment":[
+  {"vendor":"Nordson EFD","model":"752V diaphragm valve + felt applicator (drip-and-drag)","role":"Robotic/semi-auto glass frit priming","rationale":"Same as id 38.","confidence":"low"},
+  {"vendor":"Graco","model":"Agitated stainless pressure tank","role":"Agitated supply of pigmented glass primer","rationale":"Primer-206 G+P is pigmented and must be kept mixed.","confidence":"low"}],
+ "add_equipment_docs":[
+  {"vendor":"Nordson EFD","model":"752V","type":"datasheet","title":"Nordson EFD 752V diaphragm valve data sheet","url":"https://flumasys.com/userfiles/product_files/nordson_efd_752v_datasheet.pdf","verified":false,"note":"Distributor-hosted."},
+  {"vendor":"Graco","model":"Pressure pots","type":"brochure","title":"Graco pressure pots catalogue","url":"https://www.spraydirect.co.uk/acatalog/graco_pressure_pots.pdf","verified":false,"note":"Distributor-hosted."},
+  {"vendor":"(patent)","model":"Robotic glass priming","type":"manual","title":"US 5277927 Method of applying primers onto glass elements of vehicles","url":"https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/5277927","verified":false,"note":"Patent PDF; wet brush + felt wick robotic glass priming."},
+  {"vendor":"(patent)","model":"Automated priming station","type":"manual","title":"US 7390533 Automated priming station","url":"https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/7390533","verified":false,"note":"Patent PDF; robot priming of glass edge band with tip changer and solvent flush."}],
+ "remove_urls":[],
+ "notes":"Material docs already complete (exact Sika). Equipment remains representative."},
+{"id":40,"manufacturer_update":null,
+ "add_material_docs":[
+  {"type":"PDS","title":"Sika Aktivator-100 PDS (Sika Bulgaria)","url":"https://bgr.sika.com/dam/dms/bg01/k/sika_aktivator-100.pdf","language":"bg/en","exact_or_equivalent":"exact","verified":false,"note":"Additional host."},
+  {"type":"PDS","title":"Sika Aktivator-100 PDS (Sika Czech)","url":"https://cze.sika.com/dam/dms/cz01/v/sika-aktivator-100.pdf","language":"cs","exact_or_equivalent":"exact","verified":false,"note":"Wipe-on/wipe-off, 20 ml/m2."},
+  {"type":"PDS","title":"Sika Aktivator-100 PDS (Sika Denmark)","url":"https://industry.sika.com/dam/dms/dk01/w/sika_aktivator-100.pdf","language":"da/en","exact_or_equivalent":"exact","verified":false,"note":"Additional host."},
+  {"type":"brochure","title":"BETAPRIME / BETACLEAN and Accessories brochure (DuPont)","url":"https://mascherpa.it/wp-content/uploads/2023/05/BETAPRIME-BETACLEAN-and-Accessories-brochure.pdf","language":"en","exact_or_equivalent":"equivalent","verified":false,"note":"Distributor-hosted; covers BETAPRIME primers, BETACLEAN cleaners and application accessories (daubers/felts) - matches the 'BETAPRIME' item name."}],
+ "add_equipment":[],
+ "add_equipment_docs":[
+  {"vendor":"DuPont (BETASEAL)","model":"Primer/cleaner application accessories","type":"brochure","title":"BETAPRIME BETACLEAN and Accessories brochure","url":"https://mascherpa.it/wp-content/uploads/2023/05/BETAPRIME-BETACLEAN-and-Accessories-brochure.pdf","verified":false,"note":"Also lists manual applicators; same URL as material brochure."},
+  {"vendor":"Nordson EFD","model":"752V","type":"datasheet","title":"Nordson EFD 752V diaphragm valve data sheet","url":"https://flumasys.com/userfiles/product_files/nordson_efd_752v_datasheet.pdf","verified":false,"note":"For automated activator dosing to wipe/felt; representative."}],
+ "remove_urls":[],
+ "notes":"Sika Aktivator-100 PDS lists packaging only 250 ml / 1000 ml cans, consistent with 1 KG/BT."},
+{"id":41,
+ "manufacturer_update":{"manufacturer":"Sika (presumed)","product_identified":"Unresolved: most plausibly Sika Aktivator-100 in bulk (spec SIKA-100-UZ identical to id 40's '100-UZ') for an automated glass-prep station; 'Bo'yoq'(paint) label may be a mis-translation of primer/activator","manufacturer_confidence":"low","evidence":"Spec text matches id 40; 'RAD 11724' search returns nothing relevant (only Fel-Pro RDS 11724 gasket). Sika public PDS lists Aktivator-100 only in 250 ml/1 L, so an 18 L can would be an OEM-only pack. Alternative: a black primer (e.g. Sika Primer-206/207 class) - unconfirmed."},
+ "add_material_docs":[
+  {"type":"PDS","title":"Sika Aktivator-100 PDS (Sika Czech)","url":"https://cze.sika.com/dam/dms/cz01/v/sika-aktivator-100.pdf","language":"cs","exact_or_equivalent":"equivalent","verified":false,"note":"Only if SIKA-100-UZ = Aktivator-100."}],
+ "add_equipment":[{"vendor":"Graco","model":"Pressure tank (from 18 L can) + Nordson EFD 752V valve","role":"Bulk supply and metered dosing to automatic wipe/felt applicator","rationale":"18 L pack implies automated station feed rather than hand bottles.","confidence":"low"}],
+ "add_equipment_docs":[
+  {"vendor":"Graco","model":"Pressure pots","type":"brochure","title":"Graco pressure pots catalogue","url":"https://www.spraydirect.co.uk/acatalog/graco_pressure_pots.pdf","verified":false,"note":"Distributor-hosted."},
+  {"vendor":"Nordson EFD","model":"752V","type":"datasheet","title":"Nordson EFD 752V diaphragm valve data sheet","url":"https://flumasys.com/userfiles/product_files/nordson_efd_752v_datasheet.pdf","verified":false,"note":"Distributor-hosted."}],
+ "remove_urls":[],
+ "notes":"Still needs plant label/SDS to identify RAD 11724."},
+{"id":42,
+ "manufacturer_update":{"manufacturer":"Unknown (candidate: DuPont MOLYKOTE M-77 / ACDelco equivalent)","product_identified":"Anti-seize / hub-pilot assembly paste or grease for wheel centre bore","manufacturer_confidence":"low","evidence":"GM bulletin 17-NA-235 specifies ACDelco M-77 paste (P/N 19356408 = MOLYKOTE M-77) for hub bearing surfaces; no public GM spec for wheel pilot hole lubricant found."},
+ "add_material_docs":[
+  {"type":"TDS","title":"MOLYKOTE M-77 Solid Lubricant Paste TDS 71-0186F-01 (DuPont)","url":"https://www.dupont.com/content/dam/Dupont2.0/Products/transportation/Literature/Downloaded-TDS/MOLYKOTE%20M-77%20Solid%20Lubricant%20Paste%2071-0186F-01.pdf","language":"en","exact_or_equivalent":"equivalent","verified":false,"note":"Silicone oil / Li soap / MoS2 paste; GM-used (ACDelco M-77) for hub surfaces."},
+  {"type":"paper","title":"GM bulletin 17-NA-235 (NHTSA) - grease on hub bearing surface, ACDelco M-77","url":"https://static.nhtsa.gov/odi/tsbs/2017/MC-10126105-9999.pdf","language":"en","exact_or_equivalent":"equivalent","verified":false,"note":"Evidence GM uses M-77 paste on hub mating surfaces; not wheel-pilot specific."}],
+ "add_equipment":[{"vendor":"Graco / Lincoln","model":"Pail-size (15-25 kg) grease pump or manual brush dauber","role":"Supply from 15 kg pail to brush at wheel mount","rationale":"15 kg pail; Fire-Ball 300 is drum-sized, a pail pump or brush is more likely.","confidence":"low"}],
+ "add_equipment_docs":[
+  {"vendor":"Graco","model":"Fire-Ball 300 50:1","type":"manual","title":"Graco 308883 Rev G Fire-Ball 300 50:1 grease pump instructions (FR)","url":"https://gww.graco.com/content/dam/graco/tech_documents/manuals/308/308883/308883FR-G.pdf","verified":false,"note":"Official Graco host, French."},
+  {"vendor":"Graco","model":"Fire-Ball pumps","type":"manual","title":"Graco 309868 Fire-Ball installation/operation (DE)","url":"https://gww.graco.com/content/dam/graco/tech_documents/manuals/309/309868/309868DE-A.pdf","verified":false,"note":"German edition of round-1 309868; ES edition: https://www.graco.com/content/dam/graco/tech_documents/manuals/309/309868/309868ES-A.pdf"}],
+ "remove_urls":[],
+ "notes":"Product unidentified; Liqui Moly Wheel Hub Paste (HTML page only) is an aftermarket analogue. Other Graco manual numbers seen (no URL): 307882 (15:1 Fire-Ball), 309869 (repair)."},
+{"id":43,"manufacturer_update":null,
+ "add_material_docs":[
+  {"type":"brochure","title":"Driving with Klüber Lubrication - automotive brochure B082003002 (lists MICROLUBE GNY 202 for spline shafts / tribocorrosion)","url":"https://www.klueber.com/ecoma/files/B082003002_Driving-Kluber-Lubrication.pdf","language":"en","exact_or_equivalent":"exact","verified":false,"note":"Klüber-hosted PDF; per snippet GNY 202 recommended for drive-shaft/spline shafts, boundary friction and tribocorrosion."},
+  {"type":"brochure","title":"Klüber speciality lubricants for the automotive industry B082003002 (2016)","url":"https://www.klueber.com/ecoma/files/B082003002_automotivebroschuere_EN_160523_SCREEN.pdf","language":"en","exact_or_equivalent":"exact","verified":false,"note":"Klüber-hosted PDF."},
+  {"type":"brochure","title":"Driving with Klüber Lubrication (Silmid mirror, 2016)","url":"https://www.silmid.com/us/Documents/Brochures/B082003002_Automotive_160531_EN.pdf","language":"en","exact_or_equivalent":"exact","verified":false,"note":"Distributor mirror."},
+  {"type":"paper","title":"LuK (Schaeffler) - how to grease clutch hubs","url":"https://www.techtips.ie/LuK/how-to-grease-clutch-hubs.pdf","language":"en","exact_or_equivalent":"equivalent","verified":false,"note":"Application guidance for clutch hub spline greasing ('less is more')."}],
+ "add_equipment":[{"vendor":"Nordson EFD / Graco","model":"Small-shot grease dispense valve fed from cartridge/pail pump","role":"Metered dab on clutch disc hub splines","rationale":"Very small quantity required.","confidence":"low"}],
+ "add_equipment_docs":[
+  {"vendor":"Graco","model":"Fire-Ball pumps","type":"manual","title":"Graco 309868 Fire-Ball installation/operation (ES)","url":"https://www.graco.com/content/dam/graco/tech_documents/manuals/309/309868/309868ES-A.pdf","verified":false,"note":"Representative."}],
+ "remove_urls":[],
+ "notes":"Product PI (017118 PI EN) only on Scribd (HTML, https://www.scribd.com/document/862106522/MICROLUBE-GNY-202-017118-PI-EN-en); Klüber PI/SDS behind login. No SDS PDF for GNY 202 found. klueber.com DNS-blocked for WebFetch."}
+]

@@ -1,0 +1,692 @@
+[
+ {
+  "id": 8,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i",
+    "type": "datasheet",
+    "title": "EcoRP E043i 7-axis painting robot datasheet (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint Robot painting stations",
+    "type": "brochure",
+    "title": "Ecopaint Robot painting stations brochure",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-SSD / RB1000-SAD",
+    "type": "datasheet",
+    "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+    "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+    "verified": false,
+    "note": "official ABB library PDF; solvent-borne direct-charge bell"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-WSC",
+    "type": "datasheet",
+    "title": "RB1000-WSC high-flow atomizer (AB01R02)",
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "verified": false,
+    "note": "official ABB library PDF"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 9,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i",
+    "type": "datasheet",
+    "title": "EcoRP E043i 7-axis painting robot datasheet (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint Robot painting stations",
+    "type": "brochure",
+    "title": "Ecopaint Robot painting stations brochure",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-SSD / RB1000-SAD",
+    "type": "datasheet",
+    "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+    "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+    "verified": false,
+    "note": "official ABB library PDF; solvent-borne direct-charge bell"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-WSC",
+    "type": "datasheet",
+    "title": "RB1000-WSC high-flow atomizer (AB01R02)",
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "verified": false,
+    "note": "official ABB library PDF"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 11,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i",
+    "type": "datasheet",
+    "title": "EcoRP E043i 7-axis painting robot datasheet (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint Robot painting stations",
+    "type": "brochure",
+    "title": "Ecopaint Robot painting stations brochure",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-SSD / RB1000-SAD",
+    "type": "datasheet",
+    "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+    "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+    "verified": false,
+    "note": "official ABB library PDF; solvent-borne direct-charge bell"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-WSC",
+    "type": "datasheet",
+    "title": "RB1000-WSC high-flow atomizer (AB01R02)",
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "verified": false,
+    "note": "official ABB library PDF"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 12,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i",
+    "type": "datasheet",
+    "title": "EcoRP E043i 7-axis painting robot datasheet (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint Robot painting stations",
+    "type": "brochure",
+    "title": "Ecopaint Robot painting stations brochure",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-SSD / RB1000-SAD",
+    "type": "datasheet",
+    "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+    "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+    "verified": false,
+    "note": "official ABB library PDF; solvent-borne direct-charge bell"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-WSC",
+    "type": "datasheet",
+    "title": "RB1000-WSC high-flow atomizer (AB01R02)",
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "verified": false,
+    "note": "official ABB library PDF"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 13,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i",
+    "type": "datasheet",
+    "title": "EcoRP E043i 7-axis painting robot datasheet (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint Robot painting stations",
+    "type": "brochure",
+    "title": "Ecopaint Robot painting stations brochure",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-SSD / RB1000-SAD",
+    "type": "datasheet",
+    "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+    "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+    "verified": false,
+    "note": "official ABB library PDF; solvent-borne direct-charge bell"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-WSC",
+    "type": "datasheet",
+    "title": "RB1000-WSC high-flow atomizer (AB01R02)",
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "verified": false,
+    "note": "official ABB library PDF"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 14,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i",
+    "type": "datasheet",
+    "title": "EcoRP E043i 7-axis painting robot datasheet (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint Robot painting stations",
+    "type": "brochure",
+    "title": "Ecopaint Robot painting stations brochure",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-SSD / RB1000-SAD",
+    "type": "datasheet",
+    "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+    "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+    "verified": false,
+    "note": "official ABB library PDF; solvent-borne direct-charge bell"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-WSC",
+    "type": "datasheet",
+    "title": "RB1000-WSC high-flow atomizer (AB01R02)",
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "verified": false,
+    "note": "official ABB library PDF"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 15,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i",
+    "type": "datasheet",
+    "title": "EcoRP E043i 7-axis painting robot datasheet (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint Robot painting stations",
+    "type": "brochure",
+    "title": "Ecopaint Robot painting stations brochure",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-SSD / RB1000-SAD",
+    "type": "datasheet",
+    "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+    "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+    "verified": false,
+    "note": "official ABB library PDF; solvent-borne direct-charge bell"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-WSC",
+    "type": "datasheet",
+    "title": "RB1000-WSC high-flow atomizer (AB01R02)",
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "verified": false,
+    "note": "official ABB library PDF"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 16,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i",
+    "type": "datasheet",
+    "title": "EcoRP E043i 7-axis painting robot datasheet (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint Robot painting stations",
+    "type": "brochure",
+    "title": "Ecopaint Robot painting stations brochure",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-SSD / RB1000-SAD",
+    "type": "datasheet",
+    "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+    "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+    "verified": false,
+    "note": "official ABB library PDF; solvent-borne direct-charge bell"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-WSC",
+    "type": "datasheet",
+    "title": "RB1000-WSC high-flow atomizer (AB01R02)",
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "verified": false,
+    "note": "official ABB library PDF"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 17,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i",
+    "type": "datasheet",
+    "title": "EcoRP E043i 7-axis painting robot datasheet (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint Robot painting stations",
+    "type": "brochure",
+    "title": "Ecopaint Robot painting stations brochure",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-SSD / RB1000-SAD",
+    "type": "datasheet",
+    "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+    "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+    "verified": false,
+    "note": "official ABB library PDF; solvent-borne direct-charge bell"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-WSC",
+    "type": "datasheet",
+    "title": "RB1000-WSC high-flow atomizer (AB01R02)",
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "verified": false,
+    "note": "official ABB library PDF"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 18,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i",
+    "type": "datasheet",
+    "title": "EcoRP E043i 7-axis painting robot datasheet (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint Robot painting stations",
+    "type": "brochure",
+    "title": "Ecopaint Robot painting stations brochure",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-SSD / RB1000-SAD",
+    "type": "datasheet",
+    "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+    "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+    "verified": false,
+    "note": "official ABB library PDF; solvent-borne direct-charge bell"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-WSC",
+    "type": "datasheet",
+    "title": "RB1000-WSC high-flow atomizer (AB01R02)",
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "verified": false,
+    "note": "official ABB library PDF"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 19,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i",
+    "type": "datasheet",
+    "title": "EcoRP E043i 7-axis painting robot datasheet (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint Robot painting stations",
+    "type": "brochure",
+    "title": "Ecopaint Robot painting stations brochure",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-SSD / RB1000-SAD",
+    "type": "datasheet",
+    "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+    "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+    "verified": false,
+    "note": "official ABB library PDF; solvent-borne direct-charge bell"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-WSC",
+    "type": "datasheet",
+    "title": "RB1000-WSC high-flow atomizer (AB01R02)",
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "verified": false,
+    "note": "official ABB library PDF"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 20,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i",
+    "type": "datasheet",
+    "title": "EcoRP E043i 7-axis painting robot datasheet (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint Robot painting stations",
+    "type": "brochure",
+    "title": "Ecopaint Robot painting stations brochure",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-SSD / RB1000-SAD",
+    "type": "datasheet",
+    "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+    "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+    "verified": false,
+    "note": "official ABB library PDF; solvent-borne direct-charge bell"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-WSC",
+    "type": "datasheet",
+    "title": "RB1000-WSC high-flow atomizer (AB01R02)",
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "verified": false,
+    "note": "official ABB library PDF"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 21,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i",
+    "type": "datasheet",
+    "title": "EcoRP E043i 7-axis painting robot datasheet (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint Robot painting stations",
+    "type": "brochure",
+    "title": "Ecopaint Robot painting stations brochure",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-SSD / RB1000-SAD",
+    "type": "datasheet",
+    "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+    "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+    "verified": false,
+    "note": "official ABB library PDF; solvent-borne direct-charge bell"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-WSC",
+    "type": "datasheet",
+    "title": "RB1000-WSC high-flow atomizer (AB01R02)",
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "verified": false,
+    "note": "official ABB library PDF"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 22,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i",
+    "type": "datasheet",
+    "title": "EcoRP E043i 7-axis painting robot datasheet (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint Robot painting stations",
+    "type": "brochure",
+    "title": "Ecopaint Robot painting stations brochure",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-SSD / RB1000-SAD",
+    "type": "datasheet",
+    "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+    "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+    "verified": false,
+    "note": "official ABB library PDF; solvent-borne direct-charge bell"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-WSC",
+    "type": "datasheet",
+    "title": "RB1000-WSC high-flow atomizer (AB01R02)",
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "verified": false,
+    "note": "official ABB library PDF"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 24,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i",
+    "type": "datasheet",
+    "title": "EcoRP E043i 7-axis painting robot datasheet (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint Robot painting stations",
+    "type": "brochure",
+    "title": "Ecopaint Robot painting stations brochure",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-SSD / RB1000-SAD",
+    "type": "datasheet",
+    "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+    "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+    "verified": false,
+    "note": "official ABB library PDF; solvent-borne direct-charge bell"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-WSC",
+    "type": "datasheet",
+    "title": "RB1000-WSC high-flow atomizer (AB01R02)",
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "verified": false,
+    "note": "official ABB library PDF"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ }
+]

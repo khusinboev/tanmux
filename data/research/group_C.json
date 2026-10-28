@@ -1,10 +1,10 @@
 [
  {
   "id": 11,
-  "manufacturer": "Most likely JV 'Uz-DongJu Paint Co.' (Asaka; UzAvtosanoat + Korean partner DongJu Industrial/KION International; technical partner YoungShin Chemicals) - unconfirmed; KCC Corporation is a plausible alternative (Korea's largest OEM paint maker; KCC signed a 2025 automotive paint plant agreement with Uzbekistan)",
-  "product_identified": "OEM solvent-borne basecoat, GM colour GAZ Summit White, GM Korea-style material spec KR-MC-710U (180 L drum), 2-coat-1-bake (basecoat + clearcoat) system; solid colour",
+  "manufacturer": "Uz-DongJu Paint Co. JV (Asaka; brand 'Royal Paint'; DongJu Industrial (KR) 50% / state 50% until 2024 sale of state stake to Comfort Engineering Group) - most likely local supplier/finisher; actual basecoat technology/resin source (Korean partner, possibly KCC/Noroo) still unconfirmed",
+  "product_identified": "OEM solvent-borne basecoat (2C1B) in GM colour; plant-specific GM Korea-style spec (KR-ADM-xxx / KR-MC-710U)",
   "gm_color_code_check": "GAZ = Summit White (WA8624) confirmed by automotivetouchup.com Bolt 2024/2025 lists and GM Authority 2018 Silverado table. Solid (non-metallic) white; '2C1B' = 2-coat-1-bake (base + clear).",
-  "manufacturer_confidence": "low",
+  "manufacturer_confidence": "medium",
   "material_docs": [
    {
     "type": "SDS",
@@ -23,6 +23,51 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items."
+   },
+   {
+    "type": "TDS",
+    "title": "Lesonal Basecoat SB - Programmed System Technique (PST) TDS 09/12/2019 (AkzoNobel, solvent-borne basecoat)",
+    "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; not fetched. Refinish solvent-borne basecoat (solid/metallic, includes metallic drop-coat procedure); manufacturer-hosted. Second refinish proxy alongside Autobase Plus; no public OEM-line basecoat TDS PDF found."
+   },
+   {
+    "type": "TDS",
+    "title": "Axalta Centari 600 basecoat lacquer TDS (27.08.2014, AUS) - solvent-borne clear-over-base for solid, metallic and pearl colours",
+    "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; third-party (Resene Automotive distributor) host. Commercial-vehicle/refinish solvent-borne basecoat used in clear-over-base systems; closer to production use than pure refinish but still not passenger-car OEM line."
+   },
+   {
+    "type": "brochure",
+    "title": "PPG Automotive OEM basecoats (solventborne, high-solids, waterborne, ANDARO) - product page",
+    "url": "https://www.ppg.com/en-US/autocoatings/solutions/basecoats",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "HTML page, not PDF. Only OEM-line (exact product class) solvent-borne basecoat description found from a major OEM supplier; no OEM basecoat SDS/TDS PDF is publicly indexed."
+   },
+   {
+    "type": "brochure",
+    "title": "BASF ColorSmart - high-solids solventborne OEM basecoat (product page)",
+    "url": "https://products.basf.com/global/en/ec/colorsmart.html",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "HTML page, not PDF. BASF OEM-line high-solids solvent-borne basecoat (primerless shortened process); same technical class as KR-ADM basecoats."
+   },
+   {
+    "type": "brochure",
+    "title": "ACDelco GM Original Equipment Summit White/Olympic White (GAZ/WA8624) touch-up paint pen 19367652 - GM parts page",
+    "url": "https://parts.gmparts.com/product/acdelco-gm-original-equipment-summit-white-olympic-white-four-in-one-touch-up-paint-pen-(5-oz)-19367652",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "colour reference, not TDS. HTML (GM-hosted) page confirming GAZ = WA8624 Summit White; aerosol part 19354941 also exists. Not a PDF."
    }
   ],
   "equipment": [
@@ -141,16 +186,52 @@
     "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
     "verified": false,
     "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i",
+    "type": "datasheet",
+    "title": "EcoRP E043i 7-axis painting robot datasheet (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint Robot painting stations",
+    "type": "brochure",
+    "title": "Ecopaint Robot painting stations brochure",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-SSD / RB1000-SAD",
+    "type": "datasheet",
+    "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+    "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+    "verified": false,
+    "note": "official ABB library PDF; solvent-borne direct-charge bell"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-WSC",
+    "type": "datasheet",
+    "title": "RB1000-WSC high-flow atomizer (AB01R02)",
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "verified": false,
+    "note": "official ABB library PDF"
    }
   ],
-  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-MC-710U ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only."
+  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-MC-710U ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only. | round2_C evidence: uzavtosanoat.uz UzAuto Motors page lists 'Uz Dong Zhu Paint' among main UzAuto suppliers (https://uzavtosanoat.uz/en/company/ao-uzauto-motors); Daryo 2024-06-22 (https://daryo.uz/en/2024/06/22/uzbekistans-sama-sell50-stake-ofuz-dongju-paint-for19bn/) says JV founded 1995, makes car paints/sealants/body chemicals under 'Royal Paint', main plant in Asaka, buyer committed to keep products compliant with General Motors standards and OEM requirements; spot.uz 2022-08-26 (https://www.spot.uz/ru/2022/08/26/uzdongju/) on the stake tender. KCC: only a July 2025 cooperation agreement for a planned 335 t/yr automotive paint plant (https://invest.miit.uz/en/posts/the-investment-promotion-agency-and-kcc-corporation-signed-a-cooperation-agreement-on-an-automotive-paint-production-project) - too small/too recent to be the historic basecoat supplier. No PDF document from Uz-DongJu found (site uzdongju.uz per yellowpages.uz, not indexed). | round2_C: Web search budget ran out before Duerr EcoRP E043i / ABB RB1000 datasheet and Chevrolet brochure-PDF searches could run; no new equipment docs. No OEM-line solvent-borne basecoat SDS/TDS PDF from KCC, Noroo, BASF, Axalta, PPG or Kansai is publicly indexed (KCC technical search center https://www.kccworld.co.kr/eng/technical/searchCenter.do lists MSDS titles but no direct PDFs seen). Per-colour formula/colour-information PDFs from PPG/Axalta/BASF were not found for any code; only retailer HTML pages (paintscratch, drcolorchip, automotivetouchup)."
  },
  {
   "id": 12,
-  "manufacturer": "Most likely JV 'Uz-DongJu Paint Co.' (Asaka; UzAvtosanoat + Korean partner DongJu Industrial/KION International; technical partner YoungShin Chemicals) - unconfirmed; KCC Corporation is a plausible alternative (Korea's largest OEM paint maker; KCC signed a 2025 automotive paint plant agreement with Uzbekistan)",
-  "product_identified": "OEM solvent-borne basecoat, GM colour GK2 Son of a Gun Gray Metallic, GM Korea-style material spec KR-ADM-709U (180 L drum), 2-coat-1-bake (basecoat + clearcoat) system",
+  "manufacturer": "Uz-DongJu Paint Co. JV (Asaka; brand 'Royal Paint'; DongJu Industrial (KR) 50% / state 50% until 2024 sale of state stake to Comfort Engineering Group) - most likely local supplier/finisher; actual basecoat technology/resin source (Korean partner, possibly KCC/Noroo) still unconfirmed",
+  "product_identified": "OEM solvent-borne basecoat (2C1B) in GM colour; plant-specific GM Korea-style spec (KR-ADM-xxx / KR-MC-710U)",
   "gm_color_code_check": "GK2 = Son of a Gun Gray Metallic (WA482B/WA527B/GK2/GPF) per paintscratch.com. 'MET-3' suffix = GM formula/variant 'Metallic 3'.",
-  "manufacturer_confidence": "low",
+  "manufacturer_confidence": "medium",
   "material_docs": [
    {
     "type": "SDS",
@@ -169,6 +250,42 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items."
+   },
+   {
+    "type": "TDS",
+    "title": "Lesonal Basecoat SB - Programmed System Technique (PST) TDS 09/12/2019 (AkzoNobel, solvent-borne basecoat)",
+    "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; not fetched. Refinish solvent-borne basecoat (solid/metallic, includes metallic drop-coat procedure); manufacturer-hosted. Second refinish proxy alongside Autobase Plus; no public OEM-line basecoat TDS PDF found."
+   },
+   {
+    "type": "TDS",
+    "title": "Axalta Centari 600 basecoat lacquer TDS (27.08.2014, AUS) - solvent-borne clear-over-base for solid, metallic and pearl colours",
+    "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; third-party (Resene Automotive distributor) host. Commercial-vehicle/refinish solvent-borne basecoat used in clear-over-base systems; closer to production use than pure refinish but still not passenger-car OEM line."
+   },
+   {
+    "type": "brochure",
+    "title": "PPG Automotive OEM basecoats (solventborne, high-solids, waterborne, ANDARO) - product page",
+    "url": "https://www.ppg.com/en-US/autocoatings/solutions/basecoats",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "HTML page, not PDF. Only OEM-line (exact product class) solvent-borne basecoat description found from a major OEM supplier; no OEM basecoat SDS/TDS PDF is publicly indexed."
+   },
+   {
+    "type": "brochure",
+    "title": "BASF ColorSmart - high-solids solventborne OEM basecoat (product page)",
+    "url": "https://products.basf.com/global/en/ec/colorsmart.html",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "HTML page, not PDF. BASF OEM-line high-solids solvent-borne basecoat (primerless shortened process); same technical class as KR-ADM basecoats."
    }
   ],
   "equipment": [
@@ -287,16 +404,52 @@
     "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
     "verified": false,
     "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i",
+    "type": "datasheet",
+    "title": "EcoRP E043i 7-axis painting robot datasheet (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint Robot painting stations",
+    "type": "brochure",
+    "title": "Ecopaint Robot painting stations brochure",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-SSD / RB1000-SAD",
+    "type": "datasheet",
+    "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+    "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+    "verified": false,
+    "note": "official ABB library PDF; solvent-borne direct-charge bell"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-WSC",
+    "type": "datasheet",
+    "title": "RB1000-WSC high-flow atomizer (AB01R02)",
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "verified": false,
+    "note": "official ABB library PDF"
    }
   ],
-  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-709U ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only."
+  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-709U ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only. | round2_C evidence: uzavtosanoat.uz UzAuto Motors page lists 'Uz Dong Zhu Paint' among main UzAuto suppliers (https://uzavtosanoat.uz/en/company/ao-uzauto-motors); Daryo 2024-06-22 (https://daryo.uz/en/2024/06/22/uzbekistans-sama-sell50-stake-ofuz-dongju-paint-for19bn/) says JV founded 1995, makes car paints/sealants/body chemicals under 'Royal Paint', main plant in Asaka, buyer committed to keep products compliant with General Motors standards and OEM requirements; spot.uz 2022-08-26 (https://www.spot.uz/ru/2022/08/26/uzdongju/) on the stake tender. KCC: only a July 2025 cooperation agreement for a planned 335 t/yr automotive paint plant (https://invest.miit.uz/en/posts/the-investment-promotion-agency-and-kcc-corporation-signed-a-cooperation-agreement-on-an-automotive-paint-production-project) - too small/too recent to be the historic basecoat supplier. No PDF document from Uz-DongJu found (site uzdongju.uz per yellowpages.uz, not indexed). | round2_C: Web search budget ran out before Duerr EcoRP E043i / ABB RB1000 datasheet and Chevrolet brochure-PDF searches could run; no new equipment docs. No OEM-line solvent-borne basecoat SDS/TDS PDF from KCC, Noroo, BASF, Axalta, PPG or Kansai is publicly indexed (KCC technical search center https://www.kccworld.co.kr/eng/technical/searchCenter.do lists MSDS titles but no direct PDFs seen). Per-colour formula/colour-information PDFs from PPG/Axalta/BASF were not found for any code; only retailer HTML pages (paintscratch, drcolorchip, automotivetouchup)."
  },
  {
   "id": 13,
-  "manufacturer": "Most likely JV 'Uz-DongJu Paint Co.' (Asaka; UzAvtosanoat + Korean partner DongJu Industrial/KION International; technical partner YoungShin Chemicals) - unconfirmed; KCC Corporation is a plausible alternative (Korea's largest OEM paint maker; KCC signed a 2025 automotive paint plant agreement with Uzbekistan)",
-  "product_identified": "GM colour 'Burnt Coconut Metallic' (GM Korea code 476A); source label GD8 (in GM global lists GD8 = Buick Coconut Pearl)",
+  "manufacturer": "Uz-DongJu Paint Co. JV (Asaka; brand 'Royal Paint'; DongJu Industrial (KR) 50% / state 50% until 2024 sale of state stake to Comfort Engineering Group) - most likely local supplier/finisher; actual basecoat technology/resin source (Korean partner, possibly KCC/Noroo) still unconfirmed",
+  "product_identified": "OEM solvent-borne basecoat (2C1B) in GM colour; plant-specific GM Korea-style spec (KR-ADM-xxx / KR-MC-710U)",
   "gm_color_code_check": "Name 'Burnt Coconut Metallic' confirmed as a GM Korea (Daewoo-origin) colour, WA476A / '476A', used on Chevrolet Spark and Captiva (walmart.com ABP listing). GD8 RPO not found in public databases; likely regional GM Korea/UzAuto RPO.",
-  "manufacturer_confidence": "low",
+  "manufacturer_confidence": "medium",
   "material_docs": [
    {
     "type": "SDS",
@@ -315,6 +468,42 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items."
+   },
+   {
+    "type": "TDS",
+    "title": "Lesonal Basecoat SB - Programmed System Technique (PST) TDS 09/12/2019 (AkzoNobel, solvent-borne basecoat)",
+    "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; not fetched. Refinish solvent-borne basecoat (solid/metallic, includes metallic drop-coat procedure); manufacturer-hosted. Second refinish proxy alongside Autobase Plus; no public OEM-line basecoat TDS PDF found."
+   },
+   {
+    "type": "TDS",
+    "title": "Axalta Centari 600 basecoat lacquer TDS (27.08.2014, AUS) - solvent-borne clear-over-base for solid, metallic and pearl colours",
+    "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; third-party (Resene Automotive distributor) host. Commercial-vehicle/refinish solvent-borne basecoat used in clear-over-base systems; closer to production use than pure refinish but still not passenger-car OEM line."
+   },
+   {
+    "type": "brochure",
+    "title": "PPG Automotive OEM basecoats (solventborne, high-solids, waterborne, ANDARO) - product page",
+    "url": "https://www.ppg.com/en-US/autocoatings/solutions/basecoats",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "HTML page, not PDF. Only OEM-line (exact product class) solvent-borne basecoat description found from a major OEM supplier; no OEM basecoat SDS/TDS PDF is publicly indexed."
+   },
+   {
+    "type": "brochure",
+    "title": "BASF ColorSmart - high-solids solventborne OEM basecoat (product page)",
+    "url": "https://products.basf.com/global/en/ec/colorsmart.html",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "HTML page, not PDF. BASF OEM-line high-solids solvent-borne basecoat (primerless shortened process); same technical class as KR-ADM basecoats."
    }
   ],
   "equipment": [
@@ -433,16 +622,52 @@
     "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
     "verified": false,
     "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i",
+    "type": "datasheet",
+    "title": "EcoRP E043i 7-axis painting robot datasheet (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint Robot painting stations",
+    "type": "brochure",
+    "title": "Ecopaint Robot painting stations brochure",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-SSD / RB1000-SAD",
+    "type": "datasheet",
+    "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+    "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+    "verified": false,
+    "note": "official ABB library PDF; solvent-borne direct-charge bell"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-WSC",
+    "type": "datasheet",
+    "title": "RB1000-WSC high-flow atomizer (AB01R02)",
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "verified": false,
+    "note": "official ABB library PDF"
    }
   ],
-  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-254 ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only."
+  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-254 ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only. | round2_C evidence: uzavtosanoat.uz UzAuto Motors page lists 'Uz Dong Zhu Paint' among main UzAuto suppliers (https://uzavtosanoat.uz/en/company/ao-uzauto-motors); Daryo 2024-06-22 (https://daryo.uz/en/2024/06/22/uzbekistans-sama-sell50-stake-ofuz-dongju-paint-for19bn/) says JV founded 1995, makes car paints/sealants/body chemicals under 'Royal Paint', main plant in Asaka, buyer committed to keep products compliant with General Motors standards and OEM requirements; spot.uz 2022-08-26 (https://www.spot.uz/ru/2022/08/26/uzdongju/) on the stake tender. KCC: only a July 2025 cooperation agreement for a planned 335 t/yr automotive paint plant (https://invest.miit.uz/en/posts/the-investment-promotion-agency-and-kcc-corporation-signed-a-cooperation-agreement-on-an-automotive-paint-production-project) - too small/too recent to be the historic basecoat supplier. No PDF document from Uz-DongJu found (site uzdongju.uz per yellowpages.uz, not indexed). | round2_C: Web search budget ran out before Duerr EcoRP E043i / ABB RB1000 datasheet and Chevrolet brochure-PDF searches could run; no new equipment docs. No OEM-line solvent-borne basecoat SDS/TDS PDF from KCC, Noroo, BASF, Axalta, PPG or Kansai is publicly indexed (KCC technical search center https://www.kccworld.co.kr/eng/technical/searchCenter.do lists MSDS titles but no direct PDFs seen). Per-colour formula/colour-information PDFs from PPG/Axalta/BASF were not found for any code; only retailer HTML pages (paintscratch, drcolorchip, automotivetouchup). Burnt Coconut Metallic = 476A (Captiva/Spark) reconfirmed via walmart.com listing; no PDF."
  },
  {
   "id": 14,
-  "manufacturer": "Most likely JV 'Uz-DongJu Paint Co.' (Asaka; UzAvtosanoat + Korean partner DongJu Industrial/KION International; technical partner YoungShin Chemicals) - unconfirmed; KCC Corporation is a plausible alternative (Korea's largest OEM paint maker; KCC signed a 2025 automotive paint plant agreement with Uzbekistan)",
-  "product_identified": "OEM solvent-borne basecoat, GM colour GB0 Black Meet Kettle Metallic, GM Korea-style material spec KR-ADM-786 (180 L drum), 2-coat-1-bake (basecoat + clearcoat) system",
+  "manufacturer": "Uz-DongJu Paint Co. JV (Asaka; brand 'Royal Paint'; DongJu Industrial (KR) 50% / state 50% until 2024 sale of state stake to Comfort Engineering Group) - most likely local supplier/finisher; actual basecoat technology/resin source (Korean partner, possibly KCC/Noroo) still unconfirmed",
+  "product_identified": "OEM solvent-borne basecoat (2C1B) in GM colour; plant-specific GM Korea-style spec (KR-ADM-xxx / KR-MC-710U)",
   "gm_color_code_check": "'GBO' in source is almost certainly GB0 (zero). Black Meet Kettle Metallic/Pearl listed by paintscratch.com under GB0/GB8/GB9 families. Name confirmed; exact 'GBO' string not found.",
-  "manufacturer_confidence": "low",
+  "manufacturer_confidence": "medium",
   "material_docs": [
    {
     "type": "SDS",
@@ -461,6 +686,42 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items."
+   },
+   {
+    "type": "TDS",
+    "title": "Lesonal Basecoat SB - Programmed System Technique (PST) TDS 09/12/2019 (AkzoNobel, solvent-borne basecoat)",
+    "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; not fetched. Refinish solvent-borne basecoat (solid/metallic, includes metallic drop-coat procedure); manufacturer-hosted. Second refinish proxy alongside Autobase Plus; no public OEM-line basecoat TDS PDF found."
+   },
+   {
+    "type": "TDS",
+    "title": "Axalta Centari 600 basecoat lacquer TDS (27.08.2014, AUS) - solvent-borne clear-over-base for solid, metallic and pearl colours",
+    "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; third-party (Resene Automotive distributor) host. Commercial-vehicle/refinish solvent-borne basecoat used in clear-over-base systems; closer to production use than pure refinish but still not passenger-car OEM line."
+   },
+   {
+    "type": "brochure",
+    "title": "PPG Automotive OEM basecoats (solventborne, high-solids, waterborne, ANDARO) - product page",
+    "url": "https://www.ppg.com/en-US/autocoatings/solutions/basecoats",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "HTML page, not PDF. Only OEM-line (exact product class) solvent-borne basecoat description found from a major OEM supplier; no OEM basecoat SDS/TDS PDF is publicly indexed."
+   },
+   {
+    "type": "brochure",
+    "title": "BASF ColorSmart - high-solids solventborne OEM basecoat (product page)",
+    "url": "https://products.basf.com/global/en/ec/colorsmart.html",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "HTML page, not PDF. BASF OEM-line high-solids solvent-borne basecoat (primerless shortened process); same technical class as KR-ADM basecoats."
    }
   ],
   "equipment": [
@@ -579,16 +840,52 @@
     "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
     "verified": false,
     "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i",
+    "type": "datasheet",
+    "title": "EcoRP E043i 7-axis painting robot datasheet (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint Robot painting stations",
+    "type": "brochure",
+    "title": "Ecopaint Robot painting stations brochure",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-SSD / RB1000-SAD",
+    "type": "datasheet",
+    "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+    "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+    "verified": false,
+    "note": "official ABB library PDF; solvent-borne direct-charge bell"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-WSC",
+    "type": "datasheet",
+    "title": "RB1000-WSC high-flow atomizer (AB01R02)",
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "verified": false,
+    "note": "official ABB library PDF"
    }
   ],
-  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-786 ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only."
+  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-786 ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only. | round2_C evidence: uzavtosanoat.uz UzAuto Motors page lists 'Uz Dong Zhu Paint' among main UzAuto suppliers (https://uzavtosanoat.uz/en/company/ao-uzauto-motors); Daryo 2024-06-22 (https://daryo.uz/en/2024/06/22/uzbekistans-sama-sell50-stake-ofuz-dongju-paint-for19bn/) says JV founded 1995, makes car paints/sealants/body chemicals under 'Royal Paint', main plant in Asaka, buyer committed to keep products compliant with General Motors standards and OEM requirements; spot.uz 2022-08-26 (https://www.spot.uz/ru/2022/08/26/uzdongju/) on the stake tender. KCC: only a July 2025 cooperation agreement for a planned 335 t/yr automotive paint plant (https://invest.miit.uz/en/posts/the-investment-promotion-agency-and-kcc-corporation-signed-a-cooperation-agreement-on-an-automotive-paint-production-project) - too small/too recent to be the historic basecoat supplier. No PDF document from Uz-DongJu found (site uzdongju.uz per yellowpages.uz, not indexed). | round2_C: Web search budget ran out before Duerr EcoRP E043i / ABB RB1000 datasheet and Chevrolet brochure-PDF searches could run; no new equipment docs. No OEM-line solvent-borne basecoat SDS/TDS PDF from KCC, Noroo, BASF, Axalta, PPG or Kansai is publicly indexed (KCC technical search center https://www.kccworld.co.kr/eng/technical/searchCenter.do lists MSDS titles but no direct PDFs seen). Per-colour formula/colour-information PDFs from PPG/Axalta/BASF were not found for any code; only retailer HTML pages (paintscratch, drcolorchip, automotivetouchup). Philippine 2021 Tracker colour list (carguide.ph) names Black Meet Kettle, Satin Steel Gray, Pow Zinga, Summit White - confirms GM Korea-built Tracker palette shared with UzAuto list."
  },
  {
   "id": 15,
-  "manufacturer": "Most likely JV 'Uz-DongJu Paint Co.' (Asaka; UzAvtosanoat + Korean partner DongJu Industrial/KION International; technical partner YoungShin Chemicals) - unconfirmed; KCC Corporation is a plausible alternative (Korea's largest OEM paint maker; KCC signed a 2025 automotive paint plant agreement with Uzbekistan)",
-  "product_identified": "OEM solvent-borne basecoat, GM colour GYM Satin Steel Gray Metallic, GM Korea-style material spec KR-ADM-706U (180 L drum), 2-coat-1-bake (basecoat + clearcoat) system",
+  "manufacturer": "Uz-DongJu Paint Co. JV (Asaka; brand 'Royal Paint'; DongJu Industrial (KR) 50% / state 50% until 2024 sale of state stake to Comfort Engineering Group) - most likely local supplier/finisher; actual basecoat technology/resin source (Korean partner, possibly KCC/Noroo) still unconfirmed",
+  "product_identified": "OEM solvent-borne basecoat (2C1B) in GM colour; plant-specific GM Korea-style spec (KR-ADM-xxx / KR-MC-710U)",
   "gm_color_code_check": "GYM = Satin Steel Gray Metallic (WA205V) per drcolorchip.com and paintscratch.com ('satin-steel-gym'); used e.g. Chevrolet Beat/Spark (GM Korea).",
-  "manufacturer_confidence": "low",
+  "manufacturer_confidence": "medium",
   "material_docs": [
    {
     "type": "SDS",
@@ -607,6 +904,51 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items."
+   },
+   {
+    "type": "TDS",
+    "title": "Lesonal Basecoat SB - Programmed System Technique (PST) TDS 09/12/2019 (AkzoNobel, solvent-borne basecoat)",
+    "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; not fetched. Refinish solvent-borne basecoat (solid/metallic, includes metallic drop-coat procedure); manufacturer-hosted. Second refinish proxy alongside Autobase Plus; no public OEM-line basecoat TDS PDF found."
+   },
+   {
+    "type": "TDS",
+    "title": "Axalta Centari 600 basecoat lacquer TDS (27.08.2014, AUS) - solvent-borne clear-over-base for solid, metallic and pearl colours",
+    "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; third-party (Resene Automotive distributor) host. Commercial-vehicle/refinish solvent-borne basecoat used in clear-over-base systems; closer to production use than pure refinish but still not passenger-car OEM line."
+   },
+   {
+    "type": "brochure",
+    "title": "PPG Automotive OEM basecoats (solventborne, high-solids, waterborne, ANDARO) - product page",
+    "url": "https://www.ppg.com/en-US/autocoatings/solutions/basecoats",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "HTML page, not PDF. Only OEM-line (exact product class) solvent-borne basecoat description found from a major OEM supplier; no OEM basecoat SDS/TDS PDF is publicly indexed."
+   },
+   {
+    "type": "brochure",
+    "title": "BASF ColorSmart - high-solids solventborne OEM basecoat (product page)",
+    "url": "https://products.basf.com/global/en/ec/colorsmart.html",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "HTML page, not PDF. BASF OEM-line high-solids solvent-borne basecoat (primerless shortened process); same technical class as KR-ADM basecoats."
+   },
+   {
+    "type": "brochure",
+    "title": "ACDelco 19355005 Lacquer Touch-Up Paint, Satin Steel Grey Met. (GYM / WA205V) - SDS/environmental data sheet (Sherwin-Williams, 2023-06-08) in FMPCO SDS repository",
+    "url": "https://sds.fmpco.com/index.php/details/2/9116",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "colour reference, not TDS. Repository landing page for SDS_19355005.pdf (seen in search snippets; host DNS-blocked for WebFetch). Same GM colour GYM WA205V but aerosol lacquer touch-up, not OEM basecoat - hazard profile not representative."
    }
   ],
   "equipment": [
@@ -725,16 +1067,52 @@
     "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
     "verified": false,
     "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i",
+    "type": "datasheet",
+    "title": "EcoRP E043i 7-axis painting robot datasheet (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint Robot painting stations",
+    "type": "brochure",
+    "title": "Ecopaint Robot painting stations brochure",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-SSD / RB1000-SAD",
+    "type": "datasheet",
+    "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+    "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+    "verified": false,
+    "note": "official ABB library PDF; solvent-borne direct-charge bell"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-WSC",
+    "type": "datasheet",
+    "title": "RB1000-WSC high-flow atomizer (AB01R02)",
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "verified": false,
+    "note": "official ABB library PDF"
    }
   ],
-  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-706U ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only."
+  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-706U ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only. | round2_C evidence: uzavtosanoat.uz UzAuto Motors page lists 'Uz Dong Zhu Paint' among main UzAuto suppliers (https://uzavtosanoat.uz/en/company/ao-uzauto-motors); Daryo 2024-06-22 (https://daryo.uz/en/2024/06/22/uzbekistans-sama-sell50-stake-ofuz-dongju-paint-for19bn/) says JV founded 1995, makes car paints/sealants/body chemicals under 'Royal Paint', main plant in Asaka, buyer committed to keep products compliant with General Motors standards and OEM requirements; spot.uz 2022-08-26 (https://www.spot.uz/ru/2022/08/26/uzdongju/) on the stake tender. KCC: only a July 2025 cooperation agreement for a planned 335 t/yr automotive paint plant (https://invest.miit.uz/en/posts/the-investment-promotion-agency-and-kcc-corporation-signed-a-cooperation-agreement-on-an-automotive-paint-production-project) - too small/too recent to be the historic basecoat supplier. No PDF document from Uz-DongJu found (site uzdongju.uz per yellowpages.uz, not indexed). | round2_C: Web search budget ran out before Duerr EcoRP E043i / ABB RB1000 datasheet and Chevrolet brochure-PDF searches could run; no new equipment docs. No OEM-line solvent-borne basecoat SDS/TDS PDF from KCC, Noroo, BASF, Axalta, PPG or Kansai is publicly indexed (KCC technical search center https://www.kccworld.co.kr/eng/technical/searchCenter.do lists MSDS titles but no direct PDFs seen). Per-colour formula/colour-information PDFs from PPG/Axalta/BASF were not found for any code; only retailer HTML pages (paintscratch, drcolorchip, automotivetouchup)."
  },
  {
   "id": 16,
-  "manufacturer": "Most likely JV 'Uz-DongJu Paint Co.' (Asaka; UzAvtosanoat + Korean partner DongJu Industrial/KION International; technical partner YoungShin Chemicals) - unconfirmed; KCC Corporation is a plausible alternative (Korea's largest OEM paint maker; KCC signed a 2025 automotive paint plant agreement with Uzbekistan)",
-  "product_identified": "OEM solvent-borne basecoat, GM colour GAN Switchblade Silver Metallic, GM Korea-style material spec KR-ADM-893 (180 L drum), 2-coat-1-bake (basecoat + clearcoat) system",
+  "manufacturer": "Uz-DongJu Paint Co. JV (Asaka; brand 'Royal Paint'; DongJu Industrial (KR) 50% / state 50% until 2024 sale of state stake to Comfort Engineering Group) - most likely local supplier/finisher; actual basecoat technology/resin source (Korean partner, possibly KCC/Noroo) still unconfirmed",
+  "product_identified": "OEM solvent-borne basecoat (2C1B) in GM colour; plant-specific GM Korea-style spec (KR-ADM-xxx / KR-MC-710U)",
   "gm_color_code_check": "GAN = Switchblade Silver Metallic (WA636R) per automotivetouchup.com 2025 Bolt list; older GM Authority 2018 Silverado table calls the same WA636R/GAN 'Silver Ice Metallic' (same paint, renamed).",
-  "manufacturer_confidence": "low",
+  "manufacturer_confidence": "medium",
   "material_docs": [
    {
     "type": "SDS",
@@ -753,6 +1131,42 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items."
+   },
+   {
+    "type": "TDS",
+    "title": "Lesonal Basecoat SB - Programmed System Technique (PST) TDS 09/12/2019 (AkzoNobel, solvent-borne basecoat)",
+    "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; not fetched. Refinish solvent-borne basecoat (solid/metallic, includes metallic drop-coat procedure); manufacturer-hosted. Second refinish proxy alongside Autobase Plus; no public OEM-line basecoat TDS PDF found."
+   },
+   {
+    "type": "TDS",
+    "title": "Axalta Centari 600 basecoat lacquer TDS (27.08.2014, AUS) - solvent-borne clear-over-base for solid, metallic and pearl colours",
+    "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; third-party (Resene Automotive distributor) host. Commercial-vehicle/refinish solvent-borne basecoat used in clear-over-base systems; closer to production use than pure refinish but still not passenger-car OEM line."
+   },
+   {
+    "type": "brochure",
+    "title": "PPG Automotive OEM basecoats (solventborne, high-solids, waterborne, ANDARO) - product page",
+    "url": "https://www.ppg.com/en-US/autocoatings/solutions/basecoats",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "HTML page, not PDF. Only OEM-line (exact product class) solvent-borne basecoat description found from a major OEM supplier; no OEM basecoat SDS/TDS PDF is publicly indexed."
+   },
+   {
+    "type": "brochure",
+    "title": "BASF ColorSmart - high-solids solventborne OEM basecoat (product page)",
+    "url": "https://products.basf.com/global/en/ec/colorsmart.html",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "HTML page, not PDF. BASF OEM-line high-solids solvent-borne basecoat (primerless shortened process); same technical class as KR-ADM basecoats."
    }
   ],
   "equipment": [
@@ -871,16 +1285,52 @@
     "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
     "verified": false,
     "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i",
+    "type": "datasheet",
+    "title": "EcoRP E043i 7-axis painting robot datasheet (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint Robot painting stations",
+    "type": "brochure",
+    "title": "Ecopaint Robot painting stations brochure",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-SSD / RB1000-SAD",
+    "type": "datasheet",
+    "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+    "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+    "verified": false,
+    "note": "official ABB library PDF; solvent-borne direct-charge bell"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-WSC",
+    "type": "datasheet",
+    "title": "RB1000-WSC high-flow atomizer (AB01R02)",
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "verified": false,
+    "note": "official ABB library PDF"
    }
   ],
-  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-893 ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only."
+  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-893 ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only. | round2_C evidence: uzavtosanoat.uz UzAuto Motors page lists 'Uz Dong Zhu Paint' among main UzAuto suppliers (https://uzavtosanoat.uz/en/company/ao-uzauto-motors); Daryo 2024-06-22 (https://daryo.uz/en/2024/06/22/uzbekistans-sama-sell50-stake-ofuz-dongju-paint-for19bn/) says JV founded 1995, makes car paints/sealants/body chemicals under 'Royal Paint', main plant in Asaka, buyer committed to keep products compliant with General Motors standards and OEM requirements; spot.uz 2022-08-26 (https://www.spot.uz/ru/2022/08/26/uzdongju/) on the stake tender. KCC: only a July 2025 cooperation agreement for a planned 335 t/yr automotive paint plant (https://invest.miit.uz/en/posts/the-investment-promotion-agency-and-kcc-corporation-signed-a-cooperation-agreement-on-an-automotive-paint-production-project) - too small/too recent to be the historic basecoat supplier. No PDF document from Uz-DongJu found (site uzdongju.uz per yellowpages.uz, not indexed). | round2_C: Web search budget ran out before Duerr EcoRP E043i / ABB RB1000 datasheet and Chevrolet brochure-PDF searches could run; no new equipment docs. No OEM-line solvent-borne basecoat SDS/TDS PDF from KCC, Noroo, BASF, Axalta, PPG or Kansai is publicly indexed (KCC technical search center https://www.kccworld.co.kr/eng/technical/searchCenter.do lists MSDS titles but no direct PDFs seen). Per-colour formula/colour-information PDFs from PPG/Axalta/BASF were not found for any code; only retailer HTML pages (paintscratch, drcolorchip, automotivetouchup). GM touch-up pen part 19367653 = Switchblade Silver Metallic (search snippet); no document URL captured."
  },
  {
   "id": 17,
-  "manufacturer": "Most likely JV 'Uz-DongJu Paint Co.' (Asaka; UzAvtosanoat + Korean partner DongJu Industrial/KION International; technical partner YoungShin Chemicals) - unconfirmed; KCC Corporation is a plausible alternative (Korea's largest OEM paint maker; KCC signed a 2025 automotive paint plant agreement with Uzbekistan)",
-  "product_identified": "GM colour 'Red-E or Not Red Metallic' (GM codes GN6/WA454B; GX8 per PaintScratch); source label GL8 (GL8 in GM Spark list = Burning Hott Metallic 3)",
+  "manufacturer": "Uz-DongJu Paint Co. JV (Asaka; brand 'Royal Paint'; DongJu Industrial (KR) 50% / state 50% until 2024 sale of state stake to Comfort Engineering Group) - most likely local supplier/finisher; actual basecoat technology/resin source (Korean partner, possibly KCC/Noroo) still unconfirmed",
+  "product_identified": "OEM solvent-borne basecoat (2C1B) in GM colour; plant-specific GM Korea-style spec (KR-ADM-xxx / KR-MC-710U)",
   "gm_color_code_check": "Name confirmed: paintscratch.com lists 'Red-E or Not Red' under code GX8 (US). GL8 not found publicly; may be a regional/plant RPO or a transcription variant of GX8. 'MET-3' = Metallic 3 formula variant.",
-  "manufacturer_confidence": "low",
+  "manufacturer_confidence": "medium",
   "material_docs": [
    {
     "type": "SDS",
@@ -899,6 +1349,42 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items."
+   },
+   {
+    "type": "TDS",
+    "title": "Lesonal Basecoat SB - Programmed System Technique (PST) TDS 09/12/2019 (AkzoNobel, solvent-borne basecoat)",
+    "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; not fetched. Refinish solvent-borne basecoat (solid/metallic, includes metallic drop-coat procedure); manufacturer-hosted. Second refinish proxy alongside Autobase Plus; no public OEM-line basecoat TDS PDF found."
+   },
+   {
+    "type": "TDS",
+    "title": "Axalta Centari 600 basecoat lacquer TDS (27.08.2014, AUS) - solvent-borne clear-over-base for solid, metallic and pearl colours",
+    "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; third-party (Resene Automotive distributor) host. Commercial-vehicle/refinish solvent-borne basecoat used in clear-over-base systems; closer to production use than pure refinish but still not passenger-car OEM line."
+   },
+   {
+    "type": "brochure",
+    "title": "PPG Automotive OEM basecoats (solventborne, high-solids, waterborne, ANDARO) - product page",
+    "url": "https://www.ppg.com/en-US/autocoatings/solutions/basecoats",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "HTML page, not PDF. Only OEM-line (exact product class) solvent-borne basecoat description found from a major OEM supplier; no OEM basecoat SDS/TDS PDF is publicly indexed."
+   },
+   {
+    "type": "brochure",
+    "title": "BASF ColorSmart - high-solids solventborne OEM basecoat (product page)",
+    "url": "https://products.basf.com/global/en/ec/colorsmart.html",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "HTML page, not PDF. BASF OEM-line high-solids solvent-borne basecoat (primerless shortened process); same technical class as KR-ADM basecoats."
    }
   ],
   "equipment": [
@@ -1017,16 +1503,52 @@
     "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
     "verified": false,
     "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i",
+    "type": "datasheet",
+    "title": "EcoRP E043i 7-axis painting robot datasheet (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint Robot painting stations",
+    "type": "brochure",
+    "title": "Ecopaint Robot painting stations brochure",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-SSD / RB1000-SAD",
+    "type": "datasheet",
+    "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+    "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+    "verified": false,
+    "note": "official ABB library PDF; solvent-borne direct-charge bell"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-WSC",
+    "type": "datasheet",
+    "title": "RB1000-WSC high-flow atomizer (AB01R02)",
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "verified": false,
+    "note": "official ABB library PDF"
    }
   ],
-  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-122 ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only."
+  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-122 ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only. | round2_C evidence: uzavtosanoat.uz UzAuto Motors page lists 'Uz Dong Zhu Paint' among main UzAuto suppliers (https://uzavtosanoat.uz/en/company/ao-uzauto-motors); Daryo 2024-06-22 (https://daryo.uz/en/2024/06/22/uzbekistans-sama-sell50-stake-ofuz-dongju-paint-for19bn/) says JV founded 1995, makes car paints/sealants/body chemicals under 'Royal Paint', main plant in Asaka, buyer committed to keep products compliant with General Motors standards and OEM requirements; spot.uz 2022-08-26 (https://www.spot.uz/ru/2022/08/26/uzdongju/) on the stake tender. KCC: only a July 2025 cooperation agreement for a planned 335 t/yr automotive paint plant (https://invest.miit.uz/en/posts/the-investment-promotion-agency-and-kcc-corporation-signed-a-cooperation-agreement-on-an-automotive-paint-production-project) - too small/too recent to be the historic basecoat supplier. No PDF document from Uz-DongJu found (site uzdongju.uz per yellowpages.uz, not indexed). | round2_C: Web search budget ran out before Duerr EcoRP E043i / ABB RB1000 datasheet and Chevrolet brochure-PDF searches could run; no new equipment docs. No OEM-line solvent-borne basecoat SDS/TDS PDF from KCC, Noroo, BASF, Axalta, PPG or Kansai is publicly indexed (KCC technical search center https://www.kccworld.co.kr/eng/technical/searchCenter.do lists MSDS titles but no direct PDFs seen). Per-colour formula/colour-information PDFs from PPG/Axalta/BASF were not found for any code; only retailer HTML pages (paintscratch, drcolorchip, automotivetouchup). Red-E or Not Red also listed as GM/Chevrolet USA 431B (nonpaints.com) and GX8 (paintscratch); GL8 still unresolved."
  },
  {
   "id": 18,
-  "manufacturer": "Most likely JV 'Uz-DongJu Paint Co.' (Asaka; UzAvtosanoat + Korean partner DongJu Industrial/KION International; technical partner YoungShin Chemicals) - unconfirmed; KCC Corporation is a plausible alternative (Korea's largest OEM paint maker; KCC signed a 2025 automotive paint plant agreement with Uzbekistan)",
-  "product_identified": "OEM solvent-borne basecoat, GM colour GUM Seeker Metallic 3, GM Korea-style material spec KR-ADM-407U (180 L drum), 2-coat-1-bake (basecoat + clearcoat) system",
+  "manufacturer": "Uz-DongJu Paint Co. JV (Asaka; brand 'Royal Paint'; DongJu Industrial (KR) 50% / state 50% until 2024 sale of state stake to Comfort Engineering Group) - most likely local supplier/finisher; actual basecoat technology/resin source (Korean partner, possibly KCC/Noroo) still unconfirmed",
+  "product_identified": "OEM solvent-borne basecoat (2C1B) in GM colour; plant-specific GM Korea-style spec (KR-ADM-xxx / KR-MC-710U)",
   "gm_color_code_check": "GUM = Seeker Metallic 3 (WA693D) confirmed by drcolorchip.com; another Seeker variant exists as G6O.",
-  "manufacturer_confidence": "low",
+  "manufacturer_confidence": "medium",
   "material_docs": [
    {
     "type": "SDS",
@@ -1045,6 +1567,42 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items."
+   },
+   {
+    "type": "TDS",
+    "title": "Lesonal Basecoat SB - Programmed System Technique (PST) TDS 09/12/2019 (AkzoNobel, solvent-borne basecoat)",
+    "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; not fetched. Refinish solvent-borne basecoat (solid/metallic, includes metallic drop-coat procedure); manufacturer-hosted. Second refinish proxy alongside Autobase Plus; no public OEM-line basecoat TDS PDF found."
+   },
+   {
+    "type": "TDS",
+    "title": "Axalta Centari 600 basecoat lacquer TDS (27.08.2014, AUS) - solvent-borne clear-over-base for solid, metallic and pearl colours",
+    "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; third-party (Resene Automotive distributor) host. Commercial-vehicle/refinish solvent-borne basecoat used in clear-over-base systems; closer to production use than pure refinish but still not passenger-car OEM line."
+   },
+   {
+    "type": "brochure",
+    "title": "PPG Automotive OEM basecoats (solventborne, high-solids, waterborne, ANDARO) - product page",
+    "url": "https://www.ppg.com/en-US/autocoatings/solutions/basecoats",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "HTML page, not PDF. Only OEM-line (exact product class) solvent-borne basecoat description found from a major OEM supplier; no OEM basecoat SDS/TDS PDF is publicly indexed."
+   },
+   {
+    "type": "brochure",
+    "title": "BASF ColorSmart - high-solids solventborne OEM basecoat (product page)",
+    "url": "https://products.basf.com/global/en/ec/colorsmart.html",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "HTML page, not PDF. BASF OEM-line high-solids solvent-borne basecoat (primerless shortened process); same technical class as KR-ADM basecoats."
    }
   ],
   "equipment": [
@@ -1163,16 +1721,52 @@
     "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
     "verified": false,
     "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i",
+    "type": "datasheet",
+    "title": "EcoRP E043i 7-axis painting robot datasheet (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint Robot painting stations",
+    "type": "brochure",
+    "title": "Ecopaint Robot painting stations brochure",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-SSD / RB1000-SAD",
+    "type": "datasheet",
+    "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+    "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+    "verified": false,
+    "note": "official ABB library PDF; solvent-borne direct-charge bell"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-WSC",
+    "type": "datasheet",
+    "title": "RB1000-WSC high-flow atomizer (AB01R02)",
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "verified": false,
+    "note": "official ABB library PDF"
    }
   ],
-  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-407U ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only."
+  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-407U ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only. | round2_C evidence: uzavtosanoat.uz UzAuto Motors page lists 'Uz Dong Zhu Paint' among main UzAuto suppliers (https://uzavtosanoat.uz/en/company/ao-uzauto-motors); Daryo 2024-06-22 (https://daryo.uz/en/2024/06/22/uzbekistans-sama-sell50-stake-ofuz-dongju-paint-for19bn/) says JV founded 1995, makes car paints/sealants/body chemicals under 'Royal Paint', main plant in Asaka, buyer committed to keep products compliant with General Motors standards and OEM requirements; spot.uz 2022-08-26 (https://www.spot.uz/ru/2022/08/26/uzdongju/) on the stake tender. KCC: only a July 2025 cooperation agreement for a planned 335 t/yr automotive paint plant (https://invest.miit.uz/en/posts/the-investment-promotion-agency-and-kcc-corporation-signed-a-cooperation-agreement-on-an-automotive-paint-production-project) - too small/too recent to be the historic basecoat supplier. No PDF document from Uz-DongJu found (site uzdongju.uz per yellowpages.uz, not indexed). | round2_C: Web search budget ran out before Duerr EcoRP E043i / ABB RB1000 datasheet and Chevrolet brochure-PDF searches could run; no new equipment docs. No OEM-line solvent-borne basecoat SDS/TDS PDF from KCC, Noroo, BASF, Axalta, PPG or Kansai is publicly indexed (KCC technical search center https://www.kccworld.co.kr/eng/technical/searchCenter.do lists MSDS titles but no direct PDFs seen). Per-colour formula/colour-information PDFs from PPG/Axalta/BASF were not found for any code; only retailer HTML pages (paintscratch, drcolorchip, automotivetouchup)."
  },
  {
   "id": 19,
-  "manufacturer": "Most likely JV 'Uz-DongJu Paint Co.' (Asaka; UzAvtosanoat + Korean partner DongJu Industrial/KION International; technical partner YoungShin Chemicals) - unconfirmed; KCC Corporation is a plausible alternative (Korea's largest OEM paint maker; KCC signed a 2025 automotive paint plant agreement with Uzbekistan)",
-  "product_identified": "OEM solvent-borne basecoat, GM colour G7G Zeus Metallic 3 (Zeus Bronze), GM Korea-style material spec KR-ADM-670U (180 L drum), 2-coat-1-bake (basecoat + clearcoat) system",
+  "manufacturer": "Uz-DongJu Paint Co. JV (Asaka; brand 'Royal Paint'; DongJu Industrial (KR) 50% / state 50% until 2024 sale of state stake to Comfort Engineering Group) - most likely local supplier/finisher; actual basecoat technology/resin source (Korean partner, possibly KCC/Noroo) still unconfirmed",
+  "product_identified": "OEM solvent-borne basecoat (2C1B) in GM colour; plant-specific GM Korea-style spec (KR-ADM-xxx / KR-MC-710U)",
   "gm_color_code_check": "G7G = Zeus Metallic 3 / Zeus Bronze Metallic (WA441E) per drcolorchip.com; paintscratch also lists a different Zeus variant (WA615D/WA400E/GUI/G7B).",
-  "manufacturer_confidence": "low",
+  "manufacturer_confidence": "medium",
   "material_docs": [
    {
     "type": "SDS",
@@ -1191,6 +1785,42 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items."
+   },
+   {
+    "type": "TDS",
+    "title": "Lesonal Basecoat SB - Programmed System Technique (PST) TDS 09/12/2019 (AkzoNobel, solvent-borne basecoat)",
+    "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; not fetched. Refinish solvent-borne basecoat (solid/metallic, includes metallic drop-coat procedure); manufacturer-hosted. Second refinish proxy alongside Autobase Plus; no public OEM-line basecoat TDS PDF found."
+   },
+   {
+    "type": "TDS",
+    "title": "Axalta Centari 600 basecoat lacquer TDS (27.08.2014, AUS) - solvent-borne clear-over-base for solid, metallic and pearl colours",
+    "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; third-party (Resene Automotive distributor) host. Commercial-vehicle/refinish solvent-borne basecoat used in clear-over-base systems; closer to production use than pure refinish but still not passenger-car OEM line."
+   },
+   {
+    "type": "brochure",
+    "title": "PPG Automotive OEM basecoats (solventborne, high-solids, waterborne, ANDARO) - product page",
+    "url": "https://www.ppg.com/en-US/autocoatings/solutions/basecoats",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "HTML page, not PDF. Only OEM-line (exact product class) solvent-borne basecoat description found from a major OEM supplier; no OEM basecoat SDS/TDS PDF is publicly indexed."
+   },
+   {
+    "type": "brochure",
+    "title": "BASF ColorSmart - high-solids solventborne OEM basecoat (product page)",
+    "url": "https://products.basf.com/global/en/ec/colorsmart.html",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "HTML page, not PDF. BASF OEM-line high-solids solvent-borne basecoat (primerless shortened process); same technical class as KR-ADM basecoats."
    }
   ],
   "equipment": [
@@ -1309,16 +1939,52 @@
     "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
     "verified": false,
     "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i",
+    "type": "datasheet",
+    "title": "EcoRP E043i 7-axis painting robot datasheet (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint Robot painting stations",
+    "type": "brochure",
+    "title": "Ecopaint Robot painting stations brochure",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-SSD / RB1000-SAD",
+    "type": "datasheet",
+    "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+    "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+    "verified": false,
+    "note": "official ABB library PDF; solvent-borne direct-charge bell"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-WSC",
+    "type": "datasheet",
+    "title": "RB1000-WSC high-flow atomizer (AB01R02)",
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "verified": false,
+    "note": "official ABB library PDF"
    }
   ],
-  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-670U ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only."
+  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-670U ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only. | round2_C evidence: uzavtosanoat.uz UzAuto Motors page lists 'Uz Dong Zhu Paint' among main UzAuto suppliers (https://uzavtosanoat.uz/en/company/ao-uzauto-motors); Daryo 2024-06-22 (https://daryo.uz/en/2024/06/22/uzbekistans-sama-sell50-stake-ofuz-dongju-paint-for19bn/) says JV founded 1995, makes car paints/sealants/body chemicals under 'Royal Paint', main plant in Asaka, buyer committed to keep products compliant with General Motors standards and OEM requirements; spot.uz 2022-08-26 (https://www.spot.uz/ru/2022/08/26/uzdongju/) on the stake tender. KCC: only a July 2025 cooperation agreement for a planned 335 t/yr automotive paint plant (https://invest.miit.uz/en/posts/the-investment-promotion-agency-and-kcc-corporation-signed-a-cooperation-agreement-on-an-automotive-paint-production-project) - too small/too recent to be the historic basecoat supplier. No PDF document from Uz-DongJu found (site uzdongju.uz per yellowpages.uz, not indexed). | round2_C: Web search budget ran out before Duerr EcoRP E043i / ABB RB1000 datasheet and Chevrolet brochure-PDF searches could run; no new equipment docs. No OEM-line solvent-borne basecoat SDS/TDS PDF from KCC, Noroo, BASF, Axalta, PPG or Kansai is publicly indexed (KCC technical search center https://www.kccworld.co.kr/eng/technical/searchCenter.do lists MSDS titles but no direct PDFs seen). Per-colour formula/colour-information PDFs from PPG/Axalta/BASF were not found for any code; only retailer HTML pages (paintscratch, drcolorchip, automotivetouchup). ACDelco SDS for 19367462 'Zeus Metallic-1' touch-up exists in sds.fmpco.com repository (search snippet) but its exact details URL could not be identified - not reported."
  },
  {
   "id": 20,
-  "manufacturer": "Most likely JV 'Uz-DongJu Paint Co.' (Asaka; UzAvtosanoat + Korean partner DongJu Industrial/KION International; technical partner YoungShin Chemicals) - unconfirmed; KCC Corporation is a plausible alternative (Korea's largest OEM paint maker; KCC signed a 2025 automotive paint plant agreement with Uzbekistan)",
-  "product_identified": "GM colour 'Some Kinda Blue' (GM code GAO / WA619D); source label GZ8",
+  "manufacturer": "Uz-DongJu Paint Co. JV (Asaka; brand 'Royal Paint'; DongJu Industrial (KR) 50% / state 50% until 2024 sale of state stake to Comfort Engineering Group) - most likely local supplier/finisher; actual basecoat technology/resin source (Korean partner, possibly KCC/Noroo) still unconfirmed",
+  "product_identified": "OEM solvent-borne basecoat (2C1B) in GM colour; plant-specific GM Korea-style spec (KR-ADM-xxx / KR-MC-710U)",
   "gm_color_code_check": "Name confirmed: US code for Some Kinda Blue is GA0/'GAO' (WA619D) per paintscratch.com. GZ8 not found publicly; likely regional GM Korea/UzAuto RPO variant.",
-  "manufacturer_confidence": "low",
+  "manufacturer_confidence": "medium",
   "material_docs": [
    {
     "type": "SDS",
@@ -1337,6 +2003,42 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items."
+   },
+   {
+    "type": "TDS",
+    "title": "Lesonal Basecoat SB - Programmed System Technique (PST) TDS 09/12/2019 (AkzoNobel, solvent-borne basecoat)",
+    "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; not fetched. Refinish solvent-borne basecoat (solid/metallic, includes metallic drop-coat procedure); manufacturer-hosted. Second refinish proxy alongside Autobase Plus; no public OEM-line basecoat TDS PDF found."
+   },
+   {
+    "type": "TDS",
+    "title": "Axalta Centari 600 basecoat lacquer TDS (27.08.2014, AUS) - solvent-borne clear-over-base for solid, metallic and pearl colours",
+    "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; third-party (Resene Automotive distributor) host. Commercial-vehicle/refinish solvent-borne basecoat used in clear-over-base systems; closer to production use than pure refinish but still not passenger-car OEM line."
+   },
+   {
+    "type": "brochure",
+    "title": "PPG Automotive OEM basecoats (solventborne, high-solids, waterborne, ANDARO) - product page",
+    "url": "https://www.ppg.com/en-US/autocoatings/solutions/basecoats",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "HTML page, not PDF. Only OEM-line (exact product class) solvent-borne basecoat description found from a major OEM supplier; no OEM basecoat SDS/TDS PDF is publicly indexed."
+   },
+   {
+    "type": "brochure",
+    "title": "BASF ColorSmart - high-solids solventborne OEM basecoat (product page)",
+    "url": "https://products.basf.com/global/en/ec/colorsmart.html",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "HTML page, not PDF. BASF OEM-line high-solids solvent-borne basecoat (primerless shortened process); same technical class as KR-ADM basecoats."
    }
   ],
   "equipment": [
@@ -1455,16 +2157,52 @@
     "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
     "verified": false,
     "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i",
+    "type": "datasheet",
+    "title": "EcoRP E043i 7-axis painting robot datasheet (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint Robot painting stations",
+    "type": "brochure",
+    "title": "Ecopaint Robot painting stations brochure",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-SSD / RB1000-SAD",
+    "type": "datasheet",
+    "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+    "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+    "verified": false,
+    "note": "official ABB library PDF; solvent-borne direct-charge bell"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-WSC",
+    "type": "datasheet",
+    "title": "RB1000-WSC high-flow atomizer (AB01R02)",
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "verified": false,
+    "note": "official ABB library PDF"
    }
   ],
-  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-512U ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only."
+  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-512U ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only. | round2_C evidence: uzavtosanoat.uz UzAuto Motors page lists 'Uz Dong Zhu Paint' among main UzAuto suppliers (https://uzavtosanoat.uz/en/company/ao-uzauto-motors); Daryo 2024-06-22 (https://daryo.uz/en/2024/06/22/uzbekistans-sama-sell50-stake-ofuz-dongju-paint-for19bn/) says JV founded 1995, makes car paints/sealants/body chemicals under 'Royal Paint', main plant in Asaka, buyer committed to keep products compliant with General Motors standards and OEM requirements; spot.uz 2022-08-26 (https://www.spot.uz/ru/2022/08/26/uzdongju/) on the stake tender. KCC: only a July 2025 cooperation agreement for a planned 335 t/yr automotive paint plant (https://invest.miit.uz/en/posts/the-investment-promotion-agency-and-kcc-corporation-signed-a-cooperation-agreement-on-an-automotive-paint-production-project) - too small/too recent to be the historic basecoat supplier. No PDF document from Uz-DongJu found (site uzdongju.uz per yellowpages.uz, not indexed). | round2_C: Web search budget ran out before Duerr EcoRP E043i / ABB RB1000 datasheet and Chevrolet brochure-PDF searches could run; no new equipment docs. No OEM-line solvent-borne basecoat SDS/TDS PDF from KCC, Noroo, BASF, Axalta, PPG or Kansai is publicly indexed (KCC technical search center https://www.kccworld.co.kr/eng/technical/searchCenter.do lists MSDS titles but no direct PDFs seen). Per-colour formula/colour-information PDFs from PPG/Axalta/BASF were not found for any code; only retailer HTML pages (paintscratch, drcolorchip, automotivetouchup)."
  },
  {
   "id": 21,
-  "manufacturer": "Most likely JV 'Uz-DongJu Paint Co.' (Asaka; UzAvtosanoat + Korean partner DongJu Industrial/KION International; technical partner YoungShin Chemicals) - unconfirmed; KCC Corporation is a plausible alternative (Korea's largest OEM paint maker; KCC signed a 2025 automotive paint plant agreement with Uzbekistan)",
-  "product_identified": "OEM solvent-borne basecoat, GM colour G5J Darkmoon Blue Metallic 3, GM Korea-style material spec KR-ADM-513U (180 L drum), 2-coat-1-bake (basecoat + clearcoat) system",
+  "manufacturer": "Uz-DongJu Paint Co. JV (Asaka; brand 'Royal Paint'; DongJu Industrial (KR) 50% / state 50% until 2024 sale of state stake to Comfort Engineering Group) - most likely local supplier/finisher; actual basecoat technology/resin source (Korean partner, possibly KCC/Noroo) still unconfirmed",
+  "product_identified": "OEM solvent-borne basecoat (2C1B) in GM colour; plant-specific GM Korea-style spec (KR-ADM-xxx / KR-MC-710U)",
   "gm_color_code_check": "G5J = Darkmoon Blue Metallic 3 (WA434E) confirmed by drcolorchip.com.",
-  "manufacturer_confidence": "low",
+  "manufacturer_confidence": "medium",
   "material_docs": [
    {
     "type": "SDS",
@@ -1483,6 +2221,42 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items."
+   },
+   {
+    "type": "TDS",
+    "title": "Lesonal Basecoat SB - Programmed System Technique (PST) TDS 09/12/2019 (AkzoNobel, solvent-borne basecoat)",
+    "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; not fetched. Refinish solvent-borne basecoat (solid/metallic, includes metallic drop-coat procedure); manufacturer-hosted. Second refinish proxy alongside Autobase Plus; no public OEM-line basecoat TDS PDF found."
+   },
+   {
+    "type": "TDS",
+    "title": "Axalta Centari 600 basecoat lacquer TDS (27.08.2014, AUS) - solvent-borne clear-over-base for solid, metallic and pearl colours",
+    "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; third-party (Resene Automotive distributor) host. Commercial-vehicle/refinish solvent-borne basecoat used in clear-over-base systems; closer to production use than pure refinish but still not passenger-car OEM line."
+   },
+   {
+    "type": "brochure",
+    "title": "PPG Automotive OEM basecoats (solventborne, high-solids, waterborne, ANDARO) - product page",
+    "url": "https://www.ppg.com/en-US/autocoatings/solutions/basecoats",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "HTML page, not PDF. Only OEM-line (exact product class) solvent-borne basecoat description found from a major OEM supplier; no OEM basecoat SDS/TDS PDF is publicly indexed."
+   },
+   {
+    "type": "brochure",
+    "title": "BASF ColorSmart - high-solids solventborne OEM basecoat (product page)",
+    "url": "https://products.basf.com/global/en/ec/colorsmart.html",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "HTML page, not PDF. BASF OEM-line high-solids solvent-borne basecoat (primerless shortened process); same technical class as KR-ADM basecoats."
    }
   ],
   "equipment": [
@@ -1601,16 +2375,52 @@
     "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
     "verified": false,
     "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i",
+    "type": "datasheet",
+    "title": "EcoRP E043i 7-axis painting robot datasheet (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint Robot painting stations",
+    "type": "brochure",
+    "title": "Ecopaint Robot painting stations brochure",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-SSD / RB1000-SAD",
+    "type": "datasheet",
+    "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+    "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+    "verified": false,
+    "note": "official ABB library PDF; solvent-borne direct-charge bell"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-WSC",
+    "type": "datasheet",
+    "title": "RB1000-WSC high-flow atomizer (AB01R02)",
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "verified": false,
+    "note": "official ABB library PDF"
    }
   ],
-  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-513U ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only."
+  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-513U ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only. | round2_C evidence: uzavtosanoat.uz UzAuto Motors page lists 'Uz Dong Zhu Paint' among main UzAuto suppliers (https://uzavtosanoat.uz/en/company/ao-uzauto-motors); Daryo 2024-06-22 (https://daryo.uz/en/2024/06/22/uzbekistans-sama-sell50-stake-ofuz-dongju-paint-for19bn/) says JV founded 1995, makes car paints/sealants/body chemicals under 'Royal Paint', main plant in Asaka, buyer committed to keep products compliant with General Motors standards and OEM requirements; spot.uz 2022-08-26 (https://www.spot.uz/ru/2022/08/26/uzdongju/) on the stake tender. KCC: only a July 2025 cooperation agreement for a planned 335 t/yr automotive paint plant (https://invest.miit.uz/en/posts/the-investment-promotion-agency-and-kcc-corporation-signed-a-cooperation-agreement-on-an-automotive-paint-production-project) - too small/too recent to be the historic basecoat supplier. No PDF document from Uz-DongJu found (site uzdongju.uz per yellowpages.uz, not indexed). | round2_C: Web search budget ran out before Duerr EcoRP E043i / ABB RB1000 datasheet and Chevrolet brochure-PDF searches could run; no new equipment docs. No OEM-line solvent-borne basecoat SDS/TDS PDF from KCC, Noroo, BASF, Axalta, PPG or Kansai is publicly indexed (KCC technical search center https://www.kccworld.co.kr/eng/technical/searchCenter.do lists MSDS titles but no direct PDFs seen). Per-colour formula/colour-information PDFs from PPG/Axalta/BASF were not found for any code; only retailer HTML pages (paintscratch, drcolorchip, automotivetouchup)."
  },
  {
   "id": 22,
-  "manufacturer": "Most likely JV 'Uz-DongJu Paint Co.' (Asaka; UzAvtosanoat + Korean partner DongJu Industrial/KION International; technical partner YoungShin Chemicals) - unconfirmed; KCC Corporation is a plausible alternative (Korea's largest OEM paint maker; KCC signed a 2025 automotive paint plant agreement with Uzbekistan)",
-  "product_identified": "OEM solvent-borne basecoat, GM colour G4V Pow Zinga Metallic 2/3, GM Korea-style material spec KR-ADM-580U (180 L drum), 2-coat-1-bake (basecoat + clearcoat) system",
+  "manufacturer": "Uz-DongJu Paint Co. JV (Asaka; brand 'Royal Paint'; DongJu Industrial (KR) 50% / state 50% until 2024 sale of state stake to Comfort Engineering Group) - most likely local supplier/finisher; actual basecoat technology/resin source (Korean partner, possibly KCC/Noroo) still unconfirmed",
+  "product_identified": "OEM solvent-borne basecoat (2C1B) in GM colour; plant-specific GM Korea-style spec (KR-ADM-xxx / KR-MC-710U)",
   "gm_color_code_check": "G4V listed as Pow Zinga Metallic on 2024 Chevrolet Tracker/Trailblazer (GM Korea-built) colour charts at automotivetouchup.com; US variant is WA327E/GLT. Name and code consistent.",
-  "manufacturer_confidence": "low",
+  "manufacturer_confidence": "medium",
   "material_docs": [
    {
     "type": "SDS",
@@ -1629,6 +2439,42 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "Seen in search results; not fetched (WebFetch network-blocked). Refinish basecoat duplicating OEM solid/metallic/pearl finishes; NOT the plant's OEM line product. Shared by all group C items."
+   },
+   {
+    "type": "TDS",
+    "title": "Lesonal Basecoat SB - Programmed System Technique (PST) TDS 09/12/2019 (AkzoNobel, solvent-borne basecoat)",
+    "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; not fetched. Refinish solvent-borne basecoat (solid/metallic, includes metallic drop-coat procedure); manufacturer-hosted. Second refinish proxy alongside Autobase Plus; no public OEM-line basecoat TDS PDF found."
+   },
+   {
+    "type": "TDS",
+    "title": "Axalta Centari 600 basecoat lacquer TDS (27.08.2014, AUS) - solvent-borne clear-over-base for solid, metallic and pearl colours",
+    "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Seen in search results; third-party (Resene Automotive distributor) host. Commercial-vehicle/refinish solvent-borne basecoat used in clear-over-base systems; closer to production use than pure refinish but still not passenger-car OEM line."
+   },
+   {
+    "type": "brochure",
+    "title": "PPG Automotive OEM basecoats (solventborne, high-solids, waterborne, ANDARO) - product page",
+    "url": "https://www.ppg.com/en-US/autocoatings/solutions/basecoats",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "HTML page, not PDF. Only OEM-line (exact product class) solvent-borne basecoat description found from a major OEM supplier; no OEM basecoat SDS/TDS PDF is publicly indexed."
+   },
+   {
+    "type": "brochure",
+    "title": "BASF ColorSmart - high-solids solventborne OEM basecoat (product page)",
+    "url": "https://products.basf.com/global/en/ec/colorsmart.html",
+    "language": "EN",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "HTML page, not PDF. BASF OEM-line high-solids solvent-borne basecoat (primerless shortened process); same technical class as KR-ADM basecoats."
    }
   ],
   "equipment": [
@@ -1747,8 +2593,44 @@
     "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
     "verified": false,
     "note": "From search results; not fetched."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "EcoRP E043i",
+    "type": "datasheet",
+    "title": "EcoRP E043i 7-axis painting robot datasheet (EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint Robot painting stations",
+    "type": "brochure",
+    "title": "Ecopaint Robot painting stations brochure",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-SSD / RB1000-SAD",
+    "type": "datasheet",
+    "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+    "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+    "verified": false,
+    "note": "official ABB library PDF; solvent-borne direct-charge bell"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-WSC",
+    "type": "datasheet",
+    "title": "RB1000-WSC high-flow atomizer (AB01R02)",
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "verified": false,
+    "note": "official ABB library PDF"
    }
   ],
-  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-580U ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only."
+  "notes": "No public per-colour OEM TDS/SDS found for any GM colour or for spec KR-ADM-580U ('KR-ADM-/KR-MC-' spec family not indexed publicly; likely GM Korea/GMDAT material approval numbers). Supplier evidence: UzAuto supplier list (uzavtosanoat.uz) names 'Uz Dong Zhu Paint'; Uz-DongJu Paint (uzdongju.uz, founded 1995/1999 in Asaka, 2500 t/yr auto paints, Korean tech partner YoungShin Chemicals). KCC SDS format example found (KCC_MSDS_K040_eng.pdf, a waterborne refinish reducer - not a basecoat, not listed). Material docs are generic refinish proxies, shared across all 12 group C items. All WebFetch attempts failed: hosts durr.com, library.e.abb.com, uzdongju.uz, daryo.uz, spot.uz not in the session's allowed network, so nothing is verified. Equipment is representative only. | round2_C evidence: uzavtosanoat.uz UzAuto Motors page lists 'Uz Dong Zhu Paint' among main UzAuto suppliers (https://uzavtosanoat.uz/en/company/ao-uzauto-motors); Daryo 2024-06-22 (https://daryo.uz/en/2024/06/22/uzbekistans-sama-sell50-stake-ofuz-dongju-paint-for19bn/) says JV founded 1995, makes car paints/sealants/body chemicals under 'Royal Paint', main plant in Asaka, buyer committed to keep products compliant with General Motors standards and OEM requirements; spot.uz 2022-08-26 (https://www.spot.uz/ru/2022/08/26/uzdongju/) on the stake tender. KCC: only a July 2025 cooperation agreement for a planned 335 t/yr automotive paint plant (https://invest.miit.uz/en/posts/the-investment-promotion-agency-and-kcc-corporation-signed-a-cooperation-agreement-on-an-automotive-paint-production-project) - too small/too recent to be the historic basecoat supplier. No PDF document from Uz-DongJu found (site uzdongju.uz per yellowpages.uz, not indexed). | round2_C: Web search budget ran out before Duerr EcoRP E043i / ABB RB1000 datasheet and Chevrolet brochure-PDF searches could run; no new equipment docs. No OEM-line solvent-borne basecoat SDS/TDS PDF from KCC, Noroo, BASF, Axalta, PPG or Kansai is publicly indexed (KCC technical search center https://www.kccworld.co.kr/eng/technical/searchCenter.do lists MSDS titles but no direct PDFs seen). Per-colour formula/colour-information PDFs from PPG/Axalta/BASF were not found for any code; only retailer HTML pages (paintscratch, drcolorchip, automotivetouchup)."
  }
 ]

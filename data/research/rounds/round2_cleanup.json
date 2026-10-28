@@ -1,0 +1,246 @@
+[
+ {
+  "id": 36,
+  "remove_urls": [
+   {
+    "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/5277927",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   }
+  ]
+ },
+ {
+  "id": 38,
+  "remove_urls": [
+   {
+    "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/6641665",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/6695917",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   }
+  ]
+ },
+ {
+  "id": 39,
+  "remove_urls": [
+   {
+    "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/5277927",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/7390533",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   }
+  ]
+ },
+ {
+  "id": 27,
+  "remove_urls": [
+   {
+    "url": "https://www.durr.com/fileadmin/somac-filling.de/Company/KA014_QW_V1.0_Instructions_for_the_Calibration_of_Process_Measurement_Equipment.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Endress_Promass80Betriebsanleitung_deutsch.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Speck_1096_0808_operating_instructions_EN_series_V_VG.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_IFM_LK8123_704047_BA.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/06_Media/01_News/2015/Dateien/duerr-somac-10-years-stollberg-2015-en.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   }
+  ]
+ },
+ {
+  "id": 28,
+  "remove_urls": [
+   {
+    "url": "https://www.durr.com/fileadmin/somac-filling.de/Company/KA014_QW_V1.0_Instructions_for_the_Calibration_of_Process_Measurement_Equipment.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Endress_Promass80Betriebsanleitung_deutsch.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Speck_1096_0808_operating_instructions_EN_series_V_VG.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_IFM_LK8123_704047_BA.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/06_Media/01_News/2015/Dateien/duerr-somac-10-years-stollberg-2015-en.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   }
+  ]
+ },
+ {
+  "id": 29,
+  "remove_urls": [
+   {
+    "url": "https://www.durr.com/fileadmin/somac-filling.de/Company/KA014_QW_V1.0_Instructions_for_the_Calibration_of_Process_Measurement_Equipment.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Endress_Promass80Betriebsanleitung_deutsch.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Speck_1096_0808_operating_instructions_EN_series_V_VG.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_IFM_LK8123_704047_BA.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/06_Media/01_News/2015/Dateien/duerr-somac-10-years-stollberg-2015-en.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   }
+  ]
+ },
+ {
+  "id": 30,
+  "remove_urls": [
+   {
+    "url": "https://www.durr.com/fileadmin/somac-filling.de/Company/KA014_QW_V1.0_Instructions_for_the_Calibration_of_Process_Measurement_Equipment.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Endress_Promass80Betriebsanleitung_deutsch.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Speck_1096_0808_operating_instructions_EN_series_V_VG.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_IFM_LK8123_704047_BA.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/06_Media/01_News/2015/Dateien/duerr-somac-10-years-stollberg-2015-en.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   }
+  ]
+ },
+ {
+  "id": 31,
+  "remove_urls": [
+   {
+    "url": "https://www.durr.com/fileadmin/somac-filling.de/Company/KA014_QW_V1.0_Instructions_for_the_Calibration_of_Process_Measurement_Equipment.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Endress_Promass80Betriebsanleitung_deutsch.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Speck_1096_0808_operating_instructions_EN_series_V_VG.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_IFM_LK8123_704047_BA.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/06_Media/01_News/2015/Dateien/duerr-somac-10-years-stollberg-2015-en.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   }
+  ]
+ },
+ {
+  "id": 32,
+  "remove_urls": [
+   {
+    "url": "https://www.durr.com/fileadmin/somac-filling.de/Company/KA014_QW_V1.0_Instructions_for_the_Calibration_of_Process_Measurement_Equipment.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Endress_Promass80Betriebsanleitung_deutsch.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Speck_1096_0808_operating_instructions_EN_series_V_VG.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_IFM_LK8123_704047_BA.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/06_Media/01_News/2015/Dateien/duerr-somac-10-years-stollberg-2015-en.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   }
+  ]
+ },
+ {
+  "id": 33,
+  "remove_urls": [
+   {
+    "url": "https://www.durr.com/fileadmin/somac-filling.de/Company/KA014_QW_V1.0_Instructions_for_the_Calibration_of_Process_Measurement_Equipment.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Endress_Promass80Betriebsanleitung_deutsch.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Speck_1096_0808_operating_instructions_EN_series_V_VG.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_IFM_LK8123_704047_BA.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/06_Media/01_News/2015/Dateien/duerr-somac-10-years-stollberg-2015-en.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   }
+  ]
+ },
+ {
+  "id": 34,
+  "remove_urls": [
+   {
+    "url": "https://www.durr.com/fileadmin/somac-filling.de/Company/KA014_QW_V1.0_Instructions_for_the_Calibration_of_Process_Measurement_Equipment.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   }
+  ]
+ },
+ {
+  "id": 35,
+  "remove_urls": [
+   {
+    "url": "https://www.durr.com/fileadmin/somac-filling.de/Company/KA014_QW_V1.0_Instructions_for_the_Calibration_of_Process_Measurement_Equipment.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Endress_Promass80Betriebsanleitung_deutsch.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Speck_1096_0808_operating_instructions_EN_series_V_VG.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_IFM_LK8123_704047_BA.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   },
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/06_Media/01_News/2015/Dateien/duerr-somac-10-years-stollberg-2015-en.pdf",
+    "reason": "not an equipment passport (calibration/QA doc, press release, sub-component manual or patent)"
+   }
+  ]
+ }
+]

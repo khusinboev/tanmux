@@ -1,0 +1,925 @@
+[
+ {
+  "id": 27,
+  "manufacturer_update": {
+   "manufacturer": "Kukdong Jeyen / Kukdong Jeyeon Co., Ltd. (극동제연, Pyeongtaek, Korea)",
+   "product_identified": "CROWN Brake Fluid DOT-4+ (DOT-4 Plus), SAE J1704 / FMVSS 116 DOT 4 / ISO 4925 (Class 6 per TradeKorea listing)",
+   "manufacturer_confidence": "high",
+   "evidence": "Chemknock (Korean export portal) lists 'Crown brake fluid DOT-4+' by Kukdong Jeyen (https://chemknock.com/view.do?dvsn=pdt&idx=37272&no=194&pgMode=view); TradeKorea lists Crown DOT-3/DOT-4/DOT-4+ (https://www.tradekorea.com/product/detail/P664497/High-quality-Brake-Fluid-DOT-3---DOT-4---DOT-4+.html); Danawa lists '극동제연 크라운 브레이크액'. Spec field 'DOT-4+CROWN' matches the product name exactly."
+  },
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "DASCO DOT-4 brake fluid MSDS (Korean, 물질안전보건자료, 2022)",
+    "url": "https://www.dascochem.co.kr/docs/dasco-bf-dot4-msds.pdf",
+    "language": "ko",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Korean-format MSDS of a Korean DOT 4 glycol-ether brake fluid (Dong-A special chemical); closest Korean-language equivalent; not the CROWN product. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "type": "SDS",
+    "title": "Recochem Brake Fluid DOT4 Safety Data Sheet",
+    "url": "https://christensenusa.com/wp-content/uploads/2026/03/Recochem-Brake-Fluid-DOT4-5-4-2017.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Generic DOT 4 glycol ether/borate ester SDS. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "type": "brochure",
+    "title": "Chemknock: Crown brake fluid DOT-4+ (Kukdong Jeyen) product page",
+    "url": "https://chemknock.com/view.do?dvsn=pdt&idx=37272&no=194&pgMode=view",
+    "language": "en",
+    "exact_or_equivalent": "exact",
+    "verified": false,
+    "note": "HTML product page (not PDF) - identifies exact product and manufacturer; use to request MSDS/TDS. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   }
+  ],
+  "add_equipment": [
+   {
+    "vendor": "Twin Engineers (India)",
+    "model": "Combined fluid filling machine (brake/clutch, coolant, A/C, oils)",
+    "role": "Alternative-vendor line filling equipment of same class as Dürr Somac",
+    "rationale": "Only alternative-vendor assembly-line fill brochure found as direct PDF; no evidence of use at UzAuto.",
+    "confidence": "low"
+   }
+  ],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr (Dürr Somac GmbH)",
+    "model": "Somac filling stations (process measurement components)",
+    "type": "manual",
+    "title": "Dürr Somac KA014/QW V1.0 - Instructions for the Calibration of Process Measurement Equipment",
+    "url": "https://www.durr.com/fileadmin/somac-filling.de/Company/KA014_QW_V1.0_Instructions_for_the_Calibration_of_Process_Measurement_Equipment.pdf",
+    "verified": false,
+    "note": "Dürr Somac-hosted technical instruction for calibrating flow/pressure/vacuum measurement equipment of its filling stations; applies to all Somac fill media. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH) / Endress+Hauser",
+    "model": "Promass 80 Coriolis flowmeter (component used in Somac stations)",
+    "type": "manual",
+    "title": "Endress+Hauser PROline Promass 80 Coriolis-Massedurchfluss-Messsystem - Betriebsanleitung (DE), hosted in Dürr Somac public download center",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Endress_Promass80Betriebsanleitung_deutsch.pdf",
+    "verified": false,
+    "note": "Component manual (mass-flow metering) from Dürr Somac public download center; German. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH) / Speck Pumpen",
+    "model": "Speck V / VG series liquid-ring vacuum pump (component used in Somac stations)",
+    "type": "manual",
+    "title": "Speck Operating Instructions V and VG Series V-6/30/55/95/130/155/255/330/430 (EN), hosted in Dürr Somac public download center",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Speck_1096_0808_operating_instructions_EN_series_V_VG.pdf",
+    "verified": false,
+    "note": "Vacuum pump component manual for evacuation step (brake, coolant, A/C). URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH) / ifm",
+    "model": "ifm LK8123 level sensor (component used in Somac stations)",
+    "type": "manual",
+    "title": "ifm LK8123 Bedienungsanleitung / Operating instructions, hosted in Dürr Somac public download center",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_IFM_LK8123_704047_BA.pdf",
+    "verified": false,
+    "note": "Tank level sensor component manual. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH)",
+    "model": "Dürr Somac (company/filling portfolio)",
+    "type": "brochure",
+    "title": "Dürr press release: 10 years Dürr Somac Stollberg (2015, EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/06_Media/01_News/2015/Dateien/duerr-somac-10-years-stollberg-2015-en.pdf",
+    "verified": false,
+    "note": "States Somac stations fill up to 12 fluids/gases in final assembly; general background, not datasheet. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Twin Engineers (India)",
+    "model": "TCF/powertrain fluid filling machines (brake & clutch, coolant, A/C, oil)",
+    "type": "brochure",
+    "title": "Twin Engineers - Fluid Filling Machines for Automotives (brochure)",
+    "url": "https://www.twinengineers.com/wp-content/uploads/2024/07/Oil-Filling-Brochure.pdf",
+    "verified": false,
+    "note": "Alternative-vendor brochure covering vacuum fill, leak test, level/volume fill, degassing; brake/clutch, coolant, A/C sections. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   }
+  ],
+  "remove_urls": [],
+  "notes": "Exact CROWN DOT-4+ MSDS PDF not found publicly; KOSHA MSDS (msds.kosha.or.kr) search by '극동제연' recommended, or request from Kukdong Jeyen. KD Finechem (kdfinechem.com, product page with MSDS menu, HTML) also sells DOT-4 - possible affiliate, unconfirmed. Web search budget ran out before more Dürr/brake-fill vendor searches could be done."
+ },
+ {
+  "id": 28,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "ACDelco (GM Holden) DEXRON VI Premium Full Synthetic Transmission Fluid - SDS (Infosafe LQ9RG, 2019)",
+    "url": "https://acdelco.com.au/gm-b2cau/cms/pdf/SDS/LQ9RG_DEXRON%20VI%20PREMIUM%20FULL%20SYNTHETIC%20TRANSMISSION%20FLUID.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "GM-hosted (ACDelco Australia) SDS for a GM-genuine Dexron-VI ATF; manufacturer-hosted, closest to GM factory fluid. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "type": "TDS",
+    "title": "ACDelco Dexron VI Premium Full Synthetic ATF - sell sheet (ACDelco Australia)",
+    "url": "https://acdelco.com.au/gm-b2cau/cms/pdf/Flyers/ACDelco%20Dexron%20VI%20Premium%20Full%20Synthetic%20ATF%20Sell%20Sheet.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "GM-hosted product flyer (fill-for-life, Holden). URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "type": "SDS",
+    "title": "GM DEXRON VI ATF Material Safety Data Sheet 000003000398 v2.0 (GM P/N 88861046)",
+    "url": "https://seattleautomotive.com/files/SDS/88861046%20dexron%20vi%20atf.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "SDS of GM-genuine Dexron VI ATF (P/N 88861046, Petro-Canada-made per document number style); dealer-hosted. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "type": "SDS",
+    "title": "DEXRON VI ATF SDS (EC 1907/2006)",
+    "url": "https://uploads-ssl.webflow.com/5d513e6ea4a37093208cabb2/5e958119bb64f4d142e866cf_DEXRON%20%5ER%5E%20VI%20ATF.PDF",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "EU-format SDS of a licensed DEXRON VI ATF. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "type": "SDS",
+    "title": "Petro-Canada DEXRON VI ATF SDS 000003001354 v4.0",
+    "url": "https://evosupplygroupcatalog.sfo3.digitaloceanspaces.com/brands/files/Petro%20Canada/DEX6C16-sds.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Petro-Canada is a known GM Dexron-VI supplier. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   }
+  ],
+  "add_equipment": [
+   {
+    "vendor": "Twin Engineers (India)",
+    "model": "Combined fluid filling machine (brake/clutch, coolant, A/C, oils)",
+    "role": "Alternative-vendor line filling equipment of same class as Dürr Somac",
+    "rationale": "Only alternative-vendor assembly-line fill brochure found as direct PDF; no evidence of use at UzAuto.",
+    "confidence": "low"
+   }
+  ],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr (Dürr Somac GmbH)",
+    "model": "Somac filling stations (process measurement components)",
+    "type": "manual",
+    "title": "Dürr Somac KA014/QW V1.0 - Instructions for the Calibration of Process Measurement Equipment",
+    "url": "https://www.durr.com/fileadmin/somac-filling.de/Company/KA014_QW_V1.0_Instructions_for_the_Calibration_of_Process_Measurement_Equipment.pdf",
+    "verified": false,
+    "note": "Dürr Somac-hosted technical instruction for calibrating flow/pressure/vacuum measurement equipment of its filling stations; applies to all Somac fill media. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH) / Endress+Hauser",
+    "model": "Promass 80 Coriolis flowmeter (component used in Somac stations)",
+    "type": "manual",
+    "title": "Endress+Hauser PROline Promass 80 Coriolis-Massedurchfluss-Messsystem - Betriebsanleitung (DE), hosted in Dürr Somac public download center",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Endress_Promass80Betriebsanleitung_deutsch.pdf",
+    "verified": false,
+    "note": "Component manual (mass-flow metering) from Dürr Somac public download center; German. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH) / Speck Pumpen",
+    "model": "Speck V / VG series liquid-ring vacuum pump (component used in Somac stations)",
+    "type": "manual",
+    "title": "Speck Operating Instructions V and VG Series V-6/30/55/95/130/155/255/330/430 (EN), hosted in Dürr Somac public download center",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Speck_1096_0808_operating_instructions_EN_series_V_VG.pdf",
+    "verified": false,
+    "note": "Vacuum pump component manual for evacuation step (brake, coolant, A/C). URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH) / ifm",
+    "model": "ifm LK8123 level sensor (component used in Somac stations)",
+    "type": "manual",
+    "title": "ifm LK8123 Bedienungsanleitung / Operating instructions, hosted in Dürr Somac public download center",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_IFM_LK8123_704047_BA.pdf",
+    "verified": false,
+    "note": "Tank level sensor component manual. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH)",
+    "model": "Dürr Somac (company/filling portfolio)",
+    "type": "brochure",
+    "title": "Dürr press release: 10 years Dürr Somac Stollberg (2015, EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/06_Media/01_News/2015/Dateien/duerr-somac-10-years-stollberg-2015-en.pdf",
+    "verified": false,
+    "note": "States Somac stations fill up to 12 fluids/gases in final assembly; general background, not datasheet. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Twin Engineers (India)",
+    "model": "TCF/powertrain fluid filling machines (brake & clutch, coolant, A/C, oil)",
+    "type": "brochure",
+    "title": "Twin Engineers - Fluid Filling Machines for Automotives (brochure)",
+    "url": "https://www.twinengineers.com/wp-content/uploads/2024/07/Oil-Filling-Brochure.pdf",
+    "verified": false,
+    "note": "Alternative-vendor brochure covering vacuum fill, leak test, level/volume fill, degassing; brake/clutch, coolant, A/C sections. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   }
+  ],
+  "remove_urls": [],
+  "notes": "Dexron-VI (power steering). GM-hosted SDS found (ACDelco Australia). No SDS found for GM 19355342/88865601 specifically; sdsmanager.com hosts ACDelco Dexron-VI ATF (ExxonMobil, rev 2020-10-20) as HTML page: https://sdsmanager.com/safety-data-sheet/exxon-mobil-corporation-acdelco-dexron-vi-atf-en/. Actual blender for UzAuto unknown."
+ },
+ {
+  "id": 29,
+  "manufacturer_update": {
+   "manufacturer": "Tosol-Sintez (OOO Tosol-Sintez-Invest), Dzerzhinsk, Russia - FELIX brand",
+   "product_identified": "Most likely FELIX CARBOX G12+ red carboxylate (OAT) concentrate supplied as 'DX-COOL concentrate red' (no product literally named DX-COOL found)",
+   "manufacturer_confidence": "medium",
+   "evidence": "FELIX Carbox G12+ is Tosol-Sintez's red OAT carboxylate coolant, sold in Uzbekistan incl. 220 kg drums (prom.uz listings); Felix brand site hosts Carbox concentrate technical sheet. No public document names 'DX-COOL'."
+  },
+  "add_material_docs": [
+   {
+    "type": "TDS",
+    "title": "Технический лист FELIX CARBOX + конц. (FELIX Carbox G12+ concentrate technical sheet)",
+    "url": "https://antifreezefelix.ru/storage/upload/documents/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82%20FELIX%20CARBOX%20+%20%D0%BA%D0%BE%D0%BD%D1%86.pdf",
+    "language": "ru",
+    "exact_or_equivalent": "exact",
+    "verified": false,
+    "note": "Manufacturer-hosted (Felix brand site) TDS for red Carbox concentrate - most likely the actual product (exact if DX-COOL = Carbox conc.). URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "type": "SDS",
+    "title": "MSDS FELIX CARBOX (SQ) antifreeze",
+    "url": "https://antifreezefelix.ru/storage/upload/documents/MSDS%20Felix%20CARBOX%20SQ.PDF",
+    "language": "ru",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Manufacturer-hosted MSDS for Carbox SQ (heavy-duty OAT ethylene glycol, ASTM D6210); same chemistry family; closest Felix SDS found. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "type": "TDS",
+    "title": "Технический лист FELIX TYPE D",
+    "url": "https://antifreezefelix.ru/storage/upload/documents/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82%20FELIX%20TYPE%20D.pdf",
+    "language": "ru",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Felix Type-D technical sheet; Felix product line equivalent (possibly DEX-type designation; content unseen). URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "type": "TDS",
+    "title": "Технический лист FELIX JDM",
+    "url": "https://antifreezefelix.ru/storage/upload/documents/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82%20FELIX%20JDM.pdf",
+    "language": "ru",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Felix JDM (Hyundai/Kia MS 591-08) technical sheet - same manufacturer, different grade. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "type": "TDS",
+    "title": "Технический лист FELIX DRAGON",
+    "url": "https://tosol-sintez.ru/assets/files/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82%20FELIX%20DRAGON.pdf",
+    "language": "ru",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Tosol-Sintez-hosted Felix technical sheet (different grade). URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   }
+  ],
+  "add_equipment": [
+   {
+    "vendor": "Twin Engineers (India)",
+    "model": "Combined fluid filling machine (brake/clutch, coolant, A/C, oils)",
+    "role": "Alternative-vendor line filling equipment of same class as Dürr Somac",
+    "rationale": "Only alternative-vendor assembly-line fill brochure found as direct PDF; no evidence of use at UzAuto.",
+    "confidence": "low"
+   }
+  ],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr (Dürr Somac GmbH)",
+    "model": "Somac filling stations (process measurement components)",
+    "type": "manual",
+    "title": "Dürr Somac KA014/QW V1.0 - Instructions for the Calibration of Process Measurement Equipment",
+    "url": "https://www.durr.com/fileadmin/somac-filling.de/Company/KA014_QW_V1.0_Instructions_for_the_Calibration_of_Process_Measurement_Equipment.pdf",
+    "verified": false,
+    "note": "Dürr Somac-hosted technical instruction for calibrating flow/pressure/vacuum measurement equipment of its filling stations; applies to all Somac fill media. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH) / Endress+Hauser",
+    "model": "Promass 80 Coriolis flowmeter (component used in Somac stations)",
+    "type": "manual",
+    "title": "Endress+Hauser PROline Promass 80 Coriolis-Massedurchfluss-Messsystem - Betriebsanleitung (DE), hosted in Dürr Somac public download center",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Endress_Promass80Betriebsanleitung_deutsch.pdf",
+    "verified": false,
+    "note": "Component manual (mass-flow metering) from Dürr Somac public download center; German. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH) / Speck Pumpen",
+    "model": "Speck V / VG series liquid-ring vacuum pump (component used in Somac stations)",
+    "type": "manual",
+    "title": "Speck Operating Instructions V and VG Series V-6/30/55/95/130/155/255/330/430 (EN), hosted in Dürr Somac public download center",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Speck_1096_0808_operating_instructions_EN_series_V_VG.pdf",
+    "verified": false,
+    "note": "Vacuum pump component manual for evacuation step (brake, coolant, A/C). URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH) / ifm",
+    "model": "ifm LK8123 level sensor (component used in Somac stations)",
+    "type": "manual",
+    "title": "ifm LK8123 Bedienungsanleitung / Operating instructions, hosted in Dürr Somac public download center",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_IFM_LK8123_704047_BA.pdf",
+    "verified": false,
+    "note": "Tank level sensor component manual. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH)",
+    "model": "Dürr Somac (company/filling portfolio)",
+    "type": "brochure",
+    "title": "Dürr press release: 10 years Dürr Somac Stollberg (2015, EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/06_Media/01_News/2015/Dateien/duerr-somac-10-years-stollberg-2015-en.pdf",
+    "verified": false,
+    "note": "States Somac stations fill up to 12 fluids/gases in final assembly; general background, not datasheet. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Twin Engineers (India)",
+    "model": "TCF/powertrain fluid filling machines (brake & clutch, coolant, A/C, oil)",
+    "type": "brochure",
+    "title": "Twin Engineers - Fluid Filling Machines for Automotives (brochure)",
+    "url": "https://www.twinengineers.com/wp-content/uploads/2024/07/Oil-Filling-Brochure.pdf",
+    "verified": false,
+    "note": "Alternative-vendor brochure covering vacuum fill, leak test, level/volume fill, degassing; brake/clutch, coolant, A/C sections. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   }
+  ],
+  "remove_urls": [],
+  "notes": "Product page FELIX Carbox G12+: https://antifreezefelix.ru/antifreeze/felix-carbox (HTML). Tosol-Sintez Carbox SQ page lists 'Технический лист FELIX CARBOX SQ.pdf' but URL not in results. Felix paspоrt bezopasnosti for Carbox G12+ conc not found."
+ },
+ {
+  "id": 30,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "PDS",
+    "title": "Idemitsu MTF - product leaflet (Idemitsu Lubricants / ILTI)",
+    "url": "https://ilti.idemitsu.com/media/file/originals/post/2023/08/16/idemitsu-mtf.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Idemitsu-hosted MTF product sheet (retail MTF for modern MT units); same manufacturer and product family, not the OE grade LSJ11EP. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "type": "SDS",
+    "title": "Idemitsu Daphne Super Gear Oil 150 - 安全データシート (32050330, rev 2024-04-30)",
+    "url": "https://www.idemitsu.com/jp/sds/lube/32050330.pdf",
+    "language": "ja",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Idemitsu Kosan Japanese SDS for a mineral gear oil; same producer, gear-oil class; reference only (industrial gear oil). URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "type": "PDS",
+    "title": "Idemitsu Apolloil Dual Gear (mission/differential gear oil) - 潤滑油製品資料",
+    "url": "https://www.idemitsu.com/jp/sds/lube/30300240p.pdf",
+    "language": "ja",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Idemitsu automotive transmission/differential gear oil product data; closer to automotive MTF use. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "type": "SDS",
+    "title": "Idemitsu ATF Type-HP SDS (PPE / Idemitsu Lubricants America, 2017)",
+    "url": "https://www.lube-buster.com/wp-content/uploads/2022/04/sds-idemitsu-atf-type-hp.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Idemitsu-made automotive transmission fluid SDS (ATF, not MTF) - only Idemitsu transmission-fluid SDS found in English. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   }
+  ],
+  "add_equipment": [
+   {
+    "vendor": "Twin Engineers (India)",
+    "model": "Combined fluid filling machine (brake/clutch, coolant, A/C, oils)",
+    "role": "Alternative-vendor line filling equipment of same class as Dürr Somac",
+    "rationale": "Only alternative-vendor assembly-line fill brochure found as direct PDF; no evidence of use at UzAuto.",
+    "confidence": "low"
+   }
+  ],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr (Dürr Somac GmbH)",
+    "model": "Somac filling stations (process measurement components)",
+    "type": "manual",
+    "title": "Dürr Somac KA014/QW V1.0 - Instructions for the Calibration of Process Measurement Equipment",
+    "url": "https://www.durr.com/fileadmin/somac-filling.de/Company/KA014_QW_V1.0_Instructions_for_the_Calibration_of_Process_Measurement_Equipment.pdf",
+    "verified": false,
+    "note": "Dürr Somac-hosted technical instruction for calibrating flow/pressure/vacuum measurement equipment of its filling stations; applies to all Somac fill media. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH) / Endress+Hauser",
+    "model": "Promass 80 Coriolis flowmeter (component used in Somac stations)",
+    "type": "manual",
+    "title": "Endress+Hauser PROline Promass 80 Coriolis-Massedurchfluss-Messsystem - Betriebsanleitung (DE), hosted in Dürr Somac public download center",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Endress_Promass80Betriebsanleitung_deutsch.pdf",
+    "verified": false,
+    "note": "Component manual (mass-flow metering) from Dürr Somac public download center; German. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH) / Speck Pumpen",
+    "model": "Speck V / VG series liquid-ring vacuum pump (component used in Somac stations)",
+    "type": "manual",
+    "title": "Speck Operating Instructions V and VG Series V-6/30/55/95/130/155/255/330/430 (EN), hosted in Dürr Somac public download center",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Speck_1096_0808_operating_instructions_EN_series_V_VG.pdf",
+    "verified": false,
+    "note": "Vacuum pump component manual for evacuation step (brake, coolant, A/C). URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH) / ifm",
+    "model": "ifm LK8123 level sensor (component used in Somac stations)",
+    "type": "manual",
+    "title": "ifm LK8123 Bedienungsanleitung / Operating instructions, hosted in Dürr Somac public download center",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_IFM_LK8123_704047_BA.pdf",
+    "verified": false,
+    "note": "Tank level sensor component manual. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH)",
+    "model": "Dürr Somac (company/filling portfolio)",
+    "type": "brochure",
+    "title": "Dürr press release: 10 years Dürr Somac Stollberg (2015, EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/06_Media/01_News/2015/Dateien/duerr-somac-10-years-stollberg-2015-en.pdf",
+    "verified": false,
+    "note": "States Somac stations fill up to 12 fluids/gases in final assembly; general background, not datasheet. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Twin Engineers (India)",
+    "model": "TCF/powertrain fluid filling machines (brake & clutch, coolant, A/C, oil)",
+    "type": "brochure",
+    "title": "Twin Engineers - Fluid Filling Machines for Automotives (brochure)",
+    "url": "https://www.twinengineers.com/wp-content/uploads/2024/07/Oil-Filling-Brochure.pdf",
+    "verified": false,
+    "note": "Alternative-vendor brochure covering vacuum fill, leak test, level/volume fill, degassing; brake/clutch, coolant, A/C sections. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   }
+  ],
+  "remove_urls": [],
+  "notes": "Id 30 previously had no doc; now 4 Idemitsu-family PDFs (none exact). 'LSJ11EP' not found anywhere; OE/internal grade. Idemitsu JP SDS pattern is idemitsu.com/jp/sds/lube/<product code>.pdf - request the code from Idemitsu for LSJ11EP."
+ },
+ {
+  "id": 31,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "PDS",
+    "title": "Red Line MT-85 75W85 GL-4 Gear Oil - product information",
+    "url": "https://www.redlineoil.com/Content/files/tech/MT-85_GO_PROD_INFO.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Aftermarket synthetic 75W-85 GL-4 MTF marketed as replacement for GM 88862472/93165290 (= XGP predecessor numbers). URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "type": "PDS",
+    "title": "Shell Spirax S6 GXME 75W-80 technical data sheet",
+    "url": "https://www.TDXLTD.CO.NZ/media/pdfs/49977.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Shell synthetic MTF (GL-4 class) - relevant if 'SH' = Shell blender; not 75W-85. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "type": "SDS",
+    "title": "Motorcraft SAE 75W-85 Premium Synthetic Hypoid Gear Lubricant SDS",
+    "url": "https://www.motorcraft.com/content/dam/ford-motorcraft/en_us/motorcraft_global/products/pdf/SAE_75W_85_Premuim_Synthetic_Hypoid_Gear_Lubricant/SAE_75W_85_Premuim_Synthetic_Hypoid_Gear_Lubricant_SDS.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Synthetic 75W-85 gear oil SDS (hypoid/axle, GL-5 type) - hazard data only, weak equivalent. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   }
+  ],
+  "add_equipment": [
+   {
+    "vendor": "Twin Engineers (India)",
+    "model": "Combined fluid filling machine (brake/clutch, coolant, A/C, oils)",
+    "role": "Alternative-vendor line filling equipment of same class as Dürr Somac",
+    "rationale": "Only alternative-vendor assembly-line fill brochure found as direct PDF; no evidence of use at UzAuto.",
+    "confidence": "low"
+   }
+  ],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr (Dürr Somac GmbH)",
+    "model": "Somac filling stations (process measurement components)",
+    "type": "manual",
+    "title": "Dürr Somac KA014/QW V1.0 - Instructions for the Calibration of Process Measurement Equipment",
+    "url": "https://www.durr.com/fileadmin/somac-filling.de/Company/KA014_QW_V1.0_Instructions_for_the_Calibration_of_Process_Measurement_Equipment.pdf",
+    "verified": false,
+    "note": "Dürr Somac-hosted technical instruction for calibrating flow/pressure/vacuum measurement equipment of its filling stations; applies to all Somac fill media. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH) / Endress+Hauser",
+    "model": "Promass 80 Coriolis flowmeter (component used in Somac stations)",
+    "type": "manual",
+    "title": "Endress+Hauser PROline Promass 80 Coriolis-Massedurchfluss-Messsystem - Betriebsanleitung (DE), hosted in Dürr Somac public download center",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Endress_Promass80Betriebsanleitung_deutsch.pdf",
+    "verified": false,
+    "note": "Component manual (mass-flow metering) from Dürr Somac public download center; German. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH) / Speck Pumpen",
+    "model": "Speck V / VG series liquid-ring vacuum pump (component used in Somac stations)",
+    "type": "manual",
+    "title": "Speck Operating Instructions V and VG Series V-6/30/55/95/130/155/255/330/430 (EN), hosted in Dürr Somac public download center",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Speck_1096_0808_operating_instructions_EN_series_V_VG.pdf",
+    "verified": false,
+    "note": "Vacuum pump component manual for evacuation step (brake, coolant, A/C). URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH) / ifm",
+    "model": "ifm LK8123 level sensor (component used in Somac stations)",
+    "type": "manual",
+    "title": "ifm LK8123 Bedienungsanleitung / Operating instructions, hosted in Dürr Somac public download center",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_IFM_LK8123_704047_BA.pdf",
+    "verified": false,
+    "note": "Tank level sensor component manual. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH)",
+    "model": "Dürr Somac (company/filling portfolio)",
+    "type": "brochure",
+    "title": "Dürr press release: 10 years Dürr Somac Stollberg (2015, EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/06_Media/01_News/2015/Dateien/duerr-somac-10-years-stollberg-2015-en.pdf",
+    "verified": false,
+    "note": "States Somac stations fill up to 12 fluids/gases in final assembly; general background, not datasheet. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Twin Engineers (India)",
+    "model": "TCF/powertrain fluid filling machines (brake & clutch, coolant, A/C, oil)",
+    "type": "brochure",
+    "title": "Twin Engineers - Fluid Filling Machines for Automotives (brochure)",
+    "url": "https://www.twinengineers.com/wp-content/uploads/2024/07/Oil-Filling-Brochure.pdf",
+    "verified": false,
+    "note": "Alternative-vendor brochure covering vacuum fill, leak test, level/volume fill, degassing; brake/clutch, coolant, A/C sections. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   }
+  ],
+  "remove_urls": [],
+  "notes": "No GM/ACDelco SDS for 19351859 / 10-4104 found publicly. Shell link to 'SH' prefix unconfirmed."
+ },
+ {
+  "id": 32,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "ACDelco (GM Holden) DEXRON VI Premium Full Synthetic Transmission Fluid - SDS (Infosafe LQ9RG, 2019)",
+    "url": "https://acdelco.com.au/gm-b2cau/cms/pdf/SDS/LQ9RG_DEXRON%20VI%20PREMIUM%20FULL%20SYNTHETIC%20TRANSMISSION%20FLUID.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "GM-hosted (ACDelco Australia) SDS for a GM-genuine Dexron-VI ATF; manufacturer-hosted, closest to GM factory fluid. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "type": "TDS",
+    "title": "ACDelco Dexron VI Premium Full Synthetic ATF - sell sheet (ACDelco Australia)",
+    "url": "https://acdelco.com.au/gm-b2cau/cms/pdf/Flyers/ACDelco%20Dexron%20VI%20Premium%20Full%20Synthetic%20ATF%20Sell%20Sheet.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "GM-hosted product flyer (fill-for-life, Holden). URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "type": "SDS",
+    "title": "GM DEXRON VI ATF Material Safety Data Sheet 000003000398 v2.0 (GM P/N 88861046)",
+    "url": "https://seattleautomotive.com/files/SDS/88861046%20dexron%20vi%20atf.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "SDS of GM-genuine Dexron VI ATF (P/N 88861046, Petro-Canada-made per document number style); dealer-hosted. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "type": "SDS",
+    "title": "DEXRON VI ATF SDS (EC 1907/2006)",
+    "url": "https://uploads-ssl.webflow.com/5d513e6ea4a37093208cabb2/5e958119bb64f4d142e866cf_DEXRON%20%5ER%5E%20VI%20ATF.PDF",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "EU-format SDS of a licensed DEXRON VI ATF. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "type": "SDS",
+    "title": "Petro-Canada DEXRON VI ATF SDS 000003001354 v4.0",
+    "url": "https://evosupplygroupcatalog.sfo3.digitaloceanspaces.com/brands/files/Petro%20Canada/DEX6C16-sds.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Petro-Canada is a known GM Dexron-VI supplier. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   }
+  ],
+  "add_equipment": [
+   {
+    "vendor": "Twin Engineers (India)",
+    "model": "Combined fluid filling machine (brake/clutch, coolant, A/C, oils)",
+    "role": "Alternative-vendor line filling equipment of same class as Dürr Somac",
+    "rationale": "Only alternative-vendor assembly-line fill brochure found as direct PDF; no evidence of use at UzAuto.",
+    "confidence": "low"
+   }
+  ],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr (Dürr Somac GmbH)",
+    "model": "Somac filling stations (process measurement components)",
+    "type": "manual",
+    "title": "Dürr Somac KA014/QW V1.0 - Instructions for the Calibration of Process Measurement Equipment",
+    "url": "https://www.durr.com/fileadmin/somac-filling.de/Company/KA014_QW_V1.0_Instructions_for_the_Calibration_of_Process_Measurement_Equipment.pdf",
+    "verified": false,
+    "note": "Dürr Somac-hosted technical instruction for calibrating flow/pressure/vacuum measurement equipment of its filling stations; applies to all Somac fill media. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH) / Endress+Hauser",
+    "model": "Promass 80 Coriolis flowmeter (component used in Somac stations)",
+    "type": "manual",
+    "title": "Endress+Hauser PROline Promass 80 Coriolis-Massedurchfluss-Messsystem - Betriebsanleitung (DE), hosted in Dürr Somac public download center",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Endress_Promass80Betriebsanleitung_deutsch.pdf",
+    "verified": false,
+    "note": "Component manual (mass-flow metering) from Dürr Somac public download center; German. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH) / Speck Pumpen",
+    "model": "Speck V / VG series liquid-ring vacuum pump (component used in Somac stations)",
+    "type": "manual",
+    "title": "Speck Operating Instructions V and VG Series V-6/30/55/95/130/155/255/330/430 (EN), hosted in Dürr Somac public download center",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Speck_1096_0808_operating_instructions_EN_series_V_VG.pdf",
+    "verified": false,
+    "note": "Vacuum pump component manual for evacuation step (brake, coolant, A/C). URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH) / ifm",
+    "model": "ifm LK8123 level sensor (component used in Somac stations)",
+    "type": "manual",
+    "title": "ifm LK8123 Bedienungsanleitung / Operating instructions, hosted in Dürr Somac public download center",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_IFM_LK8123_704047_BA.pdf",
+    "verified": false,
+    "note": "Tank level sensor component manual. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH)",
+    "model": "Dürr Somac (company/filling portfolio)",
+    "type": "brochure",
+    "title": "Dürr press release: 10 years Dürr Somac Stollberg (2015, EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/06_Media/01_News/2015/Dateien/duerr-somac-10-years-stollberg-2015-en.pdf",
+    "verified": false,
+    "note": "States Somac stations fill up to 12 fluids/gases in final assembly; general background, not datasheet. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Twin Engineers (India)",
+    "model": "TCF/powertrain fluid filling machines (brake & clutch, coolant, A/C, oil)",
+    "type": "brochure",
+    "title": "Twin Engineers - Fluid Filling Machines for Automotives (brochure)",
+    "url": "https://www.twinengineers.com/wp-content/uploads/2024/07/Oil-Filling-Brochure.pdf",
+    "verified": false,
+    "note": "Alternative-vendor brochure covering vacuum fill, leak test, level/volume fill, degassing; brake/clutch, coolant, A/C sections. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   }
+  ],
+  "remove_urls": [],
+  "notes": "Dexron-VI (automatic transmission). GM-hosted SDS found (ACDelco Australia). No SDS found for GM 19355342/88865601 specifically; sdsmanager.com hosts ACDelco Dexron-VI ATF (ExxonMobil, rev 2020-10-20) as HTML page: https://sdsmanager.com/safety-data-sheet/exxon-mobil-corporation-acdelco-dexron-vi-atf-en/. Actual blender for UzAuto unknown."
+ },
+ {
+  "id": 33,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "Motorcraft R-134a Refrigerant SDS (automotive A/C)",
+    "url": "https://www.motorcraft.com/content/dam/ford-motorcraft/en_us/motorcraft_global/products/pdf/R_134a_Refrigerant/us045167us.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "OEM-branded automotive HFC-134a SDS. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "type": "SDS",
+    "title": "Gaslogic Refrigerant Gas R-134a SDS v1.0 (2024-09-13)",
+    "url": "https://gaslogic.nl/wp-content/uploads/2024/09/R134A-MSDS-EN-v1.0.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Recent EU REACH-format SDS. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "type": "SDS",
+    "title": "Afrox (Linde) Refrigerant R134a SDS AFX-SDS-0060",
+    "url": "https://static.prd.echannel.linde.com/wcsstore/ZA_AFROX_Industrial_Ntl_Store/Attachment/Corporate/AFX-SDS-0060_v01_Refrigerant_R134a_Safety_Data_Sheet(003)(2)tcm266-6472.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Major industrial gas producer SDS. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   }
+  ],
+  "add_equipment": [
+   {
+    "vendor": "Agramkow Fluid Systems",
+    "model": "EMAC (modular refrigerant charging station, 40-150 g/s)",
+    "role": "Alternative mass-charging of refrigerant",
+    "rationale": "Agramkow EMAC is an industrial line charging machine; mainly appliance/HVAC; low likelihood for UzAuto.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Twin Engineers (India)",
+    "model": "Combined fluid filling machine (brake/clutch, coolant, A/C, oils)",
+    "role": "Alternative-vendor line filling equipment of same class as Dürr Somac",
+    "rationale": "Only alternative-vendor assembly-line fill brochure found as direct PDF; no evidence of use at UzAuto.",
+    "confidence": "low"
+   }
+  ],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr (Dürr Somac GmbH)",
+    "model": "Somac filling stations (process measurement components)",
+    "type": "manual",
+    "title": "Dürr Somac KA014/QW V1.0 - Instructions for the Calibration of Process Measurement Equipment",
+    "url": "https://www.durr.com/fileadmin/somac-filling.de/Company/KA014_QW_V1.0_Instructions_for_the_Calibration_of_Process_Measurement_Equipment.pdf",
+    "verified": false,
+    "note": "Dürr Somac-hosted technical instruction for calibrating flow/pressure/vacuum measurement equipment of its filling stations; applies to all Somac fill media. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH) / Endress+Hauser",
+    "model": "Promass 80 Coriolis flowmeter (component used in Somac stations)",
+    "type": "manual",
+    "title": "Endress+Hauser PROline Promass 80 Coriolis-Massedurchfluss-Messsystem - Betriebsanleitung (DE), hosted in Dürr Somac public download center",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Endress_Promass80Betriebsanleitung_deutsch.pdf",
+    "verified": false,
+    "note": "Component manual (mass-flow metering) from Dürr Somac public download center; German. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH) / Speck Pumpen",
+    "model": "Speck V / VG series liquid-ring vacuum pump (component used in Somac stations)",
+    "type": "manual",
+    "title": "Speck Operating Instructions V and VG Series V-6/30/55/95/130/155/255/330/430 (EN), hosted in Dürr Somac public download center",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Speck_1096_0808_operating_instructions_EN_series_V_VG.pdf",
+    "verified": false,
+    "note": "Vacuum pump component manual for evacuation step (brake, coolant, A/C). URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH) / ifm",
+    "model": "ifm LK8123 level sensor (component used in Somac stations)",
+    "type": "manual",
+    "title": "ifm LK8123 Bedienungsanleitung / Operating instructions, hosted in Dürr Somac public download center",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_IFM_LK8123_704047_BA.pdf",
+    "verified": false,
+    "note": "Tank level sensor component manual. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH)",
+    "model": "Dürr Somac (company/filling portfolio)",
+    "type": "brochure",
+    "title": "Dürr press release: 10 years Dürr Somac Stollberg (2015, EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/06_Media/01_News/2015/Dateien/duerr-somac-10-years-stollberg-2015-en.pdf",
+    "verified": false,
+    "note": "States Somac stations fill up to 12 fluids/gases in final assembly; general background, not datasheet. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Twin Engineers (India)",
+    "model": "TCF/powertrain fluid filling machines (brake & clutch, coolant, A/C, oil)",
+    "type": "brochure",
+    "title": "Twin Engineers - Fluid Filling Machines for Automotives (brochure)",
+    "url": "https://www.twinengineers.com/wp-content/uploads/2024/07/Oil-Filling-Brochure.pdf",
+    "verified": false,
+    "note": "Alternative-vendor brochure covering vacuum fill, leak test, level/volume fill, degassing; brake/clutch, coolant, A/C sections. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   }
+  ],
+  "remove_urls": [],
+  "notes": "COOLIB brand SDS not found. Agramkow product pages are HTML only (agramkow.com/products/equipment/refrigerant-charging/emac); no direct PDF datasheet found. Patent EP3174745A1 describes Dürr-type R134a/R1234yf final-assembly fill adapter (data.epo.org, HTML)."
+ },
+ {
+  "id": 34,
+  "manufacturer_update": {
+   "manufacturer": "Uzbekneftegaz (Bukhara / Fergana refineries) or imports",
+   "product_identified": "Motor gasoline AI-92 (Uzbekistan moving to AI-92-only from 2026)",
+   "manufacturer_confidence": "low",
+   "evidence": "Uzbek news (anhor.uz, daryo.uz 2025) report Uzbekneftegaz stopping AI-80 and expanding AI-92 at Bukhara refinery."
+  },
+  "add_material_docs": [
+   {
+    "type": "standard",
+    "title": "ГОСТ 32513-2013 Бензин неэтилированный (studfile copy)",
+    "url": "https://studfile.net/preview/16423940",
+    "language": "ru",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "HTML preview of superseded standard (not PDF); GOST 32513-2023 replaced it 03.02.2025. Download page for 2023 edition: https://meganorm.ru/Index/79/79978.htm (HTML). URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "(plant study) / generic",
+    "model": "Semi-automatic fuel filling unit at end of assembly line",
+    "type": "brochure",
+    "title": "(Academic paper) University of Pitesti Scientific Bulletin 2017 - automotive plant fuel filling at assembly station",
+    "url": "https://www.automotive.upit.ro/2017/2017_6_.pdf",
+    "verified": false,
+    "note": "Academic paper describing first fuel fill by semi-automatic unit at end of final assembly (Romanian car plant); process reference. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH)",
+    "model": "Somac filling stations (process measurement components)",
+    "type": "manual",
+    "title": "Dürr Somac KA014/QW V1.0 - Instructions for the Calibration of Process Measurement Equipment",
+    "url": "https://www.durr.com/fileadmin/somac-filling.de/Company/KA014_QW_V1.0_Instructions_for_the_Calibration_of_Process_Measurement_Equipment.pdf",
+    "verified": false,
+    "note": "Dürr Somac-hosted technical instruction for calibrating flow/pressure/vacuum measurement equipment of its filling stations; applies to all Somac fill media. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   }
+  ],
+  "remove_urls": [],
+  "notes": "No O'zDSt AI-92 PDF and no AI-92 паспорт безопасности PDF found. Dürr Somac Compact handles fuels (HTML page durr.com/en/products/final-assembly/filling-technology/compact-filling-stations); no fuel-specific PDF found."
+ },
+ {
+  "id": 35,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "Eurol Screenwash Concentrate SDS (E502260, v5.0 2023)",
+    "url": "https://sirv.eurol.com/eurol/SDS/EN/EN_E502260_SDS.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "SDS matching the round-1 Eurol PI (ethanol-based concentrate). URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "type": "SDS",
+    "title": "ROWE HIGHTEC Screenwash SDS (21111-998-00, IRL-en)",
+    "url": "https://assets.rowegmbh.de/var/assets/brandhub/safety-data-sheets/en/21111-998-00_IRL-en_1%2C09.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "ROWE screenwash SDS; one of 21111/21104 is the Concentrate (ethanol 30-<60%), the other the -20C ready mix (ethanol 15-<30%); mapping not confirmed. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "type": "SDS",
+    "title": "ROWE HIGHTEC Screenwash SDS (21104-998-00, IRL-en)",
+    "url": "https://assets.rowegmbh.de/var/assets/brandhub/safety-data-sheets/en/21104-998-00_IRL-en_1%2C11.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "See previous entry; ethanol-based washer SDS. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   }
+  ],
+  "add_equipment": [
+   {
+    "vendor": "Twin Engineers (India)",
+    "model": "Combined fluid filling machine (brake/clutch, coolant, A/C, oils)",
+    "role": "Alternative-vendor line filling equipment of same class as Dürr Somac",
+    "rationale": "Only alternative-vendor assembly-line fill brochure found as direct PDF; no evidence of use at UzAuto.",
+    "confidence": "low"
+   }
+  ],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr (Dürr Somac GmbH)",
+    "model": "Somac filling stations (process measurement components)",
+    "type": "manual",
+    "title": "Dürr Somac KA014/QW V1.0 - Instructions for the Calibration of Process Measurement Equipment",
+    "url": "https://www.durr.com/fileadmin/somac-filling.de/Company/KA014_QW_V1.0_Instructions_for_the_Calibration_of_Process_Measurement_Equipment.pdf",
+    "verified": false,
+    "note": "Dürr Somac-hosted technical instruction for calibrating flow/pressure/vacuum measurement equipment of its filling stations; applies to all Somac fill media. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH) / Endress+Hauser",
+    "model": "Promass 80 Coriolis flowmeter (component used in Somac stations)",
+    "type": "manual",
+    "title": "Endress+Hauser PROline Promass 80 Coriolis-Massedurchfluss-Messsystem - Betriebsanleitung (DE), hosted in Dürr Somac public download center",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Endress_Promass80Betriebsanleitung_deutsch.pdf",
+    "verified": false,
+    "note": "Component manual (mass-flow metering) from Dürr Somac public download center; German. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH) / Speck Pumpen",
+    "model": "Speck V / VG series liquid-ring vacuum pump (component used in Somac stations)",
+    "type": "manual",
+    "title": "Speck Operating Instructions V and VG Series V-6/30/55/95/130/155/255/330/430 (EN), hosted in Dürr Somac public download center",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_Speck_1096_0808_operating_instructions_EN_series_V_VG.pdf",
+    "verified": false,
+    "note": "Vacuum pump component manual for evacuation step (brake, coolant, A/C). URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH) / ifm",
+    "model": "ifm LK8123 level sensor (component used in Somac stations)",
+    "type": "manual",
+    "title": "ifm LK8123 Bedienungsanleitung / Operating instructions, hosted in Dürr Somac public download center",
+    "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/04_Somac/01_Download_Center/Public/Manuals/neu/Manuals_IFM_LK8123_704047_BA.pdf",
+    "verified": false,
+    "note": "Tank level sensor component manual. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH)",
+    "model": "Dürr Somac (company/filling portfolio)",
+    "type": "brochure",
+    "title": "Dürr press release: 10 years Dürr Somac Stollberg (2015, EN)",
+    "url": "https://www.durr.com/fileadmin/durr.com/06_Media/01_News/2015/Dateien/duerr-somac-10-years-stollberg-2015-en.pdf",
+    "verified": false,
+    "note": "States Somac stations fill up to 12 fluids/gases in final assembly; general background, not datasheet. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "vendor": "Twin Engineers (India)",
+    "model": "TCF/powertrain fluid filling machines (brake & clutch, coolant, A/C, oil)",
+    "type": "brochure",
+    "title": "Twin Engineers - Fluid Filling Machines for Automotives (brochure)",
+    "url": "https://www.twinengineers.com/wp-content/uploads/2024/07/Oil-Filling-Brochure.pdf",
+    "verified": false,
+    "note": "Alternative-vendor brochure covering vacuum fill, leak test, level/volume fill, degassing; brake/clutch, coolant, A/C sections. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   }
+  ],
+  "remove_urls": [],
+  "notes": "Local blend; no exact SDS possible. Web search budget exhausted before ethanol 80% denatured alcohol (local supplier) search."
+ }
+]

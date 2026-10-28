@@ -1,9 +1,9 @@
 [
  {
   "id": 8,
-  "manufacturer": "Uncertain: Uz-DongJu Paint (local JV) or KCC Corporation",
-  "product_identified": "CR-100 Primer Surfacer Light Gray N7.0 (GM Korea spec KR-APC-707U) - exact product not publicly documented",
-  "manufacturer_confidence": "low",
+  "manufacturer": "Uz-DongJu Paint Co. JV (Asaka, Uzbekistan; GM-standard OEM paint supplier, 'Royal Paint' brand) - Korean technology partner unconfirmed (KCC/Noroo hypotheses)",
+  "product_identified": "CR-100 Primer Surfacer Light Gray N7.0 (spec KR-APC-707U) - not publicly documented",
+  "manufacturer_confidence": "medium",
   "material_docs": [
    {
     "type": "TDS",
@@ -13,6 +13,33 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only. Third-party hosted copy; refinish product, not OEM line - loose equivalent only."
+   },
+   {
+    "type": "TDS",
+    "title": "KCC UU3000 data sheet (2K urethane primer-surfacer, auto refinish)",
+    "url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F201504150003022kor.pdf",
+    "language": "ko",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Manufacturer-hosted KCC TDS; refinish 2K primer-surfacer, not OEM 1K baking surfacer - class-level equivalent only. Better than the third-party-hosted US4000 copy from round 1. URL seen in WebSearch results only; WebFetch to this host fails (DNS blocked)."
+   },
+   {
+    "type": "paper",
+    "title": "Hoffmann Mineral guide formulation: automotive OEM primer-surfacer, polyester/melamine stoving system (water-dilutable)",
+    "url": "https://hoffmann-mineral.com/guideformulation/file/801",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Document servlet (likely PDF). OEM baking primer-surfacer formulation with melamine (Maprenal MF 904/97); waterborne, whereas CR-100 is likely solventborne - shows OEM surfacer composition/bake. URL seen in WebSearch results only; WebFetch to this host fails (DNS blocked)."
+   },
+   {
+    "type": "standard",
+    "title": "GMW3002 - Body primer surfacer generic qualification (GM Worldwide standard) - GlobalSpec listing",
+    "url": "https://standards.globalspec.com/std/14576224/gmw3002",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "HTML catalog page, not PDF (standard is paywalled). GM global spec that the GM Korea KR-APC- surfacer specs most likely reference. URL seen in WebSearch results only; WebFetch to this host fails (DNS blocked)."
    }
   ],
   "equipment": [
@@ -108,15 +135,51 @@
     "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-supply-2-core.pdf",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "brochure",
+    "title": "ABB Connected Atomizer RB 1000i product page (bell cups 70/40 mm, 6 bar bearing air, Zone 1, -75% color-change waste)",
+    "url": "https://new.abb.com/products/robotics/equipment-ecosystem/painting/atomizers/rb-1000i",
+    "verified": false,
+    "note": "HTML product page, not PDF; no standalone RB1000 datasheet PDF found (only the RB1000i presentation already in catalog). URL seen in WebSearch results only; WebFetch to this host fails (DNS blocked)."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint Robot painting stations",
+    "type": "brochure",
+    "title": "Ecopaint Robot painting stations brochure",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-SSD / RB1000-SAD",
+    "type": "datasheet",
+    "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+    "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+    "verified": false,
+    "note": "official ABB library PDF; solvent-borne direct-charge bell"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-WSC",
+    "type": "datasheet",
+    "title": "RB1000-WSC high-flow atomizer (AB01R02)",
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "verified": false,
+    "note": "official ABB library PDF"
    }
   ],
-  "notes": "CR-100 and spec KR-APC-707U/742U not found publicly. Best hypotheses: (a) Uz-DongJu Paint (Asaka-based JV, est. 1995/96, listed among UzAuto main suppliers; 2024 buyer pledged GM-standard compliance) producing to GM Korea 'KR' specs, possibly under Korean licence; (b) KCC Corporation (largest Korean OEM paint maker, GM Korea supplier; signed 2025 Uzbek automotive-paint plant agreement). No PDF of the exact product found. KCC US4000 (refinish 2K primer surfacer) is only a loose family equivalent. Only plant-specific evidence found: 2023 Asaka modernization (uzdaily/kun.uz) mentions FANUC robots in press shop and maintenance of 'robotic systems' in the paint shop without naming vendors; GM Korea Changwon paint shop (2021) uses 78 Dürr robots. Equipment below is REPRESENTATIVE, not confirmed for Asaka."
+  "notes": "CR-100 and spec KR-APC-707U/742U not found publicly. Best hypotheses: (a) Uz-DongJu Paint (Asaka-based JV, est. 1995/96, listed among UzAuto main suppliers; 2024 buyer pledged GM-standard compliance) producing to GM Korea 'KR' specs, possibly under Korean licence; (b) KCC Corporation (largest Korean OEM paint maker, GM Korea supplier; signed 2025 Uzbek automotive-paint plant agreement). No PDF of the exact product found. KCC US4000 (refinish 2K primer surfacer) is only a loose family equivalent. Only plant-specific evidence found: 2023 Asaka modernization (uzdaily/kun.uz) mentions FANUC robots in press shop and maintenance of 'robotic systems' in the paint shop without naming vendors; GM Korea Changwon paint shop (2021) uses 78 Dürr robots. Equipment below is REPRESENTATIVE, not confirmed for Asaka. | round2_B evidence: Daryo.uz (2024-06-22, https://daryo.uz/en/2024/06/22/uzbekistans-sama-sell50-stake-ofuz-dongju-paint-for19bn/): Uz-DongJu Paint's main production facility is in Asaka; the buyer of the 50% state stake pledged to keep product compliance with General Motors standards and OEM requirements; products under 'Royal Paint' brand incl. paints, varnishes, sealants and car-body chemicals. GoldenPages.uz (https://www.goldenpages.uz/en/company/?Id=9727) lists automotive paints, primers and urethane varnishes, 'plant for production of automotive... paints... for GM'. Strengthens Uz-DongJu as the supplier; Korean technology partner still unconfirmed. Exact products (CR-100, HITEC 2000, KR- thinners) not found publicly. | round2_B: 'CR-100' not found under any manufacturer (EN/KO searches). No public OEM 1K solventborne surfacer TDS/SDS from PPG/BASF/Axalta/KCC located; OEM products are distributed under restricted access. No exact doc. Search budget exhausted before Dürr/ABB mixing-room/solvent recovery searches could be completed."
  },
  {
   "id": 9,
-  "manufacturer": "Uncertain: Uz-DongJu Paint (local JV) or KCC Corporation",
-  "product_identified": "CR-100 Primer Surfacer Pure White N9.0 (GM Korea spec KR-APC-742U) - exact product not publicly documented",
-  "manufacturer_confidence": "low",
+  "manufacturer": "Uz-DongJu Paint Co. JV (Asaka, Uzbekistan; GM-standard OEM paint supplier, 'Royal Paint' brand) - Korean technology partner unconfirmed (KCC/Noroo hypotheses)",
+  "product_identified": "CR-100 Primer Surfacer Pure White N9.0 (spec KR-APC-742U) - not publicly documented",
+  "manufacturer_confidence": "medium",
   "material_docs": [
    {
     "type": "TDS",
@@ -126,6 +189,33 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only. Third-party hosted copy; refinish product, not OEM line - loose equivalent only."
+   },
+   {
+    "type": "TDS",
+    "title": "KCC UU3000 data sheet (2K urethane primer-surfacer, auto refinish)",
+    "url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F201504150003022kor.pdf",
+    "language": "ko",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Manufacturer-hosted KCC TDS; refinish 2K primer-surfacer, not OEM 1K baking surfacer - class-level equivalent only. Better than the third-party-hosted US4000 copy from round 1. URL seen in WebSearch results only; WebFetch to this host fails (DNS blocked)."
+   },
+   {
+    "type": "paper",
+    "title": "Hoffmann Mineral guide formulation: automotive OEM primer-surfacer, polyester/melamine stoving system (water-dilutable)",
+    "url": "https://hoffmann-mineral.com/guideformulation/file/801",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Document servlet (likely PDF). OEM baking primer-surfacer formulation with melamine (Maprenal MF 904/97); waterborne, whereas CR-100 is likely solventborne - shows OEM surfacer composition/bake. URL seen in WebSearch results only; WebFetch to this host fails (DNS blocked)."
+   },
+   {
+    "type": "standard",
+    "title": "GMW3002 - Body primer surfacer generic qualification (GM Worldwide standard) - GlobalSpec listing",
+    "url": "https://standards.globalspec.com/std/14576224/gmw3002",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "HTML catalog page, not PDF (standard is paywalled). GM global spec that the GM Korea KR-APC- surfacer specs most likely reference. URL seen in WebSearch results only; WebFetch to this host fails (DNS blocked)."
    }
   ],
   "equipment": [
@@ -221,16 +311,71 @@
     "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-supply-2-core.pdf",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "brochure",
+    "title": "ABB Connected Atomizer RB 1000i product page (bell cups 70/40 mm, 6 bar bearing air, Zone 1, -75% color-change waste)",
+    "url": "https://new.abb.com/products/robotics/equipment-ecosystem/painting/atomizers/rb-1000i",
+    "verified": false,
+    "note": "HTML product page, not PDF; no standalone RB1000 datasheet PDF found (only the RB1000i presentation already in catalog). URL seen in WebSearch results only; WebFetch to this host fails (DNS blocked)."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint Robot painting stations",
+    "type": "brochure",
+    "title": "Ecopaint Robot painting stations brochure",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-SSD / RB1000-SAD",
+    "type": "datasheet",
+    "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+    "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+    "verified": false,
+    "note": "official ABB library PDF; solvent-borne direct-charge bell"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-WSC",
+    "type": "datasheet",
+    "title": "RB1000-WSC high-flow atomizer (AB01R02)",
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "verified": false,
+    "note": "official ABB library PDF"
    }
   ],
-  "notes": "CR-100 and spec KR-APC-707U/742U not found publicly. Best hypotheses: (a) Uz-DongJu Paint (Asaka-based JV, est. 1995/96, listed among UzAuto main suppliers; 2024 buyer pledged GM-standard compliance) producing to GM Korea 'KR' specs, possibly under Korean licence; (b) KCC Corporation (largest Korean OEM paint maker, GM Korea supplier; signed 2025 Uzbek automotive-paint plant agreement). No PDF of the exact product found. KCC US4000 (refinish 2K primer surfacer) is only a loose family equivalent. Only plant-specific evidence found: 2023 Asaka modernization (uzdaily/kun.uz) mentions FANUC robots in press shop and maintenance of 'robotic systems' in the paint shop without naming vendors; GM Korea Changwon paint shop (2021) uses 78 Dürr robots. Equipment below is REPRESENTATIVE, not confirmed for Asaka."
+  "notes": "CR-100 and spec KR-APC-707U/742U not found publicly. Best hypotheses: (a) Uz-DongJu Paint (Asaka-based JV, est. 1995/96, listed among UzAuto main suppliers; 2024 buyer pledged GM-standard compliance) producing to GM Korea 'KR' specs, possibly under Korean licence; (b) KCC Corporation (largest Korean OEM paint maker, GM Korea supplier; signed 2025 Uzbek automotive-paint plant agreement). No PDF of the exact product found. KCC US4000 (refinish 2K primer surfacer) is only a loose family equivalent. Only plant-specific evidence found: 2023 Asaka modernization (uzdaily/kun.uz) mentions FANUC robots in press shop and maintenance of 'robotic systems' in the paint shop without naming vendors; GM Korea Changwon paint shop (2021) uses 78 Dürr robots. Equipment below is REPRESENTATIVE, not confirmed for Asaka. | round2_B evidence: Daryo.uz (2024-06-22, https://daryo.uz/en/2024/06/22/uzbekistans-sama-sell50-stake-ofuz-dongju-paint-for19bn/): Uz-DongJu Paint's main production facility is in Asaka; the buyer of the 50% state stake pledged to keep product compliance with General Motors standards and OEM requirements; products under 'Royal Paint' brand incl. paints, varnishes, sealants and car-body chemicals. GoldenPages.uz (https://www.goldenpages.uz/en/company/?Id=9727) lists automotive paints, primers and urethane varnishes, 'plant for production of automotive... paints... for GM'. Strengthens Uz-DongJu as the supplier; Korean technology partner still unconfirmed. Exact products (CR-100, HITEC 2000, KR- thinners) not found publicly. | round2_B: Same as id 8."
  },
  {
   "id": 10,
-  "manufacturer": "Uncertain: same supplier as CR-100 (Uz-DongJu Paint or KCC)",
-  "product_identified": "Primer type thinner (KR-RHT-051) - not publicly documented",
+  "manufacturer": "Uz-DongJu Paint Co. JV (Asaka, Uzbekistan; GM-standard OEM paint supplier, 'Royal Paint' brand) - Korean technology partner unconfirmed (KCC/Noroo hypotheses)",
+  "product_identified": "Primer type thinner KR-RHT-051 - not publicly documented",
   "manufacturer_confidence": "low",
-  "material_docs": [],
+  "material_docs": [
+   {
+    "type": "SDS",
+    "title": "KCC MSDS Enamel thinner 012 (에나멜희석제012), MSDS no. AA00017-0000000525",
+    "url": "https://rusty21.com/wp-content/uploads/2025/04/KCC_MSDS_%EC%97%90%EB%82%98%EB%A9%9C%ED%9D%AC%EC%84%9D%EC%A0%9C012_kor.pdf",
+    "language": "ko",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Third-party hosted copy of a KCC solventborne thinner MSDS (flash point 37 C, aromatic hydrocarbon type). General-industrial enamel thinner, not OEM automotive - loose class equivalent for a solventborne paint reducer. URL seen in WebSearch results only; WebFetch to this host fails (DNS blocked)."
+   },
+   {
+    "type": "paper",
+    "title": "Korean study: reliability of thinner MSDS / thinner composition (Busan-Gyeongnam, 2006)",
+    "url": "https://koreascience.kr/article/JAKO200610103460967.pdf",
+    "language": "ko",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Academic PDF on composition of Korean paint thinners (aromatics, esters, ketones, alcohols); context only, not a product SDS. URL seen in WebSearch results only; WebFetch to this host fails (DNS blocked)."
+   }
+  ],
   "equipment": [
    {
     "vendor": "Dürr",
@@ -267,14 +412,42 @@
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
    }
   ],
-  "notes": "Thinner specs KR-RHT-xxx / KR-RBT-xxx not found publicly; thinners are supplied by the same paint system supplier (Uz-DongJu/KCC hypothesis). No public TDS/SDS found for exact thinner. Only plant-specific evidence found: 2023 Asaka modernization (uzdaily/kun.uz) mentions FANUC robots in press shop and maintenance of 'robotic systems' in the paint shop without naming vendors; GM Korea Changwon paint shop (2021) uses 78 Dürr robots. Equipment below is REPRESENTATIVE, not confirmed for Asaka."
+  "notes": "Thinner specs KR-RHT-xxx / KR-RBT-xxx not found publicly; thinners are supplied by the same paint system supplier (Uz-DongJu/KCC hypothesis). No public TDS/SDS found for exact thinner. Only plant-specific evidence found: 2023 Asaka modernization (uzdaily/kun.uz) mentions FANUC robots in press shop and maintenance of 'robotic systems' in the paint shop without naming vendors; GM Korea Changwon paint shop (2021) uses 78 Dürr robots. Equipment below is REPRESENTATIVE, not confirmed for Asaka. | round2_B evidence: Daryo.uz (2024-06-22, https://daryo.uz/en/2024/06/22/uzbekistans-sama-sell50-stake-ofuz-dongju-paint-for19bn/): Uz-DongJu Paint's main production facility is in Asaka; the buyer of the 50% state stake pledged to keep product compliance with General Motors standards and OEM requirements; products under 'Royal Paint' brand incl. paints, varnishes, sealants and car-body chemicals. GoldenPages.uz (https://www.goldenpages.uz/en/company/?Id=9727) lists automotive paints, primers and urethane varnishes, 'plant for production of automotive... paints... for GM'. Strengthens Uz-DongJu as the supplier; Korean technology partner still unconfirmed. Exact products (CR-100, HITEC 2000, KR- thinners) not found publicly. | round2_B: No OEM primer reducer SDS found publicly. Added loose class equivalent (KCC solventborne thinner MSDS) + Korean thinner composition paper. Spec code search (KR-RHT-051) returned nothing."
  },
  {
   "id": 23,
-  "manufacturer": "Uncertain: basecoat supplier (Uz-DongJu Paint or KCC)",
-  "product_identified": "Base type thinner for metallic basecoat (KR-RHT-031) - not publicly documented",
+  "manufacturer": "Uz-DongJu Paint Co. JV (Asaka, Uzbekistan; GM-standard OEM paint supplier, 'Royal Paint' brand) - Korean technology partner unconfirmed (KCC/Noroo hypotheses)",
+  "product_identified": "Base type thinner KR-RHT-031 (metallic basecoat reducer) - not publicly documented",
   "manufacturer_confidence": "low",
-  "material_docs": [],
+  "material_docs": [
+   {
+    "type": "SDS",
+    "title": "KCC MSDS Enamel thinner 012 (에나멜희석제012), MSDS no. AA00017-0000000525",
+    "url": "https://rusty21.com/wp-content/uploads/2025/04/KCC_MSDS_%EC%97%90%EB%82%98%EB%A9%9C%ED%9D%AC%EC%84%9D%EC%A0%9C012_kor.pdf",
+    "language": "ko",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Third-party hosted copy of a KCC solventborne thinner MSDS (flash point 37 C, aromatic hydrocarbon type). General-industrial enamel thinner, not OEM automotive - loose class equivalent for a solventborne paint reducer. URL seen in WebSearch results only; WebFetch to this host fails (DNS blocked)."
+   },
+   {
+    "type": "SDS",
+    "title": "Noroo lacquer thinner DR-170 (노루락카 신나, summer grade) GHS-MSDS",
+    "url": "https://www.noroopaint.com/kor/file/prod_file/%EB%85%B8%EB%A3%A8%EB%9D%BC%ED%81%AC_%EC%8B%A0%EB%82%98(%EB%9D%BD%EC%B9%B4_%EC%8B%A0%EB%82%98)_DR-170_GHS-MSDS.pdf",
+    "language": "ko",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Manufacturer-hosted Noroo (Korean) lacquer thinner MSDS; lacquer thinners are typical cleaning/flush solvents. General-purpose, not OEM line. URL seen in WebSearch results only; WebFetch to this host fails (DNS blocked)."
+   },
+   {
+    "type": "paper",
+    "title": "Korean study: reliability of thinner MSDS / thinner composition (Busan-Gyeongnam, 2006)",
+    "url": "https://koreascience.kr/article/JAKO200610103460967.pdf",
+    "language": "ko",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Academic PDF on composition of Korean paint thinners (aromatics, esters, ketones, alcohols); context only, not a product SDS. URL seen in WebSearch results only; WebFetch to this host fails (DNS blocked)."
+   }
+  ],
   "equipment": [
    {
     "vendor": "Dürr",
@@ -311,13 +484,13 @@
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
    }
   ],
-  "notes": "Thinner specs KR-RHT-xxx / KR-RBT-xxx not found publicly; thinners are supplied by the same paint system supplier (Uz-DongJu/KCC hypothesis). No public TDS/SDS found for exact thinner. Same SAP/spec as item 26 (cleaning thinner); likely one solvent used both as reducer and flush. Only plant-specific evidence found: 2023 Asaka modernization (uzdaily/kun.uz) mentions FANUC robots in press shop and maintenance of 'robotic systems' in the paint shop without naming vendors; GM Korea Changwon paint shop (2021) uses 78 Dürr robots. Equipment below is REPRESENTATIVE, not confirmed for Asaka."
+  "notes": "Thinner specs KR-RHT-xxx / KR-RBT-xxx not found publicly; thinners are supplied by the same paint system supplier (Uz-DongJu/KCC hypothesis). No public TDS/SDS found for exact thinner. Same SAP/spec as item 26 (cleaning thinner); likely one solvent used both as reducer and flush. Only plant-specific evidence found: 2023 Asaka modernization (uzdaily/kun.uz) mentions FANUC robots in press shop and maintenance of 'robotic systems' in the paint shop without naming vendors; GM Korea Changwon paint shop (2021) uses 78 Dürr robots. Equipment below is REPRESENTATIVE, not confirmed for Asaka. | round2_B evidence: Daryo.uz (2024-06-22, https://daryo.uz/en/2024/06/22/uzbekistans-sama-sell50-stake-ofuz-dongju-paint-for19bn/): Uz-DongJu Paint's main production facility is in Asaka; the buyer of the 50% state stake pledged to keep product compliance with General Motors standards and OEM requirements; products under 'Royal Paint' brand incl. paints, varnishes, sealants and car-body chemicals. GoldenPages.uz (https://www.goldenpages.uz/en/company/?Id=9727) lists automotive paints, primers and urethane varnishes, 'plant for production of automotive... paints... for GM'. Strengthens Uz-DongJu as the supplier; Korean technology partner still unconfirmed. Exact products (CR-100, HITEC 2000, KR- thinners) not found publicly. | round2_B: Same SAP/spec as id 26. No OEM basecoat reducer SDS public. Equivalents only (Korean solventborne thinner MSDS)."
  },
  {
   "id": 24,
-  "manufacturer": "Uncertain: Uz-DongJu Paint or KCC; name resembles PPG 'HiTech' 1K OEM clearcoat",
-  "product_identified": "TOP CLEAR HITEC 2000, 1K solventborne OEM clearcoat (KR-ABT-600U) - exact product not publicly documented",
-  "manufacturer_confidence": "low",
+  "manufacturer": "Uz-DongJu Paint Co. JV (Asaka, Uzbekistan; GM-standard OEM paint supplier, 'Royal Paint' brand) - Korean technology partner unconfirmed (KCC/Noroo hypotheses)",
+  "product_identified": "TOP CLEAR HITEC 2000, 1K solventborne OEM clearcoat (KR-ABT-600U) - not publicly documented",
+  "manufacturer_confidence": "medium",
   "material_docs": [
    {
     "type": "brochure",
@@ -336,6 +509,42 @@
     "exact_or_equivalent": "equivalent",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only. KCC 2K refinish clear on manufacturer site; loose family equivalent, not OEM 1K."
+   },
+   {
+    "type": "SDS",
+    "title": "PPG SDS 'OEM Clearcoat' (product code AUE-40), v10, 2016-12-12",
+    "url": "https://www.brandenburg.com/IphonePDF/safety/safety%20data%20sheets/paint%20products.ppg%20industries.amerlock%20aue-40%20clear%20coat.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Third-party hosted. SDS product name reads 'OEM Clearcoat', but the file name says 'Amerlock AUE-40 clear coat' (PPG protective line) - application class uncertain; flammable liquid. Use with caution. URL seen in WebSearch results only; WebFetch to this host fails (DNS blocked)."
+   },
+   {
+    "type": "SDS",
+    "title": "PPG SDS PREMIUM 1K CLEARCOAT 30004591 (NZ, 2025)",
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=67aaa0ddca7deeb70000&id=67aaa0eecb2131130001",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Manufacturer-hosted PPG EHS document servlet returning PDF. 1K clearcoat (refinish/consumer, not OEM line) - loose equivalent for a 1K clear. URL seen in WebSearch results only; WebFetch to this host fails (DNS blocked)."
+   },
+   {
+    "type": "TDS",
+    "title": "KCC 7300 HS CLEAR data sheet",
+    "url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F202007230045276kor.pdf",
+    "language": "ko",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Manufacturer-hosted KCC TDS, 2K HS refinish clear - family equivalent only (target is 1K OEM baking clear). URL seen in WebSearch results only; WebFetch to this host fails (DNS blocked)."
+   },
+   {
+    "type": "TDS",
+    "title": "KCC 9020 FC CLEAR data sheet",
+    "url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F202007270045330kor.pdf",
+    "language": "ko",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Manufacturer-hosted KCC TDS, refinish clear - family equivalent only. URL seen in WebSearch results only; WebFetch to this host fails (DNS blocked)."
    }
   ],
   "equipment": [
@@ -431,16 +640,71 @@
     "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-supply-2-core.pdf",
     "verified": false,
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "brochure",
+    "title": "ABB Connected Atomizer RB 1000i product page (bell cups 70/40 mm, 6 bar bearing air, Zone 1, -75% color-change waste)",
+    "url": "https://new.abb.com/products/robotics/equipment-ecosystem/painting/atomizers/rb-1000i",
+    "verified": false,
+    "note": "HTML product page, not PDF; no standalone RB1000 datasheet PDF found (only the RB1000i presentation already in catalog). URL seen in WebSearch results only; WebFetch to this host fails (DNS blocked)."
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Ecopaint Robot painting stations",
+    "type": "brochure",
+    "title": "Ecopaint Robot painting stations brochure",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+    "verified": false,
+    "note": "official durr.com PDF from search results"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-SSD / RB1000-SAD",
+    "type": "datasheet",
+    "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+    "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+    "verified": false,
+    "note": "official ABB library PDF; solvent-borne direct-charge bell"
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000-WSC",
+    "type": "datasheet",
+    "title": "RB1000-WSC high-flow atomizer (AB01R02)",
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "verified": false,
+    "note": "official ABB library PDF"
    }
   ],
-  "notes": "No public match for 'HITEC 2000' (searched EN/KR). PPG markets 'HiTech' 1K medium-solids OEM clearcoat compatible with solvent/waterborne basecoats - closest name match, possibly a licensed technology, unconfirmed. Only plant-specific evidence found: 2023 Asaka modernization (uzdaily/kun.uz) mentions FANUC robots in press shop and maintenance of 'robotic systems' in the paint shop without naming vendors; GM Korea Changwon paint shop (2021) uses 78 Dürr robots. Equipment below is REPRESENTATIVE, not confirmed for Asaka."
+  "notes": "No public match for 'HITEC 2000' (searched EN/KR). PPG markets 'HiTech' 1K medium-solids OEM clearcoat compatible with solvent/waterborne basecoats - closest name match, possibly a licensed technology, unconfirmed. Only plant-specific evidence found: 2023 Asaka modernization (uzdaily/kun.uz) mentions FANUC robots in press shop and maintenance of 'robotic systems' in the paint shop without naming vendors; GM Korea Changwon paint shop (2021) uses 78 Dürr robots. Equipment below is REPRESENTATIVE, not confirmed for Asaka. | round2_B evidence: Daryo.uz (2024-06-22, https://daryo.uz/en/2024/06/22/uzbekistans-sama-sell50-stake-ofuz-dongju-paint-for19bn/): Uz-DongJu Paint's main production facility is in Asaka; the buyer of the 50% state stake pledged to keep product compliance with General Motors standards and OEM requirements; products under 'Royal Paint' brand incl. paints, varnishes, sealants and car-body chemicals. GoldenPages.uz (https://www.goldenpages.uz/en/company/?Id=9727) lists automotive paints, primers and urethane varnishes, 'plant for production of automotive... paints... for GM'. Strengthens Uz-DongJu as the supplier; Korean technology partner still unconfirmed. Exact products (CR-100, HITEC 2000, KR- thinners) not found publicly. | round2_B: 'HITEC 2000' / '하이텍 2000' returned no coating product in any search; name link to PPG 'HiTech' remains speculative. With Uz-DongJu now medium-confidence as supplier, HITEC 2000 is probably a supplier trade name. Equivalents added are refinish/1K clears; no OEM 1K melamine clear SDS public."
  },
  {
   "id": 25,
-  "manufacturer": "Uncertain: same supplier as TOP CLEAR HITEC 2000",
-  "product_identified": "Clear thinner (KR-RBT-029) - not publicly documented",
+  "manufacturer": "Uz-DongJu Paint Co. JV (Asaka, Uzbekistan; GM-standard OEM paint supplier, 'Royal Paint' brand) - Korean technology partner unconfirmed (KCC/Noroo hypotheses)",
+  "product_identified": "Clear thinner KR-RBT-029 - not publicly documented",
   "manufacturer_confidence": "low",
-  "material_docs": [],
+  "material_docs": [
+   {
+    "type": "SDS",
+    "title": "KCC MSDS Enamel thinner 012 (에나멜희석제012), MSDS no. AA00017-0000000525",
+    "url": "https://rusty21.com/wp-content/uploads/2025/04/KCC_MSDS_%EC%97%90%EB%82%98%EB%A9%9C%ED%9D%AC%EC%84%9D%EC%A0%9C012_kor.pdf",
+    "language": "ko",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Third-party hosted copy of a KCC solventborne thinner MSDS (flash point 37 C, aromatic hydrocarbon type). General-industrial enamel thinner, not OEM automotive - loose class equivalent for a solventborne paint reducer. URL seen in WebSearch results only; WebFetch to this host fails (DNS blocked)."
+   },
+   {
+    "type": "paper",
+    "title": "Korean study: reliability of thinner MSDS / thinner composition (Busan-Gyeongnam, 2006)",
+    "url": "https://koreascience.kr/article/JAKO200610103460967.pdf",
+    "language": "ko",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Academic PDF on composition of Korean paint thinners (aromatics, esters, ketones, alcohols); context only, not a product SDS. URL seen in WebSearch results only; WebFetch to this host fails (DNS blocked)."
+   }
+  ],
   "equipment": [
    {
     "vendor": "Dürr",
@@ -461,14 +725,69 @@
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
    }
   ],
-  "notes": "Thinner specs KR-RHT-xxx / KR-RBT-xxx not found publicly; thinners are supplied by the same paint system supplier (Uz-DongJu/KCC hypothesis). No public TDS/SDS found for exact thinner. Only plant-specific evidence found: 2023 Asaka modernization (uzdaily/kun.uz) mentions FANUC robots in press shop and maintenance of 'robotic systems' in the paint shop without naming vendors; GM Korea Changwon paint shop (2021) uses 78 Dürr robots. Equipment below is REPRESENTATIVE, not confirmed for Asaka."
+  "notes": "Thinner specs KR-RHT-xxx / KR-RBT-xxx not found publicly; thinners are supplied by the same paint system supplier (Uz-DongJu/KCC hypothesis). No public TDS/SDS found for exact thinner. Only plant-specific evidence found: 2023 Asaka modernization (uzdaily/kun.uz) mentions FANUC robots in press shop and maintenance of 'robotic systems' in the paint shop without naming vendors; GM Korea Changwon paint shop (2021) uses 78 Dürr robots. Equipment below is REPRESENTATIVE, not confirmed for Asaka. | round2_B evidence: Daryo.uz (2024-06-22, https://daryo.uz/en/2024/06/22/uzbekistans-sama-sell50-stake-ofuz-dongju-paint-for19bn/): Uz-DongJu Paint's main production facility is in Asaka; the buyer of the 50% state stake pledged to keep product compliance with General Motors standards and OEM requirements; products under 'Royal Paint' brand incl. paints, varnishes, sealants and car-body chemicals. GoldenPages.uz (https://www.goldenpages.uz/en/company/?Id=9727) lists automotive paints, primers and urethane varnishes, 'plant for production of automotive... paints... for GM'. Strengthens Uz-DongJu as the supplier; Korean technology partner still unconfirmed. Exact products (CR-100, HITEC 2000, KR- thinners) not found publicly. | round2_B: No clearcoat reducer SDS from OEM lines public. Loose equivalents only."
  },
  {
   "id": 26,
-  "manufacturer": "Uncertain: same as item 23 (identical SAP RAC07130 / spec KR-RHT-031)",
-  "product_identified": "Cleaning thinner (purge/flush solvent) - not publicly documented",
+  "manufacturer": "Uz-DongJu Paint Co. JV (Asaka, Uzbekistan; GM-standard OEM paint supplier, 'Royal Paint' brand) - Korean technology partner unconfirmed (KCC/Noroo hypotheses)",
+  "product_identified": "Cleaning (purge) thinner, same SAP RAC07130/spec KR-RHT-031 as id 23 - not publicly documented",
   "manufacturer_confidence": "low",
-  "material_docs": [],
+  "material_docs": [
+   {
+    "type": "SDS",
+    "title": "KCC MSDS 006(N) - thinner (automotive water-soluble cleaning thinner), KCC Ulsan plant, MSDS no. AA00017-0000000992",
+    "url": "https://www.kccworld.co.kr/techdoc/c02/cvt/F202310110121897.pdf",
+    "language": "ko",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Manufacturer-hosted KCC MSDS from KCC's Ulsan automotive-OEM paint plant; it is a cleaning thinner for automotive (waterborne) lines - same function as CLEANING THINNER, but the Asaka item is likely solventborne. Best same-function OEM-plant equivalent found. URL seen in WebSearch results only; WebFetch to this host fails (DNS blocked)."
+   },
+   {
+    "type": "SDS",
+    "title": "Noroo lacquer thinner DR-170 (노루락카 신나, summer grade) GHS-MSDS",
+    "url": "https://www.noroopaint.com/kor/file/prod_file/%EB%85%B8%EB%A3%A8%EB%9D%BC%ED%81%AC_%EC%8B%A0%EB%82%98(%EB%9D%BD%EC%B9%B4_%EC%8B%A0%EB%82%98)_DR-170_GHS-MSDS.pdf",
+    "language": "ko",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Manufacturer-hosted Noroo (Korean) lacquer thinner MSDS; lacquer thinners are typical cleaning/flush solvents. General-purpose, not OEM line. URL seen in WebSearch results only; WebFetch to this host fails (DNS blocked)."
+   },
+   {
+    "type": "paper",
+    "title": "Eastman: Purge solvents for paint/spray equipment cleaning (coatings literature)",
+    "url": "https://www.eastman.com/content/dam/eastman/corporate/en/literature/c/coatind20287.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Solvent supplier technical bulletin on purge-solvent blends for spray guns, hoses and paint transfer equipment. URL seen in WebSearch results only; WebFetch to this host fails (DNS blocked)."
+   },
+   {
+    "type": "paper",
+    "title": "Eastman SOL032: improving activity of hydrocarbon purge blends with oxygenated solvents",
+    "url": "https://www.eastman.com/Literature_Center/S/SOL032.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Technical bulletin on purge solvent formulation. URL seen in WebSearch results only; WebFetch to this host fails (DNS blocked)."
+   },
+   {
+    "type": "paper",
+    "title": "California DTSC fact sheet: spray gun cleaning (thinner waste, enclosed gun washers, solvent reuse)",
+    "url": "https://dtsc.ca.gov/wp-content/uploads/sites/31/2024/04/TD_FS_Sprayguncleaning_accessible.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Regulatory fact sheet: waste thinner is hazardous waste; recommends enclosed automatic gun washers and two-stage cleaning. URL seen in WebSearch results only; WebFetch to this host fails (DNS blocked)."
+   },
+   {
+    "type": "SDS",
+    "title": "Noroo MSDS SHH710501 (mixed solvent, toluene/xylene type, (주)노루케미칼)",
+    "url": "http://noroopaint.com/kor/file/prod_file/SHH710501_DOCU03_c090106.pdf",
+    "language": "ko",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Manufacturer-hosted Korean MSDS of an aromatic mixed-solvent product; exact product name/use not confirmed from snippet - low relevance, use only as a class reference. URL seen in WebSearch results only; WebFetch to this host fails (DNS blocked)."
+   }
+  ],
   "equipment": [
    {
     "vendor": "Dürr",
@@ -482,6 +801,13 @@
     "model": "Paint mix room solvent supply loop",
     "role": "Solvent circulation + manual gun/line cleaning, waste solvent collection for recovery",
     "rationale": "Plant-wide flush solvent distribution; spent solvent typically sent to a solvent recovery (distillation) unit - vendor not identified.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "generic",
+    "model": "Enclosed automatic gun washer / solvent reuse",
+    "role": "Manual gun and part cleaning with cleaning thinner; spent solvent collection for distillation/recovery",
+    "rationale": "DTSC guidance: enclosed gun washers + two-stage cleaning reduce thinner use; waste thinner is hazardous waste. Vendor at Asaka unknown.",
     "confidence": "low"
    }
   ],
@@ -514,6 +840,6 @@
     "note": "WebFetch blocked in this session (host not in allowed network domains); URL seen in WebSearch results only."
    }
   ],
-  "notes": "Source data shows same SAP+spec as BASE TYPE THINNER, suggesting one solvent serves as reducer and cleaning solvent. No solvent-recovery unit datasheet located. Only plant-specific evidence found: 2023 Asaka modernization (uzdaily/kun.uz) mentions FANUC robots in press shop and maintenance of 'robotic systems' in the paint shop without naming vendors; GM Korea Changwon paint shop (2021) uses 78 Dürr robots. Equipment below is REPRESENTATIVE, not confirmed for Asaka."
+  "notes": "Source data shows same SAP+spec as BASE TYPE THINNER, suggesting one solvent serves as reducer and cleaning solvent. No solvent-recovery unit datasheet located. Only plant-specific evidence found: 2023 Asaka modernization (uzdaily/kun.uz) mentions FANUC robots in press shop and maintenance of 'robotic systems' in the paint shop without naming vendors; GM Korea Changwon paint shop (2021) uses 78 Dürr robots. Equipment below is REPRESENTATIVE, not confirmed for Asaka. | round2_B evidence: Daryo.uz (2024-06-22, https://daryo.uz/en/2024/06/22/uzbekistans-sama-sell50-stake-ofuz-dongju-paint-for19bn/): Uz-DongJu Paint's main production facility is in Asaka; the buyer of the 50% state stake pledged to keep product compliance with General Motors standards and OEM requirements; products under 'Royal Paint' brand incl. paints, varnishes, sealants and car-body chemicals. GoldenPages.uz (https://www.goldenpages.uz/en/company/?Id=9727) lists automotive paints, primers and urethane varnishes, 'plant for production of automotive... paints... for GM'. Strengthens Uz-DongJu as the supplier; Korean technology partner still unconfirmed. Exact products (CR-100, HITEC 2000, KR- thinners) not found publicly. | round2_B: Best find: KCC MSDS for automotive cleaning thinner 006(N) from KCC Ulsan (automotive OEM) plant - same function, but waterborne-line type. Purge solvent technical literature added. No solvent-recovery unit datasheet found (search budget ran out)."
  }
 ]
