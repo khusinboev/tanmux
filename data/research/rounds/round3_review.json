@@ -1,0 +1,520 @@
+[
+ {
+  "id": 1,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/duerr-brochure-ecopaint-application-en.pdf",
+    "reason": "Dürr Ecopaint APPLICATION brochure covers spray application (rotary atomizers, colour change, robots), not phosphating tanks/dosing, so wrong equipment class for zinc phosphate pretreatment."
+   }
+  ],
+  "notes": "REVIEW round3: CHEMFOS 700HNR SDS on charlottepipe.com: not findable by filename. Charlotte Pipe does use a zinc-phosphate + cathodic e-coat system, so the host is plausible; keep. Henkel BONDERITE M-ZN 952 R1 TDS confirmed by search (tricationic, for e-coat pretreatment); 'equivalent' is correct."
+ },
+ {
+  "id": 2,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/duerr-brochure-ecopaint-application-en.pdf",
+    "reason": "Spray-application brochure (atomizers/robots), not relevant to cathodic dip ED tank/rectifier/UF equipment."
+   }
+  ],
+  "notes": "REVIEW round3: Trystar Series_50_Brochure.pdf exists at both /wp-content/uploads/ and /document-library/ (search confirms both). They are older and newer editions, so not exact duplicates; keep both, but prefer the document-library copy. Trystar S50-107649 also confirmed in search. CR686A v6 and v7 SDS are two revisions of the same doc (keep the newer if deduping)."
+ },
+ {
+  "id": 3,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": "REVIEW round3: Trystar Series_50_Brochure.pdf exists at both /wp-content/uploads/ and /document-library/ (search confirms both). They are older and newer editions, so not exact duplicates; keep both, but prefer the document-library copy. Trystar S50-107649 also confirmed in search. CR686A v6 and v7 SDS are two revisions of the same doc (keep the newer if deduping). PPG CP491 is a BLACK paste (target is grey) and CR100 is a resin, not a paste. Both are class equivalents only."
+ },
+ {
+  "id": 4,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": "REVIEW round3: Graco XL10000/XL6500 air-motor manuals are pump drive components (weak passports; kept). 3A7301ES is confirmed by search as the Spanish King XL10K pump/spray package manual (rev K), fine. The duerr endless-dosing datasheet is a battery-gluing doc and the German duplicate of the round-1 EN sheet. The Atlas Copco LASD leaflet is a sound-deadener dispensing doc, adjacent class only."
+ },
+ {
+  "id": 5,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/406/406771/406771EN-G.pdf",
+    "reason": "Graco 406771 is a Merkur displacement-pump repair-kit instruction sheet: a sub-component repair doc for a different pump family (Merkur, not King), not an equipment passport."
+   }
+  ],
+  "notes": "REVIEW round3: Graco XL10000/XL6500 air-motor manuals are pump drive components (weak passports; kept). 3A7301ES is confirmed by search as the Spanish King XL10K pump/spray package manual (rev K), fine. The duerr endless-dosing datasheet is a battery-gluing doc and the German duplicate of the round-1 EN sheet. The Atlas Copco LASD leaflet is a sound-deadener dispensing doc, adjacent class only. TEROSON PV 3145 TDS: not found by search (searches for 'TEROSON PV 3145' only return PV 3046, a PVC seam sealer). The URL follows the valid Henkel TDX pattern but is UNVERIFIED and may not exist; check it before use."
+ },
+ {
+  "id": 6,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/406/406771/406771EN-G.pdf",
+    "reason": "Graco 406771 is a Merkur displacement-pump repair-kit instruction sheet: a sub-component repair doc for a different pump family (Merkur, not King), not an equipment passport."
+   }
+  ],
+  "notes": "REVIEW round3: Graco XL10000/XL6500 air-motor manuals are pump drive components (weak passports; kept). 3A7301ES is confirmed by search as the Spanish King XL10K pump/spray package manual (rev K), fine. The duerr endless-dosing datasheet is a battery-gluing doc and the German duplicate of the round-1 EN sheet. The Atlas Copco LASD leaflet is a sound-deadener dispensing doc, adjacent class only. TEROSON PV 3145 TDS: not found by search (searches for 'TEROSON PV 3145' only return PV 3046, a PVC seam sealer). The URL follows the valid Henkel TDX pattern but is UNVERIFIED and may not exist; check it before use."
+ },
+ {
+  "id": 7,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/406/406771/406771EN-G.pdf",
+    "reason": "Graco 406771 is a Merkur displacement-pump repair-kit instruction sheet: a sub-component repair doc for a different pump family (Merkur, not King), not an equipment passport."
+   }
+  ],
+  "notes": "REVIEW round3: Graco XL10000/XL6500 air-motor manuals are pump drive components (weak passports; kept). 3A7301ES is confirmed by search as the Spanish King XL10K pump/spray package manual (rev K), fine. The duerr endless-dosing datasheet is a battery-gluing doc and the German duplicate of the round-1 EN sheet. The Atlas Copco LASD leaflet is a sound-deadener dispensing doc, adjacent class only. TEROSON PV 3145 TDS: not found by search (searches for 'TEROSON PV 3145' only return PV 3046, a PVC seam sealer). The URL follows the valid Henkel TDX pattern but is UNVERIFIED and may not exist; check it before use."
+ },
+ {
+  "id": 8,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "reason": "ABB RB1000-WSC is the waterborne cartridge-bell (CBS) atomizer (ABB: 'direct-charge waterborne atomizer utilizing paint cartridges'); this line uses solvent-borne paint, so wrong equipment class. RB1000-SSD (solvent-borne) is the relevant one."
+   }
+  ],
+  "notes": "REVIEW round3: Uz-DongJu Paint JV as UzAuto paint supplier: CONFIRMED by search (uzavtosanoat.uz lists 'Uz Dong Zhu Paint' among main UzAuto Motors suppliers; Daryo 2024 says the buyer is committed to GM standards/OEM requirements; Golden Pages calls it a paint plant serving GM). That it makes these specific products is still inference, so manufacturer_confidence 'medium' is right, and 'low' for the thinners. Korean technology partner (KCC/Noroo) not confirmed. KCC UU3000 is a 2K refinish primer-surfacer and the Hoffmann guide is a waterborne formulation, while CR-100 is probably a solvent-borne 1K bake surfacer. Both are weak class equivalents (labelled 'equivalent', OK). GMW3002 GlobalSpec and the ABB RB1000i page are HTML (file null), fine. EcoRP E043i datasheet and robot-stations brochure (orch): plausible official durr.com paths, but the filename was not found in search results. RB1000-SSD (solvent-borne standard) is the right atomizer variant."
+ },
+ {
+  "id": 9,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "reason": "ABB RB1000-WSC is the waterborne cartridge-bell (CBS) atomizer (ABB: 'direct-charge waterborne atomizer utilizing paint cartridges'); this line uses solvent-borne paint, so wrong equipment class. RB1000-SSD (solvent-borne) is the relevant one."
+   }
+  ],
+  "notes": "REVIEW round3: Uz-DongJu Paint JV as UzAuto paint supplier: CONFIRMED by search (uzavtosanoat.uz lists 'Uz Dong Zhu Paint' among main UzAuto Motors suppliers; Daryo 2024 says the buyer is committed to GM standards/OEM requirements; Golden Pages calls it a paint plant serving GM). That it makes these specific products is still inference, so manufacturer_confidence 'medium' is right, and 'low' for the thinners. Korean technology partner (KCC/Noroo) not confirmed. KCC UU3000 is a 2K refinish primer-surfacer and the Hoffmann guide is a waterborne formulation, while CR-100 is probably a solvent-borne 1K bake surfacer. Both are weak class equivalents (labelled 'equivalent', OK). GMW3002 GlobalSpec and the ABB RB1000i page are HTML (file null), fine. EcoRP E043i datasheet and robot-stations brochure (orch): plausible official durr.com paths, but the filename was not found in search results. RB1000-SSD (solvent-borne standard) is the right atomizer variant."
+ },
+ {
+  "id": 10,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": "REVIEW round3: Uz-DongJu Paint JV as UzAuto paint supplier: CONFIRMED by search (uzavtosanoat.uz lists 'Uz Dong Zhu Paint' among main UzAuto Motors suppliers; Daryo 2024 says the buyer is committed to GM standards/OEM requirements; Golden Pages calls it a paint plant serving GM). That it makes these specific products is still inference, so manufacturer_confidence 'medium' is right, and 'low' for the thinners. Korean technology partner (KCC/Noroo) not confirmed. KCC enamel thinner 012 (third-party host) is a general-industrial thinner, a weak equivalent. The koreascience 2006 paper is OK as 'paper' type only."
+ },
+ {
+  "id": 11,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "reason": "ABB RB1000-WSC is the waterborne cartridge-bell (CBS) atomizer (ABB: 'direct-charge waterborne atomizer utilizing paint cartridges'); this line uses solvent-borne paint, so wrong equipment class. RB1000-SSD (solvent-borne) is the relevant one."
+   }
+  ],
+  "notes": "REVIEW round3: Uz-DongJu Paint JV as UzAuto paint supplier: CONFIRMED by search (uzavtosanoat.uz lists 'Uz Dong Zhu Paint' among main UzAuto Motors suppliers; Daryo 2024 says the buyer is committed to GM standards/OEM requirements; Golden Pages calls it a paint plant serving GM). That it makes these specific products is still inference, so manufacturer_confidence 'medium' is right, and 'low' for the thinners. Korean technology partner (KCC/Noroo) not confirmed. Lesonal Basecoat SB TDS confirmed by search (AkzoNobel host, 09/12/2019, NA refinish PST). It and Centari 600 are refinish solvent-borne proxies, correctly labelled 'equivalent'. The PPG/BASF OEM basecoat HTML pages are fine as class references. The gmparts.com touch-up pen page is a colour reference only (HTML), not a passport."
+ },
+ {
+  "id": 12,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "reason": "ABB RB1000-WSC is the waterborne cartridge-bell (CBS) atomizer (ABB: 'direct-charge waterborne atomizer utilizing paint cartridges'); this line uses solvent-borne paint, so wrong equipment class. RB1000-SSD (solvent-borne) is the relevant one."
+   }
+  ],
+  "notes": "REVIEW round3: Uz-DongJu Paint JV as UzAuto paint supplier: CONFIRMED by search (uzavtosanoat.uz lists 'Uz Dong Zhu Paint' among main UzAuto Motors suppliers; Daryo 2024 says the buyer is committed to GM standards/OEM requirements; Golden Pages calls it a paint plant serving GM). That it makes these specific products is still inference, so manufacturer_confidence 'medium' is right, and 'low' for the thinners. Korean technology partner (KCC/Noroo) not confirmed. Lesonal Basecoat SB TDS confirmed by search (AkzoNobel host, 09/12/2019, NA refinish PST). It and Centari 600 are refinish solvent-borne proxies, correctly labelled 'equivalent'. The PPG/BASF OEM basecoat HTML pages are fine as class references."
+ },
+ {
+  "id": 13,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "reason": "ABB RB1000-WSC is the waterborne cartridge-bell (CBS) atomizer (ABB: 'direct-charge waterborne atomizer utilizing paint cartridges'); this line uses solvent-borne paint, so wrong equipment class. RB1000-SSD (solvent-borne) is the relevant one."
+   }
+  ],
+  "notes": "REVIEW round3: Uz-DongJu Paint JV as UzAuto paint supplier: CONFIRMED by search (uzavtosanoat.uz lists 'Uz Dong Zhu Paint' among main UzAuto Motors suppliers; Daryo 2024 says the buyer is committed to GM standards/OEM requirements; Golden Pages calls it a paint plant serving GM). That it makes these specific products is still inference, so manufacturer_confidence 'medium' is right, and 'low' for the thinners. Korean technology partner (KCC/Noroo) not confirmed. Lesonal Basecoat SB TDS confirmed by search (AkzoNobel host, 09/12/2019, NA refinish PST). It and Centari 600 are refinish solvent-borne proxies, correctly labelled 'equivalent'. The PPG/BASF OEM basecoat HTML pages are fine as class references."
+ },
+ {
+  "id": 14,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "reason": "ABB RB1000-WSC is the waterborne cartridge-bell (CBS) atomizer (ABB: 'direct-charge waterborne atomizer utilizing paint cartridges'); this line uses solvent-borne paint, so wrong equipment class. RB1000-SSD (solvent-borne) is the relevant one."
+   }
+  ],
+  "notes": "REVIEW round3: Uz-DongJu Paint JV as UzAuto paint supplier: CONFIRMED by search (uzavtosanoat.uz lists 'Uz Dong Zhu Paint' among main UzAuto Motors suppliers; Daryo 2024 says the buyer is committed to GM standards/OEM requirements; Golden Pages calls it a paint plant serving GM). That it makes these specific products is still inference, so manufacturer_confidence 'medium' is right, and 'low' for the thinners. Korean technology partner (KCC/Noroo) not confirmed. Lesonal Basecoat SB TDS confirmed by search (AkzoNobel host, 09/12/2019, NA refinish PST). It and Centari 600 are refinish solvent-borne proxies, correctly labelled 'equivalent'. The PPG/BASF OEM basecoat HTML pages are fine as class references."
+ },
+ {
+  "id": 15,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "reason": "ABB RB1000-WSC is the waterborne cartridge-bell (CBS) atomizer (ABB: 'direct-charge waterborne atomizer utilizing paint cartridges'); this line uses solvent-borne paint, so wrong equipment class. RB1000-SSD (solvent-borne) is the relevant one."
+   }
+  ],
+  "notes": "REVIEW round3: Uz-DongJu Paint JV as UzAuto paint supplier: CONFIRMED by search (uzavtosanoat.uz lists 'Uz Dong Zhu Paint' among main UzAuto Motors suppliers; Daryo 2024 says the buyer is committed to GM standards/OEM requirements; Golden Pages calls it a paint plant serving GM). That it makes these specific products is still inference, so manufacturer_confidence 'medium' is right, and 'low' for the thinners. Korean technology partner (KCC/Noroo) not confirmed. Lesonal Basecoat SB TDS confirmed by search (AkzoNobel host, 09/12/2019, NA refinish PST). It and Centari 600 are refinish solvent-borne proxies, correctly labelled 'equivalent'. The PPG/BASF OEM basecoat HTML pages are fine as class references. sds.fmpco.com is an HTML landing page for a Sherwin-Williams aerosol lacquer touch-up SDS, a colour reference only. Its hazard profile is not representative of the OEM basecoat."
+ },
+ {
+  "id": 16,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "reason": "ABB RB1000-WSC is the waterborne cartridge-bell (CBS) atomizer (ABB: 'direct-charge waterborne atomizer utilizing paint cartridges'); this line uses solvent-borne paint, so wrong equipment class. RB1000-SSD (solvent-borne) is the relevant one."
+   }
+  ],
+  "notes": "REVIEW round3: Uz-DongJu Paint JV as UzAuto paint supplier: CONFIRMED by search (uzavtosanoat.uz lists 'Uz Dong Zhu Paint' among main UzAuto Motors suppliers; Daryo 2024 says the buyer is committed to GM standards/OEM requirements; Golden Pages calls it a paint plant serving GM). That it makes these specific products is still inference, so manufacturer_confidence 'medium' is right, and 'low' for the thinners. Korean technology partner (KCC/Noroo) not confirmed. Lesonal Basecoat SB TDS confirmed by search (AkzoNobel host, 09/12/2019, NA refinish PST). It and Centari 600 are refinish solvent-borne proxies, correctly labelled 'equivalent'. The PPG/BASF OEM basecoat HTML pages are fine as class references."
+ },
+ {
+  "id": 17,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "reason": "ABB RB1000-WSC is the waterborne cartridge-bell (CBS) atomizer (ABB: 'direct-charge waterborne atomizer utilizing paint cartridges'); this line uses solvent-borne paint, so wrong equipment class. RB1000-SSD (solvent-borne) is the relevant one."
+   }
+  ],
+  "notes": "REVIEW round3: Uz-DongJu Paint JV as UzAuto paint supplier: CONFIRMED by search (uzavtosanoat.uz lists 'Uz Dong Zhu Paint' among main UzAuto Motors suppliers; Daryo 2024 says the buyer is committed to GM standards/OEM requirements; Golden Pages calls it a paint plant serving GM). That it makes these specific products is still inference, so manufacturer_confidence 'medium' is right, and 'low' for the thinners. Korean technology partner (KCC/Noroo) not confirmed. Lesonal Basecoat SB TDS confirmed by search (AkzoNobel host, 09/12/2019, NA refinish PST). It and Centari 600 are refinish solvent-borne proxies, correctly labelled 'equivalent'. The PPG/BASF OEM basecoat HTML pages are fine as class references."
+ },
+ {
+  "id": 18,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "reason": "ABB RB1000-WSC is the waterborne cartridge-bell (CBS) atomizer (ABB: 'direct-charge waterborne atomizer utilizing paint cartridges'); this line uses solvent-borne paint, so wrong equipment class. RB1000-SSD (solvent-borne) is the relevant one."
+   }
+  ],
+  "notes": "REVIEW round3: Uz-DongJu Paint JV as UzAuto paint supplier: CONFIRMED by search (uzavtosanoat.uz lists 'Uz Dong Zhu Paint' among main UzAuto Motors suppliers; Daryo 2024 says the buyer is committed to GM standards/OEM requirements; Golden Pages calls it a paint plant serving GM). That it makes these specific products is still inference, so manufacturer_confidence 'medium' is right, and 'low' for the thinners. Korean technology partner (KCC/Noroo) not confirmed. Lesonal Basecoat SB TDS confirmed by search (AkzoNobel host, 09/12/2019, NA refinish PST). It and Centari 600 are refinish solvent-borne proxies, correctly labelled 'equivalent'. The PPG/BASF OEM basecoat HTML pages are fine as class references."
+ },
+ {
+  "id": 19,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "reason": "ABB RB1000-WSC is the waterborne cartridge-bell (CBS) atomizer (ABB: 'direct-charge waterborne atomizer utilizing paint cartridges'); this line uses solvent-borne paint, so wrong equipment class. RB1000-SSD (solvent-borne) is the relevant one."
+   }
+  ],
+  "notes": "REVIEW round3: Uz-DongJu Paint JV as UzAuto paint supplier: CONFIRMED by search (uzavtosanoat.uz lists 'Uz Dong Zhu Paint' among main UzAuto Motors suppliers; Daryo 2024 says the buyer is committed to GM standards/OEM requirements; Golden Pages calls it a paint plant serving GM). That it makes these specific products is still inference, so manufacturer_confidence 'medium' is right, and 'low' for the thinners. Korean technology partner (KCC/Noroo) not confirmed. Lesonal Basecoat SB TDS confirmed by search (AkzoNobel host, 09/12/2019, NA refinish PST). It and Centari 600 are refinish solvent-borne proxies, correctly labelled 'equivalent'. The PPG/BASF OEM basecoat HTML pages are fine as class references."
+ },
+ {
+  "id": 20,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "reason": "ABB RB1000-WSC is the waterborne cartridge-bell (CBS) atomizer (ABB: 'direct-charge waterborne atomizer utilizing paint cartridges'); this line uses solvent-borne paint, so wrong equipment class. RB1000-SSD (solvent-borne) is the relevant one."
+   }
+  ],
+  "notes": "REVIEW round3: Uz-DongJu Paint JV as UzAuto paint supplier: CONFIRMED by search (uzavtosanoat.uz lists 'Uz Dong Zhu Paint' among main UzAuto Motors suppliers; Daryo 2024 says the buyer is committed to GM standards/OEM requirements; Golden Pages calls it a paint plant serving GM). That it makes these specific products is still inference, so manufacturer_confidence 'medium' is right, and 'low' for the thinners. Korean technology partner (KCC/Noroo) not confirmed. Lesonal Basecoat SB TDS confirmed by search (AkzoNobel host, 09/12/2019, NA refinish PST). It and Centari 600 are refinish solvent-borne proxies, correctly labelled 'equivalent'. The PPG/BASF OEM basecoat HTML pages are fine as class references."
+ },
+ {
+  "id": 21,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "reason": "ABB RB1000-WSC is the waterborne cartridge-bell (CBS) atomizer (ABB: 'direct-charge waterborne atomizer utilizing paint cartridges'); this line uses solvent-borne paint, so wrong equipment class. RB1000-SSD (solvent-borne) is the relevant one."
+   }
+  ],
+  "notes": "REVIEW round3: Uz-DongJu Paint JV as UzAuto paint supplier: CONFIRMED by search (uzavtosanoat.uz lists 'Uz Dong Zhu Paint' among main UzAuto Motors suppliers; Daryo 2024 says the buyer is committed to GM standards/OEM requirements; Golden Pages calls it a paint plant serving GM). That it makes these specific products is still inference, so manufacturer_confidence 'medium' is right, and 'low' for the thinners. Korean technology partner (KCC/Noroo) not confirmed. Lesonal Basecoat SB TDS confirmed by search (AkzoNobel host, 09/12/2019, NA refinish PST). It and Centari 600 are refinish solvent-borne proxies, correctly labelled 'equivalent'. The PPG/BASF OEM basecoat HTML pages are fine as class references."
+ },
+ {
+  "id": 22,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "reason": "ABB RB1000-WSC is the waterborne cartridge-bell (CBS) atomizer (ABB: 'direct-charge waterborne atomizer utilizing paint cartridges'); this line uses solvent-borne paint, so wrong equipment class. RB1000-SSD (solvent-borne) is the relevant one."
+   }
+  ],
+  "notes": "REVIEW round3: Uz-DongJu Paint JV as UzAuto paint supplier: CONFIRMED by search (uzavtosanoat.uz lists 'Uz Dong Zhu Paint' among main UzAuto Motors suppliers; Daryo 2024 says the buyer is committed to GM standards/OEM requirements; Golden Pages calls it a paint plant serving GM). That it makes these specific products is still inference, so manufacturer_confidence 'medium' is right, and 'low' for the thinners. Korean technology partner (KCC/Noroo) not confirmed. Lesonal Basecoat SB TDS confirmed by search (AkzoNobel host, 09/12/2019, NA refinish PST). It and Centari 600 are refinish solvent-borne proxies, correctly labelled 'equivalent'. The PPG/BASF OEM basecoat HTML pages are fine as class references."
+ },
+ {
+  "id": 23,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": "REVIEW round3: Uz-DongJu Paint JV as UzAuto paint supplier: CONFIRMED by search (uzavtosanoat.uz lists 'Uz Dong Zhu Paint' among main UzAuto Motors suppliers; Daryo 2024 says the buyer is committed to GM standards/OEM requirements; Golden Pages calls it a paint plant serving GM). That it makes these specific products is still inference, so manufacturer_confidence 'medium' is right, and 'low' for the thinners. Korean technology partner (KCC/Noroo) not confirmed. KCC enamel thinner 012 (third-party host) is a general-industrial thinner, a weak equivalent. The koreascience 2006 paper is OK as 'paper' type only."
+ },
+ {
+  "id": 24,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://library.e.abb.com/public/c5eb0b4ef05e4ec6af77b23d359dbf63/RB%201000-WSC.pdf",
+    "reason": "ABB RB1000-WSC is the waterborne cartridge-bell (CBS) atomizer (ABB: 'direct-charge waterborne atomizer utilizing paint cartridges'); this line uses solvent-borne paint, so wrong equipment class. RB1000-SSD (solvent-borne) is the relevant one."
+   }
+  ],
+  "notes": "REVIEW round3: Uz-DongJu Paint JV as UzAuto paint supplier: CONFIRMED by search (uzavtosanoat.uz lists 'Uz Dong Zhu Paint' among main UzAuto Motors suppliers; Daryo 2024 says the buyer is committed to GM standards/OEM requirements; Golden Pages calls it a paint plant serving GM). That it makes these specific products is still inference, so manufacturer_confidence 'medium' is right, and 'low' for the thinners. Korean technology partner (KCC/Noroo) not confirmed. PPG 'AUE-40' SDS on brandenburg.com: search confirms the SDS title 'AUE-40 OEM Clearcoat' (PPG, v10 2016), but the host filename says 'Amerlock' (a PPG protective-coatings line), so the product class is ambiguous. Keep as weak equivalent. The buyat.ppg.com EHS servlet URL (StreamId/id params) is a stable document id, not session-signed, but it is a consumer/refinish 1K clear, so only a loose equivalent. KCC 7300/9020 are refinish 2K clears (equivalent, OK)."
+ },
+ {
+  "id": 25,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": "REVIEW round3: Uz-DongJu Paint JV as UzAuto paint supplier: CONFIRMED by search (uzavtosanoat.uz lists 'Uz Dong Zhu Paint' among main UzAuto Motors suppliers; Daryo 2024 says the buyer is committed to GM standards/OEM requirements; Golden Pages calls it a paint plant serving GM). That it makes these specific products is still inference, so manufacturer_confidence 'medium' is right, and 'low' for the thinners. Korean technology partner (KCC/Noroo) not confirmed. KCC enamel thinner 012 (third-party host) is a general-industrial thinner, a weak equivalent. The koreascience 2006 paper is OK as 'paper' type only."
+ },
+ {
+  "id": 26,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://www.kccworld.co.kr/techdoc/c02/cvt/F202310110121897.pdf",
+    "reason": "KCC 006(N) is a cleaning thinner for WATERBORNE automotive lines (per round-2 note). Id 26 shares spec KR-RHT-031 with the solvent-borne base thinner (id 23) on a solvent-borne line, so wrong chemistry class."
+   }
+  ],
+  "notes": "REVIEW round3: Uz-DongJu Paint JV as UzAuto paint supplier: CONFIRMED by search (uzavtosanoat.uz lists 'Uz Dong Zhu Paint' among main UzAuto Motors suppliers; Daryo 2024 says the buyer is committed to GM standards/OEM requirements; Golden Pages calls it a paint plant serving GM). That it makes these specific products is still inference, so manufacturer_confidence 'medium' is right, and 'low' for the thinners. Korean technology partner (KCC/Noroo) not confirmed. The Noroo DR-170 lacquer thinner is an acceptable purge-solvent equivalent. Noroo SHH710501 has an unknown product name/use, so it is low relevance (keep only as hazard reference, consider dropping). Eastman purge bulletins and the DTSC fact sheet are 'paper' context only, not passports."
+ },
+ {
+  "id": 27,
+  "manufacturer_update": {
+   "manufacturer": "Kukdong Jeyen Co., Ltd. (극동제연) - KD Finechem Co., Ltd. (CROWN trademark owner; European arm Kukdong-Euro, Trnava)",
+   "product_identified": "CROWN Brake Fluid DOT-4+ (DOT 4 Plus) - CROWN brand by 극동제연 confirmed (Danawa lists 극동제연 크라운 브레이크액 DOT3), DOT-4+ variant not independently confirmed",
+   "manufacturer_confidence": "high",
+   "evidence": "Danawa (plan.danawa.com/info/?nPlanSeq=3938) lists 극동제연 크라운 브레이크액 DOT3 800ml; Justia trademark record: CROWN mark owned by KD FINECHEM CO., LTD.; Kukdong-Euro (KD Finechem) supplies coolant/brake fluid to Hyundai/Kia/VW. The chemknock and TradeKorea DOT-4+ listings did not appear in review searches."
+  },
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": "REVIEW round3: Manufacturer: CONFIRMED (CROWN = Kukdong Jeyen / KD Finechem). Exact DOT-4+ grade: plausible, unverified. The chemknock page is labelled 'exact' (HTML, file null). Acceptable as exact product identification but not a passport; keep. The DASCO MSDS filename was not found in search. Twin Engineers fluid-filling brochure (alt vendor) was not found by filename in search. Its relevance is low (no evidence of use at UzAuto); keep as class reference only."
+ },
+ {
+  "id": 28,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": "REVIEW round3: Dexron-VI SDS set is fine, all labelled equivalent. The ACDelco AU LQ9RG URL was not found by name in search (an ACDelco AU DEXRON-VI SDS exists, Infosafe 1EVFM on torqueking.com). The webflow-hosted SDS has an odd but stable CDN URL. Twin Engineers fluid-filling brochure (alt vendor) was not found by filename in search. Its relevance is low (no evidence of use at UzAuto); keep as class reference only."
+ },
+ {
+  "id": 29,
+  "manufacturer_update": {
+   "manufacturer": "Tosol-Sintez-Invest (Dzerzhinsk, Russia) - FELIX brand",
+   "product_identified": "FELIX red OAT carboxylate concentrate; 'DX-COOL' most likely = DEX-COOL (GM 6277M/GMW3420 type) designation, not a FELIX product name. FELIX CARBOX G12+ is a candidate, not confirmed",
+   "manufacturer_confidence": "medium",
+   "evidence": "Spec column says 'Felix'; FELIX Carbox G12+ is red OAT by Tosol-Sintez-Invest sold in UZ (prom.uz incl. 220 kg); exact search for 'DX-COOL' returns only GM DEX-COOL products; no source shows Carbox with GM 6277M approval or FELIX supply to UzAuto (FELIX does supply OEM conveyors, e.g. KAMAZ gets CARBOX SQ)."
+  },
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": "REVIEW round3: LABEL CORRECTION: the FELIX CARBOX + конц. TDS (antifreezefelix.ru) is labelled 'exact' and should be 'equivalent' (candidate). DX-COOL to Carbox mapping is unproven, and DX-COOL most likely means a DEX-COOL-type (GM 6277M) coolant. The FELIX TYPE D/JDM/DRAGON sheets are other grades (weak). FELIX Carbox SQ was the KAMAZ conveyor fill, which is a hint that an OEM-fill grade could also be SQ-class. Twin Engineers fluid-filling brochure (alt vendor) was not found by filename in search. Its relevance is low (no evidence of use at UzAuto); keep as class reference only."
+ },
+ {
+  "id": 30,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": "REVIEW round3: Idemitsu Daphne Super Gear Oil 150 is an INDUSTRIAL gear oil and ATF Type-HP is an ATF, not an MTF: both very weak equivalents (keep only as producer hazard refs). The Idemitsu MTF leaflet is the best of the set. Twin Engineers fluid-filling brochure (alt vendor) was not found by filename in search. Its relevance is low (no evidence of use at UzAuto); keep as class reference only."
+ },
+ {
+  "id": 31,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": "REVIEW round3: Shell Spirax S6 GXME 75W-80 TDS URL is confirmed by search (tdxltd.co.nz/media/pdfs/49977.pdf). The Motorcraft 75W-85 is a GL-5 hypoid axle lube, a weak equivalent for a GL-4 MTF. Twin Engineers fluid-filling brochure (alt vendor) was not found by filename in search. Its relevance is low (no evidence of use at UzAuto); keep as class reference only."
+ },
+ {
+  "id": 32,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": "REVIEW round3: Dexron-VI SDS set is fine, all labelled equivalent. The ACDelco AU LQ9RG URL was not found by name in search (an ACDelco AU DEXRON-VI SDS exists, Infosafe 1EVFM on torqueking.com). The webflow-hosted SDS has an odd but stable CDN URL. Twin Engineers fluid-filling brochure (alt vendor) was not found by filename in search. Its relevance is low (no evidence of use at UzAuto); keep as class reference only."
+ },
+ {
+  "id": 33,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": "REVIEW round3: Twin Engineers fluid-filling brochure (alt vendor) was not found by filename in search. Its relevance is low (no evidence of use at UzAuto); keep as class reference only."
+ },
+ {
+  "id": 34,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://www.automotive.upit.ro/2017/2017_6_.pdf",
+    "reason": "Academic paper (Univ. Pitesti bulletin) filed as an equipment 'brochure'. Academic papers may only be 'paper' material docs, not equipment passports."
+   }
+  ],
+  "notes": "REVIEW round3: studfile GOST 32513-2013 is an HTML preview of a superseded standard (file null). OK as reference only."
+ },
+ {
+  "id": 35,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": "REVIEW round3: Eurol/ROWE screenwash SDS: equivalent, OK. The ROWE 21111 vs 21104 concentrate mapping is still unconfirmed. Twin Engineers fluid-filling brochure (alt vendor) was not found by filename in search. Its relevance is low (no evidence of use at UzAuto); keep as class reference only."
+ },
+ {
+  "id": 36,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": "REVIEW round3: Dow BETASEAL AGSC compilation and the U-418 brochure are aftermarket-glass docs: equivalent, OK. The US 5277927 patent was already removed in round2_cleanup."
+ },
+ {
+  "id": 37,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": "REVIEW round3: TECHNOMELT class: SUPPORTED. The Henkel AS 8383 TDS URL is confirmed by search, Henkel markets it for headliner attachment, and the Henkel selection guide lists AS 8383 as meeting GM 9985942/9986384/9985744 (GM specs), which strengthens the GM-plant link. The exact product is still unconfirmed, so 'equivalent' labels are correct. Henkel DAM servlet URLs (no .pdf extension) are fine. The PUR 9622-02 / lamination brochure is a supplier-side lamination doc, less relevant."
+ },
+ {
+  "id": 38,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://prostech.vn/wp-content/uploads/2020/02/Nordson_EFD_752V_Data_Sheet.pdf",
+    "reason": "Duplicate: same Nordson EFD 752V data sheet already added for id 38 from flumasys.com."
+   }
+  ],
+  "notes": "REVIEW round3: The Sika 'Windscreen Bonding' (UK) doc is an aftermarket material/how-to leaflet sitting in equipment docs, not an equipment passport (weak; consider moving). The USPTO patents were already removed by round2_cleanup."
+ },
+ {
+  "id": 40,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": "REVIEW round3: Aktivator-100 'exact' is OK given spec '100-UZ'. Note the catalog now holds about 6 language copies of the same Aktivator-100 PDS (US, BG, CZ, DK) plus SDS, which is redundant: keep US (packaging 250 ml/1 L confirmed) plus at most one EU copy. The DK URL path 'dk01/w/' differs from the search-indexed 'dk01/k/sika_aktivator-100.pdf', so verify it. The BETAPRIME/BETACLEAN brochure was added twice for id 40 in round2_E (same URL); dedupe."
+ },
+ {
+  "id": 41,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": "REVIEW round3: RAD 11724 to Sika Aktivator-100: NOT VERIFIED. The search for 'RAD 11724' returns nothing relevant, and the identification rests only on spec text 'SIKA-100-UZ' equal to id 40. The material is labelled 'Bo'yoq' (paint), so a black primer remains possible. Aktivator docs are correctly labelled 'equivalent' here and must not be upgraded to exact."
+ },
+ {
+  "id": 42,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": "REVIEW round3: MOLYKOTE M-77 for wheel pilot: WEAK. NHTSA TSB 17-NA-235 exists and specifies ACDelco M-77 (P/N 19356408), but on the hub BEARING surface of the Chevrolet City Express (a Nissan-built van), not the wheel pilot bore, and it is a service fix, not a plant spec. GM service notes only say 'GM-recommended grease' at the pilot, and another GM TSB uses MOLYKOTE Cu-7439 Plus on the hub spigot. So the M-77 TDS is an 'equivalent' candidate only (label OK); manufacturer stays unknown. The Graco Fire-Ball 300 manuals are drum pumps, not a fit for a 15 kg pail (weak)."
+ },
+ {
+  "id": 43,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "brochure",
+    "title": "Klüber 'Speciality lubricants for the automotive industry' B082003002, edition 05.16 (Klüber-hosted)",
+    "url": "https://www.klueber.com/ecoma/files/B082003002_Automotive_160531_EN.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": false,
+    "note": "Found in round-3 search (klueber.com host). Same file as the silmid mirror. The GNY 202 listing in the product table was not visible in the search snippet, hence 'equivalent' (manufacturer brochure)."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://www.silmid.com/us/Documents/Brochures/B082003002_Automotive_160531_EN.pdf",
+    "reason": "Distributor mirror of the Klüber brochure B082003002 (05.16). The same file is manufacturer-hosted at klueber.com (added instead)."
+   }
+  ],
+  "notes": "REVIEW round3: LABEL CORRECTION: the B082003002 brochures (Driving-Kluber-Lubrication.pdf, automotivebroschuere_EN_160523_SCREEN.pdf) are labelled 'exact' but are multi-product manufacturer brochures. A review search could not confirm that they list MICROLUBE GNY 202, so they should be 'equivalent' until verified (the GNY 202 product pages on klueber.com remain the 'exact' refs). The two klueber.com variants and the 160531 file are probably editions of the same brochure; dedupe after verification. The LuK clutch-hub guide is fine as 'paper'."
+ }
+]
