@@ -96,15 +96,6 @@
     "note": "evidence: %PDF, 2 pp, created 2025-10-07; \"PRODUCT DATA SHEET Sikaflex-250 DP-2 PowerCure Accelerated, high modulus adhesive for assembly application ... made for Sika's PowerCure system ... suitable for direct glazing applications ... in the automotive industry\"; Shore A 70, tensile 7 MPa, lap-shear 4 MPa. The \"Sikaflex-250 DP-2 + SikaBooster P-50\" PDS is gone (404, not in Sika DE DMS sitemap); DP-2 PowerCure is the current accelerated DP-2 system = equivalent."
    },
    {
-    "type": "brochure",
-    "title": "Dow Automotive Systems (BETASEAL/BETAPRIME, now DuPont) - AGRSS retention-system requirements matrix and product brochures incl. Fixed Glass Installation Guide v5.4 (AGSC, 03-08-2018)",
-    "url": "https://www.agsc.org/documents/DowASMRequirementsMatrixandProductBrochures_03082018.pdf",
-    "language": "en",
-    "exact_or_equivalent": "equivalent",
-    "verified": true,
-    "note": "evidence: %PDF, 33 pp, 13.5 MB, created 2018-03-08; \"Retention System Provider Training Instructions and Documentation Worksheet ... Dow Automotive Systems Products 02-14-18 ... Dow Automotive Fixed Glass Installation Guide Ver. 5.4 (2018)\"; mentions BETASEAL U-418/U-418HV/U-428/U-838/Express/Xpress30, BETAPRIME 5504G (applied with wool daubers), BETACLEAN GC-800/U-424. The earlier failure was transient (\"Remote end closed connection\"); the same URL downloads fine now (re-added as verified)."
-   },
-   {
     "type": "PDS",
     "title": "Sikaflex-250 UC-1 Product Data Sheet - room temperature applied direct glazing adhesive (Sika Corporation US, v02.01, 03-2023)",
     "url": "https://usa.sika.com/dam/dms/us01/m/sikaflex-250-uc-1.pdf",
@@ -370,6 +361,13 @@
     "role": "Melt and dispense headliner attachment beads",
     "rationale": "900 lb bulk box format implies bulk melter feeding; chemistry still unconfirmed.",
     "confidence": "low"
+   },
+   {
+    "vendor": "Graco",
+    "model": "InvisiPac HM25 / HM50",
+    "role": "Hot-melt pellet feed from bulk box, melt on demand",
+    "rationale": "408 kg/BOX packaging suggests bulk hot-melt pellets; adhesive chemistry unconfirmed",
+    "confidence": "low"
    }
   ],
   "equipment_docs": [
@@ -391,6 +389,15 @@
      "process_ok": true,
      "reason": "Brochure for the exact model, with specs. Heated closed-loop bead metering fits the warm-applied PU windshield adhesive (id 36) and the headliner hot-melt (id 37, which needs a bulk melter upstream). It also lists seam sealing and underbody coating, relevant to ids 4-7."
     }
+   },
+   {
+    "vendor": "Graco",
+    "model": "InvisiPac HM25 / HM50 Tank-Free hot melt delivery system",
+    "type": "manual",
+    "title": "Graco InvisiPac HM25 and HM50 Tank-Free Hot Melt Delivery System - Instructions-Parts 333347 rev. ZAE (EN)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/333/333347/333347EN.pdf",
+    "verified": true,
+    "note": "evidence: downloaded; 'For delivering and dispensing hot melt adhesive pellets'; vacuum pellet feed from bulk containers fits the 408 kg box packaging"
    }
   ],
   "notes": "No identification possible from 'ADHESIVE-HDLNG T/PNL'. Nordson automotive interiors page (HTML, has brochure download): https://www.nordson.com/en/divisions/adhesive-dispensing-systems/product-assembly/auto-assembly/automotive-interiors. Bostik headliner hot-melt page: https://www.bostik.com/us/en_US/markets-applications/automotive/headliner/. Request supplier label/SDS from plant. | round2_E evidence: 408 kg = 900 lb exactly (like 271 kg drum ~ 600 lb), i.e. a US-unit bulk hot-melt box/tote typical for bulk melters; Henkel TECHNOMELT AS 8383 TDS explicitly lists headliner attachment; Bostik Thermogrip H9446/H9438/9431 TDSs list headliner attachment. Reactive PUR (TECHNOMELT PUR 9622-02) / water-based (TEROSON PU A235 W) are headliner LAMINATION adhesives used at the headliner supplier, less likely for a final-assembly 'HDLNG T/PNL' item. | round2_E: No exact product found. No new hot-melt melter PDF found (search budget exhausted). ValcoMelton roof-panel assembly page (HTML) confirms hot melt / cold spray in roof panel assembly: https://valcomelton.com/industries/automotive/roof-panel-assembly. Need plant label. | round3_review: REVIEW round3: TECHNOMELT class: SUPPORTED. The Henkel AS 8383 TDS URL is confirmed by search, Henkel markets it for headliner attachment, and the Henkel selection guide lists AS 8383 as meeting GM 9985942/9986384/9985744 (GM specs), which strengthens the GM-plant link. The exact product is still unconfirmed, so 'equivalent' labels are correct. Henkel DAM servlet URLs (no .pdf extension) are fine. The PUR 9622-02 / lamination brochure is a supplier-side lamination doc, less relevant. | round4_assembly: Still unidentified. 408 kg = 900 lb (US bulk unit). Henkel TECHNOMELT AS 8383 / Bostik Thermogrip TDS in catalog give no packaging. Uzbek procurement portals: xarid.uzex.uz and etender.uzex.uz are JavaScript single-page apps whose data come from authenticated APIs (xarid-api-*.uzex.uz, apietender.uzex.uz); no public lot text could be read, so no supplier evidence. Nordson's 'ProBlue' is a tank-melter family; Nordson bulk melters are VersaDrum / VersaPail / AltaPail II (search index; nordson.com blocks automated fetch) and Graco offers 'Therm-O-Flow Bulk Hot Melt Systems' - none can be tied to a 408 kg box without plant data."
@@ -820,15 +827,6 @@
    },
    {
     "type": "brochure",
-    "title": "Dow Automotive Systems (BETASEAL/BETAPRIME, now DuPont) - AGRSS retention-system requirements matrix and product brochures incl. Fixed Glass Installation Guide v5.4 (AGSC, 03-08-2018)",
-    "url": "https://www.agsc.org/documents/DowASMRequirementsMatrixandProductBrochures_03082018.pdf",
-    "language": "en",
-    "exact_or_equivalent": "equivalent",
-    "verified": true,
-    "note": "evidence: %PDF, 33 pp, 13.5 MB, created 2018-03-08; \"Retention System Provider Training Instructions and Documentation Worksheet ... Dow Automotive Systems Products 02-14-18 ... Dow Automotive Fixed Glass Installation Guide Ver. 5.4 (2018)\"; mentions BETASEAL U-418/U-418HV/U-428/U-838/Express/Xpress30, BETAPRIME 5504G (applied with wool daubers), BETACLEAN GC-800/U-424. The earlier failure was transient (\"Remote end closed connection\"); the same URL downloads fine now (re-added as verified)."
-   },
-   {
-    "type": "brochure",
     "title": "Sika Automotive - Assembly Line Adhesives brochure (direct glazing systems, pre-treatments; (c) 2025 Sika Corporation, 12.2025)",
     "url": "https://automotive.sika.com/dam/dms/global-industry/t/assemby-line-adhesives.pdf",
     "language": "en",
@@ -864,15 +862,6 @@
     "note": "evidence: %PDF, 3 pp, created 2016-05-10; \"752V Diaphragm Valve - Compact diaphragm valve for fine flow control ... low to medium viscosity fluids ... adjustable open/close stroke 0.13 to 0.64 mm ... 752V-UHSS ... dispensing solvents, cyanoacrylates, anaerobics and fluxes ... P/N 7021428 / 7021419 ... Maximum fluid pressure 70 psi (4.8 bar)\"; footer \"(c)2016 Nordson Corporation v041516\". Distributor-hosted (Prostech, Vietnam - linked from prostech.vn/nordson-752v-diaphragm-valves/); flumasys.com/.cz userfiles were removed (404) and nordson.com is behind a Cloudflare challenge for this session."
    },
    {
-    "vendor": "Dow Automotive Systems / DuPont (BETASEAL)",
-    "model": "Primer/cleaner manual application accessories (wool daubers, applicators)",
-    "type": "brochure",
-    "title": "Dow Automotive Systems (BETASEAL/BETAPRIME, now DuPont) - AGRSS retention-system requirements matrix and product brochures incl. Fixed Glass Installation Guide v5.4 (AGSC, 03-08-2018)",
-    "url": "https://www.agsc.org/documents/DowASMRequirementsMatrixandProductBrochures_03082018.pdf",
-    "verified": true,
-    "note": "evidence: %PDF, 33 pp, 13.5 MB, created 2018-03-08; \"Retention System Provider Training Instructions and Documentation Worksheet ... Dow Automotive Systems Products 02-14-18 ... Dow Automotive Fixed Glass Installation Guide Ver. 5.4 (2018)\"; mentions BETASEAL U-418/U-418HV/U-428/U-838/Express/Xpress30, BETAPRIME 5504G (applied with wool daubers), BETACLEAN GC-800/U-424. The earlier failure was transient (\"Remote end closed connection\"); the same URL downloads fine now (re-added as verified). Used here as equivalent for the BETAPRIME/BETACLEAN & Accessories brochure (mascherpa.it 403): its Fixed Glass Installation Guide describes manual application of BETAPRIME 5504G with wool daubers and BETACLEAN GC-800 cleaning."
-   },
-   {
     "vendor": "Nordson EFD",
     "model": "752V Series diaphragm valve (752V-UHSS / 752V-SS / 752V-UH)",
     "type": "datasheet",
@@ -886,29 +875,10 @@
  },
  {
   "id": 41,
-  "manufacturer": "Sika (presumed)",
-  "product_identified": "Unresolved: most plausibly Sika Aktivator-100 in bulk (spec SIKA-100-UZ identical to id 40's '100-UZ') for an automated glass-prep station; 'Bo'yoq'(paint) label may be a mis-translation of primer/activator",
+  "manufacturer": "Unknown (Sika assumed from spec SIKA-100-UZ)",
+  "product_identified": "RAD 11724 - not identified; plant lists it as paint (Bo'yoq), 18 L can, spec SIKA-100-UZ",
   "manufacturer_confidence": "low",
-  "material_docs": [
-   {
-    "type": "PDS",
-    "title": "Sika Aktivator-100 - Product Data Sheet (Sika USA, EN, v05.01, 2023-10)",
-    "url": "https://industry.sika.com/dam/dms/us01/l/sika_aktivator-100.pdf",
-    "language": "en",
-    "exact_or_equivalent": "equivalent",
-    "verified": true,
-    "note": "Only if spec SIKA-100-UZ really means Aktivator-100; unconfirmed. | id 41 identity (RAD 11724 = Aktivator-100) unconfirmed -> equivalent",
-    "verification": {
-     "verdict": "match",
-     "actual_document": "Sika USA Product Data Sheet 'Sika Aktivator-100' - transparent solvent-based adhesion promoter (wipe-on/wipe-off, 20 ml/m2, flash-off 10/30 min), version 05.01 (10-2023), en_US; 2 pp",
-     "doc_type": "PDS",
-     "language": "en",
-     "version_date": "v05.01 (10-2023)",
-     "class_ok": true,
-     "reason": "Confirmed identity of BETAPRIME 100-UZ (id 40). For id 41 (RAD 11724, spec SIKA-100-UZ) keep the catalog's 'equivalent' - identity unconfirmed."
-    }
-   }
-  ],
+  "material_docs": [],
   "equipment": [
    {
     "vendor": "Graco",
@@ -982,7 +952,7 @@
     "note": "evidence: PDF 2 pp, Author 'EFD, Inc.', created 2004-02-09; text 'The 752V Series dispense valve systems accurately control the application of most low to medium viscosity fluids... Model 752V-UHSS with UHMW polymer wetted parts is used for dispensing solvents...'; lists activators/solvents among fluids. Old (2004) edition hosted by distributor G.A. Lindberg (SE); replaces the dead flumasys.com copies. Current Nordson-hosted PDFs could not be fetched (nordson.com behind Cloudflare 403)."
    }
   ],
-  "notes": "Search for 'RAD 11724' returned nothing relevant. Needs plant label/SDS. | round2_E evidence: Spec text matches id 40; 'RAD 11724' search returns nothing relevant (only Fel-Pro RDS 11724 gasket). Sika public PDS lists Aktivator-100 only in 250 ml/1 L, so an 18 L can would be an OEM-only pack. Alternative: a black primer (e.g. Sika Primer-206/207 class) - unconfirmed. | round2_E: Still needs plant label/SDS to identify RAD 11724. | round3_review: REVIEW round3: RAD 11724 to Sika Aktivator-100: NOT VERIFIED. The search for 'RAD 11724' returns nothing relevant, and the identification rests only on spec text 'SIKA-100-UZ' equal to id 40. The material is labelled 'Bo'yoq' (paint), so a black primer remains possible. Aktivator docs are correctly labelled 'equivalent' here and must not be upgraded to exact. | round4_fix: Nordson 752V data sheet recovered from Prostech (distributor). | round4_assembly: 'RAD 11724' returns no web hits (incl. RAD-11724 / RAD11724 + Sika/paint/primer). Sika's OEM pre-treatment range (Sika Automotive brochure 12.2025: Aktivator-100/-110 LUM/-306 LUM/-120 Hydro CF; Primer-209 D/-217 LUM/-219/-506/-507/-220 Hydro) contains no paint; '100' in 'SIKA-100-UZ' fits Aktivator-100 but the 'Bo'yoq' (paint) label and 18 L can stay unexplained. Identity remains unresolved (low)."
+  "notes": "Search for 'RAD 11724' returned nothing relevant. Needs plant label/SDS. | round2_E evidence: Spec text matches id 40; 'RAD 11724' search returns nothing relevant (only Fel-Pro RDS 11724 gasket). Sika public PDS lists Aktivator-100 only in 250 ml/1 L, so an 18 L can would be an OEM-only pack. Alternative: a black primer (e.g. Sika Primer-206/207 class) - unconfirmed. | round2_E: Still needs plant label/SDS to identify RAD 11724. | round3_review: REVIEW round3: RAD 11724 to Sika Aktivator-100: NOT VERIFIED. The search for 'RAD 11724' returns nothing relevant, and the identification rests only on spec text 'SIKA-100-UZ' equal to id 40. The material is labelled 'Bo'yoq' (paint), so a black primer remains possible. Aktivator docs are correctly labelled 'equivalent' here and must not be upgraded to exact. | round4_fix: Nordson 752V data sheet recovered from Prostech (distributor). | round4_assembly: 'RAD 11724' returns no web hits (incl. RAD-11724 / RAD11724 + Sika/paint/primer). Sika's OEM pre-treatment range (Sika Automotive brochure 12.2025: Aktivator-100/-110 LUM/-306 LUM/-120 Hydro CF; Primer-209 D/-217 LUM/-219/-506/-507/-220 Hydro) contains no paint; '100' in 'SIKA-100-UZ' fits Aktivator-100 but the 'Bo'yoq' (paint) label and 18 L can stay unexplained. Identity remains unresolved (low). | round6_final_fixes evidence: final review: no public product matches RAD 11724"
  },
  {
   "id": 42,

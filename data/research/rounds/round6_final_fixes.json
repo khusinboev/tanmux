@@ -1,0 +1,502 @@
+[
+ {
+  "id": 5,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "TDS",
+    "title": "Henkel TEROSON PV 3046 PVC plastisol seam sealer - Technical Data Sheet (EN, April 2021)",
+    "url": "https://datasheets.tdx.henkel.com/TEROSON-PV-3046-en_GL.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "PVC plastisol (same chemistry, heat-cured, sprayable/robotic); seam-sealer grade - no public PDF for a PVC underbody grade was found",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "Henkel Technical Data Sheet TEROSON PV 3046 - solvent-free heat-curing PVC plastisol seam sealer for vehicle bodies on ED steel (min. 140 C / 10 min; high-pressure pumps 48:1-80:1, robotic spray possible); April 2021; EN; 2 pp",
+     "doc_type": "TDS",
+     "language": "en",
+     "version_date": "April 2021",
+     "class_ok": true,
+     "reason": "PVC plastisol body seam sealer - right class for RSB-430 (GVH-403U); competitor equivalent."
+    }
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 6,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "TDS",
+    "title": "Henkel TEROSON PV 3046 PVC plastisol seam sealer - Technical Data Sheet (EN, April 2021)",
+    "url": "https://datasheets.tdx.henkel.com/TEROSON-PV-3046-en_GL.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "PVC plastisol (same chemistry, heat-cured, sprayable/robotic); seam-sealer grade - no public PDF for a PVC underbody grade was found",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "Henkel Technical Data Sheet TEROSON PV 3046 - solvent-free heat-curing PVC plastisol seam sealer for vehicle bodies on ED steel (min. 140 C / 10 min; high-pressure pumps 48:1-80:1, robotic spray possible); April 2021; EN; 2 pp",
+     "doc_type": "TDS",
+     "language": "en",
+     "version_date": "April 2021",
+     "class_ok": true,
+     "reason": "PVC plastisol body seam sealer - right class for RSB-430 (GVH-403U); competitor equivalent."
+    }
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 7,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "TDS",
+    "title": "Henkel TEROSON PV 3046 PVC plastisol seam sealer - Technical Data Sheet (EN, April 2021)",
+    "url": "https://datasheets.tdx.henkel.com/TEROSON-PV-3046-en_GL.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "PVC plastisol (same chemistry, heat-cured, sprayable/robotic); seam-sealer grade - no public PDF for a PVC underbody grade was found",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "Henkel Technical Data Sheet TEROSON PV 3046 - solvent-free heat-curing PVC plastisol seam sealer for vehicle bodies on ED steel (min. 140 C / 10 min; high-pressure pumps 48:1-80:1, robotic spray possible); April 2021; EN; 2 pp",
+     "doc_type": "TDS",
+     "language": "en",
+     "version_date": "April 2021",
+     "class_ok": true,
+     "reason": "PVC plastisol body seam sealer - right class for RSB-430 (GVH-403U); competitor equivalent."
+    }
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 27,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "Somac Compact / Compact X / Compact Ex / BlueStart",
+    "type": "brochure",
+    "title": "Dürr Somac Compact filling stations - official product page (Compact, Compact X, Compact Ex fuel filling, BlueStart, MultiCompact)",
+    "url": "https://www.durr.com/en/products/final-assembly/filling-technology/compact-filling-stations",
+    "verified": true,
+    "note": "evidence: page fetched; names the product (HTML, no PDF datasheet offered)"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Somac ProLine / ProLine Cube / CompLine",
+    "type": "brochure",
+    "title": "Dürr Somac line filling stations - official product page (ProLine, ProLine Cube, CompLine)",
+    "url": "https://www.durr.com/en/products/final-assembly/filling-technology/line-filling-stations",
+    "verified": true,
+    "note": "evidence: page fetched; names the product (HTML, no PDF datasheet offered)"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Somac G4 Blue Filling Adapter / G4 Blue Twin A/C Adapter",
+    "type": "brochure",
+    "title": "Dürr Somac G4 Blue Filling Adapter - official product page (incl. G4 Blue Twin A/C Adapter for R134a/R1234yf)",
+    "url": "https://www.durr.com/en/products/final-assembly/filling-technology/filling-adapter",
+    "verified": true,
+    "note": "evidence: page fetched; names the product (HTML, no PDF datasheet offered)"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 28,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "Somac Compact / Compact X / Compact Ex / BlueStart",
+    "type": "brochure",
+    "title": "Dürr Somac Compact filling stations - official product page (Compact, Compact X, Compact Ex fuel filling, BlueStart, MultiCompact)",
+    "url": "https://www.durr.com/en/products/final-assembly/filling-technology/compact-filling-stations",
+    "verified": true,
+    "note": "evidence: page fetched; names the product (HTML, no PDF datasheet offered)"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Somac ProLine / ProLine Cube / CompLine",
+    "type": "brochure",
+    "title": "Dürr Somac line filling stations - official product page (ProLine, ProLine Cube, CompLine)",
+    "url": "https://www.durr.com/en/products/final-assembly/filling-technology/line-filling-stations",
+    "verified": true,
+    "note": "evidence: page fetched; names the product (HTML, no PDF datasheet offered)"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Somac G4 Blue Filling Adapter / G4 Blue Twin A/C Adapter",
+    "type": "brochure",
+    "title": "Dürr Somac G4 Blue Filling Adapter - official product page (incl. G4 Blue Twin A/C Adapter for R134a/R1234yf)",
+    "url": "https://www.durr.com/en/products/final-assembly/filling-technology/filling-adapter",
+    "verified": true,
+    "note": "evidence: page fetched; names the product (HTML, no PDF datasheet offered)"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 29,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "Somac Compact / Compact X / Compact Ex / BlueStart",
+    "type": "brochure",
+    "title": "Dürr Somac Compact filling stations - official product page (Compact, Compact X, Compact Ex fuel filling, BlueStart, MultiCompact)",
+    "url": "https://www.durr.com/en/products/final-assembly/filling-technology/compact-filling-stations",
+    "verified": true,
+    "note": "evidence: page fetched; names the product (HTML, no PDF datasheet offered)"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Somac ProLine / ProLine Cube / CompLine",
+    "type": "brochure",
+    "title": "Dürr Somac line filling stations - official product page (ProLine, ProLine Cube, CompLine)",
+    "url": "https://www.durr.com/en/products/final-assembly/filling-technology/line-filling-stations",
+    "verified": true,
+    "note": "evidence: page fetched; names the product (HTML, no PDF datasheet offered)"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Somac G4 Blue Filling Adapter / G4 Blue Twin A/C Adapter",
+    "type": "brochure",
+    "title": "Dürr Somac G4 Blue Filling Adapter - official product page (incl. G4 Blue Twin A/C Adapter for R134a/R1234yf)",
+    "url": "https://www.durr.com/en/products/final-assembly/filling-technology/filling-adapter",
+    "verified": true,
+    "note": "evidence: page fetched; names the product (HTML, no PDF datasheet offered)"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 30,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "Somac Compact / Compact X / Compact Ex / BlueStart",
+    "type": "brochure",
+    "title": "Dürr Somac Compact filling stations - official product page (Compact, Compact X, Compact Ex fuel filling, BlueStart, MultiCompact)",
+    "url": "https://www.durr.com/en/products/final-assembly/filling-technology/compact-filling-stations",
+    "verified": true,
+    "note": "evidence: page fetched; names the product (HTML, no PDF datasheet offered)"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Somac ProLine / ProLine Cube / CompLine",
+    "type": "brochure",
+    "title": "Dürr Somac line filling stations - official product page (ProLine, ProLine Cube, CompLine)",
+    "url": "https://www.durr.com/en/products/final-assembly/filling-technology/line-filling-stations",
+    "verified": true,
+    "note": "evidence: page fetched; names the product (HTML, no PDF datasheet offered)"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Somac G4 Blue Filling Adapter / G4 Blue Twin A/C Adapter",
+    "type": "brochure",
+    "title": "Dürr Somac G4 Blue Filling Adapter - official product page (incl. G4 Blue Twin A/C Adapter for R134a/R1234yf)",
+    "url": "https://www.durr.com/en/products/final-assembly/filling-technology/filling-adapter",
+    "verified": true,
+    "note": "evidence: page fetched; names the product (HTML, no PDF datasheet offered)"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 31,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "Somac Compact / Compact X / Compact Ex / BlueStart",
+    "type": "brochure",
+    "title": "Dürr Somac Compact filling stations - official product page (Compact, Compact X, Compact Ex fuel filling, BlueStart, MultiCompact)",
+    "url": "https://www.durr.com/en/products/final-assembly/filling-technology/compact-filling-stations",
+    "verified": true,
+    "note": "evidence: page fetched; names the product (HTML, no PDF datasheet offered)"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Somac ProLine / ProLine Cube / CompLine",
+    "type": "brochure",
+    "title": "Dürr Somac line filling stations - official product page (ProLine, ProLine Cube, CompLine)",
+    "url": "https://www.durr.com/en/products/final-assembly/filling-technology/line-filling-stations",
+    "verified": true,
+    "note": "evidence: page fetched; names the product (HTML, no PDF datasheet offered)"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Somac G4 Blue Filling Adapter / G4 Blue Twin A/C Adapter",
+    "type": "brochure",
+    "title": "Dürr Somac G4 Blue Filling Adapter - official product page (incl. G4 Blue Twin A/C Adapter for R134a/R1234yf)",
+    "url": "https://www.durr.com/en/products/final-assembly/filling-technology/filling-adapter",
+    "verified": true,
+    "note": "evidence: page fetched; names the product (HTML, no PDF datasheet offered)"
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://sds.fmpco.com/images/sds_documents/SAE_75W85.pdf",
+    "reason": "hypoid axle lubricant SDS, not a GL-4 manual transmission fluid"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 32,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "Somac Compact / Compact X / Compact Ex / BlueStart",
+    "type": "brochure",
+    "title": "Dürr Somac Compact filling stations - official product page (Compact, Compact X, Compact Ex fuel filling, BlueStart, MultiCompact)",
+    "url": "https://www.durr.com/en/products/final-assembly/filling-technology/compact-filling-stations",
+    "verified": true,
+    "note": "evidence: page fetched; names the product (HTML, no PDF datasheet offered)"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Somac ProLine / ProLine Cube / CompLine",
+    "type": "brochure",
+    "title": "Dürr Somac line filling stations - official product page (ProLine, ProLine Cube, CompLine)",
+    "url": "https://www.durr.com/en/products/final-assembly/filling-technology/line-filling-stations",
+    "verified": true,
+    "note": "evidence: page fetched; names the product (HTML, no PDF datasheet offered)"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Somac G4 Blue Filling Adapter / G4 Blue Twin A/C Adapter",
+    "type": "brochure",
+    "title": "Dürr Somac G4 Blue Filling Adapter - official product page (incl. G4 Blue Twin A/C Adapter for R134a/R1234yf)",
+    "url": "https://www.durr.com/en/products/final-assembly/filling-technology/filling-adapter",
+    "verified": true,
+    "note": "evidence: page fetched; names the product (HTML, no PDF datasheet offered)"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 33,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "Somac Compact / Compact X / Compact Ex / BlueStart",
+    "type": "brochure",
+    "title": "Dürr Somac Compact filling stations - official product page (Compact, Compact X, Compact Ex fuel filling, BlueStart, MultiCompact)",
+    "url": "https://www.durr.com/en/products/final-assembly/filling-technology/compact-filling-stations",
+    "verified": true,
+    "note": "evidence: page fetched; names the product (HTML, no PDF datasheet offered)"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Somac ProLine / ProLine Cube / CompLine",
+    "type": "brochure",
+    "title": "Dürr Somac line filling stations - official product page (ProLine, ProLine Cube, CompLine)",
+    "url": "https://www.durr.com/en/products/final-assembly/filling-technology/line-filling-stations",
+    "verified": true,
+    "note": "evidence: page fetched; names the product (HTML, no PDF datasheet offered)"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Somac G4 Blue Filling Adapter / G4 Blue Twin A/C Adapter",
+    "type": "brochure",
+    "title": "Dürr Somac G4 Blue Filling Adapter - official product page (incl. G4 Blue Twin A/C Adapter for R134a/R1234yf)",
+    "url": "https://www.durr.com/en/products/final-assembly/filling-technology/filling-adapter",
+    "verified": true,
+    "note": "evidence: page fetched; names the product (HTML, no PDF datasheet offered)"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 34,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "Somac Compact / Compact X / Compact Ex / BlueStart",
+    "type": "brochure",
+    "title": "Dürr Somac Compact filling stations - official product page (Compact, Compact X, Compact Ex fuel filling, BlueStart, MultiCompact)",
+    "url": "https://www.durr.com/en/products/final-assembly/filling-technology/compact-filling-stations",
+    "verified": true,
+    "note": "evidence: page fetched; names the product (HTML, no PDF datasheet offered)"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Somac ProLine / ProLine Cube / CompLine",
+    "type": "brochure",
+    "title": "Dürr Somac line filling stations - official product page (ProLine, ProLine Cube, CompLine)",
+    "url": "https://www.durr.com/en/products/final-assembly/filling-technology/line-filling-stations",
+    "verified": true,
+    "note": "evidence: page fetched; names the product (HTML, no PDF datasheet offered)"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Somac G4 Blue Filling Adapter / G4 Blue Twin A/C Adapter",
+    "type": "brochure",
+    "title": "Dürr Somac G4 Blue Filling Adapter - official product page (incl. G4 Blue Twin A/C Adapter for R134a/R1234yf)",
+    "url": "https://www.durr.com/en/products/final-assembly/filling-technology/filling-adapter",
+    "verified": true,
+    "note": "evidence: page fetched; names the product (HTML, no PDF datasheet offered)"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 35,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "Somac Compact / Compact X / Compact Ex / BlueStart",
+    "type": "brochure",
+    "title": "Dürr Somac Compact filling stations - official product page (Compact, Compact X, Compact Ex fuel filling, BlueStart, MultiCompact)",
+    "url": "https://www.durr.com/en/products/final-assembly/filling-technology/compact-filling-stations",
+    "verified": true,
+    "note": "evidence: page fetched; names the product (HTML, no PDF datasheet offered)"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Somac ProLine / ProLine Cube / CompLine",
+    "type": "brochure",
+    "title": "Dürr Somac line filling stations - official product page (ProLine, ProLine Cube, CompLine)",
+    "url": "https://www.durr.com/en/products/final-assembly/filling-technology/line-filling-stations",
+    "verified": true,
+    "note": "evidence: page fetched; names the product (HTML, no PDF datasheet offered)"
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Somac G4 Blue Filling Adapter / G4 Blue Twin A/C Adapter",
+    "type": "brochure",
+    "title": "Dürr Somac G4 Blue Filling Adapter - official product page (incl. G4 Blue Twin A/C Adapter for R134a/R1234yf)",
+    "url": "https://www.durr.com/en/products/final-assembly/filling-technology/filling-adapter",
+    "verified": true,
+    "note": "evidence: page fetched; names the product (HTML, no PDF datasheet offered)"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 36,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://www.agsc.org/documents/DowASMRequirementsMatrixandProductBrochures_03082018.pdf",
+    "reason": "aftermarket installer (AGRSS) training worksheet, not a passport"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 37,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [
+   {
+    "vendor": "Graco",
+    "model": "InvisiPac HM25 / HM50",
+    "role": "Hot-melt pellet feed from bulk box, melt on demand",
+    "rationale": "408 kg/BOX packaging suggests bulk hot-melt pellets; adhesive chemistry unconfirmed",
+    "confidence": "low"
+   }
+  ],
+  "add_equipment_docs": [
+   {
+    "vendor": "Graco",
+    "model": "InvisiPac HM25 / HM50 Tank-Free hot melt delivery system",
+    "type": "manual",
+    "title": "Graco InvisiPac HM25 and HM50 Tank-Free Hot Melt Delivery System - Instructions-Parts 333347 rev. ZAE (EN)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/333/333347/333347EN.pdf",
+    "verified": true,
+    "note": "evidence: downloaded; 'For delivering and dispensing hot melt adhesive pellets'; vacuum pellet feed from bulk containers fits the 408 kg box packaging"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 40,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://www.agsc.org/documents/DowASMRequirementsMatrixandProductBrochures_03082018.pdf",
+    "reason": "aftermarket installer (AGRSS) training worksheet, not a passport"
+   },
+   {
+    "url": "https://www.agsc.org/documents/DowASMRequirementsMatrixandProductBrochures_03082018.pdf",
+    "reason": "aftermarket installer (AGRSS) training worksheet, not a passport"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 41,
+  "manufacturer_update": {
+   "manufacturer": "Unknown (Sika assumed from spec SIKA-100-UZ)",
+   "product_identified": "RAD 11724 - not identified; plant lists it as paint (Bo'yoq), 18 L can, spec SIKA-100-UZ",
+   "manufacturer_confidence": "low",
+   "evidence": "final review: no public product matches RAD 11724"
+  },
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://industry.sika.com/dam/dms/us01/l/sika_aktivator-100.pdf",
+    "reason": "identity unverified: plant lists RAD 11724 as paint (Bo'yoq) in 18 L cans; Aktivator-100 is a wipe-on activator in 250 ml/1 L packs"
+   }
+  ],
+  "notes": ""
+ }
+]

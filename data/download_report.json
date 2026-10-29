@@ -837,15 +837,6 @@
   "sha256": "860a183e2865a47f41b4f659c0ee94092ff7caadcdc2c2a7eca7b59faffb21dc"
  },
  {
-  "file": "pdf/materials/M31_SDS_EQUIV_Ford_Motorcraft_SAE_75W_85_Premium_Synthetic_Hypoid_Gear_Lubricant_Saf.pdf",
-  "url": "https://sds.fmpco.com/images/sds_documents/SAE_75W85.pdf",
-  "status": "ok",
-  "final_url": "https://sds.fmpco.com/images/sds_documents/SAE_75W85.pdf",
-  "content_type": "application/pdf",
-  "bytes": 115563,
-  "sha256": "1bfe81d3cb21477dc4f96f14da47508dab54f3e9d7ce121d38d8435d2bddb34e"
- },
- {
   "file": "pdf/materials/M33_SDS_EQUIV_Chemours_Freon_134a_HFC_134a_Safety_Data_Sheet_US_EN_v11_11_2025_05_27.pdf",
   "url": "https://fuhrmeister-gmbh.de/pdf/sds/R134a_safety data sheet_EN.pdf",
   "status": "ok",
@@ -1026,15 +1017,6 @@
   "sha256": "0ce821642743156918a4f6e13c319be2f438cf150d1a0644526edfc899a30bf0"
  },
  {
-  "file": "pdf/materials/M36_brochure_EQUIV_Dow_Automotive_Systems_BETASEAL_BETAPRIME_now_DuPont_AGRSS_retention_s.pdf",
-  "url": "https://www.agsc.org/documents/DowASMRequirementsMatrixandProductBrochures_03082018.pdf",
-  "status": "ok",
-  "final_url": "https://www.agsc.org/documents/DowASMRequirementsMatrixandProductBrochures_03082018.pdf",
-  "content_type": "application/pdf",
-  "bytes": 13554709,
-  "sha256": "e67b7b0a125d3fb92349009357b2c2da3a58d068af14137f6c6c3b609680f3e5"
- },
- {
   "file": "pdf/materials/M36_PDS_EQUIV_Sikaflex_250_UC_1_Product_Data_Sheet_room_temperature_applied_direct_g.pdf",
   "url": "https://usa.sika.com/dam/dms/us01/m/sikaflex-250-uc-1.pdf",
   "status": "ok",
@@ -1141,6 +1123,15 @@
   "content_type": "application/pdf",
   "bytes": 4107349,
   "sha256": "ace73e2afbeddc04acc04c542835a976281a3ca012a4c9ab1447a6fc518a2ccc"
+ },
+ {
+  "file": "pdf/equipment/EQ_manual_Graco_InvisiPac_HM25_and_HM50_Tank_Free_Hot_Melt_Delivery_System_Instr.pdf",
+  "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/333/333347/333347EN.pdf",
+  "status": "ok",
+  "final_url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/333/333347/333347EN.pdf",
+  "content_type": "application/pdf",
+  "bytes": 15216422,
+  "sha256": "852d50c4ad0b26abd9bd10a1d2e225058981d6ab4c715ee877871f9221a4c846"
  },
  {
   "file": "pdf/materials/M38_PDS_Sika_Primer_209_D_Product_Data_Sheet_Sika_UK_EN_v01_03_2026_03.pdf",

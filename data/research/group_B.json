@@ -598,7 +598,8 @@
     "language": "ru",
     "exact_or_equivalent": "equivalent",
     "verified": true,
-    "note": "evidence: PDF 2 p., Russian, 2017; 'Разбавитель RHT-031 (Top Metallic Thinner) / Разбавление (вес %) 30-40 %'. NOT the thinner's own passport: companion base-coat TDS that identifies the exact code KR-RHT-031 (item 23) and its use; no separate RHT-031 TDS/SDS is public."
+    "note": "evidence: PDF 2 p., Russian, 2017; 'Разбавитель RHT-031 (Top Metallic Thinner) / Разбавление (вес %) 30-40 %'. NOT the thinner's own passport: companion base-coat TDS that identifies the exact code KR-RHT-031 (item 23) and its use; no separate RHT-031 TDS/SDS is public.",
+    "evidence_only": true
    },
    {
     "type": "SDS",
@@ -708,7 +709,8 @@
     "language": "ru",
     "exact_or_equivalent": "equivalent",
     "verified": true,
-    "note": "evidence: PDF 2 p., Russian, 2017; 'Второй слой: Лак - CLEAR VARNISH (ABT-000)'; system cure 130 C x 30 min. System reference for the ABT clear family of plant spec KR-ABT-600U; not the clear's own passport."
+    "note": "evidence: PDF 2 p., Russian, 2017; 'Второй слой: Лак - CLEAR VARNISH (ABT-000)'; system cure 130 C x 30 min. System reference for the ABT clear family of plant spec KR-ABT-600U; not the clear's own passport.",
+    "evidence_only": true
    },
    {
     "type": "SDS",
@@ -994,7 +996,7 @@
   "id": 26,
   "manufacturer": "Uz-DongJu Paint Co. (ROYAL PAINT), Andijan region - 'RHT-031 Top Metallic Thinner' of the DongJu/PPG Korea Royal thinner system",
   "product_identified": "CLEANING THINNER KR-RHT-031 = the same RHT-031 Top Metallic Thinner used for line/atomizer cleaning (Uz-DongJu's dedicated tool-cleaning thinner is RCT-095A 'New Cleaning Thinner')",
-  "manufacturer_confidence": "high",
+  "manufacturer_confidence": "medium",
   "material_docs": [
    {
     "type": "SDS",
@@ -1021,7 +1023,8 @@
     "language": "ru",
     "exact_or_equivalent": "equivalent",
     "verified": true,
-    "note": "evidence: PDF 2 p., Russian, 2017; 'Разбавитель RHT-031 (Top Metallic Thinner) / Разбавление (вес %) 30-40 %'. NOT the thinner's own passport: companion base-coat TDS that identifies the exact code KR-RHT-031 (item 26) and its use; no separate RHT-031 TDS/SDS is public."
+    "note": "evidence: PDF 2 p., Russian, 2017; 'Разбавитель RHT-031 (Top Metallic Thinner) / Разбавление (вес %) 30-40 %'. NOT the thinner's own passport: companion base-coat TDS that identifies the exact code KR-RHT-031 (item 26) and its use; no separate RHT-031 TDS/SDS is public.",
+    "evidence_only": true
    },
    {
     "type": "SDS",

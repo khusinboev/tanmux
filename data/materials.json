@@ -78,7 +78,8 @@
   "spec": "KR-APC-707U",
   "package": "220 L/DRUM",
   "function": "O'rta qatlam gruntovkasi",
-  "group": "B"
+  "group": "B",
+  "source_note": "source prints 'SURFASER' (typo) for this row"
  },
  {
   "id": 9,
@@ -282,7 +283,8 @@
   "package": "202 LT/DRUM",
   "function": "Rul gidravlikasi suyuqligi",
   "group": "D",
-  "function_source": "inferred (page 3 has no function column)"
+  "function_source": "inferred (page 3 has no function column)",
+  "source_note": "source prints 'GM N10060' (= GM spec GMN10060)"
  },
  {
   "id": 29,
@@ -337,7 +339,8 @@
   "package": "13.6 KG/DRUM",
   "function": "Konditsioner freoni",
   "group": "D",
-  "function_source": "inferred (page 3 has no function column)"
+  "function_source": "inferred (page 3 has no function column)",
+  "source_note": "source prints 'TETRAFLUORETHANE'"
  },
  {
   "id": 34,
@@ -447,6 +450,7 @@
   "package": "-",
   "function": "Surkov moyi",
   "group": "E",
-  "function_source": "inferred (page 3 has no function column)"
+  "function_source": "inferred (page 3 has no function column)",
+  "source_note": "source prints 'MICROLUBE GNY-202' in the package column; spec column is empty"
  }
 ]

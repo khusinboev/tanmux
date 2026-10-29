@@ -142,7 +142,9 @@ def is_shown(doc: dict[str, Any], status: dict[str, str]) -> bool:
 
 
 def shown_material_docs(item: dict[str, Any], status: dict[str, str]) -> list[dict[str, Any]]:
-    docs = {d["url"]: d for d in item["material_docs"] if is_shown(d, status)}
+    """Verified passports; identity evidence and papers (evidence_only) stay in Manbalar."""
+    docs = {d["url"]: d for d in item["material_docs"]
+            if is_shown(d, status) and not d.get("evidence_only")}
     return sorted(docs.values(), key=lambda d: d.get("exact_or_equivalent") != "exact")
 
 
@@ -159,17 +161,31 @@ def shown_equipment_docs(item: dict[str, Any], pool: list[dict[str, Any]]) -> li
     machine and its adapter) is listed once, labelled with all their names.
     """
     names: dict[str, list[str]] = {}
+    notes: dict[str, str] = {}
     docs: dict[str, dict[str, Any]] = {}
     for equipment in item["selected_equipment"]:
         for doc in pool:
             if any(p in doc["url"] for p in equipment["docs"]):
                 names.setdefault(doc["url"], []).append(equipment["name"])
+                notes.setdefault(doc["url"], equipment.get("doc_note", ""))
                 docs[doc["url"]] = doc
-    return [(" / ".join(names[url]), docs[url]) for url in names]
+    return [(" / ".join(names[url]) + (f" ({notes[url]})" if notes[url] else ""), docs[url])
+            for url in names]
+
+
+def undocumented_equipment(item: dict[str, Any], pool: list[dict[str, Any]]) -> list[str]:
+    """Selected equipment for which no verified passport PDF exists."""
+    return [
+        e["name"] for e in item["selected_equipment"]
+        if e["key"] not in NO_PASSPORT_KEYS and not any(p in d["url"] for d in pool for p in e["docs"])
+    ]
 
 
 def equipment_names(item: dict[str, Any]) -> str:
     return "\n".join(e["name"] for e in item["selected_equipment"])
+
+
+NO_PDF_SUFFIX = "ochiq PDF pasport topilmadi"
 
 
 def no_doc_text(item: dict[str, Any], kind: str) -> str:
@@ -218,12 +234,14 @@ def write_file_name_sheet(ws, catalog: list[dict[str, Any]], status: dict[str, s
     for item in catalog:
         mat = shown_material_docs(item, status)
         eq = shown_equipment_docs(item, pool)
+        eq_lines = [f"{name}: {Path(d['file']).name}" for name, d in eq]
+        eq_lines += [f"{name}: {NO_PDF_SUFFIX}" for name in undocumented_equipment(item, pool)]
         ws.append([
             item["id"],
             material_title(item),
             "\n".join(Path(d["file"]).name for d in mat) or no_doc_text(item, "material"),
             equipment_names(item),
-            "\n".join(f"{name}: {Path(d['file']).name}" for name, d in eq) or no_doc_text(item, "equipment"),
+            "\n".join(eq_lines) if eq else no_doc_text(item, "equipment"),
         ])
     style_sheet(ws, MAIN_WIDTHS)
 
@@ -243,7 +261,8 @@ def write_link_sheet(ws, catalog: list[dict[str, Any]], status: dict[str, str]) 
     for item in catalog:
         mat = shown_material_docs(item, status)
         eq = shown_equipment_docs(item, pool)
-        span = max(len(mat), len(eq), 1)
+        missing = undocumented_equipment(item, pool) if eq else []
+        span = max(len(mat), len(eq) + len(missing), 1)
         ws.cell(row, 1, item["id"])
         ws.cell(row, 2, material_title(item))
         ws.cell(row, 4, equipment_names(item))
@@ -251,6 +270,8 @@ def write_link_sheet(ws, catalog: list[dict[str, Any]], status: dict[str, str]) 
             put_link(ws.cell(row + offset, 3), doc, doc_label(doc))
         for offset, (name, doc) in enumerate(eq):
             put_link(ws.cell(row + offset, 5), doc, f"{name} — {doc.get('type', '')}: {doc.get('title', '')}")
+        for offset, name in enumerate(missing, start=len(eq)):
+            ws.cell(row + offset, 5, f"{name}: {NO_PDF_SUFFIX}")
         if not mat:
             ws.cell(row, 3, no_doc_text(item, "material"))
         if not eq:
@@ -271,9 +292,12 @@ def write_sources_sheet(ws, catalog: list[dict[str, Any]], status: dict[str, str
                "Aniq/ekvivalent", "Mazmuni tekshirilgan", "Yuklash holati", "Asosiy jadvalda", "Izoh"])
     pool = equipment_doc_pool(catalog, status)
     for item in catalog:
-        shown = {d["url"] for d in shown_material_docs(item, status)}
-        shown |= {d["url"] for _, d in shown_equipment_docs(item, pool)}
-        for kind, docs in (("Material", item["material_docs"]), ("Jihoz", item["equipment_docs"])):
+        shown_mat = {d["url"] for d in shown_material_docs(item, status)}
+        shown_eq = {d["url"]: d for _, d in shown_equipment_docs(item, pool)}
+        own_eq = {d["url"]: d for d in item["equipment_docs"]}
+        equipment_docs = list({**own_eq, **shown_eq}.values())
+        for kind, docs, shown in (("Material", item["material_docs"], shown_mat),
+                                  ("Jihoz", equipment_docs, set(shown_eq))):
             for doc in docs:
                 ws.append([
                     item["id"], item["name"], f"{kind}: {doc.get('type', '')}", doc.get("title", ""),
@@ -282,23 +306,35 @@ def write_sources_sheet(ws, catalog: list[dict[str, Any]], status: dict[str, str
                     "ha" if doc.get("verified") else "yo'q",
                     status.get(doc["file"], "yuklanmagan") if doc["file"] else "-",
                     "ha" if doc["url"] in shown else "yo'q",
-                    doc.get("note", ""),
+                    source_note(doc),
                 ])
     style_sheet(ws, [5, 30, 16, 60, 45, 60, 14, 12, 14, 12, 60])
 
 
+def source_note(doc: dict[str, Any]) -> str:
+    """Factual note only: what the verified document actually is, or the evidence line."""
+    verification = doc.get("verification") or {}
+    if verification.get("actual_document"):
+        return f"Haqiqiy hujjat: {verification['actual_document']}"
+    note = doc.get("note", "")
+    if doc.get("evidence_only"):
+        return "Faqat identifikatsiya dalili (pasport emas). " + note
+    return note if note.lower().startswith(("evidence", "pvc plastisol")) else ""
+
+
 def write_identification_sheet(ws, catalog: list[dict[str, Any]]) -> None:
     ws.append(["№", "SAP", "Material", "Spec (manba)", "Qadoq", "Vazifa", "Ishlab chiqaruvchi",
-               "Aniqlangan mahsulot", "Ishonch", "Tanlangan jihoz (ishonch)", "Boshqa variantlar", "Izoh"])
+               "Aniqlangan mahsulot", "Ishonch", "Tanlangan jihoz (ishonch)", "Boshqa variantlar",
+               "Manba bo'yicha izoh"])
     for item in catalog:
         r = item["research"]
         ws.append([
             item["id"], item["sap"], item["name"], item["spec"], item["package"], item["function"],
             r.get("manufacturer", ""), r.get("product_identified", ""), r.get("manufacturer_confidence", ""),
             "\n".join(f"{e['name']} ({e.get('confidence', '?')})" for e in item["selected_equipment"]),
-            "\n".join(f"{e.get('vendor', '')} {e.get('model', '')}: {e.get('rationale', '')}"
+            "\n".join(f"{e.get('vendor', '')} {e.get('model', '')} ({e.get('confidence', '?')})"
                       for e in r.get("equipment", [])),
-            r.get("notes", ""),
+            "; ".join(filter(None, [item.get("note", ""), item.get("source_note", "")])),
         ])
     style_sheet(ws, [5, 14, 35, 16, 14, 18, 30, 40, 10, 40, 70, 70])
 

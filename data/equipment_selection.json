@@ -1,74 +1,372 @@
 {
  "_comment": "Curated primary equipment per material. 'docs' are URL substrings selecting the verified passport PDFs shown in the main sheets. Representative selection: the plant's actual installed equipment is not publicly documented.",
  "equipment": {
-  "RODIP": {"name": "Dürr RoDip M (Ecopaint pretreatment / e-coat dip line)", "docs": ["brochure-ecopaint-wetsystem.pdf"], "confidence": "medium"},
-  "RECTIFIER": {"name": "Trystar Series 50 rectifier (Model 506 / 5012) with AACD controller", "docs": ["Series_50_Brochure-0001BR1125", "Trystar_-S50-107649.pdf", "AACD-Automatic-Average-Current-Density"], "confidence": "medium"},
-  "UF": {"name": "Kovalus KPAK PLUS ultrafiltration module", "docs": ["KPAK-plus-8-inch", "KPAK-plus-10-inch"], "confidence": "medium"},
-  "EFLO": {"name": "Graco E-Flo SP supply system", "docs": ["3A6331EN.pdf", "3A6586EN.pdf", "3A6853RU-G.pdf", "3A6867RU-H.pdf", "336833EN-B.pdf"], "confidence": "medium"},
-  "ECOSHOT": {"name": "Dürr EcoShot Meter", "docs": ["durr-dispensing-product-catalog-2026.pdf", "duerr-datsheet-endless-dosing-en.pdf"], "confidence": "medium"},
-  "ECOGUN": {"name": "Dürr EcoGun2 3D", "docs": [], "confidence": "medium"},
-  "KING": {"name": "Graco King airless pump with XL 10K air motor", "docs": ["334645EN.pdf", "349980ENEU-B.pdf", "334644EN.pdf"], "confidence": "medium"},
-  "ALGUN": {"name": "Graco AL Automatic Airless Spray Gun (288048)", "docs": ["311053EN-M.pdf", "311676RU-E.pdf"], "confidence": "medium"},
-  "ECORP": {"name": "Dürr EcoRP E043i", "docs": ["duerr-datasheet-ecorp-e043i-en.pdf"], "confidence": "medium"},
-  "ECOBELL": {"name": "Dürr EcoBell3", "docs": ["duerr-datasheet-ecobell3-en.pdf"], "confidence": "medium"},
-  "MCC": {"name": "Dürr EcoMCC3 20", "docs": ["duerr-eco-mcc-3-20.pdf"], "confidence": "medium"},
-  "SUPPLY": {"name": "Dürr EcoSupply2 Core", "docs": ["duerr-eco-supply-2-core.pdf"], "confidence": "medium"},
-  "CLEANER": {"name": "Dürr EcoBell Cleaner D2 + EcoBell PurgeBox", "docs": ["duerr-datasheet-ecobell-cleander-d2-ecobell-p"], "confidence": "medium"},
-  "PROLINE": {"name": "Dürr Somac ProLine Cube", "docs": ["durr-NEXT.assembly-brochure-en-digital-low.pdf"], "confidence": "medium"},
-  "G4": {"name": "Dürr Somac G4 Blue Filling Adapter", "docs": ["durr-NEXT.assembly-brochure-en-digital-low.pdf"], "confidence": "medium"},
-  "G4AC": {"name": "Dürr Somac G4 Blue Twin A/C Adapter", "docs": ["durr-NEXT.assembly-brochure-en-digital-low.pdf"], "confidence": "medium"},
-  "COMPACT": {"name": "Dürr Somac Compact filling station", "docs": ["durr-NEXT.assembly-brochure-en-digital-low.pdf"], "confidence": "low"},
-  "COMPACTEX": {"name": "Dürr Somac Compact Ex (fuel filling)", "docs": ["durr-NEXT.assembly-brochure-en-digital-low.pdf"], "confidence": "low"},
-  "TOF": {"name": "Graco Therm-O-Flow 200", "docs": ["334130EN.pdf", "350422ENEU-A.pdf"], "confidence": "medium"},
-  "PCF": {"name": "Graco PCF (Precision Continuous Flow) metering", "docs": ["340305EN-D.pdf"], "confidence": "medium"},
-  "EFD752": {"name": "Nordson EFD 752V diaphragm valve", "docs": ["Nordson_EFD_752V_Data_Sheet.pdf"], "confidence": "low"},
-  "PTANK": {"name": "Graco stainless steel pressure tank with agitator", "docs": ["308370EN-W.pdf", "308369EN.pdf", "308371EN-U.pdf"], "confidence": "low"},
-  "WIPE": {"name": "Manual wipe-on / wipe-off (lint-free cloth)", "docs": [], "confidence": "medium"},
-  "FIREBALL": {"name": "Graco Fire-Ball 300 (50:1 grease pump)", "docs": ["308883EN-Y.pdf"], "confidence": "low"}
+  "RODIP": {
+   "name": "Dürr RoDip M (Ecopaint pretreatment / e-coat dip line)",
+   "docs": [
+    "brochure-ecopaint-wetsystem.pdf"
+   ],
+   "confidence": "medium"
+  },
+  "RECTIFIER": {
+   "name": "Trystar Series 50 rectifier (Model 506 / 5012) with AACD controller",
+   "docs": [
+    "Series_50_Brochure-0001BR1125",
+    "Trystar_-S50-107649.pdf",
+    "AACD-Automatic-Average-Current-Density"
+   ],
+   "confidence": "medium"
+  },
+  "UF": {
+   "name": "Kovalus KPAK PLUS ultrafiltration module",
+   "docs": [
+    "KPAK-plus-8-inch",
+    "KPAK-plus-10-inch"
+   ],
+   "confidence": "medium"
+  },
+  "EFLO": {
+   "name": "Graco E-Flo SP supply system",
+   "docs": [
+    "3A6331EN.pdf",
+    "3A6586EN.pdf",
+    "3A6853RU-G.pdf",
+    "3A6867RU-H.pdf"
+   ],
+   "confidence": "medium"
+  },
+  "ECOSHOT": {
+   "name": "Dürr EcoShot Meter",
+   "docs": [
+    "durr-dispensing-product-catalog-2026.pdf",
+    "duerr-datsheet-endless-dosing-en.pdf"
+   ],
+   "confidence": "medium"
+  },
+  "ECOGUN": {
+   "name": "Dürr EcoGun2 3D",
+   "docs": [],
+   "confidence": "medium"
+  },
+  "KING": {
+   "name": "Graco King airless pump with XL 10K air motor",
+   "docs": [
+    "334645EN.pdf",
+    "349980ENEU-B.pdf",
+    "334644EN.pdf"
+   ],
+   "confidence": "medium"
+  },
+  "ALGUN": {
+   "name": "Graco AL Automatic Airless Spray Gun (288048)",
+   "docs": [
+    "311053EN-M.pdf",
+    "311676RU-E.pdf"
+   ],
+   "confidence": "medium"
+  },
+  "ECORP": {
+   "name": "Dürr EcoRP E043i",
+   "docs": [
+    "duerr-datasheet-ecorp-e043i-en.pdf"
+   ],
+   "confidence": "medium"
+  },
+  "ECOBELL": {
+   "name": "Dürr EcoBell3",
+   "docs": [
+    "duerr-datasheet-ecobell3-en.pdf"
+   ],
+   "confidence": "medium"
+  },
+  "MCC": {
+   "name": "Dürr EcoMCC3 20",
+   "docs": [
+    "duerr-eco-mcc-3-20.pdf"
+   ],
+   "confidence": "medium"
+  },
+  "SUPPLY": {
+   "name": "Dürr EcoSupply2 Core",
+   "docs": [
+    "duerr-eco-supply-2-core.pdf"
+   ],
+   "confidence": "medium"
+  },
+  "CLEANER": {
+   "name": "Dürr EcoBell Cleaner D2 + EcoBell PurgeBox",
+   "docs": [
+    "duerr-datasheet-ecobell-cleander-d2-ecobell-p"
+   ],
+   "confidence": "medium"
+  },
+  "PROLINE": {
+   "name": "Dürr Somac ProLine Cube",
+   "docs": [
+    "durr-NEXT.assembly-brochure-en-digital-low.pdf"
+   ],
+   "confidence": "medium",
+   "doc_note": "Dürr NEXT.assembly broshyurasining Filling bo'limi; alohida model datasheet e'lon qilinmagan"
+  },
+  "G4": {
+   "name": "Dürr Somac G4 Blue Filling Adapter",
+   "docs": [
+    "durr-NEXT.assembly-brochure-en-digital-low.pdf"
+   ],
+   "confidence": "medium",
+   "doc_note": "Dürr NEXT.assembly broshyurasining Filling bo'limi; alohida model datasheet e'lon qilinmagan"
+  },
+  "G4AC": {
+   "name": "Dürr Somac G4 Blue Twin A/C Adapter",
+   "docs": [
+    "durr-NEXT.assembly-brochure-en-digital-low.pdf"
+   ],
+   "confidence": "medium",
+   "doc_note": "umumiy Somac broshyurasi (Filling bo'limi); bu model uchun alohida PDF datasheet e'lon qilinmagan"
+  },
+  "COMPACT": {
+   "name": "Dürr Somac Compact filling station",
+   "docs": [
+    "durr-NEXT.assembly-brochure-en-digital-low.pdf"
+   ],
+   "confidence": "low",
+   "doc_note": "umumiy Somac broshyurasi (Filling bo'limi); bu model uchun alohida PDF datasheet e'lon qilinmagan"
+  },
+  "COMPACTEX": {
+   "name": "Dürr Somac Compact Ex (fuel filling)",
+   "docs": [
+    "durr-NEXT.assembly-brochure-en-digital-low.pdf"
+   ],
+   "confidence": "low",
+   "doc_note": "umumiy Somac broshyurasi (Filling bo'limi); bu model uchun alohida PDF datasheet e'lon qilinmagan"
+  },
+  "TOF": {
+   "name": "Graco Therm-O-Flow 200",
+   "docs": [
+    "334130EN.pdf",
+    "350422ENEU-A.pdf"
+   ],
+   "confidence": "medium"
+  },
+  "PCF": {
+   "name": "Graco PCF (Precision Continuous Flow) metering",
+   "docs": [
+    "340305EN-D.pdf"
+   ],
+   "confidence": "medium"
+  },
+  "EFD752": {
+   "name": "Nordson EFD 752V diaphragm valve",
+   "docs": [
+    "Nordson_EFD_752V_Data_Sheet.pdf"
+   ],
+   "confidence": "low"
+  },
+  "PTANK": {
+   "name": "Graco stainless steel pressure tank with agitator",
+   "docs": [
+    "308370EN-W.pdf",
+    "308369EN.pdf",
+    "308371EN-U.pdf"
+   ],
+   "confidence": "low"
+  },
+  "WIPE": {
+   "name": "Manual wipe-on / wipe-off (lint-free cloth)",
+   "docs": [],
+   "confidence": "medium"
+  },
+  "FIREBALL": {
+   "name": "Graco Fire-Ball 300 (50:1 grease pump)",
+   "docs": [
+    "308883EN-Y.pdf"
+   ],
+   "confidence": "low"
+  },
+  "INVISIPAC": {
+   "name": "Graco InvisiPac HM25 / HM50 Tank-Free hot melt system",
+   "docs": [
+    "333347EN.pdf"
+   ],
+   "confidence": "low"
+  }
  },
  "materials": {
-  "1": ["RODIP"],
-  "2": ["RODIP", "RECTIFIER", "UF"],
-  "3": ["RODIP", "RECTIFIER", "UF"],
-  "4": ["EFLO", "ECOSHOT", "ECOGUN"],
-  "5": ["KING", "ALGUN"],
-  "6": ["KING", "ALGUN"],
-  "7": ["KING", "ALGUN"],
-  "8": ["ECORP", "ECOBELL"],
-  "9": ["ECORP", "ECOBELL"],
-  "10": ["SUPPLY", "MCC"],
-  "11": ["ECORP", "ECOBELL", "MCC"],
-  "12": ["ECORP", "ECOBELL", "MCC"],
-  "13": ["ECORP", "ECOBELL", "MCC"],
-  "14": ["ECORP", "ECOBELL", "MCC"],
-  "15": ["ECORP", "ECOBELL", "MCC"],
-  "16": ["ECORP", "ECOBELL", "MCC"],
-  "17": ["ECORP", "ECOBELL", "MCC"],
-  "18": ["ECORP", "ECOBELL", "MCC"],
-  "19": ["ECORP", "ECOBELL", "MCC"],
-  "20": ["ECORP", "ECOBELL", "MCC"],
-  "21": ["ECORP", "ECOBELL", "MCC"],
-  "22": ["ECORP", "ECOBELL", "MCC"],
-  "23": ["SUPPLY", "MCC"],
-  "24": ["ECORP", "ECOBELL"],
-  "25": ["SUPPLY", "MCC"],
-  "26": ["CLEANER"],
-  "27": ["PROLINE", "G4"],
-  "28": ["PROLINE", "G4"],
-  "29": ["PROLINE", "G4"],
-  "30": ["COMPACT"],
-  "31": ["COMPACT"],
-  "32": ["COMPACT"],
-  "33": ["PROLINE", "G4AC"],
-  "34": ["COMPACTEX"],
-  "35": ["PROLINE"],
-  "36": ["TOF", "PCF"],
-  "37": ["TOF"],
-  "38": ["EFD752", "PTANK"],
-  "39": ["EFD752", "PTANK"],
-  "40": ["WIPE"],
-  "41": ["EFD752", "PTANK"],
-  "42": ["FIREBALL"],
-  "43": ["FIREBALL"]
+  "1": [
+   "RODIP"
+  ],
+  "2": [
+   "RODIP",
+   "RECTIFIER",
+   "UF"
+  ],
+  "3": [
+   "RODIP",
+   "RECTIFIER",
+   "UF"
+  ],
+  "4": [
+   "EFLO",
+   "ECOSHOT",
+   "ECOGUN"
+  ],
+  "5": [
+   "KING",
+   "ALGUN"
+  ],
+  "6": [
+   "KING",
+   "ALGUN"
+  ],
+  "7": [
+   "KING",
+   "ALGUN"
+  ],
+  "8": [
+   "ECORP",
+   "ECOBELL"
+  ],
+  "9": [
+   "ECORP",
+   "ECOBELL"
+  ],
+  "10": [
+   "SUPPLY",
+   "MCC"
+  ],
+  "11": [
+   "ECORP",
+   "ECOBELL",
+   "MCC"
+  ],
+  "12": [
+   "ECORP",
+   "ECOBELL",
+   "MCC"
+  ],
+  "13": [
+   "ECORP",
+   "ECOBELL",
+   "MCC"
+  ],
+  "14": [
+   "ECORP",
+   "ECOBELL",
+   "MCC"
+  ],
+  "15": [
+   "ECORP",
+   "ECOBELL",
+   "MCC"
+  ],
+  "16": [
+   "ECORP",
+   "ECOBELL",
+   "MCC"
+  ],
+  "17": [
+   "ECORP",
+   "ECOBELL",
+   "MCC"
+  ],
+  "18": [
+   "ECORP",
+   "ECOBELL",
+   "MCC"
+  ],
+  "19": [
+   "ECORP",
+   "ECOBELL",
+   "MCC"
+  ],
+  "20": [
+   "ECORP",
+   "ECOBELL",
+   "MCC"
+  ],
+  "21": [
+   "ECORP",
+   "ECOBELL",
+   "MCC"
+  ],
+  "22": [
+   "ECORP",
+   "ECOBELL",
+   "MCC"
+  ],
+  "23": [
+   "SUPPLY",
+   "MCC"
+  ],
+  "24": [
+   "ECORP",
+   "ECOBELL"
+  ],
+  "25": [
+   "SUPPLY",
+   "MCC"
+  ],
+  "26": [
+   "CLEANER"
+  ],
+  "27": [
+   "PROLINE",
+   "G4"
+  ],
+  "28": [
+   "PROLINE",
+   "G4"
+  ],
+  "29": [
+   "PROLINE",
+   "G4"
+  ],
+  "30": [
+   "COMPACT"
+  ],
+  "31": [
+   "COMPACT"
+  ],
+  "32": [
+   "COMPACT"
+  ],
+  "33": [
+   "PROLINE",
+   "G4AC"
+  ],
+  "34": [
+   "COMPACTEX"
+  ],
+  "35": [
+   "PROLINE"
+  ],
+  "36": [
+   "TOF",
+   "PCF"
+  ],
+  "37": [
+   "INVISIPAC"
+  ],
+  "38": [
+   "EFD752",
+   "PTANK"
+  ],
+  "39": [
+   "EFD752",
+   "PTANK"
+  ],
+  "40": [
+   "WIPE"
+  ],
+  "41": [
+   "EFD752",
+   "PTANK"
+  ],
+  "42": [
+   "FIREBALL"
+  ],
+  "43": [
+   "FIREBALL"
+  ]
  }
 }

@@ -831,6 +831,25 @@
      "version_date": "Vol.4, 1992",
      "class_ok": true,
      "reason": "Right class (OEM PVC plastisol UBC with anti-chip performance) and real formulation data, but a 1992 R&D paper, not a passport - reference only; ids 5/6/7 still lack a PVC UBC/anti-chip TDS or SDS."
+    },
+    "evidence_only": true
+   },
+   {
+    "type": "TDS",
+    "title": "Henkel TEROSON PV 3046 PVC plastisol seam sealer - Technical Data Sheet (EN, April 2021)",
+    "url": "https://datasheets.tdx.henkel.com/TEROSON-PV-3046-en_GL.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "PVC plastisol (same chemistry, heat-cured, sprayable/robotic); seam-sealer grade - no public PDF for a PVC underbody grade was found",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "Henkel Technical Data Sheet TEROSON PV 3046 - solvent-free heat-curing PVC plastisol seam sealer for vehicle bodies on ED steel (min. 140 C / 10 min; high-pressure pumps 48:1-80:1, robotic spray possible); April 2021; EN; 2 pp",
+     "doc_type": "TDS",
+     "language": "en",
+     "version_date": "April 2021",
+     "class_ok": true,
+     "reason": "PVC plastisol body seam sealer - right class for RSB-430 (GVH-403U); competitor equivalent."
     }
    }
   ],
@@ -1081,6 +1100,25 @@
      "version_date": "Vol.4, 1992",
      "class_ok": true,
      "reason": "Right class (OEM PVC plastisol UBC with anti-chip performance) and real formulation data, but a 1992 R&D paper, not a passport - reference only; ids 5/6/7 still lack a PVC UBC/anti-chip TDS or SDS."
+    },
+    "evidence_only": true
+   },
+   {
+    "type": "TDS",
+    "title": "Henkel TEROSON PV 3046 PVC plastisol seam sealer - Technical Data Sheet (EN, April 2021)",
+    "url": "https://datasheets.tdx.henkel.com/TEROSON-PV-3046-en_GL.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "PVC plastisol (same chemistry, heat-cured, sprayable/robotic); seam-sealer grade - no public PDF for a PVC underbody grade was found",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "Henkel Technical Data Sheet TEROSON PV 3046 - solvent-free heat-curing PVC plastisol seam sealer for vehicle bodies on ED steel (min. 140 C / 10 min; high-pressure pumps 48:1-80:1, robotic spray possible); April 2021; EN; 2 pp",
+     "doc_type": "TDS",
+     "language": "en",
+     "version_date": "April 2021",
+     "class_ok": true,
+     "reason": "PVC plastisol body seam sealer - right class for RSB-430 (GVH-403U); competitor equivalent."
     }
    }
   ],
@@ -1331,6 +1369,25 @@
      "version_date": "Vol.4, 1992",
      "class_ok": true,
      "reason": "Right class (OEM PVC plastisol UBC with anti-chip performance) and real formulation data, but a 1992 R&D paper, not a passport - reference only; ids 5/6/7 still lack a PVC UBC/anti-chip TDS or SDS."
+    },
+    "evidence_only": true
+   },
+   {
+    "type": "TDS",
+    "title": "Henkel TEROSON PV 3046 PVC plastisol seam sealer - Technical Data Sheet (EN, April 2021)",
+    "url": "https://datasheets.tdx.henkel.com/TEROSON-PV-3046-en_GL.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "PVC plastisol (same chemistry, heat-cured, sprayable/robotic); seam-sealer grade - no public PDF for a PVC underbody grade was found",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "Henkel Technical Data Sheet TEROSON PV 3046 - solvent-free heat-curing PVC plastisol seam sealer for vehicle bodies on ED steel (min. 140 C / 10 min; high-pressure pumps 48:1-80:1, robotic spray possible); April 2021; EN; 2 pp",
+     "doc_type": "TDS",
+     "language": "en",
+     "version_date": "April 2021",
+     "class_ok": true,
+     "reason": "PVC plastisol body seam sealer - right class for RSB-430 (GVH-403U); competitor equivalent."
     }
    }
   ],

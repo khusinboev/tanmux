@@ -399,7 +399,10 @@
  {
   "file": "pdf/materials/M04_TDS_EQUIV_Henkel_TEROSON_PV_3046_PVC_plastisol_seam_sealer_Technical_Data_Sheet.pdf",
   "ids": [
-   4
+   4,
+   5,
+   6,
+   7
   ],
   "kind": "material_docs",
   "url": "https://datasheets.tdx.henkel.com/TEROSON-PV-3046-en_GL.pdf",
@@ -1974,25 +1977,6 @@
   ]
  },
  {
-  "file": "pdf/materials/M31_SDS_EQUIV_Ford_Motorcraft_SAE_75W_85_Premium_Synthetic_Hypoid_Gear_Lubricant_Saf.pdf",
-  "ids": [
-   31
-  ],
-  "kind": "material_docs",
-  "url": "https://sds.fmpco.com/images/sds_documents/SAE_75W85.pdf",
-  "title": "Ford Motorcraft SAE 75W-85 Premium Synthetic Hypoid Gear Lubricant - Safety Data Sheet (FIR 189151, issue 05-13-2015) - FMP distributor SDS library",
-  "download": "ok",
-  "pages": "6",
-  "pdf_title": "\\\\dmzfile01\\data\\HSE\\Clients\\Ford_Production\\archives\\sds_us\\default\\00026601.pdf",
-  "text_chars": 11367,
-  "keyword_ratio": 0.84,
-  "missing": [
-   "motorcraft",
-   "fmp",
-   "library"
-  ]
- },
- {
   "file": "pdf/materials/M33_SDS_EQUIV_Chemours_Freon_134a_HFC_134a_Safety_Data_Sheet_US_EN_v11_11_2025_05_27.pdf",
   "ids": [
    33
@@ -2347,32 +2331,6 @@
   ]
  },
  {
-  "file": "pdf/materials/M36_brochure_EQUIV_Dow_Automotive_Systems_BETASEAL_BETAPRIME_now_DuPont_AGRSS_retention_s.pdf",
-  "ids": [
-   36,
-   40,
-   40
-  ],
-  "kind": "material_docs",
-  "url": "https://www.agsc.org/documents/DowASMRequirementsMatrixandProductBrochures_03082018.pdf",
-  "title": "Dow Automotive Systems (BETASEAL/BETAPRIME, now DuPont) - AGRSS retention-system requirements matrix and product brochures incl. Fixed Glass Installation Guide v5.4 (AGSC, 03-08-2018)",
-  "download": "ok",
-  "pages": "33",
-  "pdf_title": "",
-  "text_chars": 13722,
-  "keyword_ratio": 0.58,
-  "missing": [
-   "now",
-   "dupont",
-   "matrix",
-   "brochures",
-   "incl",
-   "v5",
-   "03",
-   "08"
-  ]
- },
- {
   "file": "pdf/materials/M36_PDS_EQUIV_Sikaflex_250_UC_1_Product_Data_Sheet_room_temperature_applied_direct_g.pdf",
   "ids": [
    36
@@ -2578,6 +2536,24 @@
   "text_chars": 6930,
   "keyword_ratio": 1.0,
   "missing": []
+ },
+ {
+  "file": "pdf/equipment/EQ_manual_Graco_InvisiPac_HM25_and_HM50_Tank_Free_Hot_Melt_Delivery_System_Instr.pdf",
+  "ids": [
+   37
+  ],
+  "kind": "equipment_docs",
+  "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/333/333347/333347EN.pdf",
+  "title": "Graco InvisiPac HM25 and HM50 Tank-Free Hot Melt Delivery System - Instructions-Parts 333347 rev. ZAE (EN)",
+  "download": "ok",
+  "pages": "142",
+  "pdf_title": "333347ZAE, InvisiPac™ HM25 and HM50 Tank-Free™ Hot Melt Delivery System, Instructions - Parts, English (US)",
+  "text_chars": 9817,
+  "keyword_ratio": 0.83,
+  "missing": [
+   "333347",
+   "zae"
+  ]
  },
  {
   "file": "pdf/materials/M38_PDS_Sika_Primer_209_D_Product_Data_Sheet_Sika_UK_EN_v01_03_2026_03.pdf",
@@ -2860,8 +2836,7 @@
  {
   "file": "pdf/materials/M40_PDS_Sika_Aktivator_100_Product_Data_Sheet_Sika_USA_EN_v05_01_2023_10.pdf",
   "ids": [
-   40,
-   41
+   40
   ],
   "kind": "material_docs",
   "url": "https://industry.sika.com/dam/dms/us01/l/sika_aktivator-100.pdf",
