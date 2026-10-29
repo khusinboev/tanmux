@@ -1,0 +1,2879 @@
+[
+ {
+  "file": "pdf/materials/M01_CHEMFOS_740R_brochure_EQUIV.pdf",
+  "ids": [
+   1
+  ],
+  "kind": "material_docs",
+  "url": "https://www.osti.gov/etdeweb/servlets/purl/20671858",
+  "title": "Advances in Aluminum Pretreatment (OSTI paper; describes CHEMFOS 700 series tricationic zinc phosphate from PPG)",
+  "download": "ok",
+  "pages": "9",
+  "pdf_title": "\" Advances in Aluminum Pretreatment \"",
+  "text_chars": 8117,
+  "keyword_ratio": 0.86,
+  "missing": [
+   "osti",
+   "describes"
+  ]
+ },
+ {
+  "file": "pdf/materials/M01_CHEMFOS_740R_TDS_EQUIV.pdf",
+  "ids": [
+   1
+  ],
+  "kind": "material_docs",
+  "url": "https://datasheets.tdx.henkel.com/BONDERITE-M-ZN-952-A-en_GL.pdf",
+  "title": "BONDERITE M-ZN 952 A (Henkel) - nitrite-accelerated tricationic zinc phosphate, spray/immersion, for e-coat pretreatment",
+  "download": "ok",
+  "pages": "4",
+  "pdf_title": "BONDERITE-M-ZN-952-A-en_GL.pdf",
+  "text_chars": 16391,
+  "keyword_ratio": 0.92,
+  "missing": [
+   "coat"
+  ]
+ },
+ {
+  "file": "pdf/materials/M01_CHEMFOS_740R_SDS_EQUIV.pdf",
+  "ids": [
+   1
+  ],
+  "kind": "material_docs",
+  "url": "https://www.charlottepipe.com/Documents/SDS/SDS_ECOAT_PRE.pdf",
+  "title": "PPG CHEMFOS 700HNR SDS (product code CF700HNR, v8, 2017) - hosted by Charlotte Pipe as 'SDS ECOAT PRE'",
+  "download": "http_404"
+ },
+ {
+  "file": "pdf/materials/M01_CHEMFOS_740R_TDS_EQUIV_2.pdf",
+  "ids": [
+   1
+  ],
+  "kind": "material_docs",
+  "url": "https://datasheets.tdx.henkel.com/BONDERITE-M-ZN-952-R1-en_GL.pdf",
+  "title": "BONDERITE M-ZN 952 R1 (Henkel tricationic zinc phosphate, for electrocoat)",
+  "download": "ok",
+  "pages": "4",
+  "pdf_title": "BONDERITE-M-ZN-952-R1-en_GL.pdf",
+  "text_chars": 16878,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M01_CHEMFOS_740R_TDS_EQUIV_3.pdf",
+  "ids": [
+   1
+  ],
+  "kind": "material_docs",
+  "url": "https://datasheets.tdx.henkel.com/BONDERITE-M-ZN-1994-R4-en_GL.pdf",
+  "title": "BONDERITE M-ZN 1994 R4 (Henkel nitrite-free tricationic dip phosphate)",
+  "download": "ok",
+  "pages": "4",
+  "pdf_title": "BONDERITE-M-ZN-1994-R4-en_GL.pdf",
+  "text_chars": 16530,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/equipment/EQ_Durr_Ecopaint_RoDip_PT_ED_rotary_dip_brochure.pdf",
+  "ids": [
+   1,
+   2,
+   3
+  ],
+  "kind": "equipment_docs",
+  "url": "https://www.olpidurr.it/fileadmin/olpidurr.it/01_Products/01_Paint_Shops/03_PT_EC/01_Bath_Cleaning/02_EcoMultiCyclone/brochure-ecopaint-wetsystem.pdf",
+  "title": "brochure ecopaint wetsystem (Dürr PT/EC, hosted on olpidurr.it)",
+  "download": "ok",
+  "pages": "12",
+  "pdf_title": "",
+  "text_chars": 3939,
+  "keyword_ratio": 0.62,
+  "missing": [
+   "ec",
+   "hosted",
+   "olpidurr",
+   "rodip",
+   "rotary"
+  ]
+ },
+ {
+  "file": "pdf/materials/M02_ED7010_Binder_Gray_SDS_EQUIV.pdf",
+  "ids": [
+   2
+  ],
+  "kind": "material_docs",
+  "url": "https://www.charlottepipe.com/uploads/documents/technical/SDS-CR686A-Resin.pdf",
+  "title": "PPG POWERCRON Resin CR686A SDS (v7, Dec 2025)",
+  "download": "ok",
+  "pages": "11",
+  "pdf_title": "",
+  "text_chars": 9133,
+  "keyword_ratio": 0.71,
+  "missing": [
+   "v7",
+   "dec"
+  ]
+ },
+ {
+  "file": "pdf/materials/M02_ED7010_Binder_Gray_SDS_EQUIV_2.pdf",
+  "ids": [
+   2
+  ],
+  "kind": "material_docs",
+  "url": "https://www.charlottepipe.com/Documents/SDS/SDS_CR686A.pdf",
+  "title": "PPG POWERCRON CR686A SDS (older v6, 2020)",
+  "download": "http_404"
+ },
+ {
+  "file": "pdf/materials/M02_ED7010_Binder_Gray_TDS_EQUIV.pdf",
+  "ids": [
+   2,
+   3
+  ],
+  "kind": "material_docs",
+  "url": "https://promo.basf.com/campaign/tasa/fichas-tecnicas/Ficha%20T%c3%a9cnica%20-%20CathoGuard%c2%ae%20580%20e%20800%20RE%20.pdf",
+  "title": "BASF CathoGuard 580 and 800 RE technical sheet (grey cathodic e-coat, FT 25-7821)",
+  "download": "ok",
+  "pages": "6",
+  "pdf_title": "",
+  "text_chars": 10507,
+  "keyword_ratio": 0.36,
+  "missing": [
+   "800",
+   "re",
+   "grey",
+   "cathodic",
+   "coat",
+   "ft",
+   "7821"
+  ]
+ },
+ {
+  "file": "pdf/materials/M02_ED7010_Binder_Gray_brochure_EQUIV.pdf",
+  "ids": [
+   2,
+   3
+  ],
+  "kind": "material_docs",
+  "url": "https://basf-coatings.com/dam/jcr:1a65cb55-cef8-48fc-b779-e0ec5d09735a/basf/coatings/global/automotive-oem-coatings/e-coat/BASF-eCoat-eLeaflet_final-20240805-EN.pdf",
+  "title": "BASF eCoat eLeaflet (CathoGuard 800 family) 2024",
+  "download": "http_404"
+ },
+ {
+  "file": "pdf/materials/M02_ED7010_Binder_Gray_TDS_EQUIV_2.pdf",
+  "ids": [
+   2,
+   3
+  ],
+  "kind": "material_docs",
+  "url": "https://secure.axalta.com/content/dam/EMEA/Industrial-Liquid-Coatings-EMEA/EN/Public/Documents/Aqua-EC-ecoat/Electrocoat-Aqua-EC-3000-EN.pdf",
+  "title": "Axalta AquaEC 3000 electrocoat PIB (cathodic 2-pack epoxy)",
+  "download": "ok",
+  "pages": "4",
+  "pdf_title": "",
+  "text_chars": 5486,
+  "keyword_ratio": 0.88,
+  "missing": [
+   "pib"
+  ]
+ },
+ {
+  "file": "pdf/materials/M02_ED7010_Binder_Gray_brochure_EQUIV_2.pdf",
+  "ids": [
+   2,
+   3
+  ],
+  "kind": "material_docs",
+  "url": "https://sustainability.axalta.com/content/dam/New Axalta Corporate Website/Documents/AquaEC_Brochure_Final.pdf",
+  "title": "Axalta AquaEC brochure",
+  "download": "network_error"
+ },
+ {
+  "file": "pdf/materials/M02_ED7010_Binder_Gray_SDS_EQUIV_3.pdf",
+  "ids": [
+   2,
+   3
+  ],
+  "kind": "material_docs",
+  "url": "https://www.charlottepipe.com/uploads/documents/technical/SDS-CR100.pdf",
+  "title": "PPG POWERCRON 10X (CR100) SDS v5 2025",
+  "download": "ok",
+  "pages": "13",
+  "pdf_title": "dm1797720",
+  "text_chars": 9167,
+  "keyword_ratio": 0.83,
+  "missing": [
+   "v5"
+  ]
+ },
+ {
+  "file": "pdf/equipment/EQ_Controlled_Power_Com_AACD_Series_50_e_coat_rectifier_brochure.pdf",
+  "ids": [
+   2,
+   3
+  ],
+  "kind": "equipment_docs",
+  "url": "https://www.trystar.com/wp-content/uploads/AACD_Brochure.pdf",
+  "title": "AACD Brochure",
+  "download": "http_404"
+ },
+ {
+  "file": "pdf/equipment/EQ_Controlled_Power_Com_Series_50_e_coat_rectifier_506_5012_brochure.pdf",
+  "ids": [
+   2,
+   3
+  ],
+  "kind": "equipment_docs",
+  "url": "https://www.trystar.com/wp-content/uploads/Series_50_Brochure.pdf",
+  "title": "Series 50 Brochure",
+  "download": "ok",
+  "pages": "6",
+  "pdf_title": "Series 50 Brochure",
+  "text_chars": 89934,
+  "keyword_ratio": 0.89,
+  "missing": [
+   "trystar"
+  ]
+ },
+ {
+  "file": "pdf/equipment/EQ_Controlled_Power_Com_Series_50_e_coat_rectifier_brochure.pdf",
+  "ids": [
+   2,
+   3
+  ],
+  "kind": "equipment_docs",
+  "url": "https://www.trystar.com/wp-content/uploads/document-library/Series_50_Brochure.pdf",
+  "title": "Series 50 Brochure (document-library copy)",
+  "download": "http_404"
+ },
+ {
+  "file": "pdf/equipment/EQ_Controlled_Power_Com_Series_50_rectifier_datasheet.pdf",
+  "ids": [
+   2,
+   3
+  ],
+  "kind": "equipment_docs",
+  "url": "https://www.trystar.com/wp-content/uploads/document-library/Trystar_-S50-107649.pdf",
+  "title": "Trystar S50 107649",
+  "download": "ok",
+  "pages": "48",
+  "pdf_title": "",
+  "text_chars": 6892,
+  "keyword_ratio": 0.5,
+  "missing": [
+   "s50",
+   "107649",
+   "controlled",
+   "company"
+  ]
+ },
+ {
+  "file": "pdf/materials/M03_ED7010_Paste_Gray_SDS_EQUIV.pdf",
+  "ids": [
+   3
+  ],
+  "kind": "material_docs",
+  "url": "https://www.charlottepipe.com/uploads/documents/technical/SDS-CP491.pdf",
+  "title": "PPG POWERCRON Black Paste CP491 SDS",
+  "download": "ok",
+  "pages": "12",
+  "pdf_title": "dm941760",
+  "text_chars": 8171,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M04_BODY_SEALER_RSB_430_TDS_EQUIV.pdf",
+  "ids": [
+   4
+  ],
+  "kind": "material_docs",
+  "url": "https://datasheets.tdx.henkel.com/TEROSON-PV-3046-en_GL.pdf",
+  "title": "TEROSON PV 3046 en GL (Henkel PVC plastisol seam sealer for vehicle bodies)",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "TEROSON-PV-3046-en_GL.pdf",
+  "text_chars": 9273,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M04_BODY_SEALER_RSB_430_TDS_EQUIV_2.pdf",
+  "ids": [
+   4
+  ],
+  "kind": "material_docs",
+  "url": "https://www.rudolphbros.com/customer/docs/skudocs/438-teroson-pv-434-1-tds.pdf",
+  "title": "TEROSON PV 434.1 (Terolan 434.1) technical bulletin - PVC plastisol monobake seam sealer",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "",
+  "text_chars": 12159,
+  "keyword_ratio": 0.9,
+  "missing": [
+   "seam"
+  ]
+ },
+ {
+  "file": "pdf/materials/M04_BODY_SEALER_RSB_430_paper_EQUIV.pdf",
+  "ids": [
+   4,
+   5,
+   6
+  ],
+  "kind": "material_docs",
+  "url": "https://www.huntsman.com/docs/Documents/Euretek-SelectorGuide-AdhesionPromoters.pdf",
+  "title": "Huntsman Euretek adhesion promoters for PVC plastisols (automotive seam sealers/UBC)",
+  "download": "http_404"
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_E_Flo_SP_supply_systems_manual.pdf",
+  "ids": [
+   4,
+   5,
+   6,
+   7
+  ],
+  "kind": "equipment_docs",
+  "url": "https://gww.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6331EN-L.pdf",
+  "title": "3A6331EN L - E-Flo SP Supply Systems (English)",
+  "download": "network_error"
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_E_Flo_SP_supply_systems_manual_2.pdf",
+  "ids": [
+   4,
+   5,
+   6,
+   7
+  ],
+  "kind": "equipment_docs",
+  "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6853RU-G.pdf",
+  "title": "3A6853RU G - E-Flo SP supply systems (Russian)",
+  "download": "ok",
+  "pages": "76",
+  "pdf_title": "3A6853G, Руководство, Системы подачи E-Flo SP, Инструкции и детали, русский язык",
+  "text_chars": 13487,
+  "keyword_ratio": 0.5,
+  "missing": [
+   "3a6853ru",
+   "supply",
+   "russian"
+  ]
+ },
+ {
+  "file": "pdf/equipment/EQ_Durr_EcoShotMeter_Tandem_EcoMeter_SP_datasheet.pdf",
+  "ids": [
+   4,
+   5,
+   6,
+   7
+  ],
+  "kind": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/05_Sealing_Gluing_Technology/03_Gluing_Application_Technology_Battery_Systems/duerr-datsheet-endless-dosing-en.pdf",
+  "title": "duerr datsheet endless dosing en",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "",
+  "text_chars": 5424,
+  "keyword_ratio": 0.78,
+  "missing": [
+   "duerr",
+   "datsheet"
+  ]
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_PrecisionFlo_XL_manual.pdf",
+  "ids": [
+   4,
+   5,
+   6,
+   7
+  ],
+  "kind": "equipment_docs",
+  "url": "https://airless.es/manuales/graco/309374r.pdf",
+  "title": "PrecisionFlo XL electronically controlled fluid dispensing packages, manual 309374 rev R (third-party host)",
+  "download": "ok",
+  "pages": "176",
+  "pdf_title": "309374r  ,   PrecisionFlo XL",
+  "text_chars": 11804,
+  "keyword_ratio": 0.75,
+  "missing": [
+   "third",
+   "party",
+   "host"
+  ]
+ },
+ {
+  "file": "pdf/equipment/EQ_Atlas_Copco_SCA_SCA_dosing_pocket_guide_brochure.pdf",
+  "ids": [
+   4,
+   5,
+   6,
+   7
+  ],
+  "kind": "equipment_docs",
+  "url": "https://shopit.atlascopco.com/content/dam/atlas-copco/industrial-technique/general/documents/pocketguides/Atlas%20Copco-DT-9833%202169%2001-2019DE.pdf",
+  "title": "Atlas Copco Pocket Guide Dosiertechnik (DE) 9833 2169 01",
+  "download": "ok",
+  "pages": "52",
+  "pdf_title": "Pocket guide Dosiertechnik",
+  "text_chars": 4938,
+  "keyword_ratio": 0.2,
+  "missing": [
+   "atlas",
+   "copco",
+   "de",
+   "9833",
+   "2169",
+   "01",
+   "sca",
+   "dosing"
+  ]
+ },
+ {
+  "file": "pdf/equipment/EQ_Durr_EcoGun_EcoShot_Meter_EcoMeter_dispensing_brochure.pdf",
+  "ids": [
+   4,
+   5,
+   6,
+   7
+  ],
+  "kind": "equipment_docs",
+  "url": "https://reframed.durr.com/fileadmin/user_upload/images/2026/Dispensing_product_catalog/durr-dispensing-product-catalog-2026.pdf",
+  "title": "Dürr dispensing product catalog 2026",
+  "download": "ok",
+  "pages": "72",
+  "pdf_title": "Product catalog 2026 - Dispensing equipment for adhesive application",
+  "text_chars": 2172,
+  "keyword_ratio": 0.83,
+  "missing": [
+   "pvc",
+   "underbody"
+  ]
+ },
+ {
+  "file": "pdf/equipment/EQ_Durr_EcoShotMeter_Tandem_EcoMeter_SP_datasheet_2.pdf",
+  "ids": [
+   4,
+   5,
+   6,
+   7
+  ],
+  "kind": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/05_Sealing_Gluing_Technology/03_Gluing_Application_Technology_Battery_Systems/duerr-datsheet-endless-dosing-de.pdf",
+  "title": "duerr-datsheet-endless-dosing-de",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "",
+  "text_chars": 5844,
+  "keyword_ratio": 0.5,
+  "missing": [
+   "duerr",
+   "datsheet",
+   "endless",
+   "dosing",
+   "de"
+  ]
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_Check_Mate_Dura_Flo_supply_ram_pumps_for_brochure.pdf",
+  "ids": [
+   4,
+   5,
+   6,
+   7
+  ],
+  "kind": "equipment_docs",
+  "url": "https://gww.graco.com/content/dam/graco/aftd/literature/catalogs/336833/336833EN-B.pdf",
+  "title": "Graco sealant & adhesive dispensing equipment catalog 336833EN-B",
+  "download": "network_error"
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_XL_10000_air_motor_Dura_Flo_King_sealant_manual.pdf",
+  "ids": [
+   4,
+   5,
+   6,
+   7
+  ],
+  "kind": "equipment_docs",
+  "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334644/334644EN-D.pdf",
+  "title": "Graco 334644EN-D XL 10000 Air Motor instructions",
+  "download": "http_404"
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_XL_6500_XL_3400_air_motors_high_performa_manual.pdf",
+  "ids": [
+   4,
+   5,
+   6,
+   7
+  ],
+  "kind": "equipment_docs",
+  "url": "https://graco.com/content/dam/graco/tech_documents/manuals/3A5/3A5423/3A5423EN.pdf",
+  "title": "Graco 3A5423EN XL 6500 and 3400 Air Motors",
+  "download": "ok",
+  "pages": "36",
+  "pdf_title": "3A5423EN-K, Manual, XL 6500 and 3400 Air Motors, Instructions, English",
+  "text_chars": 7422,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/equipment/EQ_Atlas_Copco_SCA_SCA_paint_shop_dispensing_LASD_underbody_brochure.pdf",
+  "ids": [
+   4,
+   5,
+   6
+  ],
+  "kind": "equipment_docs",
+  "url": "https://shopit.atlascopco.com/content/dam/atlas-copco/industrial-technique/general/documents/brochures-leaflets/joining-solutions/LASD_Leaflet_2019_EN.pdf",
+  "title": "LASD Leaflet 2019 EN",
+  "download": "ok",
+  "pages": "12",
+  "pdf_title": "LASD Leaflet EN",
+  "text_chars": 2775,
+  "keyword_ratio": 0.8,
+  "missing": [
+   "2019",
+   "shop"
+  ]
+ },
+ {
+  "file": "pdf/materials/M05_UBC_UNDER_COAT_RSU_230_paper_EQUIV.pdf",
+  "ids": [
+   5,
+   6,
+   7
+  ],
+  "kind": "material_docs",
+  "url": "https://global.honda/jp/technical-review/PDF/004/004_174.pdf",
+  "title": "Honda R&D Technical Review - low specific gravity PVC underbody coating",
+  "download": "ok",
+  "pages": "9",
+  "pdf_title": "",
+  "text_chars": 4514,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_King_air_powered_airless_sprayer_XL_3400_brochure.pdf",
+  "ids": [
+   5,
+   6,
+   7
+  ],
+  "kind": "equipment_docs",
+  "url": "https://graco.com/content/dam/graco/aftd/literature/brochures/349980/349980ENEU-B.pdf",
+  "title": "Graco King brochure 349980ENEU-B",
+  "download": "ok",
+  "pages": "11",
+  "pdf_title": "349980ENEU King® Airless Sprayers for Protective Coating Applications",
+  "text_chars": 8740,
+  "keyword_ratio": 0.55,
+  "missing": [
+   "powered",
+   "sprayer",
+   "3400",
+   "6500",
+   "10k"
+  ]
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_King_spray_packages_with_XL_10K_air_moto_manual.pdf",
+  "ids": [
+   5,
+   6,
+   7
+  ],
+  "kind": "equipment_docs",
+  "url": "https://graco.com/content/dam/graco/tech_documents/manuals/334/334645/3A7301ES.pdf",
+  "title": "Graco 3A7301ES (Spanish edition of 334645 King XL10K packages)",
+  "download": "ok",
+  "pages": "42",
+  "pdf_title": "3A7301ES-K, Manual, Bombas y conjuntos de pulverización King con motores neumáticos XL 10K, español",
+  "text_chars": 7018,
+  "keyword_ratio": 0.5,
+  "missing": [
+   "spanish",
+   "334645",
+   "xl10k",
+   "packages",
+   "spray",
+   "air"
+  ]
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_King_spray_packages_with_XL_10K_air_moto_manual_2.pdf",
+  "ids": [
+   5,
+   6,
+   7
+  ],
+  "kind": "equipment_docs",
+  "url": "https://graco.com/content/dam/graco/tech_documents/manuals/334/334645/3A7306SV.pdf",
+  "title": "Graco 3A7306SV (Swedish edition of 334645)",
+  "download": "ok",
+  "pages": "42",
+  "pdf_title": "3A7306SV-K, handbok, King sprutsystem och pumpar med XL 10K-luftmotorer, instruktioner, svenska",
+  "text_chars": 6490,
+  "keyword_ratio": 0.45,
+  "missing": [
+   "swedish",
+   "334645",
+   "spray",
+   "packages",
+   "air",
+   "motor"
+  ]
+ },
+ {
+  "file": "pdf/materials/M07_PVC_ANTI_CHIP_paper_EQUIV.pdf",
+  "ids": [
+   7
+  ],
+  "kind": "material_docs",
+  "url": "https://rts.i-car.com/images/pdf/oem-info/chrysler/service-bulletins/13504.pdf",
+  "title": "Chrysler service bulletin 13504 - OEM PVC underbody/anti-chip, repair materials",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "",
+  "text_chars": 5193,
+  "keyword_ratio": 0.8,
+  "missing": [
+   "service",
+   "13504"
+  ]
+ },
+ {
+  "file": "pdf/materials/M08_CR_100_PRIMER_SURFACER_LIGHT_GRAY_N7_0_TDS_EQUIV.pdf",
+  "ids": [
+   8,
+   9
+  ],
+  "kind": "material_docs",
+  "url": "https://vrteotgdakjwbjeugnxx.supabase.co/storage/v1/object/public/product-images/datasheets/kcc/KCC_DATASHEET_US4000_eng.pdf",
+  "title": "KCC DATASHEET US4000 (2K acrylic urethane primer surfacer, refinish)",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "",
+  "text_chars": 5225,
+  "keyword_ratio": 0.75,
+  "missing": [
+   "kcc",
+   "refinish"
+  ]
+ },
+ {
+  "file": "pdf/materials/M08_CR_100_PRIMER_SURFACER_LIGHT_GRAY_N7_0_TDS_EQUIV_2.pdf",
+  "ids": [
+   8,
+   9
+  ],
+  "kind": "material_docs",
+  "url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F201504150003022kor.pdf",
+  "title": "KCC UU3000 data sheet (2K urethane primer-surfacer, auto refinish)",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "",
+  "text_chars": 2854,
+  "keyword_ratio": 0.25,
+  "missing": [
+   "kcc",
+   "urethane",
+   "primer",
+   "surfacer",
+   "auto",
+   "refinish"
+  ]
+ },
+ {
+  "file": "pdf/equipment/EQ_Durr_EcoRP_E043i_datasheet.pdf",
+  "ids": [
+   8,
+   9,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   24
+  ],
+  "kind": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+  "title": "Dürr datasheet EcoRP E043i (EN)",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "190415_Du_DB_-vT_EcoRP-7-Achs-Lackierroboter_de_en.indd",
+  "text_chars": 4679,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/equipment/EQ_Durr_EcoBell3_datasheet.pdf",
+  "ids": [
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   26
+  ],
+  "kind": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+  "title": "Dürr datasheet EcoBell3 (EN)",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "",
+  "text_chars": 7193,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/equipment/EQ_ABB_IRB_5500_FlexPainter_brochure.pdf",
+  "ids": [
+   8,
+   9,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   24
+  ],
+  "kind": "equipment_docs",
+  "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+  "title": "IRB5500 Flex RP50010EN Rev.G",
+  "download": "ok",
+  "pages": "4",
+  "pdf_title": "IRB5500-Flex-RP50010EN-Rev.G.indd",
+  "text_chars": 16533,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/equipment/EQ_ABB_IRB_5500_22_datasheet.pdf",
+  "ids": [
+   8,
+   9,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   24
+  ],
+  "kind": "equipment_docs",
+  "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+  "title": "IRB 5500-22 Datasheet US Letter",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "",
+  "text_chars": 11218,
+  "keyword_ratio": 0.8,
+  "missing": [
+   "letter"
+  ]
+ },
+ {
+  "file": "pdf/equipment/EQ_ABB_RB1000i_brochure.pdf",
+  "ids": [
+   8,
+   9,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   24
+  ],
+  "kind": "equipment_docs",
+  "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+  "title": "RB1000i Series Presentation",
+  "download": "http_403"
+ },
+ {
+  "file": "pdf/equipment/EQ_FANUC_P_250iB_datasheet.pdf",
+  "ids": [
+   8,
+   9,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   24
+  ],
+  "kind": "equipment_docs",
+  "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+  "title": "FANUC P-250iB catalog RP-250iB(E)-02a",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "FANUC Robot P-250iB",
+  "text_chars": 3813,
+  "keyword_ratio": 0.8,
+  "missing": [
+   "catalog"
+  ]
+ },
+ {
+  "file": "pdf/equipment/EQ_Durr_EcoSupply2_Core_datasheet.pdf",
+  "ids": [
+   8,
+   9,
+   10,
+   23,
+   24,
+   25,
+   26
+  ],
+  "kind": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-supply-2-core.pdf",
+  "title": "Dürr EcoSupply2 Core (paint supply unit for mix room)",
+  "download": "ok",
+  "pages": "5",
+  "pdf_title": "Product name",
+  "text_chars": 8443,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/equipment/EQ_Durr_Ecopaint_Robot_painting_stations_brochure.pdf",
+  "ids": [
+   8,
+   9,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   24
+  ],
+  "kind": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+  "title": "Ecopaint Robot painting stations brochure",
+  "download": "ok",
+  "pages": "12",
+  "pdf_title": "",
+  "text_chars": 6570,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/equipment/EQ_ABB_RB1000_SSD_RB1000_SAD_datasheet.pdf",
+  "ids": [
+   8,
+   9,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   24
+  ],
+  "kind": "equipment_docs",
+  "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+  "title": "RB1000-SSD/SAD high-flow atomizer with pattern control (AB02R02)",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "",
+  "text_chars": 7092,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M10_PRIMER_TYPE_THINNER_SDS_EQUIV.pdf",
+  "ids": [
+   10,
+   23,
+   25
+  ],
+  "kind": "material_docs",
+  "url": "https://rusty21.com/wp-content/uploads/2025/04/KCC_MSDS_%EC%97%90%EB%82%98%EB%A9%9C%ED%9D%AC%EC%84%9D%EC%A0%9C012_kor.pdf",
+  "title": "KCC MSDS Enamel thinner 012 (에나멜희석제012), MSDS no. AA00017-0000000525",
+  "download": "ok",
+  "pages": "13",
+  "pdf_title": "",
+  "text_chars": 4645,
+  "keyword_ratio": 0.43,
+  "missing": [
+   "kcc",
+   "enamel",
+   "thinner",
+   "no"
+  ]
+ },
+ {
+  "file": "pdf/materials/M10_PRIMER_TYPE_THINNER_paper_EQUIV.pdf",
+  "ids": [
+   10,
+   23,
+   25
+  ],
+  "kind": "material_docs",
+  "url": "https://koreascience.kr/article/JAKO200610103460967.pdf",
+  "title": "Korean study: reliability of thinner MSDS / thinner composition (Busan-Gyeongnam, 2006)",
+  "download": "ok",
+  "pages": "10",
+  "pdf_title": "위생학12월내지",
+  "text_chars": 8804,
+  "keyword_ratio": 0.88,
+  "missing": [
+   "composition"
+  ]
+ },
+ {
+  "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_SDS_EQUIV.pdf",
+  "ids": [
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22
+  ],
+  "kind": "material_docs",
+  "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+  "title": "Glasurit (BASF) 100-M 998 brill. silver extra coarse - solvent-borne metallic basecoat SDS (refinish proxy)",
+  "download": "http_404"
+ },
+ {
+  "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_TDS_EQUIV.pdf",
+  "ids": [
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22
+  ],
+  "kind": "material_docs",
+  "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+  "title": "AkzoNobel Sikkens Autobase Plus TDS (S10403) - solvent-borne basecoat (refinish proxy)",
+  "download": "ok",
+  "pages": "5",
+  "pdf_title": "",
+  "text_chars": 6452,
+  "keyword_ratio": 0.4,
+  "missing": [
+   "akzonobel",
+   "s10403",
+   "solvent",
+   "borne",
+   "refinish",
+   "proxy"
+  ]
+ },
+ {
+  "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_TDS_EQUIV_2.pdf",
+  "ids": [
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22
+  ],
+  "kind": "material_docs",
+  "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+  "title": "Lesonal Basecoat SB - Programmed System Technique (PST) TDS 09/12/2019 (AkzoNobel, solvent-borne basecoat)",
+  "download": "ok",
+  "pages": "9",
+  "pdf_title": "Microsoft Word - TDS Lesonal Basecoat SB 190912-1 English",
+  "text_chars": 8459,
+  "keyword_ratio": 0.75,
+  "missing": [
+   "akzonobel",
+   "solvent",
+   "borne"
+  ]
+ },
+ {
+  "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_TDS_EQUIV_3.pdf",
+  "ids": [
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22
+  ],
+  "kind": "material_docs",
+  "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+  "title": "Axalta Centari 600 basecoat lacquer TDS (27.08.2014, AUS) - solvent-borne clear-over-base for solid, metallic and pearl colours",
+  "download": "ok",
+  "pages": "6",
+  "pdf_title": "",
+  "text_chars": 5733,
+  "keyword_ratio": 0.83,
+  "missing": [
+   "axalta",
+   "solvent",
+   "borne"
+  ]
+ },
+ {
+  "file": "pdf/equipment/EQ_Durr_EcoMCC3_20_datasheet.pdf",
+  "ids": [
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22
+  ],
+  "kind": "equipment_docs",
+  "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
+  "title": "Dürr EcoMCC3 20 colour changer",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "Product name",
+  "text_chars": 7227,
+  "keyword_ratio": 0.8,
+  "missing": [
+   "colour"
+  ]
+ },
+ {
+  "file": "pdf/equipment/EQ_Durr_EcoSupply_P_brochure.pdf",
+  "ids": [
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22
+  ],
+  "kind": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
+  "title": "Dürr Station EcoSupply P Basic Single Pass (ready2integrate 2019)",
+  "download": "ok",
+  "pages": "11",
+  "pdf_title": "",
+  "text_chars": 1677,
+  "keyword_ratio": 0.88,
+  "missing": [
+   "station"
+  ]
+ },
+ {
+  "file": "pdf/equipment/EQ_FANUC_P_250iB_15_datasheet.pdf",
+  "ids": [
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22
+  ],
+  "kind": "equipment_docs",
+  "url": "https://www.fanucamerica.com/cmsmedia/datasheets/P-250iB_Product Information_330.pdf",
+  "title": "P-250iB Product Information",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "",
+  "text_chars": 26917,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M23_BASE_TYPE_THINNER_SDS_EQUIV.pdf",
+  "ids": [
+   23,
+   26
+  ],
+  "kind": "material_docs",
+  "url": "https://www.noroopaint.com/kor/file/prod_file/%EB%85%B8%EB%A3%A8%EB%9D%BC%ED%81%AC_%EC%8B%A0%EB%82%98(%EB%9D%BD%EC%B9%B4_%EC%8B%A0%EB%82%98)_DR-170_GHS-MSDS.pdf",
+  "title": "Noroo lacquer thinner DR-170 (노루락카 신나, summer grade) GHS-MSDS",
+  "download": "ok",
+  "pages": "12",
+  "pdf_title": "",
+  "text_chars": 7486,
+  "keyword_ratio": 0.25,
+  "missing": [
+   "noroo",
+   "lacquer",
+   "thinner",
+   "summer",
+   "grade",
+   "ghs"
+  ]
+ },
+ {
+  "file": "pdf/materials/M24_TOP_CLEAR_HITEC_2000_TDS_EQUIV.pdf",
+  "ids": [
+   24
+  ],
+  "kind": "material_docs",
+  "url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F202301250054173eng.pdf",
+  "title": "KCC 5200 HS CLEAR DATA-SHEET",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "",
+  "text_chars": 3894,
+  "keyword_ratio": 0.75,
+  "missing": [
+   "kcc"
+  ]
+ },
+ {
+  "file": "pdf/materials/M24_TOP_CLEAR_HITEC_2000_SDS_EQUIV.pdf",
+  "ids": [
+   24
+  ],
+  "kind": "material_docs",
+  "url": "https://www.brandenburg.com/IphonePDF/safety/safety%20data%20sheets/paint%20products.ppg%20industries.amerlock%20aue-40%20clear%20coat.pdf",
+  "title": "PPG SDS 'OEM Clearcoat' (product code AUE-40), v10, 2016-12-12",
+  "download": "ok",
+  "pages": "16",
+  "pdf_title": "",
+  "text_chars": 9616,
+  "keyword_ratio": 0.88,
+  "missing": [
+   "v10"
+  ]
+ },
+ {
+  "file": "pdf/materials/M24_TOP_CLEAR_HITEC_2000_TDS_EQUIV_2.pdf",
+  "ids": [
+   24
+  ],
+  "kind": "material_docs",
+  "url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F202007230045276kor.pdf",
+  "title": "KCC 7300 HS CLEAR data sheet",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "",
+  "text_chars": 3479,
+  "keyword_ratio": 0.75,
+  "missing": [
+   "kcc"
+  ]
+ },
+ {
+  "file": "pdf/materials/M24_TOP_CLEAR_HITEC_2000_TDS_EQUIV_3.pdf",
+  "ids": [
+   24
+  ],
+  "kind": "material_docs",
+  "url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F202007270045330kor.pdf",
+  "title": "KCC 9020 FC CLEAR data sheet",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "",
+  "text_chars": 3536,
+  "keyword_ratio": 0.75,
+  "missing": [
+   "kcc"
+  ]
+ },
+ {
+  "file": "pdf/materials/M26_CLEANING_THINNER_paper_EQUIV.pdf",
+  "ids": [
+   26
+  ],
+  "kind": "material_docs",
+  "url": "https://www.eastman.com/content/dam/eastman/corporate/en/literature/c/coatind20287.pdf",
+  "title": "Eastman: Purge solvents for paint/spray equipment cleaning (coatings literature)",
+  "download": "ok",
+  "pages": "12",
+  "pdf_title": "Eastman solvents - Delivering performance in cleaners",
+  "text_chars": 4627,
+  "keyword_ratio": 0.67,
+  "missing": [
+   "paint",
+   "spray",
+   "literature"
+  ]
+ },
+ {
+  "file": "pdf/materials/M26_CLEANING_THINNER_paper_EQUIV_2.pdf",
+  "ids": [
+   26
+  ],
+  "kind": "material_docs",
+  "url": "https://www.eastman.com/Literature_Center/S/SOL032.pdf",
+  "title": "Eastman SOL032: improving activity of hydrocarbon purge blends with oxygenated solvents",
+  "download": "http_404"
+ },
+ {
+  "file": "pdf/materials/M26_CLEANING_THINNER_paper_EQUIV_3.pdf",
+  "ids": [
+   26
+  ],
+  "kind": "material_docs",
+  "url": "https://dtsc.ca.gov/wp-content/uploads/sites/31/2024/04/TD_FS_Sprayguncleaning_accessible.pdf",
+  "title": "California DTSC fact sheet: spray gun cleaning (thinner waste, enclosed gun washers, solvent reuse)",
+  "download": "http_403"
+ },
+ {
+  "file": "pdf/materials/M26_CLEANING_THINNER_SDS_EQUIV.pdf",
+  "ids": [
+   26
+  ],
+  "kind": "material_docs",
+  "url": "http://noroopaint.com/kor/file/prod_file/SHH710501_DOCU03_c090106.pdf",
+  "title": "Noroo MSDS SHH710501 (mixed solvent, toluene/xylene type, (주)노루케미칼)",
+  "download": "network_error"
+ },
+ {
+  "file": "pdf/equipment/EQ_Durr_EcoBell_Cleaner_D2_EcoBell_PurgeBox_datasheet.pdf",
+  "ids": [
+   26
+  ],
+  "kind": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/03_Atomizer_Cleaning/duerr-datasheet-ecobell-cleander-d2-ecobell-purgebox-en.pdf",
+  "title": "Dürr datasheet EcoBell Cleaner D2 + EcoBell PurgeBox (EN)",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "",
+  "text_chars": 5017,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M27_DISK_BRAKE_FLUID_DOT_4_PLUS_A_T_and_M_T_TDS_EQUIV.pdf",
+  "ids": [
+   27
+  ],
+  "kind": "material_docs",
+  "url": "https://www.q8oils.com/wp-content/uploads/2025/11/Q8-Brake-Fluid-DOT-4plus_en.pdf",
+  "title": "Q8 Brake Fluid DOT 4 plus - product data sheet",
+  "download": "ok",
+  "pages": "1",
+  "pdf_title": "about:blank",
+  "text_chars": 2963,
+  "keyword_ratio": 0.8,
+  "missing": [
+   "plus"
+  ]
+ },
+ {
+  "file": "pdf/materials/M27_DISK_BRAKE_FLUID_DOT_4_PLUS_A_T_and_M_T_SDS_EQUIV.pdf",
+  "ids": [
+   27
+  ],
+  "kind": "material_docs",
+  "url": "https://www.biketeile-service.de/media/attachment/pdf/sida_en_5585513.pdf",
+  "title": "JMC Bremsflüssigkeit DOT4 Plus - Safety data sheet (rev. 11.10.2023)",
+  "download": "http_403"
+ },
+ {
+  "file": "pdf/materials/M27_DISK_BRAKE_FLUID_DOT_4_PLUS_A_T_and_M_T_SDS_EQUIV_2.pdf",
+  "ids": [
+   27
+  ],
+  "kind": "material_docs",
+  "url": "https://www.dascochem.co.kr/docs/dasco-bf-dot4-msds.pdf",
+  "title": "DASCO DOT-4 brake fluid MSDS (Korean, 물질안전보건자료, 2022)",
+  "download": "ok",
+  "pages": "26",
+  "pdf_title": "P66 DASCO DOT4",
+  "text_chars": 10930,
+  "keyword_ratio": 0.5,
+  "missing": [
+   "brake",
+   "fluid",
+   "korean"
+  ]
+ },
+ {
+  "file": "pdf/materials/M27_DISK_BRAKE_FLUID_DOT_4_PLUS_A_T_and_M_T_SDS_EQUIV_3.pdf",
+  "ids": [
+   27
+  ],
+  "kind": "material_docs",
+  "url": "https://christensenusa.com/wp-content/uploads/2026/03/Recochem-Brake-Fluid-DOT4-5-4-2017.pdf",
+  "title": "Recochem Brake Fluid DOT4 Safety Data Sheet",
+  "download": "ok",
+  "pages": "10",
+  "pdf_title": "",
+  "text_chars": 10124,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_NEXT_assembly_portfolio_incl_Somac_filli_brochure.pdf",
+  "ids": [
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   34,
+   35
+  ],
+  "kind": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/duerr-brochure-NEXT.assembly-english-low.pdf",
+  "title": "Final assembly on the NEXT.level - One-Stop-Shop solutions from Dürr",
+  "download": "ok",
+  "pages": "11",
+  "pdf_title": "",
+  "text_chars": 5091,
+  "keyword_ratio": 0.81,
+  "missing": [
+   "incl",
+   "somac",
+   "gmbh"
+  ]
+ },
+ {
+  "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_NEXT_assembly_portfolio_newer_edition_brochure.pdf",
+  "ids": [
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   34,
+   35
+  ],
+  "kind": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
+  "title": "Dürr NEXT.assembly brochure (EN, digital)",
+  "download": "ok",
+  "pages": "11",
+  "pdf_title": "",
+  "text_chars": 4945,
+  "keyword_ratio": 0.62,
+  "missing": [
+   "newer",
+   "somac",
+   "gmbh"
+  ]
+ },
+ {
+  "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_DXQ_filling_fill_stations_brochure.pdf",
+  "ids": [
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   34,
+   35
+  ],
+  "kind": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
+  "title": "Dürr case study: fluid fill stations in automotive final assembly",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "02-09-2025_CaseStudy_VW_en.indd",
+  "text_chars": 7940,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/equipment/EQ_Twin_Engineers_India_TCF_powertrain_fluid_filling_machines_br_brochure.pdf",
+  "ids": [
+   27,
+   28,
+   29,
+   30,
+   31,
+   32,
+   33,
+   35
+  ],
+  "kind": "equipment_docs",
+  "url": "https://www.twinengineers.com/wp-content/uploads/2024/07/Oil-Filling-Brochure.pdf",
+  "title": "Twin Engineers - Fluid Filling Machines for Automotives (brochure)",
+  "download": "ok",
+  "pages": "8",
+  "pdf_title": "TWBR 020221 Oil Filling Brochure.cdr",
+  "text_chars": 4231,
+  "keyword_ratio": 0.92,
+  "missing": [
+   "india"
+  ]
+ },
+ {
+  "file": "pdf/materials/M28_POWER_STRG_OIL_DEXRON_VI_GM_N10060_TDS_EQUIV.pdf",
+  "ids": [
+   28,
+   32
+  ],
+  "kind": "material_docs",
+  "url": "https://shop.sclubricants.com/pub/media/pds/pennzoil/Pennzoil-ATF-Dexron-VI-Technical-Datasheet.pdf",
+  "title": "Pennzoil ATF Dexron-VI Technical Datasheet",
+  "download": "ok",
+  "pages": "3",
+  "pdf_title": "Pennzoil ATF Dexron VI Technical Datasheet",
+  "text_chars": 6870,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M28_POWER_STRG_OIL_DEXRON_VI_GM_N10060_TDS_EQUIV_2.pdf",
+  "ids": [
+   28,
+   32
+  ],
+  "kind": "material_docs",
+  "url": "https://partner.ravenol.de/storage/app/media/product-pdf/Tds_1211105_en.pdf",
+  "title": "RAVENOL ATF Dexron VI - TDS 1211105",
+  "download": "network_error"
+ },
+ {
+  "file": "pdf/materials/M28_POWER_STRG_OIL_DEXRON_VI_GM_N10060_SDS_EQUIV.pdf",
+  "ids": [
+   28,
+   32
+  ],
+  "kind": "material_docs",
+  "url": "https://www.ravenol.de/storage/app/uploads/share/SDB/Sdb_RAVENOL%20ATF%20DEXRON%20VI_1211105_en_ALL.pdf",
+  "title": "RAVENOL ATF DEXRON VI - Safety data sheet",
+  "download": "ok",
+  "pages": "17",
+  "pdf_title": "RAVENOL ATF DEXRON VI",
+  "text_chars": 10316,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M28_POWER_STRG_OIL_DEXRON_VI_GM_N10060_SDS_EQUIV_2.pdf",
+  "ids": [
+   28,
+   32
+  ],
+  "kind": "material_docs",
+  "url": "https://msds.fmpco.com/images/fmp_msds/19287624_DexronVI_2014.pdf",
+  "title": "ACDelco Dexron-VI ATF SDS (ExxonMobil-produced, 2014, GM P/N 19287624)",
+  "download": "network_error"
+ },
+ {
+  "file": "pdf/materials/M28_POWER_STRG_OIL_DEXRON_VI_GM_N10060_SDS_EQUIV_3.pdf",
+  "ids": [
+   28,
+   32
+  ],
+  "kind": "material_docs",
+  "url": "https://acdelco.com.au/gm-b2cau/cms/pdf/SDS/LQ9RG_DEXRON%20VI%20PREMIUM%20FULL%20SYNTHETIC%20TRANSMISSION%20FLUID.pdf",
+  "title": "ACDelco (GM Holden) DEXRON VI Premium Full Synthetic Transmission Fluid - SDS (Infosafe LQ9RG, 2019)",
+  "download": "ok",
+  "pages": "8",
+  "pdf_title": "(6130B96D-3CFC-4458-A838-CDB4752FFEF5)Safey Data Sheet LQ9RG00 AU EN",
+  "text_chars": 8202,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M28_POWER_STRG_OIL_DEXRON_VI_GM_N10060_TDS_EQUIV_3.pdf",
+  "ids": [
+   28,
+   32
+  ],
+  "kind": "material_docs",
+  "url": "https://acdelco.com.au/gm-b2cau/cms/pdf/Flyers/ACDelco%20Dexron%20VI%20Premium%20Full%20Synthetic%20ATF%20Sell%20Sheet.pdf",
+  "title": "ACDelco Dexron VI Premium Full Synthetic ATF - sell sheet (ACDelco Australia)",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "",
+  "text_chars": 6275,
+  "keyword_ratio": 0.78,
+  "missing": [
+   "sell",
+   "australia"
+  ]
+ },
+ {
+  "file": "pdf/materials/M28_POWER_STRG_OIL_DEXRON_VI_GM_N10060_SDS_EQUIV_4.pdf",
+  "ids": [
+   28,
+   32
+  ],
+  "kind": "material_docs",
+  "url": "https://seattleautomotive.com/files/SDS/88861046%20dexron%20vi%20atf.pdf",
+  "title": "GM DEXRON VI ATF Material Safety Data Sheet 000003000398 v2.0 (GM P/N 88861046)",
+  "download": "ok",
+  "pages": "9",
+  "pdf_title": "",
+  "text_chars": 9140,
+  "keyword_ratio": 0.88,
+  "missing": [
+   "v2"
+  ]
+ },
+ {
+  "file": "pdf/materials/M28_POWER_STRG_OIL_DEXRON_VI_GM_N10060_SDS_EQUIV_5.pdf",
+  "ids": [
+   28,
+   32
+  ],
+  "kind": "material_docs",
+  "url": "https://uploads-ssl.webflow.com/5d513e6ea4a37093208cabb2/5e958119bb64f4d142e866cf_DEXRON%20%5ER%5E%20VI%20ATF.PDF",
+  "title": "DEXRON VI ATF SDS (EC 1907/2006)",
+  "download": "ok",
+  "pages": "11",
+  "pdf_title": "",
+  "text_chars": 9623,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M28_POWER_STRG_OIL_DEXRON_VI_GM_N10060_SDS_EQUIV_6.pdf",
+  "ids": [
+   28,
+   32
+  ],
+  "kind": "material_docs",
+  "url": "https://evosupplygroupcatalog.sfo3.digitaloceanspaces.com/brands/files/Petro%20Canada/DEX6C16-sds.pdf",
+  "title": "Petro-Canada DEXRON VI ATF SDS 000003001354 v4.0",
+  "download": "ok",
+  "pages": "11",
+  "pdf_title": "",
+  "text_chars": 10184,
+  "keyword_ratio": 0.86,
+  "missing": [
+   "v4"
+  ]
+ },
+ {
+  "file": "pdf/materials/M29_ANTIFREEZE_DX_COOL_CONCENTRATE_RED_brochure_EQUIV.pdf",
+  "ids": [
+   29
+  ],
+  "kind": "material_docs",
+  "url": "https://pwr.com.au/app/uploads/2022/08/ACDelco-Coolant-FAQ.pdf",
+  "title": "ACDelco Coolant FAQ (DEX-COOL red concentrate)",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "",
+  "text_chars": 3752,
+  "keyword_ratio": 0.71,
+  "missing": [
+   "faq",
+   "concentrate"
+  ]
+ },
+ {
+  "file": "pdf/materials/M29_ANTIFREEZE_DX_COOL_CONCENTRATE_RED_PDS_EQUIV.pdf",
+  "ids": [
+   29
+  ],
+  "kind": "material_docs",
+  "url": "https://shop.sclubricants.com/pub/media/pds/shell/Shell-Dexcool-Antifreeze-Coolant-50_50-datasheet.pdf",
+  "title": "Shell Dexcool Antifreeze Coolant 50/50 datasheet",
+  "download": "ok",
+  "pages": "3",
+  "pdf_title": "Shell Dexcool AF/C 50/50 Technical Datasheet | SCL",
+  "text_chars": 7882,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M29_ANTIFREEZE_DX_COOL_CONCENTRATE_RED_PDS_EQUIV_2.pdf",
+  "ids": [
+   29
+  ],
+  "kind": "material_docs",
+  "url": "https://kostusa.com/wp-content/uploads/2022/09/NEW-PDS-DefendAL-DexCoolAutomotive.pdf",
+  "title": "KOST DefendAL DexCool Automotive PDS",
+  "download": "network_error"
+ },
+ {
+  "file": "pdf/materials/M29_ANTIFREEZE_DX_COOL_CONCENTRATE_RED_TDS_EQUIV.pdf",
+  "ids": [
+   29
+  ],
+  "kind": "material_docs",
+  "url": "https://antifreezefelix.ru/storage/upload/documents/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82%20FELIX%20CARBOX%20+%20%D0%BA%D0%BE%D0%BD%D1%86.pdf",
+  "title": "Технический лист FELIX CARBOX + конц. (FELIX Carbox G12+ concentrate technical sheet)",
+  "download": "ok",
+  "pages": "4",
+  "pdf_title": "FELIX_CARBOX",
+  "text_chars": 7590,
+  "keyword_ratio": 0.75,
+  "missing": [
+   "concentrate"
+  ]
+ },
+ {
+  "file": "pdf/materials/M29_ANTIFREEZE_DX_COOL_CONCENTRATE_RED_SDS_EQUIV.pdf",
+  "ids": [
+   29
+  ],
+  "kind": "material_docs",
+  "url": "https://antifreezefelix.ru/storage/upload/documents/MSDS%20Felix%20CARBOX%20SQ.PDF",
+  "title": "MSDS FELIX CARBOX (SQ) antifreeze",
+  "download": "ok",
+  "pages": "4",
+  "pdf_title": "® = Зарегистрированная торговая марка компании «BASF SE»",
+  "text_chars": 6399,
+  "keyword_ratio": 0.75,
+  "missing": [
+   "antifreeze"
+  ]
+ },
+ {
+  "file": "pdf/materials/M29_ANTIFREEZE_DX_COOL_CONCENTRATE_RED_TDS_EQUIV_2.pdf",
+  "ids": [
+   29
+  ],
+  "kind": "material_docs",
+  "url": "https://antifreezefelix.ru/storage/upload/documents/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82%20FELIX%20TYPE%20D.pdf",
+  "title": "Технический лист FELIX TYPE D",
+  "download": "ok",
+  "pages": "3",
+  "pdf_title": "FELIX_CARBOX правка",
+  "text_chars": 7931,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M29_ANTIFREEZE_DX_COOL_CONCENTRATE_RED_TDS_EQUIV_3.pdf",
+  "ids": [
+   29
+  ],
+  "kind": "material_docs",
+  "url": "https://antifreezefelix.ru/storage/upload/documents/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82%20FELIX%20JDM.pdf",
+  "title": "Технический лист FELIX JDM",
+  "download": "ok",
+  "pages": "3",
+  "pdf_title": "FELIX_JDM",
+  "text_chars": 7979,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M29_ANTIFREEZE_DX_COOL_CONCENTRATE_RED_TDS_EQUIV_4.pdf",
+  "ids": [
+   29
+  ],
+  "kind": "material_docs",
+  "url": "https://tosol-sintez.ru/assets/files/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82%20FELIX%20DRAGON.pdf",
+  "title": "Технический лист FELIX DRAGON",
+  "download": "ok",
+  "pages": "4",
+  "pdf_title": "Технический лист FELIX DRAGON",
+  "text_chars": 7367,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M30_T_M_OIL_PDS_EQUIV.pdf",
+  "ids": [
+   30
+  ],
+  "kind": "material_docs",
+  "url": "https://ilti.idemitsu.com/media/file/originals/post/2023/08/16/idemitsu-mtf.pdf",
+  "title": "Idemitsu MTF - product leaflet (Idemitsu Lubricants / ILTI)",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "",
+  "text_chars": 2844,
+  "keyword_ratio": 0.4,
+  "missing": [
+   "leaflet",
+   "lubricants",
+   "ilti"
+  ]
+ },
+ {
+  "file": "pdf/materials/M30_T_M_OIL_SDS_EQUIV.pdf",
+  "ids": [
+   30
+  ],
+  "kind": "material_docs",
+  "url": "https://www.idemitsu.com/jp/sds/lube/32050330.pdf",
+  "title": "Idemitsu Daphne Super Gear Oil 150 - 安全データシート (32050330, rev 2024-04-30)",
+  "download": "ok",
+  "pages": "12",
+  "pdf_title": "",
+  "text_chars": 6085,
+  "keyword_ratio": 0.4,
+  "missing": [
+   "idemitsu",
+   "daphne",
+   "super",
+   "gear",
+   "oil",
+   "150"
+  ]
+ },
+ {
+  "file": "pdf/materials/M30_T_M_OIL_PDS_EQUIV_2.pdf",
+  "ids": [
+   30
+  ],
+  "kind": "material_docs",
+  "url": "https://www.idemitsu.com/jp/sds/lube/30300240p.pdf",
+  "title": "Idemitsu Apolloil Dual Gear (mission/differential gear oil) - 潤滑油製品資料",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "",
+  "text_chars": 2392,
+  "keyword_ratio": 0.14,
+  "missing": [
+   "apolloil",
+   "dual",
+   "gear",
+   "mission",
+   "differential",
+   "oil"
+  ]
+ },
+ {
+  "file": "pdf/materials/M30_T_M_OIL_SDS_EQUIV_2.pdf",
+  "ids": [
+   30
+  ],
+  "kind": "material_docs",
+  "url": "https://www.lube-buster.com/wp-content/uploads/2022/04/sds-idemitsu-atf-type-hp.pdf",
+  "title": "Idemitsu ATF Type-HP SDS (PPE / Idemitsu Lubricants America, 2017)",
+  "download": "ok",
+  "pages": "22",
+  "pdf_title": "SDS Idemitsu ATF Type HP_1 quart.pdf",
+  "text_chars": 8985,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M31_T_M_OIL_MANUAL_SH_XGP_75W85_GL_4_PDS_EQUIV.pdf",
+  "ids": [
+   31
+  ],
+  "kind": "material_docs",
+  "url": "https://www.supercheapauto.co.nz/on/demandware.static/-/Library-Sites-supercheap-shared-library/default/dwe49223ef/productsheets/396350_342312.pdf",
+  "title": "Penrite Pro Gear 75W-85 product sheet",
+  "download": "ok",
+  "pages": "1",
+  "pdf_title": "",
+  "text_chars": 3468,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M31_T_M_OIL_MANUAL_SH_XGP_75W85_GL_4_PDS_EQUIV_2.pdf",
+  "ids": [
+   31
+  ],
+  "kind": "material_docs",
+  "url": "https://www.redlineoil.com/Content/files/tech/MT-85_GO_PROD_INFO.pdf",
+  "title": "Red Line MT-85 75W85 GL-4 Gear Oil - product information",
+  "download": "ok",
+  "pages": "1",
+  "pdf_title": "",
+  "text_chars": 5693,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M31_T_M_OIL_MANUAL_SH_XGP_75W85_GL_4_PDS_EQUIV_3.pdf",
+  "ids": [
+   31
+  ],
+  "kind": "material_docs",
+  "url": "https://www.TDXLTD.CO.NZ/media/pdfs/49977.pdf",
+  "title": "Shell Spirax S6 GXME 75W-80 technical data sheet",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "",
+  "text_chars": 6230,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M31_T_M_OIL_MANUAL_SH_XGP_75W85_GL_4_SDS_EQUIV.pdf",
+  "ids": [
+   31
+  ],
+  "kind": "material_docs",
+  "url": "https://www.motorcraft.com/content/dam/ford-motorcraft/en_us/motorcraft_global/products/pdf/SAE_75W_85_Premuim_Synthetic_Hypoid_Gear_Lubricant/SAE_75W_85_Premuim_Synthetic_Hypoid_Gear_Lubricant_SDS.pdf",
+  "title": "Motorcraft SAE 75W-85 Premium Synthetic Hypoid Gear Lubricant SDS",
+  "download": "http_403"
+ },
+ {
+  "file": "pdf/materials/M33_TETRAFLUOROETHANE_HFC_134a_SDS_EQUIV.pdf",
+  "ids": [
+   33
+  ],
+  "kind": "material_docs",
+  "url": "https://fuhrmeister-gmbh.de/pdf/sds/R134a_safety data sheet_EN.pdf",
+  "title": "Chemours Freon 134a (HFC-134a) Refrigerant - Propellant SDS v11.11 (2025)",
+  "download": "ok",
+  "pages": "16",
+  "pdf_title": "",
+  "text_chars": 8081,
+  "keyword_ratio": 0.89,
+  "missing": [
+   "v11"
+  ]
+ },
+ {
+  "file": "pdf/materials/M33_TETRAFLUOROETHANE_HFC_134a_SDS_EQUIV_2.pdf",
+  "ids": [
+   33
+  ],
+  "kind": "material_docs",
+  "url": "https://www.daikinchemicals.com/library/pb_common/pdf/sds/Refrigerants/sds-hfc-134a-E_20191220.pdf",
+  "title": "Daikin HFC-134a SDS (2019-12-20)",
+  "download": "ok",
+  "pages": "8",
+  "pdf_title": "STD_ HFC-134a _G",
+  "text_chars": 11377,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M33_TETRAFLUOROETHANE_HFC_134a_SDS_EQUIV_3.pdf",
+  "ids": [
+   33
+  ],
+  "kind": "material_docs",
+  "url": "https://sds.fmpco.com/images/fmp_msds/HFC-134a_4.21.23_.pdf",
+  "title": "Chemours Freon 134a Auto SDS (Canada, v8.11)",
+  "download": "http_404"
+ },
+ {
+  "file": "pdf/materials/M33_TETRAFLUOROETHANE_HFC_134a_SDS_EQUIV_4.pdf",
+  "ids": [
+   33
+  ],
+  "kind": "material_docs",
+  "url": "https://www.motorcraft.com/content/dam/ford-motorcraft/en_us/motorcraft_global/products/pdf/R_134a_Refrigerant/us045167us.pdf",
+  "title": "Motorcraft R-134a Refrigerant SDS (automotive A/C)",
+  "download": "http_403"
+ },
+ {
+  "file": "pdf/materials/M33_TETRAFLUOROETHANE_HFC_134a_SDS_EQUIV_5.pdf",
+  "ids": [
+   33
+  ],
+  "kind": "material_docs",
+  "url": "https://gaslogic.nl/wp-content/uploads/2024/09/R134A-MSDS-EN-v1.0.pdf",
+  "title": "Gaslogic Refrigerant Gas R-134a SDS v1.0 (2024-09-13)",
+  "download": "ok",
+  "pages": "8",
+  "pdf_title": "Microsoft Word - MSDS Sjabloon",
+  "text_chars": 6708,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M33_TETRAFLUOROETHANE_HFC_134a_SDS_EQUIV_6.pdf",
+  "ids": [
+   33
+  ],
+  "kind": "material_docs",
+  "url": "https://static.prd.echannel.linde.com/wcsstore/ZA_AFROX_Industrial_Ntl_Store/Attachment/Corporate/AFX-SDS-0060_v01_Refrigerant_R134a_Safety_Data_Sheet(003)(2)tcm266-6472.pdf",
+  "title": "Afrox (Linde) Refrigerant R134a SDS AFX-SDS-0060",
+  "download": "ok",
+  "pages": "5",
+  "pdf_title": "",
+  "text_chars": 23095,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M34_FUEL_SDS_EQUIV.pdf",
+  "ids": [
+   34
+  ],
+  "kind": "material_docs",
+  "url": "https://ina.hr/app/uploads/2024/06/Unleaded-Petrol_v22_EN.pdf",
+  "title": "INA Unleaded Petrol SDS v22 (2024)",
+  "download": "ok",
+  "pages": "29",
+  "pdf_title": "Microsoft Word - Bezolovni motorni benzini_izdanje_22_EN",
+  "text_chars": 10303,
+  "keyword_ratio": 0.8,
+  "missing": [
+   "v22"
+  ]
+ },
+ {
+  "file": "pdf/materials/M34_FUEL_SDS_EQUIV_2.pdf",
+  "ids": [
+   34
+  ],
+  "kind": "material_docs",
+  "url": "https://www.nis.rs/wp-content/uploads/2025/09/EN_SDS_UNLEADED-GASOLINE_GHS-ANNEXII-CLP_20250725_NIS-a.d.-Novi-Sad.pdf",
+  "title": "NIS a.d. Novi Sad - Unleaded Gasoline SDS (2025-07-25)",
+  "download": "ok",
+  "pages": "63",
+  "pdf_title": "SDS EU (Reach Annex II)",
+  "text_chars": 12767,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M35_WINDSHIELD_WASHER_ETHANOL_80_PDS_EQUIV.pdf",
+  "ids": [
+   35
+  ],
+  "kind": "material_docs",
+  "url": "https://sirv.eurol.com/eurol/PI/EN/EN_E502260_PI.pdf",
+  "title": "Eurol Screenwash Concentrate - product information",
+  "download": "ok",
+  "pages": "1",
+  "pdf_title": "PDS",
+  "text_chars": 3480,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M35_WINDSHIELD_WASHER_ETHANOL_80_SDS_EQUIV.pdf",
+  "ids": [
+   35
+  ],
+  "kind": "material_docs",
+  "url": "https://www.msds.ford.com/documents/198426 G_GBEN.pdf",
+  "title": "Ford Screen Wash - Winter Premium 55 SDS",
+  "download": "ok",
+  "pages": "13",
+  "pdf_title": "Screen Wash - Ready Mix S20",
+  "text_chars": 12070,
+  "keyword_ratio": 0.5,
+  "missing": [
+   "winter",
+   "premium",
+   "55"
+  ]
+ },
+ {
+  "file": "pdf/materials/M35_WINDSHIELD_WASHER_ETHANOL_80_SDS_EQUIV_2.pdf",
+  "ids": [
+   35
+  ],
+  "kind": "material_docs",
+  "url": "https://sirv.eurol.com/eurol/SDS/EN/EN_E502260_SDS.pdf",
+  "title": "Eurol Screenwash Concentrate SDS (E502260, v5.0 2023)",
+  "download": "ok",
+  "pages": "18",
+  "pdf_title": "",
+  "text_chars": 12495,
+  "keyword_ratio": 0.67,
+  "missing": [
+   "v5",
+   "2023"
+  ]
+ },
+ {
+  "file": "pdf/materials/M35_WINDSHIELD_WASHER_ETHANOL_80_SDS_EQUIV_3.pdf",
+  "ids": [
+   35
+  ],
+  "kind": "material_docs",
+  "url": "https://assets.rowegmbh.de/var/assets/brandhub/safety-data-sheets/en/21111-998-00_IRL-en_1%2C09.pdf",
+  "title": "ROWE HIGHTEC Screenwash SDS (21111-998-00, IRL-en)",
+  "download": "ok",
+  "pages": "14",
+  "pdf_title": "epos-SDB 2023.3",
+  "text_chars": 11067,
+  "keyword_ratio": 0.86,
+  "missing": [
+   "998"
+  ]
+ },
+ {
+  "file": "pdf/materials/M35_WINDSHIELD_WASHER_ETHANOL_80_SDS_EQUIV_4.pdf",
+  "ids": [
+   35
+  ],
+  "kind": "material_docs",
+  "url": "https://assets.rowegmbh.de/var/assets/brandhub/safety-data-sheets/en/21104-998-00_IRL-en_1%2C11.pdf",
+  "title": "ROWE HIGHTEC Screenwash SDS (21104-998-00, IRL-en)",
+  "download": "http_404"
+ },
+ {
+  "file": "pdf/materials/M36_BETASEAL_SikaFlex_250_UZ_1_PDS_EQUIV.pdf",
+  "ids": [
+   36
+  ],
+  "kind": "material_docs",
+  "url": "https://deu.sika.com/dms/getdocument.get/7d702bec-814c-4eb8-805d-1ad0cb019466/sikaflex-250-dm-5.pdf",
+  "title": "Sikaflex-250 DM-5 Product Data Sheet (Sika Deutschland)",
+  "download": "http_404"
+ },
+ {
+  "file": "pdf/materials/M36_BETASEAL_SikaFlex_250_UZ_1_PDS_EQUIV_2.pdf",
+  "ids": [
+   36
+  ],
+  "kind": "material_docs",
+  "url": "https://deu.sika.com/dms/getdocument.get/48aee572-deb8-4a11-85c7-8682134452bd/sikaflex-250-dp-2-plus-sikaboosterp-50.pdf",
+  "title": "Sikaflex-250 DP-2 + SikaBooster P-50 PDS (v03.03, 05-2023)",
+  "download": "http_404"
+ },
+ {
+  "file": "pdf/materials/M36_BETASEAL_SikaFlex_250_UZ_1_PDS_EQUIV_3.pdf",
+  "ids": [
+   36
+  ],
+  "kind": "material_docs",
+  "url": "https://egy.sika.com/dms/getdocument.get/ecf85750-dd7d-3490-9be2-3e36a8285895/Sikaflex",
+  "title": "Sikaflex-250 DM-3 PDS (2006, provisional)",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "Sikaflex®-212 FC01",
+  "text_chars": 12107,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M36_BETASEAL_SikaFlex_250_UZ_1_SDS_EQUIV.pdf",
+  "ids": [
+   36
+  ],
+  "kind": "material_docs",
+  "url": "https://kor.sika.com/dms/getdocument.get/5577a611-f6de-438f-ab00-dbfea96a137d/MSDS_Sikaflex%C2%AE-250PC(SSC)_EN_251226_AA00068-0000000296.pdf",
+  "title": "MSDS Sikaflex-250PC (Sika Korea, EN, 2025-12)",
+  "download": "ok",
+  "pages": "19",
+  "pdf_title": "",
+  "text_chars": 9199,
+  "keyword_ratio": 0.83,
+  "missing": [
+   "250pc"
+  ]
+ },
+ {
+  "file": "pdf/materials/M36_BETASEAL_SikaFlex_250_UZ_1_TDS_EQUIV.pdf",
+  "ids": [
+   36
+  ],
+  "kind": "material_docs",
+  "url": "https://dupont.materialdatacenter.com/gb/products/pdf/SI/BETASEAL%E2%84%A2%20U-838HV-gb.pdf",
+  "title": "DuPont BETASEAL U-838HV TDS (DuPont material data center)",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "BETASEAL™ U-838HV",
+  "text_chars": 6735,
+  "keyword_ratio": 0.8,
+  "missing": [
+   "center"
+  ]
+ },
+ {
+  "file": "pdf/materials/M36_BETASEAL_SikaFlex_250_UZ_1_TDS_EQUIV_2.pdf",
+  "ids": [
+   36
+  ],
+  "kind": "material_docs",
+  "url": "https://www.pksupplies.com/sites/default/files/datasheets/dupont-betaseal-primerless-to-glass-adhesive-data-sheet.pdf",
+  "title": "DuPont BETASEAL primerless-to-glass (U-418) data sheet",
+  "download": "ok",
+  "pages": "4",
+  "pdf_title": "",
+  "text_chars": 15750,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M36_BETASEAL_SikaFlex_250_UZ_1_brochure_EQUIV.pdf",
+  "ids": [
+   36
+  ],
+  "kind": "material_docs",
+  "url": "https://www.agsc.org/documents/DowASMRequirementsMatrixandProductBrochures_03082018.pdf",
+  "title": "Dow Automotive Systems (BETASEAL) ASM requirements matrix and product brochures, incl. Fixed Glass Installation Guide v5.4 (2018)",
+  "download": "network_error"
+ },
+ {
+  "file": "pdf/materials/M36_BETASEAL_SikaFlex_250_UZ_1_brochure_EQUIV_2.pdf",
+  "ids": [
+   36
+  ],
+  "kind": "material_docs",
+  "url": "https://fittingsgo.com/wp-content/uploads/2019/04/U418-Product-Brochure.pdf",
+  "title": "BETASEAL U-418 Quick Cure Auto Glass Urethane product brochure",
+  "download": "ok",
+  "pages": "4",
+  "pdf_title": "AW_GBS_BETASEAL_U-418_B.indd",
+  "text_chars": 16227,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_Therm_O_Flow_200_manual.pdf",
+  "ids": [
+   36
+  ],
+  "kind": "equipment_docs",
+  "url": "https://graco.com/content/dam/graco/tech_documents/manuals/334/334130/334130EN.pdf",
+  "title": "Therm-O-Flow 200 Instructions (334130)",
+  "download": "ok",
+  "pages": "114",
+  "pdf_title": "334130EN-ZAA, Manual, Therm-O-Flow 200, Instructions-Parts, English",
+  "text_chars": 13132,
+  "keyword_ratio": 0.8,
+  "missing": [
+   "334130"
+  ]
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_Therm_O_Flow_EasyKey_200_L_manual.pdf",
+  "ids": [
+   36
+  ],
+  "kind": "equipment_docs",
+  "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/311/311208/311208EN-S.pdf",
+  "title": "Graco manual 311208EN-S",
+  "download": "ok",
+  "pages": "98",
+  "pdf_title": "311208S - Therm-O-Flow 200, EasyKey Instructions-Parts, English",
+  "text_chars": 12439,
+  "keyword_ratio": 0.83,
+  "missing": [
+   "311208en"
+  ]
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_PCF_brochure.pdf",
+  "ids": [
+   36,
+   37
+  ],
+  "kind": "equipment_docs",
+  "url": "https://www.graco.com/content/dam/graco/aftd/literature/brochures/340305/340305EN-D.pdf",
+  "title": "PCF Precision Continuous Flow metering brochure 340305EN-D",
+  "download": "ok",
+  "pages": "7",
+  "pdf_title": "340305, PCF Metering System",
+  "text_chars": 4971,
+  "keyword_ratio": 0.86,
+  "missing": [
+   "340305en"
+  ]
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_Therm_O_Flow_Warm_Melt_20_brochure.pdf",
+  "ids": [
+   36
+  ],
+  "kind": "equipment_docs",
+  "url": "https://gww.graco.com/content/dam/graco/aftd/literature/brochures/350422/350422ENEU-A.pdf",
+  "title": "Therm-O-Flow Warm Melt brochure 350422ENEU-A",
+  "download": "network_error"
+ },
+ {
+  "file": "pdf/materials/M37_ADHESIVE_HDLNG_T_PNL_TDS_EQUIV.pdf",
+  "ids": [
+   37
+  ],
+  "kind": "material_docs",
+  "url": "https://datasheets.tdx.henkel.com/TECHNOMELT-AS-8383-en_GL.pdf",
+  "title": "TECHNOMELT AS 8383 TDS (Henkel, 09-2023)",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "TECHNOMELT-AS-8383-en_GL.pdf",
+  "text_chars": 8289,
+  "keyword_ratio": 0.83,
+  "missing": [
+   "09"
+  ]
+ },
+ {
+  "file": "pdf/materials/M37_ADHESIVE_HDLNG_T_PNL_TDS_EQUIV_2.pdf",
+  "ids": [
+   37
+  ],
+  "kind": "material_docs",
+  "url": "https://datasheets.tdx.henkel.com/TECHNOMELT-PUR-9622-02-en_GL.pdf",
+  "title": "TECHNOMELT PUR 9622-02 TDS (Henkel, 03-2024)",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "TECHNOMELT-PUR-9622-02-en_GL.pdf",
+  "text_chars": 11245,
+  "keyword_ratio": 0.86,
+  "missing": [
+   "03"
+  ]
+ },
+ {
+  "file": "pdf/materials/M37_ADHESIVE_HDLNG_T_PNL_TDS_EQUIV_3.pdf",
+  "ids": [
+   37
+  ],
+  "kind": "material_docs",
+  "url": "https://prostech.vn/wp-content/uploads/2024/03/thermogrip_h9446_tds_033016.pdf",
+  "title": "Bostik Thermogrip H9446 TDS (headliner hot melt)",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "Sell Sheet Template",
+  "text_chars": 6712,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M37_ADHESIVE_HDLNG_T_PNL_TDS_EQUIV_4.pdf",
+  "ids": [
+   37
+  ],
+  "kind": "material_docs",
+  "url": "https://prostech.vn/wp-content/uploads/2024/03/thermogrip_h9438_tds.pdf",
+  "title": "Bostik Thermogrip H9438 TDS",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "Sell Sheet Template",
+  "text_chars": 6709,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M37_ADHESIVE_HDLNG_T_PNL_TDS_EQUIV_5.pdf",
+  "ids": [
+   37
+  ],
+  "kind": "material_docs",
+  "url": "https://prostech.vn/wp-content/uploads/2024/03/thermogrip_9431_tds_060717.pdf",
+  "title": "Bostik Thermogrip 9431 TDS",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "Sell Sheet Template",
+  "text_chars": 6930,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M38_RKB_0101S_PDS.pdf",
+  "ids": [
+   38
+  ],
+  "kind": "material_docs",
+  "url": "https://gbr.sika.com/dam/dms/gb01/f/sika-primer-209-d.pdf",
+  "title": "Sika Primer-209 D PDS (Sika UK, v01.03, 03-2026)",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "Sika® Primer-209 D",
+  "text_chars": 10220,
+  "keyword_ratio": 0.83,
+  "missing": [
+   "v01"
+  ]
+ },
+ {
+  "file": "pdf/materials/M38_RKB_0101S_PDS_2.pdf",
+  "ids": [
+   38
+  ],
+  "kind": "material_docs",
+  "url": "https://industry.sika.com/dam/dms/ca01/x/sika-primer-209-d.pdf",
+  "title": "Sika Primer-209 D PDS (Sika Canada)",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "Sika® Primer-209 D",
+  "text_chars": 10182,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M38_RKB_0101S_SDS.pdf",
+  "ids": [
+   38
+  ],
+  "kind": "material_docs",
+  "url": "https://gbr.sika.com/dms/getdocument.get/fc7c9a30-2929-424b-9f85-2cb6042f8040/Sika%C2%AE%20Primer-209%20D%20SDS.pdf",
+  "title": "Sika Primer-209 D SDS (Sika UK, v5.1, 2020)",
+  "download": "http_404"
+ },
+ {
+  "file": "pdf/materials/M38_RKB_0101S_SDS_2.pdf",
+  "ids": [
+   38
+  ],
+  "kind": "material_docs",
+  "url": "https://nzl.sika.com/dam/dms/nz01/3/Primer%20209D%20-%20MSDS.pdf",
+  "title": "Primer 209D MSDS (Sika NZ, v5.0, 2024-11)",
+  "download": "ok",
+  "pages": "12",
+  "pdf_title": "Microsoft Word - RDSPSV01.RTF",
+  "text_chars": 8908,
+  "keyword_ratio": 0.71,
+  "missing": [
+   "209d",
+   "v5"
+  ]
+ },
+ {
+  "file": "pdf/materials/M38_RKB_0101S_SDS_3.pdf",
+  "ids": [
+   38
+  ],
+  "kind": "material_docs",
+  "url": "https://tur.sika.com/dms/getdocument.get/5aa00d1a-99ca-4747-888a-eda15c33f505/Sika%20Primer-209D%20MSDS%20EN.pdf",
+  "title": "Sika Primer-209D SDS (Sika Turkey, EN)",
+  "download": "ok",
+  "pages": "15",
+  "pdf_title": "EHS_L_TEXT(CED-U00",
+  "text_chars": 8602,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/equipment/EQ_Nordson_EFD_752V_datasheet.pdf",
+  "ids": [
+   38,
+   39,
+   40,
+   41
+  ],
+  "kind": "equipment_docs",
+  "url": "https://flumasys.com/userfiles/product_files/nordson_efd_752v_datasheet.pdf",
+  "title": "Nordson EFD 752V diaphragm valve data sheet",
+  "download": "http_404"
+ },
+ {
+  "file": "pdf/equipment/EQ_Nordson_EFD_752V_manual.pdf",
+  "ids": [
+   38
+  ],
+  "kind": "equipment_docs",
+  "url": "https://flumasys.com/userfiles/product_files/nordson_efd_752v_maintenance_guide.pdf",
+  "title": "Nordson EFD 752V maintenance guide",
+  "download": "http_404"
+ },
+ {
+  "file": "pdf/equipment/EQ_Nordson_EFD_750_series_manual.pdf",
+  "ids": [
+   38
+  ],
+  "kind": "equipment_docs",
+  "url": "https://flumasys.com/userfiles/product_files/nordson_efd_750_valve_installation_guide.pdf",
+  "title": "Nordson EFD 750 series valve installation guide",
+  "download": "http_404"
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_Pressure_pots_brochure.pdf",
+  "ids": [
+   38,
+   39,
+   41
+  ],
+  "kind": "equipment_docs",
+  "url": "https://www.spraydirect.co.uk/acatalog/graco_pressure_pots.pdf",
+  "title": "Graco pressure pots catalogue",
+  "download": "ok",
+  "pages": "4",
+  "pdf_title": "2-393 thru 2-396",
+  "text_chars": 10672,
+  "keyword_ratio": 0.5,
+  "missing": [
+   "pots",
+   "catalogue"
+  ]
+ },
+ {
+  "file": "pdf/equipment/EQ_Sika_Manual_felt_applicators_Windscreen_Bondi_brochure.pdf",
+  "ids": [
+   38
+  ],
+  "kind": "equipment_docs",
+  "url": "https://gbr.sika.com/dms/getdocument.get/ea64bae6-89d6-4aba-859f-94f95c74309c/Sika%20Windscreen%20Bonding%20.pdf",
+  "title": "Sika Windscreen Bonding (UK) - primer + felt applicators",
+  "download": "ok",
+  "pages": "3",
+  "pdf_title": "",
+  "text_chars": 8555,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M39_RKB_0401S_PDS.pdf",
+  "ids": [
+   39
+  ],
+  "kind": "material_docs",
+  "url": "https://industry.sika.com/dam/dms/us01/w/sika_primer-206_gp.pdf",
+  "title": "Sika Primer-206 G+P PDS (Sika USA, v03.01, 03-2023)",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "Sika® Primer-206 G+P",
+  "text_chars": 10964,
+  "keyword_ratio": 0.88,
+  "missing": [
+   "v03"
+  ]
+ },
+ {
+  "file": "pdf/materials/M39_RKB_0401S_PDS_2.pdf",
+  "ids": [
+   39
+  ],
+  "kind": "material_docs",
+  "url": "https://industry.sika.com/dam/dms/ch01/f/sika-primer-206-g-plus-p.pdf",
+  "title": "Sika Primer-206 G+P PDS (Sika Switzerland)",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "Sika® Primer-206 G+P",
+  "text_chars": 13306,
+  "keyword_ratio": 0.75,
+  "missing": [
+   "switzerland"
+  ]
+ },
+ {
+  "file": "pdf/materials/M39_RKB_0401S_SDS.pdf",
+  "ids": [
+   39
+  ],
+  "kind": "material_docs",
+  "url": "https://usa.sika.com/dam/dms/us01/s/Sika-Primer-206-G-P.pdf",
+  "title": "Sika Primer-206 G+P SDS (Sika Corp US, rev 12/13/2021)",
+  "download": "ok",
+  "pages": "15",
+  "pdf_title": "",
+  "text_chars": 9338,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M39_RKB_0401S_SDS_2.pdf",
+  "ids": [
+   39
+  ],
+  "kind": "material_docs",
+  "url": "https://nzl.sika.com/dam/dms/nz01/t/Sika%C2%AE%20Primer-206%20G%20plus%20P%20-%20SDS%20-%201122.pdf",
+  "title": "Sika Primer-206 G plus P SDS (Sika NZ, v5.0, 2023-08)",
+  "download": "ok",
+  "pages": "14",
+  "pdf_title": "",
+  "text_chars": 8961,
+  "keyword_ratio": 0.75,
+  "missing": [
+   "plus",
+   "v5"
+  ]
+ },
+ {
+  "file": "pdf/materials/M39_RKB_0401S_SDS_3.pdf",
+  "ids": [
+   39
+  ],
+  "kind": "material_docs",
+  "url": "https://srb.sika.com/dms/getdocument.get/a237532a-c159-4c08-8f85-74a2b307eb7d_rs01/sds-sika-primer-206g-plus-p.pdf",
+  "title": "SDS Sika Primer-206 G+P (Sika Serbia, v4.1, 2024-10)",
+  "download": "ok",
+  "pages": "20",
+  "pdf_title": "",
+  "text_chars": 8747,
+  "keyword_ratio": 0.57,
+  "missing": [
+   "serbia",
+   "v4",
+   "2024"
+  ]
+ },
+ {
+  "file": "pdf/materials/M40_BETAPRIME_PDS.pdf",
+  "ids": [
+   40,
+   41
+  ],
+  "kind": "material_docs",
+  "url": "https://industry.sika.com/dam/dms/us01/l/sika_aktivator-100.pdf",
+  "title": "Sika Aktivator-100 PDS (Sika USA, v05.01, 10-2023)",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "Sika® Aktivator-100",
+  "text_chars": 12617,
+  "keyword_ratio": 0.88,
+  "missing": [
+   "v05"
+  ]
+ },
+ {
+  "file": "pdf/materials/M40_BETAPRIME_SDS.pdf",
+  "ids": [
+   40
+  ],
+  "kind": "material_docs",
+  "url": "https://gbr.sika.com/dam/dms/gb01/v/sds-sika-aktivator-100.pdf",
+  "title": "SDS Sika Aktivator-100 (Sika UK, v17.0, 2026-02)",
+  "download": "ok",
+  "pages": "17",
+  "pdf_title": "",
+  "text_chars": 9132,
+  "keyword_ratio": 0.83,
+  "missing": [
+   "v17"
+  ]
+ },
+ {
+  "file": "pdf/materials/M40_BETAPRIME_SDS_2.pdf",
+  "ids": [
+   40
+  ],
+  "kind": "material_docs",
+  "url": "https://aus.sika.com/dam/dms/au01/f/sds-sika-aktivator-100.pdf",
+  "title": "SDS Sika Aktivator-100 (Sika Australia, v2.0, 2024-10)",
+  "download": "ok",
+  "pages": "12",
+  "pdf_title": "",
+  "text_chars": 8461,
+  "keyword_ratio": 0.86,
+  "missing": [
+   "v2"
+  ]
+ },
+ {
+  "file": "pdf/materials/M40_BETAPRIME_TDS_EQUIV.pdf",
+  "ids": [
+   40
+  ],
+  "kind": "material_docs",
+  "url": "https://dupont.materialdatacenter.com/gb/products/pdf/US/BETAPRIME%E2%84%A2%205504G%20NO%20SHAKE-gb-US.pdf",
+  "title": "BETAPRIME 5504G NO SHAKE TDS (DuPont, rev 2024-07)",
+  "download": "ok",
+  "pages": "3",
+  "pdf_title": "BETAPRIME™ 5504G NO SHAKE",
+  "text_chars": 9274,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M40_BETAPRIME_PDS_2.pdf",
+  "ids": [
+   40
+  ],
+  "kind": "material_docs",
+  "url": "https://bgr.sika.com/dam/dms/bg01/k/sika_aktivator-100.pdf",
+  "title": "Sika Aktivator-100 PDS (Sika Bulgaria)",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "Sika® Aktivator-100",
+  "text_chars": 12192,
+  "keyword_ratio": 0.75,
+  "missing": [
+   "bulgaria"
+  ]
+ },
+ {
+  "file": "pdf/materials/M40_BETAPRIME_PDS_3.pdf",
+  "ids": [
+   40,
+   41
+  ],
+  "kind": "material_docs",
+  "url": "https://cze.sika.com/dam/dms/cz01/v/sika-aktivator-100.pdf",
+  "title": "Sika Aktivator-100 PDS (Sika Czech)",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "Sika® Aktivator-100",
+  "text_chars": 12461,
+  "keyword_ratio": 0.75,
+  "missing": [
+   "czech"
+  ]
+ },
+ {
+  "file": "pdf/materials/M40_BETAPRIME_PDS_4.pdf",
+  "ids": [
+   40
+  ],
+  "kind": "material_docs",
+  "url": "https://industry.sika.com/dam/dms/dk01/w/sika_aktivator-100.pdf",
+  "title": "Sika Aktivator-100 PDS (Sika Denmark)",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "Sika® Aktivator-100",
+  "text_chars": 12129,
+  "keyword_ratio": 0.75,
+  "missing": [
+   "denmark"
+  ]
+ },
+ {
+  "file": "pdf/materials/M40_BETAPRIME_brochure_EQUIV.pdf",
+  "ids": [
+   40,
+   40
+  ],
+  "kind": "material_docs",
+  "url": "https://mascherpa.it/wp-content/uploads/2023/05/BETAPRIME-BETACLEAN-and-Accessories-brochure.pdf",
+  "title": "BETAPRIME / BETACLEAN and Accessories brochure (DuPont)",
+  "download": "http_403"
+ },
+ {
+  "file": "pdf/materials/M42_LUBRICANT_WHL_PILOT_HOLE_TDS_EQUIV.pdf",
+  "ids": [
+   42
+  ],
+  "kind": "material_docs",
+  "url": "https://www.dupont.com/content/dam/Dupont2.0/Products/transportation/Literature/Downloaded-TDS/MOLYKOTE%20M-77%20Solid%20Lubricant%20Paste%2071-0186F-01.pdf",
+  "title": "MOLYKOTE M-77 Solid Lubricant Paste TDS 71-0186F-01 (DuPont)",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "MOLYKOTE® technical data sheet",
+  "text_chars": 6242,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M42_LUBRICANT_WHL_PILOT_HOLE_paper_EQUIV.pdf",
+  "ids": [
+   42
+  ],
+  "kind": "material_docs",
+  "url": "https://static.nhtsa.gov/odi/tsbs/2017/MC-10126105-9999.pdf",
+  "title": "GM bulletin 17-NA-235 (NHTSA) - grease on hub bearing surface, ACDelco M-77",
+  "download": "ok",
+  "pages": "2",
+  "pdf_title": "17-NA-235 1..2",
+  "text_chars": 5073,
+  "keyword_ratio": 0.92,
+  "missing": [
+   "nhtsa"
+  ]
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_Fire_Ball_pumps_manual.pdf",
+  "ids": [
+   42,
+   43
+  ],
+  "kind": "equipment_docs",
+  "url": "https://graco.com/content/dam/graco/tech_documents/manuals/309/309868/historic/309868EN-B.pdf",
+  "title": "Graco Fire-Ball pump installation manual 309868EN-B (historic)",
+  "download": "ok",
+  "pages": "34",
+  "pdf_title": "309868B Fire-Ball 225, 300, and 425 Oil Pumps",
+  "text_chars": 8390,
+  "keyword_ratio": 0.75,
+  "missing": [
+   "309868en",
+   "historic"
+  ]
+ },
+ {
+  "file": "pdf/equipment/EQ_Lincoln_Equipment_range_brochure.pdf",
+  "ids": [
+   42
+  ],
+  "kind": "equipment_docs",
+  "url": "https://petroleumservicecompany.com/content/pdfs/Lincoln_Equipment_Brochure.pdf",
+  "title": "Lincoln Equipment Brochure",
+  "download": "ok",
+  "pages": "92",
+  "pdf_title": "",
+  "text_chars": 9581,
+  "keyword_ratio": 0.67,
+  "missing": [
+   "range"
+  ]
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_Fire_Ball_300_50_1_manual.pdf",
+  "ids": [
+   42
+  ],
+  "kind": "equipment_docs",
+  "url": "https://gww.graco.com/content/dam/graco/tech_documents/manuals/308/308883/308883FR-G.pdf",
+  "title": "Graco 308883 Rev G Fire-Ball 300 50:1 grease pump instructions (FR)",
+  "download": "network_error"
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_Fire_Ball_pumps_manual_2.pdf",
+  "ids": [
+   42
+  ],
+  "kind": "equipment_docs",
+  "url": "https://gww.graco.com/content/dam/graco/tech_documents/manuals/309/309868/309868DE-A.pdf",
+  "title": "Graco 309868 Fire-Ball installation/operation (DE)",
+  "download": "network_error"
+ },
+ {
+  "file": "pdf/materials/M43_LUBRICANT_CLU_PLT_HUB_M_T_brochure_EQUIV.pdf",
+  "ids": [
+   43
+  ],
+  "kind": "material_docs",
+  "url": "https://www.klueber.com/ecoma/files/B082003002_Driving-Kluber-Lubrication.pdf",
+  "title": "Driving with Klüber Lubrication - automotive brochure B082003002 (lists MICROLUBE GNY 202 for spline shafts / tribocorrosion)",
+  "download": "ok",
+  "pages": "28",
+  "pdf_title": "",
+  "text_chars": 3570,
+  "keyword_ratio": 0.42,
+  "missing": [
+   "lists",
+   "microlube",
+   "gny",
+   "202",
+   "spline",
+   "shafts",
+   "tribocorrosion"
+  ]
+ },
+ {
+  "file": "pdf/materials/M43_LUBRICANT_CLU_PLT_HUB_M_T_brochure_EQUIV_2.pdf",
+  "ids": [
+   43
+  ],
+  "kind": "material_docs",
+  "url": "https://www.klueber.com/ecoma/files/B082003002_automotivebroschuere_EN_160523_SCREEN.pdf",
+  "title": "Klüber speciality lubricants for the automotive industry B082003002 (2016)",
+  "download": "ok",
+  "pages": "15",
+  "pdf_title": "160523_KLM_0041_16 automotivebroschüre_EN_1_SCREEN.indd",
+  "text_chars": 10792,
+  "keyword_ratio": 0.86,
+  "missing": [
+   "2016"
+  ]
+ },
+ {
+  "file": "pdf/materials/M43_LUBRICANT_CLU_PLT_HUB_M_T_paper_EQUIV.pdf",
+  "ids": [
+   43
+  ],
+  "kind": "material_docs",
+  "url": "https://www.techtips.ie/LuK/how-to-grease-clutch-hubs.pdf",
+  "title": "LuK (Schaeffler) - how to grease clutch hubs",
+  "download": "ok",
+  "pages": "1",
+  "pdf_title": "",
+  "text_chars": 6265,
+  "keyword_ratio": 1.0,
+  "missing": []
+ },
+ {
+  "file": "pdf/materials/M43_LUBRICANT_CLU_PLT_HUB_M_T_brochure_EQUIV_3.pdf",
+  "ids": [
+   43
+  ],
+  "kind": "material_docs",
+  "url": "https://www.klueber.com/ecoma/files/B082003002_Automotive_160531_EN.pdf",
+  "title": "Klüber 'Speciality lubricants for the automotive industry' B082003002, edition 05.16 (Klüber-hosted)",
+  "download": "ok",
+  "pages": "15",
+  "pdf_title": "160523_KLM_0041_16 automotivebroschüre_EN_1_SCREEN.indd",
+  "text_chars": 10792,
+  "keyword_ratio": 0.89,
+  "missing": [
+   "hosted"
+  ]
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_Fire_Ball_pumps_manual_3.pdf",
+  "ids": [
+   43
+  ],
+  "kind": "equipment_docs",
+  "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/309/309868/309868ES-A.pdf",
+  "title": "Graco 309868 Fire-Ball installation/operation (ES)",
+  "download": "ok",
+  "pages": "34",
+  "pdf_title": "309868a , Fire-Ball bombas de aceite 225, 300, y 425",
+  "text_chars": 8398,
+  "keyword_ratio": 0.43,
+  "missing": [
+   "309868",
+   "installation",
+   "es",
+   "pumps"
+  ]
+ }
+]

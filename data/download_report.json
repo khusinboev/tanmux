@@ -1,0 +1,1353 @@
+[
+ {
+  "file": "pdf/materials/M01_CHEMFOS_740R_brochure_EQUIV.pdf",
+  "url": "https://www.osti.gov/etdeweb/servlets/purl/20671858",
+  "status": "ok",
+  "final_url": "https://www.osti.gov/etdeweb/servlets/purl/20671858",
+  "content_type": "application/pdf",
+  "bytes": 568976,
+  "sha256": "f2d5ed1a4515cd607ed77a28fe5ca98668969aa262a2ba20a21b03fac80067db"
+ },
+ {
+  "file": "pdf/materials/M01_CHEMFOS_740R_TDS_EQUIV.pdf",
+  "url": "https://datasheets.tdx.henkel.com/BONDERITE-M-ZN-952-A-en_GL.pdf",
+  "status": "ok",
+  "final_url": "https://datasheets.tdx.henkel.com/BONDERITE-M-ZN-952-A-en_GL.pdf",
+  "content_type": "application/pdf",
+  "bytes": 94719,
+  "sha256": "e0923aec293353f7f08bd3fac8e9809056f47423110e3c2802a9d97a4bc2ade7"
+ },
+ {
+  "file": "pdf/materials/M01_CHEMFOS_740R_SDS_EQUIV.pdf",
+  "url": "https://www.charlottepipe.com/Documents/SDS/SDS_ECOAT_PRE.pdf",
+  "status": "http_404"
+ },
+ {
+  "file": "pdf/materials/M01_CHEMFOS_740R_TDS_EQUIV_2.pdf",
+  "url": "https://datasheets.tdx.henkel.com/BONDERITE-M-ZN-952-R1-en_GL.pdf",
+  "status": "ok",
+  "final_url": "https://datasheets.tdx.henkel.com/BONDERITE-M-ZN-952-R1-en_GL.pdf",
+  "content_type": "application/pdf",
+  "bytes": 95115,
+  "sha256": "6e7a12e924dc941e99734a779dc37074727190372ff8de7c6e70dc484f966d01"
+ },
+ {
+  "file": "pdf/materials/M01_CHEMFOS_740R_TDS_EQUIV_3.pdf",
+  "url": "https://datasheets.tdx.henkel.com/BONDERITE-M-ZN-1994-R4-en_GL.pdf",
+  "status": "ok",
+  "final_url": "https://datasheets.tdx.henkel.com/BONDERITE-M-ZN-1994-R4-en_GL.pdf",
+  "content_type": "application/pdf",
+  "bytes": 94437,
+  "sha256": "764d428cb9300145edea1a96c2b48aaac6ce073cb584b17d6c6a8ed4c30230c0"
+ },
+ {
+  "file": "pdf/equipment/EQ_Durr_Ecopaint_RoDip_PT_ED_rotary_dip_brochure.pdf",
+  "url": "https://www.olpidurr.it/fileadmin/olpidurr.it/01_Products/01_Paint_Shops/03_PT_EC/01_Bath_Cleaning/02_EcoMultiCyclone/brochure-ecopaint-wetsystem.pdf",
+  "status": "ok",
+  "final_url": "https://www.olpidurr.it/fileadmin/olpidurr.it/01_Products/01_Paint_Shops/03_PT_EC/01_Bath_Cleaning/02_EcoMultiCyclone/brochure-ecopaint-wetsystem.pdf",
+  "content_type": "application/pdf",
+  "bytes": 1509608,
+  "sha256": "4cb0159520a096eb031c59c83549949afb23dbb355b385a9502515afe6d90db0"
+ },
+ {
+  "file": "pdf/materials/M02_ED7010_Binder_Gray_SDS_EQUIV.pdf",
+  "url": "https://www.charlottepipe.com/uploads/documents/technical/SDS-CR686A-Resin.pdf",
+  "status": "ok",
+  "final_url": "https://www.charlottepipe.com/uploads/documents/technical/SDS-CR686A-Resin.pdf",
+  "content_type": "application/pdf",
+  "bytes": 120475,
+  "sha256": "36739e1b1835c40b80c7e7eca96015db334656302e2582063a2881a8d9f48b64"
+ },
+ {
+  "file": "pdf/materials/M02_ED7010_Binder_Gray_SDS_EQUIV_2.pdf",
+  "url": "https://www.charlottepipe.com/Documents/SDS/SDS_CR686A.pdf",
+  "status": "http_404"
+ },
+ {
+  "file": "pdf/materials/M02_ED7010_Binder_Gray_TDS_EQUIV.pdf",
+  "url": "https://promo.basf.com/campaign/tasa/fichas-tecnicas/Ficha%20T%c3%a9cnica%20-%20CathoGuard%c2%ae%20580%20e%20800%20RE%20.pdf",
+  "status": "ok",
+  "final_url": "https://promo.basf.com/campaign/tasa/fichas-tecnicas/Ficha%20T%c3%a9cnica%20-%20CathoGuard%c2%ae%20580%20e%20800%20RE%20.pdf",
+  "content_type": "application/pdf",
+  "bytes": 353018,
+  "sha256": "589fe3e7d84f5ff55a6d4c2d1145e245f6418f6be74d210ba0a3ce3e5f9ddd53"
+ },
+ {
+  "file": "pdf/materials/M02_ED7010_Binder_Gray_brochure_EQUIV.pdf",
+  "url": "https://basf-coatings.com/dam/jcr:1a65cb55-cef8-48fc-b779-e0ec5d09735a/basf/coatings/global/automotive-oem-coatings/e-coat/BASF-eCoat-eLeaflet_final-20240805-EN.pdf",
+  "status": "http_404"
+ },
+ {
+  "file": "pdf/materials/M02_ED7010_Binder_Gray_TDS_EQUIV_2.pdf",
+  "url": "https://secure.axalta.com/content/dam/EMEA/Industrial-Liquid-Coatings-EMEA/EN/Public/Documents/Aqua-EC-ecoat/Electrocoat-Aqua-EC-3000-EN.pdf",
+  "status": "ok",
+  "final_url": "https://secure.axalta.com/content/dam/EMEA/Industrial-Liquid-Coatings-EMEA/EN/Public/Documents/Aqua-EC-ecoat/Electrocoat-Aqua-EC-3000-EN.pdf",
+  "content_type": "",
+  "bytes": 1168799,
+  "sha256": "fdde9049f99531d56fa6d4184e4998f0efdac7d6fa292199df99e09e1475a127"
+ },
+ {
+  "file": "pdf/materials/M02_ED7010_Binder_Gray_brochure_EQUIV_2.pdf",
+  "url": "https://sustainability.axalta.com/content/dam/New Axalta Corporate Website/Documents/AquaEC_Brochure_Final.pdf",
+  "status": "network_error",
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1032)>"
+ },
+ {
+  "file": "pdf/materials/M02_ED7010_Binder_Gray_SDS_EQUIV_3.pdf",
+  "url": "https://www.charlottepipe.com/uploads/documents/technical/SDS-CR100.pdf",
+  "status": "ok",
+  "final_url": "https://www.charlottepipe.com/uploads/documents/technical/SDS-CR100.pdf",
+  "content_type": "application/pdf",
+  "bytes": 136350,
+  "sha256": "862f2846f40e9346287f1ef4a873d3587331cac7d6b7a3fb91e1f7ed0aa01343"
+ },
+ {
+  "file": "pdf/equipment/EQ_Controlled_Power_Com_AACD_Series_50_e_coat_rectifier_brochure.pdf",
+  "url": "https://www.trystar.com/wp-content/uploads/AACD_Brochure.pdf",
+  "status": "http_404"
+ },
+ {
+  "file": "pdf/equipment/EQ_Controlled_Power_Com_Series_50_e_coat_rectifier_506_5012_brochure.pdf",
+  "url": "https://www.trystar.com/wp-content/uploads/Series_50_Brochure.pdf",
+  "status": "ok",
+  "final_url": "https://www.trystar.com/wp-content/uploads/Series_50_Brochure.pdf",
+  "content_type": "application/pdf",
+  "bytes": 5718634,
+  "sha256": "25b6530f0641d1bd2676e9a467d4c7a343461960b021c85947ec3a882e02cef9"
+ },
+ {
+  "file": "pdf/equipment/EQ_Controlled_Power_Com_Series_50_e_coat_rectifier_brochure.pdf",
+  "url": "https://www.trystar.com/wp-content/uploads/document-library/Series_50_Brochure.pdf",
+  "status": "http_404"
+ },
+ {
+  "file": "pdf/equipment/EQ_Controlled_Power_Com_Series_50_rectifier_datasheet.pdf",
+  "url": "https://www.trystar.com/wp-content/uploads/document-library/Trystar_-S50-107649.pdf",
+  "status": "ok",
+  "final_url": "https://www.trystar.com/wp-content/uploads/document-library/Trystar_-S50-107649.pdf",
+  "content_type": "application/pdf",
+  "bytes": 1790321,
+  "sha256": "ff3839045f3775e8cd49a7f546cabf8908721a525e75de4d31b86ce006a6e2fd"
+ },
+ {
+  "file": "pdf/materials/M03_ED7010_Paste_Gray_SDS_EQUIV.pdf",
+  "url": "https://www.charlottepipe.com/uploads/documents/technical/SDS-CP491.pdf",
+  "status": "ok",
+  "final_url": "https://www.charlottepipe.com/uploads/documents/technical/SDS-CP491.pdf",
+  "content_type": "application/pdf",
+  "bytes": 122657,
+  "sha256": "8e024dae0dc7542bf22d69416b32fcef29b143909080626e830455ee48214739"
+ },
+ {
+  "file": "pdf/materials/M04_BODY_SEALER_RSB_430_TDS_EQUIV.pdf",
+  "url": "https://datasheets.tdx.henkel.com/TEROSON-PV-3046-en_GL.pdf",
+  "status": "ok",
+  "final_url": "https://datasheets.tdx.henkel.com/TEROSON-PV-3046-en_GL.pdf",
+  "content_type": "application/pdf",
+  "bytes": 85224,
+  "sha256": "ac4d21ae6440a2661610858d82a83d57f5b56d623fb49f6d2377236b7c5df4b4"
+ },
+ {
+  "file": "pdf/materials/M04_BODY_SEALER_RSB_430_TDS_EQUIV_2.pdf",
+  "url": "https://www.rudolphbros.com/customer/docs/skudocs/438-teroson-pv-434-1-tds.pdf",
+  "status": "ok",
+  "final_url": "https://www.rudolphbros.com/customer/docs/skudocs/438-teroson-pv-434-1-tds.pdf",
+  "content_type": "application/pdf",
+  "bytes": 54478,
+  "sha256": "cf8b4db467c199a624028f5972a567da9098b7e41635b0963eed5d90d2e9543e"
+ },
+ {
+  "file": "pdf/materials/M04_BODY_SEALER_RSB_430_paper_EQUIV.pdf",
+  "url": "https://www.huntsman.com/docs/Documents/Euretek-SelectorGuide-AdhesionPromoters.pdf",
+  "status": "http_404"
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_E_Flo_SP_supply_systems_manual.pdf",
+  "url": "https://gww.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6331EN-L.pdf",
+  "status": "network_error",
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1032)>"
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_E_Flo_SP_supply_systems_manual_2.pdf",
+  "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6853RU-G.pdf",
+  "status": "ok",
+  "final_url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6853RU-G.pdf",
+  "content_type": "application/pdf",
+  "bytes": 10674634,
+  "sha256": "e48db35ddb1977c5c9a5fb5dd2cfdf6f52d5f084692730f38bac4b1d1d79446b"
+ },
+ {
+  "file": "pdf/equipment/EQ_Durr_EcoShotMeter_Tandem_EcoMeter_SP_datasheet.pdf",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/05_Sealing_Gluing_Technology/03_Gluing_Application_Technology_Battery_Systems/duerr-datsheet-endless-dosing-en.pdf",
+  "status": "ok",
+  "final_url": "https://www.durr.com/fileadmin/durr.com/01_Products/05_Sealing_Gluing_Technology/03_Gluing_Application_Technology_Battery_Systems/duerr-datsheet-endless-dosing-en.pdf",
+  "content_type": "application/pdf",
+  "bytes": 548841,
+  "sha256": "7809adc33ca5e14e545ffe0c9c2b05882686629f126c91ff2c73615a709b5cc4"
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_PrecisionFlo_XL_manual.pdf",
+  "url": "https://airless.es/manuales/graco/309374r.pdf",
+  "status": "ok",
+  "final_url": "https://airless.es/manuales/graco/309374r.pdf",
+  "content_type": "application/pdf",
+  "bytes": 3609850,
+  "sha256": "1f0631d32c9104f42c9b61ff825b37aa4f2d27bca9e711d277f8f5b286bb6249"
+ },
+ {
+  "file": "pdf/equipment/EQ_Atlas_Copco_SCA_SCA_dosing_pocket_guide_brochure.pdf",
+  "url": "https://shopit.atlascopco.com/content/dam/atlas-copco/industrial-technique/general/documents/pocketguides/Atlas%20Copco-DT-9833%202169%2001-2019DE.pdf",
+  "status": "ok",
+  "final_url": "https://www.atlascopco.com/content/dam/atlas-copco/industrial-technique/general/documents/pocketguides/Atlas%20Copco-DT-9833%202169%2001-2019DE.pdf",
+  "content_type": "application/pdf",
+  "bytes": 11918484,
+  "sha256": "8278e210bc727ec3395042568148934cda892a901a0a49d6ac358f774ea716ef"
+ },
+ {
+  "file": "pdf/equipment/EQ_Durr_EcoGun_EcoShot_Meter_EcoMeter_dispensing_brochure.pdf",
+  "url": "https://reframed.durr.com/fileadmin/user_upload/images/2026/Dispensing_product_catalog/durr-dispensing-product-catalog-2026.pdf",
+  "status": "ok",
+  "final_url": "https://reframed.durr.com/fileadmin/user_upload/images/2026/Dispensing_product_catalog/durr-dispensing-product-catalog-2026.pdf",
+  "content_type": "application/pdf",
+  "bytes": 13597893,
+  "sha256": "cae4d9f8b777401c3539135e2e110115af82de0c5725dadcf5cfa131d9619f4b"
+ },
+ {
+  "file": "pdf/equipment/EQ_Durr_EcoShotMeter_Tandem_EcoMeter_SP_datasheet_2.pdf",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/05_Sealing_Gluing_Technology/03_Gluing_Application_Technology_Battery_Systems/duerr-datsheet-endless-dosing-de.pdf",
+  "status": "ok",
+  "final_url": "https://www.durr.com/fileadmin/durr.com/01_Products/05_Sealing_Gluing_Technology/03_Gluing_Application_Technology_Battery_Systems/duerr-datsheet-endless-dosing-de.pdf",
+  "content_type": "application/pdf",
+  "bytes": 550657,
+  "sha256": "7515c8d7827fbbda1d56137b300385c5e301a4bce5a00bf6a771648be8969497"
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_Check_Mate_Dura_Flo_supply_ram_pumps_for_brochure.pdf",
+  "url": "https://gww.graco.com/content/dam/graco/aftd/literature/catalogs/336833/336833EN-B.pdf",
+  "status": "network_error",
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1032)>"
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_XL_10000_air_motor_Dura_Flo_King_sealant_manual.pdf",
+  "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334644/334644EN-D.pdf",
+  "status": "http_404"
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_XL_6500_XL_3400_air_motors_high_performa_manual.pdf",
+  "url": "https://graco.com/content/dam/graco/tech_documents/manuals/3A5/3A5423/3A5423EN.pdf",
+  "status": "ok",
+  "final_url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/3A5/3A5423/3A5423EN.pdf",
+  "content_type": "application/pdf",
+  "bytes": 6572231,
+  "sha256": "d2cfbfed600094ceb881f1eafb3e544385fd6cb00b28d5a3c5de139da2136627"
+ },
+ {
+  "file": "pdf/equipment/EQ_Atlas_Copco_SCA_SCA_paint_shop_dispensing_LASD_underbody_brochure.pdf",
+  "url": "https://shopit.atlascopco.com/content/dam/atlas-copco/industrial-technique/general/documents/brochures-leaflets/joining-solutions/LASD_Leaflet_2019_EN.pdf",
+  "status": "ok",
+  "final_url": "https://www.atlascopco.com/content/dam/atlas-copco/industrial-technique/general/documents/brochures-leaflets/joining-solutions/LASD_Leaflet_2019_EN.pdf",
+  "content_type": "application/pdf",
+  "bytes": 5626803,
+  "sha256": "03b671463667f7d0384dcdfcc686ba2de9090b10ffd6e385b2b7a42cb8651f3c"
+ },
+ {
+  "file": "pdf/materials/M05_UBC_UNDER_COAT_RSU_230_paper_EQUIV.pdf",
+  "url": "https://global.honda/jp/technical-review/PDF/004/004_174.pdf",
+  "status": "ok",
+  "final_url": "https://global.honda/jp/technical-review/PDF/004/004_174.pdf",
+  "content_type": "application/pdf",
+  "bytes": 2658105,
+  "sha256": "bd45f7f63a2b4e9bc461529c74a099b24045d5e34bfa535db733498158ef0497"
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_King_air_powered_airless_sprayer_XL_3400_brochure.pdf",
+  "url": "https://graco.com/content/dam/graco/aftd/literature/brochures/349980/349980ENEU-B.pdf",
+  "status": "ok",
+  "final_url": "https://www.graco.com/content/dam/graco/com_documents/349/349980/349980ENEU-B.pdf",
+  "content_type": "application/pdf",
+  "bytes": 3247618,
+  "sha256": "d12fe45ded473867d896c1b5deb4e158beefaa95b6b4209a540c830bc16df86d"
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_King_spray_packages_with_XL_10K_air_moto_manual.pdf",
+  "url": "https://graco.com/content/dam/graco/tech_documents/manuals/334/334645/3A7301ES.pdf",
+  "status": "ok",
+  "final_url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334645/3A7301ES.pdf",
+  "content_type": "application/pdf",
+  "bytes": 6692092,
+  "sha256": "ee0dbf3e4402b91fb7a856e095f2f746189a87c7006215975699ac0c34b4bbee"
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_King_spray_packages_with_XL_10K_air_moto_manual_2.pdf",
+  "url": "https://graco.com/content/dam/graco/tech_documents/manuals/334/334645/3A7306SV.pdf",
+  "status": "ok",
+  "final_url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334645/3A7306SV.pdf",
+  "content_type": "application/pdf",
+  "bytes": 6679858,
+  "sha256": "b82aca70bd5b7ec017a4e9ddfb0e68c84e8c0527b318dcfbf663e107f7d07c9c"
+ },
+ {
+  "file": "pdf/materials/M07_PVC_ANTI_CHIP_paper_EQUIV.pdf",
+  "url": "https://rts.i-car.com/images/pdf/oem-info/chrysler/service-bulletins/13504.pdf",
+  "status": "ok",
+  "final_url": "https://rts.i-car.com/images/pdf/oem-info/chrysler/service-bulletins/13504.pdf",
+  "content_type": "application/pdf",
+  "bytes": 119513,
+  "sha256": "ee532e9a0c7160c527bb2b9a61c44ddbb1408154f981d7b0e6eebe1473008cb6"
+ },
+ {
+  "file": "pdf/materials/M08_CR_100_PRIMER_SURFACER_LIGHT_GRAY_N7_0_TDS_EQUIV.pdf",
+  "url": "https://vrteotgdakjwbjeugnxx.supabase.co/storage/v1/object/public/product-images/datasheets/kcc/KCC_DATASHEET_US4000_eng.pdf",
+  "status": "ok",
+  "final_url": "https://vrteotgdakjwbjeugnxx.supabase.co/storage/v1/object/public/product-images/datasheets/kcc/KCC_DATASHEET_US4000_eng.pdf",
+  "content_type": "application/pdf",
+  "bytes": 32839,
+  "sha256": "d9c12507a8bb8ac41dd65547ab49a5a58b2d5872897930009e317f4bec0932d8"
+ },
+ {
+  "file": "pdf/materials/M08_CR_100_PRIMER_SURFACER_LIGHT_GRAY_N7_0_TDS_EQUIV_2.pdf",
+  "url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F201504150003022kor.pdf",
+  "status": "ok",
+  "final_url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F201504150003022kor.pdf",
+  "content_type": "application/pdf",
+  "bytes": 61753,
+  "sha256": "b1960dbef8020445364fbf8bab3c40cfd9ea47cfe889e446c5dca55c999894bb"
+ },
+ {
+  "file": "pdf/equipment/EQ_Durr_EcoRP_E043i_datasheet.pdf",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+  "status": "ok",
+  "final_url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+  "content_type": "application/pdf",
+  "bytes": 913769,
+  "sha256": "964bdb3af130d2854d1bd4f64d764244c811ebe9dbd8d35ab9681e77b6f07930"
+ },
+ {
+  "file": "pdf/equipment/EQ_Durr_EcoBell3_datasheet.pdf",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+  "status": "ok",
+  "final_url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+  "content_type": "application/pdf",
+  "bytes": 499009,
+  "sha256": "ad80896d6a4d40817266018bd31cf4706b0c610fea2143ad900ed00fb8147c3d"
+ },
+ {
+  "file": "pdf/equipment/EQ_ABB_IRB_5500_FlexPainter_brochure.pdf",
+  "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+  "status": "ok",
+  "final_url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+  "content_type": "application/pdf",
+  "bytes": 2193354,
+  "sha256": "618b69f910efed09516ff45eaea88cd3dfcb2032757169b8504cd241ce16267f"
+ },
+ {
+  "file": "pdf/equipment/EQ_ABB_IRB_5500_22_datasheet.pdf",
+  "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+  "status": "ok",
+  "final_url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+  "content_type": "application/pdf",
+  "bytes": 711603,
+  "sha256": "15abbe675a88545aad19ce4a27db074000a825bbda20f0b8ee62f04590d4f0c9"
+ },
+ {
+  "file": "pdf/equipment/EQ_ABB_RB1000i_brochure.pdf",
+  "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+  "status": "http_403"
+ },
+ {
+  "file": "pdf/equipment/EQ_FANUC_P_250iB_datasheet.pdf",
+  "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+  "status": "ok",
+  "final_url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB%28E%29-02a.pdf",
+  "content_type": "application/pdf",
+  "bytes": 455687,
+  "sha256": "849be297ec57d05e5ce76a2d7bd5c0fa835834c3a0b4a58fc578e09cc45a004b"
+ },
+ {
+  "file": "pdf/equipment/EQ_Durr_EcoSupply2_Core_datasheet.pdf",
+  "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-supply-2-core.pdf",
+  "status": "ok",
+  "final_url": "https://www.durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-supply-2-core.pdf",
+  "content_type": "application/pdf",
+  "bytes": 2021129,
+  "sha256": "c5c3c6194ba302e8619848b152b25d5bde59b9461f1de4ee2e1ba71821bd31a7"
+ },
+ {
+  "file": "pdf/equipment/EQ_Durr_Ecopaint_Robot_painting_stations_brochure.pdf",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+  "status": "ok",
+  "final_url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+  "content_type": "application/pdf",
+  "bytes": 1095920,
+  "sha256": "57992de1ccf7bc19bfb87929f75c0f388abee0e3d013ec803518977116200188"
+ },
+ {
+  "file": "pdf/equipment/EQ_ABB_RB1000_SSD_RB1000_SAD_datasheet.pdf",
+  "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+  "status": "ok",
+  "final_url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+  "content_type": "application/pdf",
+  "bytes": 199292,
+  "sha256": "70c7d41e177659e30bc8b1c8bb86f39b59ed7e0092a6d81fa4d1d8cb9aa810cd"
+ },
+ {
+  "file": "pdf/materials/M10_PRIMER_TYPE_THINNER_SDS_EQUIV.pdf",
+  "url": "https://rusty21.com/wp-content/uploads/2025/04/KCC_MSDS_%EC%97%90%EB%82%98%EB%A9%9C%ED%9D%AC%EC%84%9D%EC%A0%9C012_kor.pdf",
+  "status": "ok",
+  "final_url": "https://rusty21.com/wp-content/uploads/2025/04/KCC_MSDS_%EC%97%90%EB%82%98%EB%A9%9C%ED%9D%AC%EC%84%9D%EC%A0%9C012_kor.pdf",
+  "content_type": "application/pdf",
+  "bytes": 225672,
+  "sha256": "72538857b85b66607cf49133281b732ac1015a07dff3f04624d51115dbe672ba"
+ },
+ {
+  "file": "pdf/materials/M10_PRIMER_TYPE_THINNER_paper_EQUIV.pdf",
+  "url": "https://koreascience.kr/article/JAKO200610103460967.pdf",
+  "status": "ok",
+  "final_url": "https://koreascience.kr/article/JAKO200610103460967.pdf",
+  "content_type": "application/pdf;charset=UTF-8",
+  "bytes": 327949,
+  "sha256": "b5a55b5f80cc5658d1b17057d5f1c5ebbd7512e63dfd7fdd46a50030dd4ba2bf"
+ },
+ {
+  "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_SDS_EQUIV.pdf",
+  "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+  "status": "http_404"
+ },
+ {
+  "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_TDS_EQUIV.pdf",
+  "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+  "status": "ok",
+  "final_url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+  "content_type": "application/pdf",
+  "bytes": 147312,
+  "sha256": "9779763f10f8bc75f94cad912a638ee103d6293bcf209a5e247fb94fc3728b4a"
+ },
+ {
+  "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_TDS_EQUIV_2.pdf",
+  "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+  "status": "ok",
+  "final_url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+  "content_type": "application/pdf",
+  "bytes": 1500227,
+  "sha256": "30cdbd8660b8d3e886797164c2a8694676545591d2300cc6eda44b5070f36b4f"
+ },
+ {
+  "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_TDS_EQUIV_3.pdf",
+  "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+  "status": "ok",
+  "final_url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+  "content_type": "application/pdf",
+  "bytes": 355599,
+  "sha256": "90226ee602f3c4f3df9acd42f5df72f6bfda970306e6d7343f4e58f930409cd8"
+ },
+ {
+  "file": "pdf/equipment/EQ_Durr_EcoMCC3_20_datasheet.pdf",
+  "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
+  "status": "ok",
+  "final_url": "https://www.durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
+  "content_type": "application/pdf",
+  "bytes": 721855,
+  "sha256": "f1f8411c5e87ec32e59640884573602873a1e4a70d53f9debb82b6e9088bcb16"
+ },
+ {
+  "file": "pdf/equipment/EQ_Durr_EcoSupply_P_brochure.pdf",
+  "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
+  "status": "ok",
+  "final_url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
+  "content_type": "application/pdf",
+  "bytes": 1372680,
+  "sha256": "c1caeafb12debfba124936882a00b8fd5e648f268e47828be49eb1a320a60e6d"
+ },
+ {
+  "file": "pdf/equipment/EQ_FANUC_P_250iB_15_datasheet.pdf",
+  "url": "https://www.fanucamerica.com/cmsmedia/datasheets/P-250iB_Product Information_330.pdf",
+  "status": "ok",
+  "final_url": "https://cdn.craft.cloud/6166486b-1eb4-43d5-990c-ea573de4e750/assets/files/data-sheets/p250ib-datasheet.pdf",
+  "content_type": "application/pdf",
+  "bytes": 808432,
+  "sha256": "0714bf518e0ac7d8060d8014bca0acf5f37bbb93e34a31288f1316ab4133c86f"
+ },
+ {
+  "file": "pdf/materials/M23_BASE_TYPE_THINNER_SDS_EQUIV.pdf",
+  "url": "https://www.noroopaint.com/kor/file/prod_file/%EB%85%B8%EB%A3%A8%EB%9D%BC%ED%81%AC_%EC%8B%A0%EB%82%98(%EB%9D%BD%EC%B9%B4_%EC%8B%A0%EB%82%98)_DR-170_GHS-MSDS.pdf",
+  "status": "ok",
+  "final_url": "https://www.noroopaint.com/kor/file/prod_file/%EB%85%B8%EB%A3%A8%EB%9D%BC%ED%81%AC_%EC%8B%A0%EB%82%98%28%EB%9D%BD%EC%B9%B4_%EC%8B%A0%EB%82%98%29_DR-170_GHS-MSDS.pdf",
+  "content_type": "application/pdf",
+  "bytes": 389679,
+  "sha256": "96948bdb11de3c08c4219ca1bf87d1f40ffb53acccd08fef9d93b379a4ef1566"
+ },
+ {
+  "file": "pdf/materials/M24_TOP_CLEAR_HITEC_2000_TDS_EQUIV.pdf",
+  "url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F202301250054173eng.pdf",
+  "status": "ok",
+  "final_url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F202301250054173eng.pdf",
+  "content_type": "application/pdf",
+  "bytes": 43047,
+  "sha256": "f625f27c8fb91e6934916016b69c44c3b650c57efb73ec39a6f78230bf87dc4b"
+ },
+ {
+  "file": "pdf/materials/M24_TOP_CLEAR_HITEC_2000_SDS_EQUIV.pdf",
+  "url": "https://www.brandenburg.com/IphonePDF/safety/safety%20data%20sheets/paint%20products.ppg%20industries.amerlock%20aue-40%20clear%20coat.pdf",
+  "status": "ok",
+  "final_url": "https://www.brandenburg.com/IphonePDF/safety/safety%20data%20sheets/paint%20products.ppg%20industries.amerlock%20aue-40%20clear%20coat.pdf",
+  "content_type": "application/pdf",
+  "bytes": 159435,
+  "sha256": "29bb80051cf9fab0b42d48faefd6ecd6880ca08af2623578e059a2b7b8c1653c"
+ },
+ {
+  "file": "pdf/materials/M24_TOP_CLEAR_HITEC_2000_TDS_EQUIV_2.pdf",
+  "url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F202007230045276kor.pdf",
+  "status": "ok",
+  "final_url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F202007230045276kor.pdf",
+  "content_type": "application/pdf",
+  "bytes": 61584,
+  "sha256": "f6342d57811d0c82013af3408e449ac7ae066317b46e8a5dc4be2b2ddb0984a1"
+ },
+ {
+  "file": "pdf/materials/M24_TOP_CLEAR_HITEC_2000_TDS_EQUIV_3.pdf",
+  "url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F202007270045330kor.pdf",
+  "status": "ok",
+  "final_url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F202007270045330kor.pdf",
+  "content_type": "application/pdf",
+  "bytes": 61721,
+  "sha256": "0c5b9ccad15b6b2f968b62fc9a840ed797417df8c46c6be429c9321479431809"
+ },
+ {
+  "file": "pdf/materials/M26_CLEANING_THINNER_paper_EQUIV.pdf",
+  "url": "https://www.eastman.com/content/dam/eastman/corporate/en/literature/c/coatind20287.pdf",
+  "status": "ok",
+  "final_url": "https://www.eastman.com/content/dam/eastman/corporate/en/literature/c/coatind20287.pdf",
+  "content_type": "application/pdf",
+  "bytes": 2551281,
+  "sha256": "0fd5193f2628697378e9c95edce1e02c6a17569d98108050867f5522373cad24"
+ },
+ {
+  "file": "pdf/materials/M26_CLEANING_THINNER_paper_EQUIV_2.pdf",
+  "url": "https://www.eastman.com/Literature_Center/S/SOL032.pdf",
+  "status": "http_404"
+ },
+ {
+  "file": "pdf/materials/M26_CLEANING_THINNER_paper_EQUIV_3.pdf",
+  "url": "https://dtsc.ca.gov/wp-content/uploads/sites/31/2024/04/TD_FS_Sprayguncleaning_accessible.pdf",
+  "status": "http_403"
+ },
+ {
+  "file": "pdf/materials/M26_CLEANING_THINNER_SDS_EQUIV.pdf",
+  "url": "http://noroopaint.com/kor/file/prod_file/SHH710501_DOCU03_c090106.pdf",
+  "status": "network_error",
+  "error": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "file": "pdf/equipment/EQ_Durr_EcoBell_Cleaner_D2_EcoBell_PurgeBox_datasheet.pdf",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/03_Atomizer_Cleaning/duerr-datasheet-ecobell-cleander-d2-ecobell-purgebox-en.pdf",
+  "status": "ok",
+  "final_url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/03_Atomizer_Cleaning/duerr-datasheet-ecobell-cleander-d2-ecobell-purgebox-en.pdf",
+  "content_type": "application/pdf",
+  "bytes": 453662,
+  "sha256": "5b651319366cfde3857e3e7a0ead9fe57e4748f7049dfbc450e7f06eafc14de8"
+ },
+ {
+  "file": "pdf/materials/M27_DISK_BRAKE_FLUID_DOT_4_PLUS_A_T_and_M_T_TDS_EQUIV.pdf",
+  "url": "https://www.q8oils.com/wp-content/uploads/2025/11/Q8-Brake-Fluid-DOT-4plus_en.pdf",
+  "status": "ok",
+  "final_url": "https://www.q8oils.com/wp-content/uploads/2025/11/Q8-Brake-Fluid-DOT-4plus_en.pdf",
+  "content_type": "application/pdf",
+  "bytes": 159088,
+  "sha256": "83010a86307ddf9c242cb4c58faa098adfc4e6d084e8f98a132917bd1110cb98"
+ },
+ {
+  "file": "pdf/materials/M27_DISK_BRAKE_FLUID_DOT_4_PLUS_A_T_and_M_T_SDS_EQUIV.pdf",
+  "url": "https://www.biketeile-service.de/media/attachment/pdf/sida_en_5585513.pdf",
+  "status": "http_403"
+ },
+ {
+  "file": "pdf/materials/M27_DISK_BRAKE_FLUID_DOT_4_PLUS_A_T_and_M_T_SDS_EQUIV_2.pdf",
+  "url": "https://www.dascochem.co.kr/docs/dasco-bf-dot4-msds.pdf",
+  "status": "ok",
+  "final_url": "https://www.dascochem.co.kr/docs/dasco-bf-dot4-msds.pdf",
+  "content_type": "application/pdf",
+  "bytes": 326156,
+  "sha256": "ab7c511bb3f652c089d0f6fedf07a4319433ae6db0695c4e282068ba511d66f5"
+ },
+ {
+  "file": "pdf/materials/M27_DISK_BRAKE_FLUID_DOT_4_PLUS_A_T_and_M_T_SDS_EQUIV_3.pdf",
+  "url": "https://christensenusa.com/wp-content/uploads/2026/03/Recochem-Brake-Fluid-DOT4-5-4-2017.pdf",
+  "status": "ok",
+  "final_url": "https://christensenusa.com/wp-content/uploads/2026/03/Recochem-Brake-Fluid-DOT4-5-4-2017.pdf",
+  "content_type": "application/pdf",
+  "bytes": 65370,
+  "sha256": "57ee3e2f08247b13578dc7335e6d8814da57aa24f60ab7b7cce9ff8cab3ea9a5"
+ },
+ {
+  "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_NEXT_assembly_portfolio_incl_Somac_filli_brochure.pdf",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/duerr-brochure-NEXT.assembly-english-low.pdf",
+  "status": "ok",
+  "final_url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/duerr-brochure-NEXT.assembly-english-low.pdf",
+  "content_type": "application/pdf",
+  "bytes": 1775516,
+  "sha256": "5ede41ff9ac9f9cefee93aea19f0defa3ee7288c8a9c9dc3e1236d5b0e0dfdd9"
+ },
+ {
+  "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_NEXT_assembly_portfolio_newer_edition_brochure.pdf",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
+  "status": "ok",
+  "final_url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
+  "content_type": "application/pdf",
+  "bytes": 5829520,
+  "sha256": "b9d6661b5f4e6a80c1d122f75ccc003159cdf1ce12188923f605b8b894a27931"
+ },
+ {
+  "file": "pdf/equipment/EQ_Durr_Durr_Somac_GmbH_DXQ_filling_fill_stations_brochure.pdf",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
+  "status": "ok",
+  "final_url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
+  "content_type": "application/pdf",
+  "bytes": 2128529,
+  "sha256": "c616072b43c5196b0f065e142228adf80c76684bc3c916c7eb4f9708c43ab185"
+ },
+ {
+  "file": "pdf/equipment/EQ_Twin_Engineers_India_TCF_powertrain_fluid_filling_machines_br_brochure.pdf",
+  "url": "https://www.twinengineers.com/wp-content/uploads/2024/07/Oil-Filling-Brochure.pdf",
+  "status": "ok",
+  "final_url": "https://www.twinengineers.com/wp-content/uploads/2024/07/Oil-Filling-Brochure.pdf",
+  "content_type": "application/pdf",
+  "bytes": 1068462,
+  "sha256": "6359967351731adcd7b7d66af93859c3e9a05aca114b6368204f73003fa53b04"
+ },
+ {
+  "file": "pdf/materials/M28_POWER_STRG_OIL_DEXRON_VI_GM_N10060_TDS_EQUIV.pdf",
+  "url": "https://shop.sclubricants.com/pub/media/pds/pennzoil/Pennzoil-ATF-Dexron-VI-Technical-Datasheet.pdf",
+  "status": "ok",
+  "final_url": "https://shop.sclubricants.com/pub/media/pds/pennzoil/Pennzoil-ATF-Dexron-VI-Technical-Datasheet.pdf",
+  "content_type": "application/pdf",
+  "bytes": 208628,
+  "sha256": "5e962a031f40715e33bae9644287300fc3ab344c41820111ebf220c423cfb499"
+ },
+ {
+  "file": "pdf/materials/M28_POWER_STRG_OIL_DEXRON_VI_GM_N10060_TDS_EQUIV_2.pdf",
+  "url": "https://partner.ravenol.de/storage/app/media/product-pdf/Tds_1211105_en.pdf",
+  "status": "network_error",
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1032)>"
+ },
+ {
+  "file": "pdf/materials/M28_POWER_STRG_OIL_DEXRON_VI_GM_N10060_SDS_EQUIV.pdf",
+  "url": "https://www.ravenol.de/storage/app/uploads/share/SDB/Sdb_RAVENOL%20ATF%20DEXRON%20VI_1211105_en_ALL.pdf",
+  "status": "ok",
+  "final_url": "https://ravenol.de/storage/app/uploads/share/SDB/Sdb_RAVENOL%20ATF%20DEXRON%20VI_1211105_en_ALL.pdf",
+  "content_type": "application/pdf",
+  "bytes": 240967,
+  "sha256": "80a0354f27a2b99904b68ba336bfa64922eb5a668d636d39e59da61d6486c66d"
+ },
+ {
+  "file": "pdf/materials/M28_POWER_STRG_OIL_DEXRON_VI_GM_N10060_SDS_EQUIV_2.pdf",
+  "url": "https://msds.fmpco.com/images/fmp_msds/19287624_DexronVI_2014.pdf",
+  "status": "network_error",
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1032)>"
+ },
+ {
+  "file": "pdf/materials/M28_POWER_STRG_OIL_DEXRON_VI_GM_N10060_SDS_EQUIV_3.pdf",
+  "url": "https://acdelco.com.au/gm-b2cau/cms/pdf/SDS/LQ9RG_DEXRON%20VI%20PREMIUM%20FULL%20SYNTHETIC%20TRANSMISSION%20FLUID.pdf",
+  "status": "ok",
+  "final_url": "https://acdelco.com.au/cms/pdf/SDS/LQ9RG_DEXRON%20VI%20PREMIUM%20FULL%20SYNTHETIC%20TRANSMISSION%20FLUID.pdf?__site_move=20261017",
+  "content_type": "application/pdf",
+  "bytes": 65068,
+  "sha256": "9635e884214f2217dee69692b6bc8213e87651e017d2652dd9bfe3b64841e8fa"
+ },
+ {
+  "file": "pdf/materials/M28_POWER_STRG_OIL_DEXRON_VI_GM_N10060_TDS_EQUIV_3.pdf",
+  "url": "https://acdelco.com.au/gm-b2cau/cms/pdf/Flyers/ACDelco%20Dexron%20VI%20Premium%20Full%20Synthetic%20ATF%20Sell%20Sheet.pdf",
+  "status": "ok",
+  "final_url": "https://acdelco.com.au/cms/pdf/Flyers/ACDelco%20Dexron%20VI%20Premium%20Full%20Synthetic%20ATF%20Sell%20Sheet.pdf?__site_move=20261017",
+  "content_type": "application/pdf",
+  "bytes": 1223584,
+  "sha256": "a3e916c6db806a0ee7953c2471db12a1539005e51f85d23187a88de847893304"
+ },
+ {
+  "file": "pdf/materials/M28_POWER_STRG_OIL_DEXRON_VI_GM_N10060_SDS_EQUIV_4.pdf",
+  "url": "https://seattleautomotive.com/files/SDS/88861046%20dexron%20vi%20atf.pdf",
+  "status": "ok",
+  "final_url": "https://seattleautomotive.com/files/SDS/88861046%20dexron%20vi%20atf.pdf",
+  "content_type": "application/pdf",
+  "bytes": 214712,
+  "sha256": "0829904252690731d9583a8a4d637432a25de4e785b0e8bdfe5a50735dc5c2bc"
+ },
+ {
+  "file": "pdf/materials/M28_POWER_STRG_OIL_DEXRON_VI_GM_N10060_SDS_EQUIV_5.pdf",
+  "url": "https://uploads-ssl.webflow.com/5d513e6ea4a37093208cabb2/5e958119bb64f4d142e866cf_DEXRON%20%5ER%5E%20VI%20ATF.PDF",
+  "status": "ok",
+  "final_url": "https://uploads-ssl.webflow.com/5d513e6ea4a37093208cabb2/5e958119bb64f4d142e866cf_DEXRON%20%5ER%5E%20VI%20ATF.PDF",
+  "content_type": "application/pdf",
+  "bytes": 218013,
+  "sha256": "92ed5a133e38676705ac92fb6d08a8f7ed157c9878dcc78cf57edc690877627c"
+ },
+ {
+  "file": "pdf/materials/M28_POWER_STRG_OIL_DEXRON_VI_GM_N10060_SDS_EQUIV_6.pdf",
+  "url": "https://evosupplygroupcatalog.sfo3.digitaloceanspaces.com/brands/files/Petro%20Canada/DEX6C16-sds.pdf",
+  "status": "ok",
+  "final_url": "https://evosupplygroupcatalog.sfo3.digitaloceanspaces.com/brands/files/Petro%20Canada/DEX6C16-sds.pdf",
+  "content_type": "application/pdf",
+  "bytes": 456450,
+  "sha256": "dfd8bc077965057c3203e570059e375cf33f8b790b2e82cd48764c532bd8edab"
+ },
+ {
+  "file": "pdf/materials/M29_ANTIFREEZE_DX_COOL_CONCENTRATE_RED_brochure_EQUIV.pdf",
+  "url": "https://pwr.com.au/app/uploads/2022/08/ACDelco-Coolant-FAQ.pdf",
+  "status": "ok",
+  "final_url": "https://pwr.com.au/app/uploads/2022/08/ACDelco-Coolant-FAQ.pdf",
+  "content_type": "application/pdf",
+  "bytes": 158244,
+  "sha256": "665a2bfd655cb47803a42f47c109ca9e7a032aaca88dc868336ab49639e170ad"
+ },
+ {
+  "file": "pdf/materials/M29_ANTIFREEZE_DX_COOL_CONCENTRATE_RED_PDS_EQUIV.pdf",
+  "url": "https://shop.sclubricants.com/pub/media/pds/shell/Shell-Dexcool-Antifreeze-Coolant-50_50-datasheet.pdf",
+  "status": "ok",
+  "final_url": "https://shop.sclubricants.com/pub/media/pds/shell/Shell-Dexcool-Antifreeze-Coolant-50_50-datasheet.pdf",
+  "content_type": "application/pdf",
+  "bytes": 96211,
+  "sha256": "711e95fa6b789e362ce794e62ba68c2b47fa7dfbe24d082a1d36afc1a3040eaa"
+ },
+ {
+  "file": "pdf/materials/M29_ANTIFREEZE_DX_COOL_CONCENTRATE_RED_PDS_EQUIV_2.pdf",
+  "url": "https://kostusa.com/wp-content/uploads/2022/09/NEW-PDS-DefendAL-DexCoolAutomotive.pdf",
+  "status": "network_error",
+  "error": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "file": "pdf/materials/M29_ANTIFREEZE_DX_COOL_CONCENTRATE_RED_TDS_EQUIV.pdf",
+  "url": "https://antifreezefelix.ru/storage/upload/documents/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82%20FELIX%20CARBOX%20+%20%D0%BA%D0%BE%D0%BD%D1%86.pdf",
+  "status": "ok",
+  "final_url": "https://antifreezefelix.ru/storage/upload/documents/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82%20FELIX%20CARBOX%20+%20%D0%BA%D0%BE%D0%BD%D1%86.pdf",
+  "content_type": "application/pdf",
+  "bytes": 6401905,
+  "sha256": "f6768d7ff03798578018aed09f8f08ae6e10626f30c7e572050b34613135a3b8"
+ },
+ {
+  "file": "pdf/materials/M29_ANTIFREEZE_DX_COOL_CONCENTRATE_RED_SDS_EQUIV.pdf",
+  "url": "https://antifreezefelix.ru/storage/upload/documents/MSDS%20Felix%20CARBOX%20SQ.PDF",
+  "status": "ok",
+  "final_url": "https://antifreezefelix.ru/storage/upload/documents/MSDS%20Felix%20CARBOX%20SQ.PDF",
+  "content_type": "application/pdf",
+  "bytes": 657937,
+  "sha256": "3b8084898f75039d82f986c3bbb1d5bee39035666d1d37eb8859cfe57716dfb1"
+ },
+ {
+  "file": "pdf/materials/M29_ANTIFREEZE_DX_COOL_CONCENTRATE_RED_TDS_EQUIV_2.pdf",
+  "url": "https://antifreezefelix.ru/storage/upload/documents/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82%20FELIX%20TYPE%20D.pdf",
+  "status": "ok",
+  "final_url": "https://antifreezefelix.ru/storage/upload/documents/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82%20FELIX%20TYPE%20D.pdf",
+  "content_type": "application/pdf",
+  "bytes": 8472981,
+  "sha256": "b12f9aba4f39cd7b35edaa7a5574ff53f00da63fc58fe7102d84688472a1ef90"
+ },
+ {
+  "file": "pdf/materials/M29_ANTIFREEZE_DX_COOL_CONCENTRATE_RED_TDS_EQUIV_3.pdf",
+  "url": "https://antifreezefelix.ru/storage/upload/documents/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82%20FELIX%20JDM.pdf",
+  "status": "ok",
+  "final_url": "https://antifreezefelix.ru/storage/upload/documents/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82%20FELIX%20JDM.pdf",
+  "content_type": "application/pdf",
+  "bytes": 10781000,
+  "sha256": "a1ca81c57f346b5d32557683049473d2eac3f8d36ff8b3fd5255765ea05f4f9b"
+ },
+ {
+  "file": "pdf/materials/M29_ANTIFREEZE_DX_COOL_CONCENTRATE_RED_TDS_EQUIV_4.pdf",
+  "url": "https://tosol-sintez.ru/assets/files/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82%20FELIX%20DRAGON.pdf",
+  "status": "ok",
+  "final_url": "https://tosol-sintez.ru/assets/files/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82%20FELIX%20DRAGON.pdf",
+  "content_type": "application/pdf",
+  "bytes": 6613465,
+  "sha256": "67a5239b2a2a1142fc16a2b347a2dc62f6dcbf0e624abc2cb3802bc73981e861"
+ },
+ {
+  "file": "pdf/materials/M30_T_M_OIL_PDS_EQUIV.pdf",
+  "url": "https://ilti.idemitsu.com/media/file/originals/post/2023/08/16/idemitsu-mtf.pdf",
+  "status": "ok",
+  "final_url": "https://ilti.idemitsu.com/media/file/originals/post/2023/08/16/idemitsu-mtf.pdf",
+  "content_type": "application/pdf",
+  "bytes": 60484,
+  "sha256": "1b9dfd650327a7d0c06111b8555368805cbf124a77fb5ffacec79083217e1247"
+ },
+ {
+  "file": "pdf/materials/M30_T_M_OIL_SDS_EQUIV.pdf",
+  "url": "https://www.idemitsu.com/jp/sds/lube/32050330.pdf",
+  "status": "ok",
+  "final_url": "https://www.idemitsu.com/jp/sds/lube/32050330.pdf",
+  "content_type": "application/pdf",
+  "bytes": 339202,
+  "sha256": "5dd0c874aaee0008a1d99a4b6b3e3d5d610d8540093f131f373610570bc6a38e"
+ },
+ {
+  "file": "pdf/materials/M30_T_M_OIL_PDS_EQUIV_2.pdf",
+  "url": "https://www.idemitsu.com/jp/sds/lube/30300240p.pdf",
+  "status": "ok",
+  "final_url": "https://www.idemitsu.com/jp/sds/lube/30300240p.pdf",
+  "content_type": "application/pdf",
+  "bytes": 386427,
+  "sha256": "f47e417eb8bf0ac2f97cee4f8b6bed6dd8b47c13abf039c9ea8783892cbc668d"
+ },
+ {
+  "file": "pdf/materials/M30_T_M_OIL_SDS_EQUIV_2.pdf",
+  "url": "https://www.lube-buster.com/wp-content/uploads/2022/04/sds-idemitsu-atf-type-hp.pdf",
+  "status": "ok",
+  "final_url": "https://www.lube-buster.com/wp-content/uploads/2022/04/sds-idemitsu-atf-type-hp.pdf",
+  "content_type": "application/pdf",
+  "bytes": 935231,
+  "sha256": "17fb884ddb672eea8706df317a5870ccc85bf7098665938db86a131df53cf6df"
+ },
+ {
+  "file": "pdf/materials/M31_T_M_OIL_MANUAL_SH_XGP_75W85_GL_4_PDS_EQUIV.pdf",
+  "url": "https://www.supercheapauto.co.nz/on/demandware.static/-/Library-Sites-supercheap-shared-library/default/dwe49223ef/productsheets/396350_342312.pdf",
+  "status": "ok",
+  "final_url": "https://www.supercheapauto.co.nz/on/demandware.static/-/Library-Sites-supercheap-shared-library/default/dwe49223ef/productsheets/396350_342312.pdf",
+  "content_type": "application/pdf",
+  "bytes": 274502,
+  "sha256": "ffb93b358fd893a1be76a6d2e381b82ac8ab1d6b33a3df308924f22f23e0af17"
+ },
+ {
+  "file": "pdf/materials/M31_T_M_OIL_MANUAL_SH_XGP_75W85_GL_4_PDS_EQUIV_2.pdf",
+  "url": "https://www.redlineoil.com/Content/files/tech/MT-85_GO_PROD_INFO.pdf",
+  "status": "ok",
+  "final_url": "https://www.redlineoil.com/Content/files/tech/MT-85_GO_PROD_INFO.pdf",
+  "content_type": "application/pdf",
+  "bytes": 264892,
+  "sha256": "860a183e2865a47f41b4f659c0ee94092ff7caadcdc2c2a7eca7b59faffb21dc"
+ },
+ {
+  "file": "pdf/materials/M31_T_M_OIL_MANUAL_SH_XGP_75W85_GL_4_PDS_EQUIV_3.pdf",
+  "url": "https://www.TDXLTD.CO.NZ/media/pdfs/49977.pdf",
+  "status": "ok",
+  "final_url": "https://www.TDXLTD.CO.NZ/media/pdfs/49977.pdf",
+  "content_type": "application/pdf",
+  "bytes": 102767,
+  "sha256": "e653cec82f8f840b8cf0001625d612bc3e4ff16081e99973552be203e7fc694d"
+ },
+ {
+  "file": "pdf/materials/M31_T_M_OIL_MANUAL_SH_XGP_75W85_GL_4_SDS_EQUIV.pdf",
+  "url": "https://www.motorcraft.com/content/dam/ford-motorcraft/en_us/motorcraft_global/products/pdf/SAE_75W_85_Premuim_Synthetic_Hypoid_Gear_Lubricant/SAE_75W_85_Premuim_Synthetic_Hypoid_Gear_Lubricant_SDS.pdf",
+  "status": "http_403"
+ },
+ {
+  "file": "pdf/materials/M33_TETRAFLUOROETHANE_HFC_134a_SDS_EQUIV.pdf",
+  "url": "https://fuhrmeister-gmbh.de/pdf/sds/R134a_safety data sheet_EN.pdf",
+  "status": "ok",
+  "final_url": "https://fuhrmeister-gmbh.de/pdf/sds/R134a_safety%20data%20sheet_EN.pdf",
+  "content_type": "application/pdf",
+  "bytes": 464100,
+  "sha256": "7534c3611e6143d4873d7be903dd202838ac9d9c5dd323bb4f1c17c0af67f70f"
+ },
+ {
+  "file": "pdf/materials/M33_TETRAFLUOROETHANE_HFC_134a_SDS_EQUIV_2.pdf",
+  "url": "https://www.daikinchemicals.com/library/pb_common/pdf/sds/Refrigerants/sds-hfc-134a-E_20191220.pdf",
+  "status": "ok",
+  "final_url": "https://www.daikinchemicals.com/library/pb_common/pdf/sds/Refrigerants/sds-hfc-134a-E_20191220.pdf",
+  "content_type": "application/pdf",
+  "bytes": 205824,
+  "sha256": "18d0c331de464ac2a1a2bde8439a216ad9603e5ac1c8f9dfe292002dc06b03ad"
+ },
+ {
+  "file": "pdf/materials/M33_TETRAFLUOROETHANE_HFC_134a_SDS_EQUIV_3.pdf",
+  "url": "https://sds.fmpco.com/images/fmp_msds/HFC-134a_4.21.23_.pdf",
+  "status": "http_404"
+ },
+ {
+  "file": "pdf/materials/M33_TETRAFLUOROETHANE_HFC_134a_SDS_EQUIV_4.pdf",
+  "url": "https://www.motorcraft.com/content/dam/ford-motorcraft/en_us/motorcraft_global/products/pdf/R_134a_Refrigerant/us045167us.pdf",
+  "status": "http_403"
+ },
+ {
+  "file": "pdf/materials/M33_TETRAFLUOROETHANE_HFC_134a_SDS_EQUIV_5.pdf",
+  "url": "https://gaslogic.nl/wp-content/uploads/2024/09/R134A-MSDS-EN-v1.0.pdf",
+  "status": "ok",
+  "final_url": "https://gaslogic.nl/wp-content/uploads/2024/09/R134A-MSDS-EN-v1.0.pdf",
+  "content_type": "application/pdf",
+  "bytes": 852384,
+  "sha256": "935c20552307c4c952a90c88644bfb65ee2cd7542b644e5853b00c48da4c2216"
+ },
+ {
+  "file": "pdf/materials/M33_TETRAFLUOROETHANE_HFC_134a_SDS_EQUIV_6.pdf",
+  "url": "https://static.prd.echannel.linde.com/wcsstore/ZA_AFROX_Industrial_Ntl_Store/Attachment/Corporate/AFX-SDS-0060_v01_Refrigerant_R134a_Safety_Data_Sheet(003)(2)tcm266-6472.pdf",
+  "status": "ok",
+  "final_url": "https://static.prd.echannel.linde.com/wcsstore/ZA_AFROX_Industrial_Ntl_Store/Attachment/Corporate/AFX-SDS-0060_v01_Refrigerant_R134a_Safety_Data_Sheet%28003%29%282%29tcm266-6472.pdf",
+  "content_type": "application/pdf",
+  "bytes": 176594,
+  "sha256": "de5de4c764905de5579d77ee143837f07d7303df98078845a234698c61b185dc"
+ },
+ {
+  "file": "pdf/materials/M34_FUEL_SDS_EQUIV.pdf",
+  "url": "https://ina.hr/app/uploads/2024/06/Unleaded-Petrol_v22_EN.pdf",
+  "status": "ok",
+  "final_url": "https://www.ina.hr/app/uploads/2024/06/Unleaded-Petrol_v22_EN.pdf",
+  "content_type": "application/pdf",
+  "bytes": 629345,
+  "sha256": "399312a33a2a9862d7d023c8ff53be40a5e2d4cf81eeb035c03e8a1269d58edb"
+ },
+ {
+  "file": "pdf/materials/M34_FUEL_SDS_EQUIV_2.pdf",
+  "url": "https://www.nis.rs/wp-content/uploads/2025/09/EN_SDS_UNLEADED-GASOLINE_GHS-ANNEXII-CLP_20250725_NIS-a.d.-Novi-Sad.pdf",
+  "status": "ok",
+  "final_url": "https://www.nis.rs/wp-content/uploads/2025/09/EN_SDS_UNLEADED-GASOLINE_GHS-ANNEXII-CLP_20250725_NIS-a.d.-Novi-Sad.pdf",
+  "content_type": "application/pdf",
+  "bytes": 3315033,
+  "sha256": "784c0e8c8e1b87df64fa43483c5b4958b384aade21f49568f1a40019680c2749"
+ },
+ {
+  "file": "pdf/materials/M35_WINDSHIELD_WASHER_ETHANOL_80_PDS_EQUIV.pdf",
+  "url": "https://sirv.eurol.com/eurol/PI/EN/EN_E502260_PI.pdf",
+  "status": "ok",
+  "final_url": "https://sirv.eurol.com/eurol/PI/EN/EN_E502260_PI.pdf",
+  "content_type": "application/pdf",
+  "bytes": 170641,
+  "sha256": "35c2eb4fe236b2f00a22d9fe0fdcea47c85518a1543fb335606f8f2395233609"
+ },
+ {
+  "file": "pdf/materials/M35_WINDSHIELD_WASHER_ETHANOL_80_SDS_EQUIV.pdf",
+  "url": "https://www.msds.ford.com/documents/198426 G_GBEN.pdf",
+  "status": "ok",
+  "final_url": "https://www.msds.ford.com/documents/198426%20G_GBEN.pdf",
+  "content_type": "application/octet-stream",
+  "bytes": 964686,
+  "sha256": "1a692f86c52740006fa9ed2287fc288b33f08408f69e0e4b6ec55dcae8f3ad09"
+ },
+ {
+  "file": "pdf/materials/M35_WINDSHIELD_WASHER_ETHANOL_80_SDS_EQUIV_2.pdf",
+  "url": "https://sirv.eurol.com/eurol/SDS/EN/EN_E502260_SDS.pdf",
+  "status": "ok",
+  "final_url": "https://sirv.eurol.com/eurol/SDS/EN/EN_E502260_SDS.pdf",
+  "content_type": "application/pdf",
+  "bytes": 427553,
+  "sha256": "366be235d978554af496213c4439527544a7e285b183d9ee1dfbc07a5db9b5aa"
+ },
+ {
+  "file": "pdf/materials/M35_WINDSHIELD_WASHER_ETHANOL_80_SDS_EQUIV_3.pdf",
+  "url": "https://assets.rowegmbh.de/var/assets/brandhub/safety-data-sheets/en/21111-998-00_IRL-en_1%2C09.pdf",
+  "status": "ok",
+  "final_url": "https://assets.rowegmbh.de/var/assets/brandhub/safety-data-sheets/en/21111-998-00_IRL-en_1%2C09.pdf",
+  "content_type": "application/pdf",
+  "bytes": 196081,
+  "sha256": "b6ca60a49216567a768978fbcbf270a91ea3f5bfbce3547a610b5041681b909f"
+ },
+ {
+  "file": "pdf/materials/M35_WINDSHIELD_WASHER_ETHANOL_80_SDS_EQUIV_4.pdf",
+  "url": "https://assets.rowegmbh.de/var/assets/brandhub/safety-data-sheets/en/21104-998-00_IRL-en_1%2C11.pdf",
+  "status": "http_404"
+ },
+ {
+  "file": "pdf/materials/M36_BETASEAL_SikaFlex_250_UZ_1_PDS_EQUIV.pdf",
+  "url": "https://deu.sika.com/dms/getdocument.get/7d702bec-814c-4eb8-805d-1ad0cb019466/sikaflex-250-dm-5.pdf",
+  "status": "http_404"
+ },
+ {
+  "file": "pdf/materials/M36_BETASEAL_SikaFlex_250_UZ_1_PDS_EQUIV_2.pdf",
+  "url": "https://deu.sika.com/dms/getdocument.get/48aee572-deb8-4a11-85c7-8682134452bd/sikaflex-250-dp-2-plus-sikaboosterp-50.pdf",
+  "status": "http_404"
+ },
+ {
+  "file": "pdf/materials/M36_BETASEAL_SikaFlex_250_UZ_1_PDS_EQUIV_3.pdf",
+  "url": "https://egy.sika.com/dms/getdocument.get/ecf85750-dd7d-3490-9be2-3e36a8285895/Sikaflex",
+  "status": "ok",
+  "final_url": "https://egy.sika.com/dms/getdocument.get/ecf85750-dd7d-3490-9be2-3e36a8285895/Sikaflex%C2%AE-250%20DM-3.pdf",
+  "content_type": "application/pdf",
+  "bytes": 217903,
+  "sha256": "27fb801419a2dc576cb2cb26ef76f6664240d333cf4de342177b0c18243b21aa"
+ },
+ {
+  "file": "pdf/materials/M36_BETASEAL_SikaFlex_250_UZ_1_SDS_EQUIV.pdf",
+  "url": "https://kor.sika.com/dms/getdocument.get/5577a611-f6de-438f-ab00-dbfea96a137d/MSDS_Sikaflex%C2%AE-250PC(SSC)_EN_251226_AA00068-0000000296.pdf",
+  "status": "ok",
+  "final_url": "https://kor.sika.com/dms/getdocument.get/5577a611-f6de-438f-ab00-dbfea96a137d/MSDS_Sikaflex%C2%AE-250PC%28SSC%29_EN_251226_AA00068-0000000296.pdf",
+  "content_type": "application/pdf",
+  "bytes": 472480,
+  "sha256": "e77ff6902efefc8fc749a2c4d1319c79ea7c66fdbe1b8958f77b0f5196183632"
+ },
+ {
+  "file": "pdf/materials/M36_BETASEAL_SikaFlex_250_UZ_1_TDS_EQUIV.pdf",
+  "url": "https://dupont.materialdatacenter.com/gb/products/pdf/SI/BETASEAL%E2%84%A2%20U-838HV-gb.pdf",
+  "status": "ok",
+  "final_url": "https://dupont.materialdatacenter.com/gb/products/pdf/SI/BETASEAL%E2%84%A2%20U-838HV-gb.pdf",
+  "content_type": "application/pdf",
+  "bytes": 39911,
+  "sha256": "1e730414ca5fe57b96cb0d96ccc70a08fbb4da8ea7f7068bad0464b4c432c05b"
+ },
+ {
+  "file": "pdf/materials/M36_BETASEAL_SikaFlex_250_UZ_1_TDS_EQUIV_2.pdf",
+  "url": "https://www.pksupplies.com/sites/default/files/datasheets/dupont-betaseal-primerless-to-glass-adhesive-data-sheet.pdf",
+  "status": "ok",
+  "final_url": "https://www.pksupplies.com/sites/default/files/datasheets/dupont-betaseal-primerless-to-glass-adhesive-data-sheet.pdf",
+  "content_type": "application/pdf",
+  "bytes": 1553364,
+  "sha256": "447ff57a0705932c800e5cb39569375954c5a6d60cadb3d180e488d9b6b08648"
+ },
+ {
+  "file": "pdf/materials/M36_BETASEAL_SikaFlex_250_UZ_1_brochure_EQUIV.pdf",
+  "url": "https://www.agsc.org/documents/DowASMRequirementsMatrixandProductBrochures_03082018.pdf",
+  "status": "network_error",
+  "error": "Remote end closed connection without response"
+ },
+ {
+  "file": "pdf/materials/M36_BETASEAL_SikaFlex_250_UZ_1_brochure_EQUIV_2.pdf",
+  "url": "https://fittingsgo.com/wp-content/uploads/2019/04/U418-Product-Brochure.pdf",
+  "status": "ok",
+  "final_url": "https://fittingsgo.com/wp-content/uploads/2019/04/U418-Product-Brochure.pdf",
+  "content_type": "application/pdf",
+  "bytes": 1557357,
+  "sha256": "bd29f570c47b097f10c1df59d77d6de03c851fbd406a39ea377ec69eaf260e64"
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_Therm_O_Flow_200_manual.pdf",
+  "url": "https://graco.com/content/dam/graco/tech_documents/manuals/334/334130/334130EN.pdf",
+  "status": "ok",
+  "final_url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334130/334130EN.pdf",
+  "content_type": "application/pdf",
+  "bytes": 5812824,
+  "sha256": "be4c034f63db1a693c494dc74014e762fd11a33f00496624d40da28309be2a39"
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_Therm_O_Flow_EasyKey_200_L_manual.pdf",
+  "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/311/311208/311208EN-S.pdf",
+  "status": "ok",
+  "final_url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/311/311208/311208EN-S.pdf",
+  "content_type": "application/pdf",
+  "bytes": 5924499,
+  "sha256": "4a5f7add816cc3f39d968bd5d10921c35d3f89fbf13ccbd8b0528405edba9014"
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_PCF_brochure.pdf",
+  "url": "https://www.graco.com/content/dam/graco/aftd/literature/brochures/340305/340305EN-D.pdf",
+  "status": "ok",
+  "final_url": "https://www.graco.com/content/dam/graco/com_documents/340/340305/340305EN-D.pdf",
+  "content_type": "application/pdf",
+  "bytes": 1931878,
+  "sha256": "450eb9aea012449a76dfeeb7bb694c09d081c2c4f13cab222304ece4bdbacd7a"
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_Therm_O_Flow_Warm_Melt_20_brochure.pdf",
+  "url": "https://gww.graco.com/content/dam/graco/aftd/literature/brochures/350422/350422ENEU-A.pdf",
+  "status": "network_error",
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1032)>"
+ },
+ {
+  "file": "pdf/materials/M37_ADHESIVE_HDLNG_T_PNL_TDS_EQUIV.pdf",
+  "url": "https://datasheets.tdx.henkel.com/TECHNOMELT-AS-8383-en_GL.pdf",
+  "status": "ok",
+  "final_url": "https://datasheets.tdx.henkel.com/TECHNOMELT-AS-8383-en_GL.pdf",
+  "content_type": "application/pdf",
+  "bytes": 98263,
+  "sha256": "2d89813fd9a30bbbbe876f91df856aa14dfd39724017ba046ca9544535d9d67b"
+ },
+ {
+  "file": "pdf/materials/M37_ADHESIVE_HDLNG_T_PNL_TDS_EQUIV_2.pdf",
+  "url": "https://datasheets.tdx.henkel.com/TECHNOMELT-PUR-9622-02-en_GL.pdf",
+  "status": "ok",
+  "final_url": "https://datasheets.tdx.henkel.com/TECHNOMELT-PUR-9622-02-en_GL.pdf",
+  "content_type": "application/pdf",
+  "bytes": 107748,
+  "sha256": "6d0a8842242f4b87c8d5c641d463dbbc05dae997eae1c1da83ead497c523808b"
+ },
+ {
+  "file": "pdf/materials/M37_ADHESIVE_HDLNG_T_PNL_TDS_EQUIV_3.pdf",
+  "url": "https://prostech.vn/wp-content/uploads/2024/03/thermogrip_h9446_tds_033016.pdf",
+  "status": "ok",
+  "final_url": "https://prostech.vn/wp-content/uploads/2024/03/thermogrip_h9446_tds_033016.pdf",
+  "content_type": "application/pdf",
+  "bytes": 4107224,
+  "sha256": "2bd9b6a7f54774852e8b81ac10eb0453031b7d034d69acbe11c63f3ba06c20d4"
+ },
+ {
+  "file": "pdf/materials/M37_ADHESIVE_HDLNG_T_PNL_TDS_EQUIV_4.pdf",
+  "url": "https://prostech.vn/wp-content/uploads/2024/03/thermogrip_h9438_tds.pdf",
+  "status": "ok",
+  "final_url": "https://prostech.vn/wp-content/uploads/2024/03/thermogrip_h9438_tds.pdf",
+  "content_type": "application/pdf",
+  "bytes": 4648061,
+  "sha256": "28e45d850d96003f8d58a86d987aac3884fbdfd527db06f4ed355307b0747f13"
+ },
+ {
+  "file": "pdf/materials/M37_ADHESIVE_HDLNG_T_PNL_TDS_EQUIV_5.pdf",
+  "url": "https://prostech.vn/wp-content/uploads/2024/03/thermogrip_9431_tds_060717.pdf",
+  "status": "ok",
+  "final_url": "https://prostech.vn/wp-content/uploads/2024/03/thermogrip_9431_tds_060717.pdf",
+  "content_type": "application/pdf",
+  "bytes": 4107349,
+  "sha256": "ace73e2afbeddc04acc04c542835a976281a3ca012a4c9ab1447a6fc518a2ccc"
+ },
+ {
+  "file": "pdf/materials/M38_RKB_0101S_PDS.pdf",
+  "url": "https://gbr.sika.com/dam/dms/gb01/f/sika-primer-209-d.pdf",
+  "status": "ok",
+  "final_url": "https://gbr.sika.com/dam/dms/gb01/f/sika-primer-209-d.pdf",
+  "content_type": "application/pdf",
+  "bytes": 704233,
+  "sha256": "a840feea4fb8b169161ab66fc7731db61b52b921e2cb7894b5d9485f669408ac"
+ },
+ {
+  "file": "pdf/materials/M38_RKB_0101S_PDS_2.pdf",
+  "url": "https://industry.sika.com/dam/dms/ca01/x/sika-primer-209-d.pdf",
+  "status": "ok",
+  "final_url": "https://industry.sika.com/dam/dms/ca01/x/sika-primer-209-d.pdf",
+  "content_type": "application/pdf",
+  "bytes": 418518,
+  "sha256": "08b6f65844565c82bf3f03558404f617b39f62c9d8dc43e22b5b96940b84046b"
+ },
+ {
+  "file": "pdf/materials/M38_RKB_0101S_SDS.pdf",
+  "url": "https://gbr.sika.com/dms/getdocument.get/fc7c9a30-2929-424b-9f85-2cb6042f8040/Sika%C2%AE%20Primer-209%20D%20SDS.pdf",
+  "status": "http_404"
+ },
+ {
+  "file": "pdf/materials/M38_RKB_0101S_SDS_2.pdf",
+  "url": "https://nzl.sika.com/dam/dms/nz01/3/Primer%20209D%20-%20MSDS.pdf",
+  "status": "ok",
+  "final_url": "https://nzl.sika.com/dam/dms/nz01/3/Primer%20209D%20-%20MSDS.pdf",
+  "content_type": "application/pdf",
+  "bytes": 132025,
+  "sha256": "f860831a035d83a2289f7987d580fcb793a1ef258344648b3e0960190b40edda"
+ },
+ {
+  "file": "pdf/materials/M38_RKB_0101S_SDS_3.pdf",
+  "url": "https://tur.sika.com/dms/getdocument.get/5aa00d1a-99ca-4747-888a-eda15c33f505/Sika%20Primer-209D%20MSDS%20EN.pdf",
+  "status": "ok",
+  "final_url": "https://tur.sika.com/dms/getdocument.get/5aa00d1a-99ca-4747-888a-eda15c33f505/Sika%20Primer-209D%20MSDS%20EN.pdf",
+  "content_type": "application/pdf",
+  "bytes": 508373,
+  "sha256": "74c9104763e971a59e861655e1385a452209eb8b783b32f7b3252bfb6c7d71e5"
+ },
+ {
+  "file": "pdf/equipment/EQ_Nordson_EFD_752V_datasheet.pdf",
+  "url": "https://flumasys.com/userfiles/product_files/nordson_efd_752v_datasheet.pdf",
+  "status": "http_404"
+ },
+ {
+  "file": "pdf/equipment/EQ_Nordson_EFD_752V_manual.pdf",
+  "url": "https://flumasys.com/userfiles/product_files/nordson_efd_752v_maintenance_guide.pdf",
+  "status": "http_404"
+ },
+ {
+  "file": "pdf/equipment/EQ_Nordson_EFD_750_series_manual.pdf",
+  "url": "https://flumasys.com/userfiles/product_files/nordson_efd_750_valve_installation_guide.pdf",
+  "status": "http_404"
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_Pressure_pots_brochure.pdf",
+  "url": "https://www.spraydirect.co.uk/acatalog/graco_pressure_pots.pdf",
+  "status": "ok",
+  "final_url": "https://www.spraydirect.co.uk/acatalog/graco_pressure_pots.pdf",
+  "content_type": "application/pdf",
+  "bytes": 258868,
+  "sha256": "ce11e9705233c58bd5da9f85c68548fe4eb58720b07cb4eceb259ba636474bd4"
+ },
+ {
+  "file": "pdf/equipment/EQ_Sika_Manual_felt_applicators_Windscreen_Bondi_brochure.pdf",
+  "url": "https://gbr.sika.com/dms/getdocument.get/ea64bae6-89d6-4aba-859f-94f95c74309c/Sika%20Windscreen%20Bonding%20.pdf",
+  "status": "ok",
+  "final_url": "https://gbr.sika.com/dms/getdocument.get/ea64bae6-89d6-4aba-859f-94f95c74309c/Sika%20Windscreen%20Bonding%20.pdf",
+  "content_type": "application/pdf",
+  "bytes": 673071,
+  "sha256": "8527c493506aae6f7426c77015c1360df4f943db6192f54686b63ee3bbec3767"
+ },
+ {
+  "file": "pdf/materials/M39_RKB_0401S_PDS.pdf",
+  "url": "https://industry.sika.com/dam/dms/us01/w/sika_primer-206_gp.pdf",
+  "status": "ok",
+  "final_url": "https://industry.sika.com/dam/dms/us01/w/sika_primer-206_gp.pdf",
+  "content_type": "application/pdf",
+  "bytes": 391599,
+  "sha256": "70eb950e9cb666c4b250093cfe500c1b83a5535c4867b966149a66ceb179f76c"
+ },
+ {
+  "file": "pdf/materials/M39_RKB_0401S_PDS_2.pdf",
+  "url": "https://industry.sika.com/dam/dms/ch01/f/sika-primer-206-g-plus-p.pdf",
+  "status": "ok",
+  "final_url": "https://industry.sika.com/dam/dms/ch01/f/sika-primer-206-g-plus-p.pdf",
+  "content_type": "application/pdf",
+  "bytes": 705664,
+  "sha256": "cadd38ff5f365a387f4de536ce3f81bdb55aae3bc1f61a76ace137139e28ac85"
+ },
+ {
+  "file": "pdf/materials/M39_RKB_0401S_SDS.pdf",
+  "url": "https://usa.sika.com/dam/dms/us01/s/Sika-Primer-206-G-P.pdf",
+  "status": "ok",
+  "final_url": "https://usa.sika.com/dam/dms/us01/s/Sika-Primer-206-G-P.pdf",
+  "content_type": "application/pdf",
+  "bytes": 200222,
+  "sha256": "6e0ac5d5c3ed1d0ab89253536802868c543256f22f9ee9c36a7d6929a19f5785"
+ },
+ {
+  "file": "pdf/materials/M39_RKB_0401S_SDS_2.pdf",
+  "url": "https://nzl.sika.com/dam/dms/nz01/t/Sika%C2%AE%20Primer-206%20G%20plus%20P%20-%20SDS%20-%201122.pdf",
+  "status": "ok",
+  "final_url": "https://nzl.sika.com/dam/dms/nz01/t/Sika%C2%AE%20Primer-206%20G%20plus%20P%20-%20SDS%20-%201122.pdf",
+  "content_type": "application/pdf",
+  "bytes": 287376,
+  "sha256": "809ff3d83270cebdaafd2314c764f21d0b3b1603cbd9e72b75219c9450293cec"
+ },
+ {
+  "file": "pdf/materials/M39_RKB_0401S_SDS_3.pdf",
+  "url": "https://srb.sika.com/dms/getdocument.get/a237532a-c159-4c08-8f85-74a2b307eb7d_rs01/sds-sika-primer-206g-plus-p.pdf",
+  "status": "ok",
+  "final_url": "https://srb.sika.com/dms/getdocument.get/a237532a-c159-4c08-8f85-74a2b307eb7d_rs01/sds-sika-primer-206g-plus-p.pdf",
+  "content_type": "application/pdf",
+  "bytes": 432127,
+  "sha256": "a34211e8f89cce118f7a5170a73143b4189ac3ee4159e43f904e02ec760c8a2f"
+ },
+ {
+  "file": "pdf/materials/M40_BETAPRIME_PDS.pdf",
+  "url": "https://industry.sika.com/dam/dms/us01/l/sika_aktivator-100.pdf",
+  "status": "ok",
+  "final_url": "https://industry.sika.com/dam/dms/us01/l/sika_aktivator-100.pdf",
+  "content_type": "application/pdf",
+  "bytes": 388809,
+  "sha256": "f0bbb9bd670996d7cf9d52e18fcd469ccd1712b470223e316718ab74ca7a03df"
+ },
+ {
+  "file": "pdf/materials/M40_BETAPRIME_SDS.pdf",
+  "url": "https://gbr.sika.com/dam/dms/gb01/v/sds-sika-aktivator-100.pdf",
+  "status": "ok",
+  "final_url": "https://gbr.sika.com/dam/dms/gb01/v/sds-sika-aktivator-100.pdf",
+  "content_type": "application/pdf",
+  "bytes": 317889,
+  "sha256": "47ab3fdb3044bd1edfd248aca3baed402410fcd9f86fb3b9c2e8b65f711f79be"
+ },
+ {
+  "file": "pdf/materials/M40_BETAPRIME_SDS_2.pdf",
+  "url": "https://aus.sika.com/dam/dms/au01/f/sds-sika-aktivator-100.pdf",
+  "status": "ok",
+  "final_url": "https://aus.sika.com/dam/dms/au01/f/sds-sika-aktivator-100.pdf",
+  "content_type": "application/pdf",
+  "bytes": 608336,
+  "sha256": "b8ee6212ce48f4cf2f49d45114016fc238e70bc9f6dec22a45627adf71017611"
+ },
+ {
+  "file": "pdf/materials/M40_BETAPRIME_TDS_EQUIV.pdf",
+  "url": "https://dupont.materialdatacenter.com/gb/products/pdf/US/BETAPRIME%E2%84%A2%205504G%20NO%20SHAKE-gb-US.pdf",
+  "status": "ok",
+  "final_url": "https://dupont.materialdatacenter.com/gb/products/pdf/US/BETAPRIME%E2%84%A2%205504G%20NO%20SHAKE-gb-US.pdf",
+  "content_type": "application/pdf",
+  "bytes": 44034,
+  "sha256": "d8f58b96df2abf500b20cb4ee88421c50e42f0035901ca164a40621c956dea71"
+ },
+ {
+  "file": "pdf/materials/M40_BETAPRIME_PDS_2.pdf",
+  "url": "https://bgr.sika.com/dam/dms/bg01/k/sika_aktivator-100.pdf",
+  "status": "ok",
+  "final_url": "https://bgr.sika.com/dam/dms/bg01/k/sika_aktivator-100.pdf",
+  "content_type": "application/pdf",
+  "bytes": 138208,
+  "sha256": "b6d127219d5327120d17f3f1a41ae74cbf4a4ddc9a110262b5a1a40b1834fe04"
+ },
+ {
+  "file": "pdf/materials/M40_BETAPRIME_PDS_3.pdf",
+  "url": "https://cze.sika.com/dam/dms/cz01/v/sika-aktivator-100.pdf",
+  "status": "ok",
+  "final_url": "https://cze.sika.com/dam/dms/cz01/v/sika-aktivator-100.pdf",
+  "content_type": "application/pdf",
+  "bytes": 695638,
+  "sha256": "5d6ba36c3d6a1bb5432a2c626caa7698f9458ae37de7ed25880fafb4fe065ac6"
+ },
+ {
+  "file": "pdf/materials/M40_BETAPRIME_PDS_4.pdf",
+  "url": "https://industry.sika.com/dam/dms/dk01/w/sika_aktivator-100.pdf",
+  "status": "ok",
+  "final_url": "https://industry.sika.com/dam/dms/dk01/w/sika_aktivator-100.pdf",
+  "content_type": "application/pdf",
+  "bytes": 527210,
+  "sha256": "72288ccd08dcf443dad28f04e04e9490248d967d1417904d75af924aea8ac048"
+ },
+ {
+  "file": "pdf/materials/M40_BETAPRIME_brochure_EQUIV.pdf",
+  "url": "https://mascherpa.it/wp-content/uploads/2023/05/BETAPRIME-BETACLEAN-and-Accessories-brochure.pdf",
+  "status": "http_403"
+ },
+ {
+  "file": "pdf/materials/M42_LUBRICANT_WHL_PILOT_HOLE_TDS_EQUIV.pdf",
+  "url": "https://www.dupont.com/content/dam/Dupont2.0/Products/transportation/Literature/Downloaded-TDS/MOLYKOTE%20M-77%20Solid%20Lubricant%20Paste%2071-0186F-01.pdf",
+  "status": "ok",
+  "final_url": "https://www.dupont.com/content/dam/Dupont2.0/Products/transportation/Literature/Downloaded-TDS/MOLYKOTE%20M-77%20Solid%20Lubricant%20Paste%2071-0186F-01.pdf",
+  "content_type": "application/pdf",
+  "bytes": 213326,
+  "sha256": "6bd1ee0fef38d07f2203cbab90546c3aa3608ba52b4a0271c5ae04426e635db6"
+ },
+ {
+  "file": "pdf/materials/M42_LUBRICANT_WHL_PILOT_HOLE_paper_EQUIV.pdf",
+  "url": "https://static.nhtsa.gov/odi/tsbs/2017/MC-10126105-9999.pdf",
+  "status": "ok",
+  "final_url": "https://static.nhtsa.gov/odi/tsbs/2017/MC-10126105-9999.pdf",
+  "content_type": "application/pdf",
+  "bytes": 881052,
+  "sha256": "a36cc209ea56c5a8dd68cfd4a74658bd52d8a00ed1f116d52008700dbb1a0cb1"
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_Fire_Ball_pumps_manual.pdf",
+  "url": "https://graco.com/content/dam/graco/tech_documents/manuals/309/309868/historic/309868EN-B.pdf",
+  "status": "ok",
+  "final_url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/309/309868/historic/309868EN-B.pdf",
+  "content_type": "application/pdf",
+  "bytes": 1227228,
+  "sha256": "92cd10b846d7dbe8ff690a674d8797303d181a0a47adf35f197013dfb14417a3"
+ },
+ {
+  "file": "pdf/equipment/EQ_Lincoln_Equipment_range_brochure.pdf",
+  "url": "https://petroleumservicecompany.com/content/pdfs/Lincoln_Equipment_Brochure.pdf",
+  "status": "ok",
+  "final_url": "https://petroleumservicecompany.com/content/pdfs/Lincoln_Equipment_Brochure.pdf",
+  "content_type": "application/pdf",
+  "bytes": 4544136,
+  "sha256": "b30973ca5ad5f97bfecb5d00ce753bda0c7c725eceb966a5df21bedb721d045d"
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_Fire_Ball_300_50_1_manual.pdf",
+  "url": "https://gww.graco.com/content/dam/graco/tech_documents/manuals/308/308883/308883FR-G.pdf",
+  "status": "network_error",
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1032)>"
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_Fire_Ball_pumps_manual_2.pdf",
+  "url": "https://gww.graco.com/content/dam/graco/tech_documents/manuals/309/309868/309868DE-A.pdf",
+  "status": "network_error",
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1032)>"
+ },
+ {
+  "file": "pdf/materials/M43_LUBRICANT_CLU_PLT_HUB_M_T_brochure_EQUIV.pdf",
+  "url": "https://www.klueber.com/ecoma/files/B082003002_Driving-Kluber-Lubrication.pdf",
+  "status": "ok",
+  "final_url": "https://www.klueber.com/ecoma/files/B082003002_Driving-Kluber-Lubrication.pdf",
+  "content_type": "application/pdf",
+  "bytes": 1140276,
+  "sha256": "5e142fbf32d1672d4914785afb06c6a966fc183fa7cb4180a2cf136e5ddfa413"
+ },
+ {
+  "file": "pdf/materials/M43_LUBRICANT_CLU_PLT_HUB_M_T_brochure_EQUIV_2.pdf",
+  "url": "https://www.klueber.com/ecoma/files/B082003002_automotivebroschuere_EN_160523_SCREEN.pdf",
+  "status": "ok",
+  "final_url": "https://www.klueber.com/ecoma/files/B082003002_automotivebroschuere_EN_160523_SCREEN.pdf",
+  "content_type": "application/pdf",
+  "bytes": 4948709,
+  "sha256": "ba0bb2c5c8c73fff4671bf3c5fe39fd2e42a8e567ba7f1213d753e90a2bd7592"
+ },
+ {
+  "file": "pdf/materials/M43_LUBRICANT_CLU_PLT_HUB_M_T_paper_EQUIV.pdf",
+  "url": "https://www.techtips.ie/LuK/how-to-grease-clutch-hubs.pdf",
+  "status": "ok",
+  "final_url": "https://www.techtips.ie/LuK/how-to-grease-clutch-hubs.pdf",
+  "content_type": "application/pdf",
+  "bytes": 756217,
+  "sha256": "a8fd9a4d8cfcbd6d4d115d4958e0bd0e30d1d22fba6c86c491debe41fa3febfc"
+ },
+ {
+  "file": "pdf/materials/M43_LUBRICANT_CLU_PLT_HUB_M_T_brochure_EQUIV_3.pdf",
+  "url": "https://www.klueber.com/ecoma/files/B082003002_Automotive_160531_EN.pdf",
+  "status": "ok",
+  "final_url": "https://www.klueber.com/ecoma/files/B082003002_Automotive_160531_EN.pdf",
+  "content_type": "application/pdf",
+  "bytes": 4942878,
+  "sha256": "10740503847ce8e5af19a31d819ab5674d9945dfdced91b09673fb223e87ccd7"
+ },
+ {
+  "file": "pdf/equipment/EQ_Graco_Fire_Ball_pumps_manual_3.pdf",
+  "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/309/309868/309868ES-A.pdf",
+  "status": "ok",
+  "final_url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/309/309868/309868ES-A.pdf",
+  "content_type": "application/pdf",
+  "bytes": 1441018,
+  "sha256": "60b912a84f820993d5e2cb0e9d2ef5a8e2df7a026c173725665148c7fc201ec8"
+ }
+]
