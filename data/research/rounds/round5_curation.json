@@ -1,0 +1,548 @@
+[
+ {
+  "id": 1,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://www.osti.gov/etdeweb/servlets/purl/20671858",
+    "reason": "technical paper, not a passport; exact CHEMFOS 740R SDS now available"
+   },
+   {
+    "url": "https://datasheets.tdx.henkel.com/BONDERITE-M-ZN-952-R1-en_GL.pdf",
+    "reason": "older duplicate equivalent TDS (952 A kept)"
+   },
+   {
+    "url": "https://datasheets.tdx.henkel.com/BONDERITE-M-ZN-1994-R4-en_GL.pdf",
+    "reason": "older duplicate equivalent TDS (952 A kept)"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 2,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=694b08f064935d1e0000&id=694b08f364a068420001",
+    "reason": "duplicate of PPG POWERCRON CR686A SDS (same version)"
+   },
+   {
+    "url": "https://www.axalta.com/content/dam/New%20Axalta%20Corporate%20Website/Documents/AquaEC_Brochure_Final.pdf",
+    "reason": "marketing brochure; Axalta AquaEC 3000 PIB kept"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 3,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://www.axalta.com/content/dam/New%20Axalta%20Corporate%20Website/Documents/AquaEC_Brochure_Final.pdf",
+    "reason": "marketing brochure; Axalta AquaEC 3000 PIB kept"
+   },
+   {
+    "url": "https://www.charlottepipe.com/uploads/documents/technical/SDS-CR100.pdf",
+    "reason": "resin component - fits binder (id 2), not paste"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 11,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msds.glasurit.com/files/50531424_MSDS_GB_EN.PDF",
+    "reason": "waterborne basecoat mixing base - wrong class for solvent-borne 2C1B basecoat"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 12,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msds.glasurit.com/files/50531424_MSDS_GB_EN.PDF",
+    "reason": "waterborne basecoat mixing base - wrong class for solvent-borne 2C1B basecoat"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 13,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msds.glasurit.com/files/50531424_MSDS_GB_EN.PDF",
+    "reason": "waterborne basecoat mixing base - wrong class for solvent-borne 2C1B basecoat"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 14,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msds.glasurit.com/files/50531424_MSDS_GB_EN.PDF",
+    "reason": "waterborne basecoat mixing base - wrong class for solvent-borne 2C1B basecoat"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 15,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msds.glasurit.com/files/50531424_MSDS_GB_EN.PDF",
+    "reason": "waterborne basecoat mixing base - wrong class for solvent-borne 2C1B basecoat"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 16,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msds.glasurit.com/files/50531424_MSDS_GB_EN.PDF",
+    "reason": "waterborne basecoat mixing base - wrong class for solvent-borne 2C1B basecoat"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 17,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msds.glasurit.com/files/50531424_MSDS_GB_EN.PDF",
+    "reason": "waterborne basecoat mixing base - wrong class for solvent-borne 2C1B basecoat"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 18,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msds.glasurit.com/files/50531424_MSDS_GB_EN.PDF",
+    "reason": "waterborne basecoat mixing base - wrong class for solvent-borne 2C1B basecoat"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 19,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msds.glasurit.com/files/50531424_MSDS_GB_EN.PDF",
+    "reason": "waterborne basecoat mixing base - wrong class for solvent-borne 2C1B basecoat"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 20,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msds.glasurit.com/files/50531424_MSDS_GB_EN.PDF",
+    "reason": "waterborne basecoat mixing base - wrong class for solvent-borne 2C1B basecoat"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 21,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msds.glasurit.com/files/50531424_MSDS_GB_EN.PDF",
+    "reason": "waterborne basecoat mixing base - wrong class for solvent-borne 2C1B basecoat"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 22,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msds.glasurit.com/files/50531424_MSDS_GB_EN.PDF",
+    "reason": "waterborne basecoat mixing base - wrong class for solvent-borne 2C1B basecoat"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 24,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=67aaa0ddca7deeb70000&id=67aaa0eecb2131130001",
+    "reason": "refinish 1K clear (NZ) - OEM 1K clear SDS kept"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 26,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://www.eastman.com/content/dam/eastman/corporate/en/literature/s/sol032.pdf",
+    "reason": "solvent formulator brochure, not a passport"
+   },
+   {
+    "url": "https://archive.epa.gov/airquality/community/web/pdf/autobody_oo_sheet.pdf",
+    "reason": "EPA information sheet, not a passport"
+   },
+   {
+    "url": "https://www.noroopaint.com/kor/file/prod_file/SHH710501_DOCU03_c090106.pdf",
+    "reason": "epoxy thinner - wrong class for a line cleaning thinner"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 27,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "Somac ProLine Cube / G4 Blue Adapter (filling)",
+    "type": "brochure",
+    "title": "Dürr NEXT.assembly brochure (EN, 2026) - 'Filling' section: Somac ProLine Cube filling machine and Somac G4 Blue Adapter (no dedicated Somac model datasheet is published)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
+    "verified": true,
+    "note": "evidence: downloaded; filling section names Somac ProLine Cube and Somac G4 Blue Adapter; Dürr filling product pages publish no PDF datasheets"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 28,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "Somac ProLine Cube / G4 Blue Adapter (filling)",
+    "type": "brochure",
+    "title": "Dürr NEXT.assembly brochure (EN, 2026) - 'Filling' section: Somac ProLine Cube filling machine and Somac G4 Blue Adapter (no dedicated Somac model datasheet is published)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
+    "verified": true,
+    "note": "evidence: downloaded; filling section names Somac ProLine Cube and Somac G4 Blue Adapter; Dürr filling product pages publish no PDF datasheets"
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://uploads-ssl.webflow.com/5d513e6ea4a37093208cabb2/5e958119bb64f4d142e866cf_DEXRON%20%5ER%5E%20VI%20ATF.PDF",
+    "reason": "older duplicate (US 2022 edition kept)"
+   },
+   {
+    "url": "https://seattleautomotive.com/files/SDS/88861046%20dexron%20vi%20atf.pdf",
+    "reason": "old 2015 MSDS duplicate"
+   },
+   {
+    "url": "https://sds.fmpco.com/images/sds_documents/19287624_DexronVI_2014.pdf",
+    "reason": "old 2014 SDS duplicate"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 29,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "Somac ProLine Cube / G4 Blue Adapter (filling)",
+    "type": "brochure",
+    "title": "Dürr NEXT.assembly brochure (EN, 2026) - 'Filling' section: Somac ProLine Cube filling machine and Somac G4 Blue Adapter (no dedicated Somac model datasheet is published)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
+    "verified": true,
+    "note": "evidence: downloaded; filling section names Somac ProLine Cube and Somac G4 Blue Adapter; Dürr filling product pages publish no PDF datasheets"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 30,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "Somac ProLine Cube / G4 Blue Adapter (filling)",
+    "type": "brochure",
+    "title": "Dürr NEXT.assembly brochure (EN, 2026) - 'Filling' section: Somac ProLine Cube filling machine and Somac G4 Blue Adapter (no dedicated Somac model datasheet is published)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
+    "verified": true,
+    "note": "evidence: downloaded; filling section names Somac ProLine Cube and Somac G4 Blue Adapter; Dürr filling product pages publish no PDF datasheets"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 31,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "Somac ProLine Cube / G4 Blue Adapter (filling)",
+    "type": "brochure",
+    "title": "Dürr NEXT.assembly brochure (EN, 2026) - 'Filling' section: Somac ProLine Cube filling machine and Somac G4 Blue Adapter (no dedicated Somac model datasheet is published)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
+    "verified": true,
+    "note": "evidence: downloaded; filling section names Somac ProLine Cube and Somac G4 Blue Adapter; Dürr filling product pages publish no PDF datasheets"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 32,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "Somac ProLine Cube / G4 Blue Adapter (filling)",
+    "type": "brochure",
+    "title": "Dürr NEXT.assembly brochure (EN, 2026) - 'Filling' section: Somac ProLine Cube filling machine and Somac G4 Blue Adapter (no dedicated Somac model datasheet is published)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
+    "verified": true,
+    "note": "evidence: downloaded; filling section names Somac ProLine Cube and Somac G4 Blue Adapter; Dürr filling product pages publish no PDF datasheets"
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://uploads-ssl.webflow.com/5d513e6ea4a37093208cabb2/5e958119bb64f4d142e866cf_DEXRON%20%5ER%5E%20VI%20ATF.PDF",
+    "reason": "older duplicate (US 2022 edition kept)"
+   },
+   {
+    "url": "https://seattleautomotive.com/files/SDS/88861046%20dexron%20vi%20atf.pdf",
+    "reason": "old 2015 MSDS duplicate"
+   },
+   {
+    "url": "https://sds.fmpco.com/images/sds_documents/19287624_DexronVI_2014.pdf",
+    "reason": "old 2014 SDS duplicate"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 33,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "Somac ProLine Cube / G4 Blue Adapter (filling)",
+    "type": "brochure",
+    "title": "Dürr NEXT.assembly brochure (EN, 2026) - 'Filling' section: Somac ProLine Cube filling machine and Somac G4 Blue Adapter (no dedicated Somac model datasheet is published)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
+    "verified": true,
+    "note": "evidence: downloaded; filling section names Somac ProLine Cube and Somac G4 Blue Adapter; Dürr filling product pages publish no PDF datasheets"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 34,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "Somac ProLine Cube / G4 Blue Adapter (filling)",
+    "type": "brochure",
+    "title": "Dürr NEXT.assembly brochure (EN, 2026) - 'Filling' section: Somac ProLine Cube filling machine and Somac G4 Blue Adapter (no dedicated Somac model datasheet is published)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
+    "verified": true,
+    "note": "evidence: downloaded; filling section names Somac ProLine Cube and Somac G4 Blue Adapter; Dürr filling product pages publish no PDF datasheets"
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://meganorm.ru/mega_doc/norm/gost_gosudarstvennyj-standart/20/gost_32513-2013_mezhgosudarstvennyy_standart_topliva.html",
+    "reason": "superseded by GOST 32513-2023"
+   },
+   {
+    "url": "https://studfile.net/preview/16423940",
+    "reason": "superseded by GOST 32513-2023"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 35,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Dürr",
+    "model": "Somac ProLine Cube / G4 Blue Adapter (filling)",
+    "type": "brochure",
+    "title": "Dürr NEXT.assembly brochure (EN, 2026) - 'Filling' section: Somac ProLine Cube filling machine and Somac G4 Blue Adapter (no dedicated Somac model datasheet is published)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
+    "verified": true,
+    "note": "evidence: downloaded; filling section names Somac ProLine Cube and Somac G4 Blue Adapter; Dürr filling product pages publish no PDF datasheets"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 36,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://egy.sika.com/dms/getdocument.get/ecf85750-dd7d-3490-9be2-3e36a8285895/Sikaflex",
+    "reason": "provisional 2006 sheet, superseded by current Sikaflex-250 grades"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 38,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://tur.sika.com/dms/getdocument.get/5aa00d1a-99ca-4747-888a-eda15c33f505/Sika%20Primer-209D%20MSDS%20EN.pdf",
+    "reason": "old 2018 SDS; UK/NZ editions kept"
+   },
+   {
+    "url": "https://gbr.sika.com/dam/dms/gb01/t/sds-sika-primer-209d.pdf",
+    "reason": "duplicate UK SDS v10.1"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 39,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://industry.sika.com/dam/dms/ch01/f/sika-primer-206-g-plus-p.pdf",
+    "reason": "Italian duplicate; English PDS kept"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 40,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://cze.sika.com/dam/dms/cz01/v/sika-aktivator-100.pdf",
+    "reason": "Czech duplicate; English PDS kept"
+   },
+   {
+    "url": "https://industry.sika.com/dam/dms/dk01/w/sika_aktivator-100.pdf",
+    "reason": "Danish duplicate; English PDS kept"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 41,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://cze.sika.com/dam/dms/cz01/v/sika-aktivator-100.pdf",
+    "reason": "Czech duplicate; English PDS kept"
+   }
+  ],
+  "notes": ""
+ }
+]

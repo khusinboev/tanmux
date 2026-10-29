@@ -1,7 +1,9 @@
 """Build output/material_equipment_names.xlsx: clean material names + equipment names.
 
-Passport columns are intentionally left empty. Second sheet ("Izoh") carries SAP,
-source spec and equipment confidence so each name can be traced.
+Passport columns are intentionally left empty. Equipment names come from
+data/equipment_selection.json (same source as the main workbooks). The "Izoh"
+sheet maps every clean name back to the plant list (name, SAP, spec) with
+identification and equipment confidence.
 """
 
 from __future__ import annotations
@@ -15,66 +17,56 @@ from openpyxl.utils import get_column_letter
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "output" / "material_equipment_names.xlsx"
+SELECTION_FILE = ROOT / "data" / "equipment_selection.json"
+CATALOG_FILE = ROOT / "data" / "catalog.json"
 
-ED_LINE = ["Dürr Ecopaint RoDip", "Controlled Power Company AACD Series 50 rectifier",
-           "Koch Membrane Systems KPAK ultrafiltration module"]
-SEALER = ["Graco E-Flo SP", "Dürr EcoShot Meter", "Dürr EcoGun2 3D"]
-UNDERBODY = ["Graco King XL10K", "Graco AL Series Automatic Airless Spray Gun (288048)"]
-PAINT_ROBOT = ["Dürr EcoRP E043i", "Dürr EcoBell3"]
-BASECOAT = [*PAINT_ROBOT, "Dürr EcoMCC3 20"]
-MIX_ROOM = ["Dürr EcoSupply2 Core", "Dürr EcoMCC3 20"]
-PURGE = ["Dürr EcoBell Cleaner D2", "Dürr EcoBell PurgeBox"]
-SOMAC_CUBE = ["Dürr Somac ProLine Cube", "Dürr Somac G4 Blue filling adapter"]
-SOMAC_OIL = ["Dürr Somac ProLine line filling station"]
-PRIMER_APPL = ["Nordson EFD 752V diaphragm valve", "Graco agitated pressure tank"]
-GREASE = ["Graco Fire-Ball 300", "Lincoln PowerMaster II"]
-
-# (id, material name, equipment names)
-ROWS: list[tuple[int, str, list[str]]] = [
-    (1, "CHEMFOS 740R", ["Dürr Ecopaint RoDip"]),
-    (2, "ED7010 Binder Gray", ED_LINE),
-    (3, "ED7010 Paste Gray", ED_LINE),
-    (4, "BODY SEALER RSB-430", SEALER),
-    (5, "UBC UNDER COAT RSU-230", UNDERBODY),
-    (6, "UBS COAT", UNDERBODY),
-    (7, "PVC ANTI CHIP", UNDERBODY),
-    (8, "CR-100 PRIMER SURFACER LIGHT GRAY (N7.0)", PAINT_ROBOT),
-    (9, "CR-100 PRIMER SURFACER PURE WHITE (N9.0)", PAINT_ROBOT),
-    (10, "PRIMER TYPE THINNER", MIX_ROOM),
-    (11, "(GAZ) BASE COAT SUMMIT WHITE (2C1B)", BASECOAT),
-    (12, "(GK2) BASE COAT SON OF A GUN GRAY MET-3", BASECOAT),
-    (13, "(GD8) BASE COAT BURNT COCONUT MET", BASECOAT),
-    (14, "(GB0) BASE COAT BLACK MEET KETTLE MET-3", BASECOAT),
-    (15, "(GYM) BASE COAT SATIN STEEL GRAY MET", BASECOAT),
-    (16, "(GAN) BASE COAT SWITCHBLADE SILVER", BASECOAT),
-    (17, "(GL8) BASE COAT RED-E OR NOT RED MET-3", BASECOAT),
-    (18, "(GUM) BASE COAT SEEKER MET-3", BASECOAT),
-    (19, "(G7G) BASE COAT ZEUS", BASECOAT),
-    (20, "(GZ8) BASE COAT SOME KINDA BLUE", BASECOAT),
-    (21, "(G5J) BASE COAT DARKMOON BLUE", BASECOAT),
-    (22, "(G4V) BASE COAT POW ZINGA MET-3", BASECOAT),
-    (23, "BASE TYPE THINNER", MIX_ROOM),
-    (24, "TOP CLEAR HITEC 2000", PAINT_ROBOT),
-    (25, "CLEAR THINNER", MIX_ROOM),
-    (26, "CLEANING THINNER", PURGE),
-    (27, "DISK BRAKE FLUID DOT-4 PLUS", SOMAC_CUBE),
-    (28, "POWER STRG OIL DEXRON-VI GMN10060", SOMAC_CUBE),
-    (29, "ANTIFREEZE DX-COOL CONCENTRATE RED", SOMAC_CUBE),
-    (30, "T/M OIL Idemitsu MTF LSJ11EP", SOMAC_OIL),
-    (31, "T/M OIL MANUAL SH XGP 75W85 GL-4", SOMAC_OIL),
-    (32, "A/T OIL DEXRON-VI", SOMAC_OIL),
-    (33, "TETRAFLUOROETHANE HFC-134a", ["Dürr Somac ProLine Cube", "Dürr Somac G4 Blue Twin A/C adapter"]),
-    (34, "FUEL AI-92", ["Dürr Somac fuel filling station"]),
-    (35, "WINDSHIELD WASHER (ETHANOL 80%)", ["Dürr Somac ProLine Cube"]),
-    (36, "BETASEAL / SikaFlex-250 UZ-1", ["Graco Therm-O-Flow 200", "Atlas Copco SCA dispensing system"]),
-    (37, "ADHESIVE-HDLNG T/PNL", ["Nordson ProBlue bulk hot melt melter"]),
-    (38, "RKB 0101S (SIKA-209 D)", PRIMER_APPL),
-    (39, "RKB 0401S (SIKA-206 G+P)", PRIMER_APPL),
-    (40, "BETAPRIME (100-UZ)", ["Lint-free wipes (manual wipe-on / wipe-off)"]),
-    (41, "RAD 11724 (SIKA-100-UZ)", ["Nordson EFD 752V diaphragm valve", "Graco agitated pressure tank"]),
-    (42, "LUBRICANT-WHL PILOT HOLE", GREASE),
-    (43, "LUBRICANT-CLU PLT HUB M/T (MICROLUBE GNY-202)", GREASE),
-]
+# Searchable material names: the confirmed real product name where identified,
+# otherwise the plant-list name with obvious typos fixed.
+NAMES: dict[int, str] = {
+    1: "CHEMFOS 740R L CLEAR",
+    2: "ED7010 Binder Gray",
+    3: "ED7010 Paste Gray",
+    4: "BODY SEALER RSB-430",
+    5: "UBC UNDER COAT RSU-230",
+    6: "UBS COAT",
+    7: "PVC ANTI CHIP",
+    8: "CR-100 PRIMER SURFACER LIGHT GRAY (N7.0)",
+    9: "CR-100 PRIMER SURFACER PURE WHITE (N9.0)",
+    10: "PRIMER TYPE THINNER",
+    11: "(GAZ) BASE COAT SUMMIT WHITE (2C1B)",
+    12: "(GK2) BASE COAT SON OF A GUN GRAY MET-3",
+    13: "(GD8) BASE COAT BURNT COCONUT MET",
+    14: "(GB0) BASE COAT BLACK MEET KETTLE MET-3",
+    15: "(GYM) BASE COAT SATIN STEEL GRAY MET",
+    16: "(GAN) BASE COAT SWITCHBLADE SILVER",
+    17: "(GL8) BASE COAT RED-E OR NOT RED MET-3",
+    18: "(GUM) BASE COAT SEEKER MET-3",
+    19: "(G7G) BASE COAT ZEUS",
+    20: "(GZ8) BASE COAT SOME KINDA BLUE",
+    21: "(G5J) BASE COAT DARKMOON BLUE",
+    22: "(G4V) BASE COAT POW ZINGA MET-3",
+    23: "RHT-031 Top Metallic Thinner (BASE TYPE THINNER)",
+    24: "TOP CLEAR HITEC 2000",
+    25: "CLEAR THINNER",
+    26: "RHT-031 Top Metallic Thinner (CLEANING THINNER)",
+    27: "CROWN Brake Fluid DOT-4 Plus",
+    28: "DEXRON-VI Power Steering Fluid (GMN10060)",
+    29: "ANTIFREEZE DX-COOL CONCENTRATE RED (FELIX)",
+    30: "Idemitsu MTF LSJ11EP",
+    31: "XGP 75W-85 GL-4 Manual Transmission Fluid",
+    32: "DEXRON-VI Automatic Transmission Fluid",
+    33: "COOLIB R134a (HFC-134a) Refrigerant",
+    34: "AI-92 Gasoline",
+    35: "Windshield Washer Fluid (Ethanol 80%)",
+    36: "Sikaflex-250 UZ-1 / BETASEAL",
+    37: "ADHESIVE-HDLNG T/PNL (headliner adhesive)",
+    38: "Sika Primer-209 D",
+    39: "Sika Primer-206 G+P",
+    40: "Sika Aktivator-100",
+    41: "RAD 11724 (SIKA-100-UZ)",
+    42: "LUBRICANT-WHL PILOT HOLE",
+    43: "Klüber MICROLUBE GNY 202",
+}
 
 HEADERS = ["Material nomi", "Material spetsifikatsiyasi (pasporti)",
            "Material uchun jihoz", "Jihoz pasporti"]
@@ -94,30 +86,32 @@ def style(ws, widths: list[int]) -> None:
 
 
 def main() -> None:
-    catalog = {i["id"]: i for i in json.loads((ROOT / "data" / "catalog.json").read_text(encoding="utf-8"))}
-    if [r[0] for r in ROWS] != sorted(catalog):
-        raise SystemExit("ROWS ids do not match catalog ids")
+    selection = json.loads(SELECTION_FILE.read_text(encoding="utf-8"))
+    catalog = {i["id"]: i for i in json.loads(CATALOG_FILE.read_text(encoding="utf-8"))}
+    if sorted(NAMES) != sorted(catalog):
+        raise SystemExit("NAMES ids do not match catalog ids")
 
     wb = Workbook()
     ws = wb.active
     ws.title = "Jadval"
     ws.append(HEADERS)
-    for _, name, equipment in ROWS:
-        ws.append([name, None, "\n".join(equipment), None])
-    style(ws, [48, 30, 55, 30])
-
     notes = wb.create_sheet("Izoh")
-    notes.append(["№", "Material nomi", "SAP", "Manbadagi spec", "Jihoz ishonchi"])
-    order = ["low", "medium", "high"]
-    for item_id, name, _ in ROWS:
+    notes.append(["№", "Material nomi", "Zavod ro'yxatidagi nomi", "SAP", "Manbadagi spec",
+                  "Identifikatsiya ishonchi", "Jihoz (ishonch)"])
+    for item_id in sorted(NAMES):
         item = catalog[item_id]
-        best = max((e.get("confidence", "low") for e in item["research"]["equipment"]), key=order.index)
-        notes.append([item_id, name, item["sap"], item["spec"], best])
-    style(notes, [5, 48, 40, 22, 14])
+        keys = selection["materials"][str(item_id)]
+        equipment = [selection["equipment"][key] for key in keys]
+        ws.append([NAMES[item_id], None, "\n".join(e["name"] for e in equipment), None])
+        notes.append([item_id, NAMES[item_id], item["name"], item["sap"], item["spec"],
+                      item["research"].get("manufacturer_confidence", ""),
+                      "\n".join(f"{e['name']} ({e['confidence']})" for e in equipment)])
+    style(ws, [48, 30, 55, 30])
+    style(notes, [5, 45, 45, 30, 22, 14, 60])
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     wb.save(OUT)
-    print(f"{len(ROWS)} rows -> {OUT.relative_to(ROOT)}")
+    print(f"{len(NAMES)} rows -> {OUT.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":

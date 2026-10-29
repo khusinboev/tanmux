@@ -1,0 +1,1620 @@
+[
+ {
+  "file": "pdf/materials/M01_CHEMFOS_740R_brochure_EQUIV.pdf",
+  "url": "https://www.osti.gov/etdeweb/servlets/purl/20671858",
+  "ids": [
+   1
+  ],
+  "verdict": "match",
+  "actual_document": "Technical paper 'Advances in Aluminum Pretreatment' by M. Sudour, M. Simpson, P. Quaglia, P. Maintier (PPG Industries France/USA/Italy); experiments in a standard tricationic Zn/Ni/Mn automotive zinc phosphate bath named 'CHEMFOS 700 series' (PPG); 9 pp; EN; OSTI/ETDEWEB copy",
+  "suggested_title": "PPG - 'Advances in Aluminum Pretreatment' (Sudour et al., technical paper using CHEMFOS 700-series tricationic zinc phosphate) (EN, c. 2004)",
+  "doc_type": "paper",
+  "language": "en",
+  "version_date": "c. 2004 (PDF created 2004-07-16)",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "relabel",
+  "reason": "Content confirmed (PPG authors; names CHEMFOS 700 series tricationic phosphate) but it is a research paper, not a brochure: change type brochure->paper. Family/identity evidence only, no 740R product data."
+ },
+ {
+  "file": "pdf/materials/M01_CHEMFOS_740R_TDS_EQUIV.pdf",
+  "url": "https://datasheets.tdx.henkel.com/BONDERITE-M-ZN-952-A-en_GL.pdf",
+  "ids": [
+   1
+  ],
+  "verdict": "match",
+  "actual_document": "Henkel Technical Data Sheet BONDERITE M-ZN 952 A - make-up component of the nitrite-accelerated tricationic (Zn/Ni/Mn) spray phosphating process BONDERITE M-ZN 952 for steel/galvanised steel; January 2020; EN; 4 pp",
+  "suggested_title": "Henkel BONDERITE M-ZN 952 A - Technical Data Sheet (EN, January 2020)",
+  "doc_type": "TDS",
+  "language": "en",
+  "version_date": "January 2020",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Right class (tricationic zinc phosphate before e-coat); competitor equivalent of CHEMFOS 740R; covers the whole 952 process (A make-up, R1 replenisher, AD 132, AD 565)."
+ },
+ {
+  "file": "pdf/materials/M01_CHEMFOS_740R_TDS_EQUIV_2.pdf",
+  "url": "https://datasheets.tdx.henkel.com/BONDERITE-M-ZN-952-R1-en_GL.pdf",
+  "ids": [
+   1
+  ],
+  "verdict": "match",
+  "actual_document": "Henkel Technical Data Sheet BONDERITE M-ZN 952 R1 (known as Granodine 952 E-1) - replenisher of the 952 nitrite-accelerated tricationic spray phosphate process; January 2015; EN; 4 pp",
+  "suggested_title": "Henkel BONDERITE M-ZN 952 R1 (Granodine 952 E-1) - Technical Data Sheet (EN, January 2015)",
+  "doc_type": "TDS",
+  "language": "en",
+  "version_date": "January 2015",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Right class; replenisher grade = closest functional analogue if 740R 'R' means replenisher. Text largely duplicates the 952 A TDS."
+ },
+ {
+  "file": "pdf/materials/M01_CHEMFOS_740R_TDS_EQUIV_3.pdf",
+  "url": "https://datasheets.tdx.henkel.com/BONDERITE-M-ZN-1994-R4-en_GL.pdf",
+  "ids": [
+   1
+  ],
+  "verdict": "match",
+  "actual_document": "Henkel Technical Data Sheet BONDERITE M-ZN 1994 R4 (known as Granodine 1994 E-4) - replenisher of a nitrite-free (HA-accelerated) tricationic dip phosphate for steel, galvanised and aluminium; February 2015; EN; 4 pp",
+  "suggested_title": "Henkel BONDERITE M-ZN 1994 R4 (Granodine 1994 E-4) - Technical Data Sheet (EN, February 2015)",
+  "doc_type": "TDS",
+  "language": "en",
+  "version_date": "February 2015",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Right class (tricationic dip zinc phosphate for pre-ED); competitor equivalent."
+ },
+ {
+  "file": "pdf/materials/M02_ED7010_Binder_Gray_SDS_EQUIV.pdf",
+  "url": "https://www.charlottepipe.com/uploads/documents/technical/SDS-CR686A-Resin.pdf",
+  "ids": [
+   2
+  ],
+  "verdict": "match",
+  "actual_document": "PPG Industries Safety Data Sheet 'POWERCRON RESIN', product code CR686A - cathodic e-coat resin/binder emulsion (~37% solids, 1-methoxy-2-propanol 1-5%), US OSHA HCS format, version 7, 23 Dec 2025; EN; 11 pp; hosted by Charlotte Pipe",
+  "suggested_title": "PPG POWERCRON Resin CR686A - Safety Data Sheet (US, EN, v7, 2025-12-23)",
+  "doc_type": "SDS",
+  "language": "en",
+  "version_date": "v7, 2025-12-23",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Cathodic e-coat binder component - right class for ED7010 Binder; PPG is only a candidate supplier, so equivalent."
+ },
+ {
+  "file": "pdf/materials/M02_ED7010_Binder_Gray_TDS_EQUIV.pdf",
+  "url": "https://promo.basf.com/campaign/tasa/fichas-tecnicas/Ficha%20T%c3%a9cnica%20-%20CathoGuard%c2%ae%20580%20e%20800%20RE%20.pdf",
+  "ids": [
+   2,
+   3
+  ],
+  "verdict": "match",
+  "actual_document": "BASF Coatings 'Technical Information' sheets for CathoGuard 580 (CG 580, black; v9, Mar 2018) and CathoGuard 800 RE (product FT 25-7821, grey; emulsion FT 23-0821 + paste FT 24-7820; v2.1, 02.01.2023) cathodic electrocoat - bath, film and stoving data; EN; 6 pp; promo.basf.com (Brazil)",
+  "suggested_title": "BASF CathoGuard 580 (black) + CathoGuard 800 RE (grey, FT 25-7821) cathodic e-coat - Technical Information (EN, v9 2018-03 / v2.1 2023-01-02)",
+  "doc_type": "TDS",
+  "language": "en",
+  "version_date": "CG 580 v9 (03-2018); CG 800 RE v2.1 (2023-01-02)",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Two-component cathodic e-coat (emulsion + paste) - right class for both binder and paste; grey 800 RE is the closest colour match."
+ },
+ {
+  "file": "pdf/materials/M02_ED7010_Binder_Gray_TDS_EQUIV_2.pdf",
+  "url": "https://secure.axalta.com/content/dam/EMEA/Industrial-Liquid-Coatings-EMEA/EN/Public/Documents/Aqua-EC-ecoat/Electrocoat-Aqua-EC-3000-EN.pdf",
+  "ids": [
+   2,
+   3
+  ],
+  "verdict": "match",
+  "actual_document": "Axalta Coating Systems Product Information Bulletin 'Electrocoat AquaEC 3000' (with AquaEC 3000 AS / 2600 LT) - lead- and tin-free cathodic two-pack epoxy e-coat for parts and general industry, film-property table; (c) 2014; EN; 4 pp",
+  "suggested_title": "Axalta AquaEC 3000 cathodic epoxy electrocoat - Product Information Bulletin (EN, (c) 2014)",
+  "doc_type": "brochure",
+  "language": "en",
+  "version_date": "(c) 2014",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Cathodic 2-pack epoxy e-coat (binder + paste) - right class; a parts/general-industrial grade, not a body-OEM e-coat; product bulletin rather than full TDS."
+ },
+ {
+  "file": "pdf/materials/M02_ED7010_Binder_Gray_SDS_EQUIV_3.pdf",
+  "url": "https://www.charlottepipe.com/uploads/documents/technical/SDS-CR100.pdf",
+  "ids": [
+   2,
+   3
+  ],
+  "verdict": "match",
+  "actual_document": "PPG Industries Safety Data Sheet 'PPG POWERCRON 10X', product code CR100 - cathodic epoxy e-coat resin-type component (epoxy resin, propoxylated propanediol, 1-phenoxy-2-propanol, MIBK; ~35.6% solids), US format, version 5, 23 Dec 2025; EN; 13 pp; hosted by Charlotte Pipe",
+  "suggested_title": "PPG POWERCRON 10X (CR100) - Safety Data Sheet (US, EN, v5, 2025-12-23)",
+  "doc_type": "SDS",
+  "language": "en",
+  "version_date": "v5, 2025-12-23",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Cathodic epoxy e-coat - right class; composition is a resin/binder component, so it fits id 2 better than id 3 (CP491 is the paste equivalent)."
+ },
+ {
+  "file": "pdf/materials/M03_ED7010_Paste_Gray_SDS_EQUIV.pdf",
+  "url": "https://www.charlottepipe.com/uploads/documents/technical/SDS-CP491.pdf",
+  "ids": [
+   3
+  ],
+  "verdict": "match",
+  "actual_document": "PPG Industries Safety Data Sheet 'POWERCRON BLACK PASTE', product code CP491 - cathodic e-coat pigment paste (kaolin 15-40%, carbon black 1-5%), US format, version 11, 23 Dec 2025; EN; 12 pp; hosted by Charlotte Pipe",
+  "suggested_title": "PPG POWERCRON Black Paste CP491 - Safety Data Sheet (US, EN, v11, 2025-12-23)",
+  "doc_type": "SDS",
+  "language": "en",
+  "version_date": "v11, 2025-12-23",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Cathodic e-coat pigment paste - right class for ED7010 Paste; black, not grey, so equivalent only."
+ },
+ {
+  "file": "pdf/materials/M04_BODY_SEALER_RSB_430_TDS_EQUIV.pdf",
+  "url": "https://datasheets.tdx.henkel.com/TEROSON-PV-3046-en_GL.pdf",
+  "ids": [
+   4
+  ],
+  "verdict": "match",
+  "actual_document": "Henkel Technical Data Sheet TEROSON PV 3046 - solvent-free heat-curing PVC plastisol seam sealer for vehicle bodies on ED steel (min. 140 C / 10 min; high-pressure pumps 48:1-80:1, robotic spray possible); April 2021; EN; 2 pp",
+  "suggested_title": "Henkel TEROSON PV 3046 PVC plastisol seam sealer - Technical Data Sheet (EN, April 2021)",
+  "doc_type": "TDS",
+  "language": "en",
+  "version_date": "April 2021",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "PVC plastisol body seam sealer - right class for RSB-430 (GVH-403U); competitor equivalent."
+ },
+ {
+  "file": "pdf/materials/M04_BODY_SEALER_RSB_430_TDS_EQUIV_2.pdf",
+  "url": "https://www.rudolphbros.com/customer/docs/skudocs/438-teroson-pv-434-1-tds.pdf",
+  "ids": [
+   4
+  ],
+  "verdict": "match",
+  "actual_document": "Henkel Technical Product Bulletin TEROSON PV 434.1 (known as TEROLAN 434.1) - acrylic-modified PVC plastisol, monobake low-temperature thumbable seam sealer/putty over cathodic e-coat; April 2013; EN; 2 pp; distributor copy (Rudolph Bros)",
+  "suggested_title": "Henkel TEROSON PV 434.1 (Terolan 434.1) PVC plastisol seam sealer - Technical Product Bulletin (EN, April 2013)",
+  "doc_type": "TDS",
+  "language": "en",
+  "version_date": "April 2013",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "PVC plastisol body sealer - right class; older (2013) bulletin, distributor-hosted."
+ },
+ {
+  "file": "pdf/materials/M05_UBC_UNDER_COAT_RSU_230_paper_EQUIV.pdf",
+  "url": "https://global.honda/jp/technical-review/PDF/004/004_174.pdf",
+  "ids": [
+   5,
+   6,
+   7
+  ],
+  "verdict": "match",
+  "actual_document": "Honda R&D Technical Review Vol.4 (1992): 'Application of High Strength, Low Specific Gravity Under Body Coat for Automobile' (Komatsu, Kamimura, Suzuki, Ueki) - development of a PVC plastisol underbody coat with plastic micro-balloons, DINP plasticiser, chipping/adhesion/corrosion data, bake 140-150 C; Japanese with English abstract; 9 pp",
+  "suggested_title": "Honda R&D Technical Review Vol.4 (1992) - High-strength, low-specific-gravity PVC underbody coat (paper, JA with EN abstract)",
+  "doc_type": "paper",
+  "language": "ja (EN abstract)",
+  "version_date": "Vol.4, 1992",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Right class (OEM PVC plastisol UBC with anti-chip performance) and real formulation data, but a 1992 R&D paper, not a passport - reference only; ids 5/6/7 still lack a PVC UBC/anti-chip TDS or SDS."
+ },
+ {
+  "file": "pdf/materials/M07_PVC_ANTI_CHIP_paper_EQUIV.pdf",
+  "url": "https://rts.i-car.com/images/pdf/oem-info/chrysler/service-bulletins/13504.pdf",
+  "ids": [
+   7
+  ],
+  "verdict": "match",
+  "actual_document": "Chrysler Group LLC Collision Bulletin 31-008-12 (24 Oct 2012) 'Replacement Underbody Coating Materials' - says factory anti-chip is PVC and lists approved aftermarket repair coatings (Dominion Sure Seal bedliners, Lord Fusor 805, 3M Truck Guard Pro); EN; 2 pp; I-CAR copy (file 13504)",
+  "suggested_title": "Chrysler Collision Bulletin 31-008-12 - Replacement underbody coating materials (EN, 2012-10-24)",
+  "doc_type": "bulletin",
+  "language": "en",
+  "version_date": "2012-10-24",
+  "class_ok": false,
+  "label_should_be": "equivalent",
+  "action": "remove",
+  "reason": "Not a passport: only lists aftermarket bedliner/textured repair coatings (not PVC plastisol); no data for the P8201 PVC anti-chip."
+ },
+ {
+  "file": "pdf/materials/M08_CR_100_PRIMER_SURFACER_LIGHT_GRAY_N7_0_TDS_EQUIV.pdf",
+  "url": "https://vrteotgdakjwbjeugnxx.supabase.co/storage/v1/object/public/product-images/datasheets/kcc/KCC_DATASHEET_US4000_eng.pdf",
+  "ids": [
+   8,
+   9
+  ],
+  "verdict": "match",
+  "actual_document": "KCC Corporation DATA-SHEET US4000 - low-VOC 2K acrylic-urethane primer surfacer for automobile repair (refinish), white/grey; 1st issue 2023-12-26; EN; 2 pp; third-party copy (supabase storage)",
+  "suggested_title": "KCC US4000 2K acrylic-urethane primer surfacer (refinish) - Data Sheet (EN, 1st issue 2023-12-26)",
+  "doc_type": "TDS",
+  "language": "en",
+  "version_date": "1st issue 2023-12-26",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne primer surfacer from a candidate Korean partner (KCC), but a 2K isocyanate-cured refinish product, whereas CR-100 (no hardener in the plant list) is a 1K baking OEM surfacer."
+ },
+ {
+  "file": "pdf/materials/M08_CR_100_PRIMER_SURFACER_LIGHT_GRAY_N7_0_TDS_EQUIV_2.pdf",
+  "url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F201504150003022kor.pdf",
+  "ids": [
+   8,
+   9
+  ],
+  "verdict": "match",
+  "actual_document": "KCC Corporation data sheet (데이터시트) UU3000 - 2K acrylic-urethane low-VOC HS primer/surfacer for automotive refinish (beige; hardener UU3000-B, thinner TH0600); revision 2020-01-01; Korean; 2 pp; kccworld.co.kr",
+  "suggested_title": "KCC UU3000 2K urethane primer-surfacer (refinish) - Data Sheet 데이터시트 (KO, rev. 2020-01-01)",
+  "doc_type": "TDS",
+  "language": "ko",
+  "version_date": "rev. 2020-01-01",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "WEAK PROXY: same as US4000 - 2K refinish surfacer, not the 1K OEM baking CR-100; manufacturer-hosted."
+ },
+ {
+  "file": "pdf/materials/M10_PRIMER_TYPE_THINNER_SDS_EQUIV.pdf",
+  "url": "https://rusty21.com/wp-content/uploads/2025/04/KCC_MSDS_%EC%97%90%EB%82%98%EB%A9%9C%ED%9D%AC%EC%84%9D%EC%A0%9C012_kor.pdf",
+  "ids": [
+   10,
+   23,
+   25
+  ],
+  "verdict": "match",
+  "actual_document": "KCC Corporation (Jeonju plant 2) MSDS '에나멜희석제012' (Enamel thinner 012), MSDS no. AA00017-0000000525 - hydrodesulfurised heavy naphtha 73-80%, xylene 19-26%, ethylbenzene 1-8%; Flam. Liq. 3; first issued 2013-05-03, revision 27 of 2024-03-08; Korean; 13 pp; third-party copy (rusty21.com)",
+  "suggested_title": "KCC Enamel Thinner 012 (에나멜희석제012) - MSDS (KO, rev. 27, 2024-03-08)",
+  "doc_type": "SDS",
+  "language": "ko",
+  "version_date": "rev. 27, 2024-03-08",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne paint thinner (right broad class) but an aliphatic-naphtha alkyd-enamel thinner for general industry, not an OEM primer/base/clear reducer."
+ },
+ {
+  "file": "pdf/materials/M10_PRIMER_TYPE_THINNER_paper_EQUIV.pdf",
+  "url": "https://koreascience.kr/article/JAKO200610103460967.pdf",
+  "ids": [
+   10,
+   23,
+   25
+  ],
+  "verdict": "match",
+  "actual_document": "Kim YY et al., 'Compositions and Contents of Thinner and Reliability of MSDS sold in Busan and Gyeongnam Province', J Korean Soc Occup Environ Hyg 2006;16(4):314-323 - GC-MS survey of 41 retail thinners (benzene/toluene/xylene) vs their MSDS; Korean with English abstract; 10 pp",
+  "suggested_title": "Kim et al. 2006 - Thinner composition and MSDS reliability (Busan/Gyeongnam), J Korean Soc Occup Environ Hyg 16(4):314-323 (KO)",
+  "doc_type": "paper",
+  "language": "ko (EN abstract)",
+  "version_date": "2006-12",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "remove",
+  "reason": "Generic occupational-hygiene survey of retail thinners; no product, not a passport for KR-RHT-051/031 or KR-RBT-029."
+ },
+ {
+  "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_TDS_EQUIV.pdf",
+  "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+  "ids": [
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22
+  ],
+  "verdict": "match",
+  "actual_document": "AkzoNobel (Sikkens) Technical Data Sheet S1.04.03 (5.2.65) GL 'Autobase Plus' - solvent-borne refinish basecoat for solid/metallic/pearl colours, used with Plus Reducer under Sikkens clearcoat; 05.06.2024; EN; 5 pp",
+  "suggested_title": "Sikkens Autobase Plus solvent-borne basecoat (refinish) - Technical Data Sheet S1.04.03 (EN, 2024-06-05)",
+  "doc_type": "TDS",
+  "language": "en",
+  "version_date": "S1.04.03, 2024-06-05",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne basecoat (right coat type) but an air-dry refinish system, not the OEM 2C1B baking line basecoat; shared by all 12 colours."
+ },
+ {
+  "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_TDS_EQUIV_2.pdf",
+  "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+  "ids": [
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22
+  ],
+  "verdict": "match",
+  "actual_document": "AkzoNobel Car Refinishes (Lesonal, North America) Basecoat SB - Programmed System Technique (PST) + Technical Data Sheet; solvent-borne refinish basecoat (2:1 with Lesonal Reducer); 09/12/2019; EN; 9 pp",
+  "suggested_title": "Lesonal Basecoat SB solvent-borne basecoat (refinish) - PST + Technical Data Sheet (EN, 2019-09-12)",
+  "doc_type": "TDS",
+  "language": "en",
+  "version_date": "2019-09-12",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "WEAK PROXY: refinish solvent-borne basecoat, not the OEM 2C1B line product."
+ },
+ {
+  "file": "pdf/materials/M11_GAZ_BASE_COAT_SUMMIT_WHITE_2C1B_TDS_EQUIV_3.pdf",
+  "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+  "ids": [
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22
+  ],
+  "verdict": "match",
+  "actual_document": "Axalta (Centari/Cromax brands) Technical Data Sheet 'Centari 600 Basecoat Lacquer' AUS C600-0 - acrylic-copolymer solvent-borne basecoat for clear-over-base systems on cars, trucks and buses (repair and overall); 27.08.2014; EN; 6 pp; distributor host (Resene Automotive)",
+  "suggested_title": "Axalta Centari 600 basecoat lacquer (solvent-borne, clear-over-base) - Technical Data Sheet AUS (EN, 2014-08-27)",
+  "doc_type": "TDS",
+  "language": "en",
+  "version_date": "2014-08-27",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne acrylic basecoat for clear-over-base, refinish/commercial-vehicle use, not the OEM 2C1B line."
+ },
+ {
+  "file": "pdf/materials/M23_BASE_TYPE_THINNER_SDS_EQUIV.pdf",
+  "url": "https://www.noroopaint.com/kor/file/prod_file/%EB%85%B8%EB%A3%A8%EB%9D%BC%ED%81%AC_%EC%8B%A0%EB%82%98(%EB%9D%BD%EC%B9%B4_%EC%8B%A0%EB%82%98)_DR-170_GHS-MSDS.pdf",
+  "ids": [
+   23,
+   26
+  ],
+  "verdict": "match",
+  "actual_document": "Noroo Paint & Coatings GHS-MSDS 'DR-170 락카 신나(하절용)' (lacquer thinner, summer grade) - xylene 31-41%, toluene 22-32%, dimethyl carbonate 17-27%, acetone 8-18%, PMA, MIBK 1-10%; Flam. Liq. 2, Carc. 1A; first 1997-07-01, revision 5 (2013-07-01); Korean; 12 pp; noroopaint.com",
+  "suggested_title": "Noroo DR-170 Lacquer Thinner (summer grade) - GHS-MSDS (KO, rev. 5, 2013-07-01)",
+  "doc_type": "SDS",
+  "language": "ko",
+  "version_date": "rev. 5, 2013-07-01",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Aromatic/ketone/ester solvent thinner - right class for the cleaning thinner and a loose proxy for the base-type reducer; general-purpose (not OEM-line) and an old 2013 revision."
+ },
+ {
+  "file": "pdf/materials/M24_TOP_CLEAR_HITEC_2000_TDS_EQUIV.pdf",
+  "url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F202301250054173eng.pdf",
+  "ids": [
+   24
+  ],
+  "verdict": "match",
+  "actual_document": "KCC Corporation 5200 HS CLEAR DATA-SHEET - 2K high-solids acrylic-polyol/isocyanate urethane clear for car refinish; revision 2020-01-01; EN; 2 pp; kccworld.co.kr",
+  "suggested_title": "KCC 5200 HS Clear 2K urethane clearcoat (refinish) - Data Sheet (EN, rev. 2020-01-01)",
+  "doc_type": "TDS",
+  "language": "en",
+  "version_date": "rev. 2020-01-01",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne clearcoat but a 2K isocyanate refinish clear; TOP CLEAR HITEC 2000 (no hardener in the list) is a 1K OEM baking clear."
+ },
+ {
+  "file": "pdf/materials/M24_TOP_CLEAR_HITEC_2000_SDS_EQUIV.pdf",
+  "url": "https://www.brandenburg.com/IphonePDF/safety/safety%20data%20sheets/paint%20products.ppg%20industries.amerlock%20aue-40%20clear%20coat.pdf",
+  "ids": [
+   24
+  ],
+  "verdict": "match",
+  "actual_document": "PPG Industries Safety Data Sheet 'OEM Clearcoat', product code AUE-40 - solvent-borne clearcoat (2-heptanone, xylene, ethyl 3-ethoxypropionate, PCBTF, acetone, benzotriazole UV absorber; flash point 26.7 C), US format, version 10, 12 Dec 2016; EN; 16 pp; host file name wrongly says 'Amerlock AUE-40' (Brandenburg)",
+  "suggested_title": "PPG OEM Clearcoat (AUE-40) - Safety Data Sheet (US, EN, v10, 2016-12-12)",
+  "doc_type": "SDS",
+  "language": "en",
+  "version_date": "v10, 2016-12-12",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Solvent-borne OEM clearcoat SDS - best class match among the clear-coat docs; the SDS itself says 'OEM Clearcoat' (host file name 'Amerlock' is wrong); 1K/2K not stated."
+ },
+ {
+  "file": "pdf/materials/M24_TOP_CLEAR_HITEC_2000_TDS_EQUIV_2.pdf",
+  "url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F202007230045276kor.pdf",
+  "ids": [
+   24
+  ],
+  "verdict": "match",
+  "actual_document": "KCC Corporation 7300 HS CLEAR data sheet (데이터시트) - 2K HS acrylic-polyol/isocyanate urethane clear (3:1 with 7300 HS-B hardener) for automotive refinish; revision 2020-01-01; Korean; 2 pp",
+  "suggested_title": "KCC 7300 HS Clear 2K urethane clearcoat (refinish) - Data Sheet 데이터시트 (KO, rev. 2020-01-01)",
+  "doc_type": "TDS",
+  "language": "ko",
+  "version_date": "rev. 2020-01-01",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "WEAK PROXY: 2K refinish clear (not 1K OEM bake); largely redundant with KCC 5200 HS."
+ },
+ {
+  "file": "pdf/materials/M24_TOP_CLEAR_HITEC_2000_TDS_EQUIV_3.pdf",
+  "url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F202007270045330kor.pdf",
+  "ids": [
+   24
+  ],
+  "verdict": "match",
+  "actual_document": "KCC Corporation 9020 FC CLEAR data sheet (데이터시트) - fast-cure 2K HS acrylic-polyol/isocyanate urethane clear (2:1 with CA900 hardener) for automotive refinish; revision 2020-01-01; Korean; 2 pp",
+  "suggested_title": "KCC 9020 FC Clear fast-cure 2K urethane clearcoat (refinish) - Data Sheet 데이터시트 (KO, rev. 2020-01-01)",
+  "doc_type": "TDS",
+  "language": "ko",
+  "version_date": "rev. 2020-01-01",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "WEAK PROXY: 2K refinish clear (not 1K OEM bake); largely redundant with KCC 5200 HS."
+ },
+ {
+  "file": "pdf/materials/M26_CLEANING_THINNER_paper_EQUIV.pdf",
+  "url": "https://www.eastman.com/content/dam/eastman/corporate/en/literature/c/coatind20287.pdf",
+  "ids": [
+   26
+  ],
+  "verdict": "partial",
+  "actual_document": "Eastman Chemical brochure 'Eastman solvents - Delivering performance in cleaners' (COAT-IND-20287, 3/26) - solvent-selection guide for cleaner formulators (general industrial, purge/equipment-line cleaners, transportation, household, printing inks); EN; 12 pp",
+  "suggested_title": "Eastman solvents - Delivering performance in cleaners (formulator brochure COAT-IND-20287, EN, 2026-03)",
+  "doc_type": "brochure",
+  "language": "en",
+  "version_date": "COAT-IND-20287, 03/2026",
+  "class_ok": false,
+  "label_should_be": "equivalent",
+  "action": "remove",
+  "reason": "Generic raw-solvent formulator brochure (half a page on purge solvents); no product, composition or hazard data for a cleaning thinner - not a passport."
+ },
+ {
+  "file": "pdf/materials/M27_DISK_BRAKE_FLUID_DOT_4_PLUS_A_T_and_M_T_TDS_EQUIV.pdf",
+  "url": "https://www.q8oils.com/wp-content/uploads/2025/11/Q8-Brake-Fluid-DOT-4plus_en.pdf",
+  "ids": [
+   27
+  ],
+  "verdict": "match",
+  "actual_document": "Kuwait Petroleum (Q8Oils) Product Data Sheet 'Q8 Brake Fluid DOT 4+' - glycol-ether brake/clutch fluid, FMVSS 116 DOT 3/DOT 4, ISO 4925 Class 4, SAE J1703/J1704, JIS K2233 Class 4; dry ERBP 265 C, wet 165 C; EN; 1 p; undated",
+  "suggested_title": "Q8 Brake Fluid DOT 4+ - Product Data Sheet (Q8Oils, EN, published 2025-11)",
+  "doc_type": "PDS",
+  "language": "en",
+  "version_date": "undated (URL/PDF 2025-11)",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "DOT 4 Plus brake fluid - right class for DOT-4+ CROWN; not the Kukdong product."
+ },
+ {
+  "file": "pdf/materials/M27_DISK_BRAKE_FLUID_DOT_4_PLUS_A_T_and_M_T_SDS_EQUIV_2.pdf",
+  "url": "https://www.dascochem.co.kr/docs/dasco-bf-dot4-msds.pdf",
+  "ids": [
+   27
+  ],
+  "verdict": "match",
+  "actual_document": "Dong-A Special Chemical (동아특수화학) MSDS 'DASCO DOT-4 브레이크액', MSDS no. AA00621-0000000056 - DOT 4 glycol-ether/borate-ester brake fluid (diethylene glycol, triethylene glycol monobutyl ether...); Korean KOSHA format (template 2022); PDF R01 2024-06-25; 26 pp",
+  "suggested_title": "DASCO DOT-4 Brake Fluid (Dong-A Special Chemical) - MSDS 물질안전보건자료 (KO, R01 2024-06-25)",
+  "doc_type": "SDS",
+  "language": "ko",
+  "version_date": "R01, 2024-06-25 (template 2022)",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Korean DOT 4 brake fluid SDS - right class."
+ },
+ {
+  "file": "pdf/materials/M27_DISK_BRAKE_FLUID_DOT_4_PLUS_A_T_and_M_T_SDS_EQUIV_3.pdf",
+  "url": "https://christensenusa.com/wp-content/uploads/2026/03/Recochem-Brake-Fluid-DOT4-5-4-2017.pdf",
+  "ids": [
+   27
+  ],
+  "verdict": "match",
+  "actual_document": "Recochem Inc. Safety Data Sheet 'Brake Fluid DOT4' (SDS No. 1516; codes 35-800PRES, 15-801OEM etc.), WHMIS 2015/GHS format, prepared 2017-05-04; EN; 10 pp; dealer host",
+  "suggested_title": "Recochem Brake Fluid DOT4 - Safety Data Sheet No. 1516 (EN, 2017-05-04)",
+  "doc_type": "SDS",
+  "language": "en",
+  "version_date": "2017-05-04",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "DOT 4 brake fluid SDS - right class."
+ },
+ {
+  "file": "pdf/materials/M28_POWER_STRG_OIL_DEXRON_VI_GM_N10060_TDS_EQUIV.pdf",
+  "url": "https://shop.sclubricants.com/pub/media/pds/pennzoil/Pennzoil-ATF-Dexron-VI-Technical-Datasheet.pdf",
+  "ids": [
+   28,
+   32
+  ],
+  "verdict": "match",
+  "actual_document": "SOPUS Products (Shell) Technical Data Sheet 'Pennzoil ATF Dexron-VI' (CS8420-01, v1.1, 2015-01-26) - GM-approved Dexron-VI ATF, states 'Meets GM specification GMN10060'; EN; 2 pp",
+  "suggested_title": "Pennzoil ATF Dexron-VI - Technical Data Sheet (EN, v1.1, 2015-01-26)",
+  "doc_type": "TDS",
+  "language": "en",
+  "version_date": "v1.1, 2015-01-26",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Dexron-VI ATF that explicitly cites GMN10060 - right class for ids 28 and 32."
+ },
+ {
+  "file": "pdf/materials/M28_POWER_STRG_OIL_DEXRON_VI_GM_N10060_SDS_EQUIV.pdf",
+  "url": "https://www.ravenol.de/storage/app/uploads/share/SDB/Sdb_RAVENOL%20ATF%20DEXRON%20VI_1211105_en_ALL.pdf",
+  "ids": [
+   28,
+   32
+  ],
+  "verdict": "match",
+  "actual_document": "Ravensberger Schmierstoffvertrieb GmbH Safety Data Sheet 'RAVENOL ATF DEXRON VI' (art. 1211105), EU REACH format, version 7, revision 7 Jul 2023, not classified; EN; 17 pp",
+  "suggested_title": "RAVENOL ATF DEXRON VI - Safety Data Sheet (EU, EN, v7, 2023-07-07)",
+  "doc_type": "SDS",
+  "language": "en",
+  "version_date": "v7, 2023-07-07",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Dexron-VI ATF SDS - right class."
+ },
+ {
+  "file": "pdf/materials/M28_POWER_STRG_OIL_DEXRON_VI_GM_N10060_SDS_EQUIV_3.pdf",
+  "url": "https://acdelco.com.au/gm-b2cau/cms/pdf/SDS/LQ9RG_DEXRON%20VI%20PREMIUM%20FULL%20SYNTHETIC%20TRANSMISSION%20FLUID.pdf",
+  "ids": [
+   28,
+   32
+  ],
+  "verdict": "match",
+  "actual_document": "GM Holden Ltd Safety Data Sheet (Infosafe LQ9RG) 'DEXRON VI Premium Full Synthetic Transmission Fluid' (ACDelco; ExxonMobil / Southern Cross Lubes listed as suppliers), issued 21/10/2019; EN (AU/NZ GHS); 8 pp; acdelco.com.au",
+  "suggested_title": "ACDelco DEXRON VI Premium Full Synthetic Transmission Fluid - SDS Infosafe LQ9RG (GM Holden, EN, 2019-10-21)",
+  "doc_type": "SDS",
+  "language": "en",
+  "version_date": "issued 2019-10-21",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "GM/ACDelco Dexron-VI ATF SDS - right class."
+ },
+ {
+  "file": "pdf/materials/M28_POWER_STRG_OIL_DEXRON_VI_GM_N10060_TDS_EQUIV_3.pdf",
+  "url": "https://acdelco.com.au/gm-b2cau/cms/pdf/Flyers/ACDelco%20Dexron%20VI%20Premium%20Full%20Synthetic%20ATF%20Sell%20Sheet.pdf",
+  "ids": [
+   28,
+   32
+  ],
+  "verdict": "match",
+  "actual_document": "ACDelco Australia sell sheet 'Dexron VI Premium Full Synthetic Transmission Fluid' (P/N 19421180, 19421181, 19375058) - multi-vehicle full-synthetic ATF 'meets or exceeds GM Dexron VI', long OEM list incl. power-steering uses, typical properties (5.83 cSt @100 C, VI 145, red); EN; 2 pp",
+  "suggested_title": "ACDelco Dexron VI Premium Full Synthetic ATF - product sell sheet (ACDelco Australia, EN, 2024)",
+  "doc_type": "brochure",
+  "language": "en",
+  "version_date": "undated (PDF 2024-10-30)",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Right class (Dexron-VI ATF, also listed for power steering); a sell sheet with typical properties rather than a full TDS."
+ },
+ {
+  "file": "pdf/materials/M28_POWER_STRG_OIL_DEXRON_VI_GM_N10060_SDS_EQUIV_4.pdf",
+  "url": "https://seattleautomotive.com/files/SDS/88861046%20dexron%20vi%20atf.pdf",
+  "ids": [
+   28,
+   32
+  ],
+  "verdict": "match",
+  "actual_document": "Petro-Canada America Lubricants Material Safety Data Sheet 'DEXRON VI ATF' 000003000398 version 2.0 (rev. 2015-01-26) for ACDelco/GM P/N 88861046, 10-9035 etc. (GM Mat. Spec. 9986153); EN; 9 pp; dealer host",
+  "suggested_title": "ACDelco/GM DEXRON VI ATF (Petro-Canada) - MSDS 000003000398 (EN, v2.0, 2015-01-26)",
+  "doc_type": "SDS",
+  "language": "en",
+  "version_date": "v2.0, 2015-01-26",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "GM-genuine Dexron-VI fluid SDS - right class; closest to the factory fill."
+ },
+ {
+  "file": "pdf/materials/M28_POWER_STRG_OIL_DEXRON_VI_GM_N10060_SDS_EQUIV_5.pdf",
+  "url": "https://uploads-ssl.webflow.com/5d513e6ea4a37093208cabb2/5e958119bb64f4d142e866cf_DEXRON%20%5ER%5E%20VI%20ATF.PDF",
+  "ids": [
+   28,
+   32
+  ],
+  "verdict": "match",
+  "actual_document": "Petro-Canada Europe Lubricants Ltd Safety Data Sheet 'DEXRON VI ATF' 000003001354 version 3.4 (rev. 2020-02-18), EU REACH format (H412); EN; 11 pp",
+  "suggested_title": "Petro-Canada DEXRON VI ATF - Safety Data Sheet EU (EN, v3.4, 2020-02-18)",
+  "doc_type": "SDS",
+  "language": "en",
+  "version_date": "v3.4, 2020-02-18",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Right class; EU edition of the same Petro-Canada SDS as ...SDS_EQUIV_6 (US v4.0)."
+ },
+ {
+  "file": "pdf/materials/M28_POWER_STRG_OIL_DEXRON_VI_GM_N10060_SDS_EQUIV_6.pdf",
+  "url": "https://evosupplygroupcatalog.sfo3.digitaloceanspaces.com/brands/files/Petro%20Canada/DEX6C16-sds.pdf",
+  "ids": [
+   28,
+   32
+  ],
+  "verdict": "match",
+  "actual_document": "Petro-Canada America Lubricants LLC Safety Data Sheet 'DEXRON VI ATF' 000003001354 version 4.0 (rev. 2022-10-19), US OSHA format, not hazardous; EN; 11 pp",
+  "suggested_title": "Petro-Canada DEXRON VI ATF - Safety Data Sheet US (EN, v4.0, 2022-10-19)",
+  "doc_type": "SDS",
+  "language": "en",
+  "version_date": "v4.0, 2022-10-19",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Dexron-VI ATF SDS - right class."
+ },
+ {
+  "file": "pdf/materials/M29_ANTIFREEZE_DX_COOL_CONCENTRATE_RED_brochure_EQUIV.pdf",
+  "url": "https://pwr.com.au/app/uploads/2022/08/ACDelco-Coolant-FAQ.pdf",
+  "ids": [
+   29
+  ],
+  "verdict": "partial",
+  "actual_document": "ACDelco Australia 2-page product flyer 'ACDelco Coolant' (not a FAQ) - ACDelco DEX-COOL (GM 6277M, ASTM D3306/D4985; red; SG 1.130; pH 8.3; P/N 92147598/92145527/95710438) plus ACDelco All Seasons Antifreeze/Coolant Inhibitor; EN; undated",
+  "suggested_title": "ACDelco Coolant product flyer - DEX-COOL (GM 6277M, red) and All Seasons antifreeze (ACDelco Australia, EN)",
+  "doc_type": "brochure",
+  "language": "en",
+  "version_date": "undated",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "relabel",
+  "reason": "Not a FAQ: a product flyer with GM 6277M spec and typical data for red DEX-COOL - usable brochure-level equivalent; fix the 'FAQ' title."
+ },
+ {
+  "file": "pdf/materials/M29_ANTIFREEZE_DX_COOL_CONCENTRATE_RED_PDS_EQUIV.pdf",
+  "url": "https://shop.sclubricants.com/pub/media/pds/shell/Shell-Dexcool-Antifreeze-Coolant-50_50-datasheet.pdf",
+  "ids": [
+   29
+  ],
+  "verdict": "match",
+  "actual_document": "SOPUS/Shell Technical Data Sheet 'Shell Dexcool AF/C 50/50 Extended Life Antifreeze' - ethylene-glycol carboxylate (OAT) coolant, GM DEX-COOL approval (GM 6277M, GM 1825M), 50/50 prediluted version; 29.11.2017; EN; 3 pp",
+  "suggested_title": "Shell DEX-COOL Extended Life Antifreeze/Coolant 50/50 (prediluted) - Technical Data Sheet (EN, 2017-11-29)",
+  "doc_type": "TDS",
+  "language": "en",
+  "version_date": "2017-11-29",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "DEX-COOL OAT class - right; describes the 50/50 prediluted variant, not the concentrate (the plant fills 50/50 anyway)."
+ },
+ {
+  "file": "pdf/materials/M29_ANTIFREEZE_DX_COOL_CONCENTRATE_RED_TDS_EQUIV.pdf",
+  "url": "https://antifreezefelix.ru/storage/upload/documents/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82%20FELIX%20CARBOX%20+%20%D0%BA%D0%BE%D0%BD%D1%86.pdf",
+  "ids": [
+   29
+  ],
+  "verdict": "match",
+  "actual_document": "Tosol-Sintez-Invest (Dzerzhinsk, RU) technical information 'Антифриз FELIX CARBOX' + 'FELIX CARBOX КОНЦЕНТРАТ' - red ethylene-glycol OAT G12+ coolant (no nitrite/amine/phosphate/borate/silicate; ASTM D3306/D4985/D6210), ready-to-use and concentrate data, OEM approvals; Russian; 4 pp",
+  "suggested_title": "FELIX CARBOX / CARBOX Concentrate (red OAT G12+) - Технический лист (RU, Tosol-Sintez-Invest, 2022)",
+  "doc_type": "TDS",
+  "language": "ru",
+  "version_date": "2022 (PDF 2022-05-19, mod. 2022-12-22)",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Same maker as the plant spec 'Felix'; red nitrite-free OAT incl. concentrate - best class match; 'DX-COOL' = CARBOX still unproven, so equivalent."
+ },
+ {
+  "file": "pdf/materials/M29_ANTIFREEZE_DX_COOL_CONCENTRATE_RED_SDS_EQUIV.pdf",
+  "url": "https://antifreezefelix.ru/storage/upload/documents/MSDS%20Felix%20CARBOX%20SQ.PDF",
+  "ids": [
+   29
+  ],
+  "verdict": "partial",
+  "actual_document": "Tosol-Sintez-Invest technical information (NOT an SDS) 'FELIX CARBOX (SQ)' - ready-to-use heavy-duty ethylene-glycol coolant with carboxylates + nitrite (780 ppm) + molybdate (300 ppm), ASTM D6210 SQ, fluorescent dye; Russian; 4 pp",
+  "suggested_title": "FELIX CARBOX (SQ) heavy-duty ready-to-use coolant - technical information sheet (RU, 2019-01)",
+  "doc_type": "TDS",
+  "language": "ru",
+  "version_date": "PDF 2019-01-23",
+  "class_ok": false,
+  "label_should_be": "equivalent",
+  "action": "remove",
+  "reason": "File is named MSDS but is a TDS, and the product is a nitrite/molybdate heavy-duty ready-mix (NOAT), not a nitrite-free DEX-COOL-type red concentrate."
+ },
+ {
+  "file": "pdf/materials/M29_ANTIFREEZE_DX_COOL_CONCENTRATE_RED_TDS_EQUIV_2.pdf",
+  "url": "https://antifreezefelix.ru/storage/upload/documents/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82%20FELIX%20TYPE%20D.pdf",
+  "ids": [
+   29
+  ],
+  "verdict": "match",
+  "actual_document": "Tosol-Sintez-Invest technical sheet 'Антифриз FELIX Type-D' - yellow ready-to-use OAT coolant to RENAULT 41-01-001/--T Type D (Renault/Nissan/Citroen/Peugeot, compatible with Glaceol RX Type D); Russian; 3 pp",
+  "suggested_title": "FELIX Type-D (yellow OAT, Renault Type D) - Технический лист (RU, 2022)",
+  "doc_type": "TDS",
+  "language": "ru",
+  "version_date": "PDF 2020-10-02, mod. 2022-03-17",
+  "class_ok": false,
+  "label_should_be": "equivalent",
+  "action": "remove",
+  "reason": "Yellow Renault-specific ready-mix - wrong variant for a red DEX-COOL-type concentrate (the CARBOX and DRAGON sheets cover the right variant)."
+ },
+ {
+  "file": "pdf/materials/M29_ANTIFREEZE_DX_COOL_CONCENTRATE_RED_TDS_EQUIV_3.pdf",
+  "url": "https://antifreezefelix.ru/storage/upload/documents/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82%20FELIX%20JDM.pdf",
+  "ids": [
+   29
+  ],
+  "verdict": "match",
+  "actual_document": "Tosol-Sintez-Invest technical sheet 'Антифриз FELIX JDM' - green ready-to-use phosphate-modified OAT (P-OAT, 'Lobrid') coolant for Japanese/Korean cars; Russian; 3 pp",
+  "suggested_title": "FELIX JDM (green P-OAT for Japanese/Korean cars) - Технический лист (RU, 2022)",
+  "doc_type": "TDS",
+  "language": "ru",
+  "version_date": "PDF 2020-10-02, mod. 2022-03-17",
+  "class_ok": false,
+  "label_should_be": "equivalent",
+  "action": "remove",
+  "reason": "Phosphated P-OAT, green - different class from the nitrite/phosphate-free red DEX-COOL-type OAT."
+ },
+ {
+  "file": "pdf/materials/M29_ANTIFREEZE_DX_COOL_CONCENTRATE_RED_TDS_EQUIV_4.pdf",
+  "url": "https://tosol-sintez.ru/assets/files/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82%20FELIX%20DRAGON.pdf",
+  "ids": [
+   29
+  ],
+  "verdict": "match",
+  "actual_document": "Tosol-Sintez-Invest technical sheet 'Антифриз FELIX DRAGON' - red ethylene-glycol OAT G12+ coolant for Chinese cars (GB 29743-2013 LEC-II, ASTM D3306/D4985), ready-to-use and КОНЦЕНТРАТ (concentrate) data; Russian; 4 pp",
+  "suggested_title": "FELIX DRAGON / DRAGON Concentrate (red OAT G12+) - Технический лист (RU, Tosol-Sintez, 2023)",
+  "doc_type": "TDS",
+  "language": "ru",
+  "version_date": "PDF 2022-05-19, mod. 2023-05-12",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Same maker; red nitrite-free OAT including a concentrate - right class; grade aimed at Chinese OEMs, so equivalent."
+ },
+ {
+  "file": "pdf/materials/M30_T_M_OIL_PDS_EQUIV.pdf",
+  "url": "https://ilti.idemitsu.com/media/file/originals/post/2023/08/16/idemitsu-mtf.pdf",
+  "ids": [
+   30
+  ],
+  "verdict": "match",
+  "actual_document": "Idemitsu Product Data Sheet 'Idemitsu MTF' - retail manual transmission fluid (especially Japanese cars; 95 cSt @40 C, 11.5 cSt @100 C, VI 109; 1 L / 200 L), 14.08.2023; EN; 2 pp; ilti.idemitsu.com",
+  "suggested_title": "Idemitsu MTF manual transmission fluid - Product Data Sheet (EN, 2023-08-14)",
+  "doc_type": "PDS",
+  "language": "en",
+  "version_date": "2023-08-14",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Same maker and MTF family as 'Idemitsu MTF LSJ11EP' - right class; a retail grade, not the OE fill."
+ },
+ {
+  "file": "pdf/materials/M30_T_M_OIL_SDS_EQUIV.pdf",
+  "url": "https://www.idemitsu.com/jp/sds/lube/32050330.pdf",
+  "ids": [
+   30
+  ],
+  "verdict": "match",
+  "actual_document": "Idemitsu Kosan 安全データシート 'ダフニー スーパーギヤーオイル 150' (Daphne Super Gear Oil 150, code 32050330) - industrial mineral enclosed-gear oil (ISO VG 150); first 2018-08-24, revision 2024-04-30, v1.4; Japanese; 12 pp",
+  "suggested_title": "Idemitsu Daphne Super Gear Oil 150 (industrial gear oil) - Safety Data Sheet 32050330 (JA, v1.4, 2024-04-30)",
+  "doc_type": "SDS",
+  "language": "ja",
+  "version_date": "v1.4, 2024-04-30",
+  "class_ok": false,
+  "label_should_be": "equivalent",
+  "action": "remove",
+  "reason": "Industrial gear oil, not an automotive manual-transmission fluid - wrong class for id 30."
+ },
+ {
+  "file": "pdf/materials/M30_T_M_OIL_PDS_EQUIV_2.pdf",
+  "url": "https://www.idemitsu.com/jp/sds/lube/30300240p.pdf",
+  "ids": [
+   30
+  ],
+  "verdict": "match",
+  "actual_document": "Idemitsu Kosan product data '潤滑油製品資料 アポロイル デュアルギヤ' (Apolloil Dual Gear) - SAE 80W-90 API GL-5 manual-transmission/differential dual-purpose gear oil (resin synchroniser compatible), typical data; TI 2021-07-12; Japanese; 2 pp",
+  "suggested_title": "Idemitsu Apolloil Dual Gear 80W-90 GL-5 (MT/differential gear oil) - Product Data 潤滑油製品資料 (JA, 2021-07-12)",
+  "doc_type": "PDS",
+  "language": "ja",
+  "version_date": "2021-07-12",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "WEAK PROXY: Idemitsu automotive MT/differential gear oil (GL-5 80W-90) - acceptable class, but not a dedicated MTF like LSJ11EP."
+ },
+ {
+  "file": "pdf/materials/M30_T_M_OIL_SDS_EQUIV_2.pdf",
+  "url": "https://www.lube-buster.com/wp-content/uploads/2022/04/sds-idemitsu-atf-type-hp.pdf",
+  "ids": [
+   30
+  ],
+  "verdict": "match",
+  "actual_document": "Idemitsu Lubricants America Safety Data Sheet 'Idemitsu ATF Type-HP, 12 x 1 Quart Case' (code 30040099-75000C020), OSHA/WHMIS format, revision 5, 16-May-2017; EN; 11 pp; retailer host",
+  "suggested_title": "Idemitsu ATF Type-HP - Safety Data Sheet (EN, rev. 5, 2017-05-16)",
+  "doc_type": "SDS",
+  "language": "en",
+  "version_date": "rev. 5, 2017-05-16",
+  "class_ok": false,
+  "label_should_be": "equivalent",
+  "action": "remove",
+  "reason": "Automatic transmission fluid, not a manual-transmission fluid - wrong class for id 30 (T/M oil Idemitsu MTF)."
+ },
+ {
+  "file": "pdf/materials/M31_T_M_OIL_MANUAL_SH_XGP_75W85_GL_4_PDS_EQUIV.pdf",
+  "url": "https://www.supercheapauto.co.nz/on/demandware.static/-/Library-Sites-supercheap-shared-library/default/dwe49223ef/productsheets/396350_342312.pdf",
+  "ids": [
+   31
+  ],
+  "verdict": "match",
+  "actual_document": "Penrite Oil product sheet 'PRO GEAR 75W-85 (100% PAO ESTER)' - full-synthetic API GL-4 Plus manual gearbox/transaxle oil (also GM NV3500/NV4500), last updated 26/05/2025; EN; 1 p; retailer host (Supercheap Auto NZ)",
+  "suggested_title": "Penrite Pro Gear 75W-85 (100% PAO/ester, API GL-4 Plus) - Product Sheet (EN, 2025-05-26)",
+  "doc_type": "PDS",
+  "language": "en",
+  "version_date": "2025-05-26",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "75W-85 GL-4 synthetic MTF - right class for XGP; aftermarket equivalent."
+ },
+ {
+  "file": "pdf/materials/M31_T_M_OIL_MANUAL_SH_XGP_75W85_GL_4_PDS_EQUIV_2.pdf",
+  "url": "https://www.redlineoil.com/Content/files/tech/MT-85_GO_PROD_INFO.pdf",
+  "ids": [
+   31
+  ],
+  "verdict": "match",
+  "actual_document": "Red Line Synthetic Oil product information 'MT-85 75W85 GL-4 Gear Oil' - synthetic GL-4 MTF cross-referenced to GM 88862472/88862473/93165290 (XGP predecessors), Hyundai/Kia, Nissan etc., typical properties; EN; 1 p",
+  "suggested_title": "Red Line MT-85 75W-85 GL-4 Gear Oil - Product Information (EN, c. 2018)",
+  "doc_type": "PDS",
+  "language": "en",
+  "version_date": "undated (PDF 2018-03-23)",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "75W-85 GL-4 MTF cross-referenced to GM 88862472/93165290 - right class."
+ },
+ {
+  "file": "pdf/materials/M31_T_M_OIL_MANUAL_SH_XGP_75W85_GL_4_PDS_EQUIV_3.pdf",
+  "url": "https://www.TDXLTD.CO.NZ/media/pdfs/49977.pdf",
+  "ids": [
+   31
+  ],
+  "verdict": "match",
+  "actual_document": "Shell Technical Data Sheet 'Spirax S6 GXME 75W-80' (formerly Spirax GSX 75W-80) - synthetic fuel-economy gearbox oil for heavy-duty truck synchromesh gearboxes (API GL-4, MAN 341 Z4/E3, ZF TE-ML 01L/02L/16K), v2.7, 17.03.2020; EN; 2 pp; distributor host",
+  "suggested_title": "Shell Spirax S6 GXME 75W-80 (heavy-duty synthetic gearbox oil) - Technical Data Sheet (EN, v2.7, 2020-03-17)",
+  "doc_type": "TDS",
+  "language": "en",
+  "version_date": "v2.7, 2020-03-17",
+  "class_ok": false,
+  "label_should_be": "equivalent",
+  "action": "remove",
+  "reason": "SAE 75W-80 heavy-duty truck gearbox oil, not a 75W-85 GL-4 passenger MTF; 'SH' = Shell is unproven; Penrite/Red Line already cover 75W-85 GL-4."
+ },
+ {
+  "file": "pdf/materials/M33_TETRAFLUOROETHANE_HFC_134a_SDS_EQUIV.pdf",
+  "url": "https://fuhrmeister-gmbh.de/pdf/sds/R134a_safety data sheet_EN.pdf",
+  "ids": [
+   33
+  ],
+  "verdict": "match",
+  "actual_document": "The Chemours Company Safety Data Sheet 'Freon 134a (HFC-134a) Refrigerant - Propellant', SDS no. 1325513-00051, version 11.11, revision 05/27/2025, US OSHA format; EN; 16 pp; distributor host (Fuhrmeister)",
+  "suggested_title": "Chemours Freon 134a (HFC-134a) - Safety Data Sheet (US, EN, v11.11, 2025-05-27)",
+  "doc_type": "SDS",
+  "language": "en",
+  "version_date": "v11.11, 2025-05-27",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Same substance (R134a) - right class; COOLIB brand itself undocumented."
+ },
+ {
+  "file": "pdf/materials/M33_TETRAFLUOROETHANE_HFC_134a_SDS_EQUIV_2.pdf",
+  "url": "https://www.daikinchemicals.com/library/pb_common/pdf/sds/Refrigerants/sds-hfc-134a-E_20191220.pdf",
+  "ids": [
+   33
+  ],
+  "verdict": "match",
+  "actual_document": "Daikin Industries Safety Data Sheet 'HFC-134a' (EU 1907/2006 Art. 31 format), version 2, revision 20.12.2019; EN; 8 pp",
+  "suggested_title": "Daikin HFC-134a - Safety Data Sheet (EU, EN, v2, 2019-12-20)",
+  "doc_type": "SDS",
+  "language": "en",
+  "version_date": "v2, 2019-12-20",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Same substance (R134a) - right class."
+ },
+ {
+  "file": "pdf/materials/M33_TETRAFLUOROETHANE_HFC_134a_SDS_EQUIV_5.pdf",
+  "url": "https://gaslogic.nl/wp-content/uploads/2024/09/R134A-MSDS-EN-v1.0.pdf",
+  "ids": [
+   33
+  ],
+  "verdict": "match",
+  "actual_document": "Gaslogic B.V. (Rotterdam) Safety Data Sheet 'Refrigerant Gas R-134a' (1,1,1,2-tetrafluoroethane), v1.0, 13-09-2024, EU CLP; EN; 8 pp",
+  "suggested_title": "Gaslogic Refrigerant Gas R-134a - Safety Data Sheet (EU, EN, v1.0, 2024-09-13)",
+  "doc_type": "SDS",
+  "language": "en",
+  "version_date": "v1.0, 2024-09-13",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Same substance (R134a) - right class."
+ },
+ {
+  "file": "pdf/materials/M33_TETRAFLUOROETHANE_HFC_134a_SDS_EQUIV_6.pdf",
+  "url": "https://static.prd.echannel.linde.com/wcsstore/ZA_AFROX_Industrial_Ntl_Store/Attachment/Corporate/AFX-SDS-0060_v01_Refrigerant_R134a_Safety_Data_Sheet(003)(2)tcm266-6472.pdf",
+  "ids": [
+   33
+  ],
+  "verdict": "match",
+  "actual_document": "African Oxygen Ltd (Afrox, Linde group) Safety Data Sheet 'Refrigerant R134a', document AFX-SDS-0060 v01, review date 29/10/2021 (South African GHS); EN; 5 pp",
+  "suggested_title": "Afrox (Linde) Refrigerant R134a - Safety Data Sheet AFX-SDS-0060 (EN, v01, 2021-10-29)",
+  "doc_type": "SDS",
+  "language": "en",
+  "version_date": "v01, 2021-10-29",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Same substance (R134a) - right class."
+ },
+ {
+  "file": "pdf/materials/M34_FUEL_SDS_EQUIV.pdf",
+  "url": "https://ina.hr/app/uploads/2024/06/Unleaded-Petrol_v22_EN.pdf",
+  "ids": [
+   34
+  ],
+  "verdict": "match",
+  "actual_document": "INA d.d. (Croatia) Safety Data Sheet 'UNLEADED PETROL' (Eurosuper 95/100, E5/E10, Class Plus, INA Master Gasoline 95/100), REACH format, edition 22, 2024-05-05; EN; 29 pp",
+  "suggested_title": "INA Unleaded Petrol (Eurosuper 95/100) - Safety Data Sheet (EU, EN, ed. 22, 2024-05-05)",
+  "doc_type": "SDS",
+  "language": "en",
+  "version_date": "ed. 22, 2024-05-05",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Unleaded motor gasoline - right class; RON 95/100 grades rather than AI-92, hazards essentially identical."
+ },
+ {
+  "file": "pdf/materials/M34_FUEL_SDS_EQUIV_2.pdf",
+  "url": "https://www.nis.rs/wp-content/uploads/2025/09/EN_SDS_UNLEADED-GASOLINE_GHS-ANNEXII-CLP_20250725_NIS-a.d.-Novi-Sad.pdf",
+  "ids": [
+   34
+  ],
+  "verdict": "match",
+  "actual_document": "NIS a.d. Novi Sad (Serbia) Safety Data Sheet 'UNLEADED GASOLINE' (CAS 86290-81-5), REACH Annex II/CLP, revision 3.0, issued 25/07/2025 (supersedes 17/08/2022); EN; 63 pp",
+  "suggested_title": "NIS Unleaded Gasoline - Safety Data Sheet (EU/RS, EN, rev. 3.0, 2025-07-25)",
+  "doc_type": "SDS",
+  "language": "en",
+  "version_date": "rev. 3.0, 2025-07-25",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Unleaded motor gasoline - right class; not AI-92-specific."
+ },
+ {
+  "file": "pdf/materials/M35_WINDSHIELD_WASHER_ETHANOL_80_PDS_EQUIV.pdf",
+  "url": "https://sirv.eurol.com/eurol/PI/EN/EN_E502260_PI.pdf",
+  "ids": [
+   35
+  ],
+  "verdict": "match",
+  "actual_document": "Eurol B.V. Product Data Sheet 'Eurol Screenwash Concentrate' (art. E502260) - methanol-free washer concentrate (ethanol-based per its SDS), density 0.91, flash point 23 C, dilution table to -30 C; version 4.7, 14/07/2026; EN; 1 p",
+  "suggested_title": "Eurol Screenwash Concentrate (E502260) - Product Data Sheet (EN, v4.7, 2026-07-14)",
+  "doc_type": "PDS",
+  "language": "en",
+  "version_date": "v4.7, 2026-07-14",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Ethanol-based washer concentrate - right class."
+ },
+ {
+  "file": "pdf/materials/M35_WINDSHIELD_WASHER_ETHANOL_80_SDS_EQUIV.pdf",
+  "url": "https://www.msds.ford.com/documents/198426 G_GBEN.pdf",
+  "ids": [
+   35
+  ],
+  "verdict": "partial",
+  "actual_document": "Ford-Werke GmbH / Ford Motor Co. Ltd Safety Data Sheet 'Screen Wash - Ready Mix S20' (Ford ref. 198426, SDS no. 6019) - ethanol 20-<40%, ethanediol 1-<5%; UK REACH, version 2.1, revision 27.02.2026; EN; 13 pp",
+  "suggested_title": "Ford Screen Wash - Ready Mix S20 (ref. 198426) - Safety Data Sheet (UK, EN, v2.1, 2026-02-27)",
+  "doc_type": "SDS",
+  "language": "en",
+  "version_date": "v2.1, 2026-02-27",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "relabel",
+  "reason": "Ethanol washer (right class) but the PDF is the 'Ready Mix S20' SDS, not 'Winter Premium 55' as titled."
+ },
+ {
+  "file": "pdf/materials/M35_WINDSHIELD_WASHER_ETHANOL_80_SDS_EQUIV_2.pdf",
+  "url": "https://sirv.eurol.com/eurol/SDS/EN/EN_E502260_SDS.pdf",
+  "ids": [
+   35
+  ],
+  "verdict": "match",
+  "actual_document": "Eurol B.V. Safety Data Sheet 'Eurol Screenwash Concentrate' (E502260) - ethanol >=50%, ethane-1,2-diol 5-10%, propan-2-ol 0.1-1%; REACH as amended by 2020/878, version 6.2, revision 13-7-2026 (supersedes 13-11-2025); EN; 18 pp",
+  "suggested_title": "Eurol Screenwash Concentrate (E502260) - Safety Data Sheet (EU, EN, v6.2, 2026-07-13)",
+  "doc_type": "SDS",
+  "language": "en",
+  "version_date": "v6.2, 2026-07-13",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "relabel",
+  "reason": "Right product and class; the URL now serves v6.2 of 2026-07-13, not 'v5.0 2023' as titled."
+ },
+ {
+  "file": "pdf/materials/M35_WINDSHIELD_WASHER_ETHANOL_80_SDS_EQUIV_3.pdf",
+  "url": "https://assets.rowegmbh.de/var/assets/brandhub/safety-data-sheets/en/21111-998-00_IRL-en_1%2C09.pdf",
+  "ids": [
+   35
+  ],
+  "verdict": "match",
+  "actual_document": "ROWE Mineraloelwerk GmbH Safety Data Sheet 'HIGHTEC SCREENWASH -20 C' (product 21111) - ethanol 15-<30%, ethylene glycol 1-<2.5%; Flam. Liq. 3; revision 02.02.2026; EN (Ireland); 14 pp",
+  "suggested_title": "ROWE HIGHTEC Screenwash -20 C (21111) - Safety Data Sheet (IE, EN, rev. 2026-02-02)",
+  "doc_type": "SDS",
+  "language": "en",
+  "version_date": "rev. 2026-02-02",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Ethanol washer - right class; this is the -20 C ready mix (settles the catalog's 21111/21104 question), not a concentrate."
+ },
+ {
+  "file": "pdf/materials/M36_BETASEAL_SikaFlex_250_UZ_1_PDS_EQUIV_3.pdf",
+  "url": "https://egy.sika.com/dms/getdocument.get/ecf85750-dd7d-3490-9be2-3e36a8285895/Sikaflex",
+  "ids": [
+   36
+  ],
+  "verdict": "match",
+  "actual_document": "Sika Provisional Product Data Sheet 'Sikaflex-250 DM-3' - high-modulus, primerless-to-glass, non-conductive 1-C moisture-curing PU direct-glazing adhesive for automated OEM glazing (applied warm 40-60 C, aerial-compatible); version 11/2006; EN; 2 pp; egy.sika.com (PDF metadata wrongly says Sikaflex-212 FC01)",
+  "suggested_title": "Sikaflex-250 DM-3 1-C PU direct-glazing adhesive - Provisional Product Data Sheet (EN, v11/2006)",
+  "doc_type": "PDS",
+  "language": "en",
+  "version_date": "v11/2006 (provisional)",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Same Sikaflex-250 OEM direct-glazing family as 250 UZ-1 - right class; old (2006) provisional sheet of another variant."
+ },
+ {
+  "file": "pdf/materials/M36_BETASEAL_SikaFlex_250_UZ_1_SDS_EQUIV.pdf",
+  "url": "https://kor.sika.com/dms/getdocument.get/5577a611-f6de-438f-ab00-dbfea96a137d/MSDS_Sikaflex%C2%AE-250PC(SSC)_EN_251226_AA00068-0000000296.pdf",
+  "ids": [
+   36
+  ],
+  "verdict": "match",
+  "actual_document": "Sika Korea Ltd Safety Data Sheet 'Sikaflex-250 PC' (internal SDS 000000021205; MDI 0.1-<1%, IPDI, xylene 1-<5%), version 1.0, 26.12.2025; EN (Korean GHS); 19 pp",
+  "suggested_title": "Sikaflex-250 PC (Sika Korea) - Safety Data Sheet (KR GHS, EN, v1.0, 2025-12-26)",
+  "doc_type": "SDS",
+  "language": "en",
+  "version_date": "v1.0, 2025-12-26",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Sikaflex-250 PU glazing family - right class; variant PC, not UZ-1."
+ },
+ {
+  "file": "pdf/materials/M36_BETASEAL_SikaFlex_250_UZ_1_TDS_EQUIV.pdf",
+  "url": "https://dupont.materialdatacenter.com/gb/products/pdf/SI/BETASEAL%E2%84%A2%20U-838HV-gb.pdf",
+  "ids": [
+   36
+  ],
+  "verdict": "match",
+  "actual_document": "DuPont (Material Data Center) data sheet 'BETASEAL U-838HV' - 1-C fast-curing high-viscosity PU glass-bonding adhesive, primerless to most fritted glass, FMVSS 212 crash-tested; revised 2022-12-19; EN; 2 pp",
+  "suggested_title": "DuPont BETASEAL U-838HV PU glass-bonding adhesive - Technical Data Sheet (EN, rev. 2022-12-19)",
+  "doc_type": "TDS",
+  "language": "en",
+  "version_date": "rev. 2022-12-19",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "BETASEAL PU windshield urethane - right class (glass-replacement grade)."
+ },
+ {
+  "file": "pdf/materials/M36_BETASEAL_SikaFlex_250_UZ_1_TDS_EQUIV_2.pdf",
+  "url": "https://www.pksupplies.com/sites/default/files/datasheets/dupont-betaseal-primerless-to-glass-adhesive-data-sheet.pdf",
+  "ids": [
+   36
+  ],
+  "verdict": "match",
+  "actual_document": "DuPont leaflet 'Primerless-to-glass adhesives' for BETASEAL U-418HV and U-418 (auto-glass urethanes, MDAT tables, installation steps), form 001-20131-OIA0519, (c) 2019; EN; 4 pp; distributor host",
+  "suggested_title": "DuPont BETASEAL U-418HV / U-418 primerless-to-glass urethanes - product leaflet (EN, 2019, form 001-20131-OIA0519)",
+  "doc_type": "brochure",
+  "language": "en",
+  "version_date": "(c) 2019, form 001-20131-OIA0519",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "PU auto-glass urethane - right class; aftermarket cartridge product; marketing leaflet rather than a full TDS."
+ },
+ {
+  "file": "pdf/materials/M36_BETASEAL_SikaFlex_250_UZ_1_brochure_EQUIV_2.pdf",
+  "url": "https://fittingsgo.com/wp-content/uploads/2019/04/U418-Product-Brochure.pdf",
+  "ids": [
+   36
+  ],
+  "verdict": "match",
+  "actual_document": "Dow Automotive Systems brochure 'BETASEAL U-418 Quick Cure Auto Glass Urethane Adhesive' (primerless-to-glass, cartridge, no heating); EN; 4 pp",
+  "suggested_title": "Dow Automotive BETASEAL U-418 Quick Cure Auto Glass Urethane - product brochure (EN, c. 2010)",
+  "doc_type": "brochure",
+  "language": "en",
+  "version_date": "undated (PDF 2010-11-23)",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Right class; older Dow-era brochure of the same U-418 product (overlaps the 2019 DuPont leaflet)."
+ },
+ {
+  "file": "pdf/materials/M37_ADHESIVE_HDLNG_T_PNL_TDS_EQUIV.pdf",
+  "url": "https://datasheets.tdx.henkel.com/TECHNOMELT-AS-8383-en_GL.pdf",
+  "ids": [
+   37
+  ],
+  "verdict": "match",
+  "actual_document": "Henkel Technical Data Sheet 'TECHNOMELT AS 8383' - polyolefin hot melt for automotive interior incl. headliner (R&B 150-160 C, 5000-8000 cP @190 C, dispense 163-190 C, open time 25-30 s); September 2023; EN; 2 pp",
+  "suggested_title": "Henkel TECHNOMELT AS 8383 polyolefin hot melt (headliner) - Technical Data Sheet (EN, September 2023)",
+  "doc_type": "TDS",
+  "language": "en",
+  "version_date": "September 2023",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Polyolefin headliner hot melt - right class."
+ },
+ {
+  "file": "pdf/materials/M37_ADHESIVE_HDLNG_T_PNL_TDS_EQUIV_2.pdf",
+  "url": "https://datasheets.tdx.henkel.com/TECHNOMELT-PUR-9622-02-en_GL.pdf",
+  "ids": [
+   37
+  ],
+  "verdict": "match",
+  "actual_document": "Henkel Technical Data Sheet 'TECHNOMELT PUR 9622-02' - moisture-curing PU (MDI-containing) reactive hot melt for lamination of interior parts/textile compounds, mirrors, doors, pillars; working temperature 120-140 C; March 2024 (digitally signed 2025-11-28); EN; 2 pp",
+  "suggested_title": "Henkel TECHNOMELT PUR 9622-02 reactive PUR hot melt - Technical Data Sheet (EN, March 2024)",
+  "doc_type": "TDS",
+  "language": "en",
+  "version_date": "March 2024",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Interior-trim hot melt - right class only if the plant item is a reactive PUR; headliner not named explicitly."
+ },
+ {
+  "file": "pdf/materials/M37_ADHESIVE_HDLNG_T_PNL_TDS_EQUIV_3.pdf",
+  "url": "https://prostech.vn/wp-content/uploads/2024/03/thermogrip_h9446_tds_033016.pdf",
+  "ids": [
+   37
+  ],
+  "verdict": "match",
+  "actual_document": "Bostik Thermogrip H9446 hot-melt adhesive data sheet - automotive headliner hot melt (high heat resistance, short open time; 10,300 cP @190.6 C; softening point 149 C); 03.30.2016; EN; 2 pp; distributor host (Prostech VN)",
+  "suggested_title": "Bostik Thermogrip H9446 headliner hot melt - Technical Data Sheet (EN, 2016-03-30)",
+  "doc_type": "TDS",
+  "language": "en",
+  "version_date": "2016-03-30",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Headliner hot melt - right class."
+ },
+ {
+  "file": "pdf/materials/M37_ADHESIVE_HDLNG_T_PNL_TDS_EQUIV_4.pdf",
+  "url": "https://prostech.vn/wp-content/uploads/2024/03/thermogrip_h9438_tds.pdf",
+  "ids": [
+   37
+  ],
+  "verdict": "match",
+  "actual_document": "Bostik Thermogrip H9438 hot-melt adhesive data sheet - headliner / door-panel / package-tray hot melt (30,200 cP @190.6 C; softening point 152 C); 12.15.2015; EN; 2 pp; distributor host (Prostech VN)",
+  "suggested_title": "Bostik Thermogrip H9438 headliner/door-panel hot melt - Technical Data Sheet (EN, 2015-12-15)",
+  "doc_type": "TDS",
+  "language": "en",
+  "version_date": "2015-12-15",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Headliner hot melt - right class."
+ },
+ {
+  "file": "pdf/materials/M37_ADHESIVE_HDLNG_T_PNL_TDS_EQUIV_5.pdf",
+  "url": "https://prostech.vn/wp-content/uploads/2024/03/thermogrip_9431_tds_060717.pdf",
+  "ids": [
+   37
+  ],
+  "verdict": "match",
+  "actual_document": "Bostik Thermogrip 9431 hot-melt adhesive data sheet - headliner attachment and load-floor bonding (7,000 cP @190.6 C; softening point 121 C); 06.07.2017; EN; 2 pp; distributor host (Prostech VN)",
+  "suggested_title": "Bostik Thermogrip 9431 headliner/load-floor hot melt - Technical Data Sheet (EN, 2017-06-07)",
+  "doc_type": "TDS",
+  "language": "en",
+  "version_date": "2017-06-07",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "Headliner hot melt - right class."
+ },
+ {
+  "file": "pdf/materials/M38_RKB_0101S_PDS.pdf",
+  "url": "https://gbr.sika.com/dam/dms/gb01/f/sika-primer-209-d.pdf",
+  "ids": [
+   38
+  ],
+  "verdict": "match",
+  "actual_document": "Sika Limited (UK) Product Data Sheet 'Sika Primer-209 D' - black solvent-based PU primer for paints and plastics (30% solids, 50 ml/m2, flash-off 10/30 min), version 01.03 (03-2026), en_GB; 2 pp",
+  "suggested_title": "Sika Primer-209 D - Product Data Sheet (Sika UK, EN, v01.03, 2026-03)",
+  "doc_type": "PDS",
+  "language": "en",
+  "version_date": "v01.03 (03-2026)",
+  "class_ok": true,
+  "label_should_be": "exact",
+  "action": "keep",
+  "reason": "Confirmed identity of RKB 0101S (SIKA-209 D)."
+ },
+ {
+  "file": "pdf/materials/M38_RKB_0101S_PDS_2.pdf",
+  "url": "https://industry.sika.com/dam/dms/ca01/x/sika-primer-209-d.pdf",
+  "ids": [
+   38
+  ],
+  "verdict": "match",
+  "actual_document": "Sika Canada Product Data Sheet 'Sika Primer-209 D', version 01.01 (11-2024), en_CA; 2 pp",
+  "suggested_title": "Sika Primer-209 D - Product Data Sheet (Sika Canada, EN, v01.01, 2024-11)",
+  "doc_type": "PDS",
+  "language": "en",
+  "version_date": "v01.01 (11-2024)",
+  "class_ok": true,
+  "label_should_be": "exact",
+  "action": "keep",
+  "reason": "Exact product; alternate (slightly older) EN edition of the UK PDS."
+ },
+ {
+  "file": "pdf/materials/M38_RKB_0101S_SDS_2.pdf",
+  "url": "https://nzl.sika.com/dam/dms/nz01/3/Primer%20209D%20-%20MSDS.pdf",
+  "ids": [
+   38
+  ],
+  "verdict": "match",
+  "actual_document": "Sika (NZ) Ltd Safety Data Sheet 'Sika Primer-209 D', SDS 000000121664, version 5.0, revision 2024/11/26 (first issue 2018/08/16); EN (NZ GHS); 12 pp",
+  "suggested_title": "Sika Primer-209 D - Safety Data Sheet (Sika NZ, EN, v5.0, 2024-11-26)",
+  "doc_type": "SDS",
+  "language": "en",
+  "version_date": "v5.0, 2024-11-26",
+  "class_ok": true,
+  "label_should_be": "exact",
+  "action": "keep",
+  "reason": "Exact product SDS."
+ },
+ {
+  "file": "pdf/materials/M38_RKB_0101S_SDS_3.pdf",
+  "url": "https://tur.sika.com/dms/getdocument.get/5aa00d1a-99ca-4747-888a-eda15c33f505/Sika%20Primer-209D%20MSDS%20EN.pdf",
+  "ids": [
+   38
+  ],
+  "verdict": "match",
+  "actual_document": "Sika Yapi Kimyasallari A.S. (Turkey) Safety Data Sheet 'Sika Primer-209D' (Turkish regulation format, written in English), version 1.0, revision 03.09.2018; EN; 15 pp",
+  "suggested_title": "Sika Primer-209 D - Safety Data Sheet (Sika Turkey, EN, v1.0, 2018-09-03)",
+  "doc_type": "SDS",
+  "language": "en",
+  "version_date": "v1.0, 2018-09-03",
+  "class_ok": true,
+  "label_should_be": "exact",
+  "action": "keep",
+  "reason": "Exact product SDS; older (2018) edition."
+ },
+ {
+  "file": "pdf/materials/M39_RKB_0401S_PDS.pdf",
+  "url": "https://industry.sika.com/dam/dms/us01/w/sika_primer-206_gp.pdf",
+  "ids": [
+   39
+  ],
+  "verdict": "match",
+  "actual_document": "Sika USA Product Data Sheet 'Sika Primer-206 G+P' - black solvent-based PU primer for float glass, ceramic frit, pre-coatings, paints and some plastics/metals (36% solids), version 03.01 (03-2023), en_US; 2 pp",
+  "suggested_title": "Sika Primer-206 G+P - Product Data Sheet (Sika USA, EN, v03.01, 2023-03)",
+  "doc_type": "PDS",
+  "language": "en",
+  "version_date": "v03.01 (03-2023)",
+  "class_ok": true,
+  "label_should_be": "exact",
+  "action": "keep",
+  "reason": "Confirmed identity of RKB 0401S (SIKA-206 G+P)."
+ },
+ {
+  "file": "pdf/materials/M39_RKB_0401S_PDS_2.pdf",
+  "url": "https://industry.sika.com/dam/dms/ch01/f/sika-primer-206-g-plus-p.pdf",
+  "ids": [
+   39
+  ],
+  "verdict": "partial",
+  "actual_document": "Sika Schweiz 'Scheda dati del prodotto' Sika Primer-206 G+P, version 03.01 (03-2023), it_CH - Italian translation of the same PDS; 2 pp",
+  "suggested_title": "Sika Primer-206 G+P - Scheda dati del prodotto (Sika Schweiz, IT, v03.01, 2023-03)",
+  "doc_type": "PDS",
+  "language": "it",
+  "version_date": "v03.01 (03-2023)",
+  "class_ok": true,
+  "label_should_be": "exact",
+  "action": "relabel",
+  "reason": "Exact product, but the PDF is Italian, not English as labelled; same edition as the US EN PDS, so redundant."
+ },
+ {
+  "file": "pdf/materials/M39_RKB_0401S_SDS.pdf",
+  "url": "https://usa.sika.com/dam/dms/us01/s/Sika-Primer-206-G-P.pdf",
+  "ids": [
+   39
+  ],
+  "verdict": "match",
+  "actual_document": "Sika Corporation (USA) Safety Data Sheet 'Sika Primer-206 G+P', OSHA HCS format, revision 12/13/2021; EN; 15 pp",
+  "suggested_title": "Sika Primer-206 G+P - Safety Data Sheet (Sika USA, EN, rev. 2021-12-13)",
+  "doc_type": "SDS",
+  "language": "en",
+  "version_date": "rev. 2021-12-13",
+  "class_ok": true,
+  "label_should_be": "exact",
+  "action": "keep",
+  "reason": "Exact product SDS."
+ },
+ {
+  "file": "pdf/materials/M39_RKB_0401S_SDS_2.pdf",
+  "url": "https://nzl.sika.com/dam/dms/nz01/t/Sika%C2%AE%20Primer-206%20G%20plus%20P%20-%20SDS%20-%201122.pdf",
+  "ids": [
+   39
+  ],
+  "verdict": "match",
+  "actual_document": "Sika (NZ) Ltd Safety Data Sheet 'Sika Primer-206 G+P', SDS 000000020203, version 5.0, revision 2023/08/09; EN; 14 pp",
+  "suggested_title": "Sika Primer-206 G+P - Safety Data Sheet (Sika NZ, EN, v5.0, 2023-08-09)",
+  "doc_type": "SDS",
+  "language": "en",
+  "version_date": "v5.0, 2023-08-09",
+  "class_ok": true,
+  "label_should_be": "exact",
+  "action": "keep",
+  "reason": "Exact product SDS."
+ },
+ {
+  "file": "pdf/materials/M39_RKB_0401S_SDS_3.pdf",
+  "url": "https://srb.sika.com/dms/getdocument.get/a237532a-c159-4c08-8f85-74a2b307eb7d_rs01/sds-sika-primer-206g-plus-p.pdf",
+  "ids": [
+   39
+  ],
+  "verdict": "match",
+  "actual_document": "Sika Srbija d.o.o. Safety Data Sheet 'Sika Primer-206 G+P' (Serbian regulation Sl. glasnik RS 11/24, written in English), version 5.0, revision 13.03.2026; EN; 20 pp",
+  "suggested_title": "Sika Primer-206 G+P - Safety Data Sheet (Sika Serbia, EN, v5.0, 2026-03-13)",
+  "doc_type": "SDS",
+  "language": "en",
+  "version_date": "v5.0, 2026-03-13",
+  "class_ok": true,
+  "label_should_be": "exact",
+  "action": "relabel",
+  "reason": "Exact product; the URL now serves v5.0 of 2026-03-13 in English, not 'v4.1 2024-10, sr/en' as labelled."
+ },
+ {
+  "file": "pdf/materials/M40_BETAPRIME_PDS.pdf",
+  "url": "https://industry.sika.com/dam/dms/us01/l/sika_aktivator-100.pdf",
+  "ids": [
+   40,
+   41
+  ],
+  "verdict": "match",
+  "actual_document": "Sika USA Product Data Sheet 'Sika Aktivator-100' - transparent solvent-based adhesion promoter (wipe-on/wipe-off, 20 ml/m2, flash-off 10/30 min), version 05.01 (10-2023), en_US; 2 pp",
+  "suggested_title": "Sika Aktivator-100 - Product Data Sheet (Sika USA, EN, v05.01, 2023-10)",
+  "doc_type": "PDS",
+  "language": "en",
+  "version_date": "v05.01 (10-2023)",
+  "class_ok": true,
+  "label_should_be": "exact",
+  "action": "keep",
+  "reason": "Confirmed identity of BETAPRIME 100-UZ (id 40). For id 41 (RAD 11724, spec SIKA-100-UZ) keep the catalog's 'equivalent' - identity unconfirmed."
+ },
+ {
+  "file": "pdf/materials/M40_BETAPRIME_SDS.pdf",
+  "url": "https://gbr.sika.com/dam/dms/gb01/v/sds-sika-aktivator-100.pdf",
+  "ids": [
+   40
+  ],
+  "verdict": "match",
+  "actual_document": "Sika Limited (UK) Safety Data Sheet 'Sika Aktivator-100', UK REACH format, version 17.0, revision 11.02.2026; EN; 17 pp",
+  "suggested_title": "Sika Aktivator-100 - Safety Data Sheet (Sika UK, EN, v17.0, 2026-02-11)",
+  "doc_type": "SDS",
+  "language": "en",
+  "version_date": "v17.0, 2026-02-11",
+  "class_ok": true,
+  "label_should_be": "exact",
+  "action": "keep",
+  "reason": "Exact product SDS (current)."
+ },
+ {
+  "file": "pdf/materials/M40_BETAPRIME_SDS_2.pdf",
+  "url": "https://aus.sika.com/dam/dms/au01/f/sds-sika-aktivator-100.pdf",
+  "ids": [
+   40
+  ],
+  "verdict": "match",
+  "actual_document": "Sika Australia Pty Ltd Safety Data Sheet 'Sika Aktivator-100', SDS 000000033123, version 2.0, revision 31.10.2024; EN; 12 pp",
+  "suggested_title": "Sika Aktivator-100 - Safety Data Sheet (Sika Australia, EN, v2.0, 2024-10-31)",
+  "doc_type": "SDS",
+  "language": "en",
+  "version_date": "v2.0, 2024-10-31",
+  "class_ok": true,
+  "label_should_be": "exact",
+  "action": "keep",
+  "reason": "Exact product SDS."
+ },
+ {
+  "file": "pdf/materials/M40_BETAPRIME_TDS_EQUIV.pdf",
+  "url": "https://dupont.materialdatacenter.com/gb/products/pdf/US/BETAPRIME%E2%84%A2%205504G%20NO%20SHAKE-gb-US.pdf",
+  "ids": [
+   40
+  ],
+  "verdict": "match",
+  "actual_document": "DuPont (Material Data Center) Technical Data Sheet 'BETAPRIME 5504G NO SHAKE' - black one-step polyisocyanate/carbon-black adhesion-promoting primer for enamelled/laminated glass and plastics in glass replacement; revised 2024-07-01; EN; 3 pp",
+  "suggested_title": "DuPont BETAPRIME 5504G NO SHAKE black glass primer - Technical Data Sheet (EN, rev. 2024-07-01)",
+  "doc_type": "TDS",
+  "language": "en",
+  "version_date": "rev. 2024-07-01",
+  "class_ok": false,
+  "label_should_be": "equivalent",
+  "action": "remove",
+  "reason": "Black glass/frit primer (the Primer-206 G+P function), not a clear cleaner/activator; BETAPRIME 100-UZ is confirmed as Sika Aktivator-100."
+ },
+ {
+  "file": "pdf/materials/M40_BETAPRIME_PDS_2.pdf",
+  "url": "https://bgr.sika.com/dam/dms/bg01/k/sika_aktivator-100.pdf",
+  "ids": [
+   40
+  ],
+  "verdict": "partial",
+  "actual_document": "Sika Bulgaria 'Лист с технически данни' Sika Aktivator-100, редакция 02.01 (01-2020), bg_BG - Bulgarian only, superseded edition; 2 pp",
+  "suggested_title": "Sika Aktivator-100 - Лист с технически данни (Sika Bulgaria, BG, v02.01, 2020-01)",
+  "doc_type": "PDS",
+  "language": "bg",
+  "version_date": "v02.01 (01-2020)",
+  "class_ok": true,
+  "label_should_be": "exact",
+  "action": "remove",
+  "reason": "Exact product, but Bulgarian only (labelled bg/en) and superseded (v02.01, 2020) by the EN v05.01 (2023) already kept - no added value."
+ },
+ {
+  "file": "pdf/materials/M40_BETAPRIME_PDS_3.pdf",
+  "url": "https://cze.sika.com/dam/dms/cz01/v/sika-aktivator-100.pdf",
+  "ids": [
+   40,
+   41
+  ],
+  "verdict": "match",
+  "actual_document": "Sika CZ 'Produktovy list' Sika Aktivator-100, verze 05.01 (10-2023), cs_CZ - Czech translation of the current PDS; 2 pp",
+  "suggested_title": "Sika Aktivator-100 - Produktovy list (Sika CZ, CS, v05.01, 2023-10)",
+  "doc_type": "PDS",
+  "language": "cs",
+  "version_date": "v05.01 (10-2023)",
+  "class_ok": true,
+  "label_should_be": "exact",
+  "action": "keep",
+  "reason": "Exact product, current edition; Czech translation of the EN PDS (redundant). Equivalent only for id 41."
+ },
+ {
+  "file": "pdf/materials/M40_BETAPRIME_PDS_4.pdf",
+  "url": "https://industry.sika.com/dam/dms/dk01/w/sika_aktivator-100.pdf",
+  "ids": [
+   40
+  ],
+  "verdict": "partial",
+  "actual_document": "Sika Danmark 'Produktdatablad' Sika Aktivator-100, version 05.01 (12-2023), da_DK - Danish only; 2 pp",
+  "suggested_title": "Sika Aktivator-100 - Produktdatablad (Sika Danmark, DA, v05.01, 2023-12)",
+  "doc_type": "PDS",
+  "language": "da",
+  "version_date": "v05.01 (12-2023)",
+  "class_ok": true,
+  "label_should_be": "exact",
+  "action": "relabel",
+  "reason": "Exact product, but Danish only (labelled da/en); redundant translation of the EN PDS."
+ },
+ {
+  "file": "pdf/materials/M42_LUBRICANT_WHL_PILOT_HOLE_TDS_EQUIV.pdf",
+  "url": "https://www.dupont.com/content/dam/Dupont2.0/Products/transportation/Literature/Downloaded-TDS/MOLYKOTE%20M-77%20Solid%20Lubricant%20Paste%2071-0186F-01.pdf",
+  "ids": [
+   42
+  ],
+  "verdict": "match",
+  "actual_document": "DuPont MOLYKOTE M-77 Solid Lubricant Paste data sheet (form 71-0186F-01) - MoS2 paste with polyphenylmethylsiloxane oil and lithium soap, -45 to +230 C (dry film to +400 C); (c) 1997-2019; EN; 2 pp",
+  "suggested_title": "MOLYKOTE M-77 Solid Lubricant Paste - Technical Data Sheet (DuPont, EN, form 71-0186F-01, 2019)",
+  "doc_type": "TDS",
+  "language": "en",
+  "version_date": "form 71-0186F-01, (c) 2019",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "keep",
+  "reason": "MoS2 assembly/anti-seize paste used by GM (ACDelco M-77) on hub surfaces - right class for the wheel pilot-hole lubricant."
+ },
+ {
+  "file": "pdf/materials/M42_LUBRICANT_WHL_PILOT_HOLE_paper_EQUIV.pdf",
+  "url": "https://static.nhtsa.gov/odi/tsbs/2017/MC-10126105-9999.pdf",
+  "ids": [
+   42
+  ],
+  "verdict": "match",
+  "actual_document": "GM Service Bulletin 17-NA-235 (July 2017; NHTSA copy MC-10126105) 'Clicking Noise from Front Axle During Takeoff/Acceleration', 2015-17 Chevrolet City Express - apply ACDelco M-77 paste (P/N 19356408/19356409) to the front wheel hub bearing surface; EN; 2 pp",
+  "suggested_title": "GM Service Bulletin 17-NA-235 - Front-axle clicking: apply ACDelco M-77 paste to hub bearing surface (EN, 2017-07)",
+  "doc_type": "bulletin",
+  "language": "en",
+  "version_date": "2017-07",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "remove",
+  "reason": "Service bulletin, not a passport; only shows GM uses M-77 at the axle/hub-bearing interface (not the wheel pilot hole); the M-77 TDS is already kept."
+ },
+ {
+  "file": "pdf/materials/M43_LUBRICANT_CLU_PLT_HUB_M_T_brochure_EQUIV.pdf",
+  "url": "https://www.klueber.com/ecoma/files/B082003002_Driving-Kluber-Lubrication.pdf",
+  "ids": [
+   43
+  ],
+  "verdict": "match",
+  "actual_document": "Klueber Lubrication brochure B082003002 'Driving with Klueber Lubrication - Speciality lubricants for the automotive industry', edition 05.16 (replaces 09.14), single-page layout; names MICROLUBE GNY 202 for spline shafts ('minimises tribocorrosion') and lists it for drive-shaft and transmission spline shafts in the application matrix; EN; 28 pp",
+  "suggested_title": "Klueber 'Speciality lubricants for the automotive industry' brochure B082003002, ed. 05.16 (EN) - lists MICROLUBE GNY 202 for spline shafts",
+  "doc_type": "brochure",
+  "language": "en",
+  "version_date": "Edition 05.16",
+  "class_ok": true,
+  "label_should_be": "exact",
+  "action": "relabel",
+  "reason": "GNY 202 listing now confirmed in the text, so the brochure covers the exact product (label exact) - but it is a range brochure, not a GNY 202 PDS/SDS. Keep this copy; the two 15-page copies are duplicates."
+ },
+ {
+  "file": "pdf/materials/M43_LUBRICANT_CLU_PLT_HUB_M_T_brochure_EQUIV_2.pdf",
+  "url": "https://www.klueber.com/ecoma/files/B082003002_automotivebroschuere_EN_160523_SCREEN.pdf",
+  "ids": [
+   43
+  ],
+  "verdict": "match",
+  "actual_document": "Same Klueber brochure B082003002 ed. 05.16 in spread layout (15 pp, file 'automotivebroschuere_EN_160523_SCREEN'); text identical to ...brochure_EQUIV_3; lists MICROLUBE GNY 202 for spline shafts; EN",
+  "suggested_title": "Klueber 'Speciality lubricants for the automotive industry' B082003002, ed. 05.16 (EN, spread layout) - duplicate",
+  "doc_type": "brochure",
+  "language": "en",
+  "version_date": "Edition 05.16",
+  "class_ok": true,
+  "label_should_be": "exact",
+  "action": "remove",
+  "reason": "Duplicate: same edition as ...brochure_EQUIV.pdf (kept) and text-identical to ...brochure_EQUIV_3."
+ },
+ {
+  "file": "pdf/materials/M43_LUBRICANT_CLU_PLT_HUB_M_T_paper_EQUIV.pdf",
+  "url": "https://www.techtips.ie/LuK/how-to-grease-clutch-hubs.pdf",
+  "ids": [
+   43
+  ],
+  "verdict": "match",
+  "actual_document": "Schaeffler/LuK aftermarket 'Service Info: How to grease clutch hubs' - 1-page guidance (one drop of MoS2 grease, e.g. Castrol Olista Longtime 2/3, on hub splines; nickel-plated hubs must not be greased); EN",
+  "suggested_title": "LuK (Schaeffler) Service Info - How to grease clutch hubs (EN, c. 2015)",
+  "doc_type": "bulletin",
+  "language": "en",
+  "version_date": "undated (PDF 2015-05-05)",
+  "class_ok": true,
+  "label_should_be": "equivalent",
+  "action": "remove",
+  "reason": "Generic aftermarket service tip, not a passport; recommends Castrol Olista, not MICROLUBE GNY 202."
+ },
+ {
+  "file": "pdf/materials/M43_LUBRICANT_CLU_PLT_HUB_M_T_brochure_EQUIV_3.pdf",
+  "url": "https://www.klueber.com/ecoma/files/B082003002_Automotive_160531_EN.pdf",
+  "ids": [
+   43
+  ],
+  "verdict": "match",
+  "actual_document": "Same Klueber brochure B082003002 ed. 05.16 in spread layout (15 pp, file 'Automotive_160531_EN'); text identical to ...brochure_EQUIV_2; EN",
+  "suggested_title": "Klueber 'Speciality lubricants for the automotive industry' B082003002, ed. 05.16 (EN, spread layout) - duplicate",
+  "doc_type": "brochure",
+  "language": "en",
+  "version_date": "Edition 05.16",
+  "class_ok": true,
+  "label_should_be": "exact",
+  "action": "remove",
+  "reason": "Duplicate of ...brochure_EQUIV_2 (identical text) and of the kept ...brochure_EQUIV.pdf."
+ }
+]

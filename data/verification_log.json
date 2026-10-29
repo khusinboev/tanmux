@@ -1,0 +1,2746 @@
+[
+ {
+  "id": 1,
+  "field": "material_docs",
+  "url": "https://www.osti.gov/etdeweb/servlets/purl/20671858",
+  "action": "relabel",
+  "reason": "Content confirmed (PPG authors; names CHEMFOS 700 series tricationic phosphate) but it is a research paper, not a brochure: change type brochure->paper. Family/identity evidence only, no 740R product data."
+ },
+ {
+  "id": 1,
+  "field": "material_docs",
+  "url": "https://datasheets.tdx.henkel.com/BONDERITE-M-ZN-952-A-en_GL.pdf",
+  "action": "keep",
+  "reason": "Right class (tricationic zinc phosphate before e-coat); competitor equivalent of CHEMFOS 740R; covers the whole 952 process (A make-up, R1 replenisher, AD 132, AD 565)."
+ },
+ {
+  "id": 1,
+  "field": "material_docs",
+  "url": "https://datasheets.tdx.henkel.com/BONDERITE-M-ZN-952-R1-en_GL.pdf",
+  "action": "keep",
+  "reason": "Right class; replenisher grade = closest functional analogue if 740R 'R' means replenisher. Text largely duplicates the 952 A TDS."
+ },
+ {
+  "id": 1,
+  "field": "material_docs",
+  "url": "https://datasheets.tdx.henkel.com/BONDERITE-M-ZN-1994-R4-en_GL.pdf",
+  "action": "keep",
+  "reason": "Right class (tricationic dip zinc phosphate for pre-ED); competitor equivalent."
+ },
+ {
+  "id": 1,
+  "field": "equipment_docs",
+  "url": "https://www.olpidurr.it/fileadmin/olpidurr.it/01_Products/01_Paint_Shops/03_PT_EC/01_Bath_Cleaning/02_EcoMultiCyclone/brochure-ecopaint-wetsystem.pdf",
+  "action": "keep",
+  "reason": "Genuine Dürr PT/ED product-line brochure. RoDip is one section, not a RoDip-only sheet, alongside ED rectifier/anode control and UF. It fits the phosphate PT stage (id 1) and the ED binder/paste dip tank (ids 2-3). The catalog title is only the file name; use the suggested title."
+ },
+ {
+  "id": 2,
+  "field": "material_docs",
+  "url": "https://www.charlottepipe.com/uploads/documents/technical/SDS-CR686A-Resin.pdf",
+  "action": "keep",
+  "reason": "Cathodic e-coat binder component - right class for ED7010 Binder; PPG is only a candidate supplier, so equivalent."
+ },
+ {
+  "id": 2,
+  "field": "material_docs",
+  "url": "https://promo.basf.com/campaign/tasa/fichas-tecnicas/Ficha%20T%c3%a9cnica%20-%20CathoGuard%c2%ae%20580%20e%20800%20RE%20.pdf",
+  "action": "keep",
+  "reason": "Two-component cathodic e-coat (emulsion + paste) - right class for both binder and paste; grey 800 RE is the closest colour match."
+ },
+ {
+  "id": 2,
+  "field": "material_docs",
+  "url": "https://secure.axalta.com/content/dam/EMEA/Industrial-Liquid-Coatings-EMEA/EN/Public/Documents/Aqua-EC-ecoat/Electrocoat-Aqua-EC-3000-EN.pdf",
+  "action": "keep",
+  "reason": "Cathodic 2-pack epoxy e-coat (binder + paste) - right class; a parts/general-industrial grade, not a body-OEM e-coat; product bulletin rather than full TDS."
+ },
+ {
+  "id": 2,
+  "field": "material_docs",
+  "url": "https://www.charlottepipe.com/uploads/documents/technical/SDS-CR100.pdf",
+  "action": "keep",
+  "reason": "Cathodic epoxy e-coat - right class; composition is a resin/binder component, so it fits id 2 better than id 3 (CP491 is the paste equivalent)."
+ },
+ {
+  "id": 2,
+  "field": "equipment_docs",
+  "url": "https://www.olpidurr.it/fileadmin/olpidurr.it/01_Products/01_Paint_Shops/03_PT_EC/01_Bath_Cleaning/02_EcoMultiCyclone/brochure-ecopaint-wetsystem.pdf",
+  "action": "keep",
+  "reason": "Genuine Dürr PT/ED product-line brochure. RoDip is one section, not a RoDip-only sheet, alongside ED rectifier/anode control and UF. It fits the phosphate PT stage (id 1) and the ED binder/paste dip tank (ids 2-3). The catalog title is only the file name; use the suggested title."
+ },
+ {
+  "id": 2,
+  "field": "equipment_docs",
+  "url": "https://www.trystar.com/wp-content/uploads/Series_50_Brochure.pdf",
+  "action": "keep",
+  "reason": "Brochure for the exact model, with specs. An e-coat DC rectifier with amp-hour based 2-component (resin + paste) feed-pump control directly matches ED7010 binder (id 2) and paste (id 3)."
+ },
+ {
+  "id": 2,
+  "field": "equipment_docs",
+  "url": "https://www.trystar.com/wp-content/uploads/document-library/Trystar_-S50-107649.pdf",
+  "action": "relabel",
+  "reason": "Right Series 50 rectifier family, but this is the Model 506 owner's (O&M) manual, not a datasheet. Change the type from datasheet to manual and replace the meaningless title 'Trystar S50 107649'."
+ },
+ {
+  "id": 3,
+  "field": "material_docs",
+  "url": "https://www.charlottepipe.com/uploads/documents/technical/SDS-CP491.pdf",
+  "action": "keep",
+  "reason": "Cathodic e-coat pigment paste - right class for ED7010 Paste; black, not grey, so equivalent only."
+ },
+ {
+  "id": 3,
+  "field": "material_docs",
+  "url": "https://promo.basf.com/campaign/tasa/fichas-tecnicas/Ficha%20T%c3%a9cnica%20-%20CathoGuard%c2%ae%20580%20e%20800%20RE%20.pdf",
+  "action": "keep",
+  "reason": "Two-component cathodic e-coat (emulsion + paste) - right class for both binder and paste; grey 800 RE is the closest colour match."
+ },
+ {
+  "id": 3,
+  "field": "material_docs",
+  "url": "https://secure.axalta.com/content/dam/EMEA/Industrial-Liquid-Coatings-EMEA/EN/Public/Documents/Aqua-EC-ecoat/Electrocoat-Aqua-EC-3000-EN.pdf",
+  "action": "keep",
+  "reason": "Cathodic 2-pack epoxy e-coat (binder + paste) - right class; a parts/general-industrial grade, not a body-OEM e-coat; product bulletin rather than full TDS."
+ },
+ {
+  "id": 3,
+  "field": "material_docs",
+  "url": "https://www.charlottepipe.com/uploads/documents/technical/SDS-CR100.pdf",
+  "action": "keep",
+  "reason": "Cathodic epoxy e-coat - right class; composition is a resin/binder component, so it fits id 2 better than id 3 (CP491 is the paste equivalent)."
+ },
+ {
+  "id": 3,
+  "field": "equipment_docs",
+  "url": "https://www.olpidurr.it/fileadmin/olpidurr.it/01_Products/01_Paint_Shops/03_PT_EC/01_Bath_Cleaning/02_EcoMultiCyclone/brochure-ecopaint-wetsystem.pdf",
+  "action": "keep",
+  "reason": "Genuine Dürr PT/ED product-line brochure. RoDip is one section, not a RoDip-only sheet, alongside ED rectifier/anode control and UF. It fits the phosphate PT stage (id 1) and the ED binder/paste dip tank (ids 2-3). The catalog title is only the file name; use the suggested title."
+ },
+ {
+  "id": 3,
+  "field": "equipment_docs",
+  "url": "https://www.trystar.com/wp-content/uploads/Series_50_Brochure.pdf",
+  "action": "keep",
+  "reason": "Brochure for the exact model, with specs. An e-coat DC rectifier with amp-hour based 2-component (resin + paste) feed-pump control directly matches ED7010 binder (id 2) and paste (id 3)."
+ },
+ {
+  "id": 3,
+  "field": "equipment_docs",
+  "url": "https://www.trystar.com/wp-content/uploads/document-library/Trystar_-S50-107649.pdf",
+  "action": "relabel",
+  "reason": "Right Series 50 rectifier family, but this is the Model 506 owner's (O&M) manual, not a datasheet. Change the type from datasheet to manual and replace the meaningless title 'Trystar S50 107649'."
+ },
+ {
+  "id": 4,
+  "field": "material_docs",
+  "url": "https://datasheets.tdx.henkel.com/TEROSON-PV-3046-en_GL.pdf",
+  "action": "keep",
+  "reason": "PVC plastisol body seam sealer - right class for RSB-430 (GVH-403U); competitor equivalent."
+ },
+ {
+  "id": 4,
+  "field": "material_docs",
+  "url": "https://www.rudolphbros.com/customer/docs/skudocs/438-teroson-pv-434-1-tds.pdf",
+  "action": "keep",
+  "reason": "PVC plastisol body sealer - right class; older (2013) bulletin, distributor-hosted."
+ },
+ {
+  "id": 4,
+  "field": "equipment_docs",
+  "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6853RU-G.pdf",
+  "action": "keep",
+  "reason": "Right model and a real O&M/parts manual. A 200 L drum ram supply for medium/high-viscosity sealants fits the PVC sealer/UBC/anti-chip drums (ids 4-7). The Russian may help plant staff, but an English master exists: add it, and replace the catalog's dead gww.graco.com URL for 3A6331EN-L (network_error)."
+ },
+ {
+  "id": 4,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/05_Sealing_Gluing_Technology/03_Gluing_Application_Technology_Battery_Systems/duerr-datsheet-endless-dosing-en.pdf",
+  "action": "keep",
+  "reason": "This is the claimed model sheet. Dosing of highly viscous 1K sealing compounds suits PVC seam sealer (id 4) and high-volume UBC feed (ids 5-7). It is a weak passport: aimed at battery/body gluing, never mentions PVC or the paint shop, and gives no numeric specs."
+ },
+ {
+  "id": 4,
+  "field": "equipment_docs",
+  "url": "https://airless.es/manuales/graco/309374r.pdf",
+  "action": "keep",
+  "reason": "Manual for the exact model. Robot-interfaced, flow-controlled sealant dispensing suits PVC seam sealer and sound-deadener/anti-chip beads (ids 4-7). It is a legacy product and an old revision on a third-party host, so prefer a graco.com copy if one turns up."
+ },
+ {
+  "id": 4,
+  "field": "equipment_docs",
+  "url": "https://shopit.atlascopco.com/content/dam/atlas-copco/industrial-technique/general/documents/pocketguides/Atlas%20Copco-DT-9833%202169%2001-2019DE.pdf",
+  "action": "remove",
+  "reason": "A generic educational guide to dispensing technology, not a datasheet or manual for any SCA model, and in German. The catalog's doc number is also wrong (printed 9833 2169 04)."
+ },
+ {
+  "id": 4,
+  "field": "equipment_docs",
+  "url": "https://reframed.durr.com/fileadmin/user_upload/images/2026/Dispensing_product_catalog/durr-dispensing-product-catalog-2026.pdf",
+  "action": "relabel",
+  "reason": "Real Dürr catalog with technical data and order numbers. EcoRAM 200 + EcoShot Meter2 1K is suitable supply/dosing for 1K PVC seam sealer. But it covers body-shop/final-assembly adhesive dispensing: no PVC, underbody or paint-shop sealing applicator and no EcoGun2 3D. Drop '(sealing & PVC underbody)' from the model and the EcoGun2 3D note. Its EcoGun2 C glazing applicator also fits id 36."
+ },
+ {
+  "id": 4,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/05_Sealing_Gluing_Technology/03_Gluing_Application_Technology_Battery_Systems/duerr-datsheet-endless-dosing-de.pdf",
+  "action": "remove",
+  "reason": "German duplicate of the EN datasheet that is already in the catalog and downloaded."
+ },
+ {
+  "id": 4,
+  "field": "equipment_docs",
+  "url": "https://graco.com/content/dam/graco/tech_documents/manuals/3A5/3A5423/3A5423EN.pdf",
+  "action": "keep",
+  "reason": "Manual for the exact model, but it covers only the air-motor drive of a sealer/airless pump. Pair it with a pump or package manual (334645 King, 311762 Xtreme, 311825 Dura-Flo lowers) as the main passport for PVC supply/spray (ids 4-7)."
+ },
+ {
+  "id": 4,
+  "field": "equipment_docs",
+  "url": "https://shopit.atlascopco.com/content/dam/atlas-copco/industrial-technique/general/documents/brochures-leaflets/joining-solutions/LASD_Leaflet_2019_EN.pdf",
+  "action": "remove",
+  "reason": "Same vendor and platform, but the leaflet covers only LASD (water-based acrylic sound damper). The plant list has no LASD material, and there is no model data for PVC seam-sealer or UBC equipment (ids 4-6)."
+ },
+ {
+  "id": 5,
+  "field": "material_docs",
+  "url": "https://global.honda/jp/technical-review/PDF/004/004_174.pdf",
+  "action": "keep",
+  "reason": "Right class (OEM PVC plastisol UBC with anti-chip performance) and real formulation data, but a 1992 R&D paper, not a passport - reference only; ids 5/6/7 still lack a PVC UBC/anti-chip TDS or SDS."
+ },
+ {
+  "id": 5,
+  "field": "equipment_docs",
+  "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6853RU-G.pdf",
+  "action": "keep",
+  "reason": "Right model and a real O&M/parts manual. A 200 L drum ram supply for medium/high-viscosity sealants fits the PVC sealer/UBC/anti-chip drums (ids 4-7). The Russian may help plant staff, but an English master exists: add it, and replace the catalog's dead gww.graco.com URL for 3A6331EN-L (network_error)."
+ },
+ {
+  "id": 5,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/05_Sealing_Gluing_Technology/03_Gluing_Application_Technology_Battery_Systems/duerr-datsheet-endless-dosing-en.pdf",
+  "action": "keep",
+  "reason": "This is the claimed model sheet. Dosing of highly viscous 1K sealing compounds suits PVC seam sealer (id 4) and high-volume UBC feed (ids 5-7). It is a weak passport: aimed at battery/body gluing, never mentions PVC or the paint shop, and gives no numeric specs."
+ },
+ {
+  "id": 5,
+  "field": "equipment_docs",
+  "url": "https://airless.es/manuales/graco/309374r.pdf",
+  "action": "keep",
+  "reason": "Manual for the exact model. Robot-interfaced, flow-controlled sealant dispensing suits PVC seam sealer and sound-deadener/anti-chip beads (ids 4-7). It is a legacy product and an old revision on a third-party host, so prefer a graco.com copy if one turns up."
+ },
+ {
+  "id": 5,
+  "field": "equipment_docs",
+  "url": "https://shopit.atlascopco.com/content/dam/atlas-copco/industrial-technique/general/documents/pocketguides/Atlas%20Copco-DT-9833%202169%2001-2019DE.pdf",
+  "action": "remove",
+  "reason": "A generic educational guide to dispensing technology, not a datasheet or manual for any SCA model, and in German. The catalog's doc number is also wrong (printed 9833 2169 04)."
+ },
+ {
+  "id": 5,
+  "field": "equipment_docs",
+  "url": "https://reframed.durr.com/fileadmin/user_upload/images/2026/Dispensing_product_catalog/durr-dispensing-product-catalog-2026.pdf",
+  "action": "relabel",
+  "reason": "Real Dürr catalog with technical data and order numbers. EcoRAM 200 + EcoShot Meter2 1K is suitable supply/dosing for 1K PVC seam sealer. But it covers body-shop/final-assembly adhesive dispensing: no PVC, underbody or paint-shop sealing applicator and no EcoGun2 3D. Drop '(sealing & PVC underbody)' from the model and the EcoGun2 3D note. Its EcoGun2 C glazing applicator also fits id 36."
+ },
+ {
+  "id": 5,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/05_Sealing_Gluing_Technology/03_Gluing_Application_Technology_Battery_Systems/duerr-datsheet-endless-dosing-de.pdf",
+  "action": "remove",
+  "reason": "German duplicate of the EN datasheet that is already in the catalog and downloaded."
+ },
+ {
+  "id": 5,
+  "field": "equipment_docs",
+  "url": "https://graco.com/content/dam/graco/tech_documents/manuals/3A5/3A5423/3A5423EN.pdf",
+  "action": "keep",
+  "reason": "Manual for the exact model, but it covers only the air-motor drive of a sealer/airless pump. Pair it with a pump or package manual (334645 King, 311762 Xtreme, 311825 Dura-Flo lowers) as the main passport for PVC supply/spray (ids 4-7)."
+ },
+ {
+  "id": 5,
+  "field": "equipment_docs",
+  "url": "https://graco.com/content/dam/graco/aftd/literature/brochures/349980/349980ENEU-B.pdf",
+  "action": "keep",
+  "reason": "Brochure for the exact product, with specs and ordering data. A high-ratio airless pump is the right class for spraying PVC underbody/anti-chip (ids 5-7). The brochure targets field protective coatings; a line would use the wall-mount package with automatic airless guns."
+ },
+ {
+  "id": 5,
+  "field": "equipment_docs",
+  "url": "https://graco.com/content/dam/graco/tech_documents/manuals/334/334645/3A7301ES.pdf",
+  "action": "remove",
+  "reason": "Correct manual but in Spanish. The English master 334645EN (also rev K) is verified live on graco.com; use that instead."
+ },
+ {
+  "id": 5,
+  "field": "equipment_docs",
+  "url": "https://graco.com/content/dam/graco/tech_documents/manuals/334/334645/3A7306SV.pdf",
+  "action": "remove",
+  "reason": "Correct manual but in Swedish, which is of no use to the plant. The English master 334645EN rev K is verified live on graco.com; use that instead."
+ },
+ {
+  "id": 5,
+  "field": "equipment_docs",
+  "url": "https://shopit.atlascopco.com/content/dam/atlas-copco/industrial-technique/general/documents/brochures-leaflets/joining-solutions/LASD_Leaflet_2019_EN.pdf",
+  "action": "remove",
+  "reason": "Same vendor and platform, but the leaflet covers only LASD (water-based acrylic sound damper). The plant list has no LASD material, and there is no model data for PVC seam-sealer or UBC equipment (ids 4-6)."
+ },
+ {
+  "id": 6,
+  "field": "material_docs",
+  "url": "https://global.honda/jp/technical-review/PDF/004/004_174.pdf",
+  "action": "keep",
+  "reason": "Right class (OEM PVC plastisol UBC with anti-chip performance) and real formulation data, but a 1992 R&D paper, not a passport - reference only; ids 5/6/7 still lack a PVC UBC/anti-chip TDS or SDS."
+ },
+ {
+  "id": 6,
+  "field": "equipment_docs",
+  "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6853RU-G.pdf",
+  "action": "keep",
+  "reason": "Right model and a real O&M/parts manual. A 200 L drum ram supply for medium/high-viscosity sealants fits the PVC sealer/UBC/anti-chip drums (ids 4-7). The Russian may help plant staff, but an English master exists: add it, and replace the catalog's dead gww.graco.com URL for 3A6331EN-L (network_error)."
+ },
+ {
+  "id": 6,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/05_Sealing_Gluing_Technology/03_Gluing_Application_Technology_Battery_Systems/duerr-datsheet-endless-dosing-en.pdf",
+  "action": "keep",
+  "reason": "This is the claimed model sheet. Dosing of highly viscous 1K sealing compounds suits PVC seam sealer (id 4) and high-volume UBC feed (ids 5-7). It is a weak passport: aimed at battery/body gluing, never mentions PVC or the paint shop, and gives no numeric specs."
+ },
+ {
+  "id": 6,
+  "field": "equipment_docs",
+  "url": "https://airless.es/manuales/graco/309374r.pdf",
+  "action": "keep",
+  "reason": "Manual for the exact model. Robot-interfaced, flow-controlled sealant dispensing suits PVC seam sealer and sound-deadener/anti-chip beads (ids 4-7). It is a legacy product and an old revision on a third-party host, so prefer a graco.com copy if one turns up."
+ },
+ {
+  "id": 6,
+  "field": "equipment_docs",
+  "url": "https://shopit.atlascopco.com/content/dam/atlas-copco/industrial-technique/general/documents/pocketguides/Atlas%20Copco-DT-9833%202169%2001-2019DE.pdf",
+  "action": "remove",
+  "reason": "A generic educational guide to dispensing technology, not a datasheet or manual for any SCA model, and in German. The catalog's doc number is also wrong (printed 9833 2169 04)."
+ },
+ {
+  "id": 6,
+  "field": "equipment_docs",
+  "url": "https://reframed.durr.com/fileadmin/user_upload/images/2026/Dispensing_product_catalog/durr-dispensing-product-catalog-2026.pdf",
+  "action": "relabel",
+  "reason": "Real Dürr catalog with technical data and order numbers. EcoRAM 200 + EcoShot Meter2 1K is suitable supply/dosing for 1K PVC seam sealer. But it covers body-shop/final-assembly adhesive dispensing: no PVC, underbody or paint-shop sealing applicator and no EcoGun2 3D. Drop '(sealing & PVC underbody)' from the model and the EcoGun2 3D note. Its EcoGun2 C glazing applicator also fits id 36."
+ },
+ {
+  "id": 6,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/05_Sealing_Gluing_Technology/03_Gluing_Application_Technology_Battery_Systems/duerr-datsheet-endless-dosing-de.pdf",
+  "action": "remove",
+  "reason": "German duplicate of the EN datasheet that is already in the catalog and downloaded."
+ },
+ {
+  "id": 6,
+  "field": "equipment_docs",
+  "url": "https://graco.com/content/dam/graco/tech_documents/manuals/3A5/3A5423/3A5423EN.pdf",
+  "action": "keep",
+  "reason": "Manual for the exact model, but it covers only the air-motor drive of a sealer/airless pump. Pair it with a pump or package manual (334645 King, 311762 Xtreme, 311825 Dura-Flo lowers) as the main passport for PVC supply/spray (ids 4-7)."
+ },
+ {
+  "id": 6,
+  "field": "equipment_docs",
+  "url": "https://graco.com/content/dam/graco/aftd/literature/brochures/349980/349980ENEU-B.pdf",
+  "action": "keep",
+  "reason": "Brochure for the exact product, with specs and ordering data. A high-ratio airless pump is the right class for spraying PVC underbody/anti-chip (ids 5-7). The brochure targets field protective coatings; a line would use the wall-mount package with automatic airless guns."
+ },
+ {
+  "id": 6,
+  "field": "equipment_docs",
+  "url": "https://graco.com/content/dam/graco/tech_documents/manuals/334/334645/3A7301ES.pdf",
+  "action": "remove",
+  "reason": "Correct manual but in Spanish. The English master 334645EN (also rev K) is verified live on graco.com; use that instead."
+ },
+ {
+  "id": 6,
+  "field": "equipment_docs",
+  "url": "https://graco.com/content/dam/graco/tech_documents/manuals/334/334645/3A7306SV.pdf",
+  "action": "remove",
+  "reason": "Correct manual but in Swedish, which is of no use to the plant. The English master 334645EN rev K is verified live on graco.com; use that instead."
+ },
+ {
+  "id": 6,
+  "field": "equipment_docs",
+  "url": "https://shopit.atlascopco.com/content/dam/atlas-copco/industrial-technique/general/documents/brochures-leaflets/joining-solutions/LASD_Leaflet_2019_EN.pdf",
+  "action": "remove",
+  "reason": "Same vendor and platform, but the leaflet covers only LASD (water-based acrylic sound damper). The plant list has no LASD material, and there is no model data for PVC seam-sealer or UBC equipment (ids 4-6)."
+ },
+ {
+  "id": 7,
+  "field": "material_docs",
+  "url": "https://global.honda/jp/technical-review/PDF/004/004_174.pdf",
+  "action": "keep",
+  "reason": "Right class (OEM PVC plastisol UBC with anti-chip performance) and real formulation data, but a 1992 R&D paper, not a passport - reference only; ids 5/6/7 still lack a PVC UBC/anti-chip TDS or SDS."
+ },
+ {
+  "id": 7,
+  "field": "material_docs",
+  "url": "https://rts.i-car.com/images/pdf/oem-info/chrysler/service-bulletins/13504.pdf",
+  "action": "remove",
+  "reason": "Not a passport: only lists aftermarket bedliner/textured repair coatings (not PVC plastisol); no data for the P8201 PVC anti-chip."
+ },
+ {
+  "id": 7,
+  "field": "equipment_docs",
+  "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6853RU-G.pdf",
+  "action": "keep",
+  "reason": "Right model and a real O&M/parts manual. A 200 L drum ram supply for medium/high-viscosity sealants fits the PVC sealer/UBC/anti-chip drums (ids 4-7). The Russian may help plant staff, but an English master exists: add it, and replace the catalog's dead gww.graco.com URL for 3A6331EN-L (network_error)."
+ },
+ {
+  "id": 7,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/05_Sealing_Gluing_Technology/03_Gluing_Application_Technology_Battery_Systems/duerr-datsheet-endless-dosing-en.pdf",
+  "action": "keep",
+  "reason": "This is the claimed model sheet. Dosing of highly viscous 1K sealing compounds suits PVC seam sealer (id 4) and high-volume UBC feed (ids 5-7). It is a weak passport: aimed at battery/body gluing, never mentions PVC or the paint shop, and gives no numeric specs."
+ },
+ {
+  "id": 7,
+  "field": "equipment_docs",
+  "url": "https://airless.es/manuales/graco/309374r.pdf",
+  "action": "keep",
+  "reason": "Manual for the exact model. Robot-interfaced, flow-controlled sealant dispensing suits PVC seam sealer and sound-deadener/anti-chip beads (ids 4-7). It is a legacy product and an old revision on a third-party host, so prefer a graco.com copy if one turns up."
+ },
+ {
+  "id": 7,
+  "field": "equipment_docs",
+  "url": "https://shopit.atlascopco.com/content/dam/atlas-copco/industrial-technique/general/documents/pocketguides/Atlas%20Copco-DT-9833%202169%2001-2019DE.pdf",
+  "action": "remove",
+  "reason": "A generic educational guide to dispensing technology, not a datasheet or manual for any SCA model, and in German. The catalog's doc number is also wrong (printed 9833 2169 04)."
+ },
+ {
+  "id": 7,
+  "field": "equipment_docs",
+  "url": "https://reframed.durr.com/fileadmin/user_upload/images/2026/Dispensing_product_catalog/durr-dispensing-product-catalog-2026.pdf",
+  "action": "relabel",
+  "reason": "Real Dürr catalog with technical data and order numbers. EcoRAM 200 + EcoShot Meter2 1K is suitable supply/dosing for 1K PVC seam sealer. But it covers body-shop/final-assembly adhesive dispensing: no PVC, underbody or paint-shop sealing applicator and no EcoGun2 3D. Drop '(sealing & PVC underbody)' from the model and the EcoGun2 3D note. Its EcoGun2 C glazing applicator also fits id 36."
+ },
+ {
+  "id": 7,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/05_Sealing_Gluing_Technology/03_Gluing_Application_Technology_Battery_Systems/duerr-datsheet-endless-dosing-de.pdf",
+  "action": "remove",
+  "reason": "German duplicate of the EN datasheet that is already in the catalog and downloaded."
+ },
+ {
+  "id": 7,
+  "field": "equipment_docs",
+  "url": "https://graco.com/content/dam/graco/tech_documents/manuals/3A5/3A5423/3A5423EN.pdf",
+  "action": "keep",
+  "reason": "Manual for the exact model, but it covers only the air-motor drive of a sealer/airless pump. Pair it with a pump or package manual (334645 King, 311762 Xtreme, 311825 Dura-Flo lowers) as the main passport for PVC supply/spray (ids 4-7)."
+ },
+ {
+  "id": 7,
+  "field": "equipment_docs",
+  "url": "https://graco.com/content/dam/graco/aftd/literature/brochures/349980/349980ENEU-B.pdf",
+  "action": "keep",
+  "reason": "Brochure for the exact product, with specs and ordering data. A high-ratio airless pump is the right class for spraying PVC underbody/anti-chip (ids 5-7). The brochure targets field protective coatings; a line would use the wall-mount package with automatic airless guns."
+ },
+ {
+  "id": 7,
+  "field": "equipment_docs",
+  "url": "https://graco.com/content/dam/graco/tech_documents/manuals/334/334645/3A7301ES.pdf",
+  "action": "remove",
+  "reason": "Correct manual but in Spanish. The English master 334645EN (also rev K) is verified live on graco.com; use that instead."
+ },
+ {
+  "id": 7,
+  "field": "equipment_docs",
+  "url": "https://graco.com/content/dam/graco/tech_documents/manuals/334/334645/3A7306SV.pdf",
+  "action": "remove",
+  "reason": "Correct manual but in Swedish, which is of no use to the plant. The English master 334645EN rev K is verified live on graco.com; use that instead."
+ },
+ {
+  "id": 8,
+  "field": "material_docs",
+  "url": "https://vrteotgdakjwbjeugnxx.supabase.co/storage/v1/object/public/product-images/datasheets/kcc/KCC_DATASHEET_US4000_eng.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne primer surfacer from a candidate Korean partner (KCC), but a 2K isocyanate-cured refinish product, whereas CR-100 (no hardener in the plant list) is a 1K baking OEM surfacer."
+ },
+ {
+  "id": 8,
+  "field": "material_docs",
+  "url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F201504150003022kor.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: same as US4000 - 2K refinish surfacer, not the 1K OEM baking CR-100; manufacturer-hosted."
+ },
+ {
+  "id": 8,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. The explosion-protected paint robot fits the solvent-borne primer surfacer, basecoats and clearcoat (ids 8-9, 11-22, 24)."
+ },
+ {
+  "id": 8,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+  "action": "keep",
+  "reason": "Sheet for the exact model. The direct-charge EcoBell3 is the right bell for the solvent-borne primer, base and clear (ids 8-9, 11-22, 24); specify that variant, not E/Ci/Cx (waterborne). For the thinners (ids 10, 23, 26) it is relevant only as the atomizer being flushed."
+ },
+ {
+  "id": 8,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+  "action": "keep",
+  "reason": "Leaflet for the exact model, with specs; an exterior paint robot suitable for primer/base/clear. The catalog types it 'brochure' for ids 8, 9, 24 and 'datasheet' for ids 11-22; use one type ('brochure')."
+ },
+ {
+  "id": 8,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. It largely overlaps the newer RP50010EN Rev. G leaflet; one of the two would be enough."
+ },
+ {
+  "id": 8,
+  "field": "equipment_docs",
+  "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+  "action": "keep",
+  "reason": "Official FANUC spec sheet for the exact model. An explosion-proof paint robot fits the solvent-borne primers, base and clear (alternative vendor, low confidence)."
+ },
+ {
+  "id": 8,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-supply-2-core.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. A supply/stirring station for 200 L drums of paint or thinner fits the mix-room roles (ids 8-10, 23-26). It is a compact general-industry unit, not a full OEM paint-kitchen circulation system."
+ },
+ {
+  "id": 8,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+  "action": "keep",
+  "reason": "Genuine product brochure with technical data, suitable for primer/base/clear robot stations. It shows the older robot generation (EcoRP x33/x133, EcoBell2), not the EcoRP E043i/EcoBell3 named for these ids."
+ },
+ {
+  "id": 8,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model: an internally charged high-flow bell explicitly for solvent-borne primer and base, with clear supported, so it fits ids 8-9, 11-22 and 24. Note that research.equipment names RB1000i, while this sheet is RB1000-SSD/SAD."
+ },
+ {
+  "id": 9,
+  "field": "material_docs",
+  "url": "https://vrteotgdakjwbjeugnxx.supabase.co/storage/v1/object/public/product-images/datasheets/kcc/KCC_DATASHEET_US4000_eng.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne primer surfacer from a candidate Korean partner (KCC), but a 2K isocyanate-cured refinish product, whereas CR-100 (no hardener in the plant list) is a 1K baking OEM surfacer."
+ },
+ {
+  "id": 9,
+  "field": "material_docs",
+  "url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F201504150003022kor.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: same as US4000 - 2K refinish surfacer, not the 1K OEM baking CR-100; manufacturer-hosted."
+ },
+ {
+  "id": 9,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. The explosion-protected paint robot fits the solvent-borne primer surfacer, basecoats and clearcoat (ids 8-9, 11-22, 24)."
+ },
+ {
+  "id": 9,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+  "action": "keep",
+  "reason": "Sheet for the exact model. The direct-charge EcoBell3 is the right bell for the solvent-borne primer, base and clear (ids 8-9, 11-22, 24); specify that variant, not E/Ci/Cx (waterborne). For the thinners (ids 10, 23, 26) it is relevant only as the atomizer being flushed."
+ },
+ {
+  "id": 9,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+  "action": "keep",
+  "reason": "Leaflet for the exact model, with specs; an exterior paint robot suitable for primer/base/clear. The catalog types it 'brochure' for ids 8, 9, 24 and 'datasheet' for ids 11-22; use one type ('brochure')."
+ },
+ {
+  "id": 9,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. It largely overlaps the newer RP50010EN Rev. G leaflet; one of the two would be enough."
+ },
+ {
+  "id": 9,
+  "field": "equipment_docs",
+  "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+  "action": "keep",
+  "reason": "Official FANUC spec sheet for the exact model. An explosion-proof paint robot fits the solvent-borne primers, base and clear (alternative vendor, low confidence)."
+ },
+ {
+  "id": 9,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-supply-2-core.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. A supply/stirring station for 200 L drums of paint or thinner fits the mix-room roles (ids 8-10, 23-26). It is a compact general-industry unit, not a full OEM paint-kitchen circulation system."
+ },
+ {
+  "id": 9,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+  "action": "keep",
+  "reason": "Genuine product brochure with technical data, suitable for primer/base/clear robot stations. It shows the older robot generation (EcoRP x33/x133, EcoBell2), not the EcoRP E043i/EcoBell3 named for these ids."
+ },
+ {
+  "id": 9,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model: an internally charged high-flow bell explicitly for solvent-borne primer and base, with clear supported, so it fits ids 8-9, 11-22 and 24. Note that research.equipment names RB1000i, while this sheet is RB1000-SSD/SAD."
+ },
+ {
+  "id": 10,
+  "field": "material_docs",
+  "url": "https://rusty21.com/wp-content/uploads/2025/04/KCC_MSDS_%EC%97%90%EB%82%98%EB%A9%9C%ED%9D%AC%EC%84%9D%EC%A0%9C012_kor.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne paint thinner (right broad class) but an aliphatic-naphtha alkyd-enamel thinner for general industry, not an OEM primer/base/clear reducer."
+ },
+ {
+  "id": 10,
+  "field": "material_docs",
+  "url": "https://koreascience.kr/article/JAKO200610103460967.pdf",
+  "action": "remove",
+  "reason": "Generic occupational-hygiene survey of retail thinners; no product, not a passport for KR-RHT-051/031 or KR-RBT-029."
+ },
+ {
+  "id": 10,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-supply-2-core.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. A supply/stirring station for 200 L drums of paint or thinner fits the mix-room roles (ids 8-10, 23-26). It is a compact general-industry unit, not a full OEM paint-kitchen circulation system."
+ },
+ {
+  "id": 10,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+  "action": "keep",
+  "reason": "Sheet for the exact model. The direct-charge EcoBell3 is the right bell for the solvent-borne primer, base and clear (ids 8-9, 11-22, 24); specify that variant, not E/Ci/Cx (waterborne). For the thinners (ids 10, 23, 26) it is relevant only as the atomizer being flushed."
+ },
+ {
+  "id": 23,
+  "field": "material_docs",
+  "url": "https://rusty21.com/wp-content/uploads/2025/04/KCC_MSDS_%EC%97%90%EB%82%98%EB%A9%9C%ED%9D%AC%EC%84%9D%EC%A0%9C012_kor.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne paint thinner (right broad class) but an aliphatic-naphtha alkyd-enamel thinner for general industry, not an OEM primer/base/clear reducer."
+ },
+ {
+  "id": 23,
+  "field": "material_docs",
+  "url": "https://www.noroopaint.com/kor/file/prod_file/%EB%85%B8%EB%A3%A8%EB%9D%BC%ED%81%AC_%EC%8B%A0%EB%82%98(%EB%9D%BD%EC%B9%B4_%EC%8B%A0%EB%82%98)_DR-170_GHS-MSDS.pdf",
+  "action": "keep",
+  "reason": "Aromatic/ketone/ester solvent thinner - right class for the cleaning thinner and a loose proxy for the base-type reducer; general-purpose (not OEM-line) and an old 2013 revision."
+ },
+ {
+  "id": 23,
+  "field": "material_docs",
+  "url": "https://koreascience.kr/article/JAKO200610103460967.pdf",
+  "action": "remove",
+  "reason": "Generic occupational-hygiene survey of retail thinners; no product, not a passport for KR-RHT-051/031 or KR-RBT-029."
+ },
+ {
+  "id": 23,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-supply-2-core.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. A supply/stirring station for 200 L drums of paint or thinner fits the mix-room roles (ids 8-10, 23-26). It is a compact general-industry unit, not a full OEM paint-kitchen circulation system."
+ },
+ {
+  "id": 23,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+  "action": "keep",
+  "reason": "Sheet for the exact model. The direct-charge EcoBell3 is the right bell for the solvent-borne primer, base and clear (ids 8-9, 11-22, 24); specify that variant, not E/Ci/Cx (waterborne). For the thinners (ids 10, 23, 26) it is relevant only as the atomizer being flushed."
+ },
+ {
+  "id": 24,
+  "field": "material_docs",
+  "url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F202301250054173eng.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne clearcoat but a 2K isocyanate refinish clear; TOP CLEAR HITEC 2000 (no hardener in the list) is a 1K OEM baking clear."
+ },
+ {
+  "id": 24,
+  "field": "material_docs",
+  "url": "https://www.brandenburg.com/IphonePDF/safety/safety%20data%20sheets/paint%20products.ppg%20industries.amerlock%20aue-40%20clear%20coat.pdf",
+  "action": "keep",
+  "reason": "Solvent-borne OEM clearcoat SDS - best class match among the clear-coat docs; the SDS itself says 'OEM Clearcoat' (host file name 'Amerlock' is wrong); 1K/2K not stated."
+ },
+ {
+  "id": 24,
+  "field": "material_docs",
+  "url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F202007230045276kor.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: 2K refinish clear (not 1K OEM bake); largely redundant with KCC 5200 HS."
+ },
+ {
+  "id": 24,
+  "field": "material_docs",
+  "url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F202007270045330kor.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: 2K refinish clear (not 1K OEM bake); largely redundant with KCC 5200 HS."
+ },
+ {
+  "id": 24,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. The explosion-protected paint robot fits the solvent-borne primer surfacer, basecoats and clearcoat (ids 8-9, 11-22, 24)."
+ },
+ {
+  "id": 24,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+  "action": "keep",
+  "reason": "Sheet for the exact model. The direct-charge EcoBell3 is the right bell for the solvent-borne primer, base and clear (ids 8-9, 11-22, 24); specify that variant, not E/Ci/Cx (waterborne). For the thinners (ids 10, 23, 26) it is relevant only as the atomizer being flushed."
+ },
+ {
+  "id": 24,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+  "action": "keep",
+  "reason": "Leaflet for the exact model, with specs; an exterior paint robot suitable for primer/base/clear. The catalog types it 'brochure' for ids 8, 9, 24 and 'datasheet' for ids 11-22; use one type ('brochure')."
+ },
+ {
+  "id": 24,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. It largely overlaps the newer RP50010EN Rev. G leaflet; one of the two would be enough."
+ },
+ {
+  "id": 24,
+  "field": "equipment_docs",
+  "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+  "action": "keep",
+  "reason": "Official FANUC spec sheet for the exact model. An explosion-proof paint robot fits the solvent-borne primers, base and clear (alternative vendor, low confidence)."
+ },
+ {
+  "id": 24,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-supply-2-core.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. A supply/stirring station for 200 L drums of paint or thinner fits the mix-room roles (ids 8-10, 23-26). It is a compact general-industry unit, not a full OEM paint-kitchen circulation system."
+ },
+ {
+  "id": 24,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+  "action": "keep",
+  "reason": "Genuine product brochure with technical data, suitable for primer/base/clear robot stations. It shows the older robot generation (EcoRP x33/x133, EcoBell2), not the EcoRP E043i/EcoBell3 named for these ids."
+ },
+ {
+  "id": 24,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model: an internally charged high-flow bell explicitly for solvent-borne primer and base, with clear supported, so it fits ids 8-9, 11-22 and 24. Note that research.equipment names RB1000i, while this sheet is RB1000-SSD/SAD."
+ },
+ {
+  "id": 25,
+  "field": "material_docs",
+  "url": "https://rusty21.com/wp-content/uploads/2025/04/KCC_MSDS_%EC%97%90%EB%82%98%EB%A9%9C%ED%9D%AC%EC%84%9D%EC%A0%9C012_kor.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne paint thinner (right broad class) but an aliphatic-naphtha alkyd-enamel thinner for general industry, not an OEM primer/base/clear reducer."
+ },
+ {
+  "id": 25,
+  "field": "material_docs",
+  "url": "https://koreascience.kr/article/JAKO200610103460967.pdf",
+  "action": "remove",
+  "reason": "Generic occupational-hygiene survey of retail thinners; no product, not a passport for KR-RHT-051/031 or KR-RBT-029."
+ },
+ {
+  "id": 25,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-supply-2-core.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. A supply/stirring station for 200 L drums of paint or thinner fits the mix-room roles (ids 8-10, 23-26). It is a compact general-industry unit, not a full OEM paint-kitchen circulation system."
+ },
+ {
+  "id": 26,
+  "field": "material_docs",
+  "url": "https://www.noroopaint.com/kor/file/prod_file/%EB%85%B8%EB%A3%A8%EB%9D%BC%ED%81%AC_%EC%8B%A0%EB%82%98(%EB%9D%BD%EC%B9%B4_%EC%8B%A0%EB%82%98)_DR-170_GHS-MSDS.pdf",
+  "action": "keep",
+  "reason": "Aromatic/ketone/ester solvent thinner - right class for the cleaning thinner and a loose proxy for the base-type reducer; general-purpose (not OEM-line) and an old 2013 revision."
+ },
+ {
+  "id": 26,
+  "field": "material_docs",
+  "url": "https://www.eastman.com/content/dam/eastman/corporate/en/literature/c/coatind20287.pdf",
+  "action": "remove",
+  "reason": "Generic raw-solvent formulator brochure (half a page on purge solvents); no product, composition or hazard data for a cleaning thinner - not a passport."
+ },
+ {
+  "id": 26,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/03_Atomizer_Cleaning/duerr-datasheet-ecobell-cleander-d2-ecobell-purgebox-en.pdf",
+  "action": "keep",
+  "reason": "Sheet for the exact model. Automatic atomizer cleaning with a solvent cleaning agent fits CLEANING THINNER (id 26)."
+ },
+ {
+  "id": 26,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+  "action": "keep",
+  "reason": "Sheet for the exact model. The direct-charge EcoBell3 is the right bell for the solvent-borne primer, base and clear (ids 8-9, 11-22, 24); specify that variant, not E/Ci/Cx (waterborne). For the thinners (ids 10, 23, 26) it is relevant only as the atomizer being flushed."
+ },
+ {
+  "id": 26,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-supply-2-core.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. A supply/stirring station for 200 L drums of paint or thinner fits the mix-room roles (ids 8-10, 23-26). It is a compact general-industry unit, not a full OEM paint-kitchen circulation system."
+ },
+ {
+  "id": 11,
+  "field": "material_docs",
+  "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne basecoat (right coat type) but an air-dry refinish system, not the OEM 2C1B baking line basecoat; shared by all 12 colours."
+ },
+ {
+  "id": 11,
+  "field": "material_docs",
+  "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: refinish solvent-borne basecoat, not the OEM 2C1B line product."
+ },
+ {
+  "id": 11,
+  "field": "material_docs",
+  "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne acrylic basecoat for clear-over-base, refinish/commercial-vehicle use, not the OEM 2C1B line."
+ },
+ {
+  "id": 11,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+  "action": "keep",
+  "reason": "Leaflet for the exact model, with specs; an exterior paint robot suitable for primer/base/clear. The catalog types it 'brochure' for ids 8, 9, 24 and 'datasheet' for ids 11-22; use one type ('brochure')."
+ },
+ {
+  "id": 11,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. It largely overlaps the newer RP50010EN Rev. G leaflet; one of the two would be enough."
+ },
+ {
+  "id": 11,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+  "action": "keep",
+  "reason": "Sheet for the exact model. The direct-charge EcoBell3 is the right bell for the solvent-borne primer, base and clear (ids 8-9, 11-22, 24); specify that variant, not E/Ci/Cx (waterborne). For the thinners (ids 10, 23, 26) it is relevant only as the atomizer being flushed."
+ },
+ {
+  "id": 11,
+  "field": "equipment_docs",
+  "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. A colour changer for solvent-borne topcoats fits the 12 basecoat colours (ids 11-22)."
+ },
+ {
+  "id": 11,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
+  "action": "remove",
+  "reason": "Conference presentation, not a datasheet or brochure. The equipment class (pigged supply for low-volume special colours) does suit the basecoats (ids 11-22). It is the only EcoSupply P file; keep it only as a labelled reference if no datasheet is found."
+ },
+ {
+  "id": 11,
+  "field": "equipment_docs",
+  "url": "https://www.fanucamerica.com/cmsmedia/datasheets/P-250iB_Product Information_330.pdf",
+  "action": "keep",
+  "reason": "Official spec sheet for the exact model ('P-250iB/15' in the catalog is the P-250iB, 15 kg). It overlaps RP-250iB(E)-02a; one of the two is enough."
+ },
+ {
+  "id": 11,
+  "field": "equipment_docs",
+  "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+  "action": "keep",
+  "reason": "Official FANUC spec sheet for the exact model. An explosion-proof paint robot fits the solvent-borne primers, base and clear (alternative vendor, low confidence)."
+ },
+ {
+  "id": 11,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. The explosion-protected paint robot fits the solvent-borne primer surfacer, basecoats and clearcoat (ids 8-9, 11-22, 24)."
+ },
+ {
+  "id": 11,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+  "action": "keep",
+  "reason": "Genuine product brochure with technical data, suitable for primer/base/clear robot stations. It shows the older robot generation (EcoRP x33/x133, EcoBell2), not the EcoRP E043i/EcoBell3 named for these ids."
+ },
+ {
+  "id": 11,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model: an internally charged high-flow bell explicitly for solvent-borne primer and base, with clear supported, so it fits ids 8-9, 11-22 and 24. Note that research.equipment names RB1000i, while this sheet is RB1000-SSD/SAD."
+ },
+ {
+  "id": 12,
+  "field": "material_docs",
+  "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne basecoat (right coat type) but an air-dry refinish system, not the OEM 2C1B baking line basecoat; shared by all 12 colours."
+ },
+ {
+  "id": 12,
+  "field": "material_docs",
+  "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: refinish solvent-borne basecoat, not the OEM 2C1B line product."
+ },
+ {
+  "id": 12,
+  "field": "material_docs",
+  "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne acrylic basecoat for clear-over-base, refinish/commercial-vehicle use, not the OEM 2C1B line."
+ },
+ {
+  "id": 12,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+  "action": "keep",
+  "reason": "Leaflet for the exact model, with specs; an exterior paint robot suitable for primer/base/clear. The catalog types it 'brochure' for ids 8, 9, 24 and 'datasheet' for ids 11-22; use one type ('brochure')."
+ },
+ {
+  "id": 12,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. It largely overlaps the newer RP50010EN Rev. G leaflet; one of the two would be enough."
+ },
+ {
+  "id": 12,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+  "action": "keep",
+  "reason": "Sheet for the exact model. The direct-charge EcoBell3 is the right bell for the solvent-borne primer, base and clear (ids 8-9, 11-22, 24); specify that variant, not E/Ci/Cx (waterborne). For the thinners (ids 10, 23, 26) it is relevant only as the atomizer being flushed."
+ },
+ {
+  "id": 12,
+  "field": "equipment_docs",
+  "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. A colour changer for solvent-borne topcoats fits the 12 basecoat colours (ids 11-22)."
+ },
+ {
+  "id": 12,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
+  "action": "remove",
+  "reason": "Conference presentation, not a datasheet or brochure. The equipment class (pigged supply for low-volume special colours) does suit the basecoats (ids 11-22). It is the only EcoSupply P file; keep it only as a labelled reference if no datasheet is found."
+ },
+ {
+  "id": 12,
+  "field": "equipment_docs",
+  "url": "https://www.fanucamerica.com/cmsmedia/datasheets/P-250iB_Product Information_330.pdf",
+  "action": "keep",
+  "reason": "Official spec sheet for the exact model ('P-250iB/15' in the catalog is the P-250iB, 15 kg). It overlaps RP-250iB(E)-02a; one of the two is enough."
+ },
+ {
+  "id": 12,
+  "field": "equipment_docs",
+  "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+  "action": "keep",
+  "reason": "Official FANUC spec sheet for the exact model. An explosion-proof paint robot fits the solvent-borne primers, base and clear (alternative vendor, low confidence)."
+ },
+ {
+  "id": 12,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. The explosion-protected paint robot fits the solvent-borne primer surfacer, basecoats and clearcoat (ids 8-9, 11-22, 24)."
+ },
+ {
+  "id": 12,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+  "action": "keep",
+  "reason": "Genuine product brochure with technical data, suitable for primer/base/clear robot stations. It shows the older robot generation (EcoRP x33/x133, EcoBell2), not the EcoRP E043i/EcoBell3 named for these ids."
+ },
+ {
+  "id": 12,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model: an internally charged high-flow bell explicitly for solvent-borne primer and base, with clear supported, so it fits ids 8-9, 11-22 and 24. Note that research.equipment names RB1000i, while this sheet is RB1000-SSD/SAD."
+ },
+ {
+  "id": 13,
+  "field": "material_docs",
+  "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne basecoat (right coat type) but an air-dry refinish system, not the OEM 2C1B baking line basecoat; shared by all 12 colours."
+ },
+ {
+  "id": 13,
+  "field": "material_docs",
+  "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: refinish solvent-borne basecoat, not the OEM 2C1B line product."
+ },
+ {
+  "id": 13,
+  "field": "material_docs",
+  "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne acrylic basecoat for clear-over-base, refinish/commercial-vehicle use, not the OEM 2C1B line."
+ },
+ {
+  "id": 13,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+  "action": "keep",
+  "reason": "Leaflet for the exact model, with specs; an exterior paint robot suitable for primer/base/clear. The catalog types it 'brochure' for ids 8, 9, 24 and 'datasheet' for ids 11-22; use one type ('brochure')."
+ },
+ {
+  "id": 13,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. It largely overlaps the newer RP50010EN Rev. G leaflet; one of the two would be enough."
+ },
+ {
+  "id": 13,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+  "action": "keep",
+  "reason": "Sheet for the exact model. The direct-charge EcoBell3 is the right bell for the solvent-borne primer, base and clear (ids 8-9, 11-22, 24); specify that variant, not E/Ci/Cx (waterborne). For the thinners (ids 10, 23, 26) it is relevant only as the atomizer being flushed."
+ },
+ {
+  "id": 13,
+  "field": "equipment_docs",
+  "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. A colour changer for solvent-borne topcoats fits the 12 basecoat colours (ids 11-22)."
+ },
+ {
+  "id": 13,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
+  "action": "remove",
+  "reason": "Conference presentation, not a datasheet or brochure. The equipment class (pigged supply for low-volume special colours) does suit the basecoats (ids 11-22). It is the only EcoSupply P file; keep it only as a labelled reference if no datasheet is found."
+ },
+ {
+  "id": 13,
+  "field": "equipment_docs",
+  "url": "https://www.fanucamerica.com/cmsmedia/datasheets/P-250iB_Product Information_330.pdf",
+  "action": "keep",
+  "reason": "Official spec sheet for the exact model ('P-250iB/15' in the catalog is the P-250iB, 15 kg). It overlaps RP-250iB(E)-02a; one of the two is enough."
+ },
+ {
+  "id": 13,
+  "field": "equipment_docs",
+  "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+  "action": "keep",
+  "reason": "Official FANUC spec sheet for the exact model. An explosion-proof paint robot fits the solvent-borne primers, base and clear (alternative vendor, low confidence)."
+ },
+ {
+  "id": 13,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. The explosion-protected paint robot fits the solvent-borne primer surfacer, basecoats and clearcoat (ids 8-9, 11-22, 24)."
+ },
+ {
+  "id": 13,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+  "action": "keep",
+  "reason": "Genuine product brochure with technical data, suitable for primer/base/clear robot stations. It shows the older robot generation (EcoRP x33/x133, EcoBell2), not the EcoRP E043i/EcoBell3 named for these ids."
+ },
+ {
+  "id": 13,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model: an internally charged high-flow bell explicitly for solvent-borne primer and base, with clear supported, so it fits ids 8-9, 11-22 and 24. Note that research.equipment names RB1000i, while this sheet is RB1000-SSD/SAD."
+ },
+ {
+  "id": 14,
+  "field": "material_docs",
+  "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne basecoat (right coat type) but an air-dry refinish system, not the OEM 2C1B baking line basecoat; shared by all 12 colours."
+ },
+ {
+  "id": 14,
+  "field": "material_docs",
+  "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: refinish solvent-borne basecoat, not the OEM 2C1B line product."
+ },
+ {
+  "id": 14,
+  "field": "material_docs",
+  "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne acrylic basecoat for clear-over-base, refinish/commercial-vehicle use, not the OEM 2C1B line."
+ },
+ {
+  "id": 14,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+  "action": "keep",
+  "reason": "Leaflet for the exact model, with specs; an exterior paint robot suitable for primer/base/clear. The catalog types it 'brochure' for ids 8, 9, 24 and 'datasheet' for ids 11-22; use one type ('brochure')."
+ },
+ {
+  "id": 14,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. It largely overlaps the newer RP50010EN Rev. G leaflet; one of the two would be enough."
+ },
+ {
+  "id": 14,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+  "action": "keep",
+  "reason": "Sheet for the exact model. The direct-charge EcoBell3 is the right bell for the solvent-borne primer, base and clear (ids 8-9, 11-22, 24); specify that variant, not E/Ci/Cx (waterborne). For the thinners (ids 10, 23, 26) it is relevant only as the atomizer being flushed."
+ },
+ {
+  "id": 14,
+  "field": "equipment_docs",
+  "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. A colour changer for solvent-borne topcoats fits the 12 basecoat colours (ids 11-22)."
+ },
+ {
+  "id": 14,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
+  "action": "remove",
+  "reason": "Conference presentation, not a datasheet or brochure. The equipment class (pigged supply for low-volume special colours) does suit the basecoats (ids 11-22). It is the only EcoSupply P file; keep it only as a labelled reference if no datasheet is found."
+ },
+ {
+  "id": 14,
+  "field": "equipment_docs",
+  "url": "https://www.fanucamerica.com/cmsmedia/datasheets/P-250iB_Product Information_330.pdf",
+  "action": "keep",
+  "reason": "Official spec sheet for the exact model ('P-250iB/15' in the catalog is the P-250iB, 15 kg). It overlaps RP-250iB(E)-02a; one of the two is enough."
+ },
+ {
+  "id": 14,
+  "field": "equipment_docs",
+  "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+  "action": "keep",
+  "reason": "Official FANUC spec sheet for the exact model. An explosion-proof paint robot fits the solvent-borne primers, base and clear (alternative vendor, low confidence)."
+ },
+ {
+  "id": 14,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. The explosion-protected paint robot fits the solvent-borne primer surfacer, basecoats and clearcoat (ids 8-9, 11-22, 24)."
+ },
+ {
+  "id": 14,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+  "action": "keep",
+  "reason": "Genuine product brochure with technical data, suitable for primer/base/clear robot stations. It shows the older robot generation (EcoRP x33/x133, EcoBell2), not the EcoRP E043i/EcoBell3 named for these ids."
+ },
+ {
+  "id": 14,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model: an internally charged high-flow bell explicitly for solvent-borne primer and base, with clear supported, so it fits ids 8-9, 11-22 and 24. Note that research.equipment names RB1000i, while this sheet is RB1000-SSD/SAD."
+ },
+ {
+  "id": 15,
+  "field": "material_docs",
+  "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne basecoat (right coat type) but an air-dry refinish system, not the OEM 2C1B baking line basecoat; shared by all 12 colours."
+ },
+ {
+  "id": 15,
+  "field": "material_docs",
+  "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: refinish solvent-borne basecoat, not the OEM 2C1B line product."
+ },
+ {
+  "id": 15,
+  "field": "material_docs",
+  "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne acrylic basecoat for clear-over-base, refinish/commercial-vehicle use, not the OEM 2C1B line."
+ },
+ {
+  "id": 15,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+  "action": "keep",
+  "reason": "Leaflet for the exact model, with specs; an exterior paint robot suitable for primer/base/clear. The catalog types it 'brochure' for ids 8, 9, 24 and 'datasheet' for ids 11-22; use one type ('brochure')."
+ },
+ {
+  "id": 15,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. It largely overlaps the newer RP50010EN Rev. G leaflet; one of the two would be enough."
+ },
+ {
+  "id": 15,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+  "action": "keep",
+  "reason": "Sheet for the exact model. The direct-charge EcoBell3 is the right bell for the solvent-borne primer, base and clear (ids 8-9, 11-22, 24); specify that variant, not E/Ci/Cx (waterborne). For the thinners (ids 10, 23, 26) it is relevant only as the atomizer being flushed."
+ },
+ {
+  "id": 15,
+  "field": "equipment_docs",
+  "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. A colour changer for solvent-borne topcoats fits the 12 basecoat colours (ids 11-22)."
+ },
+ {
+  "id": 15,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
+  "action": "remove",
+  "reason": "Conference presentation, not a datasheet or brochure. The equipment class (pigged supply for low-volume special colours) does suit the basecoats (ids 11-22). It is the only EcoSupply P file; keep it only as a labelled reference if no datasheet is found."
+ },
+ {
+  "id": 15,
+  "field": "equipment_docs",
+  "url": "https://www.fanucamerica.com/cmsmedia/datasheets/P-250iB_Product Information_330.pdf",
+  "action": "keep",
+  "reason": "Official spec sheet for the exact model ('P-250iB/15' in the catalog is the P-250iB, 15 kg). It overlaps RP-250iB(E)-02a; one of the two is enough."
+ },
+ {
+  "id": 15,
+  "field": "equipment_docs",
+  "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+  "action": "keep",
+  "reason": "Official FANUC spec sheet for the exact model. An explosion-proof paint robot fits the solvent-borne primers, base and clear (alternative vendor, low confidence)."
+ },
+ {
+  "id": 15,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. The explosion-protected paint robot fits the solvent-borne primer surfacer, basecoats and clearcoat (ids 8-9, 11-22, 24)."
+ },
+ {
+  "id": 15,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+  "action": "keep",
+  "reason": "Genuine product brochure with technical data, suitable for primer/base/clear robot stations. It shows the older robot generation (EcoRP x33/x133, EcoBell2), not the EcoRP E043i/EcoBell3 named for these ids."
+ },
+ {
+  "id": 15,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model: an internally charged high-flow bell explicitly for solvent-borne primer and base, with clear supported, so it fits ids 8-9, 11-22 and 24. Note that research.equipment names RB1000i, while this sheet is RB1000-SSD/SAD."
+ },
+ {
+  "id": 16,
+  "field": "material_docs",
+  "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne basecoat (right coat type) but an air-dry refinish system, not the OEM 2C1B baking line basecoat; shared by all 12 colours."
+ },
+ {
+  "id": 16,
+  "field": "material_docs",
+  "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: refinish solvent-borne basecoat, not the OEM 2C1B line product."
+ },
+ {
+  "id": 16,
+  "field": "material_docs",
+  "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne acrylic basecoat for clear-over-base, refinish/commercial-vehicle use, not the OEM 2C1B line."
+ },
+ {
+  "id": 16,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+  "action": "keep",
+  "reason": "Leaflet for the exact model, with specs; an exterior paint robot suitable for primer/base/clear. The catalog types it 'brochure' for ids 8, 9, 24 and 'datasheet' for ids 11-22; use one type ('brochure')."
+ },
+ {
+  "id": 16,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. It largely overlaps the newer RP50010EN Rev. G leaflet; one of the two would be enough."
+ },
+ {
+  "id": 16,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+  "action": "keep",
+  "reason": "Sheet for the exact model. The direct-charge EcoBell3 is the right bell for the solvent-borne primer, base and clear (ids 8-9, 11-22, 24); specify that variant, not E/Ci/Cx (waterborne). For the thinners (ids 10, 23, 26) it is relevant only as the atomizer being flushed."
+ },
+ {
+  "id": 16,
+  "field": "equipment_docs",
+  "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. A colour changer for solvent-borne topcoats fits the 12 basecoat colours (ids 11-22)."
+ },
+ {
+  "id": 16,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
+  "action": "remove",
+  "reason": "Conference presentation, not a datasheet or brochure. The equipment class (pigged supply for low-volume special colours) does suit the basecoats (ids 11-22). It is the only EcoSupply P file; keep it only as a labelled reference if no datasheet is found."
+ },
+ {
+  "id": 16,
+  "field": "equipment_docs",
+  "url": "https://www.fanucamerica.com/cmsmedia/datasheets/P-250iB_Product Information_330.pdf",
+  "action": "keep",
+  "reason": "Official spec sheet for the exact model ('P-250iB/15' in the catalog is the P-250iB, 15 kg). It overlaps RP-250iB(E)-02a; one of the two is enough."
+ },
+ {
+  "id": 16,
+  "field": "equipment_docs",
+  "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+  "action": "keep",
+  "reason": "Official FANUC spec sheet for the exact model. An explosion-proof paint robot fits the solvent-borne primers, base and clear (alternative vendor, low confidence)."
+ },
+ {
+  "id": 16,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. The explosion-protected paint robot fits the solvent-borne primer surfacer, basecoats and clearcoat (ids 8-9, 11-22, 24)."
+ },
+ {
+  "id": 16,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+  "action": "keep",
+  "reason": "Genuine product brochure with technical data, suitable for primer/base/clear robot stations. It shows the older robot generation (EcoRP x33/x133, EcoBell2), not the EcoRP E043i/EcoBell3 named for these ids."
+ },
+ {
+  "id": 16,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model: an internally charged high-flow bell explicitly for solvent-borne primer and base, with clear supported, so it fits ids 8-9, 11-22 and 24. Note that research.equipment names RB1000i, while this sheet is RB1000-SSD/SAD."
+ },
+ {
+  "id": 17,
+  "field": "material_docs",
+  "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne basecoat (right coat type) but an air-dry refinish system, not the OEM 2C1B baking line basecoat; shared by all 12 colours."
+ },
+ {
+  "id": 17,
+  "field": "material_docs",
+  "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: refinish solvent-borne basecoat, not the OEM 2C1B line product."
+ },
+ {
+  "id": 17,
+  "field": "material_docs",
+  "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne acrylic basecoat for clear-over-base, refinish/commercial-vehicle use, not the OEM 2C1B line."
+ },
+ {
+  "id": 17,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+  "action": "keep",
+  "reason": "Leaflet for the exact model, with specs; an exterior paint robot suitable for primer/base/clear. The catalog types it 'brochure' for ids 8, 9, 24 and 'datasheet' for ids 11-22; use one type ('brochure')."
+ },
+ {
+  "id": 17,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. It largely overlaps the newer RP50010EN Rev. G leaflet; one of the two would be enough."
+ },
+ {
+  "id": 17,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+  "action": "keep",
+  "reason": "Sheet for the exact model. The direct-charge EcoBell3 is the right bell for the solvent-borne primer, base and clear (ids 8-9, 11-22, 24); specify that variant, not E/Ci/Cx (waterborne). For the thinners (ids 10, 23, 26) it is relevant only as the atomizer being flushed."
+ },
+ {
+  "id": 17,
+  "field": "equipment_docs",
+  "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. A colour changer for solvent-borne topcoats fits the 12 basecoat colours (ids 11-22)."
+ },
+ {
+  "id": 17,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
+  "action": "remove",
+  "reason": "Conference presentation, not a datasheet or brochure. The equipment class (pigged supply for low-volume special colours) does suit the basecoats (ids 11-22). It is the only EcoSupply P file; keep it only as a labelled reference if no datasheet is found."
+ },
+ {
+  "id": 17,
+  "field": "equipment_docs",
+  "url": "https://www.fanucamerica.com/cmsmedia/datasheets/P-250iB_Product Information_330.pdf",
+  "action": "keep",
+  "reason": "Official spec sheet for the exact model ('P-250iB/15' in the catalog is the P-250iB, 15 kg). It overlaps RP-250iB(E)-02a; one of the two is enough."
+ },
+ {
+  "id": 17,
+  "field": "equipment_docs",
+  "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+  "action": "keep",
+  "reason": "Official FANUC spec sheet for the exact model. An explosion-proof paint robot fits the solvent-borne primers, base and clear (alternative vendor, low confidence)."
+ },
+ {
+  "id": 17,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. The explosion-protected paint robot fits the solvent-borne primer surfacer, basecoats and clearcoat (ids 8-9, 11-22, 24)."
+ },
+ {
+  "id": 17,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+  "action": "keep",
+  "reason": "Genuine product brochure with technical data, suitable for primer/base/clear robot stations. It shows the older robot generation (EcoRP x33/x133, EcoBell2), not the EcoRP E043i/EcoBell3 named for these ids."
+ },
+ {
+  "id": 17,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model: an internally charged high-flow bell explicitly for solvent-borne primer and base, with clear supported, so it fits ids 8-9, 11-22 and 24. Note that research.equipment names RB1000i, while this sheet is RB1000-SSD/SAD."
+ },
+ {
+  "id": 18,
+  "field": "material_docs",
+  "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne basecoat (right coat type) but an air-dry refinish system, not the OEM 2C1B baking line basecoat; shared by all 12 colours."
+ },
+ {
+  "id": 18,
+  "field": "material_docs",
+  "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: refinish solvent-borne basecoat, not the OEM 2C1B line product."
+ },
+ {
+  "id": 18,
+  "field": "material_docs",
+  "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne acrylic basecoat for clear-over-base, refinish/commercial-vehicle use, not the OEM 2C1B line."
+ },
+ {
+  "id": 18,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+  "action": "keep",
+  "reason": "Leaflet for the exact model, with specs; an exterior paint robot suitable for primer/base/clear. The catalog types it 'brochure' for ids 8, 9, 24 and 'datasheet' for ids 11-22; use one type ('brochure')."
+ },
+ {
+  "id": 18,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. It largely overlaps the newer RP50010EN Rev. G leaflet; one of the two would be enough."
+ },
+ {
+  "id": 18,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+  "action": "keep",
+  "reason": "Sheet for the exact model. The direct-charge EcoBell3 is the right bell for the solvent-borne primer, base and clear (ids 8-9, 11-22, 24); specify that variant, not E/Ci/Cx (waterborne). For the thinners (ids 10, 23, 26) it is relevant only as the atomizer being flushed."
+ },
+ {
+  "id": 18,
+  "field": "equipment_docs",
+  "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. A colour changer for solvent-borne topcoats fits the 12 basecoat colours (ids 11-22)."
+ },
+ {
+  "id": 18,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
+  "action": "remove",
+  "reason": "Conference presentation, not a datasheet or brochure. The equipment class (pigged supply for low-volume special colours) does suit the basecoats (ids 11-22). It is the only EcoSupply P file; keep it only as a labelled reference if no datasheet is found."
+ },
+ {
+  "id": 18,
+  "field": "equipment_docs",
+  "url": "https://www.fanucamerica.com/cmsmedia/datasheets/P-250iB_Product Information_330.pdf",
+  "action": "keep",
+  "reason": "Official spec sheet for the exact model ('P-250iB/15' in the catalog is the P-250iB, 15 kg). It overlaps RP-250iB(E)-02a; one of the two is enough."
+ },
+ {
+  "id": 18,
+  "field": "equipment_docs",
+  "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+  "action": "keep",
+  "reason": "Official FANUC spec sheet for the exact model. An explosion-proof paint robot fits the solvent-borne primers, base and clear (alternative vendor, low confidence)."
+ },
+ {
+  "id": 18,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. The explosion-protected paint robot fits the solvent-borne primer surfacer, basecoats and clearcoat (ids 8-9, 11-22, 24)."
+ },
+ {
+  "id": 18,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+  "action": "keep",
+  "reason": "Genuine product brochure with technical data, suitable for primer/base/clear robot stations. It shows the older robot generation (EcoRP x33/x133, EcoBell2), not the EcoRP E043i/EcoBell3 named for these ids."
+ },
+ {
+  "id": 18,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model: an internally charged high-flow bell explicitly for solvent-borne primer and base, with clear supported, so it fits ids 8-9, 11-22 and 24. Note that research.equipment names RB1000i, while this sheet is RB1000-SSD/SAD."
+ },
+ {
+  "id": 19,
+  "field": "material_docs",
+  "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne basecoat (right coat type) but an air-dry refinish system, not the OEM 2C1B baking line basecoat; shared by all 12 colours."
+ },
+ {
+  "id": 19,
+  "field": "material_docs",
+  "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: refinish solvent-borne basecoat, not the OEM 2C1B line product."
+ },
+ {
+  "id": 19,
+  "field": "material_docs",
+  "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne acrylic basecoat for clear-over-base, refinish/commercial-vehicle use, not the OEM 2C1B line."
+ },
+ {
+  "id": 19,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+  "action": "keep",
+  "reason": "Leaflet for the exact model, with specs; an exterior paint robot suitable for primer/base/clear. The catalog types it 'brochure' for ids 8, 9, 24 and 'datasheet' for ids 11-22; use one type ('brochure')."
+ },
+ {
+  "id": 19,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. It largely overlaps the newer RP50010EN Rev. G leaflet; one of the two would be enough."
+ },
+ {
+  "id": 19,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+  "action": "keep",
+  "reason": "Sheet for the exact model. The direct-charge EcoBell3 is the right bell for the solvent-borne primer, base and clear (ids 8-9, 11-22, 24); specify that variant, not E/Ci/Cx (waterborne). For the thinners (ids 10, 23, 26) it is relevant only as the atomizer being flushed."
+ },
+ {
+  "id": 19,
+  "field": "equipment_docs",
+  "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. A colour changer for solvent-borne topcoats fits the 12 basecoat colours (ids 11-22)."
+ },
+ {
+  "id": 19,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
+  "action": "remove",
+  "reason": "Conference presentation, not a datasheet or brochure. The equipment class (pigged supply for low-volume special colours) does suit the basecoats (ids 11-22). It is the only EcoSupply P file; keep it only as a labelled reference if no datasheet is found."
+ },
+ {
+  "id": 19,
+  "field": "equipment_docs",
+  "url": "https://www.fanucamerica.com/cmsmedia/datasheets/P-250iB_Product Information_330.pdf",
+  "action": "keep",
+  "reason": "Official spec sheet for the exact model ('P-250iB/15' in the catalog is the P-250iB, 15 kg). It overlaps RP-250iB(E)-02a; one of the two is enough."
+ },
+ {
+  "id": 19,
+  "field": "equipment_docs",
+  "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+  "action": "keep",
+  "reason": "Official FANUC spec sheet for the exact model. An explosion-proof paint robot fits the solvent-borne primers, base and clear (alternative vendor, low confidence)."
+ },
+ {
+  "id": 19,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. The explosion-protected paint robot fits the solvent-borne primer surfacer, basecoats and clearcoat (ids 8-9, 11-22, 24)."
+ },
+ {
+  "id": 19,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+  "action": "keep",
+  "reason": "Genuine product brochure with technical data, suitable for primer/base/clear robot stations. It shows the older robot generation (EcoRP x33/x133, EcoBell2), not the EcoRP E043i/EcoBell3 named for these ids."
+ },
+ {
+  "id": 19,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model: an internally charged high-flow bell explicitly for solvent-borne primer and base, with clear supported, so it fits ids 8-9, 11-22 and 24. Note that research.equipment names RB1000i, while this sheet is RB1000-SSD/SAD."
+ },
+ {
+  "id": 20,
+  "field": "material_docs",
+  "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne basecoat (right coat type) but an air-dry refinish system, not the OEM 2C1B baking line basecoat; shared by all 12 colours."
+ },
+ {
+  "id": 20,
+  "field": "material_docs",
+  "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: refinish solvent-borne basecoat, not the OEM 2C1B line product."
+ },
+ {
+  "id": 20,
+  "field": "material_docs",
+  "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne acrylic basecoat for clear-over-base, refinish/commercial-vehicle use, not the OEM 2C1B line."
+ },
+ {
+  "id": 20,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+  "action": "keep",
+  "reason": "Leaflet for the exact model, with specs; an exterior paint robot suitable for primer/base/clear. The catalog types it 'brochure' for ids 8, 9, 24 and 'datasheet' for ids 11-22; use one type ('brochure')."
+ },
+ {
+  "id": 20,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. It largely overlaps the newer RP50010EN Rev. G leaflet; one of the two would be enough."
+ },
+ {
+  "id": 20,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+  "action": "keep",
+  "reason": "Sheet for the exact model. The direct-charge EcoBell3 is the right bell for the solvent-borne primer, base and clear (ids 8-9, 11-22, 24); specify that variant, not E/Ci/Cx (waterborne). For the thinners (ids 10, 23, 26) it is relevant only as the atomizer being flushed."
+ },
+ {
+  "id": 20,
+  "field": "equipment_docs",
+  "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. A colour changer for solvent-borne topcoats fits the 12 basecoat colours (ids 11-22)."
+ },
+ {
+  "id": 20,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
+  "action": "remove",
+  "reason": "Conference presentation, not a datasheet or brochure. The equipment class (pigged supply for low-volume special colours) does suit the basecoats (ids 11-22). It is the only EcoSupply P file; keep it only as a labelled reference if no datasheet is found."
+ },
+ {
+  "id": 20,
+  "field": "equipment_docs",
+  "url": "https://www.fanucamerica.com/cmsmedia/datasheets/P-250iB_Product Information_330.pdf",
+  "action": "keep",
+  "reason": "Official spec sheet for the exact model ('P-250iB/15' in the catalog is the P-250iB, 15 kg). It overlaps RP-250iB(E)-02a; one of the two is enough."
+ },
+ {
+  "id": 20,
+  "field": "equipment_docs",
+  "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+  "action": "keep",
+  "reason": "Official FANUC spec sheet for the exact model. An explosion-proof paint robot fits the solvent-borne primers, base and clear (alternative vendor, low confidence)."
+ },
+ {
+  "id": 20,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. The explosion-protected paint robot fits the solvent-borne primer surfacer, basecoats and clearcoat (ids 8-9, 11-22, 24)."
+ },
+ {
+  "id": 20,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+  "action": "keep",
+  "reason": "Genuine product brochure with technical data, suitable for primer/base/clear robot stations. It shows the older robot generation (EcoRP x33/x133, EcoBell2), not the EcoRP E043i/EcoBell3 named for these ids."
+ },
+ {
+  "id": 20,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model: an internally charged high-flow bell explicitly for solvent-borne primer and base, with clear supported, so it fits ids 8-9, 11-22 and 24. Note that research.equipment names RB1000i, while this sheet is RB1000-SSD/SAD."
+ },
+ {
+  "id": 21,
+  "field": "material_docs",
+  "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne basecoat (right coat type) but an air-dry refinish system, not the OEM 2C1B baking line basecoat; shared by all 12 colours."
+ },
+ {
+  "id": 21,
+  "field": "material_docs",
+  "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: refinish solvent-borne basecoat, not the OEM 2C1B line product."
+ },
+ {
+  "id": 21,
+  "field": "material_docs",
+  "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne acrylic basecoat for clear-over-base, refinish/commercial-vehicle use, not the OEM 2C1B line."
+ },
+ {
+  "id": 21,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+  "action": "keep",
+  "reason": "Leaflet for the exact model, with specs; an exterior paint robot suitable for primer/base/clear. The catalog types it 'brochure' for ids 8, 9, 24 and 'datasheet' for ids 11-22; use one type ('brochure')."
+ },
+ {
+  "id": 21,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. It largely overlaps the newer RP50010EN Rev. G leaflet; one of the two would be enough."
+ },
+ {
+  "id": 21,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+  "action": "keep",
+  "reason": "Sheet for the exact model. The direct-charge EcoBell3 is the right bell for the solvent-borne primer, base and clear (ids 8-9, 11-22, 24); specify that variant, not E/Ci/Cx (waterborne). For the thinners (ids 10, 23, 26) it is relevant only as the atomizer being flushed."
+ },
+ {
+  "id": 21,
+  "field": "equipment_docs",
+  "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. A colour changer for solvent-borne topcoats fits the 12 basecoat colours (ids 11-22)."
+ },
+ {
+  "id": 21,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
+  "action": "remove",
+  "reason": "Conference presentation, not a datasheet or brochure. The equipment class (pigged supply for low-volume special colours) does suit the basecoats (ids 11-22). It is the only EcoSupply P file; keep it only as a labelled reference if no datasheet is found."
+ },
+ {
+  "id": 21,
+  "field": "equipment_docs",
+  "url": "https://www.fanucamerica.com/cmsmedia/datasheets/P-250iB_Product Information_330.pdf",
+  "action": "keep",
+  "reason": "Official spec sheet for the exact model ('P-250iB/15' in the catalog is the P-250iB, 15 kg). It overlaps RP-250iB(E)-02a; one of the two is enough."
+ },
+ {
+  "id": 21,
+  "field": "equipment_docs",
+  "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+  "action": "keep",
+  "reason": "Official FANUC spec sheet for the exact model. An explosion-proof paint robot fits the solvent-borne primers, base and clear (alternative vendor, low confidence)."
+ },
+ {
+  "id": 21,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. The explosion-protected paint robot fits the solvent-borne primer surfacer, basecoats and clearcoat (ids 8-9, 11-22, 24)."
+ },
+ {
+  "id": 21,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+  "action": "keep",
+  "reason": "Genuine product brochure with technical data, suitable for primer/base/clear robot stations. It shows the older robot generation (EcoRP x33/x133, EcoBell2), not the EcoRP E043i/EcoBell3 named for these ids."
+ },
+ {
+  "id": 21,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model: an internally charged high-flow bell explicitly for solvent-borne primer and base, with clear supported, so it fits ids 8-9, 11-22 and 24. Note that research.equipment names RB1000i, while this sheet is RB1000-SSD/SAD."
+ },
+ {
+  "id": 22,
+  "field": "material_docs",
+  "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne basecoat (right coat type) but an air-dry refinish system, not the OEM 2C1B baking line basecoat; shared by all 12 colours."
+ },
+ {
+  "id": 22,
+  "field": "material_docs",
+  "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: refinish solvent-borne basecoat, not the OEM 2C1B line product."
+ },
+ {
+  "id": 22,
+  "field": "material_docs",
+  "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: solvent-borne acrylic basecoat for clear-over-base, refinish/commercial-vehicle use, not the OEM 2C1B line."
+ },
+ {
+  "id": 22,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/396b885928754b56867a589c03bd43ab/IRB5500-Flex-RP50010EN-Rev.G.pdf",
+  "action": "keep",
+  "reason": "Leaflet for the exact model, with specs; an exterior paint robot suitable for primer/base/clear. The catalog types it 'brochure' for ids 8, 9, 24 and 'datasheet' for ids 11-22; use one type ('brochure')."
+ },
+ {
+  "id": 22,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/439e4e0991f741c48d0189710ac6edd4/IRB%205500-22_Datasheet_US%20Letter.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. It largely overlaps the newer RP50010EN Rev. G leaflet; one of the two would be enough."
+ },
+ {
+  "id": 22,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/01_EcoBell_Rotary_Atomizer/duerr-datasheet-ecobell3-en.pdf",
+  "action": "keep",
+  "reason": "Sheet for the exact model. The direct-charge EcoBell3 is the right bell for the solvent-borne primer, base and clear (ids 8-9, 11-22, 24); specify that variant, not E/Ci/Cx (waterborne). For the thinners (ids 10, 23, 26) it is relevant only as the atomizer being flushed."
+ },
+ {
+  "id": 22,
+  "field": "equipment_docs",
+  "url": "https://durr.com/fileadmin/durr.com/09_MISC/19_Digital_Press_Kit/duerr-eco-mcc-3-20.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. A colour changer for solvent-borne topcoats fits the 12 basecoat colours (ids 11-22)."
+ },
+ {
+  "id": 22,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/08_Special_Events/03_ready2integrate_2019/duerr-Station-EcoSupplyP-BasicSinglePass.pdf",
+  "action": "remove",
+  "reason": "Conference presentation, not a datasheet or brochure. The equipment class (pigged supply for low-volume special colours) does suit the basecoats (ids 11-22). It is the only EcoSupply P file; keep it only as a labelled reference if no datasheet is found."
+ },
+ {
+  "id": 22,
+  "field": "equipment_docs",
+  "url": "https://www.fanucamerica.com/cmsmedia/datasheets/P-250iB_Product Information_330.pdf",
+  "action": "keep",
+  "reason": "Official spec sheet for the exact model ('P-250iB/15' in the catalog is the P-250iB, 15 kg). It overlaps RP-250iB(E)-02a; one of the two is enough."
+ },
+ {
+  "id": 22,
+  "field": "equipment_docs",
+  "url": "https://www.fanuc.co.jp/en/product/catalog/pdf/robot/RP-250iB(E)-02a.pdf",
+  "action": "keep",
+  "reason": "Official FANUC spec sheet for the exact model. An explosion-proof paint robot fits the solvent-borne primers, base and clear (alternative vendor, low confidence)."
+ },
+ {
+  "id": 22,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model. The explosion-protected paint robot fits the solvent-borne primer surfacer, basecoats and clearcoat (ids 8-9, 11-22, 24)."
+ },
+ {
+  "id": 22,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-brochure-ecopaint-robot-painting-stations.pdf",
+  "action": "keep",
+  "reason": "Genuine product brochure with technical data, suitable for primer/base/clear robot stations. It shows the older robot generation (EcoRP x33/x133, EcoBell2), not the EcoRP E043i/EcoBell3 named for these ids."
+ },
+ {
+  "id": 22,
+  "field": "equipment_docs",
+  "url": "https://library.e.abb.com/public/1894573e3e0340d7b96810831a530a47/RB%201000-SSD.pdf",
+  "action": "keep",
+  "reason": "Datasheet for the exact model: an internally charged high-flow bell explicitly for solvent-borne primer and base, with clear supported, so it fits ids 8-9, 11-22 and 24. Note that research.equipment names RB1000i, while this sheet is RB1000-SSD/SAD."
+ },
+ {
+  "id": 27,
+  "field": "material_docs",
+  "url": "https://www.q8oils.com/wp-content/uploads/2025/11/Q8-Brake-Fluid-DOT-4plus_en.pdf",
+  "action": "keep",
+  "reason": "DOT 4 Plus brake fluid - right class for DOT-4+ CROWN; not the Kukdong product."
+ },
+ {
+  "id": 27,
+  "field": "material_docs",
+  "url": "https://www.dascochem.co.kr/docs/dasco-bf-dot4-msds.pdf",
+  "action": "keep",
+  "reason": "Korean DOT 4 brake fluid SDS - right class."
+ },
+ {
+  "id": 27,
+  "field": "material_docs",
+  "url": "https://christensenusa.com/wp-content/uploads/2026/03/Recochem-Brake-Fluid-DOT4-5-4-2017.pdf",
+  "action": "keep",
+  "reason": "DOT 4 brake fluid SDS - right class."
+ },
+ {
+  "id": 27,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/duerr-brochure-NEXT.assembly-english-low.pdf",
+  "action": "remove",
+  "reason": "General final-assembly portfolio brochure, not a filling-machine passport, and superseded by the 2026 edition already in the catalog. Somac vacuum/pressure filling is the right class for brake fluid, PSF, coolant, A/C, oils and washer, but there are no specs, and fuel (id 34) is not mentioned."
+ },
+ {
+  "id": 27,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
+  "action": "remove",
+  "reason": "Portfolio overview, not a passport: one page on Somac filling, with no specs. Dürr Somac is the right equipment class for ids 27-35, but the catalog has no Somac ProLine Cube or G4 adapter datasheet. If a reference link is wanted, keep only this newest edition, labelled 'portfolio brochure, not a passport'."
+ },
+ {
+  "id": 27,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
+  "action": "remove",
+  "reason": "A software customer case study, not a filling-equipment passport. It documents recipe/analytics software only and does not cover fuel, oils or washer (ids 30-32, 34, 35)."
+ },
+ {
+  "id": 27,
+  "field": "equipment_docs",
+  "url": "https://www.twinengineers.com/wp-content/uploads/2024/07/Oil-Filling-Brochure.pdf",
+  "action": "keep",
+  "reason": "Genuine product-range brochure with per-machine specs but no model numbers. It covers brake fluid, PSF, coolant, gearbox oils, A/C charging and washer (ids 27-33, 35). Correctly not attached to gasoline (id 34), since it covers diesel only. Alternative vendor, low confidence."
+ },
+ {
+  "id": 28,
+  "field": "material_docs",
+  "url": "https://shop.sclubricants.com/pub/media/pds/pennzoil/Pennzoil-ATF-Dexron-VI-Technical-Datasheet.pdf",
+  "action": "keep",
+  "reason": "Dexron-VI ATF that explicitly cites GMN10060 - right class for ids 28 and 32."
+ },
+ {
+  "id": 28,
+  "field": "material_docs",
+  "url": "https://www.ravenol.de/storage/app/uploads/share/SDB/Sdb_RAVENOL%20ATF%20DEXRON%20VI_1211105_en_ALL.pdf",
+  "action": "keep",
+  "reason": "Dexron-VI ATF SDS - right class."
+ },
+ {
+  "id": 28,
+  "field": "material_docs",
+  "url": "https://acdelco.com.au/gm-b2cau/cms/pdf/SDS/LQ9RG_DEXRON%20VI%20PREMIUM%20FULL%20SYNTHETIC%20TRANSMISSION%20FLUID.pdf",
+  "action": "keep",
+  "reason": "GM/ACDelco Dexron-VI ATF SDS - right class."
+ },
+ {
+  "id": 28,
+  "field": "material_docs",
+  "url": "https://acdelco.com.au/gm-b2cau/cms/pdf/Flyers/ACDelco%20Dexron%20VI%20Premium%20Full%20Synthetic%20ATF%20Sell%20Sheet.pdf",
+  "action": "keep",
+  "reason": "Right class (Dexron-VI ATF, also listed for power steering); a sell sheet with typical properties rather than a full TDS."
+ },
+ {
+  "id": 28,
+  "field": "material_docs",
+  "url": "https://seattleautomotive.com/files/SDS/88861046%20dexron%20vi%20atf.pdf",
+  "action": "keep",
+  "reason": "GM-genuine Dexron-VI fluid SDS - right class; closest to the factory fill."
+ },
+ {
+  "id": 28,
+  "field": "material_docs",
+  "url": "https://uploads-ssl.webflow.com/5d513e6ea4a37093208cabb2/5e958119bb64f4d142e866cf_DEXRON%20%5ER%5E%20VI%20ATF.PDF",
+  "action": "keep",
+  "reason": "Right class; EU edition of the same Petro-Canada SDS as ...SDS_EQUIV_6 (US v4.0)."
+ },
+ {
+  "id": 28,
+  "field": "material_docs",
+  "url": "https://evosupplygroupcatalog.sfo3.digitaloceanspaces.com/brands/files/Petro%20Canada/DEX6C16-sds.pdf",
+  "action": "keep",
+  "reason": "Dexron-VI ATF SDS - right class."
+ },
+ {
+  "id": 28,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/duerr-brochure-NEXT.assembly-english-low.pdf",
+  "action": "remove",
+  "reason": "General final-assembly portfolio brochure, not a filling-machine passport, and superseded by the 2026 edition already in the catalog. Somac vacuum/pressure filling is the right class for brake fluid, PSF, coolant, A/C, oils and washer, but there are no specs, and fuel (id 34) is not mentioned."
+ },
+ {
+  "id": 28,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
+  "action": "remove",
+  "reason": "Portfolio overview, not a passport: one page on Somac filling, with no specs. Dürr Somac is the right equipment class for ids 27-35, but the catalog has no Somac ProLine Cube or G4 adapter datasheet. If a reference link is wanted, keep only this newest edition, labelled 'portfolio brochure, not a passport'."
+ },
+ {
+  "id": 28,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
+  "action": "remove",
+  "reason": "A software customer case study, not a filling-equipment passport. It documents recipe/analytics software only and does not cover fuel, oils or washer (ids 30-32, 34, 35)."
+ },
+ {
+  "id": 28,
+  "field": "equipment_docs",
+  "url": "https://www.twinengineers.com/wp-content/uploads/2024/07/Oil-Filling-Brochure.pdf",
+  "action": "keep",
+  "reason": "Genuine product-range brochure with per-machine specs but no model numbers. It covers brake fluid, PSF, coolant, gearbox oils, A/C charging and washer (ids 27-33, 35). Correctly not attached to gasoline (id 34), since it covers diesel only. Alternative vendor, low confidence."
+ },
+ {
+  "id": 29,
+  "field": "material_docs",
+  "url": "https://pwr.com.au/app/uploads/2022/08/ACDelco-Coolant-FAQ.pdf",
+  "action": "relabel",
+  "reason": "Not a FAQ: a product flyer with GM 6277M spec and typical data for red DEX-COOL - usable brochure-level equivalent; fix the 'FAQ' title."
+ },
+ {
+  "id": 29,
+  "field": "material_docs",
+  "url": "https://shop.sclubricants.com/pub/media/pds/shell/Shell-Dexcool-Antifreeze-Coolant-50_50-datasheet.pdf",
+  "action": "keep",
+  "reason": "DEX-COOL OAT class - right; describes the 50/50 prediluted variant, not the concentrate (the plant fills 50/50 anyway)."
+ },
+ {
+  "id": 29,
+  "field": "material_docs",
+  "url": "https://antifreezefelix.ru/storage/upload/documents/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82%20FELIX%20CARBOX%20+%20%D0%BA%D0%BE%D0%BD%D1%86.pdf",
+  "action": "keep",
+  "reason": "Same maker as the plant spec 'Felix'; red nitrite-free OAT incl. concentrate - best class match; 'DX-COOL' = CARBOX still unproven, so equivalent."
+ },
+ {
+  "id": 29,
+  "field": "material_docs",
+  "url": "https://antifreezefelix.ru/storage/upload/documents/MSDS%20Felix%20CARBOX%20SQ.PDF",
+  "action": "remove",
+  "reason": "File is named MSDS but is a TDS, and the product is a nitrite/molybdate heavy-duty ready-mix (NOAT), not a nitrite-free DEX-COOL-type red concentrate."
+ },
+ {
+  "id": 29,
+  "field": "material_docs",
+  "url": "https://antifreezefelix.ru/storage/upload/documents/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82%20FELIX%20TYPE%20D.pdf",
+  "action": "remove",
+  "reason": "Yellow Renault-specific ready-mix - wrong variant for a red DEX-COOL-type concentrate (the CARBOX and DRAGON sheets cover the right variant)."
+ },
+ {
+  "id": 29,
+  "field": "material_docs",
+  "url": "https://antifreezefelix.ru/storage/upload/documents/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82%20FELIX%20JDM.pdf",
+  "action": "remove",
+  "reason": "Phosphated P-OAT, green - different class from the nitrite/phosphate-free red DEX-COOL-type OAT."
+ },
+ {
+  "id": 29,
+  "field": "material_docs",
+  "url": "https://tosol-sintez.ru/assets/files/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82%20FELIX%20DRAGON.pdf",
+  "action": "keep",
+  "reason": "Same maker; red nitrite-free OAT including a concentrate - right class; grade aimed at Chinese OEMs, so equivalent."
+ },
+ {
+  "id": 29,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/duerr-brochure-NEXT.assembly-english-low.pdf",
+  "action": "remove",
+  "reason": "General final-assembly portfolio brochure, not a filling-machine passport, and superseded by the 2026 edition already in the catalog. Somac vacuum/pressure filling is the right class for brake fluid, PSF, coolant, A/C, oils and washer, but there are no specs, and fuel (id 34) is not mentioned."
+ },
+ {
+  "id": 29,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
+  "action": "remove",
+  "reason": "Portfolio overview, not a passport: one page on Somac filling, with no specs. Dürr Somac is the right equipment class for ids 27-35, but the catalog has no Somac ProLine Cube or G4 adapter datasheet. If a reference link is wanted, keep only this newest edition, labelled 'portfolio brochure, not a passport'."
+ },
+ {
+  "id": 29,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
+  "action": "remove",
+  "reason": "A software customer case study, not a filling-equipment passport. It documents recipe/analytics software only and does not cover fuel, oils or washer (ids 30-32, 34, 35)."
+ },
+ {
+  "id": 29,
+  "field": "equipment_docs",
+  "url": "https://www.twinengineers.com/wp-content/uploads/2024/07/Oil-Filling-Brochure.pdf",
+  "action": "keep",
+  "reason": "Genuine product-range brochure with per-machine specs but no model numbers. It covers brake fluid, PSF, coolant, gearbox oils, A/C charging and washer (ids 27-33, 35). Correctly not attached to gasoline (id 34), since it covers diesel only. Alternative vendor, low confidence."
+ },
+ {
+  "id": 30,
+  "field": "material_docs",
+  "url": "https://ilti.idemitsu.com/media/file/originals/post/2023/08/16/idemitsu-mtf.pdf",
+  "action": "keep",
+  "reason": "Same maker and MTF family as 'Idemitsu MTF LSJ11EP' - right class; a retail grade, not the OE fill."
+ },
+ {
+  "id": 30,
+  "field": "material_docs",
+  "url": "https://www.idemitsu.com/jp/sds/lube/32050330.pdf",
+  "action": "remove",
+  "reason": "Industrial gear oil, not an automotive manual-transmission fluid - wrong class for id 30."
+ },
+ {
+  "id": 30,
+  "field": "material_docs",
+  "url": "https://www.idemitsu.com/jp/sds/lube/30300240p.pdf",
+  "action": "keep",
+  "reason": "WEAK PROXY: Idemitsu automotive MT/differential gear oil (GL-5 80W-90) - acceptable class, but not a dedicated MTF like LSJ11EP."
+ },
+ {
+  "id": 30,
+  "field": "material_docs",
+  "url": "https://www.lube-buster.com/wp-content/uploads/2022/04/sds-idemitsu-atf-type-hp.pdf",
+  "action": "remove",
+  "reason": "Automatic transmission fluid, not a manual-transmission fluid - wrong class for id 30 (T/M oil Idemitsu MTF)."
+ },
+ {
+  "id": 30,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/duerr-brochure-NEXT.assembly-english-low.pdf",
+  "action": "remove",
+  "reason": "General final-assembly portfolio brochure, not a filling-machine passport, and superseded by the 2026 edition already in the catalog. Somac vacuum/pressure filling is the right class for brake fluid, PSF, coolant, A/C, oils and washer, but there are no specs, and fuel (id 34) is not mentioned."
+ },
+ {
+  "id": 30,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
+  "action": "remove",
+  "reason": "Portfolio overview, not a passport: one page on Somac filling, with no specs. Dürr Somac is the right equipment class for ids 27-35, but the catalog has no Somac ProLine Cube or G4 adapter datasheet. If a reference link is wanted, keep only this newest edition, labelled 'portfolio brochure, not a passport'."
+ },
+ {
+  "id": 30,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
+  "action": "remove",
+  "reason": "A software customer case study, not a filling-equipment passport. It documents recipe/analytics software only and does not cover fuel, oils or washer (ids 30-32, 34, 35)."
+ },
+ {
+  "id": 30,
+  "field": "equipment_docs",
+  "url": "https://www.twinengineers.com/wp-content/uploads/2024/07/Oil-Filling-Brochure.pdf",
+  "action": "keep",
+  "reason": "Genuine product-range brochure with per-machine specs but no model numbers. It covers brake fluid, PSF, coolant, gearbox oils, A/C charging and washer (ids 27-33, 35). Correctly not attached to gasoline (id 34), since it covers diesel only. Alternative vendor, low confidence."
+ },
+ {
+  "id": 31,
+  "field": "material_docs",
+  "url": "https://www.supercheapauto.co.nz/on/demandware.static/-/Library-Sites-supercheap-shared-library/default/dwe49223ef/productsheets/396350_342312.pdf",
+  "action": "keep",
+  "reason": "75W-85 GL-4 synthetic MTF - right class for XGP; aftermarket equivalent."
+ },
+ {
+  "id": 31,
+  "field": "material_docs",
+  "url": "https://www.redlineoil.com/Content/files/tech/MT-85_GO_PROD_INFO.pdf",
+  "action": "keep",
+  "reason": "75W-85 GL-4 MTF cross-referenced to GM 88862472/93165290 - right class."
+ },
+ {
+  "id": 31,
+  "field": "material_docs",
+  "url": "https://www.TDXLTD.CO.NZ/media/pdfs/49977.pdf",
+  "action": "remove",
+  "reason": "SAE 75W-80 heavy-duty truck gearbox oil, not a 75W-85 GL-4 passenger MTF; 'SH' = Shell is unproven; Penrite/Red Line already cover 75W-85 GL-4."
+ },
+ {
+  "id": 31,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/duerr-brochure-NEXT.assembly-english-low.pdf",
+  "action": "remove",
+  "reason": "General final-assembly portfolio brochure, not a filling-machine passport, and superseded by the 2026 edition already in the catalog. Somac vacuum/pressure filling is the right class for brake fluid, PSF, coolant, A/C, oils and washer, but there are no specs, and fuel (id 34) is not mentioned."
+ },
+ {
+  "id": 31,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
+  "action": "remove",
+  "reason": "Portfolio overview, not a passport: one page on Somac filling, with no specs. Dürr Somac is the right equipment class for ids 27-35, but the catalog has no Somac ProLine Cube or G4 adapter datasheet. If a reference link is wanted, keep only this newest edition, labelled 'portfolio brochure, not a passport'."
+ },
+ {
+  "id": 31,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
+  "action": "remove",
+  "reason": "A software customer case study, not a filling-equipment passport. It documents recipe/analytics software only and does not cover fuel, oils or washer (ids 30-32, 34, 35)."
+ },
+ {
+  "id": 31,
+  "field": "equipment_docs",
+  "url": "https://www.twinengineers.com/wp-content/uploads/2024/07/Oil-Filling-Brochure.pdf",
+  "action": "keep",
+  "reason": "Genuine product-range brochure with per-machine specs but no model numbers. It covers brake fluid, PSF, coolant, gearbox oils, A/C charging and washer (ids 27-33, 35). Correctly not attached to gasoline (id 34), since it covers diesel only. Alternative vendor, low confidence."
+ },
+ {
+  "id": 32,
+  "field": "material_docs",
+  "url": "https://shop.sclubricants.com/pub/media/pds/pennzoil/Pennzoil-ATF-Dexron-VI-Technical-Datasheet.pdf",
+  "action": "keep",
+  "reason": "Dexron-VI ATF that explicitly cites GMN10060 - right class for ids 28 and 32."
+ },
+ {
+  "id": 32,
+  "field": "material_docs",
+  "url": "https://www.ravenol.de/storage/app/uploads/share/SDB/Sdb_RAVENOL%20ATF%20DEXRON%20VI_1211105_en_ALL.pdf",
+  "action": "keep",
+  "reason": "Dexron-VI ATF SDS - right class."
+ },
+ {
+  "id": 32,
+  "field": "material_docs",
+  "url": "https://acdelco.com.au/gm-b2cau/cms/pdf/SDS/LQ9RG_DEXRON%20VI%20PREMIUM%20FULL%20SYNTHETIC%20TRANSMISSION%20FLUID.pdf",
+  "action": "keep",
+  "reason": "GM/ACDelco Dexron-VI ATF SDS - right class."
+ },
+ {
+  "id": 32,
+  "field": "material_docs",
+  "url": "https://acdelco.com.au/gm-b2cau/cms/pdf/Flyers/ACDelco%20Dexron%20VI%20Premium%20Full%20Synthetic%20ATF%20Sell%20Sheet.pdf",
+  "action": "keep",
+  "reason": "Right class (Dexron-VI ATF, also listed for power steering); a sell sheet with typical properties rather than a full TDS."
+ },
+ {
+  "id": 32,
+  "field": "material_docs",
+  "url": "https://seattleautomotive.com/files/SDS/88861046%20dexron%20vi%20atf.pdf",
+  "action": "keep",
+  "reason": "GM-genuine Dexron-VI fluid SDS - right class; closest to the factory fill."
+ },
+ {
+  "id": 32,
+  "field": "material_docs",
+  "url": "https://uploads-ssl.webflow.com/5d513e6ea4a37093208cabb2/5e958119bb64f4d142e866cf_DEXRON%20%5ER%5E%20VI%20ATF.PDF",
+  "action": "keep",
+  "reason": "Right class; EU edition of the same Petro-Canada SDS as ...SDS_EQUIV_6 (US v4.0)."
+ },
+ {
+  "id": 32,
+  "field": "material_docs",
+  "url": "https://evosupplygroupcatalog.sfo3.digitaloceanspaces.com/brands/files/Petro%20Canada/DEX6C16-sds.pdf",
+  "action": "keep",
+  "reason": "Dexron-VI ATF SDS - right class."
+ },
+ {
+  "id": 32,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/duerr-brochure-NEXT.assembly-english-low.pdf",
+  "action": "remove",
+  "reason": "General final-assembly portfolio brochure, not a filling-machine passport, and superseded by the 2026 edition already in the catalog. Somac vacuum/pressure filling is the right class for brake fluid, PSF, coolant, A/C, oils and washer, but there are no specs, and fuel (id 34) is not mentioned."
+ },
+ {
+  "id": 32,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
+  "action": "remove",
+  "reason": "Portfolio overview, not a passport: one page on Somac filling, with no specs. Dürr Somac is the right equipment class for ids 27-35, but the catalog has no Somac ProLine Cube or G4 adapter datasheet. If a reference link is wanted, keep only this newest edition, labelled 'portfolio brochure, not a passport'."
+ },
+ {
+  "id": 32,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
+  "action": "remove",
+  "reason": "A software customer case study, not a filling-equipment passport. It documents recipe/analytics software only and does not cover fuel, oils or washer (ids 30-32, 34, 35)."
+ },
+ {
+  "id": 32,
+  "field": "equipment_docs",
+  "url": "https://www.twinengineers.com/wp-content/uploads/2024/07/Oil-Filling-Brochure.pdf",
+  "action": "keep",
+  "reason": "Genuine product-range brochure with per-machine specs but no model numbers. It covers brake fluid, PSF, coolant, gearbox oils, A/C charging and washer (ids 27-33, 35). Correctly not attached to gasoline (id 34), since it covers diesel only. Alternative vendor, low confidence."
+ },
+ {
+  "id": 33,
+  "field": "material_docs",
+  "url": "https://fuhrmeister-gmbh.de/pdf/sds/R134a_safety data sheet_EN.pdf",
+  "action": "keep",
+  "reason": "Same substance (R134a) - right class; COOLIB brand itself undocumented."
+ },
+ {
+  "id": 33,
+  "field": "material_docs",
+  "url": "https://www.daikinchemicals.com/library/pb_common/pdf/sds/Refrigerants/sds-hfc-134a-E_20191220.pdf",
+  "action": "keep",
+  "reason": "Same substance (R134a) - right class."
+ },
+ {
+  "id": 33,
+  "field": "material_docs",
+  "url": "https://gaslogic.nl/wp-content/uploads/2024/09/R134A-MSDS-EN-v1.0.pdf",
+  "action": "keep",
+  "reason": "Same substance (R134a) - right class."
+ },
+ {
+  "id": 33,
+  "field": "material_docs",
+  "url": "https://static.prd.echannel.linde.com/wcsstore/ZA_AFROX_Industrial_Ntl_Store/Attachment/Corporate/AFX-SDS-0060_v01_Refrigerant_R134a_Safety_Data_Sheet(003)(2)tcm266-6472.pdf",
+  "action": "keep",
+  "reason": "Same substance (R134a) - right class."
+ },
+ {
+  "id": 33,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/duerr-brochure-NEXT.assembly-english-low.pdf",
+  "action": "remove",
+  "reason": "General final-assembly portfolio brochure, not a filling-machine passport, and superseded by the 2026 edition already in the catalog. Somac vacuum/pressure filling is the right class for brake fluid, PSF, coolant, A/C, oils and washer, but there are no specs, and fuel (id 34) is not mentioned."
+ },
+ {
+  "id": 33,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
+  "action": "remove",
+  "reason": "Portfolio overview, not a passport: one page on Somac filling, with no specs. Dürr Somac is the right equipment class for ids 27-35, but the catalog has no Somac ProLine Cube or G4 adapter datasheet. If a reference link is wanted, keep only this newest edition, labelled 'portfolio brochure, not a passport'."
+ },
+ {
+  "id": 33,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
+  "action": "remove",
+  "reason": "A software customer case study, not a filling-equipment passport. It documents recipe/analytics software only and does not cover fuel, oils or washer (ids 30-32, 34, 35)."
+ },
+ {
+  "id": 33,
+  "field": "equipment_docs",
+  "url": "https://www.twinengineers.com/wp-content/uploads/2024/07/Oil-Filling-Brochure.pdf",
+  "action": "keep",
+  "reason": "Genuine product-range brochure with per-machine specs but no model numbers. It covers brake fluid, PSF, coolant, gearbox oils, A/C charging and washer (ids 27-33, 35). Correctly not attached to gasoline (id 34), since it covers diesel only. Alternative vendor, low confidence."
+ },
+ {
+  "id": 34,
+  "field": "material_docs",
+  "url": "https://ina.hr/app/uploads/2024/06/Unleaded-Petrol_v22_EN.pdf",
+  "action": "keep",
+  "reason": "Unleaded motor gasoline - right class; RON 95/100 grades rather than AI-92, hazards essentially identical."
+ },
+ {
+  "id": 34,
+  "field": "material_docs",
+  "url": "https://www.nis.rs/wp-content/uploads/2025/09/EN_SDS_UNLEADED-GASOLINE_GHS-ANNEXII-CLP_20250725_NIS-a.d.-Novi-Sad.pdf",
+  "action": "keep",
+  "reason": "Unleaded motor gasoline - right class; not AI-92-specific."
+ },
+ {
+  "id": 34,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/duerr-brochure-NEXT.assembly-english-low.pdf",
+  "action": "remove",
+  "reason": "General final-assembly portfolio brochure, not a filling-machine passport, and superseded by the 2026 edition already in the catalog. Somac vacuum/pressure filling is the right class for brake fluid, PSF, coolant, A/C, oils and washer, but there are no specs, and fuel (id 34) is not mentioned."
+ },
+ {
+  "id": 34,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
+  "action": "remove",
+  "reason": "Portfolio overview, not a passport: one page on Somac filling, with no specs. Dürr Somac is the right equipment class for ids 27-35, but the catalog has no Somac ProLine Cube or G4 adapter datasheet. If a reference link is wanted, keep only this newest edition, labelled 'portfolio brochure, not a passport'."
+ },
+ {
+  "id": 34,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
+  "action": "remove",
+  "reason": "A software customer case study, not a filling-equipment passport. It documents recipe/analytics software only and does not cover fuel, oils or washer (ids 30-32, 34, 35)."
+ },
+ {
+  "id": 35,
+  "field": "material_docs",
+  "url": "https://sirv.eurol.com/eurol/PI/EN/EN_E502260_PI.pdf",
+  "action": "keep",
+  "reason": "Ethanol-based washer concentrate - right class."
+ },
+ {
+  "id": 35,
+  "field": "material_docs",
+  "url": "https://www.msds.ford.com/documents/198426 G_GBEN.pdf",
+  "action": "relabel",
+  "reason": "Ethanol washer (right class) but the PDF is the 'Ready Mix S20' SDS, not 'Winter Premium 55' as titled."
+ },
+ {
+  "id": 35,
+  "field": "material_docs",
+  "url": "https://sirv.eurol.com/eurol/SDS/EN/EN_E502260_SDS.pdf",
+  "action": "relabel",
+  "reason": "Right product and class; the URL now serves v6.2 of 2026-07-13, not 'v5.0 2023' as titled."
+ },
+ {
+  "id": 35,
+  "field": "material_docs",
+  "url": "https://assets.rowegmbh.de/var/assets/brandhub/safety-data-sheets/en/21111-998-00_IRL-en_1%2C09.pdf",
+  "action": "keep",
+  "reason": "Ethanol washer - right class; this is the -20 C ready mix (settles the catalog's 21111/21104 question), not a concentrate."
+ },
+ {
+  "id": 35,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/duerr-brochure-NEXT.assembly-english-low.pdf",
+  "action": "remove",
+  "reason": "General final-assembly portfolio brochure, not a filling-machine passport, and superseded by the 2026 edition already in the catalog. Somac vacuum/pressure filling is the right class for brake fluid, PSF, coolant, A/C, oils and washer, but there are no specs, and fuel (id 34) is not mentioned."
+ },
+ {
+  "id": 35,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
+  "action": "remove",
+  "reason": "Portfolio overview, not a passport: one page on Somac filling, with no specs. Dürr Somac is the right equipment class for ids 27-35, but the catalog has no Somac ProLine Cube or G4 adapter datasheet. If a reference link is wanted, keep only this newest edition, labelled 'portfolio brochure, not a passport'."
+ },
+ {
+  "id": 35,
+  "field": "equipment_docs",
+  "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
+  "action": "remove",
+  "reason": "A software customer case study, not a filling-equipment passport. It documents recipe/analytics software only and does not cover fuel, oils or washer (ids 30-32, 34, 35)."
+ },
+ {
+  "id": 35,
+  "field": "equipment_docs",
+  "url": "https://www.twinengineers.com/wp-content/uploads/2024/07/Oil-Filling-Brochure.pdf",
+  "action": "keep",
+  "reason": "Genuine product-range brochure with per-machine specs but no model numbers. It covers brake fluid, PSF, coolant, gearbox oils, A/C charging and washer (ids 27-33, 35). Correctly not attached to gasoline (id 34), since it covers diesel only. Alternative vendor, low confidence."
+ },
+ {
+  "id": 36,
+  "field": "material_docs",
+  "url": "https://egy.sika.com/dms/getdocument.get/ecf85750-dd7d-3490-9be2-3e36a8285895/Sikaflex",
+  "action": "keep",
+  "reason": "Same Sikaflex-250 OEM direct-glazing family as 250 UZ-1 - right class; old (2006) provisional sheet of another variant."
+ },
+ {
+  "id": 36,
+  "field": "material_docs",
+  "url": "https://kor.sika.com/dms/getdocument.get/5577a611-f6de-438f-ab00-dbfea96a137d/MSDS_Sikaflex%C2%AE-250PC(SSC)_EN_251226_AA00068-0000000296.pdf",
+  "action": "keep",
+  "reason": "Sikaflex-250 PU glazing family - right class; variant PC, not UZ-1."
+ },
+ {
+  "id": 36,
+  "field": "material_docs",
+  "url": "https://dupont.materialdatacenter.com/gb/products/pdf/SI/BETASEAL%E2%84%A2%20U-838HV-gb.pdf",
+  "action": "keep",
+  "reason": "BETASEAL PU windshield urethane - right class (glass-replacement grade)."
+ },
+ {
+  "id": 36,
+  "field": "material_docs",
+  "url": "https://www.pksupplies.com/sites/default/files/datasheets/dupont-betaseal-primerless-to-glass-adhesive-data-sheet.pdf",
+  "action": "keep",
+  "reason": "PU auto-glass urethane - right class; aftermarket cartridge product; marketing leaflet rather than a full TDS."
+ },
+ {
+  "id": 36,
+  "field": "material_docs",
+  "url": "https://fittingsgo.com/wp-content/uploads/2019/04/U418-Product-Brochure.pdf",
+  "action": "keep",
+  "reason": "Right class; older Dow-era brochure of the same U-418 product (overlaps the 2019 DuPont leaflet)."
+ },
+ {
+  "id": 36,
+  "field": "equipment_docs",
+  "url": "https://graco.com/content/dam/graco/tech_documents/manuals/334/334130/334130EN.pdf",
+  "action": "keep",
+  "reason": "Manual for the exact model. A heated 200 L drum unloader is the standard bulk supply for warm/hot-applied 1K PU glazing adhesive (Sikaflex-250 / BETASEAL, id 36; the 271 kg drum is about 200 L)."
+ },
+ {
+  "id": 36,
+  "field": "equipment_docs",
+  "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/311/311208/311208EN-S.pdf",
+  "action": "keep",
+  "reason": "Genuine manual for the older EasyKey/NXT generation of the same unloader; fits id 36. Keep as a legacy reference, since 334130 covers current units."
+ },
+ {
+  "id": 36,
+  "field": "equipment_docs",
+  "url": "https://www.graco.com/content/dam/graco/aftd/literature/brochures/340305/340305EN-D.pdf",
+  "action": "keep",
+  "reason": "Brochure for the exact model, with specs. Heated closed-loop bead metering fits the warm-applied PU windshield adhesive (id 36) and the headliner hot-melt (id 37, which needs a bulk melter upstream). It also lists seam sealing and underbody coating, relevant to ids 4-7."
+ },
+ {
+  "id": 37,
+  "field": "material_docs",
+  "url": "https://datasheets.tdx.henkel.com/TECHNOMELT-AS-8383-en_GL.pdf",
+  "action": "keep",
+  "reason": "Polyolefin headliner hot melt - right class."
+ },
+ {
+  "id": 37,
+  "field": "material_docs",
+  "url": "https://datasheets.tdx.henkel.com/TECHNOMELT-PUR-9622-02-en_GL.pdf",
+  "action": "keep",
+  "reason": "Interior-trim hot melt - right class only if the plant item is a reactive PUR; headliner not named explicitly."
+ },
+ {
+  "id": 37,
+  "field": "material_docs",
+  "url": "https://prostech.vn/wp-content/uploads/2024/03/thermogrip_h9446_tds_033016.pdf",
+  "action": "keep",
+  "reason": "Headliner hot melt - right class."
+ },
+ {
+  "id": 37,
+  "field": "material_docs",
+  "url": "https://prostech.vn/wp-content/uploads/2024/03/thermogrip_h9438_tds.pdf",
+  "action": "keep",
+  "reason": "Headliner hot melt - right class."
+ },
+ {
+  "id": 37,
+  "field": "material_docs",
+  "url": "https://prostech.vn/wp-content/uploads/2024/03/thermogrip_9431_tds_060717.pdf",
+  "action": "keep",
+  "reason": "Headliner hot melt - right class."
+ },
+ {
+  "id": 37,
+  "field": "equipment_docs",
+  "url": "https://www.graco.com/content/dam/graco/aftd/literature/brochures/340305/340305EN-D.pdf",
+  "action": "keep",
+  "reason": "Brochure for the exact model, with specs. Heated closed-loop bead metering fits the warm-applied PU windshield adhesive (id 36) and the headliner hot-melt (id 37, which needs a bulk melter upstream). It also lists seam sealing and underbody coating, relevant to ids 4-7."
+ },
+ {
+  "id": 38,
+  "field": "material_docs",
+  "url": "https://gbr.sika.com/dam/dms/gb01/f/sika-primer-209-d.pdf",
+  "action": "keep",
+  "reason": "Confirmed identity of RKB 0101S (SIKA-209 D)."
+ },
+ {
+  "id": 38,
+  "field": "material_docs",
+  "url": "https://industry.sika.com/dam/dms/ca01/x/sika-primer-209-d.pdf",
+  "action": "keep",
+  "reason": "Exact product; alternate (slightly older) EN edition of the UK PDS."
+ },
+ {
+  "id": 38,
+  "field": "material_docs",
+  "url": "https://nzl.sika.com/dam/dms/nz01/3/Primer%20209D%20-%20MSDS.pdf",
+  "action": "keep",
+  "reason": "Exact product SDS."
+ },
+ {
+  "id": 38,
+  "field": "material_docs",
+  "url": "https://tur.sika.com/dms/getdocument.get/5aa00d1a-99ca-4747-888a-eda15c33f505/Sika%20Primer-209D%20MSDS%20EN.pdf",
+  "action": "keep",
+  "reason": "Exact product SDS; older (2018) edition."
+ },
+ {
+  "id": 38,
+  "field": "equipment_docs",
+  "url": "https://www.spraydirect.co.uk/acatalog/graco_pressure_pots.pdf",
+  "action": "keep",
+  "reason": "Genuine Graco catalog pages with models and specs. An agitated stainless low-pressure tank can plausibly feed pigmented primer or activator to an automatic felt/wipe applicator (ids 38-39, 41). Caveats: moisture-curing Sika primers need a sealed tank under dry air/N2, and 1 kg bottles are usually applied by hand. The 1998 part numbers are old; a current Graco pressure-tank manual would be better."
+ },
+ {
+  "id": 38,
+  "field": "equipment_docs",
+  "url": "https://gbr.sika.com/dms/getdocument.get/ea64bae6-89d6-4aba-859f-94f95c74309c/Sika%20Windscreen%20Bonding%20.pdf",
+  "action": "remove",
+  "reason": "Aftermarket adhesive/primer promotion flyer, not an equipment document; the felt applicator is only a consumable line item. Manual felt application is still the correct method for Sika Primer-209 D (id 38)."
+ },
+ {
+  "id": 39,
+  "field": "material_docs",
+  "url": "https://industry.sika.com/dam/dms/us01/w/sika_primer-206_gp.pdf",
+  "action": "keep",
+  "reason": "Confirmed identity of RKB 0401S (SIKA-206 G+P)."
+ },
+ {
+  "id": 39,
+  "field": "material_docs",
+  "url": "https://industry.sika.com/dam/dms/ch01/f/sika-primer-206-g-plus-p.pdf",
+  "action": "relabel",
+  "reason": "Exact product, but the PDF is Italian, not English as labelled; same edition as the US EN PDS, so redundant."
+ },
+ {
+  "id": 39,
+  "field": "material_docs",
+  "url": "https://usa.sika.com/dam/dms/us01/s/Sika-Primer-206-G-P.pdf",
+  "action": "keep",
+  "reason": "Exact product SDS."
+ },
+ {
+  "id": 39,
+  "field": "material_docs",
+  "url": "https://nzl.sika.com/dam/dms/nz01/t/Sika%C2%AE%20Primer-206%20G%20plus%20P%20-%20SDS%20-%201122.pdf",
+  "action": "keep",
+  "reason": "Exact product SDS."
+ },
+ {
+  "id": 39,
+  "field": "material_docs",
+  "url": "https://srb.sika.com/dms/getdocument.get/a237532a-c159-4c08-8f85-74a2b307eb7d_rs01/sds-sika-primer-206g-plus-p.pdf",
+  "action": "relabel",
+  "reason": "Exact product; the URL now serves v5.0 of 2026-03-13 in English, not 'v4.1 2024-10, sr/en' as labelled."
+ },
+ {
+  "id": 39,
+  "field": "equipment_docs",
+  "url": "https://www.spraydirect.co.uk/acatalog/graco_pressure_pots.pdf",
+  "action": "keep",
+  "reason": "Genuine Graco catalog pages with models and specs. An agitated stainless low-pressure tank can plausibly feed pigmented primer or activator to an automatic felt/wipe applicator (ids 38-39, 41). Caveats: moisture-curing Sika primers need a sealed tank under dry air/N2, and 1 kg bottles are usually applied by hand. The 1998 part numbers are old; a current Graco pressure-tank manual would be better."
+ },
+ {
+  "id": 40,
+  "field": "material_docs",
+  "url": "https://industry.sika.com/dam/dms/us01/l/sika_aktivator-100.pdf",
+  "action": "keep",
+  "reason": "Confirmed identity of BETAPRIME 100-UZ (id 40). For id 41 (RAD 11724, spec SIKA-100-UZ) keep the catalog's 'equivalent' - identity unconfirmed."
+ },
+ {
+  "id": 40,
+  "field": "material_docs",
+  "url": "https://gbr.sika.com/dam/dms/gb01/v/sds-sika-aktivator-100.pdf",
+  "action": "keep",
+  "reason": "Exact product SDS (current)."
+ },
+ {
+  "id": 40,
+  "field": "material_docs",
+  "url": "https://aus.sika.com/dam/dms/au01/f/sds-sika-aktivator-100.pdf",
+  "action": "keep",
+  "reason": "Exact product SDS."
+ },
+ {
+  "id": 40,
+  "field": "material_docs",
+  "url": "https://dupont.materialdatacenter.com/gb/products/pdf/US/BETAPRIME%E2%84%A2%205504G%20NO%20SHAKE-gb-US.pdf",
+  "action": "remove",
+  "reason": "Black glass/frit primer (the Primer-206 G+P function), not a clear cleaner/activator; BETAPRIME 100-UZ is confirmed as Sika Aktivator-100."
+ },
+ {
+  "id": 40,
+  "field": "material_docs",
+  "url": "https://bgr.sika.com/dam/dms/bg01/k/sika_aktivator-100.pdf",
+  "action": "remove",
+  "reason": "Exact product, but Bulgarian only (labelled bg/en) and superseded (v02.01, 2020) by the EN v05.01 (2023) already kept - no added value."
+ },
+ {
+  "id": 40,
+  "field": "material_docs",
+  "url": "https://cze.sika.com/dam/dms/cz01/v/sika-aktivator-100.pdf",
+  "action": "keep",
+  "reason": "Exact product, current edition; Czech translation of the EN PDS (redundant). Equivalent only for id 41."
+ },
+ {
+  "id": 40,
+  "field": "material_docs",
+  "url": "https://industry.sika.com/dam/dms/dk01/w/sika_aktivator-100.pdf",
+  "action": "relabel",
+  "reason": "Exact product, but Danish only (labelled da/en); redundant translation of the EN PDS."
+ },
+ {
+  "id": 41,
+  "field": "material_docs",
+  "url": "https://industry.sika.com/dam/dms/us01/l/sika_aktivator-100.pdf",
+  "action": "keep",
+  "reason": "Confirmed identity of BETAPRIME 100-UZ (id 40). For id 41 (RAD 11724, spec SIKA-100-UZ) keep the catalog's 'equivalent' - identity unconfirmed."
+ },
+ {
+  "id": 41,
+  "field": "material_docs",
+  "url": "https://cze.sika.com/dam/dms/cz01/v/sika-aktivator-100.pdf",
+  "action": "keep",
+  "reason": "Exact product, current edition; Czech translation of the EN PDS (redundant). Equivalent only for id 41."
+ },
+ {
+  "id": 41,
+  "field": "equipment_docs",
+  "url": "https://www.spraydirect.co.uk/acatalog/graco_pressure_pots.pdf",
+  "action": "keep",
+  "reason": "Genuine Graco catalog pages with models and specs. An agitated stainless low-pressure tank can plausibly feed pigmented primer or activator to an automatic felt/wipe applicator (ids 38-39, 41). Caveats: moisture-curing Sika primers need a sealed tank under dry air/N2, and 1 kg bottles are usually applied by hand. The 1998 part numbers are old; a current Graco pressure-tank manual would be better."
+ },
+ {
+  "id": 42,
+  "field": "material_docs",
+  "url": "https://www.dupont.com/content/dam/Dupont2.0/Products/transportation/Literature/Downloaded-TDS/MOLYKOTE%20M-77%20Solid%20Lubricant%20Paste%2071-0186F-01.pdf",
+  "action": "keep",
+  "reason": "MoS2 assembly/anti-seize paste used by GM (ACDelco M-77) on hub surfaces - right class for the wheel pilot-hole lubricant."
+ },
+ {
+  "id": 42,
+  "field": "material_docs",
+  "url": "https://static.nhtsa.gov/odi/tsbs/2017/MC-10126105-9999.pdf",
+  "action": "remove",
+  "reason": "Service bulletin, not a passport; only shows GM uses M-77 at the axle/hub-bearing interface (not the wheel pilot hole); the M-77 TDS is already kept."
+ },
+ {
+  "id": 42,
+  "field": "equipment_docs",
+  "url": "https://graco.com/content/dam/graco/tech_documents/manuals/309/309868/historic/309868EN-B.pdf",
+  "action": "remove",
+  "reason": "Fire-Ball family, but these are the low-ratio (3:1-10:1) oil-pump models, not the Fire-Ball 300 50:1 grease pump named in the equipment role. They cannot move grease or assembly paste from a 15 kg pail (ids 42, 43); a 50:1 grease-pump manual is needed."
+ },
+ {
+  "id": 42,
+  "field": "equipment_docs",
+  "url": "https://petroleumservicecompany.com/content/pdfs/Lincoln_Equipment_Brochure.pdf",
+  "action": "keep",
+  "reason": "Genuine Lincoln product catalog with models and part numbers. Its 50:1 pail grease pumps (e.g. 9989 with pail cover and follower) fit the 15 kg pail of wheel pilot-hole lubricant (id 42) and would also suit id 43. Service-market catalog from 2011."
+ },
+ {
+  "id": 43,
+  "field": "material_docs",
+  "url": "https://www.klueber.com/ecoma/files/B082003002_Driving-Kluber-Lubrication.pdf",
+  "action": "relabel",
+  "reason": "GNY 202 listing now confirmed in the text, so the brochure covers the exact product (label exact) - but it is a range brochure, not a GNY 202 PDS/SDS. Keep this copy; the two 15-page copies are duplicates."
+ },
+ {
+  "id": 43,
+  "field": "material_docs",
+  "url": "https://www.klueber.com/ecoma/files/B082003002_automotivebroschuere_EN_160523_SCREEN.pdf",
+  "action": "remove",
+  "reason": "Duplicate: same edition as ...brochure_EQUIV.pdf (kept) and text-identical to ...brochure_EQUIV_3."
+ },
+ {
+  "id": 43,
+  "field": "material_docs",
+  "url": "https://www.techtips.ie/LuK/how-to-grease-clutch-hubs.pdf",
+  "action": "remove",
+  "reason": "Generic aftermarket service tip, not a passport; recommends Castrol Olista, not MICROLUBE GNY 202."
+ },
+ {
+  "id": 43,
+  "field": "material_docs",
+  "url": "https://www.klueber.com/ecoma/files/B082003002_Automotive_160531_EN.pdf",
+  "action": "remove",
+  "reason": "Duplicate of ...brochure_EQUIV_2 (identical text) and of the kept ...brochure_EQUIV.pdf."
+ },
+ {
+  "id": 43,
+  "field": "equipment_docs",
+  "url": "https://graco.com/content/dam/graco/tech_documents/manuals/309/309868/historic/309868EN-B.pdf",
+  "action": "remove",
+  "reason": "Fire-Ball family, but these are the low-ratio (3:1-10:1) oil-pump models, not the Fire-Ball 300 50:1 grease pump named in the equipment role. They cannot move grease or assembly paste from a 15 kg pail (ids 42, 43); a 50:1 grease-pump manual is needed."
+ },
+ {
+  "id": 43,
+  "field": "equipment_docs",
+  "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/309/309868/309868ES-A.pdf",
+  "action": "remove",
+  "reason": "Spanish copy of the same oil-pump manual: the wrong pump type for the clutch-hub grease (id 43), and not in English."
+ }
+]

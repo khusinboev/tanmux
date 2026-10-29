@@ -32,6 +32,9 @@ USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 )
+# Some hosts (e.g. agsc.org) drop connections for a full browser UA but accept a short one.
+FALLBACK_USER_AGENT = "Mozilla/5.0"
+RETRY_STATUSES = {"network_error", "http_403"}
 
 log = logging.getLogger("download_pdfs")
 
@@ -41,13 +44,13 @@ def encode_url(url: str) -> str:
     return urlunsplit(parts._replace(path=quote(parts.path, safe="/%:@+-._~")))
 
 
-def fetch(url: str) -> tuple[str, bytes, dict[str, Any]]:
+def fetch(url: str, user_agent: str = USER_AGENT) -> tuple[str, bytes, dict[str, Any]]:
     """Return (status, payload, meta); status is 'ok' only for a real PDF body."""
     if not url.lower().startswith(("https://", "http://")):
         return "invalid_url", b"", {}
     request = urllib.request.Request(
         encode_url(url),
-        headers={"User-Agent": USER_AGENT, "Accept": "application/pdf,*/*;q=0.8"},
+        headers={"User-Agent": user_agent, "Accept": "application/pdf,*/*;q=0.8"},
     )
     try:
         with urllib.request.urlopen(request, timeout=TIMEOUT_S) as response:
@@ -81,9 +84,9 @@ def download(rel_path: str, url: str, force: bool, previous: dict[str, dict[str,
         if hashlib.sha256(data).hexdigest() == prev.get("sha256"):
             return prev
     status, payload, meta = fetch(url)
-    if status == "network_error":
+    if status in RETRY_STATUSES:
         time.sleep(RETRY_DELAY_S)
-        status, payload, meta = fetch(url)
+        status, payload, meta = fetch(url, FALLBACK_USER_AGENT)
     row: dict[str, Any] = {"file": rel_path, "url": url, "status": status, **meta}
     if status == "ok":
         target.parent.mkdir(parents=True, exist_ok=True)
@@ -92,6 +95,23 @@ def download(rel_path: str, url: str, force: bool, previous: dict[str, dict[str,
     else:
         log.warning("%-14s %s", status, url)
     return row
+
+
+def reuse_renamed(jobs: dict[str, str], previous: dict[str, dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    """Move files whose catalog name changed (same URL, same content) instead of re-downloading."""
+    by_url = {row["url"]: row for row in previous.values() if row.get("status") == "ok"}
+    updated = dict(previous)
+    for rel_path, url in jobs.items():
+        old = by_url.get(url)
+        if not old or old["file"] == rel_path:
+            continue
+        source, target = ROOT / old["file"], ROOT / rel_path
+        if source.exists() and not target.exists() and \
+                hashlib.sha256(source.read_bytes()).hexdigest() == old.get("sha256"):
+            target.parent.mkdir(parents=True, exist_ok=True)
+            source.rename(target)
+            updated[rel_path] = {**old, "file": rel_path}
+    return updated
 
 
 def remove_stale(expected: set[Path]) -> None:
@@ -114,6 +134,7 @@ def main() -> None:
                 jobs.setdefault(doc["file"], doc["url"])
 
     previous = load_previous()
+    previous = reuse_renamed(jobs, previous)
     with ThreadPoolExecutor(max_workers=WORKERS) as pool:
         report = list(pool.map(lambda job: download(*job, force, previous), jobs.items()))
     remove_stale({ROOT / rel for rel in jobs})

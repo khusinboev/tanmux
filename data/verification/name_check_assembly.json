@@ -1,0 +1,93 @@
+[
+ {
+  "name_as_written": "Dürr Somac ProLine Cube",
+  "exists": true,
+  "official_name": "Somac® ProLine Cube (ProLine Cube Filling Station)",
+  "evidence_url": "https://www.durr.com/en/products/final-assembly/filling-technology/line-filling-stations",
+  "note": "Page text: 'The Somac® ProLine Cube is the new generation of filling equipment for vehicle systems on your assembly line ... One base unit can be used for up to 4 consoles'. Supplier Dürr Somac GmbH, Stollberg. HTML page only; no PDF found."
+ },
+ {
+  "name_as_written": "Dürr Somac G4 Blue filling adapter",
+  "exists": true,
+  "official_name": "Somac® G4 Blue Filling Adapter (4th-generation Somac filling adapter; variants for brake/coolant/power steering, refrigerant, R744, windscreen washer)",
+  "evidence_url": "https://www.durr.com/en/products/final-assembly/filling-technology/filling-adapter",
+  "note": "H1 'Somac® G4 Blue Filling Adapter'; 'G4 Blue Adapter for brakes, coolant or power steering'."
+ },
+ {
+  "name_as_written": "Dürr Somac G4 Blue Twin A/C adapter",
+  "exists": true,
+  "official_name": "G4 Blue Twin A/C Adapter (single adapter for R134a and R1234yf)",
+  "evidence_url": "https://www.durr.com/en/products/final-assembly/filling-technology/filling-adapter",
+  "note": "Page text: 'As a single adapter for two refrigerants, the G4 Blue Twin A/C Adapter provides optimum flexibility during the transitional period from R134a to R1234yf'."
+ },
+ {
+  "name_as_written": "Dürr Somac ProLine line filling station",
+  "exists": true,
+  "official_name": "Somac® Line filling stations - ProLine filling station (also CompLine compact line station; ProLine Cube new generation)",
+  "evidence_url": "https://www.durr.com/en/products/final-assembly/filling-technology/line-filling-stations",
+  "note": "Wording on Dürr site: 'ProLine - Systematic modularity: ProLine filling stations optimize the space requirements at your assembly line'. 'ProLine line filling station' is a descriptive combination of these official terms."
+ },
+ {
+  "name_as_written": "Dürr Somac fuel filling station",
+  "exists": false,
+  "official_name": "Somac® Compact Ex (explosion-proof fuel filling station); fully-automatic fuel filling equipment under 'Somac® Automated filling stations'",
+  "evidence_url": "https://www.durr.com/en/products/final-assembly/filling-technology/compact-filling-stations",
+  "note": "Generic as written. Dürr text: 'With our Compact Ex fuel filling station you are not just buying a machine but also the know-how of our safety experts ... solutions for vapour recovery, vapour extraction or vapour condensation'. Automated page: https://www.durr.com/en/products/final-assembly/filling-technology/automated-filling-stations ('fully-automatic fuel filling equipment')."
+ },
+ {
+  "name_as_written": "Graco Therm-O-Flow 200",
+  "exists": true,
+  "official_name": "Therm-O-Flow® 200 (Therm-O-Flow Bulk Hot Melt Systems, 200 L / 55 gal drums)",
+  "evidence_url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334130/334130EN.pdf",
+  "note": "Manual 334130ZAA 'Instructions-Parts Therm-O-Flow® 200 ... For applying hot melt sealant and adhesive materials from 200 Liter (55 Gallon) drums' (mod. 2025-06). Product page: https://www.graco.com/us/en/in-plant-manufacturing/products/sealants-adhesives/sealant-supply-systems-pumps/therm-o-flow-bulk-hot-melt-systems.html; warm-melt variant brochure 350422ENEU-A."
+ },
+ {
+  "name_as_written": "Atlas Copco SCA dispensing system",
+  "exists": false,
+  "official_name": "Atlas Copco SCA product line (dispensing solutions for final-assembly glazing); current 1K metering model e.g. 'SCA Enso 8000 Single-Component (1K) Shot Meter', also 'SCA Enso 7000 Tandem Shot Meter' / 'SCA Enso 7000 Two-Component (2K) Shot Meter'",
+  "evidence_url": "https://www.atlascopco.com/en-us/itba/industry-solutions/automotive-entry/finalassembly/dispensing-final-assembly",
+  "note": "Not a model name: SCA is an Atlas Copco product line. Glazing page: 'Shaped bead ... Used with 1K, 1K accelerated, or 2K adhesives ... Our SCA product line ...'. Model page: https://www.atlascopco.com/en-uk/itba/products/metering-units-dispensers-21013.22143/sca-enso-8000-single-component-1k-shot-meter-sku730104."
+ },
+ {
+  "name_as_written": "Nordson ProBlue bulk hot melt melter",
+  "exists": false,
+  "official_name": "No such product: ProBlue® is Nordson's tank-melter family (current 'ProBlue® Flex Melter'); Nordson bulk melters are 'VersaDrum™ Bulk Melters (Heated)' (200 L/55 gal drums), 'VersaPail' (20 L pails) and 'AltaPail™ II Bulk Melters'",
+  "evidence_url": "https://www.nordson.com/en/products/adhesive-dispensing-systems-products/versadrum-bulk-melters-heated",
+  "note": "Evidence from search-index results only: nordson.com answers automated fetches with a Cloudflare 403 challenge, so the page could not be opened and checked. For the headliner hot melt no plant-specific model can be named; a 408 kg box does not map to a drum/pail melter without plant data."
+ },
+ {
+  "name_as_written": "Nordson EFD 752V diaphragm valve",
+  "exists": true,
+  "official_name": "Nordson EFD 752V Series diaphragm valve (752V-UHSS, 752V-SS, 752V-UH)",
+  "evidence_url": "https://www.galindberg.se/storage/7DFAE9621A7372809525A9B64B9B3EC1D5596CD1A2E0C078AD62F124A30CE9C1/3bec3a6e30f94665927b2d34c4611d3d/pdf/media/d72074132acc4591b55217818455f41f/EFD-752.pdf",
+  "note": "EFD (a Nordson company) data sheet, 2004 edition, distributor-hosted: 'The 752V Series dispense valve systems accurately control the application of most low to medium viscosity fluids'. The flumasys.com copies in the catalog are 404; nordson.com product page not fetchable (Cloudflare)."
+ },
+ {
+  "name_as_written": "Graco agitated pressure tank",
+  "exists": false,
+  "official_name": "Graco Stainless Steel Pressure Tanks / 'Pressure Pots' (2, 5, 10, 15 gal, with or without agitator) - manuals 308370W (2-gal) and 308369Z (5/10/15-gal); agitator: 'Heavy-Duty Stainless Steel Agitators' 308371U",
+  "evidence_url": "https://www.graco.com/us/en/in-plant-manufacturing/products/liquid-coating/paint-kitchen/paint-kitchen-accessories/pressure-pots.html",
+  "note": "Generic as written. Graco page: 'Available in two to 15 gallons, with and without agitators'; manuals: 'Industrial grade pressure tanks used to supply, agitate, and pressurize finishing liquids'."
+ },
+ {
+  "name_as_written": "Graco Fire-Ball 300",
+  "exists": true,
+  "official_name": "Graco 50:1 Fire-Ball® 300 grease pump (models 239877 pail, 239887 120-lb, 239888 400-lb); Fire-Ball 300 3:1 / 5:1 are OIL pumps",
+  "evidence_url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/308/308883/308883EN-Y.pdf",
+  "note": "Manual 308883Y '50:1 Fire-Ball® 300 Pump ... For pumping non-corrosive and non-abrasive greases and lubricants only'. Product family page: https://www.graco.com/us/en/vehicle-service/products/service-garage-lube-equipment/pumps-dispense-packages/fire-ball-pumps-packages.html. For grease (ids 42/43) use the 50:1 grease version, not manual 309868 (oil pumps)."
+ },
+ {
+  "name_as_written": "Lincoln PowerMaster II",
+  "exists": true,
+  "official_name": "Lincoln PowerMaster II (Series 1900) air-operated drum pumps (legacy; PowerMaster III is the newer air-logic design, PMV pumps are based on it)",
+  "evidence_url": "https://petroleumservicecompany.com/content/pdfs/Lincoln_Equipment_Brochure.pdf",
+  "note": "Lincoln catalogue (2019 print, distributor-hosted) PDF p.28: 'drum cover for mounting PowerMaster II and III drum pumps ... For use with all PowerMaster II Series 1900 pumps'. These are 16/55-gal drum pumps; for a 15 kg pail Lincoln lists '9989 50:1 - 25-, 50-lb. Portable with Pail Cover'. No current SKF/Lincoln web page fetched (skf.com is script-rendered)."
+ },
+ {
+  "name_as_written": "Dürr Somac oil filling unit (catalog: 'Somac Compact / BlueStart oil filling unit')",
+  "exists": true,
+  "official_name": "Somac® Compact filling station (media incl. 'Engine, axle, gearbox and differential oil'); Dürr BlueStart filling system (low volumes); MultiCompact; gearbox filling equipment under Somac® Automated filling stations",
+  "evidence_url": "https://www.durr.com/en/products/final-assembly/filling-technology/compact-filling-stations",
+  "note": "Dürr text: 'Overview filling fluids and gases ... Engine, axle, gearbox and differential oil ... Windshield washer fluid ... Fuels' and 'The Dürr BlueStart filling system is especially designed for low production volumes, longer cycle times and highest filling quality'. There is no product literally called 'oil filling unit'."
+ }
+]

@@ -7,39 +7,57 @@
   "material_docs": [
    {
     "type": "TDS",
-    "title": "Q8 Brake Fluid DOT 4 plus - product data sheet",
+    "title": "Q8 Brake Fluid DOT 4+ - Product Data Sheet (Q8Oils, EN, published 2025-11)",
     "url": "https://www.q8oils.com/wp-content/uploads/2025/11/Q8-Brake-Fluid-DOT-4plus_en.pdf",
     "language": "en",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "Equivalent DOT 4+ PDS (dry boiling point min 260 C) for property reference; not the CROWN product. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
+    "verified": true,
+    "note": "Equivalent DOT 4+ PDS (dry boiling point min 260 C) for property reference; not the CROWN product. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "Kuwait Petroleum (Q8Oils) Product Data Sheet 'Q8 Brake Fluid DOT 4+' - glycol-ether brake/clutch fluid, FMVSS 116 DOT 3/DOT 4, ISO 4925 Class 4, SAE J1703/J1704, JIS K2233 Class 4; dry ERBP 265 C, wet 165 C; EN; 1 p; undated",
+     "doc_type": "PDS",
+     "language": "en",
+     "version_date": "undated (URL/PDF 2025-11)",
+     "class_ok": true,
+     "reason": "DOT 4 Plus brake fluid - right class for DOT-4+ CROWN; not the Kukdong product."
+    }
    },
    {
     "type": "SDS",
-    "title": "JMC Bremsflüssigkeit DOT4 Plus - Safety data sheet (rev. 11.10.2023)",
-    "url": "https://www.biketeile-service.de/media/attachment/pdf/sida_en_5585513.pdf",
-    "language": "en",
-    "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "Equivalent DOT 4 Plus SDS (UK REACH format); generic glycol-ether hazard data. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
-    "type": "SDS",
-    "title": "DASCO DOT-4 brake fluid MSDS (Korean, 물질안전보건자료, 2022)",
+    "title": "DASCO DOT-4 Brake Fluid (Dong-A Special Chemical) - MSDS 물질안전보건자료 (KO, R01 2024-06-25)",
     "url": "https://www.dascochem.co.kr/docs/dasco-bf-dot4-msds.pdf",
     "language": "ko",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "Korean-format MSDS of a Korean DOT 4 glycol-ether brake fluid (Dong-A special chemical); closest Korean-language equivalent; not the CROWN product. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+    "verified": true,
+    "note": "Korean-format MSDS of a Korean DOT 4 glycol-ether brake fluid (Dong-A special chemical); closest Korean-language equivalent; not the CROWN product. URL from search results; not opened (WebFetch to vendor hosts blocked).",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "Dong-A Special Chemical (동아특수화학) MSDS 'DASCO DOT-4 브레이크액', MSDS no. AA00621-0000000056 - DOT 4 glycol-ether/borate-ester brake fluid (diethylene glycol, triethylene glycol monobutyl ether...); Korean KOSHA format (template 2022); PDF R01 2024-06-25; 26 pp",
+     "doc_type": "SDS",
+     "language": "ko",
+     "version_date": "R01, 2024-06-25 (template 2022)",
+     "class_ok": true,
+     "reason": "Korean DOT 4 brake fluid SDS - right class."
+    }
    },
    {
     "type": "SDS",
-    "title": "Recochem Brake Fluid DOT4 Safety Data Sheet",
+    "title": "Recochem Brake Fluid DOT4 - Safety Data Sheet No. 1516 (EN, 2017-05-04)",
     "url": "https://christensenusa.com/wp-content/uploads/2026/03/Recochem-Brake-Fluid-DOT4-5-4-2017.pdf",
     "language": "en",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "Generic DOT 4 glycol ether/borate ester SDS. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+    "verified": true,
+    "note": "Generic DOT 4 glycol ether/borate ester SDS. URL from search results; not opened (WebFetch to vendor hosts blocked).",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "Recochem Inc. Safety Data Sheet 'Brake Fluid DOT4' (SDS No. 1516; codes 35-800PRES, 15-801OEM etc.), WHMIS 2015/GHS format, prepared 2017-05-04; EN; 10 pp; dealer host",
+     "doc_type": "SDS",
+     "language": "en",
+     "version_date": "2017-05-04",
+     "class_ok": true,
+     "reason": "DOT 4 brake fluid SDS - right class."
+    }
    },
    {
     "type": "brochure",
@@ -49,6 +67,15 @@
     "exact_or_equivalent": "exact",
     "verified": false,
     "note": "HTML product page (not PDF) - identifies exact product and manufacturer; use to request MSDS/TDS. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+   },
+   {
+    "type": "SDS",
+    "title": "febi (Ferdinand Bilstein) brake fluid DOT 4 PLUS - Safety Data Sheet (UK REACH), v15.0, 30.09.2026",
+    "url": "https://cdn.partsfinder.bilsteingroup.com/pf-document/CLP26748_GB.PDF",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 14 pp; \"Safety Data Sheet (UK REACH) (UK) brake fluid DOT 4 PLUS Article number 26748, 23932, 23930, 180589 / Ferdinand Bilstein GmbH + Co. KG ... Revision 30.09.2026 Version 15.0\"; Repr. 2 H361fd, contains tris[2-(2-(2-methoxyethoxy)ethoxy)ethyl] orthoborate. Brand-owner-hosted DOT 4 Plus SDS replacing the JMC DOT4 Plus SDS (biketeile-service.de is behind a Cloudflare challenge, 403)."
    }
   ],
   "equipment": [
@@ -69,43 +96,35 @@
   ],
   "equipment_docs": [
    {
-    "vendor": "Dürr (Dürr Somac GmbH)",
-    "model": "NEXT.assembly portfolio (incl. Somac filling)",
-    "type": "brochure",
-    "title": "Final assembly on the NEXT.level - One-Stop-Shop solutions from Dürr",
-    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/duerr-brochure-NEXT.assembly-english-low.pdf",
-    "verified": false,
-    "note": "Dürr final-assembly brochure covering conveyor, gluing, marriage, filling and testing modules; general, not a model datasheet. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
-    "vendor": "Dürr (Dürr Somac GmbH)",
-    "model": "NEXT.assembly portfolio (newer edition)",
-    "type": "brochure",
-    "title": "Dürr NEXT.assembly brochure (EN, digital)",
-    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
-    "verified": false,
-    "note": "Newer edition of the final-assembly brochure; general. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
-    "vendor": "Dürr (Dürr Somac GmbH)",
-    "model": "DXQ filling + fill stations",
-    "type": "brochure",
-    "title": "Dürr case study: fluid fill stations in automotive final assembly",
-    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
-    "verified": false,
-    "note": "Case study (VW Dresden) on brake, radiator/coolant, battery thermal and A/C fill stations with DXQ software. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
     "vendor": "Twin Engineers (India)",
     "model": "TCF/powertrain fluid filling machines (brake & clutch, coolant, A/C, oil)",
     "type": "brochure",
-    "title": "Twin Engineers - Fluid Filling Machines for Automotives (brochure)",
+    "title": "Twin Engineers – Fluid Filling Machines for Automotives (range brochure, EN, TWBR 020221, 2021)",
     "url": "https://www.twinengineers.com/wp-content/uploads/2024/07/Oil-Filling-Brochure.pdf",
-    "verified": false,
-    "note": "Alternative-vendor brochure covering vacuum fill, leak test, level/volume fill, degassing; brake/clutch, coolant, A/C sections. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+    "verified": true,
+    "note": "Alternative-vendor brochure covering vacuum fill, leak test, level/volume fill, degassing; brake/clutch, coolant, A/C sections. URL from search results; not opened (WebFetch to vendor hosts blocked).",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "Twin Engineers Pvt. Ltd. (Pune, India) 'Fluid Filling Machines for Automotives' range brochure, EN, 8 pp (file TWBR 020221, Feb 2021): vacuum/level/volume/pressure filling, leak test, degassing; machines for brake & clutch oil (DOT 3/4, ABS), radiator coolant (pre-mix/online mixing), power-steering oil, A/C charging, engine/axle/gearbox oil, AdBlue, diesel, washer, combined systems; per-machine cycle-time/flow specs, no model numbers.",
+     "doc_type": "brochure",
+     "language": "en",
+     "doc_number_rev": "TWBR 020221 (Feb 2021)",
+     "passport_ok": true,
+     "process_ok": true,
+     "reason": "Genuine product-range brochure with per-machine specs but no model numbers. It covers brake fluid, PSF, coolant, gearbox oils, A/C charging and washer (ids 27-33, 35). Correctly not attached to gasoline (id 34), since it covers diesel only. Alternative vendor, low confidence."
+    }
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Somac ProLine Cube / G4 Blue Adapter (filling)",
+    "type": "brochure",
+    "title": "Dürr NEXT.assembly brochure (EN, 2026) - 'Filling' section: Somac ProLine Cube filling machine and Somac G4 Blue Adapter (no dedicated Somac model datasheet is published)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
+    "verified": true,
+    "note": "evidence: downloaded; filling section names Somac ProLine Cube and Somac G4 Blue Adapter; Dürr filling product pages publish no PDF datasheets"
    }
   ],
-  "notes": "Korean shopping page (danawa plan 3938) lists '극동제연 크라운 브레이크액', linking CROWN brand to Kukdong Jeyon, a Korean OE fluid supplier; DOT4+ variant not seen directly. No Kukdong TDS/SDS PDF found publicly. No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters. | REVIEW: merged from 2 source rows (A/T and M/T), same SAP 200000259. | round2_D evidence: Chemknock (Korean export portal) lists 'Crown brake fluid DOT-4+' by Kukdong Jeyen (https://chemknock.com/view.do?dvsn=pdt&idx=37272&no=194&pgMode=view); TradeKorea lists Crown DOT-3/DOT-4/DOT-4+ (https://www.tradekorea.com/product/detail/P664497/High-quality-Brake-Fluid-DOT-3---DOT-4---DOT-4+.html); Danawa lists '극동제연 크라운 브레이크액'. Spec field 'DOT-4+CROWN' matches the product name exactly. | round2_D: Exact CROWN DOT-4+ MSDS PDF not found publicly; KOSHA MSDS (msds.kosha.or.kr) search by '극동제연' recommended, or request from Kukdong Jeyen. KD Finechem (kdfinechem.com, product page with MSDS menu, HTML) also sells DOT-4 - possible affiliate, unconfirmed. Web search budget ran out before more Dürr/brake-fill vendor searches could be done. | round3_review evidence: Danawa (plan.danawa.com/info/?nPlanSeq=3938) lists 극동제연 크라운 브레이크액 DOT3 800ml; Justia trademark record: CROWN mark owned by KD FINECHEM CO., LTD.; Kukdong-Euro (KD Finechem) supplies coolant/brake fluid to Hyundai/Kia/VW. The chemknock and TradeKorea DOT-4+ listings did not appear in review searches. | round3_review: REVIEW round3: Manufacturer: CONFIRMED (CROWN = Kukdong Jeyen / KD Finechem). Exact DOT-4+ grade: plausible, unverified. The chemknock page is labelled 'exact' (HTML, file null). Acceptable as exact product identification but not a passport; keep. The DASCO MSDS filename was not found in search. Twin Engineers fluid-filling brochure (alt vendor) was not found by filename in search. Its relevance is low (no evidence of use at UzAuto); keep as class reference only."
+  "notes": "Korean shopping page (danawa plan 3938) lists '극동제연 크라운 브레이크액', linking CROWN brand to Kukdong Jeyon, a Korean OE fluid supplier; DOT4+ variant not seen directly. No Kukdong TDS/SDS PDF found publicly. No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters. | REVIEW: merged from 2 source rows (A/T and M/T), same SAP 200000259. | round2_D evidence: Chemknock (Korean export portal) lists 'Crown brake fluid DOT-4+' by Kukdong Jeyen (https://chemknock.com/view.do?dvsn=pdt&idx=37272&no=194&pgMode=view); TradeKorea lists Crown DOT-3/DOT-4/DOT-4+ (https://www.tradekorea.com/product/detail/P664497/High-quality-Brake-Fluid-DOT-3---DOT-4---DOT-4+.html); Danawa lists '극동제연 크라운 브레이크액'. Spec field 'DOT-4+CROWN' matches the product name exactly. | round2_D: Exact CROWN DOT-4+ MSDS PDF not found publicly; KOSHA MSDS (msds.kosha.or.kr) search by '극동제연' recommended, or request from Kukdong Jeyen. KD Finechem (kdfinechem.com, product page with MSDS menu, HTML) also sells DOT-4 - possible affiliate, unconfirmed. Web search budget ran out before more Dürr/brake-fill vendor searches could be done. | round3_review evidence: Danawa (plan.danawa.com/info/?nPlanSeq=3938) lists 극동제연 크라운 브레이크액 DOT3 800ml; Justia trademark record: CROWN mark owned by KD FINECHEM CO., LTD.; Kukdong-Euro (KD Finechem) supplies coolant/brake fluid to Hyundai/Kia/VW. The chemknock and TradeKorea DOT-4+ listings did not appear in review searches. | round3_review: REVIEW round3: Manufacturer: CONFIRMED (CROWN = Kukdong Jeyen / KD Finechem). Exact DOT-4+ grade: plausible, unverified. The chemknock page is labelled 'exact' (HTML, file null). Acceptable as exact product identification but not a passport; keep. The DASCO MSDS filename was not found in search. Twin Engineers fluid-filling brochure (alt vendor) was not found by filename in search. Its relevance is low (no evidence of use at UzAuto); keep as class reference only. | round4_fix: JMC DOT4 Plus SDS host is Cloudflare-blocked -> febi DOT 4 PLUS SDS (v15.0, 2026) as equivalent. | round4_assembly: No CROWN DOT-4(+) MSDS/TDS found publicly. KOSHA KMS (msds.kosha.or.kr) only offers 'MSDS submission status' lookup, product MSDS are not downloadable; Kukdong Jeyen/KD Finechem web domains tried (kdfinechem.com/.co.kr, kukdongjeyen.co.kr, kukdong.co.kr) do not resolve, kukdong.com is an unrelated logistics group. Identity support: TradeKorea supplier page 'KUKDONG JEYEN CO LTD ... Brand name WIXENELT, CROWN ... South Korea / 1973 ... Manufacturer' and Chemknock page 'Crown brake fluid DOT-4+ ... Kukdong Jeyen, 286 Pyeongtaekhang-ro, Poseung-eup, Pyeongtaek-si ... standards of car makers such as Hyundai, KIA, GM Daewoo'. Note: the catalog's DASCO DOT-4 MSDS is by Dong-A Special Chemical (동아특수화학), not Kukdong - it stays an equivalent."
  },
  {
   "id": 28,
@@ -115,84 +134,120 @@
   "material_docs": [
    {
     "type": "TDS",
-    "title": "Pennzoil ATF Dexron-VI Technical Datasheet",
+    "title": "Pennzoil ATF Dexron-VI - Technical Data Sheet (EN, v1.1, 2015-01-26)",
     "url": "https://shop.sclubricants.com/pub/media/pds/pennzoil/Pennzoil-ATF-Dexron-VI-Technical-Datasheet.pdf",
     "language": "en",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "States 'Meets GM specification GMN10060' (per search snippet). URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
-    "type": "TDS",
-    "title": "RAVENOL ATF Dexron VI - TDS 1211105",
-    "url": "https://partner.ravenol.de/storage/app/media/product-pdf/Tds_1211105_en.pdf",
-    "language": "en",
-    "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "Lists GMN 10060, GM licence J-60331 (per search snippet). URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
+    "verified": true,
+    "note": "States 'Meets GM specification GMN10060' (per search snippet). URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "SOPUS Products (Shell) Technical Data Sheet 'Pennzoil ATF Dexron-VI' (CS8420-01, v1.1, 2015-01-26) - GM-approved Dexron-VI ATF, states 'Meets GM specification GMN10060'; EN; 2 pp",
+     "doc_type": "TDS",
+     "language": "en",
+     "version_date": "v1.1, 2015-01-26",
+     "class_ok": true,
+     "reason": "Dexron-VI ATF that explicitly cites GMN10060 - right class for ids 28 and 32."
+    }
    },
    {
     "type": "SDS",
-    "title": "RAVENOL ATF DEXRON VI - Safety data sheet",
+    "title": "RAVENOL ATF DEXRON VI - Safety Data Sheet (EU, EN, v7, 2023-07-07)",
     "url": "https://www.ravenol.de/storage/app/uploads/share/SDB/Sdb_RAVENOL%20ATF%20DEXRON%20VI_1211105_en_ALL.pdf",
     "language": "en",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "SDS matching the Ravenol TDS above. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
+    "verified": true,
+    "note": "SDS matching the Ravenol TDS above. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "Ravensberger Schmierstoffvertrieb GmbH Safety Data Sheet 'RAVENOL ATF DEXRON VI' (art. 1211105), EU REACH format, version 7, revision 7 Jul 2023, not classified; EN; 17 pp",
+     "doc_type": "SDS",
+     "language": "en",
+     "version_date": "v7, 2023-07-07",
+     "class_ok": true,
+     "reason": "Dexron-VI ATF SDS - right class."
+    }
    },
    {
     "type": "SDS",
-    "title": "ACDelco Dexron-VI ATF SDS (ExxonMobil-produced, 2014, GM P/N 19287624)",
-    "url": "https://msds.fmpco.com/images/fmp_msds/19287624_DexronVI_2014.pdf",
-    "language": "en",
-    "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "GM-branded genuine Dexron-VI SDS; closest to GM factory fluid. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
-    "type": "SDS",
-    "title": "ACDelco (GM Holden) DEXRON VI Premium Full Synthetic Transmission Fluid - SDS (Infosafe LQ9RG, 2019)",
+    "title": "ACDelco DEXRON VI Premium Full Synthetic Transmission Fluid - SDS Infosafe LQ9RG (GM Holden, EN, 2019-10-21)",
     "url": "https://acdelco.com.au/gm-b2cau/cms/pdf/SDS/LQ9RG_DEXRON%20VI%20PREMIUM%20FULL%20SYNTHETIC%20TRANSMISSION%20FLUID.pdf",
     "language": "en",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "GM-hosted (ACDelco Australia) SDS for a GM-genuine Dexron-VI ATF; manufacturer-hosted, closest to GM factory fluid. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+    "verified": true,
+    "note": "GM-hosted (ACDelco Australia) SDS for a GM-genuine Dexron-VI ATF; manufacturer-hosted, closest to GM factory fluid. URL from search results; not opened (WebFetch to vendor hosts blocked).",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "GM Holden Ltd Safety Data Sheet (Infosafe LQ9RG) 'DEXRON VI Premium Full Synthetic Transmission Fluid' (ACDelco; ExxonMobil / Southern Cross Lubes listed as suppliers), issued 21/10/2019; EN (AU/NZ GHS); 8 pp; acdelco.com.au",
+     "doc_type": "SDS",
+     "language": "en",
+     "version_date": "issued 2019-10-21",
+     "class_ok": true,
+     "reason": "GM/ACDelco Dexron-VI ATF SDS - right class."
+    }
    },
    {
     "type": "TDS",
-    "title": "ACDelco Dexron VI Premium Full Synthetic ATF - sell sheet (ACDelco Australia)",
+    "title": "ACDelco Dexron VI Premium Full Synthetic ATF - product sell sheet (ACDelco Australia, EN, 2024)",
     "url": "https://acdelco.com.au/gm-b2cau/cms/pdf/Flyers/ACDelco%20Dexron%20VI%20Premium%20Full%20Synthetic%20ATF%20Sell%20Sheet.pdf",
     "language": "en",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "GM-hosted product flyer (fill-for-life, Holden). URL from search results; not opened (WebFetch to vendor hosts blocked)."
+    "verified": true,
+    "note": "GM-hosted product flyer (fill-for-life, Holden). URL from search results; not opened (WebFetch to vendor hosts blocked).",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "ACDelco Australia sell sheet 'Dexron VI Premium Full Synthetic Transmission Fluid' (P/N 19421180, 19421181, 19375058) - multi-vehicle full-synthetic ATF 'meets or exceeds GM Dexron VI', long OEM list incl. power-steering uses, typical properties (5.83 cSt @100 C, VI 145, red); EN; 2 pp",
+     "doc_type": "brochure",
+     "language": "en",
+     "version_date": "undated (PDF 2024-10-30)",
+     "class_ok": true,
+     "reason": "Right class (Dexron-VI ATF, also listed for power steering); a sell sheet with typical properties rather than a full TDS."
+    }
    },
    {
     "type": "SDS",
-    "title": "GM DEXRON VI ATF Material Safety Data Sheet 000003000398 v2.0 (GM P/N 88861046)",
-    "url": "https://seattleautomotive.com/files/SDS/88861046%20dexron%20vi%20atf.pdf",
-    "language": "en",
-    "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "SDS of GM-genuine Dexron VI ATF (P/N 88861046, Petro-Canada-made per document number style); dealer-hosted. URL from search results; not opened (WebFetch to vendor hosts blocked)."
-   },
-   {
-    "type": "SDS",
-    "title": "DEXRON VI ATF SDS (EC 1907/2006)",
-    "url": "https://uploads-ssl.webflow.com/5d513e6ea4a37093208cabb2/5e958119bb64f4d142e866cf_DEXRON%20%5ER%5E%20VI%20ATF.PDF",
-    "language": "en",
-    "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "EU-format SDS of a licensed DEXRON VI ATF. URL from search results; not opened (WebFetch to vendor hosts blocked)."
-   },
-   {
-    "type": "SDS",
-    "title": "Petro-Canada DEXRON VI ATF SDS 000003001354 v4.0",
+    "title": "Petro-Canada DEXRON VI ATF - Safety Data Sheet US (EN, v4.0, 2022-10-19)",
     "url": "https://evosupplygroupcatalog.sfo3.digitaloceanspaces.com/brands/files/Petro%20Canada/DEX6C16-sds.pdf",
     "language": "en",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "Petro-Canada is a known GM Dexron-VI supplier. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+    "verified": true,
+    "note": "Petro-Canada is a known GM Dexron-VI supplier. URL from search results; not opened (WebFetch to vendor hosts blocked).",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "Petro-Canada America Lubricants LLC Safety Data Sheet 'DEXRON VI ATF' 000003001354 version 4.0 (rev. 2022-10-19), US OSHA format, not hazardous; EN; 11 pp",
+     "doc_type": "SDS",
+     "language": "en",
+     "version_date": "v4.0, 2022-10-19",
+     "class_ok": true,
+     "reason": "Dexron-VI ATF SDS - right class."
+    }
+   },
+   {
+    "type": "TDS",
+    "title": "RAVENOL ATF DEXRON VI - Technical data sheet (art. 1211105; GM licence J-60331, GMN 10060)",
+    "url": "https://ravenol.de/storage/app/media/product-pdf/Tds_1211105_en.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 2 pp; \"RAVENOL ATF DEXRON VI / Artikelnummer: 1211105 / Specifications: GM Dexron-VI / Approvals: GM Lizenz-Nr. J-60331, MB-Freigabe 236.41 / Recommendations: ... GMN 10060\"; 208 L drum 1211105-208. Same document as the partner.ravenol.de copy (expired TLS certificate - not bypassed), served by ravenol.de."
+   },
+   {
+    "type": "SDS",
+    "title": "ACDelco Dexron VI Automatic Transmission Fluid - SDS (GM P/N 88865601/88865602/88865603; ACDelco 10-9394/10-9395/10-9396), rev. 2020-10-08, v. LP1409.0, manufacturer SK lubricants Americas",
+    "url": "https://apps.spheracloud.net/Pdf/2748753_1_2023461058.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 7 pp; header '88865601,88865602,88865603 SAFETY DATA SHEET Revision date: 2020-10-08 Version: LP1409.0'; 'Product name: ACDelco Dexron VI Automatic Transmission Fluid'; 'Manufacturer ... SK lubricants Americas Inc.'; 'Supplier/Distributer ... ACDelco, Detroit'. Source = GM's official SDS portal (Sphera, linked from gmparts.com > Safety Data Sheets & Ingredient Disclosures). Equivalent because the plant's Dexron-VI blender is not documented."
+   },
+   {
+    "type": "SDS",
+    "title": "AC Delco ATF Dexron VI - SDS (GM P/N 19434708, product code 001C5035), Shell Lubricants Egypt, rev. 18.09.2023 v1.0 (GM Africa & Middle East)",
+    "url": "https://apps.spheracloud.net/Pdf/4193339_1_1269775406.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 18 pp; '19434708 SAFETY DATA SHEET ... ACDelco ATF Dexron VI Print Date 31.07.2024 Revision Date 18.09.2023 Version 1.0'; 'Trade name: AC Delco ATF Dexron VI; Product code: 001C5035'; 'Manufacturer/Supplier: Shell Lubricants Egypt'. GM official SDS portal (Sphera). Nearest GM-international regional supply example."
    }
   ],
   "equipment": [
@@ -213,121 +268,131 @@
   ],
   "equipment_docs": [
    {
-    "vendor": "Dürr (Dürr Somac GmbH)",
-    "model": "NEXT.assembly portfolio (incl. Somac filling)",
-    "type": "brochure",
-    "title": "Final assembly on the NEXT.level - One-Stop-Shop solutions from Dürr",
-    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/duerr-brochure-NEXT.assembly-english-low.pdf",
-    "verified": false,
-    "note": "Dürr final-assembly brochure covering conveyor, gluing, marriage, filling and testing modules; general, not a model datasheet. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
-    "vendor": "Dürr (Dürr Somac GmbH)",
-    "model": "NEXT.assembly portfolio (newer edition)",
-    "type": "brochure",
-    "title": "Dürr NEXT.assembly brochure (EN, digital)",
-    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
-    "verified": false,
-    "note": "Newer edition of the final-assembly brochure; general. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
-    "vendor": "Dürr (Dürr Somac GmbH)",
-    "model": "DXQ filling + fill stations",
-    "type": "brochure",
-    "title": "Dürr case study: fluid fill stations in automotive final assembly",
-    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
-    "verified": false,
-    "note": "Case study (VW Dresden) on brake, radiator/coolant, battery thermal and A/C fill stations with DXQ software. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
     "vendor": "Twin Engineers (India)",
     "model": "TCF/powertrain fluid filling machines (brake & clutch, coolant, A/C, oil)",
     "type": "brochure",
-    "title": "Twin Engineers - Fluid Filling Machines for Automotives (brochure)",
+    "title": "Twin Engineers – Fluid Filling Machines for Automotives (range brochure, EN, TWBR 020221, 2021)",
     "url": "https://www.twinengineers.com/wp-content/uploads/2024/07/Oil-Filling-Brochure.pdf",
-    "verified": false,
-    "note": "Alternative-vendor brochure covering vacuum fill, leak test, level/volume fill, degassing; brake/clutch, coolant, A/C sections. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+    "verified": true,
+    "note": "Alternative-vendor brochure covering vacuum fill, leak test, level/volume fill, degassing; brake/clutch, coolant, A/C sections. URL from search results; not opened (WebFetch to vendor hosts blocked).",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "Twin Engineers Pvt. Ltd. (Pune, India) 'Fluid Filling Machines for Automotives' range brochure, EN, 8 pp (file TWBR 020221, Feb 2021): vacuum/level/volume/pressure filling, leak test, degassing; machines for brake & clutch oil (DOT 3/4, ABS), radiator coolant (pre-mix/online mixing), power-steering oil, A/C charging, engine/axle/gearbox oil, AdBlue, diesel, washer, combined systems; per-machine cycle-time/flow specs, no model numbers.",
+     "doc_type": "brochure",
+     "language": "en",
+     "doc_number_rev": "TWBR 020221 (Feb 2021)",
+     "passport_ok": true,
+     "process_ok": true,
+     "reason": "Genuine product-range brochure with per-machine specs but no model numbers. It covers brake fluid, PSF, coolant, gearbox oils, A/C charging and washer (ids 27-33, 35). Correctly not attached to gasoline (id 34), since it covers diesel only. Alternative vendor, low confidence."
+    }
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Somac ProLine Cube / G4 Blue Adapter (filling)",
+    "type": "brochure",
+    "title": "Dürr NEXT.assembly brochure (EN, 2026) - 'Filling' section: Somac ProLine Cube filling machine and Somac G4 Blue Adapter (no dedicated Somac model datasheet is published)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
+    "verified": true,
+    "note": "evidence: downloaded; filling section names Somac ProLine Cube and Somac G4 Blue Adapter; Dürr filling product pages publish no PDF datasheets"
    }
   ],
-  "notes": "Spec is generic GM Dexron-VI (GMN10060); actual supplier to UzAuto not identified. No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters. | REVIEW: GMN10060 (DEXRON-VI) superseded by GMW16444. | round2_D: Dexron-VI (power steering). GM-hosted SDS found (ACDelco Australia). No SDS found for GM 19355342/88865601 specifically; sdsmanager.com hosts ACDelco Dexron-VI ATF (ExxonMobil, rev 2020-10-20) as HTML page: https://sdsmanager.com/safety-data-sheet/exxon-mobil-corporation-acdelco-dexron-vi-atf-en/. Actual blender for UzAuto unknown. | round3_review: REVIEW round3: Dexron-VI SDS set is fine, all labelled equivalent. The ACDelco AU LQ9RG URL was not found by name in search (an ACDelco AU DEXRON-VI SDS exists, Infosafe 1EVFM on torqueking.com). The webflow-hosted SDS has an odd but stable CDN URL. Twin Engineers fluid-filling brochure (alt vendor) was not found by filename in search. Its relevance is low (no evidence of use at UzAuto); keep as class reference only."
+  "notes": "Spec is generic GM Dexron-VI (GMN10060); actual supplier to UzAuto not identified. No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters. | REVIEW: GMN10060 (DEXRON-VI) superseded by GMW16444. | round2_D: Dexron-VI (power steering). GM-hosted SDS found (ACDelco Australia). No SDS found for GM 19355342/88865601 specifically; sdsmanager.com hosts ACDelco Dexron-VI ATF (ExxonMobil, rev 2020-10-20) as HTML page: https://sdsmanager.com/safety-data-sheet/exxon-mobil-corporation-acdelco-dexron-vi-atf-en/. Actual blender for UzAuto unknown. | round3_review: REVIEW round3: Dexron-VI SDS set is fine, all labelled equivalent. The ACDelco AU LQ9RG URL was not found by name in search (an ACDelco AU DEXRON-VI SDS exists, Infosafe 1EVFM on torqueking.com). The webflow-hosted SDS has an odd but stable CDN URL. Twin Engineers fluid-filling brochure (alt vendor) was not found by filename in search. Its relevance is low (no evidence of use at UzAuto); keep as class reference only. | round4_fix: RAVENOL TDS via ravenol.de (partner. host expired cert); ACDelco Dexron-VI SDS moved to sds.fmpco.com/images/sds_documents/. | round4_assembly: GM's official public SDS portal (gmparts.com -> apps.spheracloud.net 'SEARCH SAFETY DATA SHEETS') lists several ACDelco DEXRON VI ATF SDS from different licensed blenders: SK lubricants Americas (88865601, 2020), Phillips 66 (code 829783, P/N 88865549/88865550/88865618/88865765, issued 01-Mar-2023, https://apps.spheracloud.net/Pdf/4347058_1_578371061.pdf, verified) and Shell Lubricants Egypt (19434708, 2023). Which blender supplies UzAuto's 200 L drums (power-steering fluid) is still unknown, so manufacturer stays 'licensed Dexron-VI blender'. GM part 19417575 was not found in the GM SDS index."
  },
  {
   "id": 29,
-  "manufacturer": "Tosol-Sintez-Invest (Dzerzhinsk, Russia) - FELIX brand",
-  "product_identified": "FELIX red OAT carboxylate concentrate; 'DX-COOL' most likely = DEX-COOL (GM 6277M/GMW3420 type) designation, not a FELIX product name. FELIX CARBOX G12+ is a candidate, not confirmed",
+  "manufacturer": "OOO Tosol-Sintez-Invest (Dzerzhinsk, Nizhny Novgorod region, Russia) - FELIX brand",
+  "product_identified": "Most likely FELIX CARBOX G12+ (red OAT carboxylate) concentrate. No Felix product named 'DX-COOL' exists; 'DX-COOL' = GM DEX-COOL type. CARBOX is the Felix red OAT line that declares GM Opel/Vauxhall/Saab 6277M (DEX-COOL-type) plus 'Chevrolet (c 2001), Daewoo'; concentrate sold in 220/230 kg drums (art. 430203953/430203954). Not proven by a UzAuto document.",
   "manufacturer_confidence": "medium",
   "material_docs": [
    {
     "type": "brochure",
-    "title": "ACDelco Coolant FAQ (DEX-COOL red concentrate)",
+    "title": "ACDelco Coolant product flyer - DEX-COOL (GM 6277M, red) and All Seasons antifreeze (ACDelco Australia, EN)",
     "url": "https://pwr.com.au/app/uploads/2022/08/ACDelco-Coolant-FAQ.pdf",
     "language": "en",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "GM DEX-COOL red concentrate reference (SG 1.130); not Felix. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
+    "verified": true,
+    "note": "GM DEX-COOL red concentrate reference (SG 1.130); not Felix. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
+    "verification": {
+     "verdict": "partial",
+     "actual_document": "ACDelco Australia 2-page product flyer 'ACDelco Coolant' (not a FAQ) - ACDelco DEX-COOL (GM 6277M, ASTM D3306/D4985; red; SG 1.130; pH 8.3; P/N 92147598/92145527/95710438) plus ACDelco All Seasons Antifreeze/Coolant Inhibitor; EN; undated",
+     "doc_type": "brochure",
+     "language": "en",
+     "version_date": "undated",
+     "class_ok": true,
+     "reason": "Not a FAQ: a product flyer with GM 6277M spec and typical data for red DEX-COOL - usable brochure-level equivalent; fix the 'FAQ' title."
+    }
    },
    {
     "type": "PDS",
-    "title": "Shell Dexcool Antifreeze Coolant 50/50 datasheet",
+    "title": "Shell DEX-COOL Extended Life Antifreeze/Coolant 50/50 (prediluted) - Technical Data Sheet (EN, 2017-11-29)",
     "url": "https://shop.sclubricants.com/pub/media/pds/shell/Shell-Dexcool-Antifreeze-Coolant-50_50-datasheet.pdf",
     "language": "en",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "DEX-COOL type ethylene glycol OAT coolant PDS. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
-    "type": "PDS",
-    "title": "KOST DefendAL DexCool Automotive PDS",
-    "url": "https://kostusa.com/wp-content/uploads/2022/09/NEW-PDS-DefendAL-DexCoolAutomotive.pdf",
-    "language": "en",
-    "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "DEX-COOL type coolant PDS. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
+    "verified": true,
+    "note": "DEX-COOL type ethylene glycol OAT coolant PDS. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "SOPUS/Shell Technical Data Sheet 'Shell Dexcool AF/C 50/50 Extended Life Antifreeze' - ethylene-glycol carboxylate (OAT) coolant, GM DEX-COOL approval (GM 6277M, GM 1825M), 50/50 prediluted version; 29.11.2017; EN; 3 pp",
+     "doc_type": "TDS",
+     "language": "en",
+     "version_date": "2017-11-29",
+     "class_ok": true,
+     "reason": "DEX-COOL OAT class - right; describes the 50/50 prediluted variant, not the concentrate (the plant fills 50/50 anyway)."
+    }
    },
    {
     "type": "TDS",
-    "title": "Технический лист FELIX CARBOX + конц. (FELIX Carbox G12+ concentrate technical sheet)",
+    "title": "FELIX CARBOX / CARBOX Concentrate (red OAT G12+) - Технический лист (RU, Tosol-Sintez-Invest, 2022)",
     "url": "https://antifreezefelix.ru/storage/upload/documents/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82%20FELIX%20CARBOX%20+%20%D0%BA%D0%BE%D0%BD%D1%86.pdf",
     "language": "ru",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "Manufacturer-hosted (Felix brand site) TDS for red Carbox concentrate - most likely the actual product (exact if DX-COOL = Carbox conc.). URL from search results; not opened (WebFetch to vendor hosts blocked). Round3: Carbox G12+ = DX-COOL not proven; relabelled equivalent."
-   },
-   {
-    "type": "SDS",
-    "title": "MSDS FELIX CARBOX (SQ) antifreeze",
-    "url": "https://antifreezefelix.ru/storage/upload/documents/MSDS%20Felix%20CARBOX%20SQ.PDF",
-    "language": "ru",
-    "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "Manufacturer-hosted MSDS for Carbox SQ (heavy-duty OAT ethylene glycol, ASTM D6210); same chemistry family; closest Felix SDS found. URL from search results; not opened (WebFetch to vendor hosts blocked)."
-   },
-   {
-    "type": "TDS",
-    "title": "Технический лист FELIX TYPE D",
-    "url": "https://antifreezefelix.ru/storage/upload/documents/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82%20FELIX%20TYPE%20D.pdf",
-    "language": "ru",
-    "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "Felix Type-D technical sheet; Felix product line equivalent (possibly DEX-type designation; content unseen). URL from search results; not opened (WebFetch to vendor hosts blocked)."
+    "verified": true,
+    "note": "Manufacturer-hosted (Felix brand site) TDS for red Carbox concentrate - most likely the actual product (exact if DX-COOL = Carbox conc.). URL from search results; not opened (WebFetch to vendor hosts blocked). Round3: Carbox G12+ = DX-COOL not proven; relabelled equivalent.",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "Tosol-Sintez-Invest (Dzerzhinsk, RU) technical information 'Антифриз FELIX CARBOX' + 'FELIX CARBOX КОНЦЕНТРАТ' - red ethylene-glycol OAT G12+ coolant (no nitrite/amine/phosphate/borate/silicate; ASTM D3306/D4985/D6210), ready-to-use and concentrate data, OEM approvals; Russian; 4 pp",
+     "doc_type": "TDS",
+     "language": "ru",
+     "version_date": "2022 (PDF 2022-05-19, mod. 2022-12-22)",
+     "class_ok": true,
+     "reason": "Same maker as the plant spec 'Felix'; red nitrite-free OAT incl. concentrate - best class match; 'DX-COOL' = CARBOX still unproven, so equivalent."
+    }
    },
    {
     "type": "TDS",
-    "title": "Технический лист FELIX JDM",
-    "url": "https://antifreezefelix.ru/storage/upload/documents/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82%20FELIX%20JDM.pdf",
-    "language": "ru",
-    "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "Felix JDM (Hyundai/Kia MS 591-08) technical sheet - same manufacturer, different grade. URL from search results; not opened (WebFetch to vendor hosts blocked)."
-   },
-   {
-    "type": "TDS",
-    "title": "Технический лист FELIX DRAGON",
+    "title": "FELIX DRAGON / DRAGON Concentrate (red OAT G12+) - Технический лист (RU, Tosol-Sintez, 2023)",
     "url": "https://tosol-sintez.ru/assets/files/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82%20FELIX%20DRAGON.pdf",
     "language": "ru",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "Tosol-Sintez-hosted Felix technical sheet (different grade). URL from search results; not opened (WebFetch to vendor hosts blocked)."
+    "verified": true,
+    "note": "Tosol-Sintez-hosted Felix technical sheet (different grade). URL from search results; not opened (WebFetch to vendor hosts blocked).",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "Tosol-Sintez-Invest technical sheet 'Антифриз FELIX DRAGON' - red ethylene-glycol OAT G12+ coolant for Chinese cars (GB 29743-2013 LEC-II, ASTM D3306/D4985), ready-to-use and КОНЦЕНТРАТ (concentrate) data; Russian; 4 pp",
+     "doc_type": "TDS",
+     "language": "ru",
+     "version_date": "PDF 2022-05-19, mod. 2023-05-12",
+     "class_ok": true,
+     "reason": "Same maker; red nitrite-free OAT including a concentrate - right class; grade aimed at Chinese OEMs, so equivalent."
+    }
+   },
+   {
+    "type": "PDS",
+    "title": "KOST USA DefendAL Antifreeze/Coolant for vehicles requiring DEX-COOL (OAT, GM 6277M / GMW3420) - product data sheet (2022)",
+    "url": "https://www.kostusa.com/wp-content/uploads/2022/09/NEW-PDS-DefendAL-DexCoolAutomotive.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 2 pp (Sep 2022); \"DefendAL Antifreeze/Coolant for vehicles requiring DEX-COOL ... premium Organic Acid Technology (OAT), virgin ethylene glycol-based ... (GM 6277M or GMW 3420) ... Fluid Color Orange\". Same file; bare kostusa.com has no DNS, www.kostusa.com serves it."
+   },
+   {
+    "type": "TDS",
+    "title": "TDS FELIX CARBOX G12+ 2026 (Tosol-Sintez-Invest; ready-mix -40/-65 and concentrate data, compliance list incl. GM 6277M)",
+    "url": "https://antifreezefelix.ru/storage/upload/documents/TDS%20FELIX%20CARBOX%20G12+%202026.pdf",
+    "language": "ru",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 2 pp (created 2026-09-17, mod. 2026-10-19); 'АНТИФРИЗ FELIX CARBOX Тип: карбоксилатный (OAT) Класс: G12+'; concentrate column: boiling +165 °C, density 1,100-1,130 g/cm3, red; 'GM Opel/Vauxhall/Saab 6277M ... Chevrolet (c 2001), Daewoo'; packs 'Бочка 50/220/230 кг'; 'ООО «Тосол-Синтез-Инвест» ... г. Дзержинск'. Cyrillic text is cp1251-mis-encoded in the PDF text layer (readable visually). Newer than the catalog's 'Технический лист FELIX CARBOX + конц.'. Linked from the official product page antifreezefelix.ru/antifreeze/felix-carbox."
    }
   ],
   "equipment": [
@@ -348,43 +413,35 @@
   ],
   "equipment_docs": [
    {
-    "vendor": "Dürr (Dürr Somac GmbH)",
-    "model": "NEXT.assembly portfolio (incl. Somac filling)",
-    "type": "brochure",
-    "title": "Final assembly on the NEXT.level - One-Stop-Shop solutions from Dürr",
-    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/duerr-brochure-NEXT.assembly-english-low.pdf",
-    "verified": false,
-    "note": "Dürr final-assembly brochure covering conveyor, gluing, marriage, filling and testing modules; general, not a model datasheet. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
-    "vendor": "Dürr (Dürr Somac GmbH)",
-    "model": "NEXT.assembly portfolio (newer edition)",
-    "type": "brochure",
-    "title": "Dürr NEXT.assembly brochure (EN, digital)",
-    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
-    "verified": false,
-    "note": "Newer edition of the final-assembly brochure; general. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
-    "vendor": "Dürr (Dürr Somac GmbH)",
-    "model": "DXQ filling + fill stations",
-    "type": "brochure",
-    "title": "Dürr case study: fluid fill stations in automotive final assembly",
-    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
-    "verified": false,
-    "note": "Case study (VW Dresden) on brake, radiator/coolant, battery thermal and A/C fill stations with DXQ software. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
     "vendor": "Twin Engineers (India)",
     "model": "TCF/powertrain fluid filling machines (brake & clutch, coolant, A/C, oil)",
     "type": "brochure",
-    "title": "Twin Engineers - Fluid Filling Machines for Automotives (brochure)",
+    "title": "Twin Engineers – Fluid Filling Machines for Automotives (range brochure, EN, TWBR 020221, 2021)",
     "url": "https://www.twinengineers.com/wp-content/uploads/2024/07/Oil-Filling-Brochure.pdf",
-    "verified": false,
-    "note": "Alternative-vendor brochure covering vacuum fill, leak test, level/volume fill, degassing; brake/clutch, coolant, A/C sections. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+    "verified": true,
+    "note": "Alternative-vendor brochure covering vacuum fill, leak test, level/volume fill, degassing; brake/clutch, coolant, A/C sections. URL from search results; not opened (WebFetch to vendor hosts blocked).",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "Twin Engineers Pvt. Ltd. (Pune, India) 'Fluid Filling Machines for Automotives' range brochure, EN, 8 pp (file TWBR 020221, Feb 2021): vacuum/level/volume/pressure filling, leak test, degassing; machines for brake & clutch oil (DOT 3/4, ABS), radiator coolant (pre-mix/online mixing), power-steering oil, A/C charging, engine/axle/gearbox oil, AdBlue, diesel, washer, combined systems; per-machine cycle-time/flow specs, no model numbers.",
+     "doc_type": "brochure",
+     "language": "en",
+     "doc_number_rev": "TWBR 020221 (Feb 2021)",
+     "passport_ok": true,
+     "process_ok": true,
+     "reason": "Genuine product-range brochure with per-machine specs but no model numbers. It covers brake fluid, PSF, coolant, gearbox oils, A/C charging and washer (ids 27-33, 35). Correctly not attached to gasoline (id 34), since it covers diesel only. Alternative vendor, low confidence."
+    }
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Somac ProLine Cube / G4 Blue Adapter (filling)",
+    "type": "brochure",
+    "title": "Dürr NEXT.assembly brochure (EN, 2026) - 'Filling' section: Somac ProLine Cube filling machine and Somac G4 Blue Adapter (no dedicated Somac model datasheet is published)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
+    "verified": true,
+    "note": "evidence: downloaded; filling section names Somac ProLine Cube and Somac G4 Blue Adapter; Dürr filling product pages publish no PDF datasheets"
    }
   ],
-  "notes": "Kolesa.kz advertorial 'FELIX — поставщик на конвейеры автопроизводителей' (https://kolesa.kz/content/advertising/felix-postavshhik-na-konvejery-avtoproizvoditelej/, HTML, unverified) reportedly lists GM Uzbekistan among Felix OE conveyor customers. No Felix TDS/SDS PDF found. DEX-COOL is a GM/ACDelco trademark, so 'DX-COOL' is likely Felix's GM-approved OAT product name. No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters. | round2_D evidence: FELIX Carbox G12+ is Tosol-Sintez's red OAT carboxylate coolant, sold in Uzbekistan incl. 220 kg drums (prom.uz listings); Felix brand site hosts Carbox concentrate technical sheet. No public document names 'DX-COOL'. | round2_D: Product page FELIX Carbox G12+: https://antifreezefelix.ru/antifreeze/felix-carbox (HTML). Tosol-Sintez Carbox SQ page lists 'Технический лист FELIX CARBOX SQ.pdf' but URL not in results. Felix paspоrt bezopasnosti for Carbox G12+ conc not found. | round3_review evidence: Spec column says 'Felix'; FELIX Carbox G12+ is red OAT by Tosol-Sintez-Invest sold in UZ (prom.uz incl. 220 kg); exact search for 'DX-COOL' returns only GM DEX-COOL products; no source shows Carbox with GM 6277M approval or FELIX supply to UzAuto (FELIX does supply OEM conveyors, e.g. KAMAZ gets CARBOX SQ). | round3_review: REVIEW round3: LABEL CORRECTION: the FELIX CARBOX + конц. TDS (antifreezefelix.ru) is labelled 'exact' and should be 'equivalent' (candidate). DX-COOL to Carbox mapping is unproven, and DX-COOL most likely means a DEX-COOL-type (GM 6277M) coolant. The FELIX TYPE D/JDM/DRAGON sheets are other grades (weak). FELIX Carbox SQ was the KAMAZ conveyor fill, which is a hint that an OEM-fill grade could also be SQ-class. Twin Engineers fluid-filling brochure (alt vendor) was not found by filename in search. Its relevance is low (no evidence of use at UzAuto); keep as class reference only."
+  "notes": "Kolesa.kz advertorial 'FELIX — поставщик на конвейеры автопроизводителей' (https://kolesa.kz/content/advertising/felix-postavshhik-na-konvejery-avtoproizvoditelej/, HTML, unverified) reportedly lists GM Uzbekistan among Felix OE conveyor customers. No Felix TDS/SDS PDF found. DEX-COOL is a GM/ACDelco trademark, so 'DX-COOL' is likely Felix's GM-approved OAT product name. No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters. | round2_D evidence: FELIX Carbox G12+ is Tosol-Sintez's red OAT carboxylate coolant, sold in Uzbekistan incl. 220 kg drums (prom.uz listings); Felix brand site hosts Carbox concentrate technical sheet. No public document names 'DX-COOL'. | round2_D: Product page FELIX Carbox G12+: https://antifreezefelix.ru/antifreeze/felix-carbox (HTML). Tosol-Sintez Carbox SQ page lists 'Технический лист FELIX CARBOX SQ.pdf' but URL not in results. Felix paspоrt bezopasnosti for Carbox G12+ conc not found. | round3_review evidence: Spec column says 'Felix'; FELIX Carbox G12+ is red OAT by Tosol-Sintez-Invest sold in UZ (prom.uz incl. 220 kg); exact search for 'DX-COOL' returns only GM DEX-COOL products; no source shows Carbox with GM 6277M approval or FELIX supply to UzAuto (FELIX does supply OEM conveyors, e.g. KAMAZ gets CARBOX SQ). | round3_review: REVIEW round3: LABEL CORRECTION: the FELIX CARBOX + конц. TDS (antifreezefelix.ru) is labelled 'exact' and should be 'equivalent' (candidate). DX-COOL to Carbox mapping is unproven, and DX-COOL most likely means a DEX-COOL-type (GM 6277M) coolant. The FELIX TYPE D/JDM/DRAGON sheets are other grades (weak). FELIX Carbox SQ was the KAMAZ conveyor fill, which is a hint that an OEM-fill grade could also be SQ-class. Twin Engineers fluid-filling brochure (alt vendor) was not found by filename in search. Its relevance is low (no evidence of use at UzAuto); keep as class reference only. | round4_fix: KOST DefendAL DEX-COOL PDS via www.kostusa.com. | round4_assembly evidence: antifreezefelix.ru and tosol-sintez.ru catalogues (incl. 'Антифризы FELIX B2B': Carbox SQ, Carbox SQ Long Life, CARBOX SQ Arktika, HD Low Silicate) list no DX-COOL; red products are only CARBOX G12+ and DRAGON G12+/LEC-II (for Haval/Geely/Chery/Changan/GAC). TDS FELIX CARBOX G12+ 2026 'СООТВЕТСТВИЯ СТАНДАРТАМ: ... GM Opel/Vauxhall/Saab 6277M, GM Opel B040 1065 ... Chevrolet (c 2001), Daewoo'; product page: 'используется для первой конвейерной заливки на ведущих автозаводах' with OEM list (AVTOVAZ, KAMAZ, GAZ, Avtotor, Asia Avto KZ, MAZ, BelGee, Sollers, Moskvich...) - UzAuto not listed. | round4_assembly: Keep FELIX CARBOX (+ concentrate sheet, MSDS) and the new 2026 TDS; FELIX DRAGON is red OAT but positioned for Chinese brands (weak). GMW3420 is not mentioned by Felix; only GM 6277M (GM Europe DEX-COOL-type spec)."
  },
  {
   "id": 30,
@@ -394,39 +451,21 @@
   "material_docs": [
    {
     "type": "PDS",
-    "title": "Idemitsu MTF - product leaflet (Idemitsu Lubricants / ILTI)",
+    "title": "Idemitsu MTF manual transmission fluid - Product Data Sheet (EN, 2023-08-14)",
     "url": "https://ilti.idemitsu.com/media/file/originals/post/2023/08/16/idemitsu-mtf.pdf",
     "language": "en",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "Idemitsu-hosted MTF product sheet (retail MTF for modern MT units); same manufacturer and product family, not the OE grade LSJ11EP. URL from search results; not opened (WebFetch to vendor hosts blocked)."
-   },
-   {
-    "type": "SDS",
-    "title": "Idemitsu Daphne Super Gear Oil 150 - 安全データシート (32050330, rev 2024-04-30)",
-    "url": "https://www.idemitsu.com/jp/sds/lube/32050330.pdf",
-    "language": "ja",
-    "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "Idemitsu Kosan Japanese SDS for a mineral gear oil; same producer, gear-oil class; reference only (industrial gear oil). URL from search results; not opened (WebFetch to vendor hosts blocked)."
-   },
-   {
-    "type": "PDS",
-    "title": "Idemitsu Apolloil Dual Gear (mission/differential gear oil) - 潤滑油製品資料",
-    "url": "https://www.idemitsu.com/jp/sds/lube/30300240p.pdf",
-    "language": "ja",
-    "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "Idemitsu automotive transmission/differential gear oil product data; closer to automotive MTF use. URL from search results; not opened (WebFetch to vendor hosts blocked)."
-   },
-   {
-    "type": "SDS",
-    "title": "Idemitsu ATF Type-HP SDS (PPE / Idemitsu Lubricants America, 2017)",
-    "url": "https://www.lube-buster.com/wp-content/uploads/2022/04/sds-idemitsu-atf-type-hp.pdf",
-    "language": "en",
-    "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "Idemitsu-made automotive transmission fluid SDS (ATF, not MTF) - only Idemitsu transmission-fluid SDS found in English. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+    "verified": true,
+    "note": "Idemitsu-hosted MTF product sheet (retail MTF for modern MT units); same manufacturer and product family, not the OE grade LSJ11EP. URL from search results; not opened (WebFetch to vendor hosts blocked).",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "Idemitsu Product Data Sheet 'Idemitsu MTF' - retail manual transmission fluid (especially Japanese cars; 95 cSt @40 C, 11.5 cSt @100 C, VI 109; 1 L / 200 L), 14.08.2023; EN; 2 pp; ilti.idemitsu.com",
+     "doc_type": "PDS",
+     "language": "en",
+     "version_date": "2023-08-14",
+     "class_ok": true,
+     "reason": "Same maker and MTF family as 'Idemitsu MTF LSJ11EP' - right class; a retail grade, not the OE fill."
+    }
    }
   ],
   "equipment": [
@@ -447,43 +486,35 @@
   ],
   "equipment_docs": [
    {
-    "vendor": "Dürr (Dürr Somac GmbH)",
-    "model": "NEXT.assembly portfolio (incl. Somac filling)",
-    "type": "brochure",
-    "title": "Final assembly on the NEXT.level - One-Stop-Shop solutions from Dürr",
-    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/duerr-brochure-NEXT.assembly-english-low.pdf",
-    "verified": false,
-    "note": "Dürr final-assembly brochure covering conveyor, gluing, marriage, filling and testing modules; general, not a model datasheet. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
-    "vendor": "Dürr (Dürr Somac GmbH)",
-    "model": "NEXT.assembly portfolio (newer edition)",
-    "type": "brochure",
-    "title": "Dürr NEXT.assembly brochure (EN, digital)",
-    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
-    "verified": false,
-    "note": "Newer edition of the final-assembly brochure; general. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
-    "vendor": "Dürr (Dürr Somac GmbH)",
-    "model": "DXQ filling + fill stations",
-    "type": "brochure",
-    "title": "Dürr case study: fluid fill stations in automotive final assembly",
-    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
-    "verified": false,
-    "note": "Case study (VW Dresden) on brake, radiator/coolant, battery thermal and A/C fill stations with DXQ software. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
     "vendor": "Twin Engineers (India)",
     "model": "TCF/powertrain fluid filling machines (brake & clutch, coolant, A/C, oil)",
     "type": "brochure",
-    "title": "Twin Engineers - Fluid Filling Machines for Automotives (brochure)",
+    "title": "Twin Engineers – Fluid Filling Machines for Automotives (range brochure, EN, TWBR 020221, 2021)",
     "url": "https://www.twinengineers.com/wp-content/uploads/2024/07/Oil-Filling-Brochure.pdf",
-    "verified": false,
-    "note": "Alternative-vendor brochure covering vacuum fill, leak test, level/volume fill, degassing; brake/clutch, coolant, A/C sections. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+    "verified": true,
+    "note": "Alternative-vendor brochure covering vacuum fill, leak test, level/volume fill, degassing; brake/clutch, coolant, A/C sections. URL from search results; not opened (WebFetch to vendor hosts blocked).",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "Twin Engineers Pvt. Ltd. (Pune, India) 'Fluid Filling Machines for Automotives' range brochure, EN, 8 pp (file TWBR 020221, Feb 2021): vacuum/level/volume/pressure filling, leak test, degassing; machines for brake & clutch oil (DOT 3/4, ABS), radiator coolant (pre-mix/online mixing), power-steering oil, A/C charging, engine/axle/gearbox oil, AdBlue, diesel, washer, combined systems; per-machine cycle-time/flow specs, no model numbers.",
+     "doc_type": "brochure",
+     "language": "en",
+     "doc_number_rev": "TWBR 020221 (Feb 2021)",
+     "passport_ok": true,
+     "process_ok": true,
+     "reason": "Genuine product-range brochure with per-machine specs but no model numbers. It covers brake fluid, PSF, coolant, gearbox oils, A/C charging and washer (ids 27-33, 35). Correctly not attached to gasoline (id 34), since it covers diesel only. Alternative vendor, low confidence."
+    }
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Somac ProLine Cube / G4 Blue Adapter (filling)",
+    "type": "brochure",
+    "title": "Dürr NEXT.assembly brochure (EN, 2026) - 'Filling' section: Somac ProLine Cube filling machine and Somac G4 Blue Adapter (no dedicated Somac model datasheet is published)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
+    "verified": true,
+    "note": "evidence: downloaded; filling section names Somac ProLine Cube and Somac G4 Blue Adapter; Dürr filling product pages publish no PDF datasheets"
    }
   ],
-  "notes": "Searches for 'LSJ11EP', 'LS J11EP', 'MTF LSJ' returned nothing; it appears to be an OE/internal grade not sold at retail. No TDS/SDS PDF found; request from Idemitsu Lube (Idemitsu Lubricants). No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters. | round2_D: Id 30 previously had no doc; now 4 Idemitsu-family PDFs (none exact). 'LSJ11EP' not found anywhere; OE/internal grade. Idemitsu JP SDS pattern is idemitsu.com/jp/sds/lube/<product code>.pdf - request the code from Idemitsu for LSJ11EP. | round3_review: REVIEW round3: Idemitsu Daphne Super Gear Oil 150 is an INDUSTRIAL gear oil and ATF Type-HP is an ATF, not an MTF: both very weak equivalents (keep only as producer hazard refs). The Idemitsu MTF leaflet is the best of the set. Twin Engineers fluid-filling brochure (alt vendor) was not found by filename in search. Its relevance is low (no evidence of use at UzAuto); keep as class reference only."
+  "notes": "Searches for 'LSJ11EP', 'LS J11EP', 'MTF LSJ' returned nothing; it appears to be an OE/internal grade not sold at retail. No TDS/SDS PDF found; request from Idemitsu Lube (Idemitsu Lubricants). No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters. | round2_D: Id 30 previously had no doc; now 4 Idemitsu-family PDFs (none exact). 'LSJ11EP' not found anywhere; OE/internal grade. Idemitsu JP SDS pattern is idemitsu.com/jp/sds/lube/<product code>.pdf - request the code from Idemitsu for LSJ11EP. | round3_review: REVIEW round3: Idemitsu Daphne Super Gear Oil 150 is an INDUSTRIAL gear oil and ATF Type-HP is an ATF, not an MTF: both very weak equivalents (keep only as producer hazard refs). The Idemitsu MTF leaflet is the best of the set. Twin Engineers fluid-filling brochure (alt vendor) was not found by filename in search. Its relevance is low (no evidence of use at UzAuto); keep as class reference only. | round4_assembly: 'LSJ11EP' returns no web hits (EN/JA/KO variants) - treated as an internal/OE factory-fill code. Idemitsu Japan lube SDS/product data are behind a registration form (spiral.idemitsu.com/regist), not public; Idemitsu Japan product-name list shows no MTF named LSJ. Remaining docs: ILTI 'Idemitsu MTF' leaflet (also 2020 rev. linked from ilti.idemitsu.com/en/produkotomotif/idemitsu-mtf) and Apolloil Dual Gear (MT/differential gear oil). No exact document exists publicly."
  },
  {
   "id": 31,
@@ -493,12 +524,21 @@
   "material_docs": [
    {
     "type": "PDS",
-    "title": "Penrite Pro Gear 75W-85 product sheet",
+    "title": "Penrite Pro Gear 75W-85 (100% PAO/ester, API GL-4 Plus) - Product Sheet (EN, 2025-05-26)",
     "url": "https://www.supercheapauto.co.nz/on/demandware.static/-/Library-Sites-supercheap-shared-library/default/dwe49223ef/productsheets/396350_342312.pdf",
     "language": "en",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "Equivalent full-synthetic 75W-85 GL-4 data sheet for property reference only. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
+    "verified": true,
+    "note": "Equivalent full-synthetic 75W-85 GL-4 data sheet for property reference only. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "Penrite Oil product sheet 'PRO GEAR 75W-85 (100% PAO ESTER)' - full-synthetic API GL-4 Plus manual gearbox/transaxle oil (also GM NV3500/NV4500), last updated 26/05/2025; EN; 1 p; retailer host (Supercheap Auto NZ)",
+     "doc_type": "PDS",
+     "language": "en",
+     "version_date": "2025-05-26",
+     "class_ok": true,
+     "reason": "75W-85 GL-4 synthetic MTF - right class for XGP; aftermarket equivalent."
+    }
    },
    {
     "type": "brochure",
@@ -511,30 +551,30 @@
    },
    {
     "type": "PDS",
-    "title": "Red Line MT-85 75W85 GL-4 Gear Oil - product information",
+    "title": "Red Line MT-85 75W-85 GL-4 Gear Oil - Product Information (EN, c. 2018)",
     "url": "https://www.redlineoil.com/Content/files/tech/MT-85_GO_PROD_INFO.pdf",
     "language": "en",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "Aftermarket synthetic 75W-85 GL-4 MTF marketed as replacement for GM 88862472/93165290 (= XGP predecessor numbers). URL from search results; not opened (WebFetch to vendor hosts blocked)."
-   },
-   {
-    "type": "PDS",
-    "title": "Shell Spirax S6 GXME 75W-80 technical data sheet",
-    "url": "https://www.TDXLTD.CO.NZ/media/pdfs/49977.pdf",
-    "language": "en",
-    "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "Shell synthetic MTF (GL-4 class) - relevant if 'SH' = Shell blender; not 75W-85. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+    "verified": true,
+    "note": "Aftermarket synthetic 75W-85 GL-4 MTF marketed as replacement for GM 88862472/93165290 (= XGP predecessor numbers). URL from search results; not opened (WebFetch to vendor hosts blocked).",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "Red Line Synthetic Oil product information 'MT-85 75W85 GL-4 Gear Oil' - synthetic GL-4 MTF cross-referenced to GM 88862472/88862473/93165290 (XGP predecessors), Hyundai/Kia, Nissan etc., typical properties; EN; 1 p",
+     "doc_type": "PDS",
+     "language": "en",
+     "version_date": "undated (PDF 2018-03-23)",
+     "class_ok": true,
+     "reason": "75W-85 GL-4 MTF cross-referenced to GM 88862472/93165290 - right class."
+    }
    },
    {
     "type": "SDS",
-    "title": "Motorcraft SAE 75W-85 Premium Synthetic Hypoid Gear Lubricant SDS",
-    "url": "https://www.motorcraft.com/content/dam/ford-motorcraft/en_us/motorcraft_global/products/pdf/SAE_75W_85_Premuim_Synthetic_Hypoid_Gear_Lubricant/SAE_75W_85_Premuim_Synthetic_Hypoid_Gear_Lubricant_SDS.pdf",
+    "title": "Ford Motorcraft SAE 75W-85 Premium Synthetic Hypoid Gear Lubricant - Safety Data Sheet (FIR 189151, issue 05-13-2015) - FMP distributor SDS library",
+    "url": "https://sds.fmpco.com/images/sds_documents/SAE_75W85.pdf",
     "language": "en",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "Synthetic 75W-85 gear oil SDS (hypoid/axle, GL-5 type) - hazard data only, weak equivalent. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+    "verified": true,
+    "note": "evidence: %PDF, 6 pp; \"SAFETY DATA SHEET 1. Identification Product identifier SAE 75W-85 PREMIUM SYNTHETIC HYPOID GEAR LUBRICANT  FIR No. 189151  Recommended use AXLE LUBRICANT ... Ford Motor Company, Dearborn\"; Issue Date 05-13-2015. Same Ford SDS as the motorcraft.com URL (Akamai \"Access Denied\" 403 even with browser headers). Still a weak equivalent (axle/hypoid oil, not a GL-4 MTF)."
    }
   ],
   "equipment": [
@@ -555,43 +595,35 @@
   ],
   "equipment_docs": [
    {
-    "vendor": "Dürr (Dürr Somac GmbH)",
-    "model": "NEXT.assembly portfolio (incl. Somac filling)",
-    "type": "brochure",
-    "title": "Final assembly on the NEXT.level - One-Stop-Shop solutions from Dürr",
-    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/duerr-brochure-NEXT.assembly-english-low.pdf",
-    "verified": false,
-    "note": "Dürr final-assembly brochure covering conveyor, gluing, marriage, filling and testing modules; general, not a model datasheet. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
-    "vendor": "Dürr (Dürr Somac GmbH)",
-    "model": "NEXT.assembly portfolio (newer edition)",
-    "type": "brochure",
-    "title": "Dürr NEXT.assembly brochure (EN, digital)",
-    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
-    "verified": false,
-    "note": "Newer edition of the final-assembly brochure; general. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
-    "vendor": "Dürr (Dürr Somac GmbH)",
-    "model": "DXQ filling + fill stations",
-    "type": "brochure",
-    "title": "Dürr case study: fluid fill stations in automotive final assembly",
-    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
-    "verified": false,
-    "note": "Case study (VW Dresden) on brake, radiator/coolant, battery thermal and A/C fill stations with DXQ software. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
     "vendor": "Twin Engineers (India)",
     "model": "TCF/powertrain fluid filling machines (brake & clutch, coolant, A/C, oil)",
     "type": "brochure",
-    "title": "Twin Engineers - Fluid Filling Machines for Automotives (brochure)",
+    "title": "Twin Engineers – Fluid Filling Machines for Automotives (range brochure, EN, TWBR 020221, 2021)",
     "url": "https://www.twinengineers.com/wp-content/uploads/2024/07/Oil-Filling-Brochure.pdf",
-    "verified": false,
-    "note": "Alternative-vendor brochure covering vacuum fill, leak test, level/volume fill, degassing; brake/clutch, coolant, A/C sections. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+    "verified": true,
+    "note": "Alternative-vendor brochure covering vacuum fill, leak test, level/volume fill, degassing; brake/clutch, coolant, A/C sections. URL from search results; not opened (WebFetch to vendor hosts blocked).",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "Twin Engineers Pvt. Ltd. (Pune, India) 'Fluid Filling Machines for Automotives' range brochure, EN, 8 pp (file TWBR 020221, Feb 2021): vacuum/level/volume/pressure filling, leak test, degassing; machines for brake & clutch oil (DOT 3/4, ABS), radiator coolant (pre-mix/online mixing), power-steering oil, A/C charging, engine/axle/gearbox oil, AdBlue, diesel, washer, combined systems; per-machine cycle-time/flow specs, no model numbers.",
+     "doc_type": "brochure",
+     "language": "en",
+     "doc_number_rev": "TWBR 020221 (Feb 2021)",
+     "passport_ok": true,
+     "process_ok": true,
+     "reason": "Genuine product-range brochure with per-machine specs but no model numbers. It covers brake fluid, PSF, coolant, gearbox oils, A/C charging and washer (ids 27-33, 35). Correctly not attached to gasoline (id 34), since it covers diesel only. Alternative vendor, low confidence."
+    }
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Somac ProLine Cube / G4 Blue Adapter (filling)",
+    "type": "brochure",
+    "title": "Dürr NEXT.assembly brochure (EN, 2026) - 'Filling' section: Somac ProLine Cube filling machine and Somac G4 Blue Adapter (no dedicated Somac model datasheet is published)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
+    "verified": true,
+    "note": "evidence: downloaded; filling section names Somac ProLine Cube and Somac G4 Blue Adapter; Dürr filling product pages publish no PDF datasheets"
    }
   ],
-  "notes": "Identification via GM parts listings (parts.gmparts.com / parts.chevrolet.com product 19351859, HTML) - used in GM F40/M32/D16 family manual transaxles fitted to Cruze/Spark etc. No GM SDS PDF found publicly. 'SH' read as Shell is a guess. No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters. | round2_D: No GM/ACDelco SDS for 19351859 / 10-4104 found publicly. Shell link to 'SH' prefix unconfirmed. | round3_review: REVIEW round3: Shell Spirax S6 GXME 75W-80 TDS URL is confirmed by search (tdxltd.co.nz/media/pdfs/49977.pdf). The Motorcraft 75W-85 is a GL-5 hypoid axle lube, a weak equivalent for a GL-4 MTF. Twin Engineers fluid-filling brochure (alt vendor) was not found by filename in search. Its relevance is low (no evidence of use at UzAuto); keep as class reference only."
+  "notes": "Identification via GM parts listings (parts.gmparts.com / parts.chevrolet.com product 19351859, HTML) - used in GM F40/M32/D16 family manual transaxles fitted to Cruze/Spark etc. No GM SDS PDF found publicly. 'SH' read as Shell is a guess. No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters. | round2_D: No GM/ACDelco SDS for 19351859 / 10-4104 found publicly. Shell link to 'SH' prefix unconfirmed. | round3_review: REVIEW round3: Shell Spirax S6 GXME 75W-80 TDS URL is confirmed by search (tdxltd.co.nz/media/pdfs/49977.pdf). The Motorcraft 75W-85 is a GL-5 hypoid axle lube, a weak equivalent for a GL-4 MTF. Twin Engineers fluid-filling brochure (alt vendor) was not found by filename in search. Its relevance is low (no evidence of use at UzAuto); keep as class reference only. | round4_fix: Motorcraft 75W-85 SDS (motorcraft.com Akamai 403) recovered from FMP SDS library (same Ford SDS, 2015); still only a weak equivalent (axle oil). | round4_assembly: GM XGP SAE 75W-85 MTF (GM 19351859 / ACDelco 10-4104; replaces 88862472, 93165290) is NOT in GM's public SDS portal (searched 'XGP', '19351859', '10-4104', '93165290', '88862472', '75W-85', 'Manual', 'GL-4'). The portal's 75W-85 items are axle/PTU/LV gear oils (e.g. SK ZIC/ACDelco DEXRON LV Gear Oil 75W-85: 'Lubricants for rear and front axles, differential gears') - not GL-4 MTF, so not added. No exact XGP SDS/TDS found."
  },
  {
   "id": 32,
@@ -601,84 +633,120 @@
   "material_docs": [
    {
     "type": "TDS",
-    "title": "Pennzoil ATF Dexron-VI Technical Datasheet",
+    "title": "Pennzoil ATF Dexron-VI - Technical Data Sheet (EN, v1.1, 2015-01-26)",
     "url": "https://shop.sclubricants.com/pub/media/pds/pennzoil/Pennzoil-ATF-Dexron-VI-Technical-Datasheet.pdf",
     "language": "en",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "States 'Meets GM specification GMN10060' (per search snippet). URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
-    "type": "TDS",
-    "title": "RAVENOL ATF Dexron VI - TDS 1211105",
-    "url": "https://partner.ravenol.de/storage/app/media/product-pdf/Tds_1211105_en.pdf",
-    "language": "en",
-    "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "Lists GMN 10060, GM licence J-60331 (per search snippet). URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
+    "verified": true,
+    "note": "States 'Meets GM specification GMN10060' (per search snippet). URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "SOPUS Products (Shell) Technical Data Sheet 'Pennzoil ATF Dexron-VI' (CS8420-01, v1.1, 2015-01-26) - GM-approved Dexron-VI ATF, states 'Meets GM specification GMN10060'; EN; 2 pp",
+     "doc_type": "TDS",
+     "language": "en",
+     "version_date": "v1.1, 2015-01-26",
+     "class_ok": true,
+     "reason": "Dexron-VI ATF that explicitly cites GMN10060 - right class for ids 28 and 32."
+    }
    },
    {
     "type": "SDS",
-    "title": "RAVENOL ATF DEXRON VI - Safety data sheet",
+    "title": "RAVENOL ATF DEXRON VI - Safety Data Sheet (EU, EN, v7, 2023-07-07)",
     "url": "https://www.ravenol.de/storage/app/uploads/share/SDB/Sdb_RAVENOL%20ATF%20DEXRON%20VI_1211105_en_ALL.pdf",
     "language": "en",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "SDS matching the Ravenol TDS above. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
+    "verified": true,
+    "note": "SDS matching the Ravenol TDS above. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "Ravensberger Schmierstoffvertrieb GmbH Safety Data Sheet 'RAVENOL ATF DEXRON VI' (art. 1211105), EU REACH format, version 7, revision 7 Jul 2023, not classified; EN; 17 pp",
+     "doc_type": "SDS",
+     "language": "en",
+     "version_date": "v7, 2023-07-07",
+     "class_ok": true,
+     "reason": "Dexron-VI ATF SDS - right class."
+    }
    },
    {
     "type": "SDS",
-    "title": "ACDelco Dexron-VI ATF SDS (ExxonMobil-produced, 2014, GM P/N 19287624)",
-    "url": "https://msds.fmpco.com/images/fmp_msds/19287624_DexronVI_2014.pdf",
-    "language": "en",
-    "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "GM-branded genuine Dexron-VI SDS; closest to GM factory fluid. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
-    "type": "SDS",
-    "title": "ACDelco (GM Holden) DEXRON VI Premium Full Synthetic Transmission Fluid - SDS (Infosafe LQ9RG, 2019)",
+    "title": "ACDelco DEXRON VI Premium Full Synthetic Transmission Fluid - SDS Infosafe LQ9RG (GM Holden, EN, 2019-10-21)",
     "url": "https://acdelco.com.au/gm-b2cau/cms/pdf/SDS/LQ9RG_DEXRON%20VI%20PREMIUM%20FULL%20SYNTHETIC%20TRANSMISSION%20FLUID.pdf",
     "language": "en",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "GM-hosted (ACDelco Australia) SDS for a GM-genuine Dexron-VI ATF; manufacturer-hosted, closest to GM factory fluid. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+    "verified": true,
+    "note": "GM-hosted (ACDelco Australia) SDS for a GM-genuine Dexron-VI ATF; manufacturer-hosted, closest to GM factory fluid. URL from search results; not opened (WebFetch to vendor hosts blocked).",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "GM Holden Ltd Safety Data Sheet (Infosafe LQ9RG) 'DEXRON VI Premium Full Synthetic Transmission Fluid' (ACDelco; ExxonMobil / Southern Cross Lubes listed as suppliers), issued 21/10/2019; EN (AU/NZ GHS); 8 pp; acdelco.com.au",
+     "doc_type": "SDS",
+     "language": "en",
+     "version_date": "issued 2019-10-21",
+     "class_ok": true,
+     "reason": "GM/ACDelco Dexron-VI ATF SDS - right class."
+    }
    },
    {
     "type": "TDS",
-    "title": "ACDelco Dexron VI Premium Full Synthetic ATF - sell sheet (ACDelco Australia)",
+    "title": "ACDelco Dexron VI Premium Full Synthetic ATF - product sell sheet (ACDelco Australia, EN, 2024)",
     "url": "https://acdelco.com.au/gm-b2cau/cms/pdf/Flyers/ACDelco%20Dexron%20VI%20Premium%20Full%20Synthetic%20ATF%20Sell%20Sheet.pdf",
     "language": "en",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "GM-hosted product flyer (fill-for-life, Holden). URL from search results; not opened (WebFetch to vendor hosts blocked)."
+    "verified": true,
+    "note": "GM-hosted product flyer (fill-for-life, Holden). URL from search results; not opened (WebFetch to vendor hosts blocked).",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "ACDelco Australia sell sheet 'Dexron VI Premium Full Synthetic Transmission Fluid' (P/N 19421180, 19421181, 19375058) - multi-vehicle full-synthetic ATF 'meets or exceeds GM Dexron VI', long OEM list incl. power-steering uses, typical properties (5.83 cSt @100 C, VI 145, red); EN; 2 pp",
+     "doc_type": "brochure",
+     "language": "en",
+     "version_date": "undated (PDF 2024-10-30)",
+     "class_ok": true,
+     "reason": "Right class (Dexron-VI ATF, also listed for power steering); a sell sheet with typical properties rather than a full TDS."
+    }
    },
    {
     "type": "SDS",
-    "title": "GM DEXRON VI ATF Material Safety Data Sheet 000003000398 v2.0 (GM P/N 88861046)",
-    "url": "https://seattleautomotive.com/files/SDS/88861046%20dexron%20vi%20atf.pdf",
-    "language": "en",
-    "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "SDS of GM-genuine Dexron VI ATF (P/N 88861046, Petro-Canada-made per document number style); dealer-hosted. URL from search results; not opened (WebFetch to vendor hosts blocked)."
-   },
-   {
-    "type": "SDS",
-    "title": "DEXRON VI ATF SDS (EC 1907/2006)",
-    "url": "https://uploads-ssl.webflow.com/5d513e6ea4a37093208cabb2/5e958119bb64f4d142e866cf_DEXRON%20%5ER%5E%20VI%20ATF.PDF",
-    "language": "en",
-    "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "EU-format SDS of a licensed DEXRON VI ATF. URL from search results; not opened (WebFetch to vendor hosts blocked)."
-   },
-   {
-    "type": "SDS",
-    "title": "Petro-Canada DEXRON VI ATF SDS 000003001354 v4.0",
+    "title": "Petro-Canada DEXRON VI ATF - Safety Data Sheet US (EN, v4.0, 2022-10-19)",
     "url": "https://evosupplygroupcatalog.sfo3.digitaloceanspaces.com/brands/files/Petro%20Canada/DEX6C16-sds.pdf",
     "language": "en",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "Petro-Canada is a known GM Dexron-VI supplier. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+    "verified": true,
+    "note": "Petro-Canada is a known GM Dexron-VI supplier. URL from search results; not opened (WebFetch to vendor hosts blocked).",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "Petro-Canada America Lubricants LLC Safety Data Sheet 'DEXRON VI ATF' 000003001354 version 4.0 (rev. 2022-10-19), US OSHA format, not hazardous; EN; 11 pp",
+     "doc_type": "SDS",
+     "language": "en",
+     "version_date": "v4.0, 2022-10-19",
+     "class_ok": true,
+     "reason": "Dexron-VI ATF SDS - right class."
+    }
+   },
+   {
+    "type": "TDS",
+    "title": "RAVENOL ATF DEXRON VI - Technical data sheet (art. 1211105; GM licence J-60331, GMN 10060)",
+    "url": "https://ravenol.de/storage/app/media/product-pdf/Tds_1211105_en.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 2 pp; \"RAVENOL ATF DEXRON VI / Artikelnummer: 1211105 / Specifications: GM Dexron-VI / Approvals: GM Lizenz-Nr. J-60331, MB-Freigabe 236.41 / Recommendations: ... GMN 10060\"; 208 L drum 1211105-208. Same document as the partner.ravenol.de copy (expired TLS certificate - not bypassed), served by ravenol.de."
+   },
+   {
+    "type": "SDS",
+    "title": "ACDelco Dexron VI Automatic Transmission Fluid - SDS (GM P/N 88865601/88865602/88865603; ACDelco 10-9394/10-9395/10-9396), rev. 2020-10-08, v. LP1409.0, manufacturer SK lubricants Americas",
+    "url": "https://apps.spheracloud.net/Pdf/2748753_1_2023461058.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 7 pp; header '88865601,88865602,88865603 SAFETY DATA SHEET Revision date: 2020-10-08 Version: LP1409.0'; 'Product name: ACDelco Dexron VI Automatic Transmission Fluid'; 'Manufacturer ... SK lubricants Americas Inc.'; 'Supplier/Distributer ... ACDelco, Detroit'. Source = GM's official SDS portal (Sphera, linked from gmparts.com > Safety Data Sheets & Ingredient Disclosures). Equivalent because the plant's Dexron-VI blender is not documented."
+   },
+   {
+    "type": "SDS",
+    "title": "AC Delco ATF Dexron VI - SDS (GM P/N 19434708, product code 001C5035), Shell Lubricants Egypt, rev. 18.09.2023 v1.0 (GM Africa & Middle East)",
+    "url": "https://apps.spheracloud.net/Pdf/4193339_1_1269775406.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 18 pp; '19434708 SAFETY DATA SHEET ... ACDelco ATF Dexron VI Print Date 31.07.2024 Revision Date 18.09.2023 Version 1.0'; 'Trade name: AC Delco ATF Dexron VI; Product code: 001C5035'; 'Manufacturer/Supplier: Shell Lubricants Egypt'. GM official SDS portal (Sphera). Nearest GM-international regional supply example."
    }
   ],
   "equipment": [
@@ -699,103 +767,131 @@
   ],
   "equipment_docs": [
    {
-    "vendor": "Dürr (Dürr Somac GmbH)",
-    "model": "NEXT.assembly portfolio (incl. Somac filling)",
-    "type": "brochure",
-    "title": "Final assembly on the NEXT.level - One-Stop-Shop solutions from Dürr",
-    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/duerr-brochure-NEXT.assembly-english-low.pdf",
-    "verified": false,
-    "note": "Dürr final-assembly brochure covering conveyor, gluing, marriage, filling and testing modules; general, not a model datasheet. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
-    "vendor": "Dürr (Dürr Somac GmbH)",
-    "model": "NEXT.assembly portfolio (newer edition)",
-    "type": "brochure",
-    "title": "Dürr NEXT.assembly brochure (EN, digital)",
-    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
-    "verified": false,
-    "note": "Newer edition of the final-assembly brochure; general. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
-    "vendor": "Dürr (Dürr Somac GmbH)",
-    "model": "DXQ filling + fill stations",
-    "type": "brochure",
-    "title": "Dürr case study: fluid fill stations in automotive final assembly",
-    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
-    "verified": false,
-    "note": "Case study (VW Dresden) on brake, radiator/coolant, battery thermal and A/C fill stations with DXQ software. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
     "vendor": "Twin Engineers (India)",
     "model": "TCF/powertrain fluid filling machines (brake & clutch, coolant, A/C, oil)",
     "type": "brochure",
-    "title": "Twin Engineers - Fluid Filling Machines for Automotives (brochure)",
+    "title": "Twin Engineers – Fluid Filling Machines for Automotives (range brochure, EN, TWBR 020221, 2021)",
     "url": "https://www.twinengineers.com/wp-content/uploads/2024/07/Oil-Filling-Brochure.pdf",
-    "verified": false,
-    "note": "Alternative-vendor brochure covering vacuum fill, leak test, level/volume fill, degassing; brake/clutch, coolant, A/C sections. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+    "verified": true,
+    "note": "Alternative-vendor brochure covering vacuum fill, leak test, level/volume fill, degassing; brake/clutch, coolant, A/C sections. URL from search results; not opened (WebFetch to vendor hosts blocked).",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "Twin Engineers Pvt. Ltd. (Pune, India) 'Fluid Filling Machines for Automotives' range brochure, EN, 8 pp (file TWBR 020221, Feb 2021): vacuum/level/volume/pressure filling, leak test, degassing; machines for brake & clutch oil (DOT 3/4, ABS), radiator coolant (pre-mix/online mixing), power-steering oil, A/C charging, engine/axle/gearbox oil, AdBlue, diesel, washer, combined systems; per-machine cycle-time/flow specs, no model numbers.",
+     "doc_type": "brochure",
+     "language": "en",
+     "doc_number_rev": "TWBR 020221 (Feb 2021)",
+     "passport_ok": true,
+     "process_ok": true,
+     "reason": "Genuine product-range brochure with per-machine specs but no model numbers. It covers brake fluid, PSF, coolant, gearbox oils, A/C charging and washer (ids 27-33, 35). Correctly not attached to gasoline (id 34), since it covers diesel only. Alternative vendor, low confidence."
+    }
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Somac ProLine Cube / G4 Blue Adapter (filling)",
+    "type": "brochure",
+    "title": "Dürr NEXT.assembly brochure (EN, 2026) - 'Filling' section: Somac ProLine Cube filling machine and Somac G4 Blue Adapter (no dedicated Somac model datasheet is published)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
+    "verified": true,
+    "note": "evidence: downloaded; filling section names Somac ProLine Cube and Somac G4 Blue Adapter; Dürr filling product pages publish no PDF datasheets"
    }
   ],
-  "notes": "Same fluid family as id 28. Automatic transaxles (e.g. GM 6T40 built at GM Powertrain Uzbekistan) are typically filled at the powertrain plant. No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters. | REVIEW: GMN10060 (DEXRON-VI) superseded by GMW16444. | round2_D: Dexron-VI (automatic transmission). GM-hosted SDS found (ACDelco Australia). No SDS found for GM 19355342/88865601 specifically; sdsmanager.com hosts ACDelco Dexron-VI ATF (ExxonMobil, rev 2020-10-20) as HTML page: https://sdsmanager.com/safety-data-sheet/exxon-mobil-corporation-acdelco-dexron-vi-atf-en/. Actual blender for UzAuto unknown. | round3_review: REVIEW round3: Dexron-VI SDS set is fine, all labelled equivalent. The ACDelco AU LQ9RG URL was not found by name in search (an ACDelco AU DEXRON-VI SDS exists, Infosafe 1EVFM on torqueking.com). The webflow-hosted SDS has an odd but stable CDN URL. Twin Engineers fluid-filling brochure (alt vendor) was not found by filename in search. Its relevance is low (no evidence of use at UzAuto); keep as class reference only."
+  "notes": "Same fluid family as id 28. Automatic transaxles (e.g. GM 6T40 built at GM Powertrain Uzbekistan) are typically filled at the powertrain plant. No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters. | REVIEW: GMN10060 (DEXRON-VI) superseded by GMW16444. | round2_D: Dexron-VI (automatic transmission). GM-hosted SDS found (ACDelco Australia). No SDS found for GM 19355342/88865601 specifically; sdsmanager.com hosts ACDelco Dexron-VI ATF (ExxonMobil, rev 2020-10-20) as HTML page: https://sdsmanager.com/safety-data-sheet/exxon-mobil-corporation-acdelco-dexron-vi-atf-en/. Actual blender for UzAuto unknown. | round3_review: REVIEW round3: Dexron-VI SDS set is fine, all labelled equivalent. The ACDelco AU LQ9RG URL was not found by name in search (an ACDelco AU DEXRON-VI SDS exists, Infosafe 1EVFM on torqueking.com). The webflow-hosted SDS has an odd but stable CDN URL. Twin Engineers fluid-filling brochure (alt vendor) was not found by filename in search. Its relevance is low (no evidence of use at UzAuto); keep as class reference only. | round4_fix: Same fixes as id 28. | round4_assembly: GM's official public SDS portal (gmparts.com -> apps.spheracloud.net 'SEARCH SAFETY DATA SHEETS') lists several ACDelco DEXRON VI ATF SDS from different licensed blenders: SK lubricants Americas (88865601, 2020), Phillips 66 (code 829783, P/N 88865549/88865550/88865618/88865765, issued 01-Mar-2023, https://apps.spheracloud.net/Pdf/4347058_1_578371061.pdf, verified) and Shell Lubricants Egypt (19434708, 2023). Which blender supplies UzAuto's 200 L drums (automatic transmission fluid) is still unknown, so manufacturer stays 'licensed Dexron-VI blender'. GM part 19417575 was not found in the GM SDS index."
  },
  {
   "id": 33,
-  "manufacturer": "COOLIB brand (Chinese refrigerant brand/distributor; producer not confirmed)",
-  "product_identified": "HFC-134a (1,1,1,2-tetrafluoroethane) refrigerant, 13.6 kg cylinders",
-  "manufacturer_confidence": "low",
+  "manufacturer": "Starget Refrigerant Group (Beijing, China) - COOLIB brand (factory stated in Quzhou, Zhejiang)",
+  "product_identified": "COOLIB R134a (HFC-134a) in 13.6 kg (30 lb) disposable cylinders",
+  "manufacturer_confidence": "medium",
   "material_docs": [
    {
     "type": "SDS",
-    "title": "Chemours Freon 134a (HFC-134a) Refrigerant - Propellant SDS v11.11 (2025)",
+    "title": "Chemours Freon 134a (HFC-134a) - Safety Data Sheet (US, EN, v11.11, 2025-05-27)",
     "url": "https://fuhrmeister-gmbh.de/pdf/sds/R134a_safety data sheet_EN.pdf",
     "language": "en",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "Generic HFC-134a SDS (Chemours) hosted by distributor; same substance. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
+    "verified": true,
+    "note": "Generic HFC-134a SDS (Chemours) hosted by distributor; same substance. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "The Chemours Company Safety Data Sheet 'Freon 134a (HFC-134a) Refrigerant - Propellant', SDS no. 1325513-00051, version 11.11, revision 05/27/2025, US OSHA format; EN; 16 pp; distributor host (Fuhrmeister)",
+     "doc_type": "SDS",
+     "language": "en",
+     "version_date": "v11.11, 2025-05-27",
+     "class_ok": true,
+     "reason": "Same substance (R134a) - right class; COOLIB brand itself undocumented."
+    }
    },
    {
     "type": "SDS",
-    "title": "Daikin HFC-134a SDS (2019-12-20)",
+    "title": "Daikin HFC-134a - Safety Data Sheet (EU, EN, v2, 2019-12-20)",
     "url": "https://www.daikinchemicals.com/library/pb_common/pdf/sds/Refrigerants/sds-hfc-134a-E_20191220.pdf",
     "language": "en",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "Generic HFC-134a SDS from a major producer. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
+    "verified": true,
+    "note": "Generic HFC-134a SDS from a major producer. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "Daikin Industries Safety Data Sheet 'HFC-134a' (EU 1907/2006 Art. 31 format), version 2, revision 20.12.2019; EN; 8 pp",
+     "doc_type": "SDS",
+     "language": "en",
+     "version_date": "v2, 2019-12-20",
+     "class_ok": true,
+     "reason": "Same substance (R134a) - right class."
+    }
    },
    {
     "type": "SDS",
-    "title": "Chemours Freon 134a Auto SDS (Canada, v8.11)",
-    "url": "https://sds.fmpco.com/images/fmp_msds/HFC-134a_4.21.23_.pdf",
-    "language": "en",
-    "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "Automotive-grade HFC-134a SDS. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
-    "type": "SDS",
-    "title": "Motorcraft R-134a Refrigerant SDS (automotive A/C)",
-    "url": "https://www.motorcraft.com/content/dam/ford-motorcraft/en_us/motorcraft_global/products/pdf/R_134a_Refrigerant/us045167us.pdf",
-    "language": "en",
-    "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "OEM-branded automotive HFC-134a SDS. URL from search results; not opened (WebFetch to vendor hosts blocked)."
-   },
-   {
-    "type": "SDS",
-    "title": "Gaslogic Refrigerant Gas R-134a SDS v1.0 (2024-09-13)",
+    "title": "Gaslogic Refrigerant Gas R-134a - Safety Data Sheet (EU, EN, v1.0, 2024-09-13)",
     "url": "https://gaslogic.nl/wp-content/uploads/2024/09/R134A-MSDS-EN-v1.0.pdf",
     "language": "en",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "Recent EU REACH-format SDS. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+    "verified": true,
+    "note": "Recent EU REACH-format SDS. URL from search results; not opened (WebFetch to vendor hosts blocked).",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "Gaslogic B.V. (Rotterdam) Safety Data Sheet 'Refrigerant Gas R-134a' (1,1,1,2-tetrafluoroethane), v1.0, 13-09-2024, EU CLP; EN; 8 pp",
+     "doc_type": "SDS",
+     "language": "en",
+     "version_date": "v1.0, 2024-09-13",
+     "class_ok": true,
+     "reason": "Same substance (R134a) - right class."
+    }
    },
    {
     "type": "SDS",
-    "title": "Afrox (Linde) Refrigerant R134a SDS AFX-SDS-0060",
+    "title": "Afrox (Linde) Refrigerant R134a - Safety Data Sheet AFX-SDS-0060 (EN, v01, 2021-10-29)",
     "url": "https://static.prd.echannel.linde.com/wcsstore/ZA_AFROX_Industrial_Ntl_Store/Attachment/Corporate/AFX-SDS-0060_v01_Refrigerant_R134a_Safety_Data_Sheet(003)(2)tcm266-6472.pdf",
     "language": "en",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "Major industrial gas producer SDS. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+    "verified": true,
+    "note": "Major industrial gas producer SDS. URL from search results; not opened (WebFetch to vendor hosts blocked).",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "African Oxygen Ltd (Afrox, Linde group) Safety Data Sheet 'Refrigerant R134a', document AFX-SDS-0060 v01, review date 29/10/2021 (South African GHS); EN; 5 pp",
+     "doc_type": "SDS",
+     "language": "en",
+     "version_date": "v01, 2021-10-29",
+     "class_ok": true,
+     "reason": "Same substance (R134a) - right class."
+    }
+   },
+   {
+    "type": "SDS",
+    "title": "Chemours Freon 134a Auto (HFC-134a) Refrigerant - Safety Data Sheet (Canada HPR), v8.11, 12/11/2023 - FMP distributor SDS library",
+    "url": "https://sds.fmpco.com/images/sds_documents/HFC-134a_4.21.23_.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 14 pp; \"SAFETY DATA SHEET according to the Hazardous Products Regulations / Freon 134a Auto (HFC-134a) Refrigerant / Version 8.11 Revision Date: 12/11/2023 SDS Number: 1329602-00047 ... The Chemours Canada Company ... Recommended use: Refrigerant\". Same file, moved from /images/fmp_msds/ to /images/sds_documents/ on sds.fmpco.com."
+   },
+   {
+    "type": "SDS",
+    "title": "ACDelco HFC-134a refrigerant - Safety Data Sheet (GM P/N 88863968, 88864532, ACDelco 10-9097, 15-119A; made by Sinochem Taicang, China), v1, 14 Nov 2014 - FMP distributor SDS library",
+    "url": "https://sds.fmpco.com/images/sds_documents/ACD_R134a_15-119A_S.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 7 pp; \"SAFETY DATA SHEET Version 1 Issue Date 14-Nov-2014 Product Name ACDelco HFC-134a / Part Numbers: 10-9097 88863968 15-119A 88864532 12356150 88864533 88863926 88865620 / CAS No 811-97-2 ... Supplier Sinochem Environmental Protection Chemicals (Taicang) Co., Ltd\". GM-brand automotive HFC-134a SDS replacing the Ford Motorcraft R-134a SDS (motorcraft.com Akamai 403). Chinese-made like the plant's COOLIB product."
    }
   ],
   "equipment": [
@@ -830,43 +926,35 @@
   ],
   "equipment_docs": [
    {
-    "vendor": "Dürr (Dürr Somac GmbH)",
-    "model": "NEXT.assembly portfolio (incl. Somac filling)",
-    "type": "brochure",
-    "title": "Final assembly on the NEXT.level - One-Stop-Shop solutions from Dürr",
-    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/duerr-brochure-NEXT.assembly-english-low.pdf",
-    "verified": false,
-    "note": "Dürr final-assembly brochure covering conveyor, gluing, marriage, filling and testing modules; general, not a model datasheet. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
-    "vendor": "Dürr (Dürr Somac GmbH)",
-    "model": "NEXT.assembly portfolio (newer edition)",
-    "type": "brochure",
-    "title": "Dürr NEXT.assembly brochure (EN, digital)",
-    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
-    "verified": false,
-    "note": "Newer edition of the final-assembly brochure; general. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
-    "vendor": "Dürr (Dürr Somac GmbH)",
-    "model": "DXQ filling + fill stations",
-    "type": "brochure",
-    "title": "Dürr case study: fluid fill stations in automotive final assembly",
-    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
-    "verified": false,
-    "note": "Case study (VW Dresden) on brake, radiator/coolant, battery thermal and A/C fill stations with DXQ software. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
     "vendor": "Twin Engineers (India)",
     "model": "TCF/powertrain fluid filling machines (brake & clutch, coolant, A/C, oil)",
     "type": "brochure",
-    "title": "Twin Engineers - Fluid Filling Machines for Automotives (brochure)",
+    "title": "Twin Engineers – Fluid Filling Machines for Automotives (range brochure, EN, TWBR 020221, 2021)",
     "url": "https://www.twinengineers.com/wp-content/uploads/2024/07/Oil-Filling-Brochure.pdf",
-    "verified": false,
-    "note": "Alternative-vendor brochure covering vacuum fill, leak test, level/volume fill, degassing; brake/clutch, coolant, A/C sections. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+    "verified": true,
+    "note": "Alternative-vendor brochure covering vacuum fill, leak test, level/volume fill, degassing; brake/clutch, coolant, A/C sections. URL from search results; not opened (WebFetch to vendor hosts blocked).",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "Twin Engineers Pvt. Ltd. (Pune, India) 'Fluid Filling Machines for Automotives' range brochure, EN, 8 pp (file TWBR 020221, Feb 2021): vacuum/level/volume/pressure filling, leak test, degassing; machines for brake & clutch oil (DOT 3/4, ABS), radiator coolant (pre-mix/online mixing), power-steering oil, A/C charging, engine/axle/gearbox oil, AdBlue, diesel, washer, combined systems; per-machine cycle-time/flow specs, no model numbers.",
+     "doc_type": "brochure",
+     "language": "en",
+     "doc_number_rev": "TWBR 020221 (Feb 2021)",
+     "passport_ok": true,
+     "process_ok": true,
+     "reason": "Genuine product-range brochure with per-machine specs but no model numbers. It covers brake fluid, PSF, coolant, gearbox oils, A/C charging and washer (ids 27-33, 35). Correctly not attached to gasoline (id 34), since it covers diesel only. Alternative vendor, low confidence."
+    }
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Somac ProLine Cube / G4 Blue Adapter (filling)",
+    "type": "brochure",
+    "title": "Dürr NEXT.assembly brochure (EN, 2026) - 'Filling' section: Somac ProLine Cube filling machine and Somac G4 Blue Adapter (no dedicated Somac model datasheet is published)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
+    "verified": true,
+    "note": "evidence: downloaded; filling section names Somac ProLine Cube and Somac G4 Blue Adapter; Dürr filling product pages publish no PDF datasheets"
    }
   ],
-  "notes": "Sourcing guide (sourcifychina.com) names Coolib as a Chinese R134a brand; no COOLIB SDS found. No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters. | round2_D: COOLIB brand SDS not found. Agramkow product pages are HTML only (agramkow.com/products/equipment/refrigerant-charging/emac); no direct PDF datasheet found. Patent EP3174745A1 describes Dürr-type R134a/R1234yf final-assembly fill adapter (data.epo.org, HTML). | round3_review: REVIEW round3: Twin Engineers fluid-filling brochure (alt vendor) was not found by filename in search. Its relevance is low (no evidence of use at UzAuto); keep as class reference only."
+  "notes": "Sourcing guide (sourcifychina.com) names Coolib as a Chinese R134a brand; no COOLIB SDS found. No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters. | round2_D: COOLIB brand SDS not found. Agramkow product pages are HTML only (agramkow.com/products/equipment/refrigerant-charging/emac); no direct PDF datasheet found. Patent EP3174745A1 describes Dürr-type R134a/R1234yf final-assembly fill adapter (data.epo.org, HTML). | round3_review: REVIEW round3: Twin Engineers fluid-filling brochure (alt vendor) was not found by filename in search. Its relevance is low (no evidence of use at UzAuto); keep as class reference only. | round4_fix: Freon 134a Auto SDS moved within sds.fmpco.com (fixed); Motorcraft R-134a SDS blocked (Akamai 403) -> GM-brand ACDelco HFC-134a SDS (Sinochem-made) as equivalent. | round4_assembly evidence: coolibgas.com home: 'Refrigerant supplier Coolib, which belongs to Starget Refrigerant Group ... Coolib products include R22, R134a, HFA134a ... customers ... Central Asia'; coolibgas.com R134a page: 'disposable cylinder: r134a refrigerant 30 lb'; stargetgas.com R134a page: 'Disposable cylinder 13.6KG'; Starget FAQ: 'Our factory is located in Quzhou City, Zhejiang' and 'We can offer customers COA and MSDS' (on request - no public SDS). Brand + pack size match the plant line; actual purchase not documented. | round4_assembly: No COOLIB/Starget R134a SDS is published (MSDS only on request). Keep Chemours/Daikin/Linde/Gaslogic R134a SDS as equivalents. Motorcraft R-134a SDS returns 403 to automated download (kept; may open in a browser)."
  },
  {
   "id": 34,
@@ -875,40 +963,49 @@
   "manufacturer_confidence": "low",
   "material_docs": [
    {
-    "type": "standard",
-    "title": "ГОСТ 32513-2013 Топлива моторные. Бензин неэтилированный. Технические условия (full text, meganorm.ru)",
-    "url": "https://meganorm.ru/mega_doc/norm/gost_gosudarstvennyj-standart/20/gost_32513-2013_mezhgosudarstvennyy_standart_topliva.html",
-    "language": "ru",
-    "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "HTML full text, not PDF. Superseded in Russia by GOST 32513-2023 from 03.02.2025. Uzbek O'zDSt equivalent text not found online. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
     "type": "SDS",
-    "title": "INA Unleaded Petrol SDS v22 (2024)",
+    "title": "INA Unleaded Petrol (Eurosuper 95/100) - Safety Data Sheet (EU, EN, ed. 22, 2024-05-05)",
     "url": "https://ina.hr/app/uploads/2024/06/Unleaded-Petrol_v22_EN.pdf",
     "language": "en",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "Reputable REACH-format unleaded gasoline SDS. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
+    "verified": true,
+    "note": "Reputable REACH-format unleaded gasoline SDS. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "INA d.d. (Croatia) Safety Data Sheet 'UNLEADED PETROL' (Eurosuper 95/100, E5/E10, Class Plus, INA Master Gasoline 95/100), REACH format, edition 22, 2024-05-05; EN; 29 pp",
+     "doc_type": "SDS",
+     "language": "en",
+     "version_date": "ed. 22, 2024-05-05",
+     "class_ok": true,
+     "reason": "Unleaded motor gasoline - right class; RON 95/100 grades rather than AI-92, hazards essentially identical."
+    }
    },
    {
     "type": "SDS",
-    "title": "NIS a.d. Novi Sad - Unleaded Gasoline SDS (2025-07-25)",
+    "title": "NIS Unleaded Gasoline - Safety Data Sheet (EU/RS, EN, rev. 3.0, 2025-07-25)",
     "url": "https://www.nis.rs/wp-content/uploads/2025/09/EN_SDS_UNLEADED-GASOLINE_GHS-ANNEXII-CLP_20250725_NIS-a.d.-Novi-Sad.pdf",
     "language": "en",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "Gazprom Neft-group refinery (NIS) gasoline SDS; generic. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
+    "verified": true,
+    "note": "Gazprom Neft-group refinery (NIS) gasoline SDS; generic. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "NIS a.d. Novi Sad (Serbia) Safety Data Sheet 'UNLEADED GASOLINE' (CAS 86290-81-5), REACH Annex II/CLP, revision 3.0, issued 25/07/2025 (supersedes 17/08/2022); EN; 63 pp",
+     "doc_type": "SDS",
+     "language": "en",
+     "version_date": "rev. 3.0, 2025-07-25",
+     "class_ok": true,
+     "reason": "Unleaded motor gasoline - right class; not AI-92-specific."
+    }
    },
    {
     "type": "standard",
-    "title": "ГОСТ 32513-2013 Бензин неэтилированный (studfile copy)",
-    "url": "https://studfile.net/preview/16423940",
+    "title": "ГОСТ 32513-2023 Бензин автомобильный. Технические условия (Motor gasoline. Specifications) - full text, meganorm.ru (HTML)",
+    "url": "https://meganorm.ru/mega_doc/dop_norm/6/gost_32513-2023_mezhgosudarstvennyy_standart_benzin_megainfo/0/gost_32513-2023_mezhgosudarstvennyy_standart_benzin.html",
     "language": "ru",
-    "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "HTML preview of superseded standard (not PDF); GOST 32513-2023 replaced it 03.02.2025. Download page for 2023 edition: https://meganorm.ru/Index/79/79978.htm (HTML). URL from search results; not opened (WebFetch to vendor hosts blocked)."
+    "exact_or_equivalent": "exact",
+    "verified": true,
+    "note": "evidence: HTML full text (not a PDF): 'ГОСТ 32513-2023 ... Бензин автомобильный. Технические условия ... введен в действие с 03.02.2025 ... Взамен ГОСТ 32513-2013'; 'За принятие проголосовали: Армения, Киргизия, Россия, Узбекистан (UZ, Узстандарт)'; 3.1 grades АИ-80, АИ-92, АИ-95, АИ-98 (classes K2-K5); Table 1: AI-92 RON >= 92, MON >= 83. 'Exact' = the current interstate standard for the AI-92 grade adopted with Uzbekistan's vote; a paid official PDF exists (russiangost.com), no free PDF found."
    }
   ],
   "equipment": [
@@ -918,38 +1015,27 @@
     "role": "Metered first fill of fuel tank in hazardous (ATEX) zone",
     "rationale": "Dürr offers fully automatic fuel filling in explosion-proof areas of final assembly.",
     "confidence": "medium"
+   },
+   {
+    "vendor": "Dürr (Dürr Somac GmbH)",
+    "model": "Somac Compact Ex (explosion-proof fuel filling station); fully-automatic fuel filling under 'Somac Automated filling stations'",
+    "role": "Metered first fill of gasoline at final assembly in the ex-zone, with vapour recovery/extraction options",
+    "rationale": "Official Dürr product name for the fuel-filling function (durr.com Somac Compact filling stations page: 'With our Compact Ex fuel filling station...'; automated page: 'With a fully-automatic fuel filling equipment you can eliminate manual work in the dangerous zone').",
+    "confidence": "medium"
    }
   ],
   "equipment_docs": [
    {
-    "vendor": "Dürr (Dürr Somac GmbH)",
-    "model": "NEXT.assembly portfolio (incl. Somac filling)",
+    "vendor": "Dürr",
+    "model": "Somac ProLine Cube / G4 Blue Adapter (filling)",
     "type": "brochure",
-    "title": "Final assembly on the NEXT.level - One-Stop-Shop solutions from Dürr",
-    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/duerr-brochure-NEXT.assembly-english-low.pdf",
-    "verified": false,
-    "note": "Dürr final-assembly brochure covering conveyor, gluing, marriage, filling and testing modules; general, not a model datasheet. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
-    "vendor": "Dürr (Dürr Somac GmbH)",
-    "model": "NEXT.assembly portfolio (newer edition)",
-    "type": "brochure",
-    "title": "Dürr NEXT.assembly brochure (EN, digital)",
+    "title": "Dürr NEXT.assembly brochure (EN, 2026) - 'Filling' section: Somac ProLine Cube filling machine and Somac G4 Blue Adapter (no dedicated Somac model datasheet is published)",
     "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
-    "verified": false,
-    "note": "Newer edition of the final-assembly brochure; general. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
-    "vendor": "Dürr (Dürr Somac GmbH)",
-    "model": "DXQ filling + fill stations",
-    "type": "brochure",
-    "title": "Dürr case study: fluid fill stations in automotive final assembly",
-    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
-    "verified": false,
-    "note": "Case study (VW Dresden) on brake, radiator/coolant, battery thermal and A/C fill stations with DXQ software. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
+    "verified": true,
+    "note": "evidence: downloaded; filling section names Somac ProLine Cube and Somac G4 Blue Adapter; Dürr filling product pages publish no PDF datasheets"
    }
   ],
-  "notes": "Generic item. No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters. | round2_D evidence: Uzbek news (anhor.uz, daryo.uz 2025) report Uzbekneftegaz stopping AI-80 and expanding AI-92 at Bukhara refinery. | round2_D: No O'zDSt AI-92 PDF and no AI-92 паспорт безопасности PDF found. Dürr Somac Compact handles fuels (HTML page durr.com/en/products/final-assembly/filling-technology/compact-filling-stations); no fuel-specific PDF found. | round3_review: REVIEW round3: studfile GOST 32513-2013 is an HTML preview of a superseded standard (file null). OK as reference only."
+  "notes": "Generic item. No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters. | round2_D evidence: Uzbek news (anhor.uz, daryo.uz 2025) report Uzbekneftegaz stopping AI-80 and expanding AI-92 at Bukhara refinery. | round2_D: No O'zDSt AI-92 PDF and no AI-92 паспорт безопасности PDF found. Dürr Somac Compact handles fuels (HTML page durr.com/en/products/final-assembly/filling-technology/compact-filling-stations); no fuel-specific PDF found. | round3_review: REVIEW round3: studfile GOST 32513-2013 is an HTML preview of a superseded standard (file null). OK as reference only. | round4_assembly: Catalog's GOST 32513-2013 (meganorm) is marked there 'утрачивает силу с 03.02.2025 ... взамен ГОСТ 32513-2023' (in RF); keep it as historical/possibly still referenced in UZ. No O'zDSt gasoline standard text located."
  },
  {
   "id": 35,
@@ -959,48 +1045,93 @@
   "material_docs": [
    {
     "type": "PDS",
-    "title": "Eurol Screenwash Concentrate - product information",
+    "title": "Eurol Screenwash Concentrate (E502260) - Product Data Sheet (EN, v4.7, 2026-07-14)",
     "url": "https://sirv.eurol.com/eurol/PI/EN/EN_E502260_PI.pdf",
     "language": "en",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "Stated ethanol-based; flash point 23 C, density 0.91. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
+    "verified": true,
+    "note": "Stated ethanol-based; flash point 23 C, density 0.91. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "Eurol B.V. Product Data Sheet 'Eurol Screenwash Concentrate' (art. E502260) - methanol-free washer concentrate (ethanol-based per its SDS), density 0.91, flash point 23 C, dilution table to -30 C; version 4.7, 14/07/2026; EN; 1 p",
+     "doc_type": "PDS",
+     "language": "en",
+     "version_date": "v4.7, 2026-07-14",
+     "class_ok": true,
+     "reason": "Ethanol-based washer concentrate - right class."
+    }
    },
    {
     "type": "SDS",
-    "title": "Ford Screen Wash - Winter Premium 55 SDS",
+    "title": "Ford Screen Wash - Ready Mix S20 (ref. 198426) - Safety Data Sheet (UK, EN, v2.1, 2026-02-27)",
     "url": "https://www.msds.ford.com/documents/198426 G_GBEN.pdf",
     "language": "en",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "OEM screen wash SDS listing ethanol (CAS 64-17-5). URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
+    "verified": true,
+    "note": "OEM screen wash SDS listing ethanol (CAS 64-17-5). URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened.",
+    "verification": {
+     "verdict": "partial",
+     "actual_document": "Ford-Werke GmbH / Ford Motor Co. Ltd Safety Data Sheet 'Screen Wash - Ready Mix S20' (Ford ref. 198426, SDS no. 6019) - ethanol 20-<40%, ethanediol 1-<5%; UK REACH, version 2.1, revision 27.02.2026; EN; 13 pp",
+     "doc_type": "SDS",
+     "language": "en",
+     "version_date": "v2.1, 2026-02-27",
+     "class_ok": true,
+     "reason": "Ethanol washer (right class) but the PDF is the 'Ready Mix S20' SDS, not 'Winter Premium 55' as titled."
+    }
    },
    {
     "type": "SDS",
-    "title": "Eurol Screenwash Concentrate SDS (E502260, v5.0 2023)",
+    "title": "Eurol Screenwash Concentrate (E502260) - Safety Data Sheet (EU, EN, v6.2, 2026-07-13)",
     "url": "https://sirv.eurol.com/eurol/SDS/EN/EN_E502260_SDS.pdf",
     "language": "en",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "SDS matching the round-1 Eurol PI (ethanol-based concentrate). URL from search results; not opened (WebFetch to vendor hosts blocked)."
+    "verified": true,
+    "note": "SDS matching the round-1 Eurol PI (ethanol-based concentrate). URL from search results; not opened (WebFetch to vendor hosts blocked).",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "Eurol B.V. Safety Data Sheet 'Eurol Screenwash Concentrate' (E502260) - ethanol >=50%, ethane-1,2-diol 5-10%, propan-2-ol 0.1-1%; REACH as amended by 2020/878, version 6.2, revision 13-7-2026 (supersedes 13-11-2025); EN; 18 pp",
+     "doc_type": "SDS",
+     "language": "en",
+     "version_date": "v6.2, 2026-07-13",
+     "class_ok": true,
+     "reason": "Right product and class; the URL now serves v6.2 of 2026-07-13, not 'v5.0 2023' as titled."
+    }
    },
    {
     "type": "SDS",
-    "title": "ROWE HIGHTEC Screenwash SDS (21111-998-00, IRL-en)",
+    "title": "ROWE HIGHTEC Screenwash -20 C (21111) - Safety Data Sheet (IE, EN, rev. 2026-02-02)",
     "url": "https://assets.rowegmbh.de/var/assets/brandhub/safety-data-sheets/en/21111-998-00_IRL-en_1%2C09.pdf",
     "language": "en",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "ROWE screenwash SDS; one of 21111/21104 is the Concentrate (ethanol 30-<60%), the other the -20C ready mix (ethanol 15-<30%); mapping not confirmed. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+    "verified": true,
+    "note": "ROWE screenwash SDS; one of 21111/21104 is the Concentrate (ethanol 30-<60%), the other the -20C ready mix (ethanol 15-<30%); mapping not confirmed. URL from search results; not opened (WebFetch to vendor hosts blocked).",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "ROWE Mineraloelwerk GmbH Safety Data Sheet 'HIGHTEC SCREENWASH -20 C' (product 21111) - ethanol 15-<30%, ethylene glycol 1-<2.5%; Flam. Liq. 3; revision 02.02.2026; EN (Ireland); 14 pp",
+     "doc_type": "SDS",
+     "language": "en",
+     "version_date": "rev. 2026-02-02",
+     "class_ok": true,
+     "reason": "Ethanol washer - right class; this is the -20 C ready mix (settles the catalog's 21111/21104 question), not a concentrate."
+    }
    },
    {
     "type": "SDS",
-    "title": "ROWE HIGHTEC Screenwash SDS (21104-998-00, IRL-en)",
-    "url": "https://assets.rowegmbh.de/var/assets/brandhub/safety-data-sheets/en/21104-998-00_IRL-en_1%2C11.pdf",
+    "title": "ROWE HIGHTEC Screenwash-Concentrate (product code 21104) - Safety Data Sheet (EC 1907/2006, IRL-en), v1.12, revision 02.02.2026",
+    "url": "https://assets.rowegmbh.de/var/assets/brandhub/safety-data-sheets/en/21104-998-00_IRL-en_1%2C12.pdf",
     "language": "en",
     "exact_or_equivalent": "equivalent",
-    "verified": false,
-    "note": "See previous entry; ethanol-based washer SDS. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+    "verified": true,
+    "note": "evidence: %PDF, 14 pp; \"ROWE Mineralölwerk GmbH Safety Data Sheet according to Regulation (EC) No 1907/2006 HIGHTEC Screenwash-Concentrate Revision: 02.02.2026 Product code: 21104\"; ethanol 50-<55%, ethylene glycol 1-<3%, butanone 0.5-<1%; Flam. Liq. 3 H226, Eye Irrit. 2 H319. Newer revision (file suffix 1,12) of the removed 1,11 file."
+   },
+   {
+    "type": "SDS",
+    "title": "LIQUI MOLY Scheibenfrostschutz Konzentrat (Windshield antifreeze concentrate) - SDS v0002, 28.08.2023 (EN)",
+    "url": "https://sichdatonline.chemical-check.de/Dokumente/566/12377_0002_28-08-2023_EN.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 20 pp; 'Revision date / version: 28.08.2023 / 0002 ... Scheibenfrostschutz Konzentrat / Windshield antifreeze concentrate'; supplier 'LIQUI MOLY GmbH, Ulm'; section 3: Ethanol CAS 64-17-5 30-<50 %, ethanediol 5-<10 %; Flam. Liq. 3 H226. Ethanol-based washer concentrate (lower ethanol than the plant's 80 % concentrate, close to its ~50 % final mix). Hosted on LIQUI MOLY's SDS service (chemical-check)."
    }
   ],
   "equipment": [
@@ -1021,42 +1152,34 @@
   ],
   "equipment_docs": [
    {
-    "vendor": "Dürr (Dürr Somac GmbH)",
-    "model": "NEXT.assembly portfolio (incl. Somac filling)",
-    "type": "brochure",
-    "title": "Final assembly on the NEXT.level - One-Stop-Shop solutions from Dürr",
-    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/duerr-brochure-NEXT.assembly-english-low.pdf",
-    "verified": false,
-    "note": "Dürr final-assembly brochure covering conveyor, gluing, marriage, filling and testing modules; general, not a model datasheet. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
-    "vendor": "Dürr (Dürr Somac GmbH)",
-    "model": "NEXT.assembly portfolio (newer edition)",
-    "type": "brochure",
-    "title": "Dürr NEXT.assembly brochure (EN, digital)",
-    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
-    "verified": false,
-    "note": "Newer edition of the final-assembly brochure; general. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
-    "vendor": "Dürr (Dürr Somac GmbH)",
-    "model": "DXQ filling + fill stations",
-    "type": "brochure",
-    "title": "Dürr case study: fluid fill stations in automotive final assembly",
-    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/12_Software_Controls/DXQ/05_DXQfinalassembly/Filling/duerr-filling-case-study-en.pdf",
-    "verified": false,
-    "note": "Case study (VW Dresden) on brake, radiator/coolant, battery thermal and A/C fill stations with DXQ software. URL taken from search results; WebFetch blocked by sandbox network policy (host not allowed), so content not opened."
-   },
-   {
     "vendor": "Twin Engineers (India)",
     "model": "TCF/powertrain fluid filling machines (brake & clutch, coolant, A/C, oil)",
     "type": "brochure",
-    "title": "Twin Engineers - Fluid Filling Machines for Automotives (brochure)",
+    "title": "Twin Engineers – Fluid Filling Machines for Automotives (range brochure, EN, TWBR 020221, 2021)",
     "url": "https://www.twinengineers.com/wp-content/uploads/2024/07/Oil-Filling-Brochure.pdf",
-    "verified": false,
-    "note": "Alternative-vendor brochure covering vacuum fill, leak test, level/volume fill, degassing; brake/clutch, coolant, A/C sections. URL from search results; not opened (WebFetch to vendor hosts blocked)."
+    "verified": true,
+    "note": "Alternative-vendor brochure covering vacuum fill, leak test, level/volume fill, degassing; brake/clutch, coolant, A/C sections. URL from search results; not opened (WebFetch to vendor hosts blocked).",
+    "verification": {
+     "verdict": "match",
+     "actual_document": "Twin Engineers Pvt. Ltd. (Pune, India) 'Fluid Filling Machines for Automotives' range brochure, EN, 8 pp (file TWBR 020221, Feb 2021): vacuum/level/volume/pressure filling, leak test, degassing; machines for brake & clutch oil (DOT 3/4, ABS), radiator coolant (pre-mix/online mixing), power-steering oil, A/C charging, engine/axle/gearbox oil, AdBlue, diesel, washer, combined systems; per-machine cycle-time/flow specs, no model numbers.",
+     "doc_type": "brochure",
+     "language": "en",
+     "doc_number_rev": "TWBR 020221 (Feb 2021)",
+     "passport_ok": true,
+     "process_ok": true,
+     "reason": "Genuine product-range brochure with per-machine specs but no model numbers. It covers brake fluid, PSF, coolant, gearbox oils, A/C charging and washer (ids 27-33, 35). Correctly not attached to gasoline (id 34), since it covers diesel only. Alternative vendor, low confidence."
+    }
+   },
+   {
+    "vendor": "Dürr",
+    "model": "Somac ProLine Cube / G4 Blue Adapter (filling)",
+    "type": "brochure",
+    "title": "Dürr NEXT.assembly brochure (EN, 2026) - 'Filling' section: Somac ProLine Cube filling machine and Somac G4 Blue Adapter (no dedicated Somac model datasheet is published)",
+    "url": "https://www.durr.com/fileadmin/durr.com/01_Products/06_Final_Assembly_Systems/durr-NEXT.assembly-brochure-en-digital-low.pdf",
+    "verified": true,
+    "note": "evidence: downloaded; filling section names Somac ProLine Cube and Somac G4 Blue Adapter; Dürr filling product pages publish no PDF datasheets"
    }
   ],
-  "notes": "Generic item; ethanol blend is flammable (flash point ~23 C neat), filling unit may need ex-protection. No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters. | round2_D: Local blend; no exact SDS possible. Web search budget exhausted before ethanol 80% denatured alcohol (local supplier) search. | round3_review: REVIEW round3: Eurol/ROWE screenwash SDS: equivalent, OK. The ROWE 21111 vs 21104 concentrate mapping is still unconfirmed. Twin Engineers fluid-filling brochure (alt vendor) was not found by filename in search. Its relevance is low (no evidence of use at UzAuto); keep as class reference only."
+  "notes": "Generic item; ethanol blend is flammable (flash point ~23 C neat), filling unit may need ex-protection. No public evidence found of the actual filling equipment at UzAuto Motors Asaka; equipment is representative. Dürr Somac is the market leader in final-assembly fluid filling (approx. 2,900 stations in 44 countries) and is standard at GM plants; product pages (not PDFs) seen in search: durr.com/en/products/final-assembly/filling-technology/{line-filling-stations, compact-filling-stations, automated-filling-stations, filling-adapter} and .../nextassembly-of-the-future/proline-cube-filling-station. No 'EcoFill' product name was found on Dürr sources; current names are Somac ProLine Cube, ProLine, Compact X/CompStart, BlueStart, G4 Blue adapters. | round2_D: Local blend; no exact SDS possible. Web search budget exhausted before ethanol 80% denatured alcohol (local supplier) search. | round3_review: REVIEW round3: Eurol/ROWE screenwash SDS: equivalent, OK. The ROWE 21111 vs 21104 concentrate mapping is still unconfirmed. Twin Engineers fluid-filling brochure (alt vendor) was not found by filename in search. Its relevance is low (no evidence of use at UzAuto); keep as class reference only. | round4_fix: ROWE HIGHTEC Screenwash-Concentrate SDS: newer revision 1,12 (02.02.2026). | round4_assembly: No 80 %-ethanol washer concentrate SDS from the actual (unknown, probably local/Korean) supplier found. Dürr lists 'Windshield washer fluid' among Somac Compact media and offers an explosion-proof 'G4 Blue windscreen washer adapter'."
  }
 ]

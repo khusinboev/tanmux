@@ -1,0 +1,609 @@
+[
+ {
+  "id": 27,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://www.biketeile-service.de/media/attachment/pdf/sida_en_5585513.pdf",
+    "reason": "JMC DOT4 Plus SDS: HTTP 403 on every automated attempt (round 3 and round 4); not verifiable; Q8 DOT 4+ TDS, Recochem and DASCO SDS remain as equivalents."
+   }
+  ],
+  "notes": "No CROWN DOT-4(+) MSDS/TDS found publicly. KOSHA KMS (msds.kosha.or.kr) only offers 'MSDS submission status' lookup, product MSDS are not downloadable; Kukdong Jeyen/KD Finechem web domains tried (kdfinechem.com/.co.kr, kukdongjeyen.co.kr, kukdong.co.kr) do not resolve, kukdong.com is an unrelated logistics group. Identity support: TradeKorea supplier page 'KUKDONG JEYEN CO LTD ... Brand name WIXENELT, CROWN ... South Korea / 1973 ... Manufacturer' and Chemknock page 'Crown brake fluid DOT-4+ ... Kukdong Jeyen, 286 Pyeongtaekhang-ro, Poseung-eup, Pyeongtaek-si ... standards of car makers such as Hyundai, KIA, GM Daewoo'. Note: the catalog's DASCO DOT-4 MSDS is by Dong-A Special Chemical (동아특수화학), not Kukdong - it stays an equivalent."
+ },
+ {
+  "id": 28,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "ACDelco Dexron VI Automatic Transmission Fluid - SDS (GM P/N 88865601/88865602/88865603; ACDelco 10-9394/10-9395/10-9396), rev. 2020-10-08, v. LP1409.0, manufacturer SK lubricants Americas",
+    "url": "https://apps.spheracloud.net/Pdf/2748753_1_2023461058.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 7 pp; header '88865601,88865602,88865603 SAFETY DATA SHEET Revision date: 2020-10-08 Version: LP1409.0'; 'Product name: ACDelco Dexron VI Automatic Transmission Fluid'; 'Manufacturer ... SK lubricants Americas Inc.'; 'Supplier/Distributer ... ACDelco, Detroit'. Source = GM's official SDS portal (Sphera, linked from gmparts.com > Safety Data Sheets & Ingredient Disclosures). Equivalent because the plant's Dexron-VI blender is not documented."
+   },
+   {
+    "type": "SDS",
+    "title": "AC Delco ATF Dexron VI - SDS (GM P/N 19434708, product code 001C5035), Shell Lubricants Egypt, rev. 18.09.2023 v1.0 (GM Africa & Middle East)",
+    "url": "https://apps.spheracloud.net/Pdf/4193339_1_1269775406.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 18 pp; '19434708 SAFETY DATA SHEET ... ACDelco ATF Dexron VI Print Date 31.07.2024 Revision Date 18.09.2023 Version 1.0'; 'Trade name: AC Delco ATF Dexron VI; Product code: 001C5035'; 'Manufacturer/Supplier: Shell Lubricants Egypt'. GM official SDS portal (Sphera). Nearest GM-international regional supply example."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": "GM's official public SDS portal (gmparts.com -> apps.spheracloud.net 'SEARCH SAFETY DATA SHEETS') lists several ACDelco DEXRON VI ATF SDS from different licensed blenders: SK lubricants Americas (88865601, 2020), Phillips 66 (code 829783, P/N 88865549/88865550/88865618/88865765, issued 01-Mar-2023, https://apps.spheracloud.net/Pdf/4347058_1_578371061.pdf, verified) and Shell Lubricants Egypt (19434708, 2023). Which blender supplies UzAuto's 200 L drums (power-steering fluid) is still unknown, so manufacturer stays 'licensed Dexron-VI blender'. GM part 19417575 was not found in the GM SDS index."
+ },
+ {
+  "id": 32,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "ACDelco Dexron VI Automatic Transmission Fluid - SDS (GM P/N 88865601/88865602/88865603; ACDelco 10-9394/10-9395/10-9396), rev. 2020-10-08, v. LP1409.0, manufacturer SK lubricants Americas",
+    "url": "https://apps.spheracloud.net/Pdf/2748753_1_2023461058.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 7 pp; header '88865601,88865602,88865603 SAFETY DATA SHEET Revision date: 2020-10-08 Version: LP1409.0'; 'Product name: ACDelco Dexron VI Automatic Transmission Fluid'; 'Manufacturer ... SK lubricants Americas Inc.'; 'Supplier/Distributer ... ACDelco, Detroit'. Source = GM's official SDS portal (Sphera, linked from gmparts.com > Safety Data Sheets & Ingredient Disclosures). Equivalent because the plant's Dexron-VI blender is not documented."
+   },
+   {
+    "type": "SDS",
+    "title": "AC Delco ATF Dexron VI - SDS (GM P/N 19434708, product code 001C5035), Shell Lubricants Egypt, rev. 18.09.2023 v1.0 (GM Africa & Middle East)",
+    "url": "https://apps.spheracloud.net/Pdf/4193339_1_1269775406.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 18 pp; '19434708 SAFETY DATA SHEET ... ACDelco ATF Dexron VI Print Date 31.07.2024 Revision Date 18.09.2023 Version 1.0'; 'Trade name: AC Delco ATF Dexron VI; Product code: 001C5035'; 'Manufacturer/Supplier: Shell Lubricants Egypt'. GM official SDS portal (Sphera). Nearest GM-international regional supply example."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": "GM's official public SDS portal (gmparts.com -> apps.spheracloud.net 'SEARCH SAFETY DATA SHEETS') lists several ACDelco DEXRON VI ATF SDS from different licensed blenders: SK lubricants Americas (88865601, 2020), Phillips 66 (code 829783, P/N 88865549/88865550/88865618/88865765, issued 01-Mar-2023, https://apps.spheracloud.net/Pdf/4347058_1_578371061.pdf, verified) and Shell Lubricants Egypt (19434708, 2023). Which blender supplies UzAuto's 200 L drums (automatic transmission fluid) is still unknown, so manufacturer stays 'licensed Dexron-VI blender'. GM part 19417575 was not found in the GM SDS index."
+ },
+ {
+  "id": 29,
+  "manufacturer_update": {
+   "manufacturer": "OOO Tosol-Sintez-Invest (Dzerzhinsk, Nizhny Novgorod region, Russia) - FELIX brand",
+   "product_identified": "Most likely FELIX CARBOX G12+ (red OAT carboxylate) concentrate. No Felix product named 'DX-COOL' exists; 'DX-COOL' = GM DEX-COOL type. CARBOX is the Felix red OAT line that declares GM Opel/Vauxhall/Saab 6277M (DEX-COOL-type) plus 'Chevrolet (c 2001), Daewoo'; concentrate sold in 220/230 kg drums (art. 430203953/430203954). Not proven by a UzAuto document.",
+   "manufacturer_confidence": "medium",
+   "evidence": "antifreezefelix.ru and tosol-sintez.ru catalogues (incl. 'Антифризы FELIX B2B': Carbox SQ, Carbox SQ Long Life, CARBOX SQ Arktika, HD Low Silicate) list no DX-COOL; red products are only CARBOX G12+ and DRAGON G12+/LEC-II (for Haval/Geely/Chery/Changan/GAC). TDS FELIX CARBOX G12+ 2026 'СООТВЕТСТВИЯ СТАНДАРТАМ: ... GM Opel/Vauxhall/Saab 6277M, GM Opel B040 1065 ... Chevrolet (c 2001), Daewoo'; product page: 'используется для первой конвейерной заливки на ведущих автозаводах' with OEM list (AVTOVAZ, KAMAZ, GAZ, Avtotor, Asia Avto KZ, MAZ, BelGee, Sollers, Moskvich...) - UzAuto not listed."
+  },
+  "add_material_docs": [
+   {
+    "type": "TDS",
+    "title": "TDS FELIX CARBOX G12+ 2026 (Tosol-Sintez-Invest; ready-mix -40/-65 and concentrate data, compliance list incl. GM 6277M)",
+    "url": "https://antifreezefelix.ru/storage/upload/documents/TDS%20FELIX%20CARBOX%20G12+%202026.pdf",
+    "language": "ru",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 2 pp (created 2026-09-17, mod. 2026-10-19); 'АНТИФРИЗ FELIX CARBOX Тип: карбоксилатный (OAT) Класс: G12+'; concentrate column: boiling +165 °C, density 1,100-1,130 g/cm3, red; 'GM Opel/Vauxhall/Saab 6277M ... Chevrolet (c 2001), Daewoo'; packs 'Бочка 50/220/230 кг'; 'ООО «Тосол-Синтез-Инвест» ... г. Дзержинск'. Cyrillic text is cp1251-mis-encoded in the PDF text layer (readable visually). Newer than the catalog's 'Технический лист FELIX CARBOX + конц.'. Linked from the official product page antifreezefelix.ru/antifreeze/felix-carbox."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://antifreezefelix.ru/storage/upload/documents/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82%20FELIX%20TYPE%20D.pdf",
+    "reason": "FELIX Type-D is a YELLOW OAT coolant 'recommended for RENAULT, NISSAN, CITROEN, PEUGEOT' - not a red GM/DEX-COOL-type concentrate."
+   },
+   {
+    "url": "https://antifreezefelix.ru/storage/upload/documents/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%BB%D0%B8%D1%81%D1%82%20FELIX%20JDM.pdf",
+    "reason": "FELIX JDM is a GREEN phosphated (P-OAT) coolant for Hyundai/KIA/Toyota/Nissan etc. - not a red GM/DEX-COOL-type concentrate."
+   }
+  ],
+  "notes": "Keep FELIX CARBOX (+ concentrate sheet, MSDS) and the new 2026 TDS; FELIX DRAGON is red OAT but positioned for Chinese brands (weak). GMW3420 is not mentioned by Felix; only GM 6277M (GM Europe DEX-COOL-type spec)."
+ },
+ {
+  "id": 30,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://www.idemitsu.com/jp/sds/lube/32050330.pdf",
+    "reason": "Daphne Super Gear Oil 150 is an industrial (ISO VG 150) gear oil SDS - wrong technical class for a manual-transaxle MTF."
+   },
+   {
+    "url": "https://www.lube-buster.com/wp-content/uploads/2022/04/sds-idemitsu-atf-type-hp.pdf",
+    "reason": "ATF Type-HP is an automatic transmission fluid - wrong technical class for MTF."
+   }
+  ],
+  "notes": "'LSJ11EP' returns no web hits (EN/JA/KO variants) - treated as an internal/OE factory-fill code. Idemitsu Japan lube SDS/product data are behind a registration form (spiral.idemitsu.com/regist), not public; Idemitsu Japan product-name list shows no MTF named LSJ. Remaining docs: ILTI 'Idemitsu MTF' leaflet (also 2020 rev. linked from ilti.idemitsu.com/en/produkotomotif/idemitsu-mtf) and Apolloil Dual Gear (MT/differential gear oil). No exact document exists publicly."
+ },
+ {
+  "id": 31,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://www.motorcraft.com/content/dam/ford-motorcraft/en_us/motorcraft_global/products/pdf/SAE_75W_85_Premuim_Synthetic_Hypoid_Gear_Lubricant/SAE_75W_85_Premuim_Synthetic_Hypoid_Gear_Lubricant_SDS.pdf",
+    "reason": "Hypoid (axle, GL-5 type) gear lubricant - wrong class for a GL-4 manual-transmission fluid; also HTTP 403 on every automated attempt."
+   }
+  ],
+  "notes": "GM XGP SAE 75W-85 MTF (GM 19351859 / ACDelco 10-4104; replaces 88862472, 93165290) is NOT in GM's public SDS portal (searched 'XGP', '19351859', '10-4104', '93165290', '88862472', '75W-85', 'Manual', 'GL-4'). The portal's 75W-85 items are axle/PTU/LV gear oils (e.g. SK ZIC/ACDelco DEXRON LV Gear Oil 75W-85: 'Lubricants for rear and front axles, differential gears') - not GL-4 MTF, so not added. No exact XGP SDS/TDS found."
+ },
+ {
+  "id": 33,
+  "manufacturer_update": {
+   "manufacturer": "Starget Refrigerant Group (Beijing, China) - COOLIB brand (factory stated in Quzhou, Zhejiang)",
+   "product_identified": "COOLIB R134a (HFC-134a) in 13.6 kg (30 lb) disposable cylinders",
+   "manufacturer_confidence": "medium",
+   "evidence": "coolibgas.com home: 'Refrigerant supplier Coolib, which belongs to Starget Refrigerant Group ... Coolib products include R22, R134a, HFA134a ... customers ... Central Asia'; coolibgas.com R134a page: 'disposable cylinder: r134a refrigerant 30 lb'; stargetgas.com R134a page: 'Disposable cylinder 13.6KG'; Starget FAQ: 'Our factory is located in Quzhou City, Zhejiang' and 'We can offer customers COA and MSDS' (on request - no public SDS). Brand + pack size match the plant line; actual purchase not documented."
+  },
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://sds.fmpco.com/images/fmp_msds/HFC-134a_4.21.23_.pdf",
+    "reason": "HTTP 404 (re-tested round 4)."
+   }
+  ],
+  "notes": "No COOLIB/Starget R134a SDS is published (MSDS only on request). Keep Chemours/Daikin/Linde/Gaslogic R134a SDS as equivalents. Motorcraft R-134a SDS returns 403 to automated download (kept; may open in a browser)."
+ },
+ {
+  "id": 34,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "standard",
+    "title": "ГОСТ 32513-2023 Бензин автомобильный. Технические условия (Motor gasoline. Specifications) - full text, meganorm.ru (HTML)",
+    "url": "https://meganorm.ru/mega_doc/dop_norm/6/gost_32513-2023_mezhgosudarstvennyy_standart_benzin_megainfo/0/gost_32513-2023_mezhgosudarstvennyy_standart_benzin.html",
+    "language": "ru",
+    "exact_or_equivalent": "exact",
+    "verified": true,
+    "note": "evidence: HTML full text (not a PDF): 'ГОСТ 32513-2023 ... Бензин автомобильный. Технические условия ... введен в действие с 03.02.2025 ... Взамен ГОСТ 32513-2013'; 'За принятие проголосовали: Армения, Киргизия, Россия, Узбекистан (UZ, Узстандарт)'; 3.1 grades АИ-80, АИ-92, АИ-95, АИ-98 (classes K2-K5); Table 1: AI-92 RON >= 92, MON >= 83. 'Exact' = the current interstate standard for the AI-92 grade adopted with Uzbekistan's vote; a paid official PDF exists (russiangost.com), no free PDF found."
+   }
+  ],
+  "add_equipment": [
+   {
+    "vendor": "Dürr (Dürr Somac GmbH)",
+    "model": "Somac Compact Ex (explosion-proof fuel filling station); fully-automatic fuel filling under 'Somac Automated filling stations'",
+    "role": "Metered first fill of gasoline at final assembly in the ex-zone, with vapour recovery/extraction options",
+    "rationale": "Official Dürr product name for the fuel-filling function (durr.com Somac Compact filling stations page: 'With our Compact Ex fuel filling station...'; automated page: 'With a fully-automatic fuel filling equipment you can eliminate manual work in the dangerous zone').",
+    "confidence": "medium"
+   }
+  ],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": "Catalog's GOST 32513-2013 (meganorm) is marked there 'утрачивает силу с 03.02.2025 ... взамен ГОСТ 32513-2023' (in RF); keep it as historical/possibly still referenced in UZ. No O'zDSt gasoline standard text located."
+ },
+ {
+  "id": 35,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "LIQUI MOLY Scheibenfrostschutz Konzentrat (Windshield antifreeze concentrate) - SDS v0002, 28.08.2023 (EN)",
+    "url": "https://sichdatonline.chemical-check.de/Dokumente/566/12377_0002_28-08-2023_EN.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 20 pp; 'Revision date / version: 28.08.2023 / 0002 ... Scheibenfrostschutz Konzentrat / Windshield antifreeze concentrate'; supplier 'LIQUI MOLY GmbH, Ulm'; section 3: Ethanol CAS 64-17-5 30-<50 %, ethanediol 5-<10 %; Flam. Liq. 3 H226. Ethanol-based washer concentrate (lower ethanol than the plant's 80 % concentrate, close to its ~50 % final mix). Hosted on LIQUI MOLY's SDS service (chemical-check)."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://assets.rowegmbh.de/var/assets/brandhub/safety-data-sheets/en/21104-998-00_IRL-en_1%2C11.pdf",
+    "reason": "HTTP 404 (re-tested round 4)."
+   }
+  ],
+  "notes": "No 80 %-ethanol washer concentrate SDS from the actual (unknown, probably local/Korean) supplier found. Dürr lists 'Windshield washer fluid' among Somac Compact media and offers an explosion-proof 'G4 Blue windscreen washer adapter'."
+ },
+ {
+  "id": 36,
+  "manufacturer_update": {
+   "manufacturer": "Sika AG (Sikaflex-250 OEM direct-glazing family); alternate/second source DuPont (ex-Dow) BETASEAL",
+   "product_identified": "Sikaflex-250 UZ-1 = customer-specific Sikaflex-250 OEM grade (no public document). Closest public grades: Sikaflex-250 UC-1 / UF-1P (US, room-temperature direct glazing, 2023), Sikaflex-250 DM-8 (Sika Automotive DE, 2026), Sikaflex-250 PC (warm-applied 85 °C, Sika Korea / Sika DE).",
+   "manufacturer_confidence": "medium",
+   "evidence": "Sika publishes many letter+digit OEM variants of Sikaflex-250 (usa.sika.com: UC-1, UC-2, UF-1P, UH-1 cool, DM-6, KH-4, DB-2; deu.sika.com: DM-8, DP-2 PowerCure, PC; kor.sika.com: 250 PC) - 'UZ-1' fits this pattern; web search for 'Sikaflex-250 UZ(-1)' and Sika site searches returned nothing. Sika Automotive brochure (12.2025) describes the OEM direct-glazing 1C-PU range (primerless, SikaBooster, Purform)."
+  },
+  "add_material_docs": [
+   {
+    "type": "PDS",
+    "title": "Sikaflex-250 UC-1 Product Data Sheet - room temperature applied direct glazing adhesive (Sika Corporation US, v02.01, 03-2023)",
+    "url": "https://usa.sika.com/dam/dms/us01/m/sikaflex-250-uc-1.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 2 pp; 'PRODUCT DATA SHEET Sikaflex®-250 UC-1 Room temperature applied direct glazing adhesive'; 'Version 02.01 (03 - 2023), en_US'; density 1.25 kg/l; 'suitable for automated and manual direct glazing'; packs cartridge 300 ml, drum 53 gallon. Twin grade Sikaflex-250 UF-1P (same site, same date) also verified."
+   },
+   {
+    "type": "PDS",
+    "title": "Sikaflex-250 DM-8 Product Data Sheet - primerless to paint direct glazing adhesive with high modulus (Sika Automotive Deutschland, v01.01, 02-2026)",
+    "url": "https://deu.sika.com/dms/getdocument.get/475986a9-6909-41a4-aae2-cc0a5b8c9497/sikaflex-250-dm-8.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 2 pp (created 2026-02-06), Author 'Sika Automotive Deutschland GmbH'; 'Sikaflex®-250 DM-8 Primerless to paint direct glazing adhesive with high modulus'; 'Version 01.01 (02 - 2026), en_DEAUTO'; application temp. 35-55 °C; drum 195 l. Replaces the dead DM-5 / DP-2 links."
+   },
+   {
+    "type": "PDS",
+    "title": "Sikaflex-250 PC 제품 설명서 (Product Data Sheet, Sika Korea, v02.01, 04-2022) - warm-applied 1C PU for automated bonding",
+    "url": "https://kor.sika.com/dam/dms/kr01/m/sikaflex_-250_pc.pdf",
+    "language": "ko",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 2 pp, Title 'Sikaflex®-250 PC', Author '씨카코리아(주)'; '도포 특성이 뛰어나고 따뜻하게 하여 적용 되는 접착제'; application temp. 85 °C; 'Version 02.01 (04 - 2022), ko_KR'; packs 300 ml / 23 l pail / 195 l drum. Korean-region OEM grade (Sika Korea English MSDS for 250PC already in catalog)."
+   },
+   {
+    "type": "brochure",
+    "title": "Sika Automotive - Assembly Line Adhesives brochure (direct glazing systems, pre-treatments; (c) 2025 Sika Corporation, 12.2025)",
+    "url": "https://automotive.sika.com/dam/dms/global-industry/t/assemby-line-adhesives.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 28 pp (mod. 2026-01-28); 'ASSEMBLY LINE ADHESIVES ... Direct Glazing Systems - 30 MILLION WINDSCREENS BONDED EVERY YEAR WITH SIKA WINDSCREEN ADHESIVES'; technology overview 1C-PU primerless / Purform / SikaBooster / fast green strength / low conductive; '© 2025 Sika Corporation ... 12.2025'. Linked from automotive.sika.com direct-glazing page."
+   }
+  ],
+  "add_equipment": [
+   {
+    "vendor": "Atlas Copco",
+    "model": "SCA product line - e.g. SCA Enso 8000 Single-Component (1K) Shot Meter",
+    "role": "1K PU metering/dispensing for the robotic windshield bead (shaped/triangular bead)",
+    "rationale": "Atlas Copco's final-assembly glazing page names its 'SCA product line' for shaped-bead glazing with 1K / 1K accelerated / 2K PU; the current 1K metering model on atlascopco.com is 'SCA Enso 8000 Single-Component (1K) Shot Meter'. No plant-specific evidence.",
+    "confidence": "low"
+   }
+  ],
+  "add_equipment_docs": [
+   {
+    "vendor": "Graco",
+    "model": "Therm-O-Flow bulk warm melt systems",
+    "type": "brochure",
+    "title": "Therm-O-Flow Bulk Warm Melt Systems brochure 350422ENEU-A",
+    "url": "https://www.graco.com/content/dam/graco/com_documents/350/350422/350422ENEU-A.pdf",
+    "verified": true,
+    "note": "evidence: PDF 8 pp, Title '350422ENEU Therm-O-Flow' (2021-09); 'Therm-O-Flow® Bulk Warm Melt Systems PROVEN QUALITY. LEADING TECHNOLOGY.' Same document as the catalog's unreachable gww.graco.com link (www.graco.com/.../aftd/literature/brochures/350422/350422ENEU-A.pdf redirects here)."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://deu.sika.com/dms/getdocument.get/7d702bec-814c-4eb8-805d-1ad0cb019466/sikaflex-250-dm-5.pdf",
+    "reason": "HTTP 404 (re-tested round 4); replaced by Sikaflex-250 DM-8 / UC-1 PDS."
+   },
+   {
+    "url": "https://deu.sika.com/dms/getdocument.get/48aee572-deb8-4a11-85c7-8682134452bd/sikaflex-250-dp-2-plus-sikaboosterp-50.pdf",
+    "reason": "HTTP 404 (re-tested round 4)."
+   },
+   {
+    "url": "https://gww.graco.com/content/dam/graco/aftd/literature/brochures/350422/350422ENEU-A.pdf",
+    "reason": "Host gww.graco.com unreachable (connection failure); same brochure added from www.graco.com."
+   }
+  ],
+  "notes": "No public Sikaflex-250 UZ-1 document; UZ-1 is consistent with Sika's customer-specific grade naming. The catalog's egy.sika.com 'Sikaflex-250 DM-3' PDS is a 2006 provisional sheet (PDF metadata wrongly says Sikaflex-212 FC01). The Dow ASM/BETASEAL brochure on agsc.org downloads fine now (13.5 MB, 33 pp, Dow Automotive Systems 2018)."
+ },
+ {
+  "id": 37,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": "Still unidentified. 408 kg = 900 lb (US bulk unit). Henkel TECHNOMELT AS 8383 / Bostik Thermogrip TDS in catalog give no packaging. Uzbek procurement portals: xarid.uzex.uz and etender.uzex.uz are JavaScript single-page apps whose data come from authenticated APIs (xarid-api-*.uzex.uz, apietender.uzex.uz); no public lot text could be read, so no supplier evidence. Nordson's 'ProBlue' is a tank-melter family; Nordson bulk melters are VersaDrum / VersaPail / AltaPail II (search index; nordson.com blocks automated fetch) and Graco offers 'Therm-O-Flow Bulk Hot Melt Systems' - none can be tied to a 408 kg box without plant data."
+ },
+ {
+  "id": 38,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "Sika Primer-209 D Safety Data Sheet (Sika Limited UK, UK REACH, v10.1, rev. 13.02.2026)",
+    "url": "https://gbr.sika.com/dam/dms/gb01/t/sds-sika-primer-209d.pdf",
+    "language": "en",
+    "exact_or_equivalent": "exact",
+    "verified": true,
+    "note": "evidence: PDF 22 pp; 'SAFETY DATA SHEET According to REACH Regulation (EC) No 1907/2006, as amended by UK REACH ... Sika® Primer-209 D ... Version 10.1 ... Revision Date: 13.02.2026'; supplier Sika Limited, Welwyn Garden City. Linked from gbr.sika.com product page (auto-glass-replacement/pre-treatment/sika-primer-209-d). Replaces the dead getdocument SDS link."
+   },
+   {
+    "type": "PDS",
+    "title": "Sika Primer-209 D Product Data Sheet (Sika NZ, v02.01, 10-2026) - newest English PDS",
+    "url": "https://nzl.sika.com/dam/dms/nz01/s/sika_primer-209_d.pdf",
+    "language": "en",
+    "exact_or_equivalent": "exact",
+    "verified": true,
+    "note": "evidence: PDF 2 pp (created 2026-10-23); 'PRODUCT DATA SHEET Sika® Primer-209 D Pigmented, solvent based primer for paints and plastics'; 'Version 02.01 (10 - 2026), en_NZ'. Newer than UK v01.03 (03-2026) already in catalog; listed on the industry.sika.com global product page document list."
+   },
+   {
+    "type": "brochure",
+    "title": "Sika Automotive - Assembly Line Adhesives brochure (direct glazing systems, pre-treatments; (c) 2025 Sika Corporation, 12.2025)",
+    "url": "https://automotive.sika.com/dam/dms/global-industry/t/assemby-line-adhesives.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: pre-treatment overview table lists 'Sika® Primer-209 D - Solvent based Primer - Plastics - Short flash-off time' among Sika's assembly-line (OEM) pre-treatments (PDF p.15). Multi-product brochure, hence 'equivalent'."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Graco",
+    "model": "Stainless Steel 2-Gallon Pressure Tanks (low-pressure 15 psi / high-pressure 100 psi regulated)",
+    "type": "manual",
+    "title": "308370W Stainless Steel 2-Gallon Pressure Tanks, Instructions-Parts List (EN)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/308/308370/308370EN-W.pdf",
+    "verified": true,
+    "note": "evidence: PDF 24 pp, Title '308370W, Manual, Stainless Steel 2-Gallon Pressure Tanks, Instructions-Parts List, English' (mod. 2021-03); text 'Industrial grade pressure tanks used to supply, agitate, and pressurize finishing liquids'. Official replacement for the third-party spraydirect catalogue."
+   },
+   {
+    "vendor": "Graco",
+    "model": "Heavy-Duty Stainless Steel Agitators (pneumatic, for pressure tanks)",
+    "type": "manual",
+    "title": "308371U Heavy-Duty Stainless Steel Agitators, Instructions-Parts (EN)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/308/308371/308371EN-U.pdf",
+    "verified": true,
+    "note": "evidence: PDF 20 pp, Title '308371EN-U, Manual, Heavy-Duty Stainless Steel Agitators, Instructions-Parts, English' (2024-06); text 'Pneumatic agitator for mixing and maintaining suspension of industrial coatings... tanks with fluid viscosities above 800 cP'. Note: rated for >800 cP; low-viscosity primers may need Graco's standard agitator option instead - check with Graco."
+   },
+   {
+    "vendor": "Nordson EFD",
+    "model": "752V Series diaphragm valve (752V-UHSS / 752V-SS / 752V-UH)",
+    "type": "datasheet",
+    "title": "EFD 752V Series compact diaphragm valve for fine flow control - data sheet (EFD Inc., a Nordson company; 2004 edition)",
+    "url": "https://www.galindberg.se/storage/7DFAE9621A7372809525A9B64B9B3EC1D5596CD1A2E0C078AD62F124A30CE9C1/3bec3a6e30f94665927b2d34c4611d3d/pdf/media/d72074132acc4591b55217818455f41f/EFD-752.pdf",
+    "verified": true,
+    "note": "evidence: PDF 2 pp, Author 'EFD, Inc.', created 2004-02-09; text 'The 752V Series dispense valve systems accurately control the application of most low to medium viscosity fluids... Model 752V-UHSS with UHMW polymer wetted parts is used for dispensing solvents...'; lists activators/solvents among fluids. Old (2004) edition hosted by distributor G.A. Lindberg (SE); replaces the dead flumasys.com copies. Current Nordson-hosted PDFs could not be fetched (nordson.com behind Cloudflare 403)."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://gbr.sika.com/dms/getdocument.get/fc7c9a30-2929-424b-9f85-2cb6042f8040/Sika%C2%AE%20Primer-209%20D%20SDS.pdf",
+    "reason": "HTTP 404 (re-tested round 4); replaced by gb01/t/sds-sika-primer-209d.pdf (v10.1, 2026)."
+   },
+   {
+    "url": "https://flumasys.com/userfiles/product_files/nordson_efd_752v_datasheet.pdf",
+    "reason": "HTTP 404 (re-tested round 4); replaced by the EFD 752V datasheet copy on galindberg.se."
+   },
+   {
+    "url": "https://flumasys.com/userfiles/product_files/nordson_efd_752v_maintenance_guide.pdf",
+    "reason": "HTTP 404 (re-tested round 4)."
+   },
+   {
+    "url": "https://flumasys.com/userfiles/product_files/nordson_efd_750_valve_installation_guide.pdf",
+    "reason": "HTTP 404 (re-tested round 4)."
+   }
+  ],
+  "notes": "Sika lists Primer-209 D as an OEM assembly-line pre-treatment (Sika Automotive brochure 12.2025). Latest English versions: PDS NZ v02.01 (10-2026), UK v01.03 (03-2026, in catalog); SDS UK v10.1 (13.02.2026)."
+ },
+ {
+  "id": 39,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "PDS",
+    "title": "Sika Primer-206 G+P Product Data Sheet (Sika Limited UK, v03.02, 07-2023)",
+    "url": "https://gbr.sika.com/dam/dms/gb01/s/sika-primer-206-g-plus-p.pdf",
+    "language": "en",
+    "exact_or_equivalent": "exact",
+    "verified": true,
+    "note": "evidence: PDF 2 pp (created 2023-07-28); 'PRODUCT DATA SHEET Sika® Primer-206 G+P Pigmented, solvent based primer for various substrates'; 'Version 03.02 (07 - 2023), en_GB'. Newer than the US v03.01 (03-2023) in catalog."
+   },
+   {
+    "type": "SDS",
+    "title": "Sika Primer-206 G+P Safety Data Sheet (Sika Limited UK, UK REACH, v17.1, rev. 01.09.2026)",
+    "url": "https://gbr.sika.com/dam/dms/gb01/6/sds-sika-primer-206g-plus-p.pdf",
+    "language": "en",
+    "exact_or_equivalent": "exact",
+    "verified": true,
+    "note": "evidence: PDF 22 pp (created 2026-09-01); 'SAFETY DATA SHEET According to REACH Regulation (EC) No 1907/2006, as amended by UK REACH ... Sika® Primer-206 G+P ... Version 17.1 ... Revision Date: 01.09.2026'; 'Product use: Pretreatment agent'. Latest English SDS found."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Graco",
+    "model": "Stainless Steel 2-Gallon Pressure Tanks (low-pressure 15 psi / high-pressure 100 psi regulated)",
+    "type": "manual",
+    "title": "308370W Stainless Steel 2-Gallon Pressure Tanks, Instructions-Parts List (EN)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/308/308370/308370EN-W.pdf",
+    "verified": true,
+    "note": "evidence: PDF 24 pp, Title '308370W, Manual, Stainless Steel 2-Gallon Pressure Tanks, Instructions-Parts List, English' (mod. 2021-03); text 'Industrial grade pressure tanks used to supply, agitate, and pressurize finishing liquids'. Official replacement for the third-party spraydirect catalogue."
+   },
+   {
+    "vendor": "Graco",
+    "model": "Heavy-Duty Stainless Steel Agitators (pneumatic, for pressure tanks)",
+    "type": "manual",
+    "title": "308371U Heavy-Duty Stainless Steel Agitators, Instructions-Parts (EN)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/308/308371/308371EN-U.pdf",
+    "verified": true,
+    "note": "evidence: PDF 20 pp, Title '308371EN-U, Manual, Heavy-Duty Stainless Steel Agitators, Instructions-Parts, English' (2024-06); text 'Pneumatic agitator for mixing and maintaining suspension of industrial coatings... tanks with fluid viscosities above 800 cP'. Note: rated for >800 cP; low-viscosity primers may need Graco's standard agitator option instead - check with Graco."
+   },
+   {
+    "vendor": "Nordson EFD",
+    "model": "752V Series diaphragm valve (752V-UHSS / 752V-SS / 752V-UH)",
+    "type": "datasheet",
+    "title": "EFD 752V Series compact diaphragm valve for fine flow control - data sheet (EFD Inc., a Nordson company; 2004 edition)",
+    "url": "https://www.galindberg.se/storage/7DFAE9621A7372809525A9B64B9B3EC1D5596CD1A2E0C078AD62F124A30CE9C1/3bec3a6e30f94665927b2d34c4611d3d/pdf/media/d72074132acc4591b55217818455f41f/EFD-752.pdf",
+    "verified": true,
+    "note": "evidence: PDF 2 pp, Author 'EFD, Inc.', created 2004-02-09; text 'The 752V Series dispense valve systems accurately control the application of most low to medium viscosity fluids... Model 752V-UHSS with UHMW polymer wetted parts is used for dispensing solvents...'; lists activators/solvents among fluids. Old (2004) edition hosted by distributor G.A. Lindberg (SE); replaces the dead flumasys.com copies. Current Nordson-hosted PDFs could not be fetched (nordson.com behind Cloudflare 403)."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://flumasys.com/userfiles/product_files/nordson_efd_752v_datasheet.pdf",
+    "reason": "HTTP 404 (re-tested round 4); replaced by the EFD 752V datasheet copy on galindberg.se."
+   }
+  ],
+  "notes": "Primer-206 G+P is an aftermarket/AGR primer in Sika's line-up; it is not in the Sika Automotive OEM pre-treatment table (12.2025), which lists Primer-207/217 LUM/506/507 for glass. Identity from the spec column stays high."
+ },
+ {
+  "id": 40,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "brochure",
+    "title": "Sika Automotive - Assembly Line Adhesives brochure (direct glazing systems, pre-treatments; (c) 2025 Sika Corporation, 12.2025)",
+    "url": "https://automotive.sika.com/dam/dms/global-industry/t/assemby-line-adhesives.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: pre-treatment overview table lists 'Sika® Aktivator-100 - Glass, ceramic, plastic - Short flash-off time' first among Sika's solvent-based activators for OEM assembly lines (PDF p.15). Multi-product brochure, hence 'equivalent'."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Nordson EFD",
+    "model": "752V Series diaphragm valve (752V-UHSS / 752V-SS / 752V-UH)",
+    "type": "datasheet",
+    "title": "EFD 752V Series compact diaphragm valve for fine flow control - data sheet (EFD Inc., a Nordson company; 2004 edition)",
+    "url": "https://www.galindberg.se/storage/7DFAE9621A7372809525A9B64B9B3EC1D5596CD1A2E0C078AD62F124A30CE9C1/3bec3a6e30f94665927b2d34c4611d3d/pdf/media/d72074132acc4591b55217818455f41f/EFD-752.pdf",
+    "verified": true,
+    "note": "evidence: PDF 2 pp, Author 'EFD, Inc.', created 2004-02-09; text 'The 752V Series dispense valve systems accurately control the application of most low to medium viscosity fluids... Model 752V-UHSS with UHMW polymer wetted parts is used for dispensing solvents...'; lists activators/solvents among fluids. Old (2004) edition hosted by distributor G.A. Lindberg (SE); replaces the dead flumasys.com copies. Current Nordson-hosted PDFs could not be fetched (nordson.com behind Cloudflare 403)."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://flumasys.com/userfiles/product_files/nordson_efd_752v_datasheet.pdf",
+    "reason": "HTTP 404 (re-tested round 4); replaced by the EFD 752V datasheet copy on galindberg.se."
+   }
+  ],
+  "notes": "Latest English Aktivator-100 PDS content version is v05.01 (10-2023) (US and UK copies identical in version; US already in catalog; UK gb01/y verified); SDS UK v17.0 (2026-02) already in catalog. A Sika Korea English PDS exists (kor.sika.com/dam/dms/kr01/v/pds-sika-aktivator-100.pdf, v01.01 02-2019, en_KR) - older, not added. 'BETAPRIME' naming not matched to any DuPont product called '100'."
+ },
+ {
+  "id": 41,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Graco",
+    "model": "Stainless Steel 5-, 10- and 15-Gallon Pressure Tanks",
+    "type": "manual",
+    "title": "308369Z Stainless Steel 5-, 10-, 15-Gallon Pressure Tanks, Instructions-Parts List (EN)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/308/308369/308369EN.pdf",
+    "verified": true,
+    "note": "evidence: PDF 22 pp, Title '308369EN-Z, Manual, Stainless Steel 5, 10, 15-Gallon Pressure Tanks, Instructions, English' (mod. 2025-03); text 'Industrial grade pressure tanks used to supply, agitate, and pressurize finishing liquids'. 5-gal (19 L) size matches an 18 L can."
+   },
+   {
+    "vendor": "Graco",
+    "model": "Heavy-Duty Stainless Steel Agitators (pneumatic, for pressure tanks)",
+    "type": "manual",
+    "title": "308371U Heavy-Duty Stainless Steel Agitators, Instructions-Parts (EN)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/308/308371/308371EN-U.pdf",
+    "verified": true,
+    "note": "evidence: PDF 20 pp, Title '308371EN-U, Manual, Heavy-Duty Stainless Steel Agitators, Instructions-Parts, English' (2024-06); text 'Pneumatic agitator for mixing and maintaining suspension of industrial coatings... tanks with fluid viscosities above 800 cP'. Note: rated for >800 cP; low-viscosity primers may need Graco's standard agitator option instead - check with Graco."
+   },
+   {
+    "vendor": "Nordson EFD",
+    "model": "752V Series diaphragm valve (752V-UHSS / 752V-SS / 752V-UH)",
+    "type": "datasheet",
+    "title": "EFD 752V Series compact diaphragm valve for fine flow control - data sheet (EFD Inc., a Nordson company; 2004 edition)",
+    "url": "https://www.galindberg.se/storage/7DFAE9621A7372809525A9B64B9B3EC1D5596CD1A2E0C078AD62F124A30CE9C1/3bec3a6e30f94665927b2d34c4611d3d/pdf/media/d72074132acc4591b55217818455f41f/EFD-752.pdf",
+    "verified": true,
+    "note": "evidence: PDF 2 pp, Author 'EFD, Inc.', created 2004-02-09; text 'The 752V Series dispense valve systems accurately control the application of most low to medium viscosity fluids... Model 752V-UHSS with UHMW polymer wetted parts is used for dispensing solvents...'; lists activators/solvents among fluids. Old (2004) edition hosted by distributor G.A. Lindberg (SE); replaces the dead flumasys.com copies. Current Nordson-hosted PDFs could not be fetched (nordson.com behind Cloudflare 403)."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://flumasys.com/userfiles/product_files/nordson_efd_752v_datasheet.pdf",
+    "reason": "HTTP 404 (re-tested round 4); replaced by the EFD 752V datasheet copy on galindberg.se."
+   }
+  ],
+  "notes": "'RAD 11724' returns no web hits (incl. RAD-11724 / RAD11724 + Sika/paint/primer). Sika's OEM pre-treatment range (Sika Automotive brochure 12.2025: Aktivator-100/-110 LUM/-306 LUM/-120 Hydro CF; Primer-209 D/-217 LUM/-219/-506/-507/-220 Hydro) contains no paint; '100' in 'SIKA-100-UZ' fits Aktivator-100 but the 'Bo'yoq' (paint) label and 18 L can stay unexplained. Identity remains unresolved (low)."
+ },
+ {
+  "id": 42,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [
+   {
+    "vendor": "Graco",
+    "model": "50:1 Fire-Ball 300 grease pump, pail-length Model 239877 (Series E)",
+    "role": "Pump grease from the 15 kg pail to a dauber/brush or meter at the wheel-mount station",
+    "rationale": "Graco 308883Y lists a pail-length grease model; the catalog's 309868 manuals cover Fire-Ball OIL pumps.",
+    "confidence": "low"
+   },
+   {
+    "vendor": "Lincoln (SKF)",
+    "model": "9989 50:1 portable grease pump package for 25/50-lb pails (bare pump 85791)",
+    "role": "Alternative pail grease pump for the 15 kg pail",
+    "rationale": "Lincoln catalogue (PDF p.21) lists 9989 for 25-50 lb pails; 'PowerMaster II/III' are drum-pump series (16/55-gal covers) and do not fit a 15 kg pail.",
+    "confidence": "low"
+   }
+  ],
+  "add_equipment_docs": [
+   {
+    "vendor": "Graco",
+    "model": "50:1 Fire-Ball 300 grease pump (Model 239877 pail length; 239887 120-lb drum; 239888 400-lb drum)",
+    "type": "manual",
+    "title": "308883Y 50:1 Fire-Ball 300 Pump, Instructions (EN)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/308/308883/308883EN-Y.pdf",
+    "verified": true,
+    "note": "evidence: PDF 16 pp, Title '308883Y, 50:1 Fire-Ball 300 Pump, Manual, English' (mod. 2022-04); text 'For pumping non-corrosive and non-abrasive greases and lubricants only... Model No. 239877, Series E pail length... 8400 psi Maximum Working Pressure'. This is the GREASE version; the catalog's 309868 manuals are for Fire-Ball OIL pumps."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://graco.com/content/dam/graco/tech_documents/manuals/309/309868/historic/309868EN-B.pdf",
+    "reason": "309868 covers Fire-Ball 225/300/425 OIL pumps - wrong pump type for grease; replaced by 308883Y (50:1 Fire-Ball 300 grease pump)."
+   },
+   {
+    "url": "https://gww.graco.com/content/dam/graco/tech_documents/manuals/308/308883/308883FR-G.pdf",
+    "reason": "Host gww.graco.com unreachable; superseded by the English 308883EN-Y on www.graco.com."
+   },
+   {
+    "url": "https://gww.graco.com/content/dam/graco/tech_documents/manuals/309/309868/309868DE-A.pdf",
+    "reason": "Fire-Ball OIL pump manual (German), host unreachable - wrong pump type for grease."
+   }
+  ],
+  "notes": "Lubricant identity still unknown; no GM/Chevrolet document tying a specific grease to the wheel pilot hole was found (GM wheel-bearing grease P/N 1051344 appears in GM workshop snippets but not for the pilot bore - unconfirmed). MOLYKOTE M-77 stays a weak equivalent."
+ },
+ {
+  "id": 43,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Graco",
+    "model": "50:1 Fire-Ball 300 grease pump (Model 239877 pail length; 239887 120-lb drum; 239888 400-lb drum)",
+    "type": "manual",
+    "title": "308883Y 50:1 Fire-Ball 300 Pump, Instructions (EN)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/308/308883/308883EN-Y.pdf",
+    "verified": true,
+    "note": "evidence: PDF 16 pp, Title '308883Y, 50:1 Fire-Ball 300 Pump, Manual, English' (mod. 2022-04); text 'For pumping non-corrosive and non-abrasive greases and lubricants only... Model No. 239877, Series E pail length... 8400 psi Maximum Working Pressure'. This is the GREASE version; the catalog's 309868 manuals are for Fire-Ball OIL pumps."
+   },
+   {
+    "vendor": "Lincoln (SKF)",
+    "model": "PowerMaster II/III drum pumps; 9989 50:1 portable pail grease pump package",
+    "type": "brochure",
+    "title": "Lincoln 'Lubrication tools and equipment' catalogue (2019 print, distributor-hosted)",
+    "url": "https://petroleumservicecompany.com/content/pdfs/Lincoln_Equipment_Brochure.pdf",
+    "verified": true,
+    "note": "evidence: PDF 92 pp (created 2019-01-21); PDF p.21 '9989 50:1 - 25-, 50-lb. Portable with Pail Cover ... Bare Pump Model No. 85791'; PDF p.28 'PowerMaster Pump Features... drum cover for mounting PowerMaster II and III drum pumps... For use with all PowerMaster II Series 1900 pumps'. Evidence for the catalog's Lincoln PowerMaster II entry (a drum-pump series)."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://www.klueber.com/us/en/products-service/products/microlube-gny-202/9866/",
+    "reason": "Now redirects to the generic 'products-and-service' overview (MICROLUBE GNY 202 no longer listed on klueber.com)."
+   },
+   {
+    "url": "https://klueber.com/uk/en/products-service/products/microlube-gny-202/9866",
+    "reason": "Now redirects to the generic 'products-and-service' overview (product delisted)."
+   },
+   {
+    "url": "https://graco.com/content/dam/graco/tech_documents/manuals/309/309868/historic/309868EN-B.pdf",
+    "reason": "Fire-Ball OIL pump manual - wrong pump type for grease; replaced by 308883Y."
+   },
+   {
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/309/309868/309868ES-A.pdf",
+    "reason": "Fire-Ball OIL pump manual (Spanish) - wrong pump type for grease."
+   }
+  ],
+  "notes": "Klüber brochure B082003002 (all three klueber.com copies verified live) explicitly lists 'MICROLUBE GNY 202 - special grease for boundary friction conditions and tribo-corrosion', 'Spline shafts / MICROLUBE GNY 202 / Minimises tribocorrosion' (PDF p.10 of the 05.16 edition), application table 'Transmission & Clutch - Spline Shaft: MICROLUBE GL 261, MICROLUBE GNY 202' (PDF p.11) and product list (PDF p.13) - resolves the round-3 doubt; these brochures can be relabelled as naming the exact product (still multi-product). MICROLUBE GNY 202 is absent from the current klueber.com A-Z lists (UK/DE/US/IN show only MICROLUBE GB 0, GB 00, GBU-Y 131, GL 261, GL 261 Spray, GL 262, GLY 92) - likely discontinued or not publicly listed; no public PI/SDS PDF found (Klüber downloads require login)."
+ }
+]

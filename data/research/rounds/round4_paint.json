@@ -1,0 +1,937 @@
+[
+ {
+  "id": 1,
+  "manufacturer_update": {
+   "manufacturer": "PPG Industries (CHEMFOS pretreatment); Korean source PPG Industries (Korea) Ltd., Busan (ex-DongJu Industrial), supplied to UzAuto directly or via Uz-DongJu Paint",
+   "product_identified": "CHEMFOS 740R L CLEAR - PPG zinc-phosphate replenisher (Zn/Ni, fluoride-modified); PPG product code 66830000336; plant code KR-JFR-740 follows PPG Korea 'KR-J..' pretreatment coding",
+   "manufacturer_confidence": "high",
+   "evidence": "Exact product found in PPG public SDS portal: 'CHEMFOS 740R L CLEAR' (66830000336), SDS India v2.03 25-Aug-2025 and France v2.01 01-Nov-2022 (pretreatment mixture: phosphoric acid 20-<25%, ZnO 5-<10%, Ni nitrate 3-<5%, HNO3, KF, H2SO4); companion make-up 'CHEMFOS 740M L CLEAR' (66820000336) also listed. PPG Korea pretreatment SDS use 'KR-J' codes (CHEMFOS N = KR-JNN-00, https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=6a52034f767c10180000&id=6a52034f7682117f0001; CHEMFIL BUFFER = KR-JBF-00), matching KR-JFR-740. uzdongju.uz/en/pages/about-us.html (fetched 2026-10-29): JV founded 1995 by DongJu Industrial Co. (KR) and UzAvtoSanoat, opened 1999; capacity 3,750 t/yr metal pretreatment products, 1,250 t/yr sealant, 2,500 t/yr automotive paints; 'main suppliers are NOROO Paint & Coatings Co., Ltd. and PPG Industries Korea Inc.'; customers include JSC UzAuto Motors. SEC EX-99.1 (PPG press release 2006-06-29): PPG owned 50% of Dongju Industrial since 1985 and bought the remaining 50% in 2006 (Dongju = Korean automotive OEM/refinish/industrial coatings maker, plants Chon Ahn and Busan; https://www.sec.gov/Archives/edgar/data/79879/000119312506138741/dex991.htm) - i.e. today's PPG Industries (Korea) Ltd., Busan."
+  },
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "PPG CHEMFOS 740R L CLEAR - Safety Data Sheet (GHS, India), product code 66830000336, v2.03, 25 Aug 2025",
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=68acd046018f6b500000&id=68acd0510244956d0001",
+    "language": "en",
+    "exact_or_equivalent": "exact",
+    "verified": true,
+    "note": "evidence: PDF 13 p.; 'Product code: 66830000336 / Product name: CHEMFOS 740R L CLEAR / Product use: Pretreatment mixture'; Date of issue 25 August 2025, Version 2.03; supplier PPG Asian Paints Pvt Ltd (Mumbai). Same PPG product name as the plant item; regional (India) edition - the PPG Korea edition under KR-JFR-740 is not in PPG's public portal. Section 3: phosphoric acid 20-<25%, zinc oxide 5-<10%, nickel nitrate 3-<5%, nitric acid 1-<3%, KF 1-<3%, H2SO4 1-<3%."
+   },
+   {
+    "type": "SDS",
+    "title": "PPG CHEMFOS 740R L CLEAR - Fiche de donnees de securite (REACH, France), 66830000336, v2.01, 1 Nov 2022",
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=6360d6a34688a1460000&id=6360d6a646b8afec0001",
+    "language": "fr",
+    "exact_or_equivalent": "exact",
+    "verified": true,
+    "note": "evidence: PDF 19 p.; 'Nom du produit: CHEMFOS 740R L CLEAR; Code du produit: 66830000336; Solution de pretraitement'; v2.01 of 1 November 2022; PPG France Business Support SAS. Same product, EU edition."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://www.charlottepipe.com/Documents/SDS/SDS_ECOAT_PRE.pdf",
+    "reason": "HTTP 404 (re-checked 2026-10-29); superseded by the exact PPG CHEMFOS 740R SDS added in this round"
+   }
+  ],
+  "notes": "Round4 (network open): EXACT product found - PPG 'CHEMFOS 740R L CLEAR' SDS in two regional editions via PPG public Document Manager (search 'CHEMFOS 740'). No public TDS. Spec KR-JFR-740 is consistent with a PPG Korea product code (KR-J.. family) rather than a GM spec. Charlotte Pipe CHEMFOS 700HNR SDS URL is now 404."
+ },
+ {
+  "id": 2,
+  "manufacturer_update": {
+   "manufacturer": "PPG Industries (Korea) Ltd., Busan (ex-DongJu Industrial; PPG POWERCRON e-coat) - probable; delivered to UzAuto directly or via Uz-DongJu Paint",
+   "product_identified": "ED7010 Binder Gray (KR-E6461) - two-component cathodic epoxy electrocoat binder; 'KR-E6461' fits PPG/PPG Korea formula numbering 'KR-E####' (e.g. POWERCRON 6000CX BINDER = KR-E6270S); the ED7010 grade itself is not in PPG's public SDS portal",
+   "manufacturer_confidence": "medium",
+   "evidence": "PPG public SDS portal (searched names ED7010/ED 7010/ED-7010 and codes E6461/E6462: no hit) lists PPG Korea ED products for Uzbekistan: 'ED BINDER BLACK' KR-E6270S/UZ/210K and /UZ/15K, 'POWERCRON BLACK PASTE CP524' KR-CP524/UZ/250K (250 kg drum = plant paste package) and 'NEW ED T/UP LIGHT GRAY' KR-MFT-702/UZ/4K (https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=6ad308732c00e41c0000&id=6ad308742c01e44b0001). Caveat: current PPG Korea pastes are coded KR-CP###, so KR-E6462 for a paste is an older/different coding. uzdongju.uz/en/pages/about-us.html (fetched 2026-10-29): JV founded 1995 by DongJu Industrial Co. (KR) and UzAvtoSanoat, opened 1999; capacity 3,750 t/yr metal pretreatment products, 1,250 t/yr sealant, 2,500 t/yr automotive paints; 'main suppliers are NOROO Paint & Coatings Co., Ltd. and PPG Industries Korea Inc.'; customers include JSC UzAuto Motors. SEC EX-99.1 (PPG press release 2006-06-29): PPG owned 50% of Dongju Industrial since 1985 and bought the remaining 50% in 2006 (Dongju = Korean automotive OEM/refinish/industrial coatings maker, plants Chon Ahn and Busan; https://www.sec.gov/Archives/edgar/data/79879/000119312506138741/dex991.htm) - i.e. today's PPG Industries (Korea) Ltd., Busan."
+  },
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "PPG Industries (Korea) 'ED BINDER BLACK' KR-E6270S/UZ/210K - SDS (Korea GHS, English), v3.05, 11 Jul 2026",
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=6a51fd9afe3ac5510000&id=6a51fd9afe51c6b80001",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 11 p.; 'A. Product name: ED BINDER BLACK / Product code: KR-E6270S/UZ/210K / Use: Resins'; supplier PPG Industries (Korea) Ltd., Busan; contains formaldehyde-emitting crosslinker note. Same supplier and same cationic ED binder class, code suffix /UZ/ = Uzbekistan supply, but BLACK grade (plant: ED7010 Gray, KR-E6461) - equivalent, not exact."
+   },
+   {
+    "type": "SDS",
+    "title": "PPG 'ED BINDER BLACK' KR-E6270S/UZ/210K - Паспорт безопасности (Russian), v3.02, 14 Jan 2026",
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=696746e9f6beeecc0000&id=696746e9f6bfef1a0001",
+    "language": "ru",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 15 p.; 'ПАСПОРТ БЕЗОПАСНОСТИ ... Наименование продукта: ED BINDER BLACK; Код продукта: KR-E6270S/UZ/210K; Использование: Смолы'; PPG EMEA-format Russian SDS (supplier block shows F.H. Barwa, Kielce PL / Product Stewardship EMEA). Russian edition of the same UZ-coded product."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Kovalus Separation Solutions (formerly Koch Membrane Systems / Koch Separation Solutions)",
+    "model": "KPAK PLUS 8-inch potted spiral UF module (8638-M183-LPP / -VPP)",
+    "type": "datasheet",
+    "title": "DATASHEET 8\" KPAK Plus Modules - High Productivity Zero Bypass Ultrafiltration Modules for Electrocoat Paint",
+    "url": "https://www.kovalus.com/wp-content/uploads/2020/10/KPAK-plus-8-inch-modules-for-e-coat-paint.pdf",
+    "verified": true,
+    "note": "evidence: PDF 2 p. (2023); PVDF HFM-183 positively charged membrane, spiral element with integrated PVC housing; models KPAK PLUS 8638-M183-LPP (30.6 m2) / -VPP (23.7 m2). Representative UF for the ED bath; plant's UF vendor not confirmed."
+   },
+   {
+    "vendor": "Kovalus Separation Solutions (formerly Koch Membrane Systems)",
+    "model": "KPAK PLUS 10-inch UF spiral module",
+    "type": "datasheet",
+    "title": "DATASHEET 10\" KPAK PLUS Module - High Productivity Zero Bypass Ultrafiltration Spiral Module for Electrocoat Paint",
+    "url": "https://www.kovalus.com/wp-content/uploads/2020/10/KPAK-plus-10-inch-modules-for-e-coat-paint.pdf",
+    "verified": true,
+    "note": "evidence: PDF 2 p.; title as given; e-coat UF."
+   },
+   {
+    "vendor": "Trystar (formerly Controlled Power Company)",
+    "model": "Series 50 Rectifier, Models 506 / 5012",
+    "type": "brochure",
+    "title": "Series 50 Models 506 & 5012 - 6 Pulse and 12 Pulse DC Power Supplies for Electrocoating",
+    "url": "https://www.trystar.com/wp-content/uploads/document-library/Series_50_Brochure-0001BR1125-R0726.pdf",
+    "verified": true,
+    "note": "evidence: PDF 9 p.; '100V to 1000V DC 100A to 5000A DC - SERIES 50 MODELS 506 & 5012 ... Applications: Electrocoating ...', Trystar, Faribault MN. Replaces dead document-library/Series_50_Brochure.pdf."
+   },
+   {
+    "vendor": "Trystar (formerly Controlled Power Company)",
+    "model": "AACD (Automatic Average Current Density) controller",
+    "type": "brochure",
+    "title": "AACD Automatic Average Current Density - automatic rectifier voltage controller for e-coat systems",
+    "url": "https://www.trystar.com/wp-content/uploads/document-library/AACD-Automatic-Average-Current-Density-Brochure.pdf",
+    "verified": true,
+    "note": "evidence: PDF 11 p.; 'AACD Automatic Average Current Density - Automatic rectifier voltage controller and paint usage optimization device for e-coat systems'. AACD is an add-on controller, not a rectifier series. Replaces dead /wp-content/uploads/AACD_Brochure.pdf."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://www.charlottepipe.com/Documents/SDS/SDS_CR686A.pdf",
+    "reason": "HTTP 404 (re-checked with curl 2026-10-29)"
+   },
+   {
+    "url": "https://basf-coatings.com/dam/jcr:1a65cb55-cef8-48fc-b779-e0ec5d09735a/basf/coatings/global/automotive-oem-coatings/e-coat/BASF-eCoat-eLeaflet_final-20240805-EN.pdf",
+    "reason": "HTTP 404 (re-checked with curl 2026-10-29)"
+   },
+   {
+    "url": "https://www.trystar.com/wp-content/uploads/AACD_Brochure.pdf",
+    "reason": "HTTP 404 (re-checked 2026-10-29); current verified AACD brochure added instead: https://www.trystar.com/wp-content/uploads/document-library/AACD-Automatic-Average-Current-Density-Brochure.pdf"
+   },
+   {
+    "url": "https://www.trystar.com/wp-content/uploads/document-library/Series_50_Brochure.pdf",
+    "reason": "HTTP 404 (re-checked 2026-10-29); current verified Series 50 brochure added: https://www.trystar.com/wp-content/uploads/document-library/Series_50_Brochure-0001BR1125-R0726.pdf (older copy at /wp-content/uploads/Series_50_Brochure.pdf still returns 200)"
+   }
+  ],
+  "notes": "Round4: no exact ED7010 binder document is public (PPG portal searched by name and code; KCC/Noroo not named by Uz-DongJu for ED; Noroo hosts unreachable from this session). Best available: PPG Korea SDS for the UZ-coded ED binder (black) in EN and RU - same supplier/system class. Spec KR-E6461 looks like a PPG Korea code, not a GM spec. PPG also sells 'P10X CR-100 CED EMULSION' (India) - unrelated to the plant's CR-100 primer surfacer."
+ },
+ {
+  "id": 3,
+  "manufacturer_update": {
+   "manufacturer": "PPG Industries (Korea) Ltd., Busan (ex-DongJu Industrial; PPG POWERCRON e-coat) - probable; delivered to UzAuto directly or via Uz-DongJu Paint",
+   "product_identified": "ED7010 Paste Gray (KR-E6462) - two-component cathodic epoxy electrocoat paste; 'KR-E6462' fits PPG/PPG Korea formula numbering 'KR-E####' (e.g. POWERCRON 6000CX BINDER = KR-E6270S); the ED7010 grade itself is not in PPG's public SDS portal",
+   "manufacturer_confidence": "medium",
+   "evidence": "PPG public SDS portal (searched names ED7010/ED 7010/ED-7010 and codes E6461/E6462: no hit) lists PPG Korea ED products for Uzbekistan: 'ED BINDER BLACK' KR-E6270S/UZ/210K and /UZ/15K, 'POWERCRON BLACK PASTE CP524' KR-CP524/UZ/250K (250 kg drum = plant paste package) and 'NEW ED T/UP LIGHT GRAY' KR-MFT-702/UZ/4K (https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=6ad308732c00e41c0000&id=6ad308742c01e44b0001). Caveat: current PPG Korea pastes are coded KR-CP###, so KR-E6462 for a paste is an older/different coding. uzdongju.uz/en/pages/about-us.html (fetched 2026-10-29): JV founded 1995 by DongJu Industrial Co. (KR) and UzAvtoSanoat, opened 1999; capacity 3,750 t/yr metal pretreatment products, 1,250 t/yr sealant, 2,500 t/yr automotive paints; 'main suppliers are NOROO Paint & Coatings Co., Ltd. and PPG Industries Korea Inc.'; customers include JSC UzAuto Motors. SEC EX-99.1 (PPG press release 2006-06-29): PPG owned 50% of Dongju Industrial since 1985 and bought the remaining 50% in 2006 (Dongju = Korean automotive OEM/refinish/industrial coatings maker, plants Chon Ahn and Busan; https://www.sec.gov/Archives/edgar/data/79879/000119312506138741/dex991.htm) - i.e. today's PPG Industries (Korea) Ltd., Busan."
+  },
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "PPG Industries (Korea) 'POWERCRON BLACK PASTE CP524' KR-CP524/UZ/250K - SDS (Korea GHS, English), v5.02, 10 Jul 2026",
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=6a51860af218ac220000&id=6a51860bf255b23d0001",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 12 p.; 'A. Product name: POWERCRON BLACK PASTE CP524 / Product code: KR-CP524/UZ/250K / Use: Pigment paste'; supplier PPG Industries (Korea) Ltd., Busan. Same supplier, cationic ED pigment paste, 250 kg drum for Uzbekistan, but BLACK (plant: ED7010 Paste Gray, KR-E6462) - equivalent."
+   },
+   {
+    "type": "SDS",
+    "title": "PPG 'POWERCRON BLACK PASTE CP524' KR-CP524/UZ/250K - Паспорт безопасности (Russian), v5.03, 10 Mar 2026",
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=69aff400b5c7ea650000&id=69aff400b5c9ebdc0001",
+    "language": "ru",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 18 p.; 'Наименование продукта: POWERCRON BLACK PASTE CP524; Код продукта: KR-CP524/UZ/250K; Использование: Пигментная паста'. Russian edition of the same UZ-coded paste."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Kovalus Separation Solutions (formerly Koch Membrane Systems / Koch Separation Solutions)",
+    "model": "KPAK PLUS 8-inch potted spiral UF module (8638-M183-LPP / -VPP)",
+    "type": "datasheet",
+    "title": "DATASHEET 8\" KPAK Plus Modules - High Productivity Zero Bypass Ultrafiltration Modules for Electrocoat Paint",
+    "url": "https://www.kovalus.com/wp-content/uploads/2020/10/KPAK-plus-8-inch-modules-for-e-coat-paint.pdf",
+    "verified": true,
+    "note": "evidence: PDF 2 p. (2023); PVDF HFM-183 positively charged membrane, spiral element with integrated PVC housing; models KPAK PLUS 8638-M183-LPP (30.6 m2) / -VPP (23.7 m2). Representative UF for the ED bath; plant's UF vendor not confirmed."
+   },
+   {
+    "vendor": "Trystar (formerly Controlled Power Company)",
+    "model": "Series 50 Rectifier, Models 506 / 5012",
+    "type": "brochure",
+    "title": "Series 50 Models 506 & 5012 - 6 Pulse and 12 Pulse DC Power Supplies for Electrocoating",
+    "url": "https://www.trystar.com/wp-content/uploads/document-library/Series_50_Brochure-0001BR1125-R0726.pdf",
+    "verified": true,
+    "note": "evidence: PDF 9 p.; '100V to 1000V DC 100A to 5000A DC - SERIES 50 MODELS 506 & 5012 ... Applications: Electrocoating ...', Trystar, Faribault MN. Replaces dead document-library/Series_50_Brochure.pdf."
+   },
+   {
+    "vendor": "Trystar (formerly Controlled Power Company)",
+    "model": "AACD (Automatic Average Current Density) controller",
+    "type": "brochure",
+    "title": "AACD Automatic Average Current Density - automatic rectifier voltage controller for e-coat systems",
+    "url": "https://www.trystar.com/wp-content/uploads/document-library/AACD-Automatic-Average-Current-Density-Brochure.pdf",
+    "verified": true,
+    "note": "evidence: PDF 11 p.; 'AACD Automatic Average Current Density - Automatic rectifier voltage controller and paint usage optimization device for e-coat systems'. AACD is an add-on controller, not a rectifier series. Replaces dead /wp-content/uploads/AACD_Brochure.pdf."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://basf-coatings.com/dam/jcr:1a65cb55-cef8-48fc-b779-e0ec5d09735a/basf/coatings/global/automotive-oem-coatings/e-coat/BASF-eCoat-eLeaflet_final-20240805-EN.pdf",
+    "reason": "HTTP 404 (re-checked with curl 2026-10-29)"
+   },
+   {
+    "url": "https://www.trystar.com/wp-content/uploads/AACD_Brochure.pdf",
+    "reason": "HTTP 404 (re-checked 2026-10-29); current verified AACD brochure added instead: https://www.trystar.com/wp-content/uploads/document-library/AACD-Automatic-Average-Current-Density-Brochure.pdf"
+   },
+   {
+    "url": "https://www.trystar.com/wp-content/uploads/document-library/Series_50_Brochure.pdf",
+    "reason": "HTTP 404 (re-checked 2026-10-29); current verified Series 50 brochure added: https://www.trystar.com/wp-content/uploads/document-library/Series_50_Brochure-0001BR1125-R0726.pdf (older copy at /wp-content/uploads/Series_50_Brochure.pdf still returns 200)"
+   }
+  ],
+  "notes": "Round4: no exact ED7010 paste document is public. Added PPG Korea SDS for 'POWERCRON BLACK PASTE CP524' KR-CP524/UZ/250K (EN + RU) as same-supplier equivalent; plant item is GRAY. A PPG Korea 'NEW ED T/UP LIGHT GRAY' (KR-MFT-702/UZ/4K) ED touch-up for Uzbekistan suggests a gray PPG ED is in use there (not proof)."
+ },
+ {
+  "id": 4,
+  "manufacturer_update": {
+   "manufacturer": "Uz-DongJu Paint Co. (ROYAL PAINT), Andijan region - probable local sealer maker for UzAuto (product-level link not documented)",
+   "product_identified": "BODY SEALER RSB-430 (spec GVH-403U) - 1K PVC plastisol body/seam sealer; supplier code not public",
+   "manufacturer_confidence": "low",
+   "evidence": "uzdongju.uz/en/pages/about-us.html (fetched 2026-10-29): JV founded 1995 by DongJu Industrial Co. (KR) and UzAvtoSanoat, opened 1999; capacity 3,750 t/yr metal pretreatment products, 1,250 t/yr sealant, 2,500 t/yr automotive paints; 'main suppliers are NOROO Paint & Coatings Co., Ltd. and PPG Industries Korea Inc.'; customers include JSC UzAuto Motors. SEC EX-99.1 (PPG press release 2006-06-29): PPG owned 50% of Dongju Industrial since 1985 and bought the remaining 50% in 2006 (Dongju = Korean automotive OEM/refinish/industrial coatings maker, plants Chon Ahn and Busan; https://www.sec.gov/Archives/edgar/data/79879/000119312506138741/dex991.htm) - i.e. today's PPG Industries (Korea) Ltd., Busan. No public record of RSB-430, RSU-230, GVH-403U, GVH-170, UBS COAT or P8201 on uzdongju.uz (sealant category empty), PPG public SDS portal (codes/names searched) or web search. The R-prefix of RSB/RSU may follow the DongJu 'Royal' coding (R?T thinners) - inference only."
+  },
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Graco",
+    "model": "E-Flo SP Electric Supply Pumps for Sealants and Adhesives",
+    "type": "manual",
+    "title": "3A6586M - E-Flo SP Electric Pump System for Sealants and Adhesives, Installation-Parts (English)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6586/3A6586EN.pdf",
+    "verified": true,
+    "note": "evidence: PDF 42 p.; PDF title '3A6586EN-M, Manual, E-Flo SP Electric Pump System for Sealants and Adhesives, Installation-Parts, English'; 'For use with single-component sealant and adhesive materials'."
+   },
+   {
+    "vendor": "Graco",
+    "model": "E-Flo SP Electric Supply Pumps for Sealants and Adhesives",
+    "type": "manual",
+    "title": "3A6867H - Система E-Flo SP с электрическим насосом для герметиков и клеев (Russian)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6586/3A6867RU-H.pdf",
+    "verified": true,
+    "note": "evidence: PDF 46 p.; PDF title '3A6867H, Руководство, Система E-Flo SP с электрическим насосом для герметиков и клеев, детали, По-русски'."
+   },
+   {
+    "vendor": "Graco",
+    "model": "XL 10000 Air Motor",
+    "type": "manual",
+    "title": "334644F - XL 10000 Air Motor, Instructions-Parts (English)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334644/334644EN.pdf",
+    "verified": true,
+    "note": "evidence: PDF 26 p.; PDF title '334644F, Manual, XL 10000 Air Motor, Instructions, Parts, English'. Current revision replacing dead 334644EN-D.pdf."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://www.huntsman.com/docs/Documents/Euretek-SelectorGuide-AdhesionPromoters.pdf",
+    "reason": "HTTP 404 (re-checked with curl 2026-10-29)"
+   },
+   {
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334644/334644EN-D.pdf",
+    "reason": "HTTP 404 (re-checked 2026-10-29); current XL 10000 Air Motor manual (334644F) is https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334644/334644EN.pdf"
+   }
+  ],
+  "notes": "Round4: no exact sealer/PVC document found. uzdongju.uz automotive 'Sealants' category lists 0 products; PPG portal has no RSB/RSU/GVH/P8201 codes; Noroo (named by Uz-DongJu as main supplier) sites are unreachable from this session (noroopaint.com tunnel closed) - a Noroo MSDS search should be tried from an open network. Added verified current Graco manuals (dead 334644EN-D replaced)."
+ },
+ {
+  "id": 5,
+  "manufacturer_update": {
+   "manufacturer": "Uz-DongJu Paint Co. (ROYAL PAINT), Andijan region - probable local sealer maker for UzAuto (product-level link not documented)",
+   "product_identified": "UBC UNDER COAT RSU-230 (spec GVH-170) - 1K PVC plastisol underbody coating; supplier code not public",
+   "manufacturer_confidence": "low",
+   "evidence": "uzdongju.uz/en/pages/about-us.html (fetched 2026-10-29): JV founded 1995 by DongJu Industrial Co. (KR) and UzAvtoSanoat, opened 1999; capacity 3,750 t/yr metal pretreatment products, 1,250 t/yr sealant, 2,500 t/yr automotive paints; 'main suppliers are NOROO Paint & Coatings Co., Ltd. and PPG Industries Korea Inc.'; customers include JSC UzAuto Motors. SEC EX-99.1 (PPG press release 2006-06-29): PPG owned 50% of Dongju Industrial since 1985 and bought the remaining 50% in 2006 (Dongju = Korean automotive OEM/refinish/industrial coatings maker, plants Chon Ahn and Busan; https://www.sec.gov/Archives/edgar/data/79879/000119312506138741/dex991.htm) - i.e. today's PPG Industries (Korea) Ltd., Busan. No public record of RSB-430, RSU-230, GVH-403U, GVH-170, UBS COAT or P8201 on uzdongju.uz (sealant category empty), PPG public SDS portal (codes/names searched) or web search. The R-prefix of RSB/RSU may follow the DongJu 'Royal' coding (R?T thinners) - inference only."
+  },
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Graco",
+    "model": "King spray packages and pumps with XL 10K air motor",
+    "type": "manual",
+    "title": "334645K - King Spray Packages and Pumps with XL 10K Air Motor, Instructions (English)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334645/334645EN.pdf",
+    "verified": true,
+    "note": "evidence: PDF 42 p.; PDF title '334645EN-K, Manual, King Spray Packages and Pumps with XL 10K Air Motors, Instructions, English'; 'High performance, high pressure spray packages for applying protective coatings'. English edition (catalog only had ES/SV)."
+   },
+   {
+    "vendor": "Graco",
+    "model": "XL 10000 Air Motor",
+    "type": "manual",
+    "title": "334644F - XL 10000 Air Motor, Instructions-Parts (English)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334644/334644EN.pdf",
+    "verified": true,
+    "note": "evidence: PDF 26 p.; PDF title '334644F, Manual, XL 10000 Air Motor, Instructions, Parts, English'. Current revision replacing dead 334644EN-D.pdf."
+   },
+   {
+    "vendor": "Graco",
+    "model": "AL Automatic Airless Spray Gun 288048",
+    "type": "manual",
+    "title": "311053M - Automatic Airless Spray Guns, Instructions (English)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/311/311053/311053EN-M.pdf",
+    "verified": true,
+    "note": "evidence: PDF 40 p.; PDF title '311053M, Manual, Automatic Airless Spray Guns, Instructions, English'; 'Model 288048 For airless spraying of paints and coatings ... Model 288554 For sealant streaming applications, 5000 psi'. Linked from graco.com product page 288048."
+   },
+   {
+    "vendor": "Graco",
+    "model": "AL Automatic Airless Spray Gun 288048",
+    "type": "manual",
+    "title": "311676E - Automatic Airless Spray Guns, Instructions/Parts (Russian)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/311/311053/311676RU-E.pdf",
+    "verified": true,
+    "note": "evidence: PDF 30 p.; PDF title '311676E, Automatic Airless Spray Guns, Instructions/Parts, Russian'; covers parts 288048 and 288554 (older edition, 4000 psi rating)."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://www.huntsman.com/docs/Documents/Euretek-SelectorGuide-AdhesionPromoters.pdf",
+    "reason": "HTTP 404 (re-checked with curl 2026-10-29)"
+   },
+   {
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334644/334644EN-D.pdf",
+    "reason": "HTTP 404 (re-checked 2026-10-29); current XL 10000 Air Motor manual (334644F) is https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334644/334644EN.pdf"
+   }
+  ],
+  "notes": "Round4: no exact sealer/PVC document found. uzdongju.uz automotive 'Sealants' category lists 0 products; PPG portal has no RSB/RSU/GVH/P8201 codes; Noroo (named by Uz-DongJu as main supplier) sites are unreachable from this session (noroopaint.com tunnel closed) - a Noroo MSDS search should be tried from an open network. Added verified current Graco manuals (dead 334644EN-D replaced)."
+ },
+ {
+  "id": 6,
+  "manufacturer_update": {
+   "manufacturer": "Uz-DongJu Paint Co. (ROYAL PAINT), Andijan region - probable local sealer maker for UzAuto (product-level link not documented)",
+   "product_identified": "UBS COAT (spec GVH-170) - PVC underbody coating/sealer, same spec as RSU-230",
+   "manufacturer_confidence": "low",
+   "evidence": "uzdongju.uz/en/pages/about-us.html (fetched 2026-10-29): JV founded 1995 by DongJu Industrial Co. (KR) and UzAvtoSanoat, opened 1999; capacity 3,750 t/yr metal pretreatment products, 1,250 t/yr sealant, 2,500 t/yr automotive paints; 'main suppliers are NOROO Paint & Coatings Co., Ltd. and PPG Industries Korea Inc.'; customers include JSC UzAuto Motors. SEC EX-99.1 (PPG press release 2006-06-29): PPG owned 50% of Dongju Industrial since 1985 and bought the remaining 50% in 2006 (Dongju = Korean automotive OEM/refinish/industrial coatings maker, plants Chon Ahn and Busan; https://www.sec.gov/Archives/edgar/data/79879/000119312506138741/dex991.htm) - i.e. today's PPG Industries (Korea) Ltd., Busan. No public record of RSB-430, RSU-230, GVH-403U, GVH-170, UBS COAT or P8201 on uzdongju.uz (sealant category empty), PPG public SDS portal (codes/names searched) or web search. The R-prefix of RSB/RSU may follow the DongJu 'Royal' coding (R?T thinners) - inference only."
+  },
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Graco",
+    "model": "King spray packages and pumps with XL 10K air motor",
+    "type": "manual",
+    "title": "334645K - King Spray Packages and Pumps with XL 10K Air Motor, Instructions (English)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334645/334645EN.pdf",
+    "verified": true,
+    "note": "evidence: PDF 42 p.; PDF title '334645EN-K, Manual, King Spray Packages and Pumps with XL 10K Air Motors, Instructions, English'; 'High performance, high pressure spray packages for applying protective coatings'. English edition (catalog only had ES/SV)."
+   },
+   {
+    "vendor": "Graco",
+    "model": "XL 10000 Air Motor",
+    "type": "manual",
+    "title": "334644F - XL 10000 Air Motor, Instructions-Parts (English)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334644/334644EN.pdf",
+    "verified": true,
+    "note": "evidence: PDF 26 p.; PDF title '334644F, Manual, XL 10000 Air Motor, Instructions, Parts, English'. Current revision replacing dead 334644EN-D.pdf."
+   },
+   {
+    "vendor": "Graco",
+    "model": "AL Automatic Airless Spray Gun 288048",
+    "type": "manual",
+    "title": "311053M - Automatic Airless Spray Guns, Instructions (English)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/311/311053/311053EN-M.pdf",
+    "verified": true,
+    "note": "evidence: PDF 40 p.; PDF title '311053M, Manual, Automatic Airless Spray Guns, Instructions, English'; 'Model 288048 For airless spraying of paints and coatings ... Model 288554 For sealant streaming applications, 5000 psi'. Linked from graco.com product page 288048."
+   },
+   {
+    "vendor": "Graco",
+    "model": "AL Automatic Airless Spray Gun 288048",
+    "type": "manual",
+    "title": "311676E - Automatic Airless Spray Guns, Instructions/Parts (Russian)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/311/311053/311676RU-E.pdf",
+    "verified": true,
+    "note": "evidence: PDF 30 p.; PDF title '311676E, Automatic Airless Spray Guns, Instructions/Parts, Russian'; covers parts 288048 and 288554 (older edition, 4000 psi rating)."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://www.huntsman.com/docs/Documents/Euretek-SelectorGuide-AdhesionPromoters.pdf",
+    "reason": "HTTP 404 (re-checked with curl 2026-10-29)"
+   },
+   {
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334644/334644EN-D.pdf",
+    "reason": "HTTP 404 (re-checked 2026-10-29); current XL 10000 Air Motor manual (334644F) is https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334644/334644EN.pdf"
+   }
+  ],
+  "notes": "Round4: no exact sealer/PVC document found. uzdongju.uz automotive 'Sealants' category lists 0 products; PPG portal has no RSB/RSU/GVH/P8201 codes; Noroo (named by Uz-DongJu as main supplier) sites are unreachable from this session (noroopaint.com tunnel closed) - a Noroo MSDS search should be tried from an open network. Added verified current Graco manuals (dead 334644EN-D replaced)."
+ },
+ {
+  "id": 7,
+  "manufacturer_update": {
+   "manufacturer": "Uz-DongJu Paint Co. (ROYAL PAINT), Andijan region - probable local sealer maker for UzAuto (product-level link not documented)",
+   "product_identified": "PVC ANTI CHIP (P8201) - PVC plastisol stone-chip coating",
+   "manufacturer_confidence": "low",
+   "evidence": "uzdongju.uz/en/pages/about-us.html (fetched 2026-10-29): JV founded 1995 by DongJu Industrial Co. (KR) and UzAvtoSanoat, opened 1999; capacity 3,750 t/yr metal pretreatment products, 1,250 t/yr sealant, 2,500 t/yr automotive paints; 'main suppliers are NOROO Paint & Coatings Co., Ltd. and PPG Industries Korea Inc.'; customers include JSC UzAuto Motors. SEC EX-99.1 (PPG press release 2006-06-29): PPG owned 50% of Dongju Industrial since 1985 and bought the remaining 50% in 2006 (Dongju = Korean automotive OEM/refinish/industrial coatings maker, plants Chon Ahn and Busan; https://www.sec.gov/Archives/edgar/data/79879/000119312506138741/dex991.htm) - i.e. today's PPG Industries (Korea) Ltd., Busan. No public record of RSB-430, RSU-230, GVH-403U, GVH-170, UBS COAT or P8201 on uzdongju.uz (sealant category empty), PPG public SDS portal (codes/names searched) or web search. The R-prefix of RSB/RSU may follow the DongJu 'Royal' coding (R?T thinners) - inference only."
+  },
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Graco",
+    "model": "King spray packages and pumps with XL 10K air motor",
+    "type": "manual",
+    "title": "334645K - King Spray Packages and Pumps with XL 10K Air Motor, Instructions (English)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334645/334645EN.pdf",
+    "verified": true,
+    "note": "evidence: PDF 42 p.; PDF title '334645EN-K, Manual, King Spray Packages and Pumps with XL 10K Air Motors, Instructions, English'; 'High performance, high pressure spray packages for applying protective coatings'. English edition (catalog only had ES/SV)."
+   },
+   {
+    "vendor": "Graco",
+    "model": "XL 10000 Air Motor",
+    "type": "manual",
+    "title": "334644F - XL 10000 Air Motor, Instructions-Parts (English)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334644/334644EN.pdf",
+    "verified": true,
+    "note": "evidence: PDF 26 p.; PDF title '334644F, Manual, XL 10000 Air Motor, Instructions, Parts, English'. Current revision replacing dead 334644EN-D.pdf."
+   },
+   {
+    "vendor": "Graco",
+    "model": "AL Automatic Airless Spray Gun 288048",
+    "type": "manual",
+    "title": "311053M - Automatic Airless Spray Guns, Instructions (English)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/311/311053/311053EN-M.pdf",
+    "verified": true,
+    "note": "evidence: PDF 40 p.; PDF title '311053M, Manual, Automatic Airless Spray Guns, Instructions, English'; 'Model 288048 For airless spraying of paints and coatings ... Model 288554 For sealant streaming applications, 5000 psi'. Linked from graco.com product page 288048."
+   },
+   {
+    "vendor": "Graco",
+    "model": "AL Automatic Airless Spray Gun 288048",
+    "type": "manual",
+    "title": "311676E - Automatic Airless Spray Guns, Instructions/Parts (Russian)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/311/311053/311676RU-E.pdf",
+    "verified": true,
+    "note": "evidence: PDF 30 p.; PDF title '311676E, Automatic Airless Spray Guns, Instructions/Parts, Russian'; covers parts 288048 and 288554 (older edition, 4000 psi rating)."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334644/334644EN-D.pdf",
+    "reason": "HTTP 404 (re-checked 2026-10-29); current XL 10000 Air Motor manual (334644F) is https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334644/334644EN.pdf"
+   }
+  ],
+  "notes": "Round4: no exact sealer/PVC document found. uzdongju.uz automotive 'Sealants' category lists 0 products; PPG portal has no RSB/RSU/GVH/P8201 codes; Noroo (named by Uz-DongJu as main supplier) sites are unreachable from this session (noroopaint.com tunnel closed) - a Noroo MSDS search should be tried from an open network. Added verified current Graco manuals (dead 334644EN-D replaced)."
+ },
+ {
+  "id": 8,
+  "manufacturer_update": {
+   "manufacturer": "Uz-DongJu Paint Co. (ROYAL PAINT), Andijan region, on DongJu/PPG Korea technology (raw materials from PPG Industries Korea and Noroo)",
+   "product_identified": "CR-100 PRIMER SURFACER LIGHT GRAY N7.0 (KR-APC-707U) - solvent-borne baking primer surfacer of the Royal/DongJu system; Uz-DongJu TDS references 'APU' primer surfacer under its base coat",
+   "manufacturer_confidence": "medium",
+   "evidence": "uzdongju.uz/en/pages/about-us.html (fetched 2026-10-29): JV founded 1995 by DongJu Industrial Co. (KR) and UzAvtoSanoat, opened 1999; capacity 3,750 t/yr metal pretreatment products, 1,250 t/yr sealant, 2,500 t/yr automotive paints; 'main suppliers are NOROO Paint & Coatings Co., Ltd. and PPG Industries Korea Inc.'; customers include JSC UzAuto Motors. SEC EX-99.1 (PPG press release 2006-06-29): PPG owned 50% of Dongju Industrial since 1985 and bought the remaining 50% in 2006 (Dongju = Korean automotive OEM/refinish/industrial coatings maker, plants Chon Ahn and Busan; https://www.sec.gov/Archives/edgar/data/79879/000119312506138741/dex991.htm) - i.e. today's PPG Industries (Korea) Ltd., Busan. Uz-DongJu TDS 'AHT-000 BASE COAT MEDIUM SOLID (METALLIC, MICA)' (https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf, RU, 2 p., created 2017-06-22): polyester-melamine 2C1B base coat for car bodies; thinner 'RHT-031 (Top Metallic Thinner)' 30-40 wt%; clear 'CLEAR VARNISH (ABT-000)'; applied wet-on-wet over ED and 'APU' primer surfacer; tool cleaning 'RCT-095A (New Cleaning Thinner)'; cure with clear 130 C x 30 min; Behr bells 24,000 rpm, 70-90 kV. The plant's spec codes belong to the same DongJu/PPG Korea 'KR-' code system (see thinners). 'CR-100' as a primer name and code KR-APC-707U/742U are not public (PPG's 'CR-100' is an unrelated cathodic ED emulsion)."
+  },
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": "Round4: no exact primer-surfacer document found (uzdongju.uz 'Primers' category lists 0 products; PPG portal has no KR-APC codes). Manufacturer evidence upgraded from verified Uz-DongJu and PPG/SEC sources."
+ },
+ {
+  "id": 9,
+  "manufacturer_update": {
+   "manufacturer": "Uz-DongJu Paint Co. (ROYAL PAINT), Andijan region, on DongJu/PPG Korea technology (raw materials from PPG Industries Korea and Noroo)",
+   "product_identified": "CR-100 PRIMER SURFACER PURE WHITE N9.0 (KR-APC-742U) - same line as N7.0",
+   "manufacturer_confidence": "medium",
+   "evidence": "uzdongju.uz/en/pages/about-us.html (fetched 2026-10-29): JV founded 1995 by DongJu Industrial Co. (KR) and UzAvtoSanoat, opened 1999; capacity 3,750 t/yr metal pretreatment products, 1,250 t/yr sealant, 2,500 t/yr automotive paints; 'main suppliers are NOROO Paint & Coatings Co., Ltd. and PPG Industries Korea Inc.'; customers include JSC UzAuto Motors. SEC EX-99.1 (PPG press release 2006-06-29): PPG owned 50% of Dongju Industrial since 1985 and bought the remaining 50% in 2006 (Dongju = Korean automotive OEM/refinish/industrial coatings maker, plants Chon Ahn and Busan; https://www.sec.gov/Archives/edgar/data/79879/000119312506138741/dex991.htm) - i.e. today's PPG Industries (Korea) Ltd., Busan. Uz-DongJu TDS 'AHT-000 BASE COAT MEDIUM SOLID (METALLIC, MICA)' (https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf, RU, 2 p., created 2017-06-22): polyester-melamine 2C1B base coat for car bodies; thinner 'RHT-031 (Top Metallic Thinner)' 30-40 wt%; clear 'CLEAR VARNISH (ABT-000)'; applied wet-on-wet over ED and 'APU' primer surfacer; tool cleaning 'RCT-095A (New Cleaning Thinner)'; cure with clear 130 C x 30 min; Behr bells 24,000 rpm, 70-90 kV. The plant's spec codes belong to the same DongJu/PPG Korea 'KR-' code system (see thinners). 'CR-100' as a primer name and code KR-APC-707U/742U are not public (PPG's 'CR-100' is an unrelated cathodic ED emulsion)."
+  },
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": "Round4: no exact primer-surfacer document found (uzdongju.uz 'Primers' category lists 0 products; PPG portal has no KR-APC codes). Manufacturer evidence upgraded from verified Uz-DongJu and PPG/SEC sources."
+ },
+ {
+  "id": 10,
+  "manufacturer_update": {
+   "manufacturer": "Uz-DongJu Paint Co. (ROYAL PAINT) / PPG Industries (Korea) 'KR-R?T' thinner system",
+   "product_identified": "PRIMER TYPE THINNER KR-RHT-051 - 'RHT' thinner of the Royal system (sister code RHT-031 is documented by Uz-DongJu as 'Top Metallic Thinner')",
+   "manufacturer_confidence": "medium",
+   "evidence": "Uz-DongJu TDS 'AHT-000 BASE COAT MEDIUM SOLID (METALLIC, MICA)' (https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf, RU, 2 p., created 2017-06-22): polyester-melamine 2C1B base coat for car bodies; thinner 'RHT-031 (Top Metallic Thinner)' 30-40 wt%; clear 'CLEAR VARNISH (ABT-000)'; applied wet-on-wet over ED and 'APU' primer surfacer; tool cleaning 'RCT-095A (New Cleaning Thinner)'; cure with clear 130 C x 30 min; Behr bells 24,000 rpm, 70-90 kV. PPG public SDS portal (https://buyat.ppg.com/EHSDocumentManagerPublic/documentSearch.aspx) shows PPG Industries (Korea) Ltd. thinner codes 'KR-R?T-nnn' incl. 'ROYAL' names (ROYAL THINNER RBT-010D = KR-RBT-010D; ROYALMEL THINNER = KR-RAT-024; ROYALTHANE THINNER = KR-RUT-085; ROYALPOX THINNER = KR-RET-045; ESTA CLEANING THINNER (G.I.) = KR-RCT-095GI), the same code system as the plant specs KR-RHT-031/051, KR-RBT-029 and as Uz-DongJu's RHT-031/RCT-095A ('Royal' = DongJu brand, cf. Uz-DongJu 'ROYAL PAINT'). PPG Korea also issues SDS for 'DJ-' intermix pastes, resins and solvents shipped to Uzbekistan (codes .../UZ/...), indicating that Uz-DongJu formulates locally from PPG Korea intermediates."
+  },
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": "Round4: no RHT-051 document found; code family identified (RHT, Royal/DongJu thinner system). No new passport added (did not pad with unrelated thinner SDS)."
+ },
+ {
+  "id": 11,
+  "manufacturer_update": {
+   "manufacturer": "Uz-DongJu Paint Co. (ROYAL PAINT), Andijan region - local formulator of the Royal 2C1B base coat line on DongJu/PPG Korea technology",
+   "product_identified": "(GAZ) BASE COAT SUMMIT WHITE (2C1B) (KR-MC-710U) - solvent-borne polyester-melamine 2C1B base coat of the Royal system (generic line AHT-000 Base Coat Medium Solid; colour-specific grade not published)",
+   "manufacturer_confidence": "medium",
+   "evidence": "uzdongju.uz/en/pages/about-us.html (fetched 2026-10-29): JV founded 1995 by DongJu Industrial Co. (KR) and UzAvtoSanoat, opened 1999; capacity 3,750 t/yr metal pretreatment products, 1,250 t/yr sealant, 2,500 t/yr automotive paints; 'main suppliers are NOROO Paint & Coatings Co., Ltd. and PPG Industries Korea Inc.'; customers include JSC UzAuto Motors. SEC EX-99.1 (PPG press release 2006-06-29): PPG owned 50% of Dongju Industrial since 1985 and bought the remaining 50% in 2006 (Dongju = Korean automotive OEM/refinish/industrial coatings maker, plants Chon Ahn and Busan; https://www.sec.gov/Archives/edgar/data/79879/000119312506138741/dex991.htm) - i.e. today's PPG Industries (Korea) Ltd., Busan. Uz-DongJu TDS 'AHT-000 BASE COAT MEDIUM SOLID (METALLIC, MICA)' (https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf, RU, 2 p., created 2017-06-22): polyester-melamine 2C1B base coat for car bodies; thinner 'RHT-031 (Top Metallic Thinner)' 30-40 wt%; clear 'CLEAR VARNISH (ABT-000)'; applied wet-on-wet over ED and 'APU' primer surfacer; tool cleaning 'RCT-095A (New Cleaning Thinner)'; cure with clear 130 C x 30 min; Behr bells 24,000 rpm, 70-90 kV. Uz-DongJu online colour tool (uzdongju.uz/paint/auto.html) lists GM colour codes incl. GAZ and GAN next to its UDJ refinish codes."
+  },
+  "add_material_docs": [
+   {
+    "type": "TDS",
+    "title": "Uz-DongJu Paint (ROYAL PAINT) - Технические данные 'AHT-000 BASE COAT MEDIUM SOLID (METALLIC, MICA)'",
+    "url": "https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf",
+    "language": "ru",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 2 p., Russian, created 2017-06-22, linked from uzdongju.uz product page 'TOP METALLIC BASE'; 'AHT-000 BASE COAT MEDIUM SOLID ... на основе полиэфир-меламиновых смол, применяется для окраски кузовов автомобилей в комплекте с бесцветным лаком'; thinner RHT-031 (Top Metallic Thinner) 30-40 wt pct; 2C1B with CLEAR VARNISH (ABT-000); 130 C x 30 min; Behr bells 24,000 rpm, 70-90 kV; launched 1997. Same supplier and class as plant spec KR-MC-710U, but generic base-coat line, not the colour-specific grade - equivalent. (MSDS link on the same page returns 404.)"
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "reason": "HTTP 404 (re-checked with curl 2026-10-29)"
+   }
+  ],
+  "notes": "Round4: supplier-level TDS found (Uz-DongJu AHT-000 base coat, Russian); no colour-specific TDS/SDS public. uzdongju.uz 'Top coat' category lists 0 products besides TOP METALLIC BASE / TOP SOLID COAT. Glasurit 53157504 MSDS URL is 404."
+ },
+ {
+  "id": 12,
+  "manufacturer_update": {
+   "manufacturer": "Uz-DongJu Paint Co. (ROYAL PAINT), Andijan region - local formulator of the Royal 2C1B base coat line on DongJu/PPG Korea technology",
+   "product_identified": "(GK2) BASE COAT SON OF A GUN GRAY MET-3 (KR-ADM-709U) - solvent-borne polyester-melamine 2C1B base coat of the Royal system (generic line AHT-000 Base Coat Medium Solid; colour-specific grade not published)",
+   "manufacturer_confidence": "medium",
+   "evidence": "uzdongju.uz/en/pages/about-us.html (fetched 2026-10-29): JV founded 1995 by DongJu Industrial Co. (KR) and UzAvtoSanoat, opened 1999; capacity 3,750 t/yr metal pretreatment products, 1,250 t/yr sealant, 2,500 t/yr automotive paints; 'main suppliers are NOROO Paint & Coatings Co., Ltd. and PPG Industries Korea Inc.'; customers include JSC UzAuto Motors. SEC EX-99.1 (PPG press release 2006-06-29): PPG owned 50% of Dongju Industrial since 1985 and bought the remaining 50% in 2006 (Dongju = Korean automotive OEM/refinish/industrial coatings maker, plants Chon Ahn and Busan; https://www.sec.gov/Archives/edgar/data/79879/000119312506138741/dex991.htm) - i.e. today's PPG Industries (Korea) Ltd., Busan. Uz-DongJu TDS 'AHT-000 BASE COAT MEDIUM SOLID (METALLIC, MICA)' (https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf, RU, 2 p., created 2017-06-22): polyester-melamine 2C1B base coat for car bodies; thinner 'RHT-031 (Top Metallic Thinner)' 30-40 wt%; clear 'CLEAR VARNISH (ABT-000)'; applied wet-on-wet over ED and 'APU' primer surfacer; tool cleaning 'RCT-095A (New Cleaning Thinner)'; cure with clear 130 C x 30 min; Behr bells 24,000 rpm, 70-90 kV. Uz-DongJu online colour tool (uzdongju.uz/paint/auto.html) lists GM colour codes incl. GAZ and GAN next to its UDJ refinish codes."
+  },
+  "add_material_docs": [
+   {
+    "type": "TDS",
+    "title": "Uz-DongJu Paint (ROYAL PAINT) - Технические данные 'AHT-000 BASE COAT MEDIUM SOLID (METALLIC, MICA)'",
+    "url": "https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf",
+    "language": "ru",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 2 p., Russian, created 2017-06-22, linked from uzdongju.uz product page 'TOP METALLIC BASE'; 'AHT-000 BASE COAT MEDIUM SOLID ... на основе полиэфир-меламиновых смол, применяется для окраски кузовов автомобилей в комплекте с бесцветным лаком'; thinner RHT-031 (Top Metallic Thinner) 30-40 wt pct; 2C1B with CLEAR VARNISH (ABT-000); 130 C x 30 min; Behr bells 24,000 rpm, 70-90 kV; launched 1997. Same supplier and class as plant spec KR-ADM-709U, but generic base-coat line, not the colour-specific grade - equivalent. (MSDS link on the same page returns 404.)"
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "reason": "HTTP 404 (re-checked with curl 2026-10-29)"
+   }
+  ],
+  "notes": "Round4: supplier-level TDS found (Uz-DongJu AHT-000 base coat, Russian); no colour-specific TDS/SDS public. uzdongju.uz 'Top coat' category lists 0 products besides TOP METALLIC BASE / TOP SOLID COAT. Glasurit 53157504 MSDS URL is 404."
+ },
+ {
+  "id": 13,
+  "manufacturer_update": {
+   "manufacturer": "Uz-DongJu Paint Co. (ROYAL PAINT), Andijan region - local formulator of the Royal 2C1B base coat line on DongJu/PPG Korea technology",
+   "product_identified": "(GD8) BASE COAT BURNT COCONUTMET (KR-ADM-254) - solvent-borne polyester-melamine 2C1B base coat of the Royal system (generic line AHT-000 Base Coat Medium Solid; colour-specific grade not published)",
+   "manufacturer_confidence": "medium",
+   "evidence": "uzdongju.uz/en/pages/about-us.html (fetched 2026-10-29): JV founded 1995 by DongJu Industrial Co. (KR) and UzAvtoSanoat, opened 1999; capacity 3,750 t/yr metal pretreatment products, 1,250 t/yr sealant, 2,500 t/yr automotive paints; 'main suppliers are NOROO Paint & Coatings Co., Ltd. and PPG Industries Korea Inc.'; customers include JSC UzAuto Motors. SEC EX-99.1 (PPG press release 2006-06-29): PPG owned 50% of Dongju Industrial since 1985 and bought the remaining 50% in 2006 (Dongju = Korean automotive OEM/refinish/industrial coatings maker, plants Chon Ahn and Busan; https://www.sec.gov/Archives/edgar/data/79879/000119312506138741/dex991.htm) - i.e. today's PPG Industries (Korea) Ltd., Busan. Uz-DongJu TDS 'AHT-000 BASE COAT MEDIUM SOLID (METALLIC, MICA)' (https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf, RU, 2 p., created 2017-06-22): polyester-melamine 2C1B base coat for car bodies; thinner 'RHT-031 (Top Metallic Thinner)' 30-40 wt%; clear 'CLEAR VARNISH (ABT-000)'; applied wet-on-wet over ED and 'APU' primer surfacer; tool cleaning 'RCT-095A (New Cleaning Thinner)'; cure with clear 130 C x 30 min; Behr bells 24,000 rpm, 70-90 kV. Uz-DongJu online colour tool (uzdongju.uz/paint/auto.html) lists GM colour codes incl. GAZ and GAN next to its UDJ refinish codes."
+  },
+  "add_material_docs": [
+   {
+    "type": "TDS",
+    "title": "Uz-DongJu Paint (ROYAL PAINT) - Технические данные 'AHT-000 BASE COAT MEDIUM SOLID (METALLIC, MICA)'",
+    "url": "https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf",
+    "language": "ru",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 2 p., Russian, created 2017-06-22, linked from uzdongju.uz product page 'TOP METALLIC BASE'; 'AHT-000 BASE COAT MEDIUM SOLID ... на основе полиэфир-меламиновых смол, применяется для окраски кузовов автомобилей в комплекте с бесцветным лаком'; thinner RHT-031 (Top Metallic Thinner) 30-40 wt pct; 2C1B with CLEAR VARNISH (ABT-000); 130 C x 30 min; Behr bells 24,000 rpm, 70-90 kV; launched 1997. Same supplier and class as plant spec KR-ADM-254, but generic base-coat line, not the colour-specific grade - equivalent. (MSDS link on the same page returns 404.)"
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "reason": "HTTP 404 (re-checked with curl 2026-10-29)"
+   }
+  ],
+  "notes": "Round4: supplier-level TDS found (Uz-DongJu AHT-000 base coat, Russian); no colour-specific TDS/SDS public. uzdongju.uz 'Top coat' category lists 0 products besides TOP METALLIC BASE / TOP SOLID COAT. Glasurit 53157504 MSDS URL is 404."
+ },
+ {
+  "id": 14,
+  "manufacturer_update": {
+   "manufacturer": "Uz-DongJu Paint Co. (ROYAL PAINT), Andijan region - local formulator of the Royal 2C1B base coat line on DongJu/PPG Korea technology",
+   "product_identified": "(GBO) BASE COAT BLACK MEET KETTLE MET-3 (KR-ADM-786) - solvent-borne polyester-melamine 2C1B base coat of the Royal system (generic line AHT-000 Base Coat Medium Solid; colour-specific grade not published)",
+   "manufacturer_confidence": "medium",
+   "evidence": "uzdongju.uz/en/pages/about-us.html (fetched 2026-10-29): JV founded 1995 by DongJu Industrial Co. (KR) and UzAvtoSanoat, opened 1999; capacity 3,750 t/yr metal pretreatment products, 1,250 t/yr sealant, 2,500 t/yr automotive paints; 'main suppliers are NOROO Paint & Coatings Co., Ltd. and PPG Industries Korea Inc.'; customers include JSC UzAuto Motors. SEC EX-99.1 (PPG press release 2006-06-29): PPG owned 50% of Dongju Industrial since 1985 and bought the remaining 50% in 2006 (Dongju = Korean automotive OEM/refinish/industrial coatings maker, plants Chon Ahn and Busan; https://www.sec.gov/Archives/edgar/data/79879/000119312506138741/dex991.htm) - i.e. today's PPG Industries (Korea) Ltd., Busan. Uz-DongJu TDS 'AHT-000 BASE COAT MEDIUM SOLID (METALLIC, MICA)' (https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf, RU, 2 p., created 2017-06-22): polyester-melamine 2C1B base coat for car bodies; thinner 'RHT-031 (Top Metallic Thinner)' 30-40 wt%; clear 'CLEAR VARNISH (ABT-000)'; applied wet-on-wet over ED and 'APU' primer surfacer; tool cleaning 'RCT-095A (New Cleaning Thinner)'; cure with clear 130 C x 30 min; Behr bells 24,000 rpm, 70-90 kV. Uz-DongJu online colour tool (uzdongju.uz/paint/auto.html) lists GM colour codes incl. GAZ and GAN next to its UDJ refinish codes."
+  },
+  "add_material_docs": [
+   {
+    "type": "TDS",
+    "title": "Uz-DongJu Paint (ROYAL PAINT) - Технические данные 'AHT-000 BASE COAT MEDIUM SOLID (METALLIC, MICA)'",
+    "url": "https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf",
+    "language": "ru",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 2 p., Russian, created 2017-06-22, linked from uzdongju.uz product page 'TOP METALLIC BASE'; 'AHT-000 BASE COAT MEDIUM SOLID ... на основе полиэфир-меламиновых смол, применяется для окраски кузовов автомобилей в комплекте с бесцветным лаком'; thinner RHT-031 (Top Metallic Thinner) 30-40 wt pct; 2C1B with CLEAR VARNISH (ABT-000); 130 C x 30 min; Behr bells 24,000 rpm, 70-90 kV; launched 1997. Same supplier and class as plant spec KR-ADM-786, but generic base-coat line, not the colour-specific grade - equivalent. (MSDS link on the same page returns 404.)"
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "reason": "HTTP 404 (re-checked with curl 2026-10-29)"
+   }
+  ],
+  "notes": "Round4: supplier-level TDS found (Uz-DongJu AHT-000 base coat, Russian); no colour-specific TDS/SDS public. uzdongju.uz 'Top coat' category lists 0 products besides TOP METALLIC BASE / TOP SOLID COAT. Glasurit 53157504 MSDS URL is 404."
+ },
+ {
+  "id": 15,
+  "manufacturer_update": {
+   "manufacturer": "Uz-DongJu Paint Co. (ROYAL PAINT), Andijan region - local formulator of the Royal 2C1B base coat line on DongJu/PPG Korea technology",
+   "product_identified": "(GYM) BASE COAT SATIN STEEL GRAYMET (KR-ADM-706U) - solvent-borne polyester-melamine 2C1B base coat of the Royal system (generic line AHT-000 Base Coat Medium Solid; colour-specific grade not published)",
+   "manufacturer_confidence": "medium",
+   "evidence": "uzdongju.uz/en/pages/about-us.html (fetched 2026-10-29): JV founded 1995 by DongJu Industrial Co. (KR) and UzAvtoSanoat, opened 1999; capacity 3,750 t/yr metal pretreatment products, 1,250 t/yr sealant, 2,500 t/yr automotive paints; 'main suppliers are NOROO Paint & Coatings Co., Ltd. and PPG Industries Korea Inc.'; customers include JSC UzAuto Motors. SEC EX-99.1 (PPG press release 2006-06-29): PPG owned 50% of Dongju Industrial since 1985 and bought the remaining 50% in 2006 (Dongju = Korean automotive OEM/refinish/industrial coatings maker, plants Chon Ahn and Busan; https://www.sec.gov/Archives/edgar/data/79879/000119312506138741/dex991.htm) - i.e. today's PPG Industries (Korea) Ltd., Busan. Uz-DongJu TDS 'AHT-000 BASE COAT MEDIUM SOLID (METALLIC, MICA)' (https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf, RU, 2 p., created 2017-06-22): polyester-melamine 2C1B base coat for car bodies; thinner 'RHT-031 (Top Metallic Thinner)' 30-40 wt%; clear 'CLEAR VARNISH (ABT-000)'; applied wet-on-wet over ED and 'APU' primer surfacer; tool cleaning 'RCT-095A (New Cleaning Thinner)'; cure with clear 130 C x 30 min; Behr bells 24,000 rpm, 70-90 kV. Uz-DongJu online colour tool (uzdongju.uz/paint/auto.html) lists GM colour codes incl. GAZ and GAN next to its UDJ refinish codes."
+  },
+  "add_material_docs": [
+   {
+    "type": "TDS",
+    "title": "Uz-DongJu Paint (ROYAL PAINT) - Технические данные 'AHT-000 BASE COAT MEDIUM SOLID (METALLIC, MICA)'",
+    "url": "https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf",
+    "language": "ru",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 2 p., Russian, created 2017-06-22, linked from uzdongju.uz product page 'TOP METALLIC BASE'; 'AHT-000 BASE COAT MEDIUM SOLID ... на основе полиэфир-меламиновых смол, применяется для окраски кузовов автомобилей в комплекте с бесцветным лаком'; thinner RHT-031 (Top Metallic Thinner) 30-40 wt pct; 2C1B with CLEAR VARNISH (ABT-000); 130 C x 30 min; Behr bells 24,000 rpm, 70-90 kV; launched 1997. Same supplier and class as plant spec KR-ADM-706U, but generic base-coat line, not the colour-specific grade - equivalent. (MSDS link on the same page returns 404.)"
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "reason": "HTTP 404 (re-checked with curl 2026-10-29)"
+   }
+  ],
+  "notes": "Round4: supplier-level TDS found (Uz-DongJu AHT-000 base coat, Russian); no colour-specific TDS/SDS public. uzdongju.uz 'Top coat' category lists 0 products besides TOP METALLIC BASE / TOP SOLID COAT. Glasurit 53157504 MSDS URL is 404."
+ },
+ {
+  "id": 16,
+  "manufacturer_update": {
+   "manufacturer": "Uz-DongJu Paint Co. (ROYAL PAINT), Andijan region - local formulator of the Royal 2C1B base coat line on DongJu/PPG Korea technology",
+   "product_identified": "(GAN) BASE COAT SWITCHBLADE SILVER (KR-ADM-893) - solvent-borne polyester-melamine 2C1B base coat of the Royal system (generic line AHT-000 Base Coat Medium Solid; colour-specific grade not published)",
+   "manufacturer_confidence": "medium",
+   "evidence": "uzdongju.uz/en/pages/about-us.html (fetched 2026-10-29): JV founded 1995 by DongJu Industrial Co. (KR) and UzAvtoSanoat, opened 1999; capacity 3,750 t/yr metal pretreatment products, 1,250 t/yr sealant, 2,500 t/yr automotive paints; 'main suppliers are NOROO Paint & Coatings Co., Ltd. and PPG Industries Korea Inc.'; customers include JSC UzAuto Motors. SEC EX-99.1 (PPG press release 2006-06-29): PPG owned 50% of Dongju Industrial since 1985 and bought the remaining 50% in 2006 (Dongju = Korean automotive OEM/refinish/industrial coatings maker, plants Chon Ahn and Busan; https://www.sec.gov/Archives/edgar/data/79879/000119312506138741/dex991.htm) - i.e. today's PPG Industries (Korea) Ltd., Busan. Uz-DongJu TDS 'AHT-000 BASE COAT MEDIUM SOLID (METALLIC, MICA)' (https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf, RU, 2 p., created 2017-06-22): polyester-melamine 2C1B base coat for car bodies; thinner 'RHT-031 (Top Metallic Thinner)' 30-40 wt%; clear 'CLEAR VARNISH (ABT-000)'; applied wet-on-wet over ED and 'APU' primer surfacer; tool cleaning 'RCT-095A (New Cleaning Thinner)'; cure with clear 130 C x 30 min; Behr bells 24,000 rpm, 70-90 kV. Uz-DongJu online colour tool (uzdongju.uz/paint/auto.html) lists GM colour codes incl. GAZ and GAN next to its UDJ refinish codes."
+  },
+  "add_material_docs": [
+   {
+    "type": "TDS",
+    "title": "Uz-DongJu Paint (ROYAL PAINT) - Технические данные 'AHT-000 BASE COAT MEDIUM SOLID (METALLIC, MICA)'",
+    "url": "https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf",
+    "language": "ru",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 2 p., Russian, created 2017-06-22, linked from uzdongju.uz product page 'TOP METALLIC BASE'; 'AHT-000 BASE COAT MEDIUM SOLID ... на основе полиэфир-меламиновых смол, применяется для окраски кузовов автомобилей в комплекте с бесцветным лаком'; thinner RHT-031 (Top Metallic Thinner) 30-40 wt pct; 2C1B with CLEAR VARNISH (ABT-000); 130 C x 30 min; Behr bells 24,000 rpm, 70-90 kV; launched 1997. Same supplier and class as plant spec KR-ADM-893, but generic base-coat line, not the colour-specific grade - equivalent. (MSDS link on the same page returns 404.)"
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "reason": "HTTP 404 (re-checked with curl 2026-10-29)"
+   }
+  ],
+  "notes": "Round4: supplier-level TDS found (Uz-DongJu AHT-000 base coat, Russian); no colour-specific TDS/SDS public. uzdongju.uz 'Top coat' category lists 0 products besides TOP METALLIC BASE / TOP SOLID COAT. Glasurit 53157504 MSDS URL is 404."
+ },
+ {
+  "id": 17,
+  "manufacturer_update": {
+   "manufacturer": "Uz-DongJu Paint Co. (ROYAL PAINT), Andijan region - local formulator of the Royal 2C1B base coat line on DongJu/PPG Korea technology",
+   "product_identified": "(GL8) BASE COAT RED-E OR NOT RED MET-3 (KR-ADM-122) - solvent-borne polyester-melamine 2C1B base coat of the Royal system (generic line AHT-000 Base Coat Medium Solid; colour-specific grade not published)",
+   "manufacturer_confidence": "medium",
+   "evidence": "uzdongju.uz/en/pages/about-us.html (fetched 2026-10-29): JV founded 1995 by DongJu Industrial Co. (KR) and UzAvtoSanoat, opened 1999; capacity 3,750 t/yr metal pretreatment products, 1,250 t/yr sealant, 2,500 t/yr automotive paints; 'main suppliers are NOROO Paint & Coatings Co., Ltd. and PPG Industries Korea Inc.'; customers include JSC UzAuto Motors. SEC EX-99.1 (PPG press release 2006-06-29): PPG owned 50% of Dongju Industrial since 1985 and bought the remaining 50% in 2006 (Dongju = Korean automotive OEM/refinish/industrial coatings maker, plants Chon Ahn and Busan; https://www.sec.gov/Archives/edgar/data/79879/000119312506138741/dex991.htm) - i.e. today's PPG Industries (Korea) Ltd., Busan. Uz-DongJu TDS 'AHT-000 BASE COAT MEDIUM SOLID (METALLIC, MICA)' (https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf, RU, 2 p., created 2017-06-22): polyester-melamine 2C1B base coat for car bodies; thinner 'RHT-031 (Top Metallic Thinner)' 30-40 wt%; clear 'CLEAR VARNISH (ABT-000)'; applied wet-on-wet over ED and 'APU' primer surfacer; tool cleaning 'RCT-095A (New Cleaning Thinner)'; cure with clear 130 C x 30 min; Behr bells 24,000 rpm, 70-90 kV. Uz-DongJu online colour tool (uzdongju.uz/paint/auto.html) lists GM colour codes incl. GAZ and GAN next to its UDJ refinish codes."
+  },
+  "add_material_docs": [
+   {
+    "type": "TDS",
+    "title": "Uz-DongJu Paint (ROYAL PAINT) - Технические данные 'AHT-000 BASE COAT MEDIUM SOLID (METALLIC, MICA)'",
+    "url": "https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf",
+    "language": "ru",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 2 p., Russian, created 2017-06-22, linked from uzdongju.uz product page 'TOP METALLIC BASE'; 'AHT-000 BASE COAT MEDIUM SOLID ... на основе полиэфир-меламиновых смол, применяется для окраски кузовов автомобилей в комплекте с бесцветным лаком'; thinner RHT-031 (Top Metallic Thinner) 30-40 wt pct; 2C1B with CLEAR VARNISH (ABT-000); 130 C x 30 min; Behr bells 24,000 rpm, 70-90 kV; launched 1997. Same supplier and class as plant spec KR-ADM-122, but generic base-coat line, not the colour-specific grade - equivalent. (MSDS link on the same page returns 404.)"
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "reason": "HTTP 404 (re-checked with curl 2026-10-29)"
+   }
+  ],
+  "notes": "Round4: supplier-level TDS found (Uz-DongJu AHT-000 base coat, Russian); no colour-specific TDS/SDS public. uzdongju.uz 'Top coat' category lists 0 products besides TOP METALLIC BASE / TOP SOLID COAT. Glasurit 53157504 MSDS URL is 404."
+ },
+ {
+  "id": 18,
+  "manufacturer_update": {
+   "manufacturer": "Uz-DongJu Paint Co. (ROYAL PAINT), Andijan region - local formulator of the Royal 2C1B base coat line on DongJu/PPG Korea technology",
+   "product_identified": "(GUM) BASE COAT SEEKER MET 3 (KR-ADM-407U) - solvent-borne polyester-melamine 2C1B base coat of the Royal system (generic line AHT-000 Base Coat Medium Solid; colour-specific grade not published)",
+   "manufacturer_confidence": "medium",
+   "evidence": "uzdongju.uz/en/pages/about-us.html (fetched 2026-10-29): JV founded 1995 by DongJu Industrial Co. (KR) and UzAvtoSanoat, opened 1999; capacity 3,750 t/yr metal pretreatment products, 1,250 t/yr sealant, 2,500 t/yr automotive paints; 'main suppliers are NOROO Paint & Coatings Co., Ltd. and PPG Industries Korea Inc.'; customers include JSC UzAuto Motors. SEC EX-99.1 (PPG press release 2006-06-29): PPG owned 50% of Dongju Industrial since 1985 and bought the remaining 50% in 2006 (Dongju = Korean automotive OEM/refinish/industrial coatings maker, plants Chon Ahn and Busan; https://www.sec.gov/Archives/edgar/data/79879/000119312506138741/dex991.htm) - i.e. today's PPG Industries (Korea) Ltd., Busan. Uz-DongJu TDS 'AHT-000 BASE COAT MEDIUM SOLID (METALLIC, MICA)' (https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf, RU, 2 p., created 2017-06-22): polyester-melamine 2C1B base coat for car bodies; thinner 'RHT-031 (Top Metallic Thinner)' 30-40 wt%; clear 'CLEAR VARNISH (ABT-000)'; applied wet-on-wet over ED and 'APU' primer surfacer; tool cleaning 'RCT-095A (New Cleaning Thinner)'; cure with clear 130 C x 30 min; Behr bells 24,000 rpm, 70-90 kV. Uz-DongJu online colour tool (uzdongju.uz/paint/auto.html) lists GM colour codes incl. GAZ and GAN next to its UDJ refinish codes."
+  },
+  "add_material_docs": [
+   {
+    "type": "TDS",
+    "title": "Uz-DongJu Paint (ROYAL PAINT) - Технические данные 'AHT-000 BASE COAT MEDIUM SOLID (METALLIC, MICA)'",
+    "url": "https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf",
+    "language": "ru",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 2 p., Russian, created 2017-06-22, linked from uzdongju.uz product page 'TOP METALLIC BASE'; 'AHT-000 BASE COAT MEDIUM SOLID ... на основе полиэфир-меламиновых смол, применяется для окраски кузовов автомобилей в комплекте с бесцветным лаком'; thinner RHT-031 (Top Metallic Thinner) 30-40 wt pct; 2C1B with CLEAR VARNISH (ABT-000); 130 C x 30 min; Behr bells 24,000 rpm, 70-90 kV; launched 1997. Same supplier and class as plant spec KR-ADM-407U, but generic base-coat line, not the colour-specific grade - equivalent. (MSDS link on the same page returns 404.)"
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "reason": "HTTP 404 (re-checked with curl 2026-10-29)"
+   }
+  ],
+  "notes": "Round4: supplier-level TDS found (Uz-DongJu AHT-000 base coat, Russian); no colour-specific TDS/SDS public. uzdongju.uz 'Top coat' category lists 0 products besides TOP METALLIC BASE / TOP SOLID COAT. Glasurit 53157504 MSDS URL is 404."
+ },
+ {
+  "id": 19,
+  "manufacturer_update": {
+   "manufacturer": "Uz-DongJu Paint Co. (ROYAL PAINT), Andijan region - local formulator of the Royal 2C1B base coat line on DongJu/PPG Korea technology",
+   "product_identified": "(G7G) BASE COAT ZEUS (KR-ADM-670U) - solvent-borne polyester-melamine 2C1B base coat of the Royal system (generic line AHT-000 Base Coat Medium Solid; colour-specific grade not published)",
+   "manufacturer_confidence": "medium",
+   "evidence": "uzdongju.uz/en/pages/about-us.html (fetched 2026-10-29): JV founded 1995 by DongJu Industrial Co. (KR) and UzAvtoSanoat, opened 1999; capacity 3,750 t/yr metal pretreatment products, 1,250 t/yr sealant, 2,500 t/yr automotive paints; 'main suppliers are NOROO Paint & Coatings Co., Ltd. and PPG Industries Korea Inc.'; customers include JSC UzAuto Motors. SEC EX-99.1 (PPG press release 2006-06-29): PPG owned 50% of Dongju Industrial since 1985 and bought the remaining 50% in 2006 (Dongju = Korean automotive OEM/refinish/industrial coatings maker, plants Chon Ahn and Busan; https://www.sec.gov/Archives/edgar/data/79879/000119312506138741/dex991.htm) - i.e. today's PPG Industries (Korea) Ltd., Busan. Uz-DongJu TDS 'AHT-000 BASE COAT MEDIUM SOLID (METALLIC, MICA)' (https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf, RU, 2 p., created 2017-06-22): polyester-melamine 2C1B base coat for car bodies; thinner 'RHT-031 (Top Metallic Thinner)' 30-40 wt%; clear 'CLEAR VARNISH (ABT-000)'; applied wet-on-wet over ED and 'APU' primer surfacer; tool cleaning 'RCT-095A (New Cleaning Thinner)'; cure with clear 130 C x 30 min; Behr bells 24,000 rpm, 70-90 kV. Uz-DongJu online colour tool (uzdongju.uz/paint/auto.html) lists GM colour codes incl. GAZ and GAN next to its UDJ refinish codes."
+  },
+  "add_material_docs": [
+   {
+    "type": "TDS",
+    "title": "Uz-DongJu Paint (ROYAL PAINT) - Технические данные 'AHT-000 BASE COAT MEDIUM SOLID (METALLIC, MICA)'",
+    "url": "https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf",
+    "language": "ru",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 2 p., Russian, created 2017-06-22, linked from uzdongju.uz product page 'TOP METALLIC BASE'; 'AHT-000 BASE COAT MEDIUM SOLID ... на основе полиэфир-меламиновых смол, применяется для окраски кузовов автомобилей в комплекте с бесцветным лаком'; thinner RHT-031 (Top Metallic Thinner) 30-40 wt pct; 2C1B with CLEAR VARNISH (ABT-000); 130 C x 30 min; Behr bells 24,000 rpm, 70-90 kV; launched 1997. Same supplier and class as plant spec KR-ADM-670U, but generic base-coat line, not the colour-specific grade - equivalent. (MSDS link on the same page returns 404.)"
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "reason": "HTTP 404 (re-checked with curl 2026-10-29)"
+   }
+  ],
+  "notes": "Round4: supplier-level TDS found (Uz-DongJu AHT-000 base coat, Russian); no colour-specific TDS/SDS public. uzdongju.uz 'Top coat' category lists 0 products besides TOP METALLIC BASE / TOP SOLID COAT. Glasurit 53157504 MSDS URL is 404."
+ },
+ {
+  "id": 20,
+  "manufacturer_update": {
+   "manufacturer": "Uz-DongJu Paint Co. (ROYAL PAINT), Andijan region - local formulator of the Royal 2C1B base coat line on DongJu/PPG Korea technology",
+   "product_identified": "(GZ8) BASE COAT SOME KINDA BLUE (KR-ADM-512U) - solvent-borne polyester-melamine 2C1B base coat of the Royal system (generic line AHT-000 Base Coat Medium Solid; colour-specific grade not published)",
+   "manufacturer_confidence": "medium",
+   "evidence": "uzdongju.uz/en/pages/about-us.html (fetched 2026-10-29): JV founded 1995 by DongJu Industrial Co. (KR) and UzAvtoSanoat, opened 1999; capacity 3,750 t/yr metal pretreatment products, 1,250 t/yr sealant, 2,500 t/yr automotive paints; 'main suppliers are NOROO Paint & Coatings Co., Ltd. and PPG Industries Korea Inc.'; customers include JSC UzAuto Motors. SEC EX-99.1 (PPG press release 2006-06-29): PPG owned 50% of Dongju Industrial since 1985 and bought the remaining 50% in 2006 (Dongju = Korean automotive OEM/refinish/industrial coatings maker, plants Chon Ahn and Busan; https://www.sec.gov/Archives/edgar/data/79879/000119312506138741/dex991.htm) - i.e. today's PPG Industries (Korea) Ltd., Busan. Uz-DongJu TDS 'AHT-000 BASE COAT MEDIUM SOLID (METALLIC, MICA)' (https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf, RU, 2 p., created 2017-06-22): polyester-melamine 2C1B base coat for car bodies; thinner 'RHT-031 (Top Metallic Thinner)' 30-40 wt%; clear 'CLEAR VARNISH (ABT-000)'; applied wet-on-wet over ED and 'APU' primer surfacer; tool cleaning 'RCT-095A (New Cleaning Thinner)'; cure with clear 130 C x 30 min; Behr bells 24,000 rpm, 70-90 kV. Uz-DongJu online colour tool (uzdongju.uz/paint/auto.html) lists GM colour codes incl. GAZ and GAN next to its UDJ refinish codes."
+  },
+  "add_material_docs": [
+   {
+    "type": "TDS",
+    "title": "Uz-DongJu Paint (ROYAL PAINT) - Технические данные 'AHT-000 BASE COAT MEDIUM SOLID (METALLIC, MICA)'",
+    "url": "https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf",
+    "language": "ru",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 2 p., Russian, created 2017-06-22, linked from uzdongju.uz product page 'TOP METALLIC BASE'; 'AHT-000 BASE COAT MEDIUM SOLID ... на основе полиэфир-меламиновых смол, применяется для окраски кузовов автомобилей в комплекте с бесцветным лаком'; thinner RHT-031 (Top Metallic Thinner) 30-40 wt pct; 2C1B with CLEAR VARNISH (ABT-000); 130 C x 30 min; Behr bells 24,000 rpm, 70-90 kV; launched 1997. Same supplier and class as plant spec KR-ADM-512U, but generic base-coat line, not the colour-specific grade - equivalent. (MSDS link on the same page returns 404.)"
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "reason": "HTTP 404 (re-checked with curl 2026-10-29)"
+   }
+  ],
+  "notes": "Round4: supplier-level TDS found (Uz-DongJu AHT-000 base coat, Russian); no colour-specific TDS/SDS public. uzdongju.uz 'Top coat' category lists 0 products besides TOP METALLIC BASE / TOP SOLID COAT. Glasurit 53157504 MSDS URL is 404."
+ },
+ {
+  "id": 21,
+  "manufacturer_update": {
+   "manufacturer": "Uz-DongJu Paint Co. (ROYAL PAINT), Andijan region - local formulator of the Royal 2C1B base coat line on DongJu/PPG Korea technology",
+   "product_identified": "(G5J) BASE COAT DARKMOON BLUE (KR-ADM-513U) - solvent-borne polyester-melamine 2C1B base coat of the Royal system (generic line AHT-000 Base Coat Medium Solid; colour-specific grade not published)",
+   "manufacturer_confidence": "medium",
+   "evidence": "uzdongju.uz/en/pages/about-us.html (fetched 2026-10-29): JV founded 1995 by DongJu Industrial Co. (KR) and UzAvtoSanoat, opened 1999; capacity 3,750 t/yr metal pretreatment products, 1,250 t/yr sealant, 2,500 t/yr automotive paints; 'main suppliers are NOROO Paint & Coatings Co., Ltd. and PPG Industries Korea Inc.'; customers include JSC UzAuto Motors. SEC EX-99.1 (PPG press release 2006-06-29): PPG owned 50% of Dongju Industrial since 1985 and bought the remaining 50% in 2006 (Dongju = Korean automotive OEM/refinish/industrial coatings maker, plants Chon Ahn and Busan; https://www.sec.gov/Archives/edgar/data/79879/000119312506138741/dex991.htm) - i.e. today's PPG Industries (Korea) Ltd., Busan. Uz-DongJu TDS 'AHT-000 BASE COAT MEDIUM SOLID (METALLIC, MICA)' (https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf, RU, 2 p., created 2017-06-22): polyester-melamine 2C1B base coat for car bodies; thinner 'RHT-031 (Top Metallic Thinner)' 30-40 wt%; clear 'CLEAR VARNISH (ABT-000)'; applied wet-on-wet over ED and 'APU' primer surfacer; tool cleaning 'RCT-095A (New Cleaning Thinner)'; cure with clear 130 C x 30 min; Behr bells 24,000 rpm, 70-90 kV. Uz-DongJu online colour tool (uzdongju.uz/paint/auto.html) lists GM colour codes incl. GAZ and GAN next to its UDJ refinish codes."
+  },
+  "add_material_docs": [
+   {
+    "type": "TDS",
+    "title": "Uz-DongJu Paint (ROYAL PAINT) - Технические данные 'AHT-000 BASE COAT MEDIUM SOLID (METALLIC, MICA)'",
+    "url": "https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf",
+    "language": "ru",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 2 p., Russian, created 2017-06-22, linked from uzdongju.uz product page 'TOP METALLIC BASE'; 'AHT-000 BASE COAT MEDIUM SOLID ... на основе полиэфир-меламиновых смол, применяется для окраски кузовов автомобилей в комплекте с бесцветным лаком'; thinner RHT-031 (Top Metallic Thinner) 30-40 wt pct; 2C1B with CLEAR VARNISH (ABT-000); 130 C x 30 min; Behr bells 24,000 rpm, 70-90 kV; launched 1997. Same supplier and class as plant spec KR-ADM-513U, but generic base-coat line, not the colour-specific grade - equivalent. (MSDS link on the same page returns 404.)"
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "reason": "HTTP 404 (re-checked with curl 2026-10-29)"
+   }
+  ],
+  "notes": "Round4: supplier-level TDS found (Uz-DongJu AHT-000 base coat, Russian); no colour-specific TDS/SDS public. uzdongju.uz 'Top coat' category lists 0 products besides TOP METALLIC BASE / TOP SOLID COAT. Glasurit 53157504 MSDS URL is 404."
+ },
+ {
+  "id": 22,
+  "manufacturer_update": {
+   "manufacturer": "Uz-DongJu Paint Co. (ROYAL PAINT), Andijan region - local formulator of the Royal 2C1B base coat line on DongJu/PPG Korea technology",
+   "product_identified": "(G4V) BASE COAT POW ZINGA MET-3 (KR-ADM-580U) - solvent-borne polyester-melamine 2C1B base coat of the Royal system (generic line AHT-000 Base Coat Medium Solid; colour-specific grade not published)",
+   "manufacturer_confidence": "medium",
+   "evidence": "uzdongju.uz/en/pages/about-us.html (fetched 2026-10-29): JV founded 1995 by DongJu Industrial Co. (KR) and UzAvtoSanoat, opened 1999; capacity 3,750 t/yr metal pretreatment products, 1,250 t/yr sealant, 2,500 t/yr automotive paints; 'main suppliers are NOROO Paint & Coatings Co., Ltd. and PPG Industries Korea Inc.'; customers include JSC UzAuto Motors. SEC EX-99.1 (PPG press release 2006-06-29): PPG owned 50% of Dongju Industrial since 1985 and bought the remaining 50% in 2006 (Dongju = Korean automotive OEM/refinish/industrial coatings maker, plants Chon Ahn and Busan; https://www.sec.gov/Archives/edgar/data/79879/000119312506138741/dex991.htm) - i.e. today's PPG Industries (Korea) Ltd., Busan. Uz-DongJu TDS 'AHT-000 BASE COAT MEDIUM SOLID (METALLIC, MICA)' (https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf, RU, 2 p., created 2017-06-22): polyester-melamine 2C1B base coat for car bodies; thinner 'RHT-031 (Top Metallic Thinner)' 30-40 wt%; clear 'CLEAR VARNISH (ABT-000)'; applied wet-on-wet over ED and 'APU' primer surfacer; tool cleaning 'RCT-095A (New Cleaning Thinner)'; cure with clear 130 C x 30 min; Behr bells 24,000 rpm, 70-90 kV. Uz-DongJu online colour tool (uzdongju.uz/paint/auto.html) lists GM colour codes incl. GAZ and GAN next to its UDJ refinish codes."
+  },
+  "add_material_docs": [
+   {
+    "type": "TDS",
+    "title": "Uz-DongJu Paint (ROYAL PAINT) - Технические данные 'AHT-000 BASE COAT MEDIUM SOLID (METALLIC, MICA)'",
+    "url": "https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf",
+    "language": "ru",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 2 p., Russian, created 2017-06-22, linked from uzdongju.uz product page 'TOP METALLIC BASE'; 'AHT-000 BASE COAT MEDIUM SOLID ... на основе полиэфир-меламиновых смол, применяется для окраски кузовов автомобилей в комплекте с бесцветным лаком'; thinner RHT-031 (Top Metallic Thinner) 30-40 wt pct; 2C1B with CLEAR VARNISH (ABT-000); 130 C x 30 min; Behr bells 24,000 rpm, 70-90 kV; launched 1997. Same supplier and class as plant spec KR-ADM-580U, but generic base-coat line, not the colour-specific grade - equivalent. (MSDS link on the same page returns 404.)"
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "reason": "HTTP 404 (re-checked with curl 2026-10-29)"
+   }
+  ],
+  "notes": "Round4: supplier-level TDS found (Uz-DongJu AHT-000 base coat, Russian); no colour-specific TDS/SDS public. uzdongju.uz 'Top coat' category lists 0 products besides TOP METALLIC BASE / TOP SOLID COAT. Glasurit 53157504 MSDS URL is 404."
+ },
+ {
+  "id": 23,
+  "manufacturer_update": {
+   "manufacturer": "Uz-DongJu Paint Co. (ROYAL PAINT), Andijan region - 'RHT-031 Top Metallic Thinner' of the DongJu/PPG Korea Royal thinner system",
+   "product_identified": "BASE TYPE THINNER KR-RHT-031 = RHT-031 Top Metallic Thinner (reducer documented for the Royal AHT-000 base coat; plant uses it for its KR-ADM/KR-MC base coats)",
+   "manufacturer_confidence": "high",
+   "evidence": "Exact code match: plant spec KR-RHT-031 = 'RHT-031 (Top Metallic Thinner)' named as the reducer (30-40 wt%) in Uz-DongJu's own AHT-000 base-coat TDS. Uz-DongJu TDS 'AHT-000 BASE COAT MEDIUM SOLID (METALLIC, MICA)' (https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf, RU, 2 p., created 2017-06-22): polyester-melamine 2C1B base coat for car bodies; thinner 'RHT-031 (Top Metallic Thinner)' 30-40 wt%; clear 'CLEAR VARNISH (ABT-000)'; applied wet-on-wet over ED and 'APU' primer surfacer; tool cleaning 'RCT-095A (New Cleaning Thinner)'; cure with clear 130 C x 30 min; Behr bells 24,000 rpm, 70-90 kV. PPG public SDS portal (https://buyat.ppg.com/EHSDocumentManagerPublic/documentSearch.aspx) shows PPG Industries (Korea) Ltd. thinner codes 'KR-R?T-nnn' incl. 'ROYAL' names (ROYAL THINNER RBT-010D = KR-RBT-010D; ROYALMEL THINNER = KR-RAT-024; ROYALTHANE THINNER = KR-RUT-085; ROYALPOX THINNER = KR-RET-045; ESTA CLEANING THINNER (G.I.) = KR-RCT-095GI), the same code system as the plant specs KR-RHT-031/051, KR-RBT-029 and as Uz-DongJu's RHT-031/RCT-095A ('Royal' = DongJu brand, cf. Uz-DongJu 'ROYAL PAINT'). PPG Korea also issues SDS for 'DJ-' intermix pastes, resins and solvents shipped to Uzbekistan (codes .../UZ/...), indicating that Uz-DongJu formulates locally from PPG Korea intermediates. uzdongju.uz/en/pages/about-us.html (fetched 2026-10-29): JV founded 1995 by DongJu Industrial Co. (KR) and UzAvtoSanoat, opened 1999; capacity 3,750 t/yr metal pretreatment products, 1,250 t/yr sealant, 2,500 t/yr automotive paints; 'main suppliers are NOROO Paint & Coatings Co., Ltd. and PPG Industries Korea Inc.'; customers include JSC UzAuto Motors. SEC EX-99.1 (PPG press release 2006-06-29): PPG owned 50% of Dongju Industrial since 1985 and bought the remaining 50% in 2006 (Dongju = Korean automotive OEM/refinish/industrial coatings maker, plants Chon Ahn and Busan; https://www.sec.gov/Archives/edgar/data/79879/000119312506138741/dex991.htm) - i.e. today's PPG Industries (Korea) Ltd., Busan."
+  },
+  "add_material_docs": [
+   {
+    "type": "TDS",
+    "title": "Uz-DongJu Paint (ROYAL PAINT) - TDS 'AHT-000 BASE COAT MEDIUM SOLID' (names RHT-031 Top Metallic Thinner)",
+    "url": "https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf",
+    "language": "ru",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 2 p., Russian, 2017; 'Разбавитель RHT-031 (Top Metallic Thinner) / Разбавление (вес %) 30-40 %'. NOT the thinner's own passport: companion base-coat TDS that identifies the exact code KR-RHT-031 (item 23) and its use; no separate RHT-031 TDS/SDS is public."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": "Round4: identity of KR-RHT-031 resolved (Royal 'Top Metallic Thinner'); no own SDS/TDS public. Reference TDS added with explicit caveat."
+ },
+ {
+  "id": 24,
+  "manufacturer_update": {
+   "manufacturer": "Uz-DongJu Paint Co. (ROYAL PAINT), Andijan region - Royal 'ABT' clear line on DongJu/PPG Korea technology",
+   "product_identified": "TOP CLEAR HITEC 2000 (KR-ABT-600U) - 1K solvent-borne melamine-cured top clear of the Royal system ('CLEAR VARNISH (ABT-000)' family); trade name HITEC 2000 not published",
+   "manufacturer_confidence": "medium",
+   "evidence": "Uz-DongJu TDS 'AHT-000 BASE COAT MEDIUM SOLID (METALLIC, MICA)' (https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf, RU, 2 p., created 2017-06-22): polyester-melamine 2C1B base coat for car bodies; thinner 'RHT-031 (Top Metallic Thinner)' 30-40 wt%; clear 'CLEAR VARNISH (ABT-000)'; applied wet-on-wet over ED and 'APU' primer surfacer; tool cleaning 'RCT-095A (New Cleaning Thinner)'; cure with clear 130 C x 30 min; Behr bells 24,000 rpm, 70-90 kV. uzdongju.uz/en/pages/about-us.html (fetched 2026-10-29): JV founded 1995 by DongJu Industrial Co. (KR) and UzAvtoSanoat, opened 1999; capacity 3,750 t/yr metal pretreatment products, 1,250 t/yr sealant, 2,500 t/yr automotive paints; 'main suppliers are NOROO Paint & Coatings Co., Ltd. and PPG Industries Korea Inc.'; customers include JSC UzAuto Motors. SEC EX-99.1 (PPG press release 2006-06-29): PPG owned 50% of Dongju Industrial since 1985 and bought the remaining 50% in 2006 (Dongju = Korean automotive OEM/refinish/industrial coatings maker, plants Chon Ahn and Busan; https://www.sec.gov/Archives/edgar/data/79879/000119312506138741/dex991.htm) - i.e. today's PPG Industries (Korea) Ltd., Busan. PPG portal: no 'HITEC 2000'; PPG Asian Paints uses 'HITECH' for 1K/refinish clears (1K HITECH CLEAR, CLASSIC HITECH 1000 CLEAR) - name similarity only."
+  },
+  "add_material_docs": [
+   {
+    "type": "TDS",
+    "title": "Uz-DongJu Paint (ROYAL PAINT) - TDS 'AHT-000 BASE COAT MEDIUM SOLID' (2C1B system with CLEAR VARNISH ABT-000)",
+    "url": "https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf",
+    "language": "ru",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 2 p., Russian, 2017; 'Второй слой: Лак - CLEAR VARNISH (ABT-000)'; system cure 130 C x 30 min. System reference for the ABT clear family of plant spec KR-ABT-600U; not the clear's own passport."
+   },
+   {
+    "type": "SDS",
+    "title": "PPG 1K HITECH CLEAR 18 KG - Safety Data Sheet (GHS, India), product code 37520000493, v9.02, 25 Aug 2025",
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=68acba62ff5ec3fc0000&id=68acba6dffb2ef5d0001",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 15 p.; 'Product code: 37520000493 / Product name: 1K HITECH CLEAR 18 KG / Product use: Coating, industrial'; PPG Asian Paints; butylated melamine-formaldehyde resin 10-<20%, aromatic naphtha, butanol, HALS (bis-pentamethylpiperidyl sebacate) = 1K melamine-cured clear, same chemistry class as an OEM 1K top clear. NOT proven identical to HITEC 2000."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": "Round4: no exact HITEC 2000 document; ABT clear family identified via Uz-DongJu TDS; PPG India 1K melamine clear added as chemistry-class equivalent."
+ },
+ {
+  "id": 25,
+  "manufacturer_update": {
+   "manufacturer": "Uz-DongJu Paint Co. (ROYAL PAINT) / PPG Industries (Korea) Ltd. - Royal 'RBT' thinner family",
+   "product_identified": "CLEAR THINNER KR-RBT-029 - RBT-series Royal thinner (PPG Korea lists ROYAL THINNER RBT-010D, ACMEL Electrostatic Thinner RBT-022, BCA RBT-032); RBT-029 itself not public",
+   "manufacturer_confidence": "medium",
+   "evidence": "PPG public SDS portal (https://buyat.ppg.com/EHSDocumentManagerPublic/documentSearch.aspx) shows PPG Industries (Korea) Ltd. thinner codes 'KR-R?T-nnn' incl. 'ROYAL' names (ROYAL THINNER RBT-010D = KR-RBT-010D; ROYALMEL THINNER = KR-RAT-024; ROYALTHANE THINNER = KR-RUT-085; ROYALPOX THINNER = KR-RET-045; ESTA CLEANING THINNER (G.I.) = KR-RCT-095GI), the same code system as the plant specs KR-RHT-031/051, KR-RBT-029 and as Uz-DongJu's RHT-031/RCT-095A ('Royal' = DongJu brand, cf. Uz-DongJu 'ROYAL PAINT'). PPG Korea also issues SDS for 'DJ-' intermix pastes, resins and solvents shipped to Uzbekistan (codes .../UZ/...), indicating that Uz-DongJu formulates locally from PPG Korea intermediates. uzdongju.uz/en/pages/about-us.html (fetched 2026-10-29): JV founded 1995 by DongJu Industrial Co. (KR) and UzAvtoSanoat, opened 1999; capacity 3,750 t/yr metal pretreatment products, 1,250 t/yr sealant, 2,500 t/yr automotive paints; 'main suppliers are NOROO Paint & Coatings Co., Ltd. and PPG Industries Korea Inc.'; customers include JSC UzAuto Motors. SEC EX-99.1 (PPG press release 2006-06-29): PPG owned 50% of Dongju Industrial since 1985 and bought the remaining 50% in 2006 (Dongju = Korean automotive OEM/refinish/industrial coatings maker, plants Chon Ahn and Busan; https://www.sec.gov/Archives/edgar/data/79879/000119312506138741/dex991.htm) - i.e. today's PPG Industries (Korea) Ltd., Busan."
+  },
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "PPG Industries (Korea) 'ROYAL THINNER RBT-010D' KR-RBT-010D/D/18L - SDS (Korea GHS, English), v10.02, 11 Jul 2026",
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=6a522a243737c30c0000&id=6a522a253738c36a0001",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 14 p.; 'A. Product name: ROYAL THINNER RBT-010D / Product code: KR-RBT-010D/D/18L / Use: Coating. Paint. Painting-related materials'; PPG Industries (Korea) Ltd., Busan; toluene 50-<60%, VM&P naphtha 40-<50%, heptane 5-<10%, n-hexane 1-<5%. Same RBT code family as plant KR-RBT-029, different grade - equivalent."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [],
+  "notes": "Round4: code family resolved (Royal RBT thinners, PPG Korea/DongJu); RBT-029 SDS not public."
+ },
+ {
+  "id": 26,
+  "manufacturer_update": {
+   "manufacturer": "Uz-DongJu Paint Co. (ROYAL PAINT), Andijan region - 'RHT-031 Top Metallic Thinner' of the DongJu/PPG Korea Royal thinner system",
+   "product_identified": "CLEANING THINNER KR-RHT-031 = the same RHT-031 Top Metallic Thinner used for line/atomizer cleaning (Uz-DongJu's dedicated tool-cleaning thinner is RCT-095A 'New Cleaning Thinner')",
+   "manufacturer_confidence": "high",
+   "evidence": "Exact code match: plant spec KR-RHT-031 = 'RHT-031 (Top Metallic Thinner)' named as the reducer (30-40 wt%) in Uz-DongJu's own AHT-000 base-coat TDS. Uz-DongJu TDS 'AHT-000 BASE COAT MEDIUM SOLID (METALLIC, MICA)' (https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf, RU, 2 p., created 2017-06-22): polyester-melamine 2C1B base coat for car bodies; thinner 'RHT-031 (Top Metallic Thinner)' 30-40 wt%; clear 'CLEAR VARNISH (ABT-000)'; applied wet-on-wet over ED and 'APU' primer surfacer; tool cleaning 'RCT-095A (New Cleaning Thinner)'; cure with clear 130 C x 30 min; Behr bells 24,000 rpm, 70-90 kV. PPG public SDS portal (https://buyat.ppg.com/EHSDocumentManagerPublic/documentSearch.aspx) shows PPG Industries (Korea) Ltd. thinner codes 'KR-R?T-nnn' incl. 'ROYAL' names (ROYAL THINNER RBT-010D = KR-RBT-010D; ROYALMEL THINNER = KR-RAT-024; ROYALTHANE THINNER = KR-RUT-085; ROYALPOX THINNER = KR-RET-045; ESTA CLEANING THINNER (G.I.) = KR-RCT-095GI), the same code system as the plant specs KR-RHT-031/051, KR-RBT-029 and as Uz-DongJu's RHT-031/RCT-095A ('Royal' = DongJu brand, cf. Uz-DongJu 'ROYAL PAINT'). PPG Korea also issues SDS for 'DJ-' intermix pastes, resins and solvents shipped to Uzbekistan (codes .../UZ/...), indicating that Uz-DongJu formulates locally from PPG Korea intermediates. uzdongju.uz/en/pages/about-us.html (fetched 2026-10-29): JV founded 1995 by DongJu Industrial Co. (KR) and UzAvtoSanoat, opened 1999; capacity 3,750 t/yr metal pretreatment products, 1,250 t/yr sealant, 2,500 t/yr automotive paints; 'main suppliers are NOROO Paint & Coatings Co., Ltd. and PPG Industries Korea Inc.'; customers include JSC UzAuto Motors. SEC EX-99.1 (PPG press release 2006-06-29): PPG owned 50% of Dongju Industrial since 1985 and bought the remaining 50% in 2006 (Dongju = Korean automotive OEM/refinish/industrial coatings maker, plants Chon Ahn and Busan; https://www.sec.gov/Archives/edgar/data/79879/000119312506138741/dex991.htm) - i.e. today's PPG Industries (Korea) Ltd., Busan."
+  },
+  "add_material_docs": [
+   {
+    "type": "TDS",
+    "title": "Uz-DongJu Paint (ROYAL PAINT) - TDS 'AHT-000 BASE COAT MEDIUM SOLID' (names RHT-031 Top Metallic Thinner)",
+    "url": "https://uzdongju.uz/uploads/docs/products/top-metallic-base_tds.pdf",
+    "language": "ru",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 2 p., Russian, 2017; 'Разбавитель RHT-031 (Top Metallic Thinner) / Разбавление (вес %) 30-40 %'. NOT the thinner's own passport: companion base-coat TDS that identifies the exact code KR-RHT-031 (item 26) and its use; no separate RHT-031 TDS/SDS is public."
+   },
+   {
+    "type": "SDS",
+    "title": "PPG Industries (Korea) 'ESTA CLEANING THINNER (G.I.)' KR-RCT-095GI/D/200L - SDS (Korea GHS, English), v17, 11 Jul 2026",
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=6a522b7a5324f9030000&id=6a522b7a5325f9410001",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: PDF 16 p.; 'Product name: ESTA CLEANING THINNER (G.I.) / Product code: KR-RCT-095GI/D/200L'; PPG Industries (Korea) Ltd.; xylene 30-<40%, toluene 20-<30%, acetone 10-<20%, MIBK 10-<20%. Same RCT-095 cleaning-thinner code as Uz-DongJu's 'RCT-095A (New Cleaning Thinner)'; plant uses RHT-031 for cleaning, so equivalent only."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://www.eastman.com/Literature_Center/S/SOL032.pdf",
+    "reason": "HTTP 404 (re-checked with curl 2026-10-29)"
+   }
+  ],
+  "notes": "Round4: same code as item 23 (RHT-031). Added PPG Korea cleaning thinner SDS of the same R-code family as equivalent. Eastman SOL032 URL is 404; DTSC 403 is likely bot-blocking (not removed)."
+ }
+]

@@ -1,0 +1,1537 @@
+[
+ {
+  "id": 1,
+  "manufacturer_update": {
+   "manufacturer": "PPG Industries (CHEMFOS pretreatment brand; SDS issued by PPG Asian Paints Pvt Ltd, India)",
+   "product_identified": "CHEMFOS 740R L CLEAR (PPG product code 66830000336) - zinc/nickel phosphate pretreatment concentrate (replenisher; companion make-up product CHEMFOS 740M L CLEAR, 66820000336)",
+   "manufacturer_confidence": "high",
+   "evidence": "PPG EHS Document Manager (buyat.ppg.com) name search 'CHEMFOS 74' returns CHEMFOS 740R L CLEAR (66830000336) and CHEMFOS 740M L CLEAR; downloaded English SDS v2.03 (25 Aug 2025) states 'Product name: CHEMFOS 740R L CLEAR ... Product use: Pretreatment mixture'; composition phosphoric acid 20-<25%, zinc oxide 5-<10%, nickel nitrate 3-<5%, nitric acid, KF, H2SO4. Plant name 'CHEMFOS # 740R' matches; plant spec KR-JFR-740 not printed in the SDS."
+  },
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "PPG CHEMFOS 700HNR (CF700HNR) Safety Data Sheet, US GHS, v16, 23 Dec 2025 (PPG Pretreatment and Specialty Products) - official PPG SDS portal",
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=694aed1d6f2ead8c0000&id=694aed1d6f2fae380001",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 15 pp; \"SAFETY DATA SHEET ... Date of issue/Date of revision 23 December 2025 Version 16 ... Product name : CHEMFOS 700HNR  Product code : CF700HNR ... Manufacturer : Pretreatment and Specialty Products, Euclid, OH\"; Sec.3: zinc bis(dihydrogen phosphate) 10-30%, manganese bis(dihydrogen phosphate) 7-13%, zinc nitrate 7-13%, phosphoric acid 3-7%, nickel dinitrate 1-5% (tricationic Zn/Mn/Ni). Same product as the removed Charlotte Pipe copy (v8, 2017), newer revision, on PPG's own host (buyat.ppg.com EHS Document Manager, US GHS row for CF700HNR)."
+   },
+   {
+    "type": "SDS",
+    "title": "PPG CHEMFOS 740R L CLEAR (product code 66830000336) Safety Data Sheet, GHS UN rev.7, v2.03, 25 Aug 2025, English (PPG Asian Paints Pvt Ltd, India) - official PPG SDS portal",
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=68acd046018f6b500000&id=68acd0510244956d0001",
+    "language": "en",
+    "exact_or_equivalent": "exact",
+    "verified": true,
+    "note": "evidence: %PDF, 13 pp; \"SAFETY DATA SHEET ... GHS UN rev. 7 ... 25 August 2025 Version 2.03 ... Product code : 66830000336  Product name : CHEMFOS 740R L CLEAR ... Product use : Pretreatment mixture, Industrial applications ... Supplier: PPG Asian Paints Private Limited, Mumbai\"; Sec.3: phosphoric acid 20-<25%, zinc oxide 5-<10%, nickel nitrate hexahydrate 3-<5%, nitric acid 1-<3%, potassium fluoride 1-<3%, sulphuric acid 1-<3% (Zn/Ni phosphate pretreatment concentrate). Found via PPG portal name search \"CHEMFOS 74\": CHEMFOS 740R L CLEAR (and companion 740M L CLEAR, 66820000336) - the only 740R product; a French EU-REACH edition (v2.01, 2022) and a Hindi edition also exist there. Bonus find while fixing the CHEMFOS SDS link."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://www.charlottepipe.com/Documents/SDS/SDS_ECOAT_PRE.pdf",
+    "reason": "HTTP 404 - Charlotte Pipe reorganised its documents (technical-hub); the file is gone. Same product (CHEMFOS 700HNR) now taken from PPG's own SDS portal (newer revision v16, 2025)."
+   }
+  ],
+  "notes": "Failed Charlotte Pipe CHEMFOS 700HNR SDS replaced by the PPG-hosted CF700HNR SDS (v16, 2025). Bonus: PPG's SDS portal has the EXACT product \"CHEMFOS 740R L CLEAR\" (66830000336) - English SDS added as exact, manufacturer_update proposed (high)."
+ },
+ {
+  "id": 2,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "PPG POWERCRON RESIN CR686A Safety Data Sheet, US GHS, v7, 23 Dec 2025 (PPG Industries) - official PPG SDS portal",
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=694b08f064935d1e0000&id=694b08f364a068420001",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 11 pp; \"SAFETY DATA SHEET ... 23 December 2025 Version 7 ... Product name : POWERCRON RESIN  Product code : CR686A ... Manufacturer : PPG Industries, Inc., One PPG Place, Pittsburgh\". Supersedes the removed v6 (2020) Charlotte Pipe copy; same revision as the Charlotte Pipe copy already in the catalog (SDS-CR686A-Resin.pdf), but on PPG's own host."
+   },
+   {
+    "type": "brochure",
+    "title": "Axalta AquaEC Electrocoat Primers brochure \"Electrodeposition Coatings - Innovative Solutions for E-Coat Needs\" (2020)",
+    "url": "https://www.axalta.com/content/dam/New%20Axalta%20Corporate%20Website/Documents/AquaEC_Brochure_Final.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 4 pp, created 2020-04-15; \"Electrodeposition Coatings / Innovative Solutions for E-Coat Needs / Axalta AquaEC Electrocoat Primers ... In 2014, our brands CorMax and ElectroShield were re-branded as AquaEC\". Same file as the sustainability.axalta.com copy (that host has an expired TLS certificate - not bypassed); served by www.axalta.com."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Controlled Power Company (Trystar)",
+    "model": "AACD / Series 50 e-coat rectifier",
+    "type": "brochure",
+    "title": "Trystar AACD Automatic Average Current Density - automatic rectifier voltage controller and paint usage optimization device for e-coat systems, brochure (Dec 2025)",
+    "url": "https://www.trystar.com/wp-content/uploads/document-library/AACD-Automatic-Average-Current-Density-Brochure.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 11 pp, created 2025-12-09; \"AACD Automatic Average Current Density - Automatic rectifier voltage controller and paint usage optimization device for e-coat systems ... The current density value for the electrocoating process is generally 2.5 amperes per square foot\". Current AACD brochure linked from trystar.com/product/aacd-automatic-average-current-density/ (old /wp-content/uploads/AACD_Brochure.pdf is 404)."
+   },
+   {
+    "vendor": "Controlled Power Company (Trystar)",
+    "model": "Series 50 e-coat rectifier (506 / 5012)",
+    "type": "brochure",
+    "title": "Trystar Series 50 Models 506 & 5012 - 6-pulse/12-pulse DC power supplies for electrocoating, brochure 0001BR1125 R0726 (2026)",
+    "url": "https://www.trystar.com/wp-content/uploads/document-library/Series_50_Brochure-0001BR1125-R0726.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 9 pp, created 2026-09-23; \"100V to 1000V DC 100A to 5000A DC / SERIES 50 MODELS 506 & 5012 / 6 Pulse and 12 Pulse DC Power Supplies for Electrocoating and Industrial DC Powered Systems / Applications: Electrocoating ...\". Current document-library revision linked from trystar.com/product/series-50-rectifier-100-v-1000-vdc-500-a-5000-a/ (old document-library/Series_50_Brochure.pdf is 404)."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://www.charlottepipe.com/Documents/SDS/SDS_CR686A.pdf",
+    "reason": "HTTP 404 - old v6 (2020) Charlotte Pipe copy removed; replaced by the current v7 (2025) SDS from PPG's own SDS portal."
+   },
+   {
+    "url": "https://basf-coatings.com/dam/jcr:1a65cb55-cef8-48fc-b779-e0ec5d09735a/basf/coatings/global/automotive-oem-coatings/e-coat/BASF-eCoat-eLeaflet_final-20240805-EN.pdf",
+    "reason": "HTTP 404 - BASF Coatings website was migrated to Surventis Coatings (basf-coatings.com now redirects to surventiscoatings.com); the 2024 eCoat eLeaflet was not carried over and no other official copy was found (Internet Archive rate-limited). No replacement added: same-class e-coat docs (BASF CathoGuard 580/800 RE ficha tecnica, Axalta AquaEC brochure/TDS) are already in the catalog."
+   },
+   {
+    "url": "https://sustainability.axalta.com/content/dam/New Axalta Corporate Website/Documents/AquaEC_Brochure_Final.pdf",
+    "reason": "TLS error - sustainability.axalta.com serves an expired certificate (not bypassed). Same file is served by www.axalta.com (URL-encoded spaces)."
+   },
+   {
+    "url": "https://www.trystar.com/wp-content/uploads/AACD_Brochure.pdf",
+    "reason": "HTTP 404 - file removed from trystar.com/wp-content/uploads/. Current AACD brochure is in the trystar.com document library (linked from the AACD product page)."
+   },
+   {
+    "url": "https://www.trystar.com/wp-content/uploads/document-library/Series_50_Brochure.pdf",
+    "reason": "HTTP 404 - document-library copy replaced by a revisioned file (0001BR1125-R0726) linked from the Series 50 product page."
+   }
+  ],
+  "notes": "CR686A SDS now from PPG portal (v7, 2025); Axalta AquaEC brochure re-pointed to www.axalta.com; Trystar AACD and Series 50 brochures re-pointed to current document-library files. BASF eCoat eLeaflet unrecoverable (BASF Coatings -> Surventis site migration)."
+ },
+ {
+  "id": 3,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "brochure",
+    "title": "Axalta AquaEC Electrocoat Primers brochure \"Electrodeposition Coatings - Innovative Solutions for E-Coat Needs\" (2020)",
+    "url": "https://www.axalta.com/content/dam/New%20Axalta%20Corporate%20Website/Documents/AquaEC_Brochure_Final.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 4 pp, created 2020-04-15; \"Electrodeposition Coatings / Innovative Solutions for E-Coat Needs / Axalta AquaEC Electrocoat Primers ... In 2014, our brands CorMax and ElectroShield were re-branded as AquaEC\". Same file as the sustainability.axalta.com copy (that host has an expired TLS certificate - not bypassed); served by www.axalta.com."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Controlled Power Company (Trystar)",
+    "model": "AACD / Series 50 e-coat rectifier",
+    "type": "brochure",
+    "title": "Trystar AACD Automatic Average Current Density - automatic rectifier voltage controller and paint usage optimization device for e-coat systems, brochure (Dec 2025)",
+    "url": "https://www.trystar.com/wp-content/uploads/document-library/AACD-Automatic-Average-Current-Density-Brochure.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 11 pp, created 2025-12-09; \"AACD Automatic Average Current Density - Automatic rectifier voltage controller and paint usage optimization device for e-coat systems ... The current density value for the electrocoating process is generally 2.5 amperes per square foot\". Current AACD brochure linked from trystar.com/product/aacd-automatic-average-current-density/ (old /wp-content/uploads/AACD_Brochure.pdf is 404)."
+   },
+   {
+    "vendor": "Controlled Power Company (Trystar)",
+    "model": "Series 50 e-coat rectifier (506 / 5012)",
+    "type": "brochure",
+    "title": "Trystar Series 50 Models 506 & 5012 - 6-pulse/12-pulse DC power supplies for electrocoating, brochure 0001BR1125 R0726 (2026)",
+    "url": "https://www.trystar.com/wp-content/uploads/document-library/Series_50_Brochure-0001BR1125-R0726.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 9 pp, created 2026-09-23; \"100V to 1000V DC 100A to 5000A DC / SERIES 50 MODELS 506 & 5012 / 6 Pulse and 12 Pulse DC Power Supplies for Electrocoating and Industrial DC Powered Systems / Applications: Electrocoating ...\". Current document-library revision linked from trystar.com/product/series-50-rectifier-100-v-1000-vdc-500-a-5000-a/ (old document-library/Series_50_Brochure.pdf is 404)."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://basf-coatings.com/dam/jcr:1a65cb55-cef8-48fc-b779-e0ec5d09735a/basf/coatings/global/automotive-oem-coatings/e-coat/BASF-eCoat-eLeaflet_final-20240805-EN.pdf",
+    "reason": "HTTP 404 - BASF Coatings website was migrated to Surventis Coatings (basf-coatings.com now redirects to surventiscoatings.com); the 2024 eCoat eLeaflet was not carried over and no other official copy was found (Internet Archive rate-limited). No replacement added: same-class e-coat docs (BASF CathoGuard 580/800 RE ficha tecnica, Axalta AquaEC brochure/TDS) are already in the catalog."
+   },
+   {
+    "url": "https://sustainability.axalta.com/content/dam/New Axalta Corporate Website/Documents/AquaEC_Brochure_Final.pdf",
+    "reason": "TLS error - sustainability.axalta.com serves an expired certificate (not bypassed). Same file is served by www.axalta.com (URL-encoded spaces)."
+   },
+   {
+    "url": "https://www.trystar.com/wp-content/uploads/AACD_Brochure.pdf",
+    "reason": "HTTP 404 - file removed from trystar.com/wp-content/uploads/. Current AACD brochure is in the trystar.com document library (linked from the AACD product page)."
+   },
+   {
+    "url": "https://www.trystar.com/wp-content/uploads/document-library/Series_50_Brochure.pdf",
+    "reason": "HTTP 404 - document-library copy replaced by a revisioned file (0001BR1125-R0726) linked from the Series 50 product page."
+   }
+  ],
+  "notes": "Axalta AquaEC brochure re-pointed to www.axalta.com; Trystar AACD and Series 50 brochures re-pointed to current files. BASF eCoat eLeaflet unrecoverable."
+ },
+ {
+  "id": 4,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Graco",
+    "model": "E-Flo SP supply systems",
+    "type": "manual",
+    "title": "Graco E-Flo SP Supply Systems - Installation/Parts manual 3A6331EN rev. P (English)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6331EN.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 70 pp, pdf title \"3A6331EN-P, Manual, E-Flo SP Supply Systems, Instructions-Parts, English\", mod. 2026-01-08; \"E-Flo SP Supply Systems 3A6331P EN - For transferring or dispensing sealants, adhesives, or other medium to high viscosity fluids ... D200 3 inch dual post 200 liter (55 gallon) ... D200S 6.5 inch dual post\". gww.graco.com has an expired TLS certificate (not bypassed) and www.graco.com 3A6331EN-L is 404; the unsuffixed www.graco.com URL is the current revision P of the same manual."
+   },
+   {
+    "vendor": "Graco",
+    "model": "Check-Mate / Dura-Flo supply (ram) pumps for 1K sealants",
+    "type": "brochure",
+    "title": "Graco Sealant & Adhesive Equipment - (1K) Single Component Pumps and Packages catalog / Buyer's Guide and Specifications 336833 rev. B (English)",
+    "url": "https://www.graco.com/content/dam/graco/com_documents/336/336833/336833EN-B.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 140 pp; pdf title \"Single Component Catalog - Buyer's Guide and Specifications\"; \"336833B ... PUMPS AND PACKAGES SEALANT AND ADHESIVE EQUIPMENT ... (1K) Single Component ... Check-Mate 200/450/800/1000/2100, Dura-Flo 600-2400, Ram Pump Accessories ... What we concentrate on in this document are ram-fed pumps\". Same file as the gww.graco.com copy (expired certificate, not bypassed); www.graco.com/.../aftd/literature/catalogs/336833/336833EN-B.pdf redirects to this com_documents URL (checksums identical)."
+   },
+   {
+    "vendor": "Graco",
+    "model": "XL 10000 air motor (Dura-Flo / King / sealant supply pumps)",
+    "type": "manual",
+    "title": "Graco XL 10000 Air Motor - Instructions/Parts manual 334644EN rev. F (English)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334644/334644EN.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 26 pp, pdf title \"334644F, Manual, XL 10000 Air Motor, Instructions, Parts, English\", mod. 2025-01-29; \"XL 10000 Air Motor 334644F EN - For use with high output reciprocating Graco pumps ... Model 24X856 100 psi (0.7 MPa, 7 bar) Maximum Working Pressure\". Rev. D file was removed (404); unsuffixed URL = current rev. F of the same manual."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://www.huntsman.com/docs/Documents/Euretek-SelectorGuide-AdhesionPromoters.pdf",
+    "reason": "HTTP 404 - huntsman.com/docs/ now redirects to huntsman.knowde.store/documents (404); Knowde store not reachable/searchable; no other official copy found. Context-only raw-material guide - no replacement added."
+   },
+   {
+    "url": "https://gww.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6331EN-L.pdf",
+    "reason": "TLS error - gww.graco.com has an expired certificate (not bypassed); www.graco.com 3A6331EN-L is 404. Replaced by the current revision P of the same manual on www.graco.com."
+   },
+   {
+    "url": "https://gww.graco.com/content/dam/graco/aftd/literature/catalogs/336833/336833EN-B.pdf",
+    "reason": "TLS error - gww.graco.com has an expired certificate (not bypassed). Same catalog 336833EN-B is on www.graco.com (com_documents path)."
+   },
+   {
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334644/334644EN-D.pdf",
+    "reason": "HTTP 404 - revision D file removed from www.graco.com. Replaced by the current revision F of the same manual (334644EN.pdf)."
+   }
+  ],
+  "notes": "Graco gww.graco.com (expired cert) docs re-pointed to www.graco.com: 3A6331EN rev P, 336833EN-B catalog, 334644EN rev F. Huntsman Euretek guide unrecoverable (context-only)."
+ },
+ {
+  "id": 5,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Graco",
+    "model": "E-Flo SP supply systems",
+    "type": "manual",
+    "title": "Graco E-Flo SP Supply Systems - Installation/Parts manual 3A6331EN rev. P (English)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6331EN.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 70 pp, pdf title \"3A6331EN-P, Manual, E-Flo SP Supply Systems, Instructions-Parts, English\", mod. 2026-01-08; \"E-Flo SP Supply Systems 3A6331P EN - For transferring or dispensing sealants, adhesives, or other medium to high viscosity fluids ... D200 3 inch dual post 200 liter (55 gallon) ... D200S 6.5 inch dual post\". gww.graco.com has an expired TLS certificate (not bypassed) and www.graco.com 3A6331EN-L is 404; the unsuffixed www.graco.com URL is the current revision P of the same manual."
+   },
+   {
+    "vendor": "Graco",
+    "model": "Check-Mate / Dura-Flo supply (ram) pumps for 1K sealants",
+    "type": "brochure",
+    "title": "Graco Sealant & Adhesive Equipment - (1K) Single Component Pumps and Packages catalog / Buyer's Guide and Specifications 336833 rev. B (English)",
+    "url": "https://www.graco.com/content/dam/graco/com_documents/336/336833/336833EN-B.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 140 pp; pdf title \"Single Component Catalog - Buyer's Guide and Specifications\"; \"336833B ... PUMPS AND PACKAGES SEALANT AND ADHESIVE EQUIPMENT ... (1K) Single Component ... Check-Mate 200/450/800/1000/2100, Dura-Flo 600-2400, Ram Pump Accessories ... What we concentrate on in this document are ram-fed pumps\". Same file as the gww.graco.com copy (expired certificate, not bypassed); www.graco.com/.../aftd/literature/catalogs/336833/336833EN-B.pdf redirects to this com_documents URL (checksums identical)."
+   },
+   {
+    "vendor": "Graco",
+    "model": "XL 10000 air motor (Dura-Flo / King / sealant supply pumps)",
+    "type": "manual",
+    "title": "Graco XL 10000 Air Motor - Instructions/Parts manual 334644EN rev. F (English)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334644/334644EN.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 26 pp, pdf title \"334644F, Manual, XL 10000 Air Motor, Instructions, Parts, English\", mod. 2025-01-29; \"XL 10000 Air Motor 334644F EN - For use with high output reciprocating Graco pumps ... Model 24X856 100 psi (0.7 MPa, 7 bar) Maximum Working Pressure\". Rev. D file was removed (404); unsuffixed URL = current rev. F of the same manual."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://www.huntsman.com/docs/Documents/Euretek-SelectorGuide-AdhesionPromoters.pdf",
+    "reason": "HTTP 404 - huntsman.com/docs/ now redirects to huntsman.knowde.store/documents (404); Knowde store not reachable/searchable; no other official copy found. Context-only raw-material guide - no replacement added."
+   },
+   {
+    "url": "https://gww.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6331EN-L.pdf",
+    "reason": "TLS error - gww.graco.com has an expired certificate (not bypassed); www.graco.com 3A6331EN-L is 404. Replaced by the current revision P of the same manual on www.graco.com."
+   },
+   {
+    "url": "https://gww.graco.com/content/dam/graco/aftd/literature/catalogs/336833/336833EN-B.pdf",
+    "reason": "TLS error - gww.graco.com has an expired certificate (not bypassed). Same catalog 336833EN-B is on www.graco.com (com_documents path)."
+   },
+   {
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334644/334644EN-D.pdf",
+    "reason": "HTTP 404 - revision D file removed from www.graco.com. Replaced by the current revision F of the same manual (334644EN.pdf)."
+   }
+  ],
+  "notes": "Same Graco fixes as id 4; Huntsman Euretek guide unrecoverable."
+ },
+ {
+  "id": 6,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Graco",
+    "model": "E-Flo SP supply systems",
+    "type": "manual",
+    "title": "Graco E-Flo SP Supply Systems - Installation/Parts manual 3A6331EN rev. P (English)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6331EN.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 70 pp, pdf title \"3A6331EN-P, Manual, E-Flo SP Supply Systems, Instructions-Parts, English\", mod. 2026-01-08; \"E-Flo SP Supply Systems 3A6331P EN - For transferring or dispensing sealants, adhesives, or other medium to high viscosity fluids ... D200 3 inch dual post 200 liter (55 gallon) ... D200S 6.5 inch dual post\". gww.graco.com has an expired TLS certificate (not bypassed) and www.graco.com 3A6331EN-L is 404; the unsuffixed www.graco.com URL is the current revision P of the same manual."
+   },
+   {
+    "vendor": "Graco",
+    "model": "Check-Mate / Dura-Flo supply (ram) pumps for 1K sealants",
+    "type": "brochure",
+    "title": "Graco Sealant & Adhesive Equipment - (1K) Single Component Pumps and Packages catalog / Buyer's Guide and Specifications 336833 rev. B (English)",
+    "url": "https://www.graco.com/content/dam/graco/com_documents/336/336833/336833EN-B.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 140 pp; pdf title \"Single Component Catalog - Buyer's Guide and Specifications\"; \"336833B ... PUMPS AND PACKAGES SEALANT AND ADHESIVE EQUIPMENT ... (1K) Single Component ... Check-Mate 200/450/800/1000/2100, Dura-Flo 600-2400, Ram Pump Accessories ... What we concentrate on in this document are ram-fed pumps\". Same file as the gww.graco.com copy (expired certificate, not bypassed); www.graco.com/.../aftd/literature/catalogs/336833/336833EN-B.pdf redirects to this com_documents URL (checksums identical)."
+   },
+   {
+    "vendor": "Graco",
+    "model": "XL 10000 air motor (Dura-Flo / King / sealant supply pumps)",
+    "type": "manual",
+    "title": "Graco XL 10000 Air Motor - Instructions/Parts manual 334644EN rev. F (English)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334644/334644EN.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 26 pp, pdf title \"334644F, Manual, XL 10000 Air Motor, Instructions, Parts, English\", mod. 2025-01-29; \"XL 10000 Air Motor 334644F EN - For use with high output reciprocating Graco pumps ... Model 24X856 100 psi (0.7 MPa, 7 bar) Maximum Working Pressure\". Rev. D file was removed (404); unsuffixed URL = current rev. F of the same manual."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://www.huntsman.com/docs/Documents/Euretek-SelectorGuide-AdhesionPromoters.pdf",
+    "reason": "HTTP 404 - huntsman.com/docs/ now redirects to huntsman.knowde.store/documents (404); Knowde store not reachable/searchable; no other official copy found. Context-only raw-material guide - no replacement added."
+   },
+   {
+    "url": "https://gww.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6331EN-L.pdf",
+    "reason": "TLS error - gww.graco.com has an expired certificate (not bypassed); www.graco.com 3A6331EN-L is 404. Replaced by the current revision P of the same manual on www.graco.com."
+   },
+   {
+    "url": "https://gww.graco.com/content/dam/graco/aftd/literature/catalogs/336833/336833EN-B.pdf",
+    "reason": "TLS error - gww.graco.com has an expired certificate (not bypassed). Same catalog 336833EN-B is on www.graco.com (com_documents path)."
+   },
+   {
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334644/334644EN-D.pdf",
+    "reason": "HTTP 404 - revision D file removed from www.graco.com. Replaced by the current revision F of the same manual (334644EN.pdf)."
+   }
+  ],
+  "notes": "Same Graco fixes as id 4; Huntsman Euretek guide unrecoverable."
+ },
+ {
+  "id": 7,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Graco",
+    "model": "E-Flo SP supply systems",
+    "type": "manual",
+    "title": "Graco E-Flo SP Supply Systems - Installation/Parts manual 3A6331EN rev. P (English)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6331EN.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 70 pp, pdf title \"3A6331EN-P, Manual, E-Flo SP Supply Systems, Instructions-Parts, English\", mod. 2026-01-08; \"E-Flo SP Supply Systems 3A6331P EN - For transferring or dispensing sealants, adhesives, or other medium to high viscosity fluids ... D200 3 inch dual post 200 liter (55 gallon) ... D200S 6.5 inch dual post\". gww.graco.com has an expired TLS certificate (not bypassed) and www.graco.com 3A6331EN-L is 404; the unsuffixed www.graco.com URL is the current revision P of the same manual."
+   },
+   {
+    "vendor": "Graco",
+    "model": "Check-Mate / Dura-Flo supply (ram) pumps for 1K sealants",
+    "type": "brochure",
+    "title": "Graco Sealant & Adhesive Equipment - (1K) Single Component Pumps and Packages catalog / Buyer's Guide and Specifications 336833 rev. B (English)",
+    "url": "https://www.graco.com/content/dam/graco/com_documents/336/336833/336833EN-B.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 140 pp; pdf title \"Single Component Catalog - Buyer's Guide and Specifications\"; \"336833B ... PUMPS AND PACKAGES SEALANT AND ADHESIVE EQUIPMENT ... (1K) Single Component ... Check-Mate 200/450/800/1000/2100, Dura-Flo 600-2400, Ram Pump Accessories ... What we concentrate on in this document are ram-fed pumps\". Same file as the gww.graco.com copy (expired certificate, not bypassed); www.graco.com/.../aftd/literature/catalogs/336833/336833EN-B.pdf redirects to this com_documents URL (checksums identical)."
+   },
+   {
+    "vendor": "Graco",
+    "model": "XL 10000 air motor (Dura-Flo / King / sealant supply pumps)",
+    "type": "manual",
+    "title": "Graco XL 10000 Air Motor - Instructions/Parts manual 334644EN rev. F (English)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334644/334644EN.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 26 pp, pdf title \"334644F, Manual, XL 10000 Air Motor, Instructions, Parts, English\", mod. 2025-01-29; \"XL 10000 Air Motor 334644F EN - For use with high output reciprocating Graco pumps ... Model 24X856 100 psi (0.7 MPa, 7 bar) Maximum Working Pressure\". Rev. D file was removed (404); unsuffixed URL = current rev. F of the same manual."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://gww.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6331/3A6331EN-L.pdf",
+    "reason": "TLS error - gww.graco.com has an expired certificate (not bypassed); www.graco.com 3A6331EN-L is 404. Replaced by the current revision P of the same manual on www.graco.com."
+   },
+   {
+    "url": "https://gww.graco.com/content/dam/graco/aftd/literature/catalogs/336833/336833EN-B.pdf",
+    "reason": "TLS error - gww.graco.com has an expired certificate (not bypassed). Same catalog 336833EN-B is on www.graco.com (com_documents path)."
+   },
+   {
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334644/334644EN-D.pdf",
+    "reason": "HTTP 404 - revision D file removed from www.graco.com. Replaced by the current revision F of the same manual (334644EN.pdf)."
+   }
+  ],
+  "notes": "Same Graco fixes as id 4."
+ },
+ {
+  "id": 8,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "brochure",
+    "title": "ABB RB1000i Series Presentation - ABB Ability Connected Atomizer (product presentation, June 2018; ABB Library 9AKK107046A3811 rev. A)",
+    "url": "https://library.e.abb.com/public/56af0c416f06425dbdc8d5027be9771f/RB1000i-Series-Presentation.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 22 pp, created 2018-06-17; \"EXTERNAL USE - PRODUCT PRESENTATION, 2018 / RB1000i Series Presentation / ABB Ability Connected Atomizer ... Content: performance, target customer & markets, customer merit, data sheet\"; \"Light weight 8.7kg ... Zone 1 certification\". The old object (public/b2995ed8...) returns S3 AccessDenied 403 even with browser headers; the same document was found through the ABB Library discovery API (document 9AKK107046A3811, stable link https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A3811&LanguageCode=en&DocumentPartId=&Action=Launch redirects to this file; identical checksum)."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "datasheet",
+    "title": "ABB RB1000i Connected Atomizer - data sheet (3HJP AH01 en Rev.01 / 9AKK107046A3808_B, 2023; ABB Library 9AKK107046A3809 rev. B)",
+    "url": "https://library.e.abb.com/public/5f3c8c3872c4444a8039a9476dab71c9/RB1000i_AH01-R01_9AKK107046A3808_B.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 2 pp, pdf subject \"3HJP AH01 en Rev.01 / 9AKK107046A3808_B\", 2023; \"ROBOTICS RB1000i Connected Atomizer - Optimize and secure paint quality and uptime ... increases transfer efficiency by 10%, reduces paint loss inside atomizer during color changes by 75%, and reduces compressed air consumption by 20% ... BOC / SFC functions\". Additional find (standalone RB1000i data sheet that earlier rounds could not locate); stable link https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A3809&LanguageCode=en&DocumentPartId=&Action=Launch."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+    "reason": "HTTP 403 (S3 AccessDenied, also with browser headers) - old library object removed. Same presentation re-located via the ABB Library discovery API (doc 9AKK107046A3811) at a new library.e.abb.com path; the RB1000i data sheet (9AKK107046A3809) was added as well."
+   }
+  ],
+  "notes": "ABB RB1000i presentation re-located via ABB Library API; RB1000i data sheet added."
+ },
+ {
+  "id": 9,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "brochure",
+    "title": "ABB RB1000i Series Presentation - ABB Ability Connected Atomizer (product presentation, June 2018; ABB Library 9AKK107046A3811 rev. A)",
+    "url": "https://library.e.abb.com/public/56af0c416f06425dbdc8d5027be9771f/RB1000i-Series-Presentation.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 22 pp, created 2018-06-17; \"EXTERNAL USE - PRODUCT PRESENTATION, 2018 / RB1000i Series Presentation / ABB Ability Connected Atomizer ... Content: performance, target customer & markets, customer merit, data sheet\"; \"Light weight 8.7kg ... Zone 1 certification\". The old object (public/b2995ed8...) returns S3 AccessDenied 403 even with browser headers; the same document was found through the ABB Library discovery API (document 9AKK107046A3811, stable link https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A3811&LanguageCode=en&DocumentPartId=&Action=Launch redirects to this file; identical checksum)."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "datasheet",
+    "title": "ABB RB1000i Connected Atomizer - data sheet (3HJP AH01 en Rev.01 / 9AKK107046A3808_B, 2023; ABB Library 9AKK107046A3809 rev. B)",
+    "url": "https://library.e.abb.com/public/5f3c8c3872c4444a8039a9476dab71c9/RB1000i_AH01-R01_9AKK107046A3808_B.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 2 pp, pdf subject \"3HJP AH01 en Rev.01 / 9AKK107046A3808_B\", 2023; \"ROBOTICS RB1000i Connected Atomizer - Optimize and secure paint quality and uptime ... increases transfer efficiency by 10%, reduces paint loss inside atomizer during color changes by 75%, and reduces compressed air consumption by 20% ... BOC / SFC functions\". Additional find (standalone RB1000i data sheet that earlier rounds could not locate); stable link https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A3809&LanguageCode=en&DocumentPartId=&Action=Launch."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+    "reason": "HTTP 403 (S3 AccessDenied, also with browser headers) - old library object removed. Same presentation re-located via the ABB Library discovery API (doc 9AKK107046A3811) at a new library.e.abb.com path; the RB1000i data sheet (9AKK107046A3809) was added as well."
+   }
+  ],
+  "notes": "ABB RB1000i presentation re-located via ABB Library API; RB1000i data sheet added."
+ },
+ {
+  "id": 11,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "Glasurit 100-M 998 brill. silver extra coarse (Glasurit 100 Line waterborne basecoat mixing base, aluminium pigment) - Safety Data Sheet UK REACH, English, v5.0, 29.04.2026 (BASF Coatings GmbH)",
+    "url": "https://msds.glasurit.com/files/50531424_MSDS_GB_EN.PDF",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 19 pp; \"SAFETY DATA SHEET According to REACH ... UK REACH ... 100-M 998 0,5L brill.silver extra coarse ... Version 5.0 Revision Date: 29.04.2026 ... Product code : 000000000050531424 ... Use: Spraying, Basecoat product ... BASF Coatings GmbH, Münster\"; Sec.3 chemical nature: polyurethane, acrylic resin, organic solvent, inorganic compounds, WATER, pigment; aluminium 25-<50%, 2-butoxyethanol 7-<10%; only H412. NOTE: this is a WATERBORNE refinish mixing base, not solvent-borne as the old catalog title said. Same product as the removed 53157504_MSDS_UN_EN (Glasurit re-issued it under file id 50531424; no UN/GHS-EN edition any more, GB-EN chosen). Found via glasurit.com/en-int/safety-data-sheets search. Refinish proxy only - not the OEM line basecoat."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "brochure",
+    "title": "ABB RB1000i Series Presentation - ABB Ability Connected Atomizer (product presentation, June 2018; ABB Library 9AKK107046A3811 rev. A)",
+    "url": "https://library.e.abb.com/public/56af0c416f06425dbdc8d5027be9771f/RB1000i-Series-Presentation.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 22 pp, created 2018-06-17; \"EXTERNAL USE - PRODUCT PRESENTATION, 2018 / RB1000i Series Presentation / ABB Ability Connected Atomizer ... Content: performance, target customer & markets, customer merit, data sheet\"; \"Light weight 8.7kg ... Zone 1 certification\". The old object (public/b2995ed8...) returns S3 AccessDenied 403 even with browser headers; the same document was found through the ABB Library discovery API (document 9AKK107046A3811, stable link https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A3811&LanguageCode=en&DocumentPartId=&Action=Launch redirects to this file; identical checksum)."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "datasheet",
+    "title": "ABB RB1000i Connected Atomizer - data sheet (3HJP AH01 en Rev.01 / 9AKK107046A3808_B, 2023; ABB Library 9AKK107046A3809 rev. B)",
+    "url": "https://library.e.abb.com/public/5f3c8c3872c4444a8039a9476dab71c9/RB1000i_AH01-R01_9AKK107046A3808_B.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 2 pp, pdf subject \"3HJP AH01 en Rev.01 / 9AKK107046A3808_B\", 2023; \"ROBOTICS RB1000i Connected Atomizer - Optimize and secure paint quality and uptime ... increases transfer efficiency by 10%, reduces paint loss inside atomizer during color changes by 75%, and reduces compressed air consumption by 20% ... BOC / SFC functions\". Additional find (standalone RB1000i data sheet that earlier rounds could not locate); stable link https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A3809&LanguageCode=en&DocumentPartId=&Action=Launch."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+    "reason": "HTTP 403 (S3 AccessDenied, also with browser headers) - old library object removed. Same presentation re-located via the ABB Library discovery API (doc 9AKK107046A3811) at a new library.e.abb.com path; the RB1000i data sheet (9AKK107046A3809) was added as well."
+   },
+   {
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "reason": "HTTP 404 - Glasurit re-issued the SDS of 100-M 998 under a new file id (50531424); UN/GHS-EN edition no longer offered, GB-EN (UK REACH) edition used. Catalog title was wrong: the product is a WATERBORNE (100 Line) aluminium basecoat mixing base, not solvent-borne."
+   }
+  ],
+  "notes": "ABB RB1000i presentation re-located via ABB Library API; RB1000i data sheet added. Glasurit 100-M 998 SDS re-issued under new file id (GB-EN v5.0, 2026) - NOTE it is a waterborne refinish mixing base (catalog said solvent-borne); refinish proxy only."
+ },
+ {
+  "id": 12,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "Glasurit 100-M 998 brill. silver extra coarse (Glasurit 100 Line waterborne basecoat mixing base, aluminium pigment) - Safety Data Sheet UK REACH, English, v5.0, 29.04.2026 (BASF Coatings GmbH)",
+    "url": "https://msds.glasurit.com/files/50531424_MSDS_GB_EN.PDF",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 19 pp; \"SAFETY DATA SHEET According to REACH ... UK REACH ... 100-M 998 0,5L brill.silver extra coarse ... Version 5.0 Revision Date: 29.04.2026 ... Product code : 000000000050531424 ... Use: Spraying, Basecoat product ... BASF Coatings GmbH, Münster\"; Sec.3 chemical nature: polyurethane, acrylic resin, organic solvent, inorganic compounds, WATER, pigment; aluminium 25-<50%, 2-butoxyethanol 7-<10%; only H412. NOTE: this is a WATERBORNE refinish mixing base, not solvent-borne as the old catalog title said. Same product as the removed 53157504_MSDS_UN_EN (Glasurit re-issued it under file id 50531424; no UN/GHS-EN edition any more, GB-EN chosen). Found via glasurit.com/en-int/safety-data-sheets search. Refinish proxy only - not the OEM line basecoat."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "brochure",
+    "title": "ABB RB1000i Series Presentation - ABB Ability Connected Atomizer (product presentation, June 2018; ABB Library 9AKK107046A3811 rev. A)",
+    "url": "https://library.e.abb.com/public/56af0c416f06425dbdc8d5027be9771f/RB1000i-Series-Presentation.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 22 pp, created 2018-06-17; \"EXTERNAL USE - PRODUCT PRESENTATION, 2018 / RB1000i Series Presentation / ABB Ability Connected Atomizer ... Content: performance, target customer & markets, customer merit, data sheet\"; \"Light weight 8.7kg ... Zone 1 certification\". The old object (public/b2995ed8...) returns S3 AccessDenied 403 even with browser headers; the same document was found through the ABB Library discovery API (document 9AKK107046A3811, stable link https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A3811&LanguageCode=en&DocumentPartId=&Action=Launch redirects to this file; identical checksum)."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "datasheet",
+    "title": "ABB RB1000i Connected Atomizer - data sheet (3HJP AH01 en Rev.01 / 9AKK107046A3808_B, 2023; ABB Library 9AKK107046A3809 rev. B)",
+    "url": "https://library.e.abb.com/public/5f3c8c3872c4444a8039a9476dab71c9/RB1000i_AH01-R01_9AKK107046A3808_B.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 2 pp, pdf subject \"3HJP AH01 en Rev.01 / 9AKK107046A3808_B\", 2023; \"ROBOTICS RB1000i Connected Atomizer - Optimize and secure paint quality and uptime ... increases transfer efficiency by 10%, reduces paint loss inside atomizer during color changes by 75%, and reduces compressed air consumption by 20% ... BOC / SFC functions\". Additional find (standalone RB1000i data sheet that earlier rounds could not locate); stable link https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A3809&LanguageCode=en&DocumentPartId=&Action=Launch."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+    "reason": "HTTP 403 (S3 AccessDenied, also with browser headers) - old library object removed. Same presentation re-located via the ABB Library discovery API (doc 9AKK107046A3811) at a new library.e.abb.com path; the RB1000i data sheet (9AKK107046A3809) was added as well."
+   },
+   {
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "reason": "HTTP 404 - Glasurit re-issued the SDS of 100-M 998 under a new file id (50531424); UN/GHS-EN edition no longer offered, GB-EN (UK REACH) edition used. Catalog title was wrong: the product is a WATERBORNE (100 Line) aluminium basecoat mixing base, not solvent-borne."
+   }
+  ],
+  "notes": "ABB RB1000i presentation re-located via ABB Library API; RB1000i data sheet added. Glasurit 100-M 998 SDS re-issued under new file id (GB-EN v5.0, 2026) - NOTE it is a waterborne refinish mixing base (catalog said solvent-borne); refinish proxy only."
+ },
+ {
+  "id": 13,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "Glasurit 100-M 998 brill. silver extra coarse (Glasurit 100 Line waterborne basecoat mixing base, aluminium pigment) - Safety Data Sheet UK REACH, English, v5.0, 29.04.2026 (BASF Coatings GmbH)",
+    "url": "https://msds.glasurit.com/files/50531424_MSDS_GB_EN.PDF",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 19 pp; \"SAFETY DATA SHEET According to REACH ... UK REACH ... 100-M 998 0,5L brill.silver extra coarse ... Version 5.0 Revision Date: 29.04.2026 ... Product code : 000000000050531424 ... Use: Spraying, Basecoat product ... BASF Coatings GmbH, Münster\"; Sec.3 chemical nature: polyurethane, acrylic resin, organic solvent, inorganic compounds, WATER, pigment; aluminium 25-<50%, 2-butoxyethanol 7-<10%; only H412. NOTE: this is a WATERBORNE refinish mixing base, not solvent-borne as the old catalog title said. Same product as the removed 53157504_MSDS_UN_EN (Glasurit re-issued it under file id 50531424; no UN/GHS-EN edition any more, GB-EN chosen). Found via glasurit.com/en-int/safety-data-sheets search. Refinish proxy only - not the OEM line basecoat."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "brochure",
+    "title": "ABB RB1000i Series Presentation - ABB Ability Connected Atomizer (product presentation, June 2018; ABB Library 9AKK107046A3811 rev. A)",
+    "url": "https://library.e.abb.com/public/56af0c416f06425dbdc8d5027be9771f/RB1000i-Series-Presentation.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 22 pp, created 2018-06-17; \"EXTERNAL USE - PRODUCT PRESENTATION, 2018 / RB1000i Series Presentation / ABB Ability Connected Atomizer ... Content: performance, target customer & markets, customer merit, data sheet\"; \"Light weight 8.7kg ... Zone 1 certification\". The old object (public/b2995ed8...) returns S3 AccessDenied 403 even with browser headers; the same document was found through the ABB Library discovery API (document 9AKK107046A3811, stable link https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A3811&LanguageCode=en&DocumentPartId=&Action=Launch redirects to this file; identical checksum)."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "datasheet",
+    "title": "ABB RB1000i Connected Atomizer - data sheet (3HJP AH01 en Rev.01 / 9AKK107046A3808_B, 2023; ABB Library 9AKK107046A3809 rev. B)",
+    "url": "https://library.e.abb.com/public/5f3c8c3872c4444a8039a9476dab71c9/RB1000i_AH01-R01_9AKK107046A3808_B.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 2 pp, pdf subject \"3HJP AH01 en Rev.01 / 9AKK107046A3808_B\", 2023; \"ROBOTICS RB1000i Connected Atomizer - Optimize and secure paint quality and uptime ... increases transfer efficiency by 10%, reduces paint loss inside atomizer during color changes by 75%, and reduces compressed air consumption by 20% ... BOC / SFC functions\". Additional find (standalone RB1000i data sheet that earlier rounds could not locate); stable link https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A3809&LanguageCode=en&DocumentPartId=&Action=Launch."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+    "reason": "HTTP 403 (S3 AccessDenied, also with browser headers) - old library object removed. Same presentation re-located via the ABB Library discovery API (doc 9AKK107046A3811) at a new library.e.abb.com path; the RB1000i data sheet (9AKK107046A3809) was added as well."
+   },
+   {
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "reason": "HTTP 404 - Glasurit re-issued the SDS of 100-M 998 under a new file id (50531424); UN/GHS-EN edition no longer offered, GB-EN (UK REACH) edition used. Catalog title was wrong: the product is a WATERBORNE (100 Line) aluminium basecoat mixing base, not solvent-borne."
+   }
+  ],
+  "notes": "ABB RB1000i presentation re-located via ABB Library API; RB1000i data sheet added. Glasurit 100-M 998 SDS re-issued under new file id (GB-EN v5.0, 2026) - NOTE it is a waterborne refinish mixing base (catalog said solvent-borne); refinish proxy only."
+ },
+ {
+  "id": 14,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "Glasurit 100-M 998 brill. silver extra coarse (Glasurit 100 Line waterborne basecoat mixing base, aluminium pigment) - Safety Data Sheet UK REACH, English, v5.0, 29.04.2026 (BASF Coatings GmbH)",
+    "url": "https://msds.glasurit.com/files/50531424_MSDS_GB_EN.PDF",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 19 pp; \"SAFETY DATA SHEET According to REACH ... UK REACH ... 100-M 998 0,5L brill.silver extra coarse ... Version 5.0 Revision Date: 29.04.2026 ... Product code : 000000000050531424 ... Use: Spraying, Basecoat product ... BASF Coatings GmbH, Münster\"; Sec.3 chemical nature: polyurethane, acrylic resin, organic solvent, inorganic compounds, WATER, pigment; aluminium 25-<50%, 2-butoxyethanol 7-<10%; only H412. NOTE: this is a WATERBORNE refinish mixing base, not solvent-borne as the old catalog title said. Same product as the removed 53157504_MSDS_UN_EN (Glasurit re-issued it under file id 50531424; no UN/GHS-EN edition any more, GB-EN chosen). Found via glasurit.com/en-int/safety-data-sheets search. Refinish proxy only - not the OEM line basecoat."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "brochure",
+    "title": "ABB RB1000i Series Presentation - ABB Ability Connected Atomizer (product presentation, June 2018; ABB Library 9AKK107046A3811 rev. A)",
+    "url": "https://library.e.abb.com/public/56af0c416f06425dbdc8d5027be9771f/RB1000i-Series-Presentation.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 22 pp, created 2018-06-17; \"EXTERNAL USE - PRODUCT PRESENTATION, 2018 / RB1000i Series Presentation / ABB Ability Connected Atomizer ... Content: performance, target customer & markets, customer merit, data sheet\"; \"Light weight 8.7kg ... Zone 1 certification\". The old object (public/b2995ed8...) returns S3 AccessDenied 403 even with browser headers; the same document was found through the ABB Library discovery API (document 9AKK107046A3811, stable link https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A3811&LanguageCode=en&DocumentPartId=&Action=Launch redirects to this file; identical checksum)."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "datasheet",
+    "title": "ABB RB1000i Connected Atomizer - data sheet (3HJP AH01 en Rev.01 / 9AKK107046A3808_B, 2023; ABB Library 9AKK107046A3809 rev. B)",
+    "url": "https://library.e.abb.com/public/5f3c8c3872c4444a8039a9476dab71c9/RB1000i_AH01-R01_9AKK107046A3808_B.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 2 pp, pdf subject \"3HJP AH01 en Rev.01 / 9AKK107046A3808_B\", 2023; \"ROBOTICS RB1000i Connected Atomizer - Optimize and secure paint quality and uptime ... increases transfer efficiency by 10%, reduces paint loss inside atomizer during color changes by 75%, and reduces compressed air consumption by 20% ... BOC / SFC functions\". Additional find (standalone RB1000i data sheet that earlier rounds could not locate); stable link https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A3809&LanguageCode=en&DocumentPartId=&Action=Launch."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+    "reason": "HTTP 403 (S3 AccessDenied, also with browser headers) - old library object removed. Same presentation re-located via the ABB Library discovery API (doc 9AKK107046A3811) at a new library.e.abb.com path; the RB1000i data sheet (9AKK107046A3809) was added as well."
+   },
+   {
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "reason": "HTTP 404 - Glasurit re-issued the SDS of 100-M 998 under a new file id (50531424); UN/GHS-EN edition no longer offered, GB-EN (UK REACH) edition used. Catalog title was wrong: the product is a WATERBORNE (100 Line) aluminium basecoat mixing base, not solvent-borne."
+   }
+  ],
+  "notes": "ABB RB1000i presentation re-located via ABB Library API; RB1000i data sheet added. Glasurit 100-M 998 SDS re-issued under new file id (GB-EN v5.0, 2026) - NOTE it is a waterborne refinish mixing base (catalog said solvent-borne); refinish proxy only."
+ },
+ {
+  "id": 15,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "Glasurit 100-M 998 brill. silver extra coarse (Glasurit 100 Line waterborne basecoat mixing base, aluminium pigment) - Safety Data Sheet UK REACH, English, v5.0, 29.04.2026 (BASF Coatings GmbH)",
+    "url": "https://msds.glasurit.com/files/50531424_MSDS_GB_EN.PDF",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 19 pp; \"SAFETY DATA SHEET According to REACH ... UK REACH ... 100-M 998 0,5L brill.silver extra coarse ... Version 5.0 Revision Date: 29.04.2026 ... Product code : 000000000050531424 ... Use: Spraying, Basecoat product ... BASF Coatings GmbH, Münster\"; Sec.3 chemical nature: polyurethane, acrylic resin, organic solvent, inorganic compounds, WATER, pigment; aluminium 25-<50%, 2-butoxyethanol 7-<10%; only H412. NOTE: this is a WATERBORNE refinish mixing base, not solvent-borne as the old catalog title said. Same product as the removed 53157504_MSDS_UN_EN (Glasurit re-issued it under file id 50531424; no UN/GHS-EN edition any more, GB-EN chosen). Found via glasurit.com/en-int/safety-data-sheets search. Refinish proxy only - not the OEM line basecoat."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "brochure",
+    "title": "ABB RB1000i Series Presentation - ABB Ability Connected Atomizer (product presentation, June 2018; ABB Library 9AKK107046A3811 rev. A)",
+    "url": "https://library.e.abb.com/public/56af0c416f06425dbdc8d5027be9771f/RB1000i-Series-Presentation.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 22 pp, created 2018-06-17; \"EXTERNAL USE - PRODUCT PRESENTATION, 2018 / RB1000i Series Presentation / ABB Ability Connected Atomizer ... Content: performance, target customer & markets, customer merit, data sheet\"; \"Light weight 8.7kg ... Zone 1 certification\". The old object (public/b2995ed8...) returns S3 AccessDenied 403 even with browser headers; the same document was found through the ABB Library discovery API (document 9AKK107046A3811, stable link https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A3811&LanguageCode=en&DocumentPartId=&Action=Launch redirects to this file; identical checksum)."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "datasheet",
+    "title": "ABB RB1000i Connected Atomizer - data sheet (3HJP AH01 en Rev.01 / 9AKK107046A3808_B, 2023; ABB Library 9AKK107046A3809 rev. B)",
+    "url": "https://library.e.abb.com/public/5f3c8c3872c4444a8039a9476dab71c9/RB1000i_AH01-R01_9AKK107046A3808_B.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 2 pp, pdf subject \"3HJP AH01 en Rev.01 / 9AKK107046A3808_B\", 2023; \"ROBOTICS RB1000i Connected Atomizer - Optimize and secure paint quality and uptime ... increases transfer efficiency by 10%, reduces paint loss inside atomizer during color changes by 75%, and reduces compressed air consumption by 20% ... BOC / SFC functions\". Additional find (standalone RB1000i data sheet that earlier rounds could not locate); stable link https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A3809&LanguageCode=en&DocumentPartId=&Action=Launch."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+    "reason": "HTTP 403 (S3 AccessDenied, also with browser headers) - old library object removed. Same presentation re-located via the ABB Library discovery API (doc 9AKK107046A3811) at a new library.e.abb.com path; the RB1000i data sheet (9AKK107046A3809) was added as well."
+   },
+   {
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "reason": "HTTP 404 - Glasurit re-issued the SDS of 100-M 998 under a new file id (50531424); UN/GHS-EN edition no longer offered, GB-EN (UK REACH) edition used. Catalog title was wrong: the product is a WATERBORNE (100 Line) aluminium basecoat mixing base, not solvent-borne."
+   }
+  ],
+  "notes": "ABB RB1000i presentation re-located via ABB Library API; RB1000i data sheet added. Glasurit 100-M 998 SDS re-issued under new file id (GB-EN v5.0, 2026) - NOTE it is a waterborne refinish mixing base (catalog said solvent-borne); refinish proxy only."
+ },
+ {
+  "id": 16,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "Glasurit 100-M 998 brill. silver extra coarse (Glasurit 100 Line waterborne basecoat mixing base, aluminium pigment) - Safety Data Sheet UK REACH, English, v5.0, 29.04.2026 (BASF Coatings GmbH)",
+    "url": "https://msds.glasurit.com/files/50531424_MSDS_GB_EN.PDF",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 19 pp; \"SAFETY DATA SHEET According to REACH ... UK REACH ... 100-M 998 0,5L brill.silver extra coarse ... Version 5.0 Revision Date: 29.04.2026 ... Product code : 000000000050531424 ... Use: Spraying, Basecoat product ... BASF Coatings GmbH, Münster\"; Sec.3 chemical nature: polyurethane, acrylic resin, organic solvent, inorganic compounds, WATER, pigment; aluminium 25-<50%, 2-butoxyethanol 7-<10%; only H412. NOTE: this is a WATERBORNE refinish mixing base, not solvent-borne as the old catalog title said. Same product as the removed 53157504_MSDS_UN_EN (Glasurit re-issued it under file id 50531424; no UN/GHS-EN edition any more, GB-EN chosen). Found via glasurit.com/en-int/safety-data-sheets search. Refinish proxy only - not the OEM line basecoat."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "brochure",
+    "title": "ABB RB1000i Series Presentation - ABB Ability Connected Atomizer (product presentation, June 2018; ABB Library 9AKK107046A3811 rev. A)",
+    "url": "https://library.e.abb.com/public/56af0c416f06425dbdc8d5027be9771f/RB1000i-Series-Presentation.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 22 pp, created 2018-06-17; \"EXTERNAL USE - PRODUCT PRESENTATION, 2018 / RB1000i Series Presentation / ABB Ability Connected Atomizer ... Content: performance, target customer & markets, customer merit, data sheet\"; \"Light weight 8.7kg ... Zone 1 certification\". The old object (public/b2995ed8...) returns S3 AccessDenied 403 even with browser headers; the same document was found through the ABB Library discovery API (document 9AKK107046A3811, stable link https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A3811&LanguageCode=en&DocumentPartId=&Action=Launch redirects to this file; identical checksum)."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "datasheet",
+    "title": "ABB RB1000i Connected Atomizer - data sheet (3HJP AH01 en Rev.01 / 9AKK107046A3808_B, 2023; ABB Library 9AKK107046A3809 rev. B)",
+    "url": "https://library.e.abb.com/public/5f3c8c3872c4444a8039a9476dab71c9/RB1000i_AH01-R01_9AKK107046A3808_B.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 2 pp, pdf subject \"3HJP AH01 en Rev.01 / 9AKK107046A3808_B\", 2023; \"ROBOTICS RB1000i Connected Atomizer - Optimize and secure paint quality and uptime ... increases transfer efficiency by 10%, reduces paint loss inside atomizer during color changes by 75%, and reduces compressed air consumption by 20% ... BOC / SFC functions\". Additional find (standalone RB1000i data sheet that earlier rounds could not locate); stable link https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A3809&LanguageCode=en&DocumentPartId=&Action=Launch."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+    "reason": "HTTP 403 (S3 AccessDenied, also with browser headers) - old library object removed. Same presentation re-located via the ABB Library discovery API (doc 9AKK107046A3811) at a new library.e.abb.com path; the RB1000i data sheet (9AKK107046A3809) was added as well."
+   },
+   {
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "reason": "HTTP 404 - Glasurit re-issued the SDS of 100-M 998 under a new file id (50531424); UN/GHS-EN edition no longer offered, GB-EN (UK REACH) edition used. Catalog title was wrong: the product is a WATERBORNE (100 Line) aluminium basecoat mixing base, not solvent-borne."
+   }
+  ],
+  "notes": "ABB RB1000i presentation re-located via ABB Library API; RB1000i data sheet added. Glasurit 100-M 998 SDS re-issued under new file id (GB-EN v5.0, 2026) - NOTE it is a waterborne refinish mixing base (catalog said solvent-borne); refinish proxy only."
+ },
+ {
+  "id": 17,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "Glasurit 100-M 998 brill. silver extra coarse (Glasurit 100 Line waterborne basecoat mixing base, aluminium pigment) - Safety Data Sheet UK REACH, English, v5.0, 29.04.2026 (BASF Coatings GmbH)",
+    "url": "https://msds.glasurit.com/files/50531424_MSDS_GB_EN.PDF",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 19 pp; \"SAFETY DATA SHEET According to REACH ... UK REACH ... 100-M 998 0,5L brill.silver extra coarse ... Version 5.0 Revision Date: 29.04.2026 ... Product code : 000000000050531424 ... Use: Spraying, Basecoat product ... BASF Coatings GmbH, Münster\"; Sec.3 chemical nature: polyurethane, acrylic resin, organic solvent, inorganic compounds, WATER, pigment; aluminium 25-<50%, 2-butoxyethanol 7-<10%; only H412. NOTE: this is a WATERBORNE refinish mixing base, not solvent-borne as the old catalog title said. Same product as the removed 53157504_MSDS_UN_EN (Glasurit re-issued it under file id 50531424; no UN/GHS-EN edition any more, GB-EN chosen). Found via glasurit.com/en-int/safety-data-sheets search. Refinish proxy only - not the OEM line basecoat."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "brochure",
+    "title": "ABB RB1000i Series Presentation - ABB Ability Connected Atomizer (product presentation, June 2018; ABB Library 9AKK107046A3811 rev. A)",
+    "url": "https://library.e.abb.com/public/56af0c416f06425dbdc8d5027be9771f/RB1000i-Series-Presentation.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 22 pp, created 2018-06-17; \"EXTERNAL USE - PRODUCT PRESENTATION, 2018 / RB1000i Series Presentation / ABB Ability Connected Atomizer ... Content: performance, target customer & markets, customer merit, data sheet\"; \"Light weight 8.7kg ... Zone 1 certification\". The old object (public/b2995ed8...) returns S3 AccessDenied 403 even with browser headers; the same document was found through the ABB Library discovery API (document 9AKK107046A3811, stable link https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A3811&LanguageCode=en&DocumentPartId=&Action=Launch redirects to this file; identical checksum)."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "datasheet",
+    "title": "ABB RB1000i Connected Atomizer - data sheet (3HJP AH01 en Rev.01 / 9AKK107046A3808_B, 2023; ABB Library 9AKK107046A3809 rev. B)",
+    "url": "https://library.e.abb.com/public/5f3c8c3872c4444a8039a9476dab71c9/RB1000i_AH01-R01_9AKK107046A3808_B.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 2 pp, pdf subject \"3HJP AH01 en Rev.01 / 9AKK107046A3808_B\", 2023; \"ROBOTICS RB1000i Connected Atomizer - Optimize and secure paint quality and uptime ... increases transfer efficiency by 10%, reduces paint loss inside atomizer during color changes by 75%, and reduces compressed air consumption by 20% ... BOC / SFC functions\". Additional find (standalone RB1000i data sheet that earlier rounds could not locate); stable link https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A3809&LanguageCode=en&DocumentPartId=&Action=Launch."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+    "reason": "HTTP 403 (S3 AccessDenied, also with browser headers) - old library object removed. Same presentation re-located via the ABB Library discovery API (doc 9AKK107046A3811) at a new library.e.abb.com path; the RB1000i data sheet (9AKK107046A3809) was added as well."
+   },
+   {
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "reason": "HTTP 404 - Glasurit re-issued the SDS of 100-M 998 under a new file id (50531424); UN/GHS-EN edition no longer offered, GB-EN (UK REACH) edition used. Catalog title was wrong: the product is a WATERBORNE (100 Line) aluminium basecoat mixing base, not solvent-borne."
+   }
+  ],
+  "notes": "ABB RB1000i presentation re-located via ABB Library API; RB1000i data sheet added. Glasurit 100-M 998 SDS re-issued under new file id (GB-EN v5.0, 2026) - NOTE it is a waterborne refinish mixing base (catalog said solvent-borne); refinish proxy only."
+ },
+ {
+  "id": 18,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "Glasurit 100-M 998 brill. silver extra coarse (Glasurit 100 Line waterborne basecoat mixing base, aluminium pigment) - Safety Data Sheet UK REACH, English, v5.0, 29.04.2026 (BASF Coatings GmbH)",
+    "url": "https://msds.glasurit.com/files/50531424_MSDS_GB_EN.PDF",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 19 pp; \"SAFETY DATA SHEET According to REACH ... UK REACH ... 100-M 998 0,5L brill.silver extra coarse ... Version 5.0 Revision Date: 29.04.2026 ... Product code : 000000000050531424 ... Use: Spraying, Basecoat product ... BASF Coatings GmbH, Münster\"; Sec.3 chemical nature: polyurethane, acrylic resin, organic solvent, inorganic compounds, WATER, pigment; aluminium 25-<50%, 2-butoxyethanol 7-<10%; only H412. NOTE: this is a WATERBORNE refinish mixing base, not solvent-borne as the old catalog title said. Same product as the removed 53157504_MSDS_UN_EN (Glasurit re-issued it under file id 50531424; no UN/GHS-EN edition any more, GB-EN chosen). Found via glasurit.com/en-int/safety-data-sheets search. Refinish proxy only - not the OEM line basecoat."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "brochure",
+    "title": "ABB RB1000i Series Presentation - ABB Ability Connected Atomizer (product presentation, June 2018; ABB Library 9AKK107046A3811 rev. A)",
+    "url": "https://library.e.abb.com/public/56af0c416f06425dbdc8d5027be9771f/RB1000i-Series-Presentation.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 22 pp, created 2018-06-17; \"EXTERNAL USE - PRODUCT PRESENTATION, 2018 / RB1000i Series Presentation / ABB Ability Connected Atomizer ... Content: performance, target customer & markets, customer merit, data sheet\"; \"Light weight 8.7kg ... Zone 1 certification\". The old object (public/b2995ed8...) returns S3 AccessDenied 403 even with browser headers; the same document was found through the ABB Library discovery API (document 9AKK107046A3811, stable link https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A3811&LanguageCode=en&DocumentPartId=&Action=Launch redirects to this file; identical checksum)."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "datasheet",
+    "title": "ABB RB1000i Connected Atomizer - data sheet (3HJP AH01 en Rev.01 / 9AKK107046A3808_B, 2023; ABB Library 9AKK107046A3809 rev. B)",
+    "url": "https://library.e.abb.com/public/5f3c8c3872c4444a8039a9476dab71c9/RB1000i_AH01-R01_9AKK107046A3808_B.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 2 pp, pdf subject \"3HJP AH01 en Rev.01 / 9AKK107046A3808_B\", 2023; \"ROBOTICS RB1000i Connected Atomizer - Optimize and secure paint quality and uptime ... increases transfer efficiency by 10%, reduces paint loss inside atomizer during color changes by 75%, and reduces compressed air consumption by 20% ... BOC / SFC functions\". Additional find (standalone RB1000i data sheet that earlier rounds could not locate); stable link https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A3809&LanguageCode=en&DocumentPartId=&Action=Launch."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+    "reason": "HTTP 403 (S3 AccessDenied, also with browser headers) - old library object removed. Same presentation re-located via the ABB Library discovery API (doc 9AKK107046A3811) at a new library.e.abb.com path; the RB1000i data sheet (9AKK107046A3809) was added as well."
+   },
+   {
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "reason": "HTTP 404 - Glasurit re-issued the SDS of 100-M 998 under a new file id (50531424); UN/GHS-EN edition no longer offered, GB-EN (UK REACH) edition used. Catalog title was wrong: the product is a WATERBORNE (100 Line) aluminium basecoat mixing base, not solvent-borne."
+   }
+  ],
+  "notes": "ABB RB1000i presentation re-located via ABB Library API; RB1000i data sheet added. Glasurit 100-M 998 SDS re-issued under new file id (GB-EN v5.0, 2026) - NOTE it is a waterborne refinish mixing base (catalog said solvent-borne); refinish proxy only."
+ },
+ {
+  "id": 19,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "Glasurit 100-M 998 brill. silver extra coarse (Glasurit 100 Line waterborne basecoat mixing base, aluminium pigment) - Safety Data Sheet UK REACH, English, v5.0, 29.04.2026 (BASF Coatings GmbH)",
+    "url": "https://msds.glasurit.com/files/50531424_MSDS_GB_EN.PDF",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 19 pp; \"SAFETY DATA SHEET According to REACH ... UK REACH ... 100-M 998 0,5L brill.silver extra coarse ... Version 5.0 Revision Date: 29.04.2026 ... Product code : 000000000050531424 ... Use: Spraying, Basecoat product ... BASF Coatings GmbH, Münster\"; Sec.3 chemical nature: polyurethane, acrylic resin, organic solvent, inorganic compounds, WATER, pigment; aluminium 25-<50%, 2-butoxyethanol 7-<10%; only H412. NOTE: this is a WATERBORNE refinish mixing base, not solvent-borne as the old catalog title said. Same product as the removed 53157504_MSDS_UN_EN (Glasurit re-issued it under file id 50531424; no UN/GHS-EN edition any more, GB-EN chosen). Found via glasurit.com/en-int/safety-data-sheets search. Refinish proxy only - not the OEM line basecoat."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "brochure",
+    "title": "ABB RB1000i Series Presentation - ABB Ability Connected Atomizer (product presentation, June 2018; ABB Library 9AKK107046A3811 rev. A)",
+    "url": "https://library.e.abb.com/public/56af0c416f06425dbdc8d5027be9771f/RB1000i-Series-Presentation.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 22 pp, created 2018-06-17; \"EXTERNAL USE - PRODUCT PRESENTATION, 2018 / RB1000i Series Presentation / ABB Ability Connected Atomizer ... Content: performance, target customer & markets, customer merit, data sheet\"; \"Light weight 8.7kg ... Zone 1 certification\". The old object (public/b2995ed8...) returns S3 AccessDenied 403 even with browser headers; the same document was found through the ABB Library discovery API (document 9AKK107046A3811, stable link https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A3811&LanguageCode=en&DocumentPartId=&Action=Launch redirects to this file; identical checksum)."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "datasheet",
+    "title": "ABB RB1000i Connected Atomizer - data sheet (3HJP AH01 en Rev.01 / 9AKK107046A3808_B, 2023; ABB Library 9AKK107046A3809 rev. B)",
+    "url": "https://library.e.abb.com/public/5f3c8c3872c4444a8039a9476dab71c9/RB1000i_AH01-R01_9AKK107046A3808_B.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 2 pp, pdf subject \"3HJP AH01 en Rev.01 / 9AKK107046A3808_B\", 2023; \"ROBOTICS RB1000i Connected Atomizer - Optimize and secure paint quality and uptime ... increases transfer efficiency by 10%, reduces paint loss inside atomizer during color changes by 75%, and reduces compressed air consumption by 20% ... BOC / SFC functions\". Additional find (standalone RB1000i data sheet that earlier rounds could not locate); stable link https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A3809&LanguageCode=en&DocumentPartId=&Action=Launch."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+    "reason": "HTTP 403 (S3 AccessDenied, also with browser headers) - old library object removed. Same presentation re-located via the ABB Library discovery API (doc 9AKK107046A3811) at a new library.e.abb.com path; the RB1000i data sheet (9AKK107046A3809) was added as well."
+   },
+   {
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "reason": "HTTP 404 - Glasurit re-issued the SDS of 100-M 998 under a new file id (50531424); UN/GHS-EN edition no longer offered, GB-EN (UK REACH) edition used. Catalog title was wrong: the product is a WATERBORNE (100 Line) aluminium basecoat mixing base, not solvent-borne."
+   }
+  ],
+  "notes": "ABB RB1000i presentation re-located via ABB Library API; RB1000i data sheet added. Glasurit 100-M 998 SDS re-issued under new file id (GB-EN v5.0, 2026) - NOTE it is a waterborne refinish mixing base (catalog said solvent-borne); refinish proxy only."
+ },
+ {
+  "id": 20,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "Glasurit 100-M 998 brill. silver extra coarse (Glasurit 100 Line waterborne basecoat mixing base, aluminium pigment) - Safety Data Sheet UK REACH, English, v5.0, 29.04.2026 (BASF Coatings GmbH)",
+    "url": "https://msds.glasurit.com/files/50531424_MSDS_GB_EN.PDF",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 19 pp; \"SAFETY DATA SHEET According to REACH ... UK REACH ... 100-M 998 0,5L brill.silver extra coarse ... Version 5.0 Revision Date: 29.04.2026 ... Product code : 000000000050531424 ... Use: Spraying, Basecoat product ... BASF Coatings GmbH, Münster\"; Sec.3 chemical nature: polyurethane, acrylic resin, organic solvent, inorganic compounds, WATER, pigment; aluminium 25-<50%, 2-butoxyethanol 7-<10%; only H412. NOTE: this is a WATERBORNE refinish mixing base, not solvent-borne as the old catalog title said. Same product as the removed 53157504_MSDS_UN_EN (Glasurit re-issued it under file id 50531424; no UN/GHS-EN edition any more, GB-EN chosen). Found via glasurit.com/en-int/safety-data-sheets search. Refinish proxy only - not the OEM line basecoat."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "brochure",
+    "title": "ABB RB1000i Series Presentation - ABB Ability Connected Atomizer (product presentation, June 2018; ABB Library 9AKK107046A3811 rev. A)",
+    "url": "https://library.e.abb.com/public/56af0c416f06425dbdc8d5027be9771f/RB1000i-Series-Presentation.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 22 pp, created 2018-06-17; \"EXTERNAL USE - PRODUCT PRESENTATION, 2018 / RB1000i Series Presentation / ABB Ability Connected Atomizer ... Content: performance, target customer & markets, customer merit, data sheet\"; \"Light weight 8.7kg ... Zone 1 certification\". The old object (public/b2995ed8...) returns S3 AccessDenied 403 even with browser headers; the same document was found through the ABB Library discovery API (document 9AKK107046A3811, stable link https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A3811&LanguageCode=en&DocumentPartId=&Action=Launch redirects to this file; identical checksum)."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "datasheet",
+    "title": "ABB RB1000i Connected Atomizer - data sheet (3HJP AH01 en Rev.01 / 9AKK107046A3808_B, 2023; ABB Library 9AKK107046A3809 rev. B)",
+    "url": "https://library.e.abb.com/public/5f3c8c3872c4444a8039a9476dab71c9/RB1000i_AH01-R01_9AKK107046A3808_B.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 2 pp, pdf subject \"3HJP AH01 en Rev.01 / 9AKK107046A3808_B\", 2023; \"ROBOTICS RB1000i Connected Atomizer - Optimize and secure paint quality and uptime ... increases transfer efficiency by 10%, reduces paint loss inside atomizer during color changes by 75%, and reduces compressed air consumption by 20% ... BOC / SFC functions\". Additional find (standalone RB1000i data sheet that earlier rounds could not locate); stable link https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A3809&LanguageCode=en&DocumentPartId=&Action=Launch."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+    "reason": "HTTP 403 (S3 AccessDenied, also with browser headers) - old library object removed. Same presentation re-located via the ABB Library discovery API (doc 9AKK107046A3811) at a new library.e.abb.com path; the RB1000i data sheet (9AKK107046A3809) was added as well."
+   },
+   {
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "reason": "HTTP 404 - Glasurit re-issued the SDS of 100-M 998 under a new file id (50531424); UN/GHS-EN edition no longer offered, GB-EN (UK REACH) edition used. Catalog title was wrong: the product is a WATERBORNE (100 Line) aluminium basecoat mixing base, not solvent-borne."
+   }
+  ],
+  "notes": "ABB RB1000i presentation re-located via ABB Library API; RB1000i data sheet added. Glasurit 100-M 998 SDS re-issued under new file id (GB-EN v5.0, 2026) - NOTE it is a waterborne refinish mixing base (catalog said solvent-borne); refinish proxy only."
+ },
+ {
+  "id": 21,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "Glasurit 100-M 998 brill. silver extra coarse (Glasurit 100 Line waterborne basecoat mixing base, aluminium pigment) - Safety Data Sheet UK REACH, English, v5.0, 29.04.2026 (BASF Coatings GmbH)",
+    "url": "https://msds.glasurit.com/files/50531424_MSDS_GB_EN.PDF",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 19 pp; \"SAFETY DATA SHEET According to REACH ... UK REACH ... 100-M 998 0,5L brill.silver extra coarse ... Version 5.0 Revision Date: 29.04.2026 ... Product code : 000000000050531424 ... Use: Spraying, Basecoat product ... BASF Coatings GmbH, Münster\"; Sec.3 chemical nature: polyurethane, acrylic resin, organic solvent, inorganic compounds, WATER, pigment; aluminium 25-<50%, 2-butoxyethanol 7-<10%; only H412. NOTE: this is a WATERBORNE refinish mixing base, not solvent-borne as the old catalog title said. Same product as the removed 53157504_MSDS_UN_EN (Glasurit re-issued it under file id 50531424; no UN/GHS-EN edition any more, GB-EN chosen). Found via glasurit.com/en-int/safety-data-sheets search. Refinish proxy only - not the OEM line basecoat."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "brochure",
+    "title": "ABB RB1000i Series Presentation - ABB Ability Connected Atomizer (product presentation, June 2018; ABB Library 9AKK107046A3811 rev. A)",
+    "url": "https://library.e.abb.com/public/56af0c416f06425dbdc8d5027be9771f/RB1000i-Series-Presentation.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 22 pp, created 2018-06-17; \"EXTERNAL USE - PRODUCT PRESENTATION, 2018 / RB1000i Series Presentation / ABB Ability Connected Atomizer ... Content: performance, target customer & markets, customer merit, data sheet\"; \"Light weight 8.7kg ... Zone 1 certification\". The old object (public/b2995ed8...) returns S3 AccessDenied 403 even with browser headers; the same document was found through the ABB Library discovery API (document 9AKK107046A3811, stable link https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A3811&LanguageCode=en&DocumentPartId=&Action=Launch redirects to this file; identical checksum)."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "datasheet",
+    "title": "ABB RB1000i Connected Atomizer - data sheet (3HJP AH01 en Rev.01 / 9AKK107046A3808_B, 2023; ABB Library 9AKK107046A3809 rev. B)",
+    "url": "https://library.e.abb.com/public/5f3c8c3872c4444a8039a9476dab71c9/RB1000i_AH01-R01_9AKK107046A3808_B.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 2 pp, pdf subject \"3HJP AH01 en Rev.01 / 9AKK107046A3808_B\", 2023; \"ROBOTICS RB1000i Connected Atomizer - Optimize and secure paint quality and uptime ... increases transfer efficiency by 10%, reduces paint loss inside atomizer during color changes by 75%, and reduces compressed air consumption by 20% ... BOC / SFC functions\". Additional find (standalone RB1000i data sheet that earlier rounds could not locate); stable link https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A3809&LanguageCode=en&DocumentPartId=&Action=Launch."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+    "reason": "HTTP 403 (S3 AccessDenied, also with browser headers) - old library object removed. Same presentation re-located via the ABB Library discovery API (doc 9AKK107046A3811) at a new library.e.abb.com path; the RB1000i data sheet (9AKK107046A3809) was added as well."
+   },
+   {
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "reason": "HTTP 404 - Glasurit re-issued the SDS of 100-M 998 under a new file id (50531424); UN/GHS-EN edition no longer offered, GB-EN (UK REACH) edition used. Catalog title was wrong: the product is a WATERBORNE (100 Line) aluminium basecoat mixing base, not solvent-borne."
+   }
+  ],
+  "notes": "ABB RB1000i presentation re-located via ABB Library API; RB1000i data sheet added. Glasurit 100-M 998 SDS re-issued under new file id (GB-EN v5.0, 2026) - NOTE it is a waterborne refinish mixing base (catalog said solvent-borne); refinish proxy only."
+ },
+ {
+  "id": 22,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "Glasurit 100-M 998 brill. silver extra coarse (Glasurit 100 Line waterborne basecoat mixing base, aluminium pigment) - Safety Data Sheet UK REACH, English, v5.0, 29.04.2026 (BASF Coatings GmbH)",
+    "url": "https://msds.glasurit.com/files/50531424_MSDS_GB_EN.PDF",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 19 pp; \"SAFETY DATA SHEET According to REACH ... UK REACH ... 100-M 998 0,5L brill.silver extra coarse ... Version 5.0 Revision Date: 29.04.2026 ... Product code : 000000000050531424 ... Use: Spraying, Basecoat product ... BASF Coatings GmbH, Münster\"; Sec.3 chemical nature: polyurethane, acrylic resin, organic solvent, inorganic compounds, WATER, pigment; aluminium 25-<50%, 2-butoxyethanol 7-<10%; only H412. NOTE: this is a WATERBORNE refinish mixing base, not solvent-borne as the old catalog title said. Same product as the removed 53157504_MSDS_UN_EN (Glasurit re-issued it under file id 50531424; no UN/GHS-EN edition any more, GB-EN chosen). Found via glasurit.com/en-int/safety-data-sheets search. Refinish proxy only - not the OEM line basecoat."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "brochure",
+    "title": "ABB RB1000i Series Presentation - ABB Ability Connected Atomizer (product presentation, June 2018; ABB Library 9AKK107046A3811 rev. A)",
+    "url": "https://library.e.abb.com/public/56af0c416f06425dbdc8d5027be9771f/RB1000i-Series-Presentation.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 22 pp, created 2018-06-17; \"EXTERNAL USE - PRODUCT PRESENTATION, 2018 / RB1000i Series Presentation / ABB Ability Connected Atomizer ... Content: performance, target customer & markets, customer merit, data sheet\"; \"Light weight 8.7kg ... Zone 1 certification\". The old object (public/b2995ed8...) returns S3 AccessDenied 403 even with browser headers; the same document was found through the ABB Library discovery API (document 9AKK107046A3811, stable link https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A3811&LanguageCode=en&DocumentPartId=&Action=Launch redirects to this file; identical checksum)."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "datasheet",
+    "title": "ABB RB1000i Connected Atomizer - data sheet (3HJP AH01 en Rev.01 / 9AKK107046A3808_B, 2023; ABB Library 9AKK107046A3809 rev. B)",
+    "url": "https://library.e.abb.com/public/5f3c8c3872c4444a8039a9476dab71c9/RB1000i_AH01-R01_9AKK107046A3808_B.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 2 pp, pdf subject \"3HJP AH01 en Rev.01 / 9AKK107046A3808_B\", 2023; \"ROBOTICS RB1000i Connected Atomizer - Optimize and secure paint quality and uptime ... increases transfer efficiency by 10%, reduces paint loss inside atomizer during color changes by 75%, and reduces compressed air consumption by 20% ... BOC / SFC functions\". Additional find (standalone RB1000i data sheet that earlier rounds could not locate); stable link https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A3809&LanguageCode=en&DocumentPartId=&Action=Launch."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+    "reason": "HTTP 403 (S3 AccessDenied, also with browser headers) - old library object removed. Same presentation re-located via the ABB Library discovery API (doc 9AKK107046A3811) at a new library.e.abb.com path; the RB1000i data sheet (9AKK107046A3809) was added as well."
+   },
+   {
+    "url": "https://msds.glasurit.com/files/53157504_MSDS_UN_EN.PDF",
+    "reason": "HTTP 404 - Glasurit re-issued the SDS of 100-M 998 under a new file id (50531424); UN/GHS-EN edition no longer offered, GB-EN (UK REACH) edition used. Catalog title was wrong: the product is a WATERBORNE (100 Line) aluminium basecoat mixing base, not solvent-borne."
+   }
+  ],
+  "notes": "ABB RB1000i presentation re-located via ABB Library API; RB1000i data sheet added. Glasurit 100-M 998 SDS re-issued under new file id (GB-EN v5.0, 2026) - NOTE it is a waterborne refinish mixing base (catalog said solvent-borne); refinish proxy only."
+ },
+ {
+  "id": 24,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "brochure",
+    "title": "ABB RB1000i Series Presentation - ABB Ability Connected Atomizer (product presentation, June 2018; ABB Library 9AKK107046A3811 rev. A)",
+    "url": "https://library.e.abb.com/public/56af0c416f06425dbdc8d5027be9771f/RB1000i-Series-Presentation.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 22 pp, created 2018-06-17; \"EXTERNAL USE - PRODUCT PRESENTATION, 2018 / RB1000i Series Presentation / ABB Ability Connected Atomizer ... Content: performance, target customer & markets, customer merit, data sheet\"; \"Light weight 8.7kg ... Zone 1 certification\". The old object (public/b2995ed8...) returns S3 AccessDenied 403 even with browser headers; the same document was found through the ABB Library discovery API (document 9AKK107046A3811, stable link https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A3811&LanguageCode=en&DocumentPartId=&Action=Launch redirects to this file; identical checksum)."
+   },
+   {
+    "vendor": "ABB",
+    "model": "RB1000i",
+    "type": "datasheet",
+    "title": "ABB RB1000i Connected Atomizer - data sheet (3HJP AH01 en Rev.01 / 9AKK107046A3808_B, 2023; ABB Library 9AKK107046A3809 rev. B)",
+    "url": "https://library.e.abb.com/public/5f3c8c3872c4444a8039a9476dab71c9/RB1000i_AH01-R01_9AKK107046A3808_B.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 2 pp, pdf subject \"3HJP AH01 en Rev.01 / 9AKK107046A3808_B\", 2023; \"ROBOTICS RB1000i Connected Atomizer - Optimize and secure paint quality and uptime ... increases transfer efficiency by 10%, reduces paint loss inside atomizer during color changes by 75%, and reduces compressed air consumption by 20% ... BOC / SFC functions\". Additional find (standalone RB1000i data sheet that earlier rounds could not locate); stable link https://search.abb.com/library/Download.aspx?DocumentID=9AKK107046A3809&LanguageCode=en&DocumentPartId=&Action=Launch."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://library.e.abb.com/public/b2995ed8b28a48ecb03c0267deaccb5d/RB1000i-Series-Presentation.pdf",
+    "reason": "HTTP 403 (S3 AccessDenied, also with browser headers) - old library object removed. Same presentation re-located via the ABB Library discovery API (doc 9AKK107046A3811) at a new library.e.abb.com path; the RB1000i data sheet (9AKK107046A3809) was added as well."
+   }
+  ],
+  "notes": "ABB RB1000i presentation re-located via ABB Library API; RB1000i data sheet added."
+ },
+ {
+  "id": 26,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "paper",
+    "title": "Eastman SOL-032 \"Eastman solvents: Delivering performance in cleaners\" (5/16) - incl. purge solvents and equipment-line cleaners",
+    "url": "https://www.eastman.com/content/dam/eastman/corporate/en/literature/s/sol032.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 12 pp; title \"SOL-032 Eastman solvents: Delivering performance in cleaners\"; section \"Purge solvents and equipment line cleaners: Purge solvents are used to clean spray equipment (guns, hoses, etc.) ... Solvent activity for purge blends that are predominately based on hydrocarbons can be improved significantly ...\"; footer \"(c) 2016 Eastman Chemical Company ... SOL-032 5/16\". Same document, moved from /Literature_Center/S/ to the new /content/dam/.../literature/s/ path."
+   },
+   {
+    "type": "paper",
+    "title": "US EPA (archived) Owner/Operator Information Sheet \"Reducing Air Pollution from: Auto Body Shops\" (9/12/2005) - enclosed solvent gun washers, on-site solvent recycling",
+    "url": "https://archive.epa.gov/airquality/community/web/pdf/autobody_oo_sheet.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 4 pp; \"OWNER/OPERATOR INFORMATION SHEET / Reducing Air Pollution from: Auto Body Shops\" dated 9/12/2005; \"Reduce the Use of Solvent Cleaners - Use an enclosed solvent gun washing ...\"; \"Recycle old solvent by using an on-site distillation unit\". Same-class regulatory/pollution-prevention fact sheet replacing the California DTSC spray-gun-cleaning fact sheet, which is behind Cloudflare bot protection (403)."
+   },
+   {
+    "type": "SDS",
+    "title": "Noroo Chemical ((주)노루케미칼) MSDS SHH710501 - Epoxy thinner, summer grade, DR-100(S) (에폭시 신나(하절용)), Korean",
+    "url": "https://www.noroopaint.com/kor/file/prod_file/SHH710501_DOCU03_c090106.pdf",
+    "language": "ko",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 11 pp (2014); \"[물질안전보건자료(MSDS)] ... 제품명 : 에폭시 신나(하절용) DR-100(S) (신나) ... 권고용도 : 에폭시 도료 희석제 ... 회사명 : (주)노루케미칼\"; components incl. aromatic light naphtha, toluene, 2-butoxyethanol, xylene. Same file; bare host noroopaint.com has no DNS, www.noroopaint.com (https) serves it. Note: it is an epoxy-paint thinner MSDS, i.e. only a class reference for a cleaning thinner."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://www.eastman.com/Literature_Center/S/SOL032.pdf",
+    "reason": "HTTP 404 - Eastman moved its literature; same SOL-032 document is at /content/dam/eastman/corporate/en/literature/s/sol032.pdf (lower-case)."
+   },
+   {
+    "url": "https://dtsc.ca.gov/wp-content/uploads/sites/31/2024/04/TD_FS_Sprayguncleaning_accessible.pdf",
+    "reason": "HTTP 403 - Cloudflare bot protection, also with browser User-Agent/Accept headers; treated as unavailable. Replaced by a same-class official fact sheet (US EPA archived auto body O/O sheet)."
+   },
+   {
+    "url": "http://noroopaint.com/kor/file/prod_file/SHH710501_DOCU03_c090106.pdf",
+    "reason": "DNS failure - bare noroopaint.com does not resolve; same file is served by https://www.noroopaint.com/."
+   }
+  ],
+  "notes": "Eastman SOL-032 moved (fixed); Noroo MSDS via www. host (it is an epoxy-thinner MSDS, class reference only); DTSC fact sheet blocked (Cloudflare) -> US EPA archived auto-body fact sheet as equivalent."
+ },
+ {
+  "id": 27,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "febi (Ferdinand Bilstein) brake fluid DOT 4 PLUS - Safety Data Sheet (UK REACH), v15.0, 30.09.2026",
+    "url": "https://cdn.partsfinder.bilsteingroup.com/pf-document/CLP26748_GB.PDF",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 14 pp; \"Safety Data Sheet (UK REACH) (UK) brake fluid DOT 4 PLUS Article number 26748, 23932, 23930, 180589 / Ferdinand Bilstein GmbH + Co. KG ... Revision 30.09.2026 Version 15.0\"; Repr. 2 H361fd, contains tris[2-(2-(2-methoxyethoxy)ethoxy)ethyl] orthoborate. Brand-owner-hosted DOT 4 Plus SDS replacing the JMC DOT4 Plus SDS (biketeile-service.de is behind a Cloudflare challenge, 403)."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://www.biketeile-service.de/media/attachment/pdf/sida_en_5585513.pdf",
+    "reason": "HTTP 403 - Cloudflare \"Just a moment\" challenge, also with browser headers; treated as unavailable. Replaced by an equivalent brand-owner-hosted DOT 4 PLUS SDS (febi / Ferdinand Bilstein)."
+   }
+  ],
+  "notes": "JMC DOT4 Plus SDS host is Cloudflare-blocked -> febi DOT 4 PLUS SDS (v15.0, 2026) as equivalent."
+ },
+ {
+  "id": 28,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "TDS",
+    "title": "RAVENOL ATF DEXRON VI - Technical data sheet (art. 1211105; GM licence J-60331, GMN 10060)",
+    "url": "https://ravenol.de/storage/app/media/product-pdf/Tds_1211105_en.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 2 pp; \"RAVENOL ATF DEXRON VI / Artikelnummer: 1211105 / Specifications: GM Dexron-VI / Approvals: GM Lizenz-Nr. J-60331, MB-Freigabe 236.41 / Recommendations: ... GMN 10060\"; 208 L drum 1211105-208. Same document as the partner.ravenol.de copy (expired TLS certificate - not bypassed), served by ravenol.de."
+   },
+   {
+    "type": "SDS",
+    "title": "ACDelco DEXRON-VI ATF Safety Data Sheet (ExxonMobil, rev. 12 Nov 2014; GM P/N 19287624) - FMP distributor SDS library",
+    "url": "https://sds.fmpco.com/images/sds_documents/19287624_DexronVI_2014.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 10 pp; \"Product Name: ACDELCO DEXRON-VI ATF  Revision Date: 12 Nov 2014 ... Intended Use: Automatic transmission fluid ... Supplier: EXXON MOBIL CORPORATION\". Same file, moved from msds.fmpco.com/images/fmp_msds/ (self-signed certificate - not bypassed) to sds.fmpco.com/images/sds_documents/."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://partner.ravenol.de/storage/app/media/product-pdf/Tds_1211105_en.pdf",
+    "reason": "TLS error - partner.ravenol.de serves an expired certificate (not bypassed). Same TDS is served by ravenol.de (www.ravenol.de redirects there)."
+   },
+   {
+    "url": "https://msds.fmpco.com/images/fmp_msds/19287624_DexronVI_2014.pdf",
+    "reason": "TLS error - msds.fmpco.com serves a self-signed certificate (not bypassed). Same file now lives on sds.fmpco.com/images/sds_documents/."
+   }
+  ],
+  "notes": "RAVENOL TDS via ravenol.de (partner. host expired cert); ACDelco Dexron-VI SDS moved to sds.fmpco.com/images/sds_documents/."
+ },
+ {
+  "id": 29,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "PDS",
+    "title": "KOST USA DefendAL Antifreeze/Coolant for vehicles requiring DEX-COOL (OAT, GM 6277M / GMW3420) - product data sheet (2022)",
+    "url": "https://www.kostusa.com/wp-content/uploads/2022/09/NEW-PDS-DefendAL-DexCoolAutomotive.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 2 pp (Sep 2022); \"DefendAL Antifreeze/Coolant for vehicles requiring DEX-COOL ... premium Organic Acid Technology (OAT), virgin ethylene glycol-based ... (GM 6277M or GMW 3420) ... Fluid Color Orange\". Same file; bare kostusa.com has no DNS, www.kostusa.com serves it."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://kostusa.com/wp-content/uploads/2022/09/NEW-PDS-DefendAL-DexCoolAutomotive.pdf",
+    "reason": "DNS failure - bare kostusa.com does not resolve; same file is served by https://www.kostusa.com/."
+   }
+  ],
+  "notes": "KOST DefendAL DEX-COOL PDS via www.kostusa.com."
+ },
+ {
+  "id": 31,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "Ford Motorcraft SAE 75W-85 Premium Synthetic Hypoid Gear Lubricant - Safety Data Sheet (FIR 189151, issue 05-13-2015) - FMP distributor SDS library",
+    "url": "https://sds.fmpco.com/images/sds_documents/SAE_75W85.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 6 pp; \"SAFETY DATA SHEET 1. Identification Product identifier SAE 75W-85 PREMIUM SYNTHETIC HYPOID GEAR LUBRICANT  FIR No. 189151  Recommended use AXLE LUBRICANT ... Ford Motor Company, Dearborn\"; Issue Date 05-13-2015. Same Ford SDS as the motorcraft.com URL (Akamai \"Access Denied\" 403 even with browser headers). Still a weak equivalent (axle/hypoid oil, not a GL-4 MTF)."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://www.motorcraft.com/content/dam/ford-motorcraft/en_us/motorcraft_global/products/pdf/SAE_75W_85_Premuim_Synthetic_Hypoid_Gear_Lubricant/SAE_75W_85_Premuim_Synthetic_Hypoid_Gear_Lubricant_SDS.pdf",
+    "reason": "HTTP 403 - motorcraft.com (Akamai \"Access Denied\"), also with browser headers. Same Ford Motorcraft 75W-85 SDS found in the FMP distributor SDS library."
+   }
+  ],
+  "notes": "Motorcraft 75W-85 SDS (motorcraft.com Akamai 403) recovered from FMP SDS library (same Ford SDS, 2015); still only a weak equivalent (axle oil)."
+ },
+ {
+  "id": 32,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "TDS",
+    "title": "RAVENOL ATF DEXRON VI - Technical data sheet (art. 1211105; GM licence J-60331, GMN 10060)",
+    "url": "https://ravenol.de/storage/app/media/product-pdf/Tds_1211105_en.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 2 pp; \"RAVENOL ATF DEXRON VI / Artikelnummer: 1211105 / Specifications: GM Dexron-VI / Approvals: GM Lizenz-Nr. J-60331, MB-Freigabe 236.41 / Recommendations: ... GMN 10060\"; 208 L drum 1211105-208. Same document as the partner.ravenol.de copy (expired TLS certificate - not bypassed), served by ravenol.de."
+   },
+   {
+    "type": "SDS",
+    "title": "ACDelco DEXRON-VI ATF Safety Data Sheet (ExxonMobil, rev. 12 Nov 2014; GM P/N 19287624) - FMP distributor SDS library",
+    "url": "https://sds.fmpco.com/images/sds_documents/19287624_DexronVI_2014.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 10 pp; \"Product Name: ACDELCO DEXRON-VI ATF  Revision Date: 12 Nov 2014 ... Intended Use: Automatic transmission fluid ... Supplier: EXXON MOBIL CORPORATION\". Same file, moved from msds.fmpco.com/images/fmp_msds/ (self-signed certificate - not bypassed) to sds.fmpco.com/images/sds_documents/."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://partner.ravenol.de/storage/app/media/product-pdf/Tds_1211105_en.pdf",
+    "reason": "TLS error - partner.ravenol.de serves an expired certificate (not bypassed). Same TDS is served by ravenol.de (www.ravenol.de redirects there)."
+   },
+   {
+    "url": "https://msds.fmpco.com/images/fmp_msds/19287624_DexronVI_2014.pdf",
+    "reason": "TLS error - msds.fmpco.com serves a self-signed certificate (not bypassed). Same file now lives on sds.fmpco.com/images/sds_documents/."
+   }
+  ],
+  "notes": "Same fixes as id 28."
+ },
+ {
+  "id": 33,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "Chemours Freon 134a Auto (HFC-134a) Refrigerant - Safety Data Sheet (Canada HPR), v8.11, 12/11/2023 - FMP distributor SDS library",
+    "url": "https://sds.fmpco.com/images/sds_documents/HFC-134a_4.21.23_.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 14 pp; \"SAFETY DATA SHEET according to the Hazardous Products Regulations / Freon 134a Auto (HFC-134a) Refrigerant / Version 8.11 Revision Date: 12/11/2023 SDS Number: 1329602-00047 ... The Chemours Canada Company ... Recommended use: Refrigerant\". Same file, moved from /images/fmp_msds/ to /images/sds_documents/ on sds.fmpco.com."
+   },
+   {
+    "type": "SDS",
+    "title": "ACDelco HFC-134a refrigerant - Safety Data Sheet (GM P/N 88863968, 88864532, ACDelco 10-9097, 15-119A; made by Sinochem Taicang, China), v1, 14 Nov 2014 - FMP distributor SDS library",
+    "url": "https://sds.fmpco.com/images/sds_documents/ACD_R134a_15-119A_S.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 7 pp; \"SAFETY DATA SHEET Version 1 Issue Date 14-Nov-2014 Product Name ACDelco HFC-134a / Part Numbers: 10-9097 88863968 15-119A 88864532 12356150 88864533 88863926 88865620 / CAS No 811-97-2 ... Supplier Sinochem Environmental Protection Chemicals (Taicang) Co., Ltd\". GM-brand automotive HFC-134a SDS replacing the Ford Motorcraft R-134a SDS (motorcraft.com Akamai 403). Chinese-made like the plant's COOLIB product."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://sds.fmpco.com/images/fmp_msds/HFC-134a_4.21.23_.pdf",
+    "reason": "HTTP 404 - FMP moved its SDS files from /images/fmp_msds/ to /images/sds_documents/ (same file name)."
+   },
+   {
+    "url": "https://www.motorcraft.com/content/dam/ford-motorcraft/en_us/motorcraft_global/products/pdf/R_134a_Refrigerant/us045167us.pdf",
+    "reason": "HTTP 403 - motorcraft.com (Akamai \"Access Denied\"), also with browser headers; not found elsewhere. Replaced by the equivalent GM-brand ACDelco HFC-134a SDS."
+   }
+  ],
+  "notes": "Freon 134a Auto SDS moved within sds.fmpco.com (fixed); Motorcraft R-134a SDS blocked (Akamai 403) -> GM-brand ACDelco HFC-134a SDS (Sinochem-made) as equivalent."
+ },
+ {
+  "id": 35,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "ROWE HIGHTEC Screenwash-Concentrate (product code 21104) - Safety Data Sheet (EC 1907/2006, IRL-en), v1.12, revision 02.02.2026",
+    "url": "https://assets.rowegmbh.de/var/assets/brandhub/safety-data-sheets/en/21104-998-00_IRL-en_1%2C12.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 14 pp; \"ROWE Mineralölwerk GmbH Safety Data Sheet according to Regulation (EC) No 1907/2006 HIGHTEC Screenwash-Concentrate Revision: 02.02.2026 Product code: 21104\"; ethanol 50-<55%, ethylene glycol 1-<3%, butanone 0.5-<1%; Flam. Liq. 3 H226, Eye Irrit. 2 H319. Newer revision (file suffix 1,12) of the removed 1,11 file."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://assets.rowegmbh.de/var/assets/brandhub/safety-data-sheets/en/21104-998-00_IRL-en_1%2C11.pdf",
+    "reason": "HTTP 404 - superseded revision; ROWE now publishes revision 1,12 (02.02.2026) under the same naming scheme."
+   }
+  ],
+  "notes": "ROWE HIGHTEC Screenwash-Concentrate SDS: newer revision 1,12 (02.02.2026)."
+ },
+ {
+  "id": 36,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "PDS",
+    "title": "Sikaflex-250 DM-8 Product Data Sheet - primerless-to-paint, high-modulus 1C PU direct glazing adhesive (Sika Automotive Deutschland, 02-2026)",
+    "url": "https://deu.sika.com/dms/getdocument.get/475986a9-6909-41a4-aae2-cc0a5b8c9497/sikaflex-250-dm-8.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 2 pp, created 2026-02-06; \"PRODUCT DATA SHEET Sikaflex-250 DM-8 Primerless to paint direct glazing adhesive with high modulus ... 1C Polyurethane, moisture-curing, application temperature adhesive 35-55 C ... developed for direct glazing in the automotive industry ... suitable for automated and manual direct glazing\". Sikaflex-250 DM-5 PDS is no longer published by Sika (old getdocument link 404; not in deu.sika.com DMS sitemap; not on industry.sika.com/dam/dms); DM-8 is Sika's current Sikaflex-250 direct-glazing grade = equivalent, not the same product."
+   },
+   {
+    "type": "PDS",
+    "title": "Sikaflex-250 DP-2 PowerCure Product Data Sheet - accelerated high-modulus PU adhesive for direct glazing, applied with the PowerCure dispenser (Sika Automotive Deutschland, 10-2025)",
+    "url": "https://deu.sika.com/dms/getdocument.get/26e79182-ef2a-485b-89c3-ccd471f00840/sikaflex-250-dp-2powercure.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 2 pp, created 2025-10-07; \"PRODUCT DATA SHEET Sikaflex-250 DP-2 PowerCure Accelerated, high modulus adhesive for assembly application ... made for Sika's PowerCure system ... suitable for direct glazing applications ... in the automotive industry\"; Shore A 70, tensile 7 MPa, lap-shear 4 MPa. The \"Sikaflex-250 DP-2 + SikaBooster P-50\" PDS is gone (404, not in Sika DE DMS sitemap); DP-2 PowerCure is the current accelerated DP-2 system = equivalent."
+   },
+   {
+    "type": "brochure",
+    "title": "Dow Automotive Systems (BETASEAL/BETAPRIME, now DuPont) - AGRSS retention-system requirements matrix and product brochures incl. Fixed Glass Installation Guide v5.4 (AGSC, 03-08-2018)",
+    "url": "https://www.agsc.org/documents/DowASMRequirementsMatrixandProductBrochures_03082018.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 33 pp, 13.5 MB, created 2018-03-08; \"Retention System Provider Training Instructions and Documentation Worksheet ... Dow Automotive Systems Products 02-14-18 ... Dow Automotive Fixed Glass Installation Guide Ver. 5.4 (2018)\"; mentions BETASEAL U-418/U-418HV/U-428/U-838/Express/Xpress30, BETAPRIME 5504G (applied with wool daubers), BETACLEAN GC-800/U-424. The earlier failure was transient (\"Remote end closed connection\"); the same URL downloads fine now (re-added as verified)."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Graco",
+    "model": "Therm-O-Flow Warm Melt 20",
+    "type": "brochure",
+    "title": "Graco Therm-O-Flow Bulk Warm Melt Systems brochure 350422ENEU rev. A (20 L / 60 L / 200 L)",
+    "url": "https://www.graco.com/content/dam/graco/com_documents/350/350422/350422ENEU-A.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 8 pp (2021); \"Therm-O-Flow Bulk Warm Melt Systems ... Graco Therm-O-Flow Warm Melt Supply Systems ... Check-Mate Pump\"; applications \"Window glazing ... Urethanes\"; models Warm Melt 200 L (55 gal) and 20 L / 60 L. Same file as the gww.graco.com copy (expired certificate, not bypassed); www.graco.com/.../aftd/literature/brochures/350422/350422ENEU-A.pdf redirects here (checksums identical)."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://deu.sika.com/dms/getdocument.get/7d702bec-814c-4eb8-805d-1ad0cb019466/sikaflex-250-dm-5.pdf",
+    "reason": "HTTP 404 - Sikaflex-250 DM-5 PDS withdrawn by Sika (not in deu.sika.com DMS sitemap, not on industry.sika.com/dam/dms). Replaced by the current Sikaflex-250 direct-glazing grade DM-8 (equivalent)."
+   },
+   {
+    "url": "https://deu.sika.com/dms/getdocument.get/48aee572-deb8-4a11-85c7-8682134452bd/sikaflex-250-dp-2-plus-sikaboosterp-50.pdf",
+    "reason": "HTTP 404 - \"Sikaflex-250 DP-2 + SikaBooster P-50\" PDS withdrawn (not in Sika DE DMS sitemap). Replaced by the current accelerated DP-2 system, Sikaflex-250 DP-2 PowerCure (equivalent)."
+   },
+   {
+    "url": "https://www.agsc.org/documents/DowASMRequirementsMatrixandProductBrochures_03082018.pdf",
+    "reason": "Transient network error (\"Remote end closed connection\") - the same URL downloads fine on retry; removed and re-added below with verified metadata."
+   },
+   {
+    "url": "https://gww.graco.com/content/dam/graco/aftd/literature/brochures/350422/350422ENEU-A.pdf",
+    "reason": "TLS error - gww.graco.com has an expired certificate (not bypassed). Same brochure is on www.graco.com (com_documents path)."
+   }
+  ],
+  "notes": "Sikaflex-250 DM-5 and DP-2 + SikaBooster P-50 PDS are no longer published by Sika -> current Sikaflex-250 DM-8 and DP-2 PowerCure PDS as equivalents; AGSC Dow BETASEAL compilation works now (transient error); Graco Therm-O-Flow Warm Melt brochure re-pointed to www.graco.com."
+ },
+ {
+  "id": 38,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "Sika Primer-209 D Safety Data Sheet (UK REACH), Sika Limited, v10.1, revision 13.02.2026",
+    "url": "https://gbr.sika.com/dms/getdocument.get/7d779921-96d7-4311-8a4d-c18d252bc88e_gb01/sds-sika-primer-209d.pdf",
+    "language": "en",
+    "exact_or_equivalent": "exact",
+    "verified": true,
+    "note": "evidence: %PDF, 22 pp; \"SAFETY DATA SHEET According to REACH ... UK REACH Regulations SI 2019/758 / Sika Primer-209 D / Date of last issue: 07.03.2025 Version 10.1 ... Revision Date: 13.02.2026 ... Product use: Pretreatment agent ... Sika Limited, Welwyn Garden City\"; Flam. Liq. 2 H225, Resp. Sens. 1 H334. Current revision of the removed v5.1 (2020) UK SDS (listed in gbr.sika.com DMS sitemap)."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Nordson EFD",
+    "model": "752V",
+    "type": "datasheet",
+    "title": "Nordson EFD 752V Diaphragm Valve - data sheet (compact diaphragm valve for fine flow control; (c)2016 Nordson, v041516)",
+    "url": "https://prostech.vn/wp-content/uploads/2020/02/Nordson_EFD_752V_Data_Sheet.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 3 pp, created 2016-05-10; \"752V Diaphragm Valve - Compact diaphragm valve for fine flow control ... low to medium viscosity fluids ... adjustable open/close stroke 0.13 to 0.64 mm ... 752V-UHSS ... dispensing solvents, cyanoacrylates, anaerobics and fluxes ... P/N 7021428 / 7021419 ... Maximum fluid pressure 70 psi (4.8 bar)\"; footer \"(c)2016 Nordson Corporation v041516\". Distributor-hosted (Prostech, Vietnam - linked from prostech.vn/nordson-752v-diaphragm-valves/); flumasys.com/.cz userfiles were removed (404) and nordson.com is behind a Cloudflare challenge for this session."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://gbr.sika.com/dms/getdocument.get/fc7c9a30-2929-424b-9f85-2cb6042f8040/Sika%C2%AE%20Primer-209%20D%20SDS.pdf",
+    "reason": "HTTP 404 - old UK getdocument link removed; current UK SDS (v10.1, 13.02.2026) is at a new gbr.sika.com DMS link (from gbr.sika.com DMS sitemap)."
+   },
+   {
+    "url": "https://flumasys.com/userfiles/product_files/nordson_efd_752v_datasheet.pdf",
+    "reason": "HTTP 404 - Flumasys removed its whole /userfiles/product_files/ directory (flumasys.com and .cz). Same Nordson EFD 752V data sheet found on another Nordson distributor site (Prostech, Vietnam); nordson.com itself is Cloudflare-blocked for curl and not reachable by WebFetch in this session."
+   },
+   {
+    "url": "https://flumasys.com/userfiles/product_files/nordson_efd_752v_maintenance_guide.pdf",
+    "reason": "HTTP 404 - Flumasys removed its /userfiles/product_files/ directory; nordson.com Cloudflare-blocked (403) for curl and DNS-blocked for WebFetch; only HTML viewers (manualmachine/manuals.online) found; Internet Archive rate-limited (429). Unrecoverable - no replacement added."
+   },
+   {
+    "url": "https://flumasys.com/userfiles/product_files/nordson_efd_750_valve_installation_guide.pdf",
+    "reason": "HTTP 404 - Flumasys removed its /userfiles/product_files/ directory; nordson.com Cloudflare-blocked (403) for curl and DNS-blocked for WebFetch; only HTML viewers found; Internet Archive rate-limited (429). Unrecoverable - no replacement added."
+   }
+  ],
+  "notes": "Sika Primer-209 D UK SDS: current v10.1 (2026). Nordson 752V data sheet recovered from another distributor (Prostech); 752V maintenance guide and 750-series installation guide unrecoverable (Flumasys directory removed, nordson.com blocked in this session)."
+ },
+ {
+  "id": 39,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Nordson EFD",
+    "model": "752V",
+    "type": "datasheet",
+    "title": "Nordson EFD 752V Diaphragm Valve - data sheet (compact diaphragm valve for fine flow control; (c)2016 Nordson, v041516)",
+    "url": "https://prostech.vn/wp-content/uploads/2020/02/Nordson_EFD_752V_Data_Sheet.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 3 pp, created 2016-05-10; \"752V Diaphragm Valve - Compact diaphragm valve for fine flow control ... low to medium viscosity fluids ... adjustable open/close stroke 0.13 to 0.64 mm ... 752V-UHSS ... dispensing solvents, cyanoacrylates, anaerobics and fluxes ... P/N 7021428 / 7021419 ... Maximum fluid pressure 70 psi (4.8 bar)\"; footer \"(c)2016 Nordson Corporation v041516\". Distributor-hosted (Prostech, Vietnam - linked from prostech.vn/nordson-752v-diaphragm-valves/); flumasys.com/.cz userfiles were removed (404) and nordson.com is behind a Cloudflare challenge for this session."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://flumasys.com/userfiles/product_files/nordson_efd_752v_datasheet.pdf",
+    "reason": "HTTP 404 - Flumasys removed its whole /userfiles/product_files/ directory (flumasys.com and .cz). Same Nordson EFD 752V data sheet found on another Nordson distributor site (Prostech, Vietnam); nordson.com itself is Cloudflare-blocked for curl and not reachable by WebFetch in this session."
+   }
+  ],
+  "notes": "Nordson 752V data sheet recovered from Prostech (distributor)."
+ },
+ {
+  "id": 40,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "brochure",
+    "title": "Dow Automotive Systems (BETASEAL/BETAPRIME, now DuPont) - AGRSS retention-system requirements matrix and product brochures incl. Fixed Glass Installation Guide v5.4 (AGSC, 03-08-2018)",
+    "url": "https://www.agsc.org/documents/DowASMRequirementsMatrixandProductBrochures_03082018.pdf",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: %PDF, 33 pp, 13.5 MB, created 2018-03-08; \"Retention System Provider Training Instructions and Documentation Worksheet ... Dow Automotive Systems Products 02-14-18 ... Dow Automotive Fixed Glass Installation Guide Ver. 5.4 (2018)\"; mentions BETASEAL U-418/U-418HV/U-428/U-838/Express/Xpress30, BETAPRIME 5504G (applied with wool daubers), BETACLEAN GC-800/U-424. The earlier failure was transient (\"Remote end closed connection\"); the same URL downloads fine now (re-added as verified)."
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Nordson EFD",
+    "model": "752V",
+    "type": "datasheet",
+    "title": "Nordson EFD 752V Diaphragm Valve - data sheet (compact diaphragm valve for fine flow control; (c)2016 Nordson, v041516)",
+    "url": "https://prostech.vn/wp-content/uploads/2020/02/Nordson_EFD_752V_Data_Sheet.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 3 pp, created 2016-05-10; \"752V Diaphragm Valve - Compact diaphragm valve for fine flow control ... low to medium viscosity fluids ... adjustable open/close stroke 0.13 to 0.64 mm ... 752V-UHSS ... dispensing solvents, cyanoacrylates, anaerobics and fluxes ... P/N 7021428 / 7021419 ... Maximum fluid pressure 70 psi (4.8 bar)\"; footer \"(c)2016 Nordson Corporation v041516\". Distributor-hosted (Prostech, Vietnam - linked from prostech.vn/nordson-752v-diaphragm-valves/); flumasys.com/.cz userfiles were removed (404) and nordson.com is behind a Cloudflare challenge for this session."
+   },
+   {
+    "vendor": "Dow Automotive Systems / DuPont (BETASEAL)",
+    "model": "Primer/cleaner manual application accessories (wool daubers, applicators)",
+    "type": "brochure",
+    "title": "Dow Automotive Systems (BETASEAL/BETAPRIME, now DuPont) - AGRSS retention-system requirements matrix and product brochures incl. Fixed Glass Installation Guide v5.4 (AGSC, 03-08-2018)",
+    "url": "https://www.agsc.org/documents/DowASMRequirementsMatrixandProductBrochures_03082018.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 33 pp, 13.5 MB, created 2018-03-08; \"Retention System Provider Training Instructions and Documentation Worksheet ... Dow Automotive Systems Products 02-14-18 ... Dow Automotive Fixed Glass Installation Guide Ver. 5.4 (2018)\"; mentions BETASEAL U-418/U-418HV/U-428/U-838/Express/Xpress30, BETAPRIME 5504G (applied with wool daubers), BETACLEAN GC-800/U-424. The earlier failure was transient (\"Remote end closed connection\"); the same URL downloads fine now (re-added as verified). Used here as equivalent for the BETAPRIME/BETACLEAN & Accessories brochure (mascherpa.it 403): its Fixed Glass Installation Guide describes manual application of BETAPRIME 5504G with wool daubers and BETACLEAN GC-800 cleaning."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://flumasys.com/userfiles/product_files/nordson_efd_752v_datasheet.pdf",
+    "reason": "HTTP 404 - Flumasys removed its whole /userfiles/product_files/ directory (flumasys.com and .cz). Same Nordson EFD 752V data sheet found on another Nordson distributor site (Prostech, Vietnam); nordson.com itself is Cloudflare-blocked for curl and not reachable by WebFetch in this session."
+   },
+   {
+    "url": "https://mascherpa.it/wp-content/uploads/2023/05/BETAPRIME-BETACLEAN-and-Accessories-brochure.pdf",
+    "reason": "HTTP 403 Forbidden, also with browser headers; no other copy of this DuPont brochure found. Replaced by the same-class Dow/DuPont BETASEAL-BETAPRIME brochure compilation with Fixed Glass Installation Guide (AGSC) - equivalent."
+   }
+  ],
+  "notes": "Nordson 752V data sheet recovered from Prostech; BETAPRIME/BETACLEAN accessories brochure (mascherpa.it 403) -> Dow/DuPont BETASEAL/BETAPRIME compilation incl. Fixed Glass Installation Guide (AGSC) as equivalent (material + equipment)."
+ },
+ {
+  "id": 41,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Nordson EFD",
+    "model": "752V",
+    "type": "datasheet",
+    "title": "Nordson EFD 752V Diaphragm Valve - data sheet (compact diaphragm valve for fine flow control; (c)2016 Nordson, v041516)",
+    "url": "https://prostech.vn/wp-content/uploads/2020/02/Nordson_EFD_752V_Data_Sheet.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 3 pp, created 2016-05-10; \"752V Diaphragm Valve - Compact diaphragm valve for fine flow control ... low to medium viscosity fluids ... adjustable open/close stroke 0.13 to 0.64 mm ... 752V-UHSS ... dispensing solvents, cyanoacrylates, anaerobics and fluxes ... P/N 7021428 / 7021419 ... Maximum fluid pressure 70 psi (4.8 bar)\"; footer \"(c)2016 Nordson Corporation v041516\". Distributor-hosted (Prostech, Vietnam - linked from prostech.vn/nordson-752v-diaphragm-valves/); flumasys.com/.cz userfiles were removed (404) and nordson.com is behind a Cloudflare challenge for this session."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://flumasys.com/userfiles/product_files/nordson_efd_752v_datasheet.pdf",
+    "reason": "HTTP 404 - Flumasys removed its whole /userfiles/product_files/ directory (flumasys.com and .cz). Same Nordson EFD 752V data sheet found on another Nordson distributor site (Prostech, Vietnam); nordson.com itself is Cloudflare-blocked for curl and not reachable by WebFetch in this session."
+   }
+  ],
+  "notes": "Nordson 752V data sheet recovered from Prostech (distributor)."
+ },
+ {
+  "id": 42,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Graco",
+    "model": "Fire-Ball 300 50:1",
+    "type": "manual",
+    "title": "Graco 50:1 Fire-Ball 300 Pump - Instructions manual 308883EN rev. Y (English)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/308/308883/308883EN-Y.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 16 pp, pdf title \"308883Y, 50:1 Fire-Ball 300 Pump, Manual, English\", mod. 2022-04-21; \"50:1 Fire-Ball 300 Pump 308883Y EN - For pumping non-corrosive and non-abrasive greases and lubricants only ... Model 239877 Series E pail length / 239887 120 lb drum / 239888 400 lb drum ... 8400 psi (58 MPa, 580 bar)\". English edition (current rev. Y) of the same manual number as the failed French 308883FR-G (gww.graco.com expired certificate; the FR-G file also exists on www.graco.com)."
+   },
+   {
+    "vendor": "Graco",
+    "model": "Fire-Ball pumps",
+    "type": "manual",
+    "title": "Graco Fire-Ball 225, 300 and 425 oil pumps - Installation and operation manual 309868 rev. A (German, 309868G Ausgabe A)",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/309/309868/309868DE-A.pdf",
+    "verified": true,
+    "note": "evidence: %PDF, 34 pp; pdf title \"309868a, Fire-Ball-Ölpumpen 225, 300 und 425\"; \"Installation und Betrieb ... Fire-Ball-Ölpumpen 225, 300 und 425 309868G Ausgabe A ... Mini Fire-Ball 225, 3:1 ... Fire-Ball 300, 5:1\". Same file as the gww.graco.com copy (expired certificate, not bypassed). The English edition of this scope (309868EN-B historic) is already in the catalog; the current 309868EN-G covers only the 3:1 Mini Fire-Ball 225, so it was not added."
+   }
+  ],
+  "remove_urls": [
+   {
+    "url": "https://gww.graco.com/content/dam/graco/tech_documents/manuals/308/308883/308883FR-G.pdf",
+    "reason": "TLS error - gww.graco.com has an expired certificate (not bypassed). Replaced by the English edition of the same manual number, current revision Y (308883EN-Y) on www.graco.com."
+   },
+   {
+    "url": "https://gww.graco.com/content/dam/graco/tech_documents/manuals/309/309868/309868DE-A.pdf",
+    "reason": "TLS error - gww.graco.com has an expired certificate (not bypassed). Same file 309868DE-A is on www.graco.com."
+   }
+  ],
+  "notes": "Graco 308883 -> English edition rev Y (308883EN-Y); 309868DE-A same file on www.graco.com (English 309868EN-B already in catalog)."
+ }
+]

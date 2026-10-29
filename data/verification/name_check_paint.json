@@ -1,0 +1,100 @@
+[
+ {
+  "name_as_written": "Dürr Ecopaint RoDip",
+  "exists": true,
+  "official_name": "Dürr RoDip® rotational dip coating for PT/ED - current variants RoDip® E (electric drive), RoDip® M (chain drive), RoDip Ezy; 'Ecopaint RoDip M / Ecopaint RoDip E' is the older Dürr brand form",
+  "evidence_url": "https://www.durr.com/en/products/paint-shop-application-technology/pretreatment-and-electrocoating/rodip",
+  "note": "Outdated prefix, not wrong: durr.com now writes 'RoDip®' without 'Ecopaint'; the Dürr 'Ecopaint WetSystem' brochure (olpidurr.it, already in catalog) uses 'Ecopaint RoDip M/E'. Specify the variant (E or M)."
+ },
+ {
+  "name_as_written": "Controlled Power Company AACD Series 50 rectifier",
+  "exists": false,
+  "official_name": "Trystar (formerly Controlled Power Company) Series 50 Rectifier, Models 506 (6-pulse) / 5012 (12-pulse), 100-1000 VDC, 500-5000 A - plus a separate add-on 'AACD (Automatic Average Current Density)' rectifier voltage controller",
+  "evidence_url": "https://www.trystar.com/product/series-50-rectifier-100-v-1000-vdc-500-a-5000-a/",
+  "note": "Misnamed/conflated: no product is called 'AACD Series 50 rectifier'. AACD is a controller (https://www.trystar.com/product/aacd-automatic-average-current-density/), Series 50 is the e-coat rectifier. controlledpwr.com redirects to trystar.com/brands/controlled-power-company/. Verified PDFs: .../document-library/Series_50_Brochure-0001BR1125-R0726.pdf and .../document-library/AACD-Automatic-Average-Current-Density-Brochure.pdf (old AACD_Brochure.pdf and document-library/Series_50_Brochure.pdf are 404)."
+ },
+ {
+  "name_as_written": "Koch Membrane Systems KPAK ultrafiltration module",
+  "exists": true,
+  "official_name": "Kovalus Separation Solutions (formerly Koch Membrane Systems / Koch Separation Solutions) KPAK® PLUS potted spiral UF module for electrocoat paint (8\": KPAK PLUS 8638-M183-LPP / -VPP; 10\" version)",
+  "evidence_url": "https://www.kovalus.com/technologies/membrane-filtration/kpak-plus-potted-spiral-and-edcore-electrodialysis-cell/",
+  "note": "Product exists; current name is 'KPAK® PLUS' and the vendor is now Kovalus (kochseparation.com redirects to kovalus.com). Datasheet verified: https://www.kovalus.com/wp-content/uploads/2020/10/KPAK-plus-8-inch-modules-for-e-coat-paint.pdf (PVDF HFM-183 positively charged membrane)."
+ },
+ {
+  "name_as_written": "Graco E-Flo SP",
+  "exists": true,
+  "official_name": "Graco E-Flo® SP Electric Supply Pumps (and supply systems) for Sealants and Adhesives",
+  "evidence_url": "https://www.graco.com/us/en/in-plant-manufacturing/products/sealants-adhesives/sealant-supply-systems-pumps/e-flo-sp-electric-pumps-and-supply-systems.html",
+  "note": "Manual 3A6586EN rev M 'E-Flo SP Electric Pump System for Sealants and Adhesives' verified (https://www.graco.com/content/dam/graco/tech_documents/manuals/3A6/3A6586/3A6586EN.pdf); Russian 3A6867RU-H. 1K sealants/adhesives."
+ },
+ {
+  "name_as_written": "Dürr EcoShot Meter",
+  "exists": true,
+  "official_name": "Dürr EcoShot Meter (electric shot-meter dosing system for sealing/gluing, two sizes, controlled by EcoRPC2)",
+  "evidence_url": "https://www.durr.com/en/products/sealing-gluing-technology/sealing-gluing-application/dosing-systems",
+  "note": "Correct as written (with a space); the catalog's 'EcoShotMeter' spelling should be 'EcoShot Meter'."
+ },
+ {
+  "name_as_written": "Dürr EcoGun2 3D",
+  "exists": true,
+  "official_name": "Dürr EcoGun2 3D (universal sealing applicator, up to 3 nozzles at 0°/45°/90°)",
+  "evidence_url": "https://www.durr.com/en/products/sealing-gluing-technology/sealing-gluing-application/applicators-for-sealing-processes",
+  "note": "Correct. The same page lists EcoGun 1D (underbody coating) and EcoGun2 MD (sill/anti-chip without masking), which fit UBC and PVC anti-chip better than the 3D seam gun."
+ },
+ {
+  "name_as_written": "Graco King XL10K",
+  "exists": true,
+  "official_name": "Graco King® Spray Packages and Pumps with XL 10K Air Motor (e.g. King XL70 package with XL10000 motor)",
+  "evidence_url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334645/334645EN.pdf",
+  "note": "Shorthand: no single model is named 'King XL10K'. Manual 334645EN rev K verified (title 'King Spray Packages and Pumps with XL 10K Air Motors'). Graco positions these packages for protective coatings. Air-motor manual is now 334644EN (rev F); 334644EN-D.pdf is 404."
+ },
+ {
+  "name_as_written": "Graco AL Series Automatic Airless Spray Gun (288048)",
+  "exists": true,
+  "official_name": "Graco AL Automatic Airless Spray Gun, part 288048 (includes GG0 spray tip of choice)",
+  "evidence_url": "https://www.graco.com/us/en/in-plant-manufacturing/product/288048.html",
+  "note": "Graco does not use the word 'Series'. Manual 311053EN rev M 'Automatic Airless Spray Guns' verified (models 288048 paints/coatings, 288554 sealant streaming, 5000 psi); Russian 311676RU-E."
+ },
+ {
+  "name_as_written": "Dürr EcoRP E043i",
+  "exists": true,
+  "official_name": "Dürr EcoRP E043i 7-axis painting robot without rail (EcoRP generation 3)",
+  "evidence_url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/07_Paint_robots/01_Paint_Robots_Automotive/duerr-datasheet-ecorp-e043i-en.pdf",
+  "note": "Datasheet verified (2019). Listed under 'EcoRP generation 3' (https://www.durr.com/en/products/paint-shop-application-technology/paint-robots-paint-machines/paint-robots-automotive/ecorp-generation-3); the newer line is EcoRP4."
+ },
+ {
+  "name_as_written": "Dürr EcoBell3",
+  "exists": true,
+  "official_name": "Dürr EcoBell3 rotary atomizer (EcoBell3 / EcoBell3 Hx for solvent-borne paint, EcoBell3 E and EcoBell3 Ci for waterborne)",
+  "evidence_url": "https://www.durr.com/en/products/paint-shop-application-technology/paint-application/ecobell-rotary-atomizer/ecobell3",
+  "note": "Correct and still listed; the successor EcoBell4 is also listed. The plant's solvent-borne base coat/clear would use the direct-charge EcoBell3 / EcoBell3 Hx."
+ },
+ {
+  "name_as_written": "Dürr EcoMCC3 20",
+  "exists": true,
+  "official_name": "Dürr EcoMCC3 20 low-pressure color changer",
+  "evidence_url": "https://www.durr.com/en/products/paint-shop-application-technology/paint-application/color-changer",
+  "note": "Correct as written."
+ },
+ {
+  "name_as_written": "Dürr EcoSupply2 Core",
+  "exists": true,
+  "official_name": "Dürr EcoSupply2 Core (paint supply system; sister EcoSupply P Core)",
+  "evidence_url": "https://www.durr.com/en/products/paint-shop-application-technology/paint-supply/pumps-and-fluid-handling/paint-supply-systems",
+  "note": "Correct as written."
+ },
+ {
+  "name_as_written": "Dürr EcoBell Cleaner D2",
+  "exists": true,
+  "official_name": "Dürr EcoBell Cleaner D2 (atomizer cleaning device)",
+  "evidence_url": "https://www.durr.com/fileadmin/durr.com/01_Products/02_Paint_Shop_Application_Technology/06_Paint_Application/03_Atomizer_Cleaning/duerr-datasheet-ecobell-cleander-d2-ecobell-purgebox-en.pdf",
+  "note": "Correct. Datasheet verified (title 'EcoBell Cleaner D2 / EcoBell PurgeBox'); Dürr's own file name misspells 'cleander'. Product page: https://www.durr.com/en/products/paint-shop-application-technology/paint-application/atomizer-cleaning-purging"
+ },
+ {
+  "name_as_written": "Dürr EcoBell PurgeBox",
+  "exists": true,
+  "official_name": "Dürr EcoBell PurgeBox (purge collecting box for 2K EcoBell atomizers)",
+  "evidence_url": "https://www.durr.com/en/products/paint-shop-application-technology/paint-application/atomizer-cleaning-purging",
+  "note": "Correct. Complements EcoBell Cleaner D2 for 2K paints; same combined datasheet as above."
+ }
+]

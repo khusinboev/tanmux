@@ -1,0 +1,596 @@
+[
+ {
+  "id": 5,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Graco",
+    "model": "King packages with XL 10K air motor",
+    "type": "manual",
+    "title": "Graco King Air-Powered Airless Sprayers (XL 10K) - Operation manual 334645EN rev K",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334645/334645EN.pdf",
+    "verified": true,
+    "note": "evidence: verified by equipment reviewer (English edition replacing ES/SV copies)"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 6,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Graco",
+    "model": "King packages with XL 10K air motor",
+    "type": "manual",
+    "title": "Graco King Air-Powered Airless Sprayers (XL 10K) - Operation manual 334645EN rev K",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334645/334645EN.pdf",
+    "verified": true,
+    "note": "evidence: verified by equipment reviewer (English edition replacing ES/SV copies)"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 7,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [
+   {
+    "vendor": "Graco",
+    "model": "King packages with XL 10K air motor",
+    "type": "manual",
+    "title": "Graco King Air-Powered Airless Sprayers (XL 10K) - Operation manual 334645EN rev K",
+    "url": "https://www.graco.com/content/dam/graco/tech_documents/manuals/334/334645/334645EN.pdf",
+    "verified": true,
+    "note": "evidence: verified by equipment reviewer (English edition replacing ES/SV copies)"
+   }
+  ],
+  "remove_urls": [],
+  "notes": ""
+ },
+ {
+  "id": 8,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "PPG Industries 'LIGHT GRAY PRIMER SURFACER' GPX5045C - Safety Data Sheet (US, EN, 15 Oct 2026, v23)",
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=6ad10e420a4b835f0000&id=6ad10e420a5084970001",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: downloaded; industrial 1K primer surfacer, formaldehyde-releasing (melamine-crosslinked baking type), solvent naphtha; class equivalent (light gray; plant also uses N9.0 white)"
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://vrteotgdakjwbjeugnxx.supabase.co/storage/v1/object/public/product-images/datasheets/kcc/KCC_DATASHEET_US4000_eng.pdf",
+    "reason": "2K refinish surfacer; replaced by PPG 1K melamine OEM primer surfacer GPX5045C SDS"
+   },
+   {
+    "url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F201504150003022kor.pdf",
+    "reason": "2K refinish surfacer; replaced by PPG 1K melamine OEM primer surfacer GPX5045C SDS"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 9,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "PPG Industries 'LIGHT GRAY PRIMER SURFACER' GPX5045C - Safety Data Sheet (US, EN, 15 Oct 2026, v23)",
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=6ad10e420a4b835f0000&id=6ad10e420a5084970001",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: downloaded; industrial 1K primer surfacer, formaldehyde-releasing (melamine-crosslinked baking type), solvent naphtha; class equivalent (light gray; plant also uses N9.0 white)"
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://vrteotgdakjwbjeugnxx.supabase.co/storage/v1/object/public/product-images/datasheets/kcc/KCC_DATASHEET_US4000_eng.pdf",
+    "reason": "2K refinish surfacer; replaced by PPG 1K melamine OEM primer surfacer GPX5045C SDS"
+   },
+   {
+    "url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F201504150003022kor.pdf",
+    "reason": "2K refinish surfacer; replaced by PPG 1K melamine OEM primer surfacer GPX5045C SDS"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 10,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "PPG Industries (Korea) 'MELACON Electrostatic THINNER(W)' KR-RMT-016W/D/18L - SDS (Korea GHS, EN, 11 Jul 2026, v11)",
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=6a522d345979b6c50000&id=6a522d34597ab6f40001",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: downloaded; PPG Korea electrostatic thinner for melamine baking paints - same supplier and class, not the plant's RHT grade"
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://rusty21.com/wp-content/uploads/2025/04/KCC_MSDS_%EC%97%90%EB%82%98%EB%A9%9C%ED%9D%AC%EC%84%9D%EC%A0%9C012_kor.pdf",
+    "reason": "KCC alkyd enamel thinner; replaced by PPG Korea electrostatic thinners for melamine baking paints"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 11,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "PPG Industries 'SUMMIT WHITE' LBC8624S - OEM solvent-borne basecoat, Safety Data Sheet (US, EN, 25 Dec 2025, v16)",
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=694d377531bfaa9f0000&id=694d377531d5ab4b0001",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: downloaded; product name 'SUMMIT WHITE', code LBC8624S, PPG Industries Inc., solvent-borne (n-butyl acetate); same GM colour, PPG OEM basecoat line - not the plant's Uz-DongJu/PPG Korea batch"
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   },
+   {
+    "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   },
+   {
+    "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 12,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "PPG Industries 'SON OF A GUN METALLIC' LBC139XG - OEM solvent-borne basecoat, Safety Data Sheet (US, EN, 25 Dec 2025, v18)",
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=694d1a91ad90d38b0000&id=694d1a96adebe4330001",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: downloaded; product name 'SON OF A GUN METALLIC', code LBC139XG, PPG Industries Inc., solvent-borne (n-butyl acetate); same GM colour, PPG OEM basecoat line - not the plant's Uz-DongJu/PPG Korea batch"
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   },
+   {
+    "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   },
+   {
+    "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 13,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   },
+   {
+    "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   },
+   {
+    "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 14,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "PPG Industries 'BLACK MEET KETTLE MET' LBC384AB - OEM solvent-borne basecoat, Safety Data Sheet (US, EN, 25 Dec 2025, v29)",
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=694d2a206e0a96b70000&id=694d2a206e0d97530001",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: downloaded; product name 'BLACK MEET KETTLE MET', code LBC384AB, PPG Industries Inc., solvent-borne (n-butyl acetate); same GM colour, PPG OEM basecoat line - not the plant's Uz-DongJu/PPG Korea batch"
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   },
+   {
+    "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   },
+   {
+    "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 15,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "PPG Industries 'SATIN STEEL GRAY MET.-3' LBC464CS - OEM solvent-borne basecoat, Safety Data Sheet (US, EN, 25 Dec 2025, v18)",
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=694d2fa4cf3a23420000&id=694d2fa4cf3b23710001",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: downloaded; product name 'SATIN STEEL GRAY MET.-3', code LBC464CS, PPG Industries Inc., solvent-borne (n-butyl acetate); same GM colour, PPG OEM basecoat line - not the plant's Uz-DongJu/PPG Korea batch"
+   },
+   {
+    "type": "SDS",
+    "title": "PPG Coatings (Tianjin) 'SATIN STEEL GREY' HUF-GML-GYM(KO)/17K-C1 - Safety Data Sheet (China GHS, EN, 30 Aug 2026, v12.01)",
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=6a93d406e4d9bd2a0000&id=6a93d407e502c27a0001",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: downloaded; product code carries the GM colour code GYM; solvent-borne (n-butyl acetate 25-40%)"
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   },
+   {
+    "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   },
+   {
+    "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 16,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "PPG Industries 'SWITCHBLADE SILVER' LBC636RB - OEM solvent-borne basecoat, Safety Data Sheet (US, EN, 25 Dec 2025, v18)",
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=694d355b277b76770000&id=694d355b277c76b50001",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: downloaded; product name 'SWITCHBLADE SILVER', code LBC636RB, PPG Industries Inc., solvent-borne (n-butyl acetate); same GM colour, PPG OEM basecoat line - not the plant's Uz-DongJu/PPG Korea batch"
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   },
+   {
+    "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   },
+   {
+    "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 17,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   },
+   {
+    "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   },
+   {
+    "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 18,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "PPG Industries 'SEEKER MET.-1' LBC617DC - OEM solvent-borne basecoat, Safety Data Sheet (US, EN, 25 Dec 2025, v17)",
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=694d3050db37c2a40000&id=694d3050db38c2e20001",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: downloaded; product name 'SEEKER MET.-1', code LBC617DC, PPG Industries Inc., solvent-borne (n-butyl acetate); same GM colour, PPG OEM basecoat line - not the plant's Uz-DongJu/PPG Korea batch"
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   },
+   {
+    "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   },
+   {
+    "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 19,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "PPG Industries 'ZEUS MET.-1' LBC615DB - OEM solvent-borne basecoat, Safety Data Sheet (US, EN, 25 Dec 2025, v16)",
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=694d2f57ca8af5610000&id=694d2f58ca9ef9380001",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: downloaded; product name 'ZEUS MET.-1', code LBC615DB, PPG Industries Inc., solvent-borne (n-butyl acetate); same GM colour, PPG OEM basecoat line - not the plant's Uz-DongJu/PPG Korea batch"
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   },
+   {
+    "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   },
+   {
+    "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 20,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "PPG Industries 'SOME KINDA BLUE MET.-1' LBC619DP - OEM solvent-borne basecoat, Safety Data Sheet (US, EN, 25 Dec 2025, v14)",
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=694d32a30903d7490000&id=694d32a4096edcf20001",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: downloaded; product name 'SOME KINDA BLUE MET.-1', code LBC619DP, PPG Industries Inc., solvent-borne (n-butyl acetate); same GM colour, PPG OEM basecoat line - not the plant's Uz-DongJu/PPG Korea batch"
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   },
+   {
+    "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   },
+   {
+    "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 21,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "PPG Industries 'DARKMOON BLUE MET.-1' LBC328EB - OEM solvent-borne basecoat, Safety Data Sheet (Canada, EN, 25 Oct 2025, v9.03)",
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=68fc8e4ddefec52a0000&id=68fc8e4edeffc6d00001",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: downloaded; product name 'DARKMOON BLUE MET.-1', code LBC328EB, PPG Industries Inc., solvent-borne (n-butyl acetate); same GM colour, PPG OEM basecoat line - not the plant's Uz-DongJu/PPG Korea batch"
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   },
+   {
+    "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   },
+   {
+    "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 22,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "PPG Industries 'POW ZINGA MET.-1' LBC327ED - OEM solvent-borne basecoat, Safety Data Sheet (US, EN, 25 Dec 2025, v17)",
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=694d28db637da3140000&id=694d28db637fa44c0001",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: downloaded; product name 'POW ZINGA MET.-1', code LBC327ED, PPG Industries Inc., solvent-borne (n-butyl acetate); same GM colour, PPG OEM basecoat line - not the plant's Uz-DongJu/PPG Korea batch"
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://msp.images.akzonobel.com/prd/dh/emebam/documents/b2/67/6f/d7/tds_s10403_5265_autobase_plus_ce.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   },
+   {
+    "url": "https://msp.images.akzonobel.com/prd/dh/nuslsn/documents/tds_lesonal_basecoat_sb_1909121_english.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   },
+   {
+    "url": "https://reseneautomotive.commerce.vision/documents/TDS/C600-Basecoat.pdf",
+    "reason": "refinish basecoat proxy replaced by colour-matched PPG OEM basecoat SDS / Uz-DongJu AHT-000 TDS"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 23,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "PPG Industries (Korea) 'MELACON Electrostatic THINNER(W)' KR-RMT-016W/D/18L - SDS (Korea GHS, EN, 11 Jul 2026, v11)",
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=6a522d345979b6c50000&id=6a522d34597ab6f40001",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: downloaded; PPG Korea electrostatic thinner for melamine baking paints - same supplier and class, not the plant's RHT grade"
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://rusty21.com/wp-content/uploads/2025/04/KCC_MSDS_%EC%97%90%EB%82%98%EB%A9%9C%ED%9D%AC%EC%84%9D%EC%A0%9C012_kor.pdf",
+    "reason": "KCC alkyd enamel thinner; replaced by PPG Korea electrostatic thinners for melamine baking paints"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 24,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F202301250054173eng.pdf",
+    "reason": "2K refinish clear; plant clear is 1K (no hardener) - replaced by PPG 1K HITECH CLEAR SDS"
+   },
+   {
+    "url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F202007230045276kor.pdf",
+    "reason": "2K refinish clear; plant clear is 1K (no hardener) - replaced by PPG 1K HITECH CLEAR SDS"
+   },
+   {
+    "url": "https://www.kccworld.co.kr/techdoc/c01/cvt/C01F202007270045330kor.pdf",
+    "reason": "2K refinish clear; plant clear is 1K (no hardener) - replaced by PPG 1K HITECH CLEAR SDS"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 25,
+  "manufacturer_update": null,
+  "add_material_docs": [
+   {
+    "type": "SDS",
+    "title": "PPG Industries (Korea) 'ACMEL Electrostatic THINNER(CAP)' KR-RBT-022/D/18L - SDS (Korea GHS, EN, 11 Jul 2026, v16)",
+    "url": "https://buyat.ppg.com/EHSDocumentManagerPublic/pdf_main.aspx?StreamId=6a522b0e4af553e60000&id=6a522b114b125f020001",
+    "language": "en",
+    "exact_or_equivalent": "equivalent",
+    "verified": true,
+    "note": "evidence: downloaded; same KR-RBT thinner family as the plant's KR-RBT-029 clear thinner"
+   }
+  ],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://rusty21.com/wp-content/uploads/2025/04/KCC_MSDS_%EC%97%90%EB%82%98%EB%A9%9C%ED%9D%AC%EC%84%9D%EC%A0%9C012_kor.pdf",
+    "reason": "KCC alkyd enamel thinner; replaced by PPG Korea electrostatic thinners for melamine baking paints"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "id": 30,
+  "manufacturer_update": null,
+  "add_material_docs": [],
+  "add_equipment": [],
+  "add_equipment_docs": [],
+  "remove_urls": [
+   {
+    "url": "https://www.idemitsu.com/jp/sds/lube/30300240p.pdf",
+    "reason": "GL-5 gear oil is wrong class for a GL-4 MTF"
+   }
+  ],
+  "notes": ""
+ }
+]
